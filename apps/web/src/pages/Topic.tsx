@@ -17,6 +17,9 @@ const RATGEBER: Record<string, { topic: string; label: string }> = {
 /** Experts shown on a topic page in addition to those of its packages (expert ids). */
 const EXTRA_EXPERTS: Record<string, number[]> = { beziehung: [7], karriere: [7] };
 
+/** The legacy lists end with "... und vieles mehr!" and run to five items: show the first three real ones. */
+const benefits = (bullets: string[]) => bullets.filter((b) => !/^(\.{3}|…)/.test(b)).slice(0, 3);
+
 export function Topic() {
   const { group } = useParams();
   const { data: site, loading } = useSite();
@@ -78,9 +81,9 @@ export function Topic() {
               {sharedIntro.paragraphs.map((t, i) => (
                 <p key={i}>{t}</p>
               ))}
-              {sharedIntro.bullets.length > 0 && (
+              {benefits(sharedIntro.bullets).length > 0 && (
                 <ul className="points">
-                  {sharedIntro.bullets.map((b, i) => (
+                  {benefits(sharedIntro.bullets).map((b, i) => (
                     <li key={i}>{b}</li>
                   ))}
                 </ul>
@@ -93,15 +96,15 @@ export function Topic() {
             const count = products.filter((p) => p.category === c.path).length;
             return (
               <section className="category" id={c.slug} key={c.path} aria-labelledby={`c-${c.slug}`}>
-                {own && (own.paragraphs.length > 0 || own.bullets.length > 0) ? (
+                {own && (own.paragraphs.length > 0 || benefits(own.bullets).length > 0) ? (
                   <div className="intro">
                     <h2 id={`c-${c.slug}`}>{own.headline || nameOf(c)}</h2>
                     {own.paragraphs.map((t, i) => (
                       <p key={i}>{t}</p>
                     ))}
-                    {own.bullets.length > 0 && (
+                    {benefits(own.bullets).length > 0 && (
                       <ul className="points">
-                        {own.bullets.map((b, i) => (
+                        {benefits(own.bullets).map((b, i) => (
                           <li key={i}>{b}</li>
                         ))}
                       </ul>
