@@ -51,8 +51,8 @@ export const BMI_LABELS: Record<BmiBand, string> = {
 
 /**
  * Category used by the "Abnehmchancen" check: band + 1 (women) / 2 (men).
- * ASSUMPTION: the legacy suffix 1/2 is not documented anywhere; gender is the
- * only split that fits the inputs the widget had.
+ * The legacy meaning of the suffix 1/2 is not documented; the owner decided to
+ * use female / male, the only split that fits the inputs the widget had.
  */
 export function dieterCategory(weightKg: number, heightCm: number, sex: Sex): string {
   return `${bmiBand(bmi(weightKg, heightCm))}${sex === 'f' ? 1 : 2}`;

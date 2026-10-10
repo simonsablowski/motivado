@@ -84,8 +84,8 @@ one screen), per-coaching progress.
 `DieterCategory` (BMI band + gender -> one of eight follow-up videos) and
 `EnergyDemand` (daily energy need) were Flash widgets whose formulas are lost.
 `packages/engine/src/body.ts` implements them with standard formulas (BMI
-bands, Mifflin-St Jeor). Open assumption: the legacy category suffix `1`/`2`
-is taken to mean female/male.
+bands, Mifflin-St Jeor). The legacy category suffix `1`/`2` is undocumented;
+by decision it means female/male.
 
 ## Ratgeber
 
@@ -109,7 +109,7 @@ Graph tags (Ratgeber articles also carry their text), plus `sitemap.xml` and
 
 * The sleep coachings are filed under `slc-*` in the models and under
   `ges-schlaf-*` in the catalogue; the mapping in
-  `content/site/model-map.json` is inferred and should be confirmed.
+  `content/site/model-map.json` is confirmed.
 * Smoking cessation (`ges-rau-*`) and a few other catalogue coachings have no
   model in the legacy repositories.
 * Content edits made after the migration (typo fixes in the models repo, the
