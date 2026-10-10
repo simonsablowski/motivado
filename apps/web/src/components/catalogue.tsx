@@ -91,18 +91,10 @@ function CoachingMini({ site, catalogueKey }: { site: Site; catalogueKey: string
   const model = modelOf(site, catalogueKey);
   const meta = site.coachings[catalogueKey];
   const title = coachingTitle(site, model ?? catalogueKey);
+  const text = meta?.subtitle || meta?.description?.split('\n')[0] || '';
   return (
     <li className="mini">
-      <img
-        className="mini__image"
-        src={`/img/coachings/${catalogueKey}.jpg`}
-        alt=""
-        loading="lazy"
-        onError={(e) => {
-          e.currentTarget.style.visibility = 'hidden';
-        }}
-      />
-      <div>
+      <div className="mini__name">
         {model ? (
           <Link className="mini__title" to={`/coaching/${model}`}>
             {title}
@@ -110,10 +102,9 @@ function CoachingMini({ site, catalogueKey }: { site: Site; catalogueKey: string
         ) : (
           <span className="mini__title">{title}</span>
         )}
-        {meta?.subtitle && <span className="mini__sub">{meta.subtitle}</span>}
-        {!model && <span className="tag">In Vorbereitung</span>}
         {model && hasProgress(model) && <span className="tag">Begonnen</span>}
       </div>
+      {text && <p className="mini__sub">{text}</p>}
     </li>
   );
 }
