@@ -18,15 +18,28 @@ files. Both fit into Cloudflare's free plan.
    rclone copy out/media r2:motivado-media --progress
    ```
 
-## 2. Site (Cloudflare Pages)
+## 2. Site (Cloudflare Workers with static assets)
 
-1. Pages → create project from this GitHub repository.
-2. Build command `npm ci && npm run build -w @motivado/web`,
-   output directory `apps/web/dist`.
-3. Environment variable `VITE_MEDIA_BASE_URL=https://media.motivado.com`.
-4. Custom domain `motivado.com`.
+Cloudflare now creates a Worker with static assets when you connect a
+repository (the former "Pages" flow). The repository contains
+`wrangler.jsonc`, which publishes `apps/web/dist` as a single page app, and
+`.node-version`.
 
-`apps/web/public/_redirects` makes deep links work (single page app).
+1. Workers & Pages -> Create -> import `simonsablowski/motivado`, branch `main`.
+2. Settings -> Builds:
+
+   | Setting | Value |
+   | --- | --- |
+   | Build command | `npm ci && npm run build -w @motivado/web` |
+   | Deploy command | `npx wrangler deploy` |
+   | Root directory | `/` |
+   | Build variable | `VITE_MEDIA_BASE_URL` = `https://media.motivado.com` |
+
+   The variable must be a *build* variable (Builds -> Variables and secrets),
+   not a runtime variable, because Vite bakes it in at build time.
+3. Settings -> Domains & Routes -> add the custom domain `motivado.com`.
+
+Deep links work through `not_found_handling: single-page-application`.
 
 ## 3. Before going live
 
