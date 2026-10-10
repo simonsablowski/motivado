@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { modelOf, useSite } from '../lib/api';
+import { GROUP_IMAGE } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
 
 export function Topic() {
@@ -15,42 +16,54 @@ export function Topic() {
     .filter((c) => c.group === g.slug && products.some((p) => p.category === c.path))
     .sort((a, b) => a.title.localeCompare(b.title, 'de'));
   const groupCategory = site.categories.find((c) => c.path === g.slug);
+  const image = GROUP_IMAGE[g.slug];
 
   return (
-    <div className="wrap">
-      <div className="page-head">
-        <p className="crumbs">
-          <Link to="/">Start</Link> / {g.title}
-        </p>
-        <h1>{g.title}</h1>
-        {groupCategory?.description && <p className="lead">{groupCategory.description.split('\n')[0]}</p>}
+    <>
+      <div className="page-banner">
+        <div className="wrap page-banner__grid">
+          <div className="page-banner__text">
+            <p className="crumbs">
+              <Link to="/">Start</Link> / {g.title}
+            </p>
+            <h1>{g.title}</h1>
+            {groupCategory?.description && <p className="lead">{groupCategory.description.split('\n')[0]}</p>}
+          </div>
+          {image && (
+            <div className="page-banner__image">
+              <img src={image} alt="" />
+            </div>
+          )}
+        </div>
       </div>
 
-      {categories.map((c) => (
-        <section className="section" key={c.path} aria-labelledby={`c-${c.slug}`}>
-          <div className="section__head">
-            <h2 id={`c-${c.slug}`}>{c.title}</h2>
-          </div>
-          <ul className="list">
-            {products
-              .filter((p) => p.category === c.path)
-              .map((p) => {
-                const n = p.coachings.filter((k) => modelOf(site, k)).length;
-                return (
-                  <li className="list__item" key={p.slug}>
-                    <div>
-                      <Link className="list__title" to={`/paket/${p.slug}`}>
-                        {p.title}
-                      </Link>
-                      {p.subtitle && <p className="list__sub">{p.subtitle}</p>}
-                    </div>
-                    <span className="list__meta">{n} Coachings</span>
-                  </li>
-                );
-              })}
-          </ul>
-        </section>
-      ))}
-    </div>
+      <div className="wrap">
+        {categories.map((c) => (
+          <section className="section" key={c.path} aria-labelledby={`c-${c.slug}`}>
+            <div className="section__head">
+              <h2 id={`c-${c.slug}`}>{c.title}</h2>
+            </div>
+            <ul className="list">
+              {products
+                .filter((p) => p.category === c.path)
+                .map((p) => {
+                  const n = p.coachings.filter((k) => modelOf(site, k)).length;
+                  return (
+                    <li className="list__item" key={p.slug}>
+                      <div>
+                        <Link className="list__title" to={`/paket/${p.slug}`}>
+                          {p.title}
+                        </Link>
+                        {p.subtitle && <p className="list__sub">{p.subtitle}</p>}
+                      </div>
+                      <span className="list__meta">{n} Coachings</span>
+                    </li>
+                  );
+                })}
+            </ul>
+          </section>
+        ))}
+      </div>
+    </>
   );
 }

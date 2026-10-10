@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { coachingTitle, modelOf, useSite } from '../lib/api';
 import { hasProgress } from '../lib/store';
+import { GROUP_IMAGE, expertPhoto } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
 
 export function ProductPage() {
@@ -17,16 +18,25 @@ export function ProductPage() {
   const playable = product.coachings.filter((k) => modelOf(site, k)).length;
 
   return (
-    <div className="wrap">
-      <div className="page-head">
-        <p className="crumbs">
-          <Link to="/">Start</Link> / {group && <Link to={`/themen/${group.slug}`}>{group.title}</Link>}
-          {category && <> / {category.title}</>}
-        </p>
-        <h1>{product.title}</h1>
-        {product.subtitle && <p className="lead">{product.subtitle}</p>}
+    <>
+      <div className="page-banner">
+        <div className="wrap page-banner__grid">
+          <div className="page-banner__text">
+            <p className="crumbs">
+              <Link to="/">Start</Link> / {group && <Link to={`/themen/${group.slug}`}>{group.title}</Link>}
+              {category && <> / {category.title}</>}
+            </p>
+            <h1>{product.title}</h1>
+            {product.subtitle && <p className="lead">{product.subtitle}</p>}
+          </div>
+          {group && GROUP_IMAGE[group.slug] && (
+            <div className="page-banner__image">
+              <img src={GROUP_IMAGE[group.slug]} alt="" />
+            </div>
+          )}
+        </div>
       </div>
-
+      <div className="wrap">
       <div className="product-layout section">
         <div>
           <div className="prose">
@@ -77,13 +87,15 @@ export function ProductPage() {
             Paket anfragen
           </Link>
           {experts.map((e) => (
-            <div className="expert" key={e.id} style={{ marginTop: 24 }}>
-              <h3>{e.name}</h3>
+            <div className="expert expert--plain" key={e.id} style={{ marginTop: 24 }}>
+              <img className="expert__photo" src={expertPhoto(e.name)} alt={e.name} />
+              <h3 style={{ marginTop: 12 }}>{e.name}</h3>
               <p>{e.description}</p>
             </div>
           ))}
         </aside>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

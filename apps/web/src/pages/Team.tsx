@@ -1,6 +1,19 @@
 import { Link } from 'react-router-dom';
-import { useSite } from '../lib/api';
+import { useSite, type Expert } from '../lib/api';
+import { expertPhoto } from '../lib/visuals';
 import { Loading } from './Static';
+
+export function ExpertCard({ expert }: { expert: Expert }) {
+  return (
+    <div className="expert">
+      <img className="expert__photo" src={expertPhoto(expert.name)} alt={expert.name} loading="lazy" />
+      <div className="expert__body">
+        <h3>{expert.name}</h3>
+        <p>{expert.description}</p>
+      </div>
+    </div>
+  );
+}
 
 export function Team() {
   const { data: site, loading } = useSite();
@@ -16,10 +29,7 @@ export function Team() {
       </div>
       <div className="experts section">
         {site.experts.map((e) => (
-          <div className="expert" key={e.id}>
-            <h3>{e.name}</h3>
-            <p>{e.description}</p>
-          </div>
+          <ExpertCard key={e.id} expert={e} />
         ))}
       </div>
     </div>
