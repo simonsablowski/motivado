@@ -50,14 +50,6 @@ function Layout() {
           <div>
             <h3>Motivado</h3>
             <p>Coaching per Video – interaktiv und individuell, mit Experten, die sich Zeit für Ihre Situation nehmen.</p>
-            <ul>
-              <li>
-                <Link to="/team">Unsere Experten</Link>
-              </li>
-              <li>
-                <Link to="/ratgeber">Ratgeber</Link>
-              </li>
-            </ul>
           </div>
           <div>
             <h3>Themen</h3>
@@ -71,6 +63,17 @@ function Layout() {
             </ul>
           </div>
           <div>
+            <h3>Mehr</h3>
+            <ul>
+              <li>
+                <Link to="/team">Experten</Link>
+              </li>
+              <li>
+                <Link to="/ratgeber">Ratgeber</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
             <h3>Rechtliches</h3>
             <ul>
               <li>
@@ -80,12 +83,6 @@ function Layout() {
                 <Link to="/datenschutz">Datenschutz</Link>
               </li>
             </ul>
-          </div>
-          <div>
-            <h3>Kontakt</h3>
-            <p>
-              <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
-            </p>
           </div>
         </div>
         <div className="wrap footer__note">

@@ -16,3 +16,6 @@ export function expertPhoto(name: string): string {
     .replace(/\s+/g, '_');
   return `/img/experts/${slug}.jpg`;
 }
+
+/** Experts shown on the home page (ids from the catalogue): Albert, Grote, Blume, Sonnenburg. */
+export const FEATURED_EXPERTS = [4, 3, 7, 13];

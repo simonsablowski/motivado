@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { activeGroups } from '../App';
 import { modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
-import { GROUP_IMAGE } from '../lib/visuals';
+import { FEATURED_EXPERTS, GROUP_IMAGE } from '../lib/visuals';
 import { ExpertCard } from './Team';
 import { Loading } from './Static';
 
@@ -16,7 +16,8 @@ export function Home() {
 
   const groups = activeGroups(site);
   const launched = site.products.filter((p) => site.launch.includes(p.slug));
-  const experts = site.experts.filter((e) => launched.some((p) => p.experts.includes(e.id)));
+  // four experts, one per topic: relationships, health, career, education
+  const experts = FEATURED_EXPERTS.flatMap((id) => site.experts.filter((e) => e.id === id));
   const sample = launched.flatMap((p) => p.coachings).map((k) => modelOf(site, k)).find(Boolean);
 
   return (

@@ -183,6 +183,22 @@ img {
 main {
   display: block;
   min-height: 60vh;
+  /* air between the content and the dark footer; bands run flush into it */
+  padding-bottom: 96px;
+}
+main:has(> .band:last-child) {
+  padding-bottom: 0;
+}
+
+/* title and its introduction belong together; the content follows at a calm distance */
+.page-head .lead,
+.page-banner__text .lead {
+  margin: 14px 0 0;
+}
+.page-head + .section,
+.page-banner + .wrap > .section:first-child,
+.page-banner + .wrap > .product-layout {
+  padding-top: 36px;
 }
 
 /* ---- common -------------------------------------------------------------------------------- */
@@ -200,7 +216,7 @@ main {
   max-width: 54ch;
 }
 .section {
-  padding-top: 72px;
+  padding-top: 56px;
 }
 .section__head {
   display: flex;
@@ -520,7 +536,7 @@ main {
   align-items: stretch;
 }
 .page-banner__text {
-  padding: 48px 0 40px;
+  padding: 40px 0 28px;
 }
 .page-banner__image {
   position: relative;
@@ -551,12 +567,12 @@ main {
   }
 }
 .page-head {
-  padding: 56px 0 8px;
+  padding: 48px 0 0;
 }
 .crumbs {
   font-size: 0.88rem;
   color: var(--muted);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 .crumbs a {
   text-decoration: none;
