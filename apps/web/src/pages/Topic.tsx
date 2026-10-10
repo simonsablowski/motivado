@@ -1,8 +1,19 @@
 import { Link, useParams } from 'react-router-dom';
-import { modelOf, useSite } from '../lib/api';
+import { Box, Bundle, ExpertsBox, introOf } from '../components/catalogue';
+import { useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { GROUP_IMAGE } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
+
+/** The legacy site filed some sleep products under the bare topic; give that section a real name. */
+const CATEGORY_TITLE: Record<string, string> = { gesundheit: 'Schlaf und Erholung' };
+
+const RATGEBER: Record<string, { topic: string; label: string }> = {
+  beziehung: { topic: 'beziehung', label: 'Ratgeber Beziehung' },
+  gesundheit: { topic: 'abnehmen', label: 'Ratgeber Abnehmen' },
+  karriere: { topic: 'bewerbung', label: 'Ratgeber Bewerbung' },
+  erziehung: { topic: 'erziehung', label: 'Ratgeber Erziehung' },
+};
 
 export function Topic() {
   const { group } = useParams();
@@ -20,8 +31,16 @@ export function Topic() {
   const categories = site.categories
     .filter((c) => c.group === g.slug && products.some((p) => p.category === c.path))
     .sort((a, b) => a.title.localeCompare(b.title, 'de'));
-  const groupCategory = site.categories.find((c) => c.path === g.slug);
+  const experts = site.experts.filter((e) => products.some((p) => p.experts.includes(e.id)));
+  const featured = site.featured.filter((f) => f.group === g.slug && site.available.has(f.coaching));
   const image = GROUP_IMAGE[g.slug];
+  const ratgeber = RATGEBER[g.slug];
+  const nameOf = (c: { path: string; title: string }) => CATEGORY_TITLE[c.path] ?? c.title;
+  const lead = groupDescription;
+
+  // The legacy categories of one topic often share the same introduction: show it once.
+  const texts = new Set(categories.map((c) => c.description.trim()).filter(Boolean));
+  const sharedIntro = categories.length > 1 && texts.size === 1 ? introOf([...texts][0] as string) : null;
 
   return (
     <>
@@ -32,7 +51,7 @@ export function Topic() {
               <Link to="/">Start</Link> / {g.title}
             </p>
             <h1>{g.title}</h1>
-            {groupCategory?.description && <p className="lead">{groupCategory.description.split('\n')[0]}</p>}
+            {lead && <p className="lead">{lead}</p>}
           </div>
           {image && (
             <div className="page-banner__image">
@@ -42,50 +61,90 @@ export function Topic() {
         </div>
       </div>
 
-      <div className="wrap">
-        {site.featured
-          .filter((f) => f.group === g.slug && site.available.has(f.coaching))
-          .map((f) => (
-            <section className="section" key={f.coaching} aria-label={f.title}>
-              <div className="offer">
-                <div>
-                  <p className="eyebrow">Schnell-Check</p>
-                  <h2>{f.title}</h2>
-                  <p className="offer__label" style={{ marginTop: 8 }}>
-                    {f.text}
-                  </p>
-                </div>
-                <Link className="button" to={`/coaching/${f.coaching}`}>
-                  Jetzt starten
-                </Link>
-              </div>
-            </section>
-          ))}
-        {categories.map((c) => (
-          <section className="section" key={c.path} aria-labelledby={`c-${c.slug}`}>
-            <div className="section__head">
-              <h2 id={`c-${c.slug}`}>{c.title}</h2>
+      <div className="wrap layout">
+        <div>
+          {categories.length > 1 && (
+            <nav className="tabs" aria-label={`Bereiche in ${g.title}`}>
+              {categories.map((c) => (
+                <a className="tab" key={c.path} href={`#${c.slug}`}>
+                  {nameOf(c)}
+                </a>
+              ))}
+            </nav>
+          )}
+
+          {featured.map((f) => (
+            <div className="intro" key={f.coaching} style={{ marginTop: 20 }}>
+              <h2>{f.title}</h2>
+              <p>{f.text}</p>
+              <Link className="button" to={`/coaching/${f.coaching}`}>
+                Jetzt starten
+              </Link>
             </div>
-            <ul className="list">
-              {products
-                .filter((p) => p.category === c.path)
-                .map((p) => {
-                  const n = p.coachings.filter((k) => modelOf(site, k)).length;
-                  return (
-                    <li className="list__item" key={p.slug}>
-                      <div>
-                        <Link className="list__title" to={`/paket/${p.slug}`}>
-                          {p.title}
-                        </Link>
-                        {p.subtitle && <p className="list__sub">{p.subtitle}</p>}
-                      </div>
-                      <span className="list__meta">{n} Coachings</span>
-                    </li>
-                  );
-                })}
-            </ul>
-          </section>
-        ))}
+          ))}
+
+          {sharedIntro && (
+            <div className="intro" style={{ marginTop: 20 }}>
+              <h2>{sharedIntro.headline || g.title}</h2>
+              {sharedIntro.paragraphs.map((t, i) => (
+                <p key={i}>{t}</p>
+              ))}
+              {sharedIntro.bullets.length > 0 && (
+                <ul className="pluses">
+                  {sharedIntro.bullets.map((b, i) => (
+                    <li key={i}>{b}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+
+          {categories.map((c) => {
+            const own = sharedIntro ? null : introOf(c.description);
+            const count = products.filter((p) => p.category === c.path).length;
+            return (
+              <section className="category" id={c.slug} key={c.path} aria-labelledby={`c-${c.slug}`}>
+                {own && (own.paragraphs.length > 0 || own.bullets.length > 0) ? (
+                  <div className="intro">
+                    <h2 id={`c-${c.slug}`}>{own.headline || nameOf(c)}</h2>
+                    {own.paragraphs.map((t, i) => (
+                      <p key={i}>{t}</p>
+                    ))}
+                    {own.bullets.length > 0 && (
+                      <ul className="pluses">
+                        {own.bullets.map((b, i) => (
+                          <li key={i}>{b}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                ) : (
+                  <div className="section__head">
+                    <h2 id={`c-${c.slug}`}>{nameOf(c)}</h2>
+                    <span className="hint">{count === 1 ? '1 Paket' : `${count} Pakete`}</span>
+                  </div>
+                )}
+                {products
+                  .filter((p) => p.category === c.path)
+                  .map((p) => (
+                    <Bundle key={p.slug} site={site} product={p} group={g.slug} />
+                  ))}
+              </section>
+            );
+          })}
+        </div>
+
+        <aside className="layout__side" aria-label="Zusatzinformationen">
+          <ExpertsBox experts={experts} />
+          {ratgeber && (
+            <Box title="Zum Nachlesen" accent>
+              <p>Hintergrundwissen und Tipps rund um dieses Thema, kostenlos und ohne Anmeldung.</p>
+              <Link className="button button--quiet" to={`/ratgeber/${ratgeber.topic}`}>
+                {ratgeber.label}
+              </Link>
+            </Box>
+          )}
+        </aside>
       </div>
     </>
   );
