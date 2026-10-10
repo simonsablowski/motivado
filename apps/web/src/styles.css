@@ -913,7 +913,7 @@ a.document:hover {
 }
 .stack {
   display: grid;
-  gap: 24px;
+  gap: 20px;
 }
 .layout__side {
   display: grid;
@@ -990,7 +990,11 @@ a.document:hover {
   scroll-margin-top: 16px;
 }
 .category > .section__head {
-  margin-bottom: 0;
+  /* the sub-topic heading belongs to the box below it: tight below, 20px (stack gap) above */
+  margin-bottom: -6px;
+}
+.category > .section__head h2 {
+  font-size: 1.4rem;
 }
 .intro {
   background: var(--paper);
