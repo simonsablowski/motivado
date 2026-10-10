@@ -14,6 +14,9 @@ const RATGEBER: Record<string, { topic: string; label: string }> = {
   erziehung: { topic: 'erziehung', label: 'Ratgeber Erziehung' },
 };
 
+/** Experts shown on a topic page in addition to those of its packages (expert ids). */
+const EXTRA_EXPERTS: Record<string, number[]> = { beziehung: [7], karriere: [7] };
+
 export function Topic() {
   const { group } = useParams();
   const { data: site, loading } = useSite();
@@ -30,7 +33,10 @@ export function Topic() {
   const categories = site.categories
     .filter((c) => c.group === g.slug && products.some((p) => p.category === c.path))
     .sort((a, b) => a.title.localeCompare(b.title, 'de'));
-  const experts = site.experts.filter((e) => products.some((p) => p.experts.includes(e.id)));
+  const extra = EXTRA_EXPERTS[g.slug] ?? [];
+  const experts = site.experts.filter(
+    (e) => extra.includes(e.id) || products.some((p) => p.experts.includes(e.id)),
+  );
   const featured = site.featured.filter((f) => f.group === g.slug && site.available.has(f.coaching));
   const ratgeber = RATGEBER[g.slug];
   const nameOf = (c: { path: string; title: string }) => CATEGORY_TITLE[c.path] ?? c.title;

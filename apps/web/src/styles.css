@@ -91,9 +91,26 @@ img {
 }
 
 /* ---- header / footer ------------------------------------------------------------------------ */
+.sale-bar {
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+.sale-bar .wrap {
+  padding: 10px 0;
+  text-align: center;
+}
+.sale-bar a {
+  color: #fff;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+.sale-bar a:hover {
+  text-decoration-thickness: 2px;
+}
 .header {
   background: var(--paper);
-  border-top: 5px solid var(--accent);
 }
 .header__inner {
   display: flex;
@@ -167,16 +184,6 @@ img {
 .footer a:hover {
   color: #fff;
   text-decoration: underline;
-}
-.footer__note {
-  margin-top: 40px;
-  color: #9aa1ab;
-}
-.footer__note p {
-  margin: 0;
-}
-.footer__note a {
-  color: #fff;
 }
 main {
   display: block;

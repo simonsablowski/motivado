@@ -27,6 +27,15 @@ function Layout() {
       <a className="skip" href="#main">
         Zum Inhalt springen
       </a>
+      <div className="sale-bar" role="note">
+        <div className="wrap">
+          Die Domain <strong>motivado.com</strong> steht zum Verkauf. Anfragen bitte an{' '}
+          <a href={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent('Domain motivado.com')}`}>
+            {SITE.contactEmail}
+          </a>
+          .
+        </div>
+      </div>
       <header className="header">
         <div className="wrap header__inner">
           <Link to="/" className="logo" aria-label="Motivado – zur Startseite">
@@ -84,15 +93,6 @@ function Layout() {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="wrap footer__note">
-          <p>
-            Die Domain <strong>motivado.com</strong> steht zum Verkauf. Anfragen bitte an{' '}
-            <a href={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent('Domain motivado.com')}`}>
-              {SITE.contactEmail}
-            </a>
-            .
-          </p>
         </div>
       </footer>
     </>
