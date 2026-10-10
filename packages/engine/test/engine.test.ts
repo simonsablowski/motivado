@@ -69,7 +69,7 @@ const node = (id: string, over: Partial<CoachingNode> = {}): CoachingNode => ({
   id,
   type: 'Text',
   key: null,
-  title: '',
+  title: id,
   text: '',
   props: {},
   next: [],
@@ -137,6 +137,29 @@ describe('walker', () => {
 
   it('follows a single target even if its condition is false (legacy behaviour)', () => {
     expect(chooseEdge([{ to: 'x', if: 'a is 1' }], vals({ a: 2 }))?.to).toBe('x');
+  });
+});
+
+describe('routing nodes', () => {
+  it('passes through steps that have nothing to show', () => {
+    const c: Coaching = {
+      key: 't',
+      domain: 't',
+      title: '',
+      description: '',
+      start: [{ to: 'a' }],
+      nodes: {
+        a: node('a', { text: 'Hallo', next: [{ to: 'route' }] }),
+        route: node('route', { title: '', next: [{ to: 'b', if: 'x is 1' }, { to: 'c' }] }),
+        b: node('b', { text: 'B' }),
+        c: node('c', { text: 'C' }),
+      },
+    };
+    const first = begin(c);
+    const second = advance(c, first.session);
+    expect(second.step).toMatchObject({ kind: 'node', node: { id: 'c' } });
+    const viaB = advance(c, answer(first.session, 'x', { value: 1 }));
+    expect(viaB.step).toMatchObject({ kind: 'node', node: { id: 'b' } });
   });
 });
 

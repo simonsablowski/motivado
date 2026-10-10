@@ -1,8 +1,13 @@
 import type { Answer, CoachingNode } from './types';
 
-/** Nodes that only compute a value and are never shown. */
+/**
+ * Nodes that are never shown: value computations, and the pure routing nodes of
+ * the models (a text or video step with no title, text or media).
+ */
 export function isComputed(node: CoachingNode): boolean {
-  return node.type === 'AddValue' || node.type === 'SetValue';
+  if (node.type === 'AddValue' || node.type === 'SetValue') return true;
+  const hasMedia = Boolean((node.props as { video?: unknown }).video);
+  return (node.type === 'Text' || node.type === 'Video') && !node.title.trim() && !node.text.trim() && !hasMedia;
 }
 
 function toNumber(v: unknown): number {
