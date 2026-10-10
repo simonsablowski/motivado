@@ -27,9 +27,9 @@ function Layout() {
       <a className="skip" href="#main">
         Zum Inhalt springen
       </a>
-      <div className="sale-bar" role="note">
+      <div className="sale-bar" role="note" lang="en">
         <div className="wrap">
-          Die Domain <strong>motivado.com</strong> steht zum Verkauf. Anfragen bitte an{' '}
+          The domain <strong>motivado.com</strong> is for sale. Please send enquiries to{' '}
           <a href={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent('Domain motivado.com')}`}>
             {SITE.contactEmail}
           </a>
