@@ -129,13 +129,20 @@ img {
   height: 46px;
   width: auto;
 }
+:root {
+  /* top navigation items and footer columns share this width */
+  --col: 150px;
+}
 .nav {
   display: flex;
-  gap: 4px 6px;
+  gap: 4px 0;
   margin-left: auto;
   flex-wrap: wrap;
 }
 .nav a {
+  box-sizing: border-box;
+  width: var(--col);
+  text-align: center;
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 650;
@@ -160,8 +167,14 @@ img {
 }
 .footer__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(3, var(--col));
+  gap: 0;
+}
+@media (max-width: 520px) {
+  .footer__grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 24px 16px;
+  }
 }
 .footer h3 {
   font-size: 0.8rem;

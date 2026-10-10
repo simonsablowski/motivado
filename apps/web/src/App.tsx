@@ -57,10 +57,6 @@ function Layout() {
       <footer className="footer">
         <div className="wrap footer__grid">
           <div>
-            <h3>Motivado</h3>
-            <p>Coaching per Video – interaktiv und individuell, mit Experten, die sich Zeit für Ihre Situation nehmen.</p>
-          </div>
-          <div>
             <h3>Themen</h3>
             <ul>
               {site &&
