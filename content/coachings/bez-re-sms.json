@@ -1,0 +1,299 @@
+{
+  "key": "bez-re-sms",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_SMS_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Druck raus",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_SMS_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Timing",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_SMS_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Beispiel für eine schlechte Sms:\r\n\r\n„Hallo Marco, ich wollte nur mal hören, wie‘s dir so geht und wie die neue Arbeit so läuft? :) Ich hoffe, Du bist gut in der neuen Wohnung angekommen? :) Wir sollten uns vielleicht mal wieder sehen? Viele liebe Grüße, Julia :)“",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_SMS_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sms mit „Twist“\r\n\r\nNeues Beispiel, ein bisschen besser:\r\n„Musste gerade an dich denken. Gruß, Julia“\r\n\r\nBewertung: Schon besser, denn die Sms erfüllt jetzt formal alle Kriterien. Sie ist kurz, hat keine Smileys oder Fragen, der Abschied ist knapp und kurz – die Sms baut keinen Druck auf.\r\n\r\nABER: Julia entwürdigt sich mit dem Inhalt dieser Sms. Sie zeigt, dass sie Marco hinterher trauert, dass sie leidet, dass sie immer noch verliebt ist. Das stößt Marco weiter ab.\r\n\r\nAlso muss Sie etwas hinzufügen, damit Sie nicht mehr so verliebt klingt: \r\n„Musste gerade an dich denken, keine Ahnung warum.“\r\n\r\n(Der Andere erwartet natürlich, dass Sie schreiben „Ich musste gerade an Dich denken und vermisse Dich ganz schrecklich!“. Stattdessen tun Sie überrascht „keine Ahnung warum“ und verblüffen so den Anderen. Das nennen wir Twist.)\r\n\r\nOder: \r\n„Totale Unverschämtheit, dass ich immer noch an dich denken muss!“\r\n„Totale Unverschämtheit, dass ich gerade an dich denken muss!“\r\n\r\n(Der Andere erwartet natürlich, dass Sie schreiben „Ich muss an Dich denken“ oder „totale Unverschämtheit, dass du dich von mir getrennt hast“. In dieser Kombination überraschen Sie den Anderen. Außerdem signalisieren Sie, dass Sie sich darüber ärgern, dass Sie noch an den Anderen denken. Das macht Sie interessant! Dieses Stilmittel nennen wir Twist!)",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was meinen wir mit „Twist“?\r\n\r\nIndem Sie einen kleinen Zusatz, einen „Twist“, zu Ihrer Nachricht hinzufügen, machen Sie sich interessant. Die Nachricht sollte also immer einen kleinen Dreh in eine unerwartete Richtung enthalten. Das wirkt wie das Salz in der Suppe oder das Öl im Motor: Plötzlich funktioniert es.\r\n\r\nDas Grundprinzip ist: Locken und Reizen. Sie wecken Interesse beim Anderen, ziehen sich dann aber wieder zurück. So kann der Andere \"Appetit auf mehr\" entwickeln. \r\n\r\nWir werden Sie deshalb auch zu unserem Coaching ‚Den Ex-Partner locken und reizen‘ leiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die erste Sms\r\n\r\nDie erste Nachricht hat zwei Ziele: \r\n\r\nErstens rufen Sie sich beim Anderen in positiver Weise in Erinnerung, ohne ihn zu belästigen und ohne sich selbst zu entwürdigen. \r\n\r\nZweitens überraschen Sie den Anderen, indem Sie nicht das schreiben, was er in so einer Situation von Ihnen erwartet. So machen Sie sich interessant. \r\nAuf den folgenden Seiten finden Sie einige Vorschläge:",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorschlag 1: Wenn Sie gemeinsame Traditionen oder Routinen hatten, können Sie darauf anspielen – aber immer so, dass Sie Ihre Würde behalten:\r\n\r\nVariante A: „Fahre gerade an unserem Lieblingsrestaurant vorbei und musste an unseren Abend zum Einjährigen denken. Dir würde das sicher nicht passieren, so kühl wie du bist.“ \r\n(Der Andere erwartet natürlich, dass Sie schreiben, wie sehr Sie ihn vermissen – doch stattdessen versetzen Sie ihm einen gehörigen Dämpfer.)\r\n\r\nVariante B: „Fahre gerade an unserem Lieblingsrestaurant vorbei und musste an unseren Abend zum Einjährigen denken. Du hast das sicher alles schon vergessen“\r\n\r\nHier gibt es zwei mögliche Reaktionen:\r\n1)\tDer Andere fühlt sich ertappt und antwortet Ihnen, weil er ein schlechtes Gewissen hat.\r\n2)\tDer Andere muss auch noch an Sie denken und schreibt Ihnen zurück, um den Vorwurf zurückzuweisen. \r\nSo oder so: Sie erhalten eine Reaktion. Und das ist gut!",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorschlag 2: Wenn die Erotik zwischen Ihnen gut war, können Sie darauf leicht (!) anspielen: \r\n„Verdammt, habe gerade gemerkt, wie es mir fehlt, Dich ab und zu ein wenig zu ärgern und in den Nacken zu beißen. Gut, dass wir beide so viel zu tun haben!“\r\n(Mit dem Zusatz, dass es gut ist, dass Sie beide so viel zu tun haben, überraschen Sie den Partner. Sie zeigen, dass Sie beschäftigt sind, dadurch wirken Sie souverän.) ",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "013c233386d843d8b9631c4f08ee3e83",
+      "title": "Ein kurze Frage zwischendurch: \nSind Sie ein Mann oder eine Frau?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Mann"
+          },
+          {
+            "key": 2,
+            "value": "Frau"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "013c233386d843d8b9631c4f08ee3e83 is 1"
+        },
+        {
+          "to": "n012",
+          "if": "013c233386d843d8b9631c4f08ee3e83 is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Nach der Sms\r\n\r\nNach der Sms heißt es: abwarten! Lassen Sie eine Pause und schauen Sie, ob von selbst etwas kommt. \r\nWenn Sie eine Antwort erhalten, warten Sie mindestens so lange, wie der Andere gewartet hat.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sms von der Frau an den Mann:\r\n\r\nAls Frau gibt es einige besondere Kniffe: Geben Sie dem Mann das Gefühl, dass Sie ihn brauchen, dass er ein guter Beschützer ist, etc.\r\n\r\nVariante 1: „Bin auf einem Fest eingeladen wo auch so ein Typ kommen will der etwas von mir will. Kannst Du mich als Beschützer begleiten? Vielleicht??“\r\n\r\nVariante 2: „Vermisse Deine starke Schulter. Saukerl!“\r\n\r\nVariante 3:„Brauche Deine Hilfe, eine Lampe kaputt. Ich kriege es nicht hin!“\r\n\r\nVariante 4: „Voll unfair: Warum fühle ich mich bei Dir so geborgen??“",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Reaktionen auswerten\r\n\r\nBitte beachten Sie: Diese Sms sind Experimente und Sie und wir müssen lernen, worauf der Andere reagiert. Das ist in jedem Fall ein bisschen unterschiedlich. \r\n\r\nMit jeder Sms, die Sie schicken, und mit jeder Reaktion Ihres Ex-Partners können wir sehen, was klappt, und Ihre Strategie daran anpassen. Auch negative Reaktionen sind gut, denn dann wissen wir, was nicht funktioniert hat, und werden es nicht noch einmal verwenden. Was gut funktioniert, werden wir wieder einsetzen.\r\n\r\nPacken Sie also jede Sms mit Reaktion und Reaktionszeit in eine Tabelle. Lernen Sie die Kanäle des Anderen kennen. Erforschen Sie, welche Sms welche Reaktion ausgelöst hat. Laden Sie sich dazu im nächsten Schritt unser Sms-Protokoll runter, in dem Sie schnell und übersichtlich die Reaktionen des Anderen dokumentieren und auswerten können. \r\n\r\nWenn Sie unsicher sind, wie die Antwort des Anderen einzuschätzen ist, schicken Sie uns den Text zu und wir geben Ihnen eine Einschätzung.\r\nDenken Sie daran, dass die Rückeroberung ein längerfristiger Prozess ist (3-6 Monate). Wenn unsere jetzige Strategie nicht funktioniert, probieren wir etwas anderes.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Nach der Sms\r\n\r\nNach der Sms heißt es: abwarten! Lassen Sie eine Pause und schauen Sie, ob von selbst etwas kommt. \r\nWenn Sie eine Antwort erhalten, warten Sie mindestens so lange, wie der Andere gewartet hat.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Wenn Sie möchten, können Sie sich hier unser SMS-Protokoll runterladen:",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Sms_protokoll",
+            "file": "SMS-Protokoll.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Per Sms ein Treffen ausmachen\r\n\r\nZunächst sollten Sie beachten: In den ersten 2 Monaten Ihrer Rückeroberung sollte der Vorschlag für ein Treffen vom Anderen kommen. Erst nach 2 Monaten dürfen Sie ein Treffen vorschlagen. Hier zeigen wir Ihnen, wie Sie per Sms eher zu einem Treffen gelangen. \r\n\r\nSchicken Sie eine Sms, die kurz, freundlich und neutral zum Punkt kommt:\r\n\r\nVariante 1: „Hi, viel passiert, lang nicht mehr gequatscht. Hätte Lust, was Kleines zu machen. Wie wäre es mit einem DVD-Abend nächste Woche?“\r\n\r\nVariante 2: „Ich weiß, Du steckst in den Untiefen Deines Studiums und schaffst es wahrscheinlich nicht auf einen Kaffee. Falls doch, let me know. Viel zu lang nicht mehr gequatscht.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Mit den Reaktionen umgehen\r\n\r\nBei so einer neutralen Sms ist Ablehnung nicht so schlimm. Kommt keine Antwort oder eine negative Antwort, haken Sie auf keinen Fall nach. In diesem Fall ist es wieder Zeit für eine Phase der Distanz. Ist die Antwort jedoch positiv, können Sie dann den nächsten Schritt einleiten. \r\n\r\nACHTUNG: Jetzt nicht alles sausen lassen, sondern bei jeder Sms vom Partner dieses Coaching beachten.\r\n\r\nWenn der Andere darauf eingeht, dürfen Sie natürlich etwas mehr hin und her schreiben, bis Sie einen Termin und einen Ort gefunden haben. Die Antwortzeiten sind in diesem Fall nicht mehr ganz so strikt.\r\n\r\nGANZ WICHTIG: Werden Sie jetzt nicht gierig und unachtsam. Selbst wenn das Ziel jetzt so nahe scheint, müssen Sie weiterhin cool bleiben, knapp antworten, schlicht zum Punkt kommen.\r\n\r\nWenn Sie Einfluss auf den Ort haben, machen Sie den Abend am besten bei Ihnen. Ansonsten gehen Sie mit, was Ihr Ex-Partner vorschlägt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Das war unser Coaching ‚Sms an den Ex-Partner‘. \r\n\r\nWir freuen uns immer über Feedback. Schreiben Sie uns, mit welchen Sms Sie besonders erfolgreich waren.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "Noch ein letztes: Verraten Sie niemals, dass Ihre Sms nur erfunden waren!!!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

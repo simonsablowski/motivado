@@ -1,0 +1,266 @@
+{
+  "key": "bez-lk-2",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Sand-Metapher",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Am Körper ansetzen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Sonne und frische Luft",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Plan",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Selbstbewusstsein",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "List",
+      "key": "rel_lkBasics_iLikeMyself",
+      "title": "Bitte schreiben Sie jetzt alles auf, was Andere an Ihnen geschätzt haben!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V7.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "List",
+      "key": "rel_lkBasics_iLikeMyself",
+      "title": "Bitte ergänzen Sie hier Ihre Liste!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V8.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "TextArea",
+      "key": "rel_lk_CoacheeBuddy",
+      "title": "Wer könnte Sie unterstützen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Pimp yourself",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Routine einhalten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Aktiv am WE",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Gedankenreise",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_B_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Ende des Coachings: Liebeskummer II",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

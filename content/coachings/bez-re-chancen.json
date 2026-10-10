@@ -1,0 +1,1118 @@
+{
+  "key": "bez-re-chancen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Willkommen im Coaching \"Chancen\"! Wenn Sie erfahren möchten, welche Hoffnungen Sie sich in Ihrer Situation machen können, klicken Sie auf 'Weiter'.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n002",
+          "if": "schluss is 'Ex' or schluss2 is 'Ex'"
+        },
+        {
+          "to": "n003",
+          "if": "schluss is 'Ich' or schluss2 is 'Ich'"
+        },
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "\r\nHier können Sie sich nun den ersten Zeitplan für Ihre Rückeroberung runterladen:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V2.flv"
+        },
+        "documents": [
+          {
+            "name": "Ihr 1. Zeitplan",
+            "file": "Initialplan.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "\r\nHier können Sie sich nun den ersten Zeitplan für Ihre Rückeroberung runterladen:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V2.flv"
+        },
+        "documents": [
+          {
+            "name": "Ihr 1. Zeitplan",
+            "file": "Initialplan.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "c7ea8131e06540478bc855e8104933e6",
+      "title": "Wie lange ist die Trennung her?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V66.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "über 6 Monate"
+          },
+          {
+            "key": 2,
+            "value": "Weniger als 4 Wochen"
+          },
+          {
+            "key": 3,
+            "value": "1-5 Monate"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "c7ea8131e06540478bc855e8104933e6 is 1"
+        },
+        {
+          "to": "n008",
+          "if": "c7ea8131e06540478bc855e8104933e6 is 2"
+        },
+        {
+          "to": "n007",
+          "if": "c7ea8131e06540478bc855e8104933e6 is 3"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Ready to go",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        },
+        {
+          "to": "n010",
+          "if": "LaengeBeziehung is 'ueber2J'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Ready to go",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "95787006bb6745679b644a8214d54a6b",
+      "title": "Wieviel Kontakt haben Sie im Moment noch zu Ihrem/r Ex-Partner/in?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V23.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Selten / ab und zu"
+          },
+          {
+            "key": 2,
+            "value": "Regelmäßiger Kontakt"
+          },
+          {
+            "key": 3,
+            "value": "Kein / kaum Kontakt"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "95787006bb6745679b644a8214d54a6b is 1"
+        },
+        {
+          "to": "n013",
+          "if": "95787006bb6745679b644a8214d54a6b is 2"
+        },
+        {
+          "to": "n014",
+          "if": "95787006bb6745679b644a8214d54a6b is 3"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "77eb22e697bd44cc9a2c0f4fe69ec6ed",
+      "title": "Wieviel Kontakt haben Sie im Moment noch zu Ihrem/r Ex-Partner/in?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V24.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Regelmäßiger Kontakt"
+          },
+          {
+            "key": 2,
+            "value": "Selten / ab und zu"
+          },
+          {
+            "key": 3,
+            "value": "Kein / kaum Kontakt"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "77eb22e697bd44cc9a2c0f4fe69ec6ed is 1"
+        },
+        {
+          "to": "n012",
+          "if": "77eb22e697bd44cc9a2c0f4fe69ec6ed is 2"
+        },
+        {
+          "to": "n014",
+          "if": "77eb22e697bd44cc9a2c0f4fe69ec6ed is 3"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Willkommen und Ausblick",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "e35943009dee424dbae366e66715e8a7",
+      "title": "Haben Sie schon Dinge probiert, die schiefgegangen sind?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V3.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "e35943009dee424dbae366e66715e8a7 is 1"
+        },
+        {
+          "to": "n017",
+          "if": "e35943009dee424dbae366e66715e8a7 is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "d25d60ce980f49048fcc34503adfbd99",
+      "title": "Denken Sie es wird leicht wieder mit Ihrem Partner zusammen zu kommen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein / Eher nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja / Eher ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "LaengeBeziehung is 'ueber2J' and d25d60ce980f49048fcc34503adfbd99 is 1"
+        },
+        {
+          "to": "n009",
+          "if": "d25d60ce980f49048fcc34503adfbd99 is 1"
+        },
+        {
+          "to": "n018",
+          "if": "d25d60ce980f49048fcc34503adfbd99 is 2"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Group",
+      "key": "rel_RueckFragebogen1",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V26.flv"
+        },
+        "count": 4
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Group",
+      "key": "rel_RueckFragebogen1",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V25.flv"
+        },
+        "count": 4
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Group",
+      "key": "rel_RueckFragebogen1",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V27.flv"
+        },
+        "count": 4
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Options",
+      "key": "0b04a70cec2046aeb69f4e83e513e5f9",
+      "title": "Haben Sie schon Dinge probiert, die schiefgegangen sind?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V3.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "0b04a70cec2046aeb69f4e83e513e5f9 is 1"
+        },
+        {
+          "to": "n016",
+          "if": "0b04a70cec2046aeb69f4e83e513e5f9 is 2"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Kontaktsperre",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Gesprächsversuch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie dürften gute Chancen haben die Beziehung zu retten, wenn Sie nun nicht zu lange warten. Als erstes benötigen Sie eine Erklärung bzw. eine Entschuldigung, warum Sie sich getrennt haben. Außerdem braucht der Partner eine klare Vision, warum er/sie es nochmal mit Ihnen versuchen sollte. Dazu sollten Sie in die Coachings zum Beziehungsstärken einsteigen und mit den neu gewonnenen Informationen eine sehr gute Entschuldigung / Vision entwickeln.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Options",
+      "key": "LaengeBeziehung",
+      "title": "Wie lange waren Sie zusammen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "bis2J",
+            "value": "bis 2 Jahre"
+          },
+          {
+            "key": "bis9M",
+            "value": "bis 9 Monate"
+          },
+          {
+            "key": "ueber2J",
+            "value": "über 2 Jahre"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n023",
+          "if": "LaengeBeziehung is 'bis2J'"
+        },
+        {
+          "to": "n023",
+          "if": "LaengeBeziehung is 'bis9M'"
+        },
+        {
+          "to": "n023",
+          "if": "LaengeBeziehung is 'ueber2J'"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Partnerreaktion",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Termin vereinbaren",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "Wir geben Ihnen jetzt schonmal die wichtigsten Hinweise für Ihre Erklärung. Danach haben Sie die Möglichkeit, das Coaching zur Beziehungsstärkung zu durchlaufen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Options",
+      "key": "schluss",
+      "title": "Wer hat die Beziehung beendet?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "Beide",
+            "value": "Beide"
+          },
+          {
+            "key": "Ex",
+            "value": "Mein/e Partner/in"
+          },
+          {
+            "key": "Ich",
+            "value": "Ich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n027",
+          "if": "schluss is 'Beide'"
+        },
+        {
+          "to": "n027",
+          "if": "schluss is 'Ich'"
+        },
+        {
+          "to": "n027",
+          "if": "schluss is 'Ex'"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Weitere Fallen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Video",
+      "key": null,
+      "title": "Persönliches Treffen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Erklärung sollte zu Ihrem Ex-Partner und der Beziehung passen. Wenn Ihnen selbst nichts einfällt, empfehlen wir ein gleichermaßen bescheidenes, aber auch inspirierendes Statement. Es könnte etwa folgendermaßen lauten: \r\n\r\n\"Lieber Partner, ich weiß, das alles mag überraschend kommen, doch seit wir uns getrennt haben, bekomme ich dich nicht aus meinem Kopf und ich hoffe wir haben/ich habe nicht den größten Fehler unseres/meines Lebens gemacht. Ich weiß, dir ist ..., ... wichtig (Punkte einfüllen, die Ihrem Ex wichtig sind) und mir geht es ähnlich/genauso, daher möchte ich mich nochmals mit Dir unterhalten und Dich unbedingt sehen. Ich hoffe, ich überfalle Dich nicht. Falls ich es doch tue, tut es mir nicht Leid, denn ich stehe einfach so sehr auf Dich, dass ich einfach weiß, dass ich mich mit Dir austauschen möchte. Wie siehst Du das? / Wie wollen wir es machen?\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "TextInput",
+      "key": "rel_vorname",
+      "title": "Wie heißen Sie mit Vornamen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Video",
+      "key": null,
+      "title": "Facebook und Co",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Video",
+      "key": null,
+      "title": "Gesprächsstrategie",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Dieses Statement sollten Sie vorbereiten. Idealerweise bringen Sie es direkt vor, indem Sie den Anderen abpassen. Das kann eine tolle Wirkung haben. Ansonsten ist auch der klassische Anruf, um ein Treffen zu vereinbaren, eine sehr gute Variante. Wir empfehlen Ihnen vor diesem Treffen unbedingt unsere Coachings zur Stärkung Ihrer Beziehung zu machen. Wenn Sie hierzu noch Fragen haben, wenden Sie sich bitte an unsere Kundenbetreuung. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "TextInput",
+      "key": "rel_exvorname",
+      "title": "Wie heißt Ihr/e Ex-Partner/in mit Vornamen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n035",
+          "if": "schluss is 'Ich'"
+        },
+        {
+          "to": "n036",
+          "if": "schluss is 'Ex'"
+        },
+        {
+          "to": "n037",
+          "if": "schluss is 'Beide'"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Video",
+      "key": null,
+      "title": "Angst vor neuem Partner",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Video",
+      "key": null,
+      "title": "Power-Kniff",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sollte Ihr Partner nicht auf Ihren Wunsch eingehen, leiten wir Sie zu unseren weiteren Coachings zum Thema Rückeroberung. Auch wenn sich die Situation schwieriger darstellt, als Sie dachten, haben Sie noch Chancen, den anderen zurück zu erobern. Zunächst raten wir Ihnen aber, es mit Ihrer Erklärung zu probieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V6A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V5F.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Options",
+      "key": "schluss2",
+      "title": "Von wem ging die Initiative zur Trennung eher aus?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V7.flv"
+        },
+        "options": [
+          {
+            "key": "Ex",
+            "value": "Eher von #rel_exvorname|'Ihrem/r Ex-Partner/in'"
+          },
+          {
+            "key": "Ich",
+            "value": "Eher von mir"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n035",
+          "if": "schluss2 is 'Ich'"
+        },
+        {
+          "to": "n036",
+          "if": "schluss2 is 'Ex'"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Video",
+      "key": null,
+      "title": "Sperre sinnvoll nutzen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Video",
+      "key": null,
+      "title": "Tipp",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bitte entwickeln Sie nun Ihre Erklärung, mit der Sie Ihren Partner zurückgewinnen möchten, und verabreden Sie sich mit ihm/ihr. Sollte Ihr Versuch scheitern, loggen Sie sich bitte wieder ein. Wir setzen dann mit Ihnen gemeinsamen einen genauen Plan auf, wie Sie den Anderen doch zurückgewinnen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Video",
+      "key": null,
+      "title": "Trennungsgründe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n043"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "Options",
+      "key": "215c40e2aa2a4c33a96752d2dda2aec8",
+      "title": "Wohin möchten Sie jetzt abzweigen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V10.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Zur Rückeroberung"
+          },
+          {
+            "key": 2,
+            "value": "Zu Coachings um meine Beziehung zu stärken"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "215c40e2aa2a4c33a96752d2dda2aec8 is 1"
+        },
+        {
+          "to": "n044",
+          "if": "215c40e2aa2a4c33a96752d2dda2aec8 is 2"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "Options",
+      "key": "65bddc60897f4a21b8124d6b300e25c1",
+      "title": "Welche Beschreibung trifft Ihrer Meinung nach am ehesten auf Ihre Situation zu?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V19.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Es ist jemand anderes im Spiel."
+          },
+          {
+            "key": 2,
+            "value": "Äußere Umstände führten zu der Trennung."
+          },
+          {
+            "key": 3,
+            "value": "Wir konnten nicht gut miteinander sprechen/haben oft gestritten."
+          },
+          {
+            "key": 4,
+            "value": "Wir haben uns einfach auseinandergelebt."
+          },
+          {
+            "key": 5,
+            "value": "Einer von uns hat Probleme mit einer festen Bindung."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n045",
+          "if": "65bddc60897f4a21b8124d6b300e25c1 is 1"
+        },
+        {
+          "to": "n045",
+          "if": "65bddc60897f4a21b8124d6b300e25c1 is 2"
+        },
+        {
+          "to": "n045",
+          "if": "65bddc60897f4a21b8124d6b300e25c1 is 3"
+        },
+        {
+          "to": "n045",
+          "if": "65bddc60897f4a21b8124d6b300e25c1 is 4"
+        },
+        {
+          "to": "n046",
+          "if": "65bddc60897f4a21b8124d6b300e25c1 is 5"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "Text",
+      "key": null,
+      "title": "In diesem Fall möchten wir Ihnen empfehlen unser Coaching \"Beziehung stärken\" zu erwerben.\r\nWenn Sie hierzu noch Fragen haben, wenden Sie sich bitte an unsere Kundenbetreuung.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n047"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "Text",
+      "key": null,
+      "title": "Das ist häufig ein Grund für Trennungen - aber nicht unbedingt ein Hindernis, wieder zusammen zu kommen. Darum klicken Sie jetzt auf Weiter, um zum nächsten Coaching zu gelangen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Options",
+      "key": "5176dc4705164e9bb61787ed7dd753fb",
+      "title": "Wer von Ihnen hatte an diesem Punkt Schwierigkeiten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V20.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Zu \"Schnell verlassen werden\""
+          },
+          {
+            "key": 2,
+            "value": "Direkt zur Rückeroberung"
+          },
+          {
+            "key": 3,
+            "value": "Zu \"Den Partner schnell verlassen\" "
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n048",
+          "if": "5176dc4705164e9bb61787ed7dd753fb is 1"
+        },
+        {
+          "to": "n049",
+          "if": "5176dc4705164e9bb61787ed7dd753fb is 2"
+        },
+        {
+          "to": "n050",
+          "if": "5176dc4705164e9bb61787ed7dd753fb is 3"
+        }
+      ]
+    },
+    "n047": {
+      "id": "n047",
+      "type": "Coaching",
+      "key": null,
+      "title": "Extra-Coaching",
+      "text": "",
+      "props": {
+        "key": "bez-konstruktive-vision"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n048": {
+      "id": "n048",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "In diesem Fall möchten wir Ihnen empfehlen unser Coaching \"Schnell verlassen werden\" zu erwerben. Hier lernen Sie besser zu verstehen, warum Ihre Beziehung gescheitert ist.\r\nWenn Sie hierzu noch Fragen haben, wenden Sie sich bitte an unsere Kundenbetreuung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n049": {
+      "id": "n049",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte klicken Sie auf Weiter, um zum nächsten Coaching  zu gelangen",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n050": {
+      "id": "n050",
+      "type": "Text",
+      "key": null,
+      "title": "In diesem Fall möchten wir Ihnen empfehlen unser Coaching \"Der Beziehungskiller\" zu erwerben. Hier lernen Sie besser zu verstehen, warum Ihre Beziehung gescheitert ist.\r\nWenn Sie hierzu noch Fragen haben, wenden Sie sich bitte an unsere Kundenbetreuung.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n052"
+        }
+      ]
+    },
+    "n051": {
+      "id": "n051",
+      "type": "Coaching",
+      "key": null,
+      "title": "Extra-Coaching",
+      "text": "",
+      "props": {
+        "key": "bez-rapid-left"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n052": {
+      "id": "n052",
+      "type": "Coaching",
+      "key": null,
+      "title": "Extra-Coaching",
+      "text": "",
+      "props": {
+        "key": "bez-rapid-ruin"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

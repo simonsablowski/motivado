@@ -1,0 +1,161 @@
+{
+  "key": "ges-abn-ern-belohnung1",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Willkommen im Coaching \"Essen als Belohnung 1\"",
+      "text": "Ob Sie es glauben oder nicht, Ihre Belohnungsroutine wurde Ihnen in jahrelanger Arbeit antrainiert.\nSie selbst hatten da vielleicht sogar nur sehr wenig Einfluss, haben jetzt aber mit den Folgen zu kämpfen.\nErkennen Sie folgende Situationen bei sich wieder?\nAls Kind haben Sie eine gute Note in der Schule zurück bekommen, als Belohnung bekam man die Lieblingssüßigkeit.\nAls Erwachsener haben Freunde Ihnen einen Gefallen getan, zum Dank verschenkt man Pralinen.\nUnd am Ende eines anstrengenden Arbeitstages belohnen Sie sich mit der Pizza von Ihrem Lieblingsitaliener. \nWas Sie als Kind gelernt haben, setzen Sie selbst als Erwachsener fort. Sich bei besonderen Angelegenheiten mal mit etwas leckerem zu Essen zu belohnen ist ganz normal.\nSobald es jedoch der einzige Weg ist sich etwas Gutes zu tun, wird es ungesund und gefährlich!\n\nWelche Auswege es aus diesem Essverhalten gibt, zeigen wir Ihnen in diesem Coaching.\n\nNehmen Sie sich für dafür etwa 20 Minuten Zeit.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "\"Alle anderen belohnen sich doch auch mit Essen, warum sollte ich es anders machen?\"\n\nÜber die Hälfte der Deutschen sind übergewichtig und denken bestimmt genau das selbe.\nAber wollen Sie dazu gehören?\nOder wollen Sie zu dem kleineren Teil gehören, die einen tollen gesunden, schlanken Körper haben und andere Wege kennen, als sich nur mit Essen zu belohnen?\n\nUnd was genau ist das eigentlich, womit wir meinen uns zu belohnen?\nMehr dazu im Folgenden!",
+      "props": {
+        "video": {
+          "url": "DIC_EssenBelohnung1_V3.flv",
+          "delay": 50
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Was macht die zuckrige \"Belohnung\" mit unserem Körper?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EssenBelohnung1_V4.flv"
+        },
+        "elements": [
+          {
+            "element": "Zucker macht dick!",
+            "second": 27
+          },
+          {
+            "element": "Zucker ist ein Nährstoffräuber!",
+            "second": 43
+          },
+          {
+            "element": "Zucker verhindert die Aufnahme von Vitamin C! ",
+            "second": 128
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Was macht Ihre zuckrige \"Belohnung\" mit Ihrem Körper?",
+      "text": "Hier können Sie sich noch einmal einen Auszug aus der langen Liste mit negativen Konsequenzen, die Zuckerkonsum mit sich bringt ansehen und herunter laden.",
+      "props": {
+        "documents": [
+          {
+            "name": "Folgen der zuckrigen Belohnung",
+            "file": "Belohnung_Zucker.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Machen Sie eine gesunde Belohnung zur neuen Gewohnheit!",
+      "text": "Der Wille sich zu ändern, neue Wege in Sachen Ernährung einzuschlagen, ist am Anfang einer Umstellung noch wie ein schwacher, untrainierter Muskel. Er hat nicht viel Kraft und nur wenig Ausdauer.\nJetzt ist es an Ihnen diesen Muskel, Ihren Willen zu trainieren, damit Sie es in Zukunft schaffen stark zu bleiben und sich mit gesünderen Alternativen zu belohnen.",
+      "props": {
+        "video": {
+          "url": "DIC_EssenBelohnung1_V5.flv",
+          "delay": 77
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EssenBelohnung1_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe \"Essen als Belohnung\"",
+      "text": "Schreiben Sie für sieben Tage für jede Situation, in der Sie sich früher mit Essen belohnt hätten, eine gesunde, neue Alternative auf.",
+      "props": {
+        "video": {
+          "url": "DIC_EssenBelohnung1_V9.flv",
+          "delay": 54
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Viel Erfolg in den kommenden Tagen!",
+      "text": "Dies war unser Coaching zu dem Thema Essen als Belohnung.\nWir haben Sie gebeten sich verschiedene gesunde Alternativen als Belohnung für die verschiedenen Situationen in einer Woche, in denen Sie sich belohnen möchten, auszudenken.\nSchreiben Sie diese Alternativen nicht nur auf, sondern probieren Sie sie vor allem auch aus!\nÜbung macht bekanntlich den Meister, also belohnen Sie sich so viel Sie können, mit Bewegung, frischem Gemüse, Entspannung und co.!\nViel Spaß dabei!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

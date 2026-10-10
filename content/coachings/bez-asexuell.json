@@ -1,0 +1,130 @@
+{
+  "key": "bez-asexuell",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Da dieser Weg sehr selten eingeschlagen wird, haben wir kein vollständiges Coaching für Sie, sondern eines in Form von Anregungen und Tipps. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ganz bewusst auf Beziehung, Affären und Sex zu verzichten, ist seit Jahrhunderten ein möglicher Weg Lebensphasen zu gestalten. Auf jeden Fall ist es kein alltäglicher Weg. Es gibt verschiedene Abstufungen: Angefangen von einem normalen Leben mit Beruf, Freunden, Hobbies etc. bis hin zum zurückgezogenen Leben eines Mönches in einem Kloster. Wichtig ist nur zu wissen, dass es auch ein Weg ist, der sich gut anfühlen kann, wenn er richtig durchgeführt wird.\nWenn Sie allerdings diesen Weg nicht ernst nehmen, ist es nichts Halbes und nichts Ganzes und wir empfehlen dass Sie sich in Richtung Beziehung bewegen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Welche Art von Single-Sein ohne Beziehung etc. wollen Sie?\nNehmen Sie sich ein Stift und Papier und beschreiben Sie, wie Sie sich diese Phase vorstellen. Hier ein paar Beispiele:\r\n * \"Ich möchte testweise eine Phase ohne Beziehung und Sex erleben.\"\r\n * \"Es reizt mich dazu auch Literatur zu lesen.\"\r\n * \"Eventuell interessieren mich Hintergrundwissen von Glaubensgemeinschaften dazu . Schließlich bieten fast alle Religionen diesen Lebensweg.\"\r\n Weiter ist wichtig auch die Punkte zu sammeln, warum Sie diesen Weg gehen.\r\n Sollten Sie hier nur sein, weil Sie bisher so frustriert wurden, empfehlen wir dringend zu überlegen: Was haben Sie unternommen um glücklich in einer Beziehung oder Affäre zu sein? Haben Sie schon unsere Beziehungs-Coachings oder Dating-Coachings wahrgenommen. Vielleicht haben wir ja genau die richtigen Coachings und Hinweise, damit Sie diesmal weniger Frust erleben müssen. Vielleicht läuft diesmal alles etwas besser mit uns.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie möchten diesen Weg weiter gehen. Wie erwähnt kann dies eine sehr bereichernde Phase Ihres Lebens werden, allerdings ist dafür nötig, dass Sie diesen Weg auch mit vollem Herzen, mit vollem Einsatz leben.\r\n* Wenn man diesen Weg entspannt und wirklich gehen will, empfielt sich auch wirklich für eine gewisse Zeit auf jegliche Form von Sex (Selbstbefriedigung miteingenommen) zu verzichten. Dies kann vor allem am Anfang schwer fallen.\r\n* Die große Herausforderung ist, dass es im Grunde wenig gute Vorbilder gibt. Wer orientiert sich schon an irgendwelchen Mönnchen oder Nonnen? Auch der Dalai Lama ist ein bisschen zu weit weg, um sich einen solchen Stil aus nächster Nähe zu betrachten. Außerdem dreht sich unsere Gesellschaft um Beziehung. Wohin man blickt. Z.B. in der Filmwelt, das Weggehen, die Werbung, überall geht es immer wieder um Beziehung, Liebe oder Sex. Eine klare Vision ist Vorraussetzung sowie Unterstützung durch innere stärkende Sätze oder Antworten um diesen Weg zu stützen. Außerdem empfiehlt sich diese Zeit nur als Phase zu sehen. Das Leben bringt durch die verschiedenen Ereignisse, Schicksalsschläge oder Begegnungen sehr verschiedene Impulse und Phasen mit sich. Es kann gut und richtig sein, sich jetzt vom Beziehungs- und Sex-Leben zu verabschieden für eine Zeit und es kann zu einem anderen Zeitpunkt in Ihrem Leben gut sein wieder mit vollem Herzen zu lieben und tolle Momente mit einem anderen Menschen zu erleben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Selbst wenn Sie diese Phase nur temporär oder testweise gehen, funktioniert es nur, wenn Sie sich voll darauf einlassen. Sie können Ihren Weg ja jederzeit wieder ändern, nur bis dahin tun  Sie es ganz oder gar nicht.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was Ihnen nun gut tun wird, ist sich mit sich selbst zu beschäftigen, aber auf gute und angenehme Weise. Es ist spannend und manchmal einfach nur schön und leicht, für eine Zeit der ganzen Beziehungswelt 'Tschüss' zu sagen. Wenn Sie weggehen, haben Sie z. B. nicht den Druck jemanden kennen lernen zu müssen. Wenn Sie in einem Restaurant oder auf einem Fest sind, können Sie genießen, dass Sie keine Komplikationen mit einem Partner haben, oder ein tolles Essen durch Knatsch in der Beziehung beeinträchtigt wird. Außerdem können Sie sich nun um die Dinge kümmern, die Sie vielleicht schon seit langem tun wollten. Wir empfehlen begleitend natürlich guttuende Aktivitäten für Geist und Körper.\r\nBeispielsweise gibt es wunderbare Meditationsübungen, die Sie aus Büchern oder von Meditationslehrern erlernen können. Achtung hier nur, jede Meditation kommt immer mit einem ganzen System an Glaubensvorstellungen und Punkten die gaaanz ganz wichtig sind daher. Ignorieren Sie den Überbau und schauen erst einmal ob die Technik Ihnen überhaupt was bringt.\r\nMindestens genauso schön wäre jetzt etwas mehr Sport zu treiben oder Bewegung, die gut tut wie Yoga, Tanz, etc. Auch hier gibt es in allen Städten zig Einrichtungen oder Orte sowie Bücher für Einsteiger und Fortgeschrittene.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Häufig stellen Freunde, Bekannte und Kollegen bei dieser Lebensweise eine  Herausforderung dar. Die meisten verstehen diesen Weg überhaupt nicht oder plappern einfach unreflektiert die klassischen Phrasen runter: 'Jeder sucht eine Beziehung.', 'Warte nur bis der oder die Richtige kommt, dann sieht alles ganz anders aus!' (Klar ist das so. Nur was ist mit der Zeit bis dahin?), 'Das geht ja gar nicht. Kein Sex? Blödsinn!'. Besonders Familienmitglieder können hier sehr unpassende, vielleicht sogar verletzende Bemerkungen machen. Vorsicht!\r\nDa Menschen sich häufig viel stärker als uns bewusst ist auch an Ihrer Umgebung orientieren, sind solche Bemerkungen natürlich eher hinderlich. Deshalb ist es empfehlenswert zunächst nicht mit Jedem darüber zu sprechen. Vielleicht mit sehr guten oder vor allem sehr verständnisvollen Freunden. Passend wäre natürlich, sie haben Bekannte oder Freunde, die diese Phase mit Ihnen teilen. Das bestärkt und macht alles leichter. Notieren Sie auf Ihrem Notizheft: Wer könnte Ihnen bei diesem Weg helfen? Wer könnte Ihnen Mut machen, Sie verstehen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ist Ihnen bewusst, welche Vorteile diese Lebensphase für Sie hat?\r\nNehmen Sie sich wieder etwas zu schreiben und sammeln, Sie sämtliche Vorteile, die Ihen einfallen.\r\nFolgende als Inspiration:\r\n* Keine Diskussionen mit einem Partner über Kleinigkeiten oder Nichtigkeiten.\r\n* Kein unerfüllter Sex, Stress im Bett.\r\n* Ruhe und Zeit, wenn Sie es wollen oder Aktivitäten auf die Sie Lust haben, wann und wie Sie es wollen.\r\n* Kein Reinreden, kommentiert oder schikaniert werden.\r\n* Keine unangenehmen Gefühle wie Eifersucht oder Scham, wenn der Andere etwas Dummes gemacht hat.\r\n* etc.\r\nWas fällt Ihnen noch ein? Schreiben Sie es auf! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auch wenn dieses Ziel eher selten ist unter unseren Usern, haben wir Experten, die sich mit Coaching zu Lebensphasen ohne Beziehung und Sex gut auskennen. Sie können sich also auch gern zur Unterstützung an uns wenden oder wenn Sie weitere Fragen haben. Wir hoffen Sie sind auf einem guten Weg. Wie erwähnt, wenn irgend etwas schwierig ist oder anders läuft als geplant, wenden Sie sich einfach an uns!\n\nHier endet dieses Coaching",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

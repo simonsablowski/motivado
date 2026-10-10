@@ -1,0 +1,269 @@
+{
+  "key": "bez-einstellung-affaere",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching \"Richtiger Mindset für eine Affäre\"\r\n\r\nErfolg, Spaß, eine gute Zeit, Leichtigkeit. All das kommt mit der richtigen Einstellung, dem richtigen Mind-Set viel leichter und viel eher. Wichtig ist, dass Sie es selbst für möglich halten, den Anderen für sich gewinnen zu können. Darum wird es in diesem Coaching gehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Je öfter man eine bestimmte Haltung einnimmt oder einen Gedanken denkt, desto tiefer gräbt er sich in unser Gehirn und desto überzeugter ist man selbst davon, dass daran ja etwas dran sein wird. Deshalb ist es ganz wichtig, dass Sie sich selbst im Alltag beobachten und festhalten, wie oft Sie eher ungünstige Gedanken haben. Wann immer Sie etwas denken wie \"Ich bin nicht gut genug für diese Person.\" oder \"Bei mir klappts nicht.\" oder \"Der oder Die will eh nichts von mir.\" machen Sie bitte einen Strich auf einer Liste und setzen Sie so aktiv und klar wie möglich dagegen \"Tausende von Menschen erobern täglich irgendwelche Typen oder Frauen! Solange ich es probiere, habe ich eine gute Chance! Später werde ich über mich schmunzeln.\" Dann stellen Sie sich vor, wie Sie die Person (oder falls keine konkrete Person vorhanden ist, irgendeine attraktive Person) erobert haben und wie gut sich das anfühlen wird. \r\nSo können Sie Ihr Gehirn Schritt für Schritt daran gewöhnen, in eine konstruktivere Richtung zu denken. Das wiederum stärkt Ihre positive Einstellung und Ihre Ausstrahlung und bringt Sie Ihrem Ziel schon ein großes Stück näher.\r\nHolen Sie sich bitte jetzt ein Papier oder ein Notizbuch, das Sie immer bei sich tragen können, und legen Sie Ihre Strichliste an!",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit es Ihnen im entscheidenen Moment gelingt, Ihre negativen Gedanken abzustellen und wieder in eine positive Richtung zu schauen, möchten wir nun eine kleine Übung mit Ihnen machen.\r\nBitte stellen Sie sich jetzt 5 Minuten lang vor, Sie hätten Ihr Ziel erreicht und eine großartige Affäre mit einer tollen Person. Versuchen Sie sich genau auszumalen, wie die Person sich verhält, was Sie zusammen unternehmen und so weiter. Da Gefühle und Gedanken eng zusammenhängen wird sich in der Regel ein positives Gefühl bei dieser Vorstellung einstellen. Wenn Sie dagegen denken \"Ach, das wird eh nichts, das schaff ich nicht\", werden Sie sich vermutlich eher traurig und erschöpft fühlen und wenig Energie in die Erreichung Ihres Ziels einbringen können. Deswegen ist es so wichtig, das positive Denken zu trainieren. Und das machen wir jetzt. Los geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "08dcf22927e940f6b1ae0ee0a4a0cca6",
+      "title": "Wie ist es Ihnen ergangen? Wie fühlen Sie sich jetzt?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Es hat sich nichts geändert."
+          },
+          {
+            "key": 2,
+            "value": "Ich kann mir nun besser vorstellen, in naher Zukunft eine Affäre zu erleben."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "08dcf22927e940f6b1ae0ee0a4a0cca6 is 1"
+        },
+        {
+          "to": "n006",
+          "if": "08dcf22927e940f6b1ae0ee0a4a0cca6 is 2"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "addacc44d58143d4acdcd14d6338b3af",
+      "title": "Haben Sie sich wirklich bemüht, die Aufgabe zu erfüllen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein, ich habe die Aufgabe eher halbherzig durchgeführt"
+          },
+          {
+            "key": 2,
+            "value": "Ja, ich habe alles gegeben"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "addacc44d58143d4acdcd14d6338b3af is 1"
+        },
+        {
+          "to": "n008",
+          "if": "addacc44d58143d4acdcd14d6338b3af is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wunderbar! Das freut uns für Sie. Wir empfehlen Ihnen, diese Übung regelmäßig zu wiederholen und Ihr Gehirn sozusagen im positiven Denken zu trainieren. Eine weitere Übung, die sich als sehr hilfreich erwiesen hat, ist es, sich folgenden Satz selber zu sagen: \"Ich erlaube mir tolle Affären oder Abenteuer zu haben.\" Idealerweise gehen Sie täglich spazieren oder laufen und machen dabei 10 Minuten lang die klare Übung mit diesem Gedanken. Natürlich können Sie den Satz auch nach Ihren Vorstellungen anpassen. Sie können ihn laut aufsagen und nur denken. Wichtig ist, dass Sie lernen, daran zu glauben, dass Sie Ihr Ziel erreichen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie bei dieser kleinen Übung schon nicht Vollgas geben, wieviel Mühe machen Sie sich dann, wenn Sie eine tolle Person vor sich haben und es mal kurz anstrengend wird? Tolle Personen wollen verführt werden, so wie Sie selbst ja auch. Wie ernst meinen Sie es also mit Ihrem Wunsch nach einer tollen Affäre? Gehören Sie zu den Leuten, die hoffen und dann denken, alles fällt Ihnen in den Schoß oder es klappt eh nicht? So hätten Sie weder Ihren Führerschein noch sonst irgendwas geschafft. Geschenkt bekommt man nur Luft, um den Rest müssen Sie sich bemühen. Raus aus dem durchschnittlichen Verhalten und rein in tolle Affären! Wir haben noch Einiges vor! \r\nWir empfehlen Ihnen deshalb, die Übung nun noch einmal mit voller Energie durchzuführen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vermutlich brauchen Sie an dieser Stelle noch etwas mehr Übung. Sie haben sich vielleicht über einen sehr langen Zeitraum immer wieder bewusst oder unbewusst die Botschaft gesendet, dass Sie eine Affäre nicht erreichen können. Insofern ist es nicht verwunderlich, dass Veränderung an dieser Stelle Zeit braucht. Ihr Gehirn muss sich erst daran gewöhnen, dass es dieser neuen Information auch wirklich trauen kann. Deshalb empfehlen wir Ihnen, diese Übung in den nächsten 21 Tagen täglich durchzuführen. \r\nEine weitere Übung, die sich als sehr hilfreich erwiesen hat, ist es, sich folgenden Satz selbst zu sagen: \"Ich erlaube mir tolle Affären oder Abenteuer zu haben.\" Idealerweise gehen Sie täglich spazieren oder laufen und machen dabei 10 Minuten lang die klare Übung mit diesem Gedanken. Natürlich können Sie den Satz auch nach Ihren Vorstellungen anpassen. Sie können ihn laut aufsagen und nur denken. Wichtig ist, dass Sie lernen daran zu glauben, dass Sie Ihr Ziel erreichen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es gibt zwei Aspekte, die Ihnen dabei im Weg stehen könnten, Optimismus und Souveränität in Bezug auf Ihre Beziehungen/Affären zu entwickeln. Zum einen können Menschen, die uns nahestehen einen enormen Einfluss darauf haben, wie wir uns selber sehen und wahrnehmen. Fällt das Urteil der Anderen dabei negativ aus, fällt es uns schwer, aus eigener Kraft Selbstbewusstsein aufzubauen.\r\nGenauso können uns frühere negative Erfahrungen hemmen. Wenn es damals schief gelaufen ist, warum sollte es dann heute klappen? \r\nUm diesen zwei Dingen entgegenzuwirken machen Sie bitte die folgenden Übungen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "d9a62169a40f441b86413689b398c936",
+      "title": "Wie möchten Sie fortfahren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Die Übung wiederholen"
+          },
+          {
+            "key": 2,
+            "value": "Ohne Wiederholung weitermachen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "d9a62169a40f441b86413689b398c936 is 1"
+        },
+        {
+          "to": "n012",
+          "if": "d9a62169a40f441b86413689b398c936 is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gehen Sie nahe Verwandte und Familie durch und schreiben Sie zu jedem auf, ob er oder sie nicht an \r\n(a) tolle oder aufregende Affären glaubt,\r\n(b) ob Sie persönlich finden, dass die Affären von diesen Freunden null komma null attraktiv, geschweige denn ein Vorbild sind, oder kaum vorhanden.\r\n(c) Geben irgendwelche dieser Leute Ihnen das Feedback, dass Sie es in puncto Beziehung oder Affären nicht bringen, bzw. schimpft über Sie und Ihre Beziehungs- oder Affären-Aktivitäten in der Vergangenheit?",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine weitere Übung, die sich als sehr hilfreich erwiesen hat, ist es, sich folgenden Satz selbst zu sagen: \"Ich erlaube mir tolle Affären oder Abenteuer zu haben.\" Idealerweise gehen Sie täglich spazieren oder laufen und machen dabei 10 Minuten lang die klare Übung mit diesem Gedanken. Natürlich können Sie den Satz auch nach Ihren Vorstellungen anpassen. Sie können ihn laut aufsagen und nur denken. Wichtig ist, dass Sie lernen daran zu glauben, dass Sie Ihr Ziel erreichen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Erkennen Sie, dass Sie hier nicht von Anderen auf sich schließen dürfen!\r\nTrennen Sie sich und distanzieren Sie sich von allen dummen Aussagen, die irgendwelche Ihnen nahstehenden Leute mal gemacht haben. Das ist nur deren Realität und hat mit Ihnen nichts zu tun!\r\nEntscheiden Sie jetzt in Ihrem Kopf und schreiben Sie es gerne auch auf: \"Ja, ich kann, egal was um mich herum passiert ist und andere denken, ein ganz wunderbare, glückliche Affäre oder tolle, aufregende attraktive Affären haben!\" (nehmen Sie Wörter, die Ihnen am besten gefallen, falls diese hier nicht so passen!)",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Trennen Sie sich von Ihren eigenen vergangenen schlechten Erfahrungen. Ein Baby, das zig-mal hingefallen ist, kann auch irgendwann laufen. Und das selbe gilt für das Kennenlernen attraktiver Menschen oder spannender Affären. Auch Sie können das lernen und irgendwann leicht aus dem Ärmel schütteln. Das Sprichwort dazu ist : \"The past does not equal the future!\" (Die Vergangenheit ist nicht gleich die Zukunft!)\r\nDinge verändern sich und können verbessert werden. Alleine dass Sie hier sind, ist der beste Beweis dafür, dass Sie das auch ernst meinen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Immer wenn Sie in die Peer- oder Vergangenheitsfalle tappen, unterbrechen Sie ihre Gedanken so schnell wie möglich:  Egal was um Sie herum passiert, oder wie es in der Vergangenheit war, dieses Mal kann es auch bei Ihnen großartig laufen!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit sind wir am Ende dieses Coachings angelangt. Wir empfehlen Ihnen die Übungen, die wir Ihnen hier an die Hand gegeben haben. weiter zu machen, vor allem, wenn Sie eine konkrete Person kennenlernen, mit der Sie sich eine Affäre wünschen. Viele Erfolg dabei! Für Rückfragen und Unterstützung stehen Ihnen unsere Experten gerne zur Verfügung. Unsere Kontaktdaten finden Sie unter \"Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

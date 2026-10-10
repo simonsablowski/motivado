@@ -1,0 +1,227 @@
+{
+  "key": "bez-lk-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "fb25fe794db24d35b5bbc159fa90ef5a",
+      "title": "Wie lange haben Sie schon Liebeskummer?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_TeaserLiebeskFrage_V1.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "0-4 Wochen"
+          },
+          {
+            "key": "2",
+            "value": "1-6 Monate"
+          },
+          {
+            "key": "3",
+            "value": "über 6 Monate"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "fb25fe794db24d35b5bbc159fa90ef5a is '3'"
+        },
+        {
+          "to": "n003",
+          "if": "fb25fe794db24d35b5bbc159fa90ef5a is '1'"
+        },
+        {
+          "to": "n004",
+          "if": "fb25fe794db24d35b5bbc159fa90ef5a is '2'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "021f4029788843e0945e71a23231e900",
+      "title": "Wie ist der Liebeskummer entstanden?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_V3B.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Trennung von einem Partner"
+          },
+          {
+            "key": "2",
+            "value": "Große Enttäuschung (z.B. Betrug des Partners)"
+          },
+          {
+            "key": "3",
+            "value": "Unerwiderte/unerfüllte Liebe"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "021f4029788843e0945e71a23231e900 is '1'"
+        },
+        {
+          "to": "n006",
+          "if": "021f4029788843e0945e71a23231e900 is '3'"
+        },
+        {
+          "to": "n007",
+          "if": "021f4029788843e0945e71a23231e900 is '2'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "29610c7751b5495e9bf77004bde4982f",
+      "title": "Wie ist der Liebeskummer entstanden?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_V4.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Trennung von einem Partner"
+          },
+          {
+            "key": "2",
+            "value": "Große Enttäuschung (z.B. Betrug des Partners)"
+          },
+          {
+            "key": "3",
+            "value": "Unerwiderte/unerfüllte Liebe"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "29610c7751b5495e9bf77004bde4982f is '3'"
+        },
+        {
+          "to": "n007",
+          "if": "29610c7751b5495e9bf77004bde4982f is '2'"
+        },
+        {
+          "to": "n005",
+          "if": "29610c7751b5495e9bf77004bde4982f is '1'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "4c06b9c6490f4d0da295c929e6a03b12",
+      "title": "Wie ist der Liebeskummer entstanden?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_V3A.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Trennung von einem Partner"
+          },
+          {
+            "key": "2",
+            "value": "Große Enttäuschung (z.B. Betrug des Partners)"
+          },
+          {
+            "key": "3",
+            "value": "Unerwiderte/unerfüllte Liebe"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "4c06b9c6490f4d0da295c929e6a03b12 is '1'"
+        },
+        {
+          "to": "n006",
+          "if": "4c06b9c6490f4d0da295c929e6a03b12 is '3'"
+        },
+        {
+          "to": "n007",
+          "if": "4c06b9c6490f4d0da295c929e6a03b12 is '2'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_V1A.flv"
+        },
+        "key": "bez-lk-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Buy",
+      "key": null,
+      "title": "buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_V1C.flv"
+        },
+        "key": "bez-lk-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Buy",
+      "key": null,
+      "title": "buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_V1B.flv"
+        },
+        "key": "bez-lk-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

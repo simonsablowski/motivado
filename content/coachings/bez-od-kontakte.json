@@ -1,0 +1,268 @@
+{
+  "key": "bez-od-kontakte",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Unwissenheit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Fixierung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Ungeduld",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Los geht's: Übersicht der Möglichkeiten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Vorbeischauen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Nachrichten u Chatten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Special Features",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Timimg",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Verfolgen  Sie Ihre Erfolge",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Fake, Betrüger",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Anmelden und Kosten tragen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Wann machen Sie Ihre \"Plattform-Fahrstunden\"?",
+      "text": "Nehmen Sie sich Ihren Kalender und planen Sie jetzt, wann Sie Ihre \"Plattform-Fahrstunden\" machen wollen? D.h. wann wollen Sie in den nächsten Tagen auf einer Plattform auskennen lernen?",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

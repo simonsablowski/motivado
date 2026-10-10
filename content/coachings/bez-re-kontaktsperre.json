@@ -1,0 +1,107 @@
+{
+  "key": "bez-re-kontaktsperre",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EXZurueck_Kontaktsperre_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Erstmal Stille",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EXZurueck_Kontaktsperre_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Und wenn der Andere sich in der Kontaktsperre meldet?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Wie der Andere sich meldet",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EXZurueck_Kontaktsperre_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Angst vergessen zu werden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EXZurueck_Kontaktsperre_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Das war unser Coaching zur Kontaktsperre. Los geht's!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

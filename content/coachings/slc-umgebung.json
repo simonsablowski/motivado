@@ -1,0 +1,606 @@
+{
+  "key": "slc-umgebung",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Schlafumgebung Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Info Schlafzimmer",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "0fa20de3241148c382ed05ab57c5fda1",
+      "title": "Alle diese hier aufgelisteten Dinge können Ihren Schlaf negativ beeinflussen. Wählen Sie eines aus, um mehr darüber zu erfahren. Sie können jederzeit an diesen Punkt zurückkehren.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V3.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 6
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Temperatur"
+          },
+          {
+            "key": "2",
+            "value": "Helligkeit und Licht"
+          },
+          {
+            "key": "3",
+            "value": "Lärm, Geräusche und Lautstärke"
+          },
+          {
+            "key": "4",
+            "value": "Elektrogeräte in Ihrem Schlafzimmer"
+          },
+          {
+            "key": "5",
+            "value": "Schlafstätte (Bett, Sofa etc)"
+          },
+          {
+            "key": "6",
+            "value": "Partner"
+          },
+          {
+            "key": "7",
+            "value": "Medizinisch gesundheitliche Aspekte"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "0fa20de3241148c382ed05ab57c5fda1 is '4'"
+        },
+        {
+          "to": "n005",
+          "if": "0fa20de3241148c382ed05ab57c5fda1 is '2'"
+        },
+        {
+          "to": "n006",
+          "if": "0fa20de3241148c382ed05ab57c5fda1 is '3'"
+        },
+        {
+          "to": "n007",
+          "if": "0fa20de3241148c382ed05ab57c5fda1 is '5'"
+        },
+        {
+          "to": "n008",
+          "if": "0fa20de3241148c382ed05ab57c5fda1 is '6'"
+        },
+        {
+          "to": "n009",
+          "if": "0fa20de3241148c382ed05ab57c5fda1 is '1'"
+        },
+        {
+          "to": "n010",
+          "if": "0fa20de3241148c382ed05ab57c5fda1 is '7'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "cf9221e4a460449aa9c7166e6efb66da",
+      "title": "Welche Elektrogeräte haben Sie in Ihrem Schlafzimmer? (Gehen Sie der Reihe nach durch)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V4.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "TV"
+          },
+          {
+            "key": "2",
+            "value": "PC"
+          },
+          {
+            "key": "3",
+            "value": "Stereoanlagen"
+          },
+          {
+            "key": "4",
+            "value": "Telefon"
+          },
+          {
+            "key": "5",
+            "value": "Wecker"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "cf9221e4a460449aa9c7166e6efb66da is '1'"
+        },
+        {
+          "to": "n012",
+          "if": "cf9221e4a460449aa9c7166e6efb66da is '2'"
+        },
+        {
+          "to": "n013",
+          "if": "cf9221e4a460449aa9c7166e6efb66da is '3'"
+        },
+        {
+          "to": "n014",
+          "if": "cf9221e4a460449aa9c7166e6efb66da is '4'"
+        },
+        {
+          "to": "n015",
+          "if": "cf9221e4a460449aa9c7166e6efb66da is '5'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Dunkelheit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Lärm und Geräusche",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Schlafzimmer, Bett",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Partner als Störfaktor",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Temperatur",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Hygiene Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Fernseher Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Der Computer Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Stereoanlage Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Telefon Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Der Wecker",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Dunkel Schlafen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Options",
+      "key": "510b20548d034835ad4898a82808a545",
+      "title": "Weitere Punkte im Schlafzimmer?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "510b20548d034835ad4898a82808a545 is '1'"
+        },
+        {
+          "to": "n021",
+          "if": "510b20548d034835ad4898a82808a545 is '2'"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Kopfkissen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Die Schlaftemperatur",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Options",
+      "key": "6d654a31fcd347ec9fd78d826e73c26d",
+      "title": "Weitere Elektrogeräte im Schlafzimmer?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V9.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n023",
+          "if": "6d654a31fcd347ec9fd78d826e73c26d is '2'"
+        },
+        {
+          "to": "n004",
+          "if": "6d654a31fcd347ec9fd78d826e73c26d is '1'"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Frischluft",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "Matratze",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Entfernen Sie Elektrogeräte aus Ihrem Schlafzimmer",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Outro Schlafumgebung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Video",
+      "key": null,
+      "title": "Bettdecke",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUmgeb_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Options",
+      "key": "a7d3a76da94d478298282a4e9c78c8e6",
+      "title": "Womit wollen Sie weitermachen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Weitere Punkte in Ihrem Schlafzimmer"
+          },
+          {
+            "key": "2",
+            "value": "Der Partner im Schlafzimmer"
+          },
+          {
+            "key": "3",
+            "value": "Den Bereich Schlafumgebung verlassen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021",
+          "if": "a7d3a76da94d478298282a4e9c78c8e6 is '3'"
+        },
+        {
+          "to": "n003",
+          "if": "a7d3a76da94d478298282a4e9c78c8e6 is '1'"
+        },
+        {
+          "to": "n008",
+          "if": "a7d3a76da94d478298282a4e9c78c8e6 is '2'"
+        }
+      ]
+    }
+  }
+}

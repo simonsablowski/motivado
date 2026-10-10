@@ -1,0 +1,169 @@
+{
+  "key": "bez-eroberung-email",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching \"E-Mail/Sms\".\r",
+      "text": "Viele Menschen denken, dass, wenn Sie einmal die Telefon-Nummer oder E-Mail-Adresse einer neuen Bekanntschaft haben, der Rest ganz von selbst geht. Aber man kann an diesem Punkt auf dem Weg zum Date noch viel falsch machen und am Ende ohne Verabredung dastehen, obwohl man sich doch auf der Party so gut verstanden hat. Und Jahre später wundern sie sich, dass nie etwas daraus geworden ist.\n\nWenn Sie sich schon mal gefragt haben, wie Sie zu Ihrer neuen Bekanntschaft am besten Kontakt aufbauen und sich zu einem Treffen verabreden, sind Sie hier genau richtig. In unserem Coaching dreht es sich vor allem um die Fragen, was macht eine gute E-Mail aus, wann, wie und was sollten Sie Sie in Ihrer E-Mail schreiben und natürlich auch, wie man das Ganze auf die wesentlich kürzeren Sms überträgt. \n\nWir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig machen, auf die er Andere gerne antwortet und unterstützen Sie auf Ihrem Weg zum Date mit Ihrer neuen Bekanntschaft.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Allgemeines",
+      "text": "Timing\nBevor Sie Ihre E-Mail oder Sms schreiben, sollen Sie ein grundlegende Punkte beachten. Dazu gehört, dass Sie erst einmal mindestens drei oder vier Tage vergehen lassen, bevor Sie sich bei Ihrer Bekanntschaft melden. Die E-Mail sollte nicht länger als vier oder fünf Zeilen lang sein. Bei einer Sms sind Sie ja ohnehin in der Zeichenlänge eingeschränkt und Sie sollten diese Beschränkung auch berücksichtigen, statt gleich auf einmal mehrere Sms zu versenden.\n\nAntwort fordern\nAußerdem denken Sie beim schreiben Ihrer Nachricht immer daran, dass Sie dem Anderen immer einen Grund geben sollten, Ihnen zu antworten. Das bedeutet für Sie, dass Sie dem Anderen unbedingt Fragen stellen oder ihn herausfordern sollten. Dazu später etwas mehr.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Don'ts",
+      "text": "Slang und Dialekt\nAußerdem sollten Sie immer im Kopf haben, was Sie in Ihrer E-Mail unbedingt vermeiden sollten. Dazu gehört, dass Sie keinen Slang oder Dialekt verwenden. Achten Sie auch auf korrekte Rechtschreibung und Grammatik, denn Ihre Nachricht wirkt wie Ihre Visitenkarte. \n\nKorrekte Rechtschreibung\nWenn der Andere beim Lesen Ihrer E-Mail über Rechtschreibfehler stolpert, ist der erste Eindruck, den Sie seit Ihrem Kennenlernen hinterlassen, ein eher schlechter. Ohne Störungen beim Lesen kann sich der Anderen besser auf den Inhalt Ihrer Nachricht konzentrieren. Den Entwurf Ihrer E-Mail können Sie auch einfach im Textverarbeitungsprogramm Ihrer Wahl schreiben, das es Ihnen leichter macht, Rechtschreibfehler zu erkennen.\n\nUnd ein weiterer wichtiger Punkt ist, dass Sie nicht versuchen, sich mit dem Anderen über Facebook oder anderen Sozialen Netzwerken zu befreunden. Zum Einen könnte der Andere ein solches Verhalten in diesem Fall interpretieren, als würden Sie ihm nachstellen. Und zum Anderen könnte Ihr Profil nicht gefallen oder der Andere sieht keinen Grund mehr, Ihnen zurückzuschreiben, weil Sie ja bereits befreundet sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Begrüßung\r\n\r\n",
+      "text": "Die Begrüßung sollten Sie möglichst persönlich gestalten. Wenn Sie den Namen des Anderen kennen, sprechen Sie ihn natürlich mit Namen an: \"Hallo/Hi Sarah\" Benutzen Sie kein \"Hey\", \"Ey\" oder auch \"Liebe/r...\" Kennen Sie den Namen des Anderen nicht, können Sie bereits hier oder zumindest gleich an die Begrüßung anschließend, den Rückbezug zur Situation Ihrer Begegnung herstellen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Der Hauptteil\r\n\r\n",
+      "text": "Wie bereits bei der Begrüßung angesprochen, sollten Sie den Rückbezug zu der Gelegenheit herstellen, an der Sie sich kennengelernt haben. Zum Beispiel: \"Hallo Anna, die Party war noch spitze. Schade, dass Du schon weg musstest.\" \n\nEgal in welcher Situation Sie den Anderen kennengelernt haben, berichten Sie kurz davon, was Sie nach dem Treffen noch gemacht haben und dass Sie Spaß dabei hatten. Transportieren Sie, dass Sie vielfältige soziale Kontakte haben, statt dem Anderen zu sagen, dass es ohne ihn langweilig war.\n\nWenn Sie dem Anderen schreiben, geben Sie ihm einen Grund Ihnen zu antworten, bzw. Ihnen antworten zu wollen. Das heißt, dass Ihre E-Mail eine Aufforderung zum Handeln beinhalten sollte. Stellen Sie Fragen, aber nicht zu viele, dass der Andere sich bedrängt fühlen könnte. Erkundigen Sie sich nach dem Abend der Party, dem Kurztrip in Hamburg (wenn Sie den Anderen im Zug kennengelernt haben) oder dem Hund usw.\n\nWenn Sie eine Sms schreiben, müssen Sie alle diese Dinge natürlich auf wesentlich weniger Platz vereinen. Schreiben Sie daher nach der Begrüßung nur kurz eine Erinnerung, wo Sie sich kennengelernt haben und stellen Sie dann eine Frage.\n\"Hi Thomas, nachdem Du ausgestiegen bist, hat mich übrigens den Rest der Fahrt ein ziemlich verrückter Typ zugetextet. Ich glaube, er hielt sich für den Papst. Wie war Dein Wochenende in Heidelberg?\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Der Schluss\r\n\r\n",
+      "text": "Der Schluss einer Nachricht ist der Punkt, an dem sich der Andere entscheidet, ob er antwortet oder nicht. Daher ist eine leichte Verabschiedung angebracht, an statt den Anderen mit Sätzen wie \"Bitte, schreib mir unbedingt zurück\" oder \"Ich warte auf Deine Antwort\" unter Druck zu setzen. Verabschieden Sie sich vielleicht mit \"sonnige Grüße\" oder \"schöne Grüße\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Fordern Sie den Anderen heraus",
+      "text": "Den Anderen dazu zu bringen, Ihnen zurückzuschreiben, gelingt besonders dann, wenn Sie es schaffen, Ihr Gegenüber in Ihrer Nachricht etwas Herauszufordern. Wenn Sie sich also an Gesprächsthema erinnern, aus dem Sie einem kleinen und sanften Seitenhieb auf den Anderen machen können, wird sich der Andere in der Defensive sehen und einen Grund mehr haben, zu antworten, weil er sich rechtfertigen will. \"Bist du nicht viel zu jung, um schon 3 Jahre im Ausland gearbeitet zu haben?\" \"Glaubst Du wirklich, dass Du so gut kochen kannst, wie Du behauptest?\"\nWeiter Beispiele zu diesem Thema finden Sie in unserem Coaching \"Locken und Reizen\", dass Sie anschließend an dieses Coaching direkt auswählen können.\n\nIhr Gegenüber in einer solchen Art und Weise herauszufordern, benötigt allerdings viel Fingerspitzengefühl und Sie sollten dies nicht übers Knie brechen. Wenn sich kein Thema anbietet, lassen Sie es einfach weg. Ihre E-Mail ist auch ohne interessant genug und so gehen Sie nicht das Risiko ein, den Anderen vielleicht vor den Kopf zu stoßen. \n\nIn unserem Coaching \"Locken und Reizen\" gehen wir intensiv darauf ein, wie Sie Ihr Gegenüber herausfordern können. Wenn Sie dieses Coaching gerne durchlaufen möchten, können Sie dies am Ende dieses Coachings direkt auswählen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Die Politur",
+      "text": "Bevor Sie aber nun Ihre E-Mail abschicken, nehmen Sie sich die Zeit und lesen Sie sich Ihre Nachricht nochmals durch. Haben Sie Rechtschreibfehler gemacht oder vielleicht ein Wort vergessen? Stimmen die Satzzeichen? Haben Sie vielleicht unbewusst Umgangssprache verwendet oder hat sich doch zuviele Smilies eingeschlichen? Denken Sie daran: weniger ist mehr.\n\nFalls dies der Fall sein sollte, können Sie das jetzt noch problemlos ändern. Wie bereits erwähnt, hinterlässt fehlerhafte Rechtschreibung oder mangelnde Grammatik einen eher schlechten Eindruck. Die zwei Minuten, die Sie benötigen, um Ihre E-Mail nochmals zu lesen, sind also durchaus gut investiert.\n\nLassen Sie sich außerdem ein wenig Platz, also lassen Sie nach der Begrüßung und vor dem Schluss eine Leerzeile, um eine ästhetisch ansprechende Nachricht zu verfassen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Nach-Mail",
+      "text": "Falls der Andere auf Ihre E-Mail oder Sms nicht reagieren sollte und Sie das Bedürfnis haben, noch einmal nachzuhaken, sollten Sie dies frühestens nach vier oder fünf Tagen tun. Geben Sie dem Anderen etwas Zeit, seine E-Mails abzurufen oder auf Ihre Sms zu reagieren. Sie können nicht wissen, ob der Andere vielleicht gerade viel beruflichen Stress etc. hat. Wenn Sie dann den Fehler machen und zu früh nachhaken, warum der Andere sich nicht gemeldet hat, könnte sich Ihr Gegenüber schnell unter Druck gesetzt fühlen.\n\nHat der Andere schon eine Weile nicht auf Ihre Nachricht reagiert, fragen Sie nach. Sie hatten bereits Kontakt zueinander und fanden sich spannend, also lassen Sie sich von einer ausbleibenden Antwort verunsichern. Schreiben Sie nur eine kurze Erinnerung, dass Sie sich bereits einmal gemeldet haben. \"Hallo Anna, vielleicht ist meine erste E-Mail untergegangen, aber ich würde mich über die/eine Antwort freuen. Grüße, Marcus\" Sie können den Anderen auch etwas herausfordern, indem Sie schreiben: \"Hallo, Erde an Anna. Meine Nachricht ist doch hoffentlich im ganzen Arbeitsstress nicht untergegangen? Grüße, Marcus\"\n\nHalten Sie Ihre E-Mail oder Sms so kurz wie möglich und schreiben Sie statt \"schöne Grüße\" zum Beispiel nur noch \"Grüße\" ans Ende Ihrer Nachricht. Gerade wenn Sie in dieser Nachricht darauf hinweisen, dass Sie sich über \"die\" Antwort statt \"Deine\" Antwort gefreut hätten, kann der Andere nicht genau unterschieden, ob Sie vielleicht tatsächlich nur gerne eine Antwort auf Ihre Frage/n haben wollen. Das nimmt den Druck au der Situation.\n\nIn jedem Fall sollten Sie eine Nach-Mail oder Sms schreiben, denn wenn Sie zu früh aufgeben, werden Sie nicht wissen, ob der Andere vielleicht nur Stress hatte. Sie haben nichts zu verlieren und falls auch auf Ihre Nach-Mail keine Reaktion kommt, haben Sie zumindest alles getan.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "E-Mail-Verkehr",
+      "text": "Wenn der Andere auf Ihre Nachricht reagiert, ist dies nicht das Signal dafür, dass Sie sich jetzt schreiben können, was, wie viel und wann Sie wollen. Das Schlüsselwort für einen guten E-Mail-Kontakt heißt Angleichung.\n\nDas bedeutet, dass Sie, wenn der Andere für seine Antwort 5 Tage gebraucht hat, Sie sich mindestens 80% der Zeit lassen, um zurückzuschreiben. Das bedeutet für diesen Fall, dass Sie Ihrerseits frühestens nach vier Tagen antworten.\n\nAngleichung heißt aber auch, dass Sie sich in Bezug auf die Länge des Nachrichtentextes oder die Art des Schreibens dem Anderen anpassen. Verwendet der Andere Smilies, können Sie diese auch benutzen; schreibt Ihr Gegenüber in einem Dialekt, können Sie dies auch tun, sofern Sie damit einigermaßen vertraut sind. Wenn der Andere in seinen Nachrichten nicht besonders viel von sich selbst preis gibt und eher geheimnisvoll bleibt, gestalten Sie Ihre Antwort auch eher etwas zurückhaltender, wenn Sie von sich erzählen. \n\nWichtig für Ihren Austausch per E-Mail oder Sms ist, dass Sie Ihre Nachrichten weiterhin mit Fragen etc. enden lassen, die den Anderen dazu bringen und auffordern, Ihnen zu antworten. Es ist wichtig, dass Sie Fragen, die Sie auf die Antwort des Anderen beziehen, gerade am Ende der E-Mail einfließen lassen, denn der Anderen bleibt so mit diesen Fragen im Kopf zurück.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Eskalation zum Date",
+      "text": "Haben Sie mit Ihrer Bekanntschaft einen E-Mail oder Sms-Kontakt etabliert, sollten Sie ungefähr ab die der vierten Antwort auf ein nächstes Treffen hinarbeiten. Um nicht in der Freundschaftsfalle zu landen, ist es wichtig, dass Sie Ihrem Gegenüber zu verstehen geben, dass Sie an mehr als nur einem freundschaftlichen E-Mail- oder Sms-Kontakt interessiert sind. \"Ich bin eigentlich nicht so der Typ für ewig langes Schreiben - lass und doch auf einen Kaffee treffen.\"\n\nWir möchten Ihnen an dieser Stelle nochmals unser Coaching \"Locken und Reizen\" ans Herz legen, in dem wir Ihnen zeigen, wie Sie Ihr Gegenüber herausfordern können und ihm vor allem zeigen, dass Sie an mehr als nur einer Bekanntschaft oder Freundschaft interessiert sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching \"E-Mail und Sms\" durchlaufen. Wir hoffen, Sie haben nun einige Strategien dafür , wie Sie am besten eine E-Mail schreiben. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

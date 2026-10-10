@@ -1,0 +1,523 @@
+{
+  "key": "kar-potenzial",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Was kann ich gut?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Staerken_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Arbeitswelt fordert vom heutigen Arbeitnehmer, dass er nicht nur über Fachwissen verfügt, sondern auch eine ganze Reihe weiterer Stärken mitbringt. \r\n\r\nUm ein möglichst vollständiges Bild von all Ihren Vorzügen zu bekommen, unterscheiden wir im Folgenden zwischen fachlichen, personalen, sozialen und methodischen Kompetenzen (= Ihren Stärken).\r\nBitte lassen Sie sich von den Begriffen nicht verunsichern - wir werden die einzelnen Bereiche Schritt für Schritt mit Ihnen durchgehen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre fachlichen Kompetenzen\r\n\r\nBeginnen wir mit Ihren Fachkenntnissen und Qualifikationen. Diese beinhalten das Wissen, das Sie brauchen, um Ihren Job gut zu machen. Sie haben es meist in der Ausbildung, dem Studium oder durch Fortbildungen erworben und im Laufe Ihres Berufslebens erweitert. \r\n\r\nEin Beispiel:\r\nAls Projektleiter/in benötigen Sie für Ihre Arbeit Kenntnisse im Controlling und haben zusätzlich eine Qualifikation im Bereich Qualitätsmanagement erworben. \r\n\r\nAls Vertriebsassistent/in haben Sie in der Regel eine kaufmännische Ausbildung im Bereich Handel abgeschlossen, während derer Sie die fachlichen Kompetenzen “Marketingkenntnisse” und “Kalkulation erstellen” erworben haben. Vielleicht beherrschen Sie zusätzlich spezielle Computerkenntnisse oder sprechen mehrere Sprachen.\r\n\r\nUnser Tipp: \r\nAlle fachlichen Kompetenzen, die über Ihre Ausbildung hinaus gehen, können Sie später in Ihrem Lebenslauf unter der Rubrik 'Qualifikationen und Kenntnisse' einbauen (z.B. Fortbildungen, Seminare, Software-Kenntnisse etc.).",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "kar_potenzial_fachkenn",
+      "title": "Über welche Fachkenntnisse verfügen Sie? Notieren Sie nun bitte mindestens fünf! ",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "List",
+      "key": "kar_potenzial_fachkenn",
+      "title": "Bitte ergänzen Sie nun Ihre Kompetenzen, um Beispiele, wann Sie diese Kenntnisse oder Qualifikationen angewendet haben!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre personalen und sozialen Kompetenzen \r\n\r\nNach den harten Fakten kommen wir nun zu den “soft skills”:\r\nSoziale Kompetenzen sagen etwas darüber aus, wie Sie mit anderen Menschen umgehen. \r\nArbeiten Sie z.B. im Team gut mit anderen zusammen, schaffen Sie es, andere zu überzeugen oder können Sie sich gut in andere hineinversetzen?  \r\n\r\nPersonale Kompetenzen beziehen sich dagegen auf Aspekte Ihrer Persönlichkeit, also ob Sie z.B. flexibel sind, gerne gründlich arbeiten oder viel Eigeninitiative mitbringen.\r\n \r\nIm nächsten Schritt möchten wir Sie bitten, jeweils fünf soziale und personale Kompetenzen festzuhalten, die Sie sich selbst zuschreiben. Notieren Sie bitte auch wieder Beispiele, anhand derer Sie Ihre Kompetenzen im Gespräch belegen könnten.\r\nNatürlich decken die unten aufgeführten Listen nicht alle Kompetenzen ab. Wenn Ihnen also etwas einfällt, das Sie nicht in der Liste finden, schreiben Sie es bitte auch auf.\r\nWenn Sie Hilfe benötigen, scheuen Sie sich nicht, unsere Experten zu kontaktieren, die Ihnen schnell weiterhelfen.\r\n\r\nSoziale Kompetenzen:\r\n\r\nEinfühlungsvermögen (verstehen können, wie jemand anders sich fühlt)\r\nKonfliktfähigkeit (Konflikte weder vermeiden noch eskalieren zu lassen, eine konstruktive Lösung finden)\r\nGut Zuhören können\r\nKritikbereitschaft (Kritik annehmen können)\r\nKritikfähigkeit (Kritik sachlich aussprechen können, ohne den anderen vor den Kopf zu stoßen)\r\nTeamfähigkeit (im Team effizient arbeiten können)\r\nKommunikationsfähigkeit (leicht mit anderen in Kontakt kommen)\r\nKundenorientierung (im das Wohl des Kunden bemüht sein)\r\nKompromissbereitschaft\r\nHilfsbereitschaft\r\nWertschätzender Umgang mit anderen\r\nTolerenz gegenüber Schwächen anderer\r\n…\r\n\r\nPersonale Kompetenzen:\r\n\r\nEigeninitiative\r\nKreativität\r\nBegeisterungsfähigkeit\r\nSelbstständiges Arbeiten\r\nEntscheidungsfähigkeit\r\nGewissenhafigkeit (gründliches Arbeiten)\r\nZuverlässigkeit\r\nSelbstdisziplin\r\nBelastbarkeit\r\nAusdauer\r\nLeistungsbereitschaft\r\nFlexibilität\r\nRisikobereitschaft\r\nAnpassungsvermögen\r\nAufgeschlossenheit\r\nLernbereitschaft\r\n\r\n…",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "List",
+      "key": "kar_potenzial_sozkom",
+      "title": "Bitte notieren Sie jetzt  fünf soziale Kompetenzen, die Sie sich selbst zuschreiben. ",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "List",
+      "key": "kar_potenzial_sozkom",
+      "title": "Ergänzen Sie bitte nun wieder Beispiele, anhand derer Sie Ihre sozialen Kompetenzen im Gespräch belegen könnten:",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "List",
+      "key": "kar_potenzial_perkom",
+      "title": "Bitte notieren Sie jetzt  fünf personale Kompetenzen, die Sie sich selbst zuschreiben. ",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "List",
+      "key": "kar_potenzial_perkom",
+      "title": "Ergänzen Sie bitte nun wieder Beispiele, anhand derer Sie Ihre personalen Kompetenzen im Gespräch belegen könnten:",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Machen wir weiter mit Ihren methodischen Kompetenzen. \r\nDiese sagen etwas darüber aus, wie Sie sich Ihr Fachwissen aneignen und es einsetzen können. \r\n\r\nEin Beispiel: \r\nVielleicht sind Sie jemand, dem es leicht fällt, Informationen zu recherchieren und strukturiert zu erfassen. Oder Sie sind gut darin, vor anderen zu präsentieren und Besprechungen effektiv zu leiten. Dinge wie Informationsbeschaffung, Präsentationsfähigkeit oder Moderationsfähigkeit gehören  zu den methodischen Kompetenzen. \r\n\r\nÜber welche methodischen Kompetenzen verfügen Sie? \r\n\r\nBeispiele für methodische Kompetenzen:\r\n\r\nMündliche Kommunikation (Small talk, Telefonieren, Argumentation, Diskussion)\r\nSchriftliche Kommunikation (E-Mail, Brief, Konzepte, Zusammenfassungen)\r\nRecherche von Informationen\r\nVerhandlungsgeschick\r\nProjektmanagement\r\nModeration \r\nPräsentation\r\nKreativitätstechniken (Brainstorming, Mindmapping)\r\nZeitmanagement (sich den Tag strukturieren und Termine einhalten können)\r\nOrganisationstalent\r\n...\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "kar_potenzial_metkom",
+      "title": "Schreiben Sie bitte wiederum fünf Aspekte auf, die auf Sie zutreffen. Dabei können Sie sich wieder an unserer Liste orientieren. ",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "List",
+      "key": "kar_potenzial_metkom",
+      "title": "Bitte finden Sie nun wieder Beispiele für Ihre Kompetenzen!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls Sie sich auf eine Position bewerben möchten, die Führungsaufgaben beinhaltet, sollten Sie sich außerdem Gedanken zu Ihren Führungskompetenzen machen.\r\nHierzu zählen etwa das Entwickeln von Strategien und Visionen oder die Fähigkeit andere zu überzeugen und zu motivieren.\r\nFalls das für Sie nicht relevant ist, überspringen Sie diesen Punkt bitte einfach.\r\n\r\nWelche Führungskompetenzen besitzen Sie? Überlegen Sie auch: Haben Ihnen Ihre Mitarbeiter, Kollegen oder Ihr Vorgesetzter schon einmal Feedback zu Ihren Führungsqualitäten gegeben?\r\n\r\nBeispiele für Führungkompetenzen:\r\n\r\nDelegieren (Aufgaben abgeben, verteilen können)\r\nEntscheidungsfähigkeit (schnell aus möglichen Alternativen auswählen können)\r\nKonfliktfähigkeit (Spannungen aushalten können)\r\nSelbstreflexionsfähigkeit (eigene Schwächen erkennen können)\r\nMotivation der Mitarbeiter  (alle ins Boot holen)\r\nPräsentationskompetenz\r\nGanzheitliches Denken\r\nÜberzeugungskraft\r\nVerantwortung übernehmen\r\n…\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "List",
+      "key": "kar_potenzial_fuehrkom",
+      "title": "Notieren Sie bitte fünf Ihrer Führungskompetenzen!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "List",
+      "key": "kar_potenzial_fuehrkom",
+      "title": "Finden Sie jetzt wieder Beispiele für Ihre Kompetenzen!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön. Nun haben wir also eine Sammlung Ihrer Kompetenzen. Wir gehen die Listen nun nochmal der Reihe nach durch. Bitte sortieren Sie Ihre Angaben nun so, dass die aus Ihrer Sicht wichtigsten Kompetenzen an Stelle 1-3 in der Liste stehen. Ziehen Sie dafür bitte die Textfelder mit Ihrer Maus an die passende Stelle.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "List",
+      "key": "kar_potenzial_fachkenn",
+      "title": "\r\nBitte sortieren Sie Ihre Fachkompetenzen nach Relevanz!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "List",
+      "key": "kar_potenzial_sozkom",
+      "title": "Bitte sortieren Sie Ihre sozialen Kompetenzen nach Relevanz!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "List",
+      "key": "kar_potenzial_perkom",
+      "title": "Bitte sortieren Sie Ihre personalen Kompetenzen nach Relevanz!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "List",
+      "key": "kar_potenzial_metkom",
+      "title": "Bitte sortieren Sie Ihre methodischen Kompetenzen nach Relevanz!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "List",
+      "key": "kar_potenzial_fuehrkom",
+      "title": "Bitte sortieren Sie Ihre Führungs-Kompetenzen (falls zutreffend) nach Relevanz!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön, das sind also Ihre Stärken und Kompetenzen, auf die Sie jederzeit zurückgreifen können.\n\nNun möchten wir Ihre ganz persönlichen Erfolgsgeschichten entwickeln.\n\nAm Ende dieses Coachings haben Sie mit Ihren Erfolgsgeschichten dann...\n\n... eine souveräne Antwort im Bewerbungsgespräch, wenn Sie nach Ihren Stärken gefragt werden\n... gleich noch ein bisschen Ihr Selbstbewusstsein aufpoliert. Zu sehen, was man alles schon erreicht hat, gibt nämlich ein ziemlich gutes Gefühl!\n\nVersuchen Sie sich also bitte jetzt an einen beruflichen oder privaten Erfolg zu erinnern, in dem eine oder mehrere Ihrer Stärken zum Tragen kamen.\nWas fällt Ihnen ein? Nehmen Sie sich eine Minute Zeit und überlegen Sie: was haben Sie in der Vergangenheit getan beziehungsweise geleistet? Wann waren Sie so richtig stolz auf sich oder was ist Ihnen mal so richtig gut gelungen? \nDas können kleine, alltägliche Erfolge sein, wo Ihnen mal jemand gesagt hat: \"Das hast Du gut gemacht!\" bis hin zu größeren Leistungen, die Ihnen viel Anerkennung eingebracht haben.\n\nFolgende Beispiele sollen Ihnen eine kleine Starthilfe sein: \n\nBeispiel 1:\nBeispielsweise haben Sie einen gemeinsamen Radausflug über das Wochenende mit Ihren fünf Freunden organisiert. Sie haben die Route geplant, die Hotels gebucht und die Termine mit Ihren Freunden koordiniert. Alle waren begeistert vom Wochenende und Ihrer super Planung und sprechen heute noch davon, wie Sie alles in so kurzer Zeit organisiert haben!\n\nBeispiel 2:\nUm ein größeres Projekt in Ihrer Abteilung zu stemmen, war es notwendig geworden, eine neue Software zu kaufen. Sie haben sich dazu einen Termin bei Ihrem Chef geben lassen, um ihn vom Kauf zu überzeugen. Sie haben sich intensiv auf den Termin vorbereitet, sich Argumente dafür überlegt und alles in einer kleinen Präsentation zusammengefasst. Am Ende des Gesprächs war er überzeugt und hat dem Kauf zugestimmt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schreiben Sie im nächsten Schritt einen beruflichen oder privaten Erfolg auf und erwähnen Sie auch das Ergebnis!\nWenn Ihnen im ersten Moment nichts einfällt, setzen Sie sich nicht unter Druck. In unserer Kultur ist es eher ungewöhnlich, seine positiven Eigenschaften zu benennen - es ist also normal, wenn Sie hier eine Aufwärmphase benötigen. \nLassen Sie Ihre Gedanken in aller Ruhe schweifen bis Ihnen die ersten Ideen kommen. Sammeln Sie alles, was Ihnen einfällt und wählen Sie dann das passendste für Ihre persönliche Erfolgsgeschichte aus. \nIm Textfeld können Sie dann einen Fließtext oder Stichpunkte eingeben: wichtig ist, dass Sie Ihre Erfolgsgeschichte anhand Ihrer Aufzeichungen später frei erzählen können. \nZur Unterstützung können Sie auch Familienmitglieder oder Freunde nach ihrer Einschätzung fragen. Oder Sie kontaktieren unsere Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte verfassen Sie nun Ihre persönliche Erfolgsgeschichte!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie Ihre Geschichte notiert haben, möchten wir diese nun noch etwas verfeinern. \n\nÜberlegen Sie dazu bitte: \n\n1.Was hat diese Situation schwierig gemacht? \n(Was war herausfordernd an der Situation? Hatten Sie beispielsweise nicht genügend Informationen, um die Aufgabe korrekt zu beenden? Oder sind Sie mit einer anderen Person aneinandergeraten, was die Situation für Sie vielleicht kompliziert gemacht hat? Welche Schwierigkeit war es bei Ihnen?)\n\n2.Wie haben Sie diese Schwierigkeiten gelöst? \n(Haben Sie beispielsweise besonders viel Ausdauer gezeigt, sind Sie bereit gewesen, mehr Kompromisse einzugehen oder haben Sie sich einen Partner gesucht, der mit Ihnen zusammen die Aufgabe gelöst hat?)\n\n3.Was war das Ergebnis und der Gewinn oder Vorteil für Ihren Arbeitgeber oder beteiligte Personen? \n(War das Ergebnis vielleicht, dass Ihr Arbeitgeber Kosten oder Zeit eingespart hat? Oder haben Sie es geschafft, dass Ihre Freunde eine unvergessliche Party gehabt haben, an die sie sich heute noch gern erinnern?)\n\nSchauen wir uns das bei unseren zwei Beispielen an:\n\nBeispiel 1: Die Wochenendradtour\nDie Herausforderung war es, ein Datum zu finden, an dem Sie alle Zeit hatten. Nach zahllosen Vorschlägen konnten Sie sich am Ende nur noch auf einen kurzfristigen Termin einigen. Die Zeit für die Organisation war also recht knapp. \nWas haben Sie unternommen? Sie hatten alle Hände voll zu tun, noch ein geeignetes Hotel zu finden und die Route zu planen. Sie haben sich jeden Abend für zwei bis drei Stunden hingesetzt und intensiv recherchiert. Dadurch, dass Sie die Informationen übersichtlich in einer Excel-Datei organisierten, haben Sie so stets den Überblick behalten. Außerdem haben Sie sich einen genauen Plan für Ihre Route gemacht und zum Schluss die Hotels angerufen und die Buchung dingfest gemacht. Das Ergebnis war der gelungene Ausflug, von dem Ihre Freunde heute noch begeistert erzählen!\n\nBeispiel 2: Der Kauf der Software\nDie Herausforderung hierbei war die knappe Präsentationszeit und die Tatsache, dass die Entscheidung Ihres Chefs Ihre zukünftige Arbeit entweder erleichtert oder erschwert hätte, je nach Zustimmung oder Ablehnung. Die erste Schwierigkeit haben Sie gelöst, in dem Sie einen Zeitplan erstellt haben. Die zweite Herausforderung haben Sie gemeistert, indem Sie überzeugende Fakten gesammelt und Ihre Präsentation vorher ausreichend geübt haben. Das Ergebnis war der Kauf, wodurch Sie schneller in Ihrem Projekt vorangekommen sind. Das hat dem Unternehmen am Ende Zeit und Kosten gespart.",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bitte beantworten Sie nun für Ihre Erfolgsgeschichte diese drei Punkte:\r\n\r\n1.Was hat diese Situation schwierig gemacht? \r\n2.Wie haben Sie diese Schwierigkeiten gelöst? \r\n3.Was war das Ergebnis und der Gewinn oder Vorteil für Ihren Arbeitgeber oder beteiligte Personen? ",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlichen Glückwunsch! Sie haben somit Ihre erste Erfolgsgeschichte formuliert, der man gerne zuhört und die spannend ist, weil etwas schwierig oder herausfordernd war.\r\n\r\n\r\nBitte sammeln Sie jetzt noch mindestens zwei bis drei weitere Erfolgsgeschichten, in denen eine oder mehrere Ihrer Kompetenzen/Stärken deutlich werden. Diese sind das ideale Material, mit dem Sie später im Vorstellungsgespräch den Personalverantwortlichen überzeugen können.\r\n\r\nBauen Sie Ihre Geschichten nach demselben Schema wie eben auf:\r\n\r\n1.Wie war die Situation?\r\n2.Was hat diese Situation schwierig gemacht?\r\n3.Wie haben Sie diese Schwierigkeiten gelöst?\r\n4.Was war das Ergebnis und der Gewinn oder Vorteil für Ihren Arbeitgeber oder beteiligte Personen?\r\n5.Und letztens: welche Stärken lassen sich daraus ableiten?\r\n\r\nLos geht’s!",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie werden im Vorstellungsgespräch auch häufig danach gefragt, welches Ihre Schwächen sind. Tun Sie sich einen Gefallen: heben Sie sich von den übrigen Bewerbern ab und sagen Sie NICHT, Sei seien zu zielstrebig, zu perfektionistisch oder zu ehrgeizig. Arbeitgeber hören diese Antworten hundertmal. Sie wirken nicht mehr glaubwürdig, wenn Sie sie wie alle anderen runterbeten.\r\n\r\nHier einige Beispiele, die Ihnen helfen, sich über Ihre Schwächen klar zu werden:\r\nVielleicht sind Sie eigentlich ein Teamplayer, nur fällt es Ihnen manchmal schwer, sich in einem Großraumbüro mit mehreren Kollegen zu konzentrieren und ziehen die Ruhe vor. Oder Sie mögen es nicht, wenn Dinge unstrukturiert ablaufen und sind deshalb der erste im Meeting, der nach einem konkreten Plan ruft. \r\n\r\nWie Sie an den Beispielen sehen: Ihre Schwächen sollten nicht zu negativ sein. Sie wollen den potentiellen Arbeitgeber ja nicht verschrecken. Wichtig ist auch, dass Sie in Aussicht stellen, wie Sie mit Ihrer Schwäche umgehen bzw. was Sie tun, um daran zu arbeiten. Zum Beispiel könnten Sie sagen: \"Ich brauche ab und zu meine Ruhe zum Arbeiten - für solche Zwecke habe ich immer Oropax zur Hand.\"\r\n\r\nFragen Sie auch hier wieder Freunde und gute Bekannte um Rat. Wie würden diese Ihre Schwächen beschreiben?\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Kein Mensch ist in allen Dingen gleich gut. Insofern hat auch jeder Mensch Schwächen.\r\n\r\nAls Tipp: \r\nÜberlegen Sie sich beim Sammeln Ihrer Schwächen: wie könnte ich meinen Schwächen auch positive Seiten abgewinnen? \r\nOder: Welche Strategie habe ich bereits entwickelt, meine Schwäche in etwas Positives zu verkehren?\r\n\r\nDazu wieder einige Beispiele:\r\n\r\n* da Sie sich manchmal aus dem Großraumbüro zurückziehen, schaffen Sie Ihre Aufgaben konzentrierter und schneller \r\n* als Mensch, der Strukturen zum Arbeiten braucht, inspirieren Sie manchmal Ihre Kollegen, selbst Pläne für ihre Arbeit zu entwerfen\r\n* wenn Sie von sich selber wissen, dass Sie gerne Druck zum Arbeiten brauchen, setzen Sie sich vielleicht selbst Deadlines, die vor dem eigentlichen Abgabetermin liegen. So schaffen Sie Ihre Arbeit manchmal sogar schneller als erwartet\r\n\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "List",
+      "key": "kar_potenzial_schwaechen",
+      "title": "Notieren Sie bitte jetzt drei Schwächen!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "List",
+      "key": "kar_potenzial_schwaechen",
+      "title": "Finden Sie bitte jetzt für jede Schwäche ein Beispiel aus Ihrem Berufsalltag!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "List",
+      "key": "kar_potenzial_schwaechen",
+      "title": "Welche positiven Seiten könnte jede Schwäche haben? Schreiben Sie es auf!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "List",
+      "key": "kar_potenzial_schwaechen",
+      "title": "Was tun Sie jeweils, um an Ihrer Schwäche zu arbeiten? Bitte notieren Sie auch dies wiederum!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "Damit sind wir am Ende des Coachings \"Was kann ich gut?\".\r\nIm nächsten Coaching geht es weiter mit Ihren Charaktereigenschaften und Ihren beruflichen Interessen. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgaben zum Coaching \"Was kann ich?\"",
+      "text": "Bitte denken Sie bis zum nächsten Mal an die Aufgaben, die wir Ihnen ans Herz gelegt haben:\n\n- Sammeln von mindestens drei Erfolgsgeschichten inklusive Ableiten von Fähigkeiten oder Kompetenzen\n- Üben Ihrer Erfolgsgeschichten\n- Einholen von Feedback zu Ihrer Geschichten sowie Ihren Stärken und Schwächen\n\nBis zum nächsten Mal!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

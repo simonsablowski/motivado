@@ -1,0 +1,301 @@
+{
+  "key": "ges-abn-mot-bauch",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen im Coaching \"Mein dicker Bauch stört mich im Moment gar nicht mehr so\".",
+      "text": "Im Grunde ist dieser Gedanke ein positive Entwicklung, denn Sie sollen sich in Ihrem Körper wohl fühlen!\nGanz wichtig ist nur, an dieser Stelle einmal gemeinsam zu kontrollieren, ob Sie das auch wirklich so meinen oder ob sich hinter diesem Gedanken gerade vielleicht nicht doch einfach nur die Unlust weiter abzunehmen steckt?!\nFinden wir es gemeinsam heraus in diesem Coaching!\nNehmen Sie sich dazu ungefähr 20 Minuten Zeit.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauch_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauch_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "ac1f70dce20d4a9e91e97f1936e91055",
+      "title": "Was für einen Bauchumfang haben Sie bei sich gemessen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauch_V4.flv",
+          "delay": 24
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Mein Bauchumfang liegt über den 88cm oder 102cm."
+          },
+          {
+            "key": 2,
+            "value": "Mein Bauchumfang liegt unter den 88cm oder 102cm."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "ac1f70dce20d4a9e91e97f1936e91055 is 1"
+        },
+        {
+          "to": "n006",
+          "if": "ac1f70dce20d4a9e91e97f1936e91055 is 2"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Erhöhtes Gesundheitsrisiko!",
+      "text": "Durch viel Bauchfett haben Sie möglicherweise ein erhöhtes Risiko für:\n- Herzinfarkte \n- Schlaganfälle \n- Bluthochdruck \n- Arterienverkalkungen \n\n- schlechtere Blutwerte \n- erhöhtes Diabetes- und Altersdiabetesrisiko \n- erhöhtes Risiko für Herz-Kreislauferkrankungen \n\nSie müssen nur 2-3 Kilo abnehmen und schon verringern Sie diese Risiken!",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUeber_V1.flv",
+          "delay": 18
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "Noch vor kurzer Zeit wollten Sie unbedingt abnehmen und jetzt ist das Übergwicht doch nicht mehr so schlimm?\nWas hat sich bei Ihnen verändert?",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUnter_V1.flv",
+          "delay": 39
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "... und die Liste wird noch länger!",
+      "text": "Und die Liste wird noch länger!\n\nBauchfett erhöht sogar Ihr Risiko für:\n- Alzheimer \n- dir typischen weiblichen Krebsformen \n\nNoch gar nicht beachtet haben wir das Bauchfett, dass in Ihrem Bauchinnenraum liegt, um die Organe herum! \n\nAber mit diesen Risikofaktoren müssen Sie nicht leben! Sie können schon viel verbessern, wenn Sie nur ein paar Kilo abnehmen!",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUeber_V2.flv",
+          "delay": 7
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "ListView",
+      "key": null,
+      "title": "",
+      "text": "Im nächsten Schritt sehen Sie dann noch einmal die Liste mit den positiven Punkten.",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUnter_V2.flv",
+          "delay": 74
+        },
+        "elements": "#DIC_PunkteNegAbnehmenGrundlagen"
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUeber_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "ListView",
+      "key": null,
+      "title": "",
+      "text": "Nach Ihrer Anmeldung bei Motivado waren Sie sich noch sicher, dass all diese Punkte eintreten würden, sobald Sie erfolgreich abgenommen haben. Hat sich daran etwas geändert?",
+      "props": {
+        "elements": "#DIC_PunktePosAbnehmenGrundlagen"
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUeber_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "TextArea",
+      "key": "DIC_abmeldenVSweitermachen",
+      "title": "",
+      "text": "Bedeuten Ihnen die Punkte, die Sie aufgeschrieben haben nichts mehr? Dann schreiben Sie das hier auf!\nHaben Sie nur den geringsten Zweifel, dann klicken Sie auf \"weiter\"!",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUnter_V3.flv",
+          "delay": 37
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUeber_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauchUnter_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauch_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zu dem Coaching \"Dicker Bauch, gar nicht so schlimm, oder?!\"",
+      "text": "Schnappen Sie sich jetzt Zettel und Stift und schreiben Sie auf, dass Sie abnehmen wollen, warum Sie abnehmen wollen und wie Sie abnehmen werden.\nUnterschreiben Sie es!\nUnd noch besser, scannen Sie diesen Vertrag mit sich selbst ein und mailen Sie Ihn uns. Haben Sie keinen Scanner, fotografieren Sie ihn mit einer Digitalkamera und mailen Sie uns das Bild.\nWir unterschreiben Ihren Vertrag gerne auch und bescheinigen Ihnen unsere Unterstützung. \nTragen Sie diesen Vertrag am besten immer bei sich. Sollten noch einmal Zweifel aufkommen, können Sie sich jeder Zeit daran erinnern, warum Sie sich gerade mal wieder überwinden, die richtige Entscheidung zu treffen.\n\nAuf geht's!",
+      "props": {
+        "video": {
+          "url": "DIC_DickerBauch_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

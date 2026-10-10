@@ -1,0 +1,182 @@
+{
+  "key": "bez-affaere-beenden",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie sind sicher nicht der einzige, der in einer Affäre schon einmal solche oder ähnliche Gedanken hatte. Aber manchmal fällt es schwer an den Punkt zu gelangen, an dem man sich aus dieser Situation zurückzieht und die Affäre beendet. Wir möchten Ihnen mit unseren professionellen Coachings helfen, zu verstehen, was Sie während einer Affäre verpassen und wie Sie sich verhalten sollten, wenn Sie eine Affäre beenden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine Affäre ist teuer\n\nMenschen, die sich in einer Affäre befinden, sind sich der Nachteile dieser Situation häufig gar nicht bewusst. Natürlich ist eine Affäre anfangs aufregend, man fühlt sich begehrt und hat keinerlei Verpflichtungen. Gleichzeitig bringt aber gerade eine längere Affäre auch Nachteile mit sich, ohne dass man es merkt.\nOftmals werden Affären eingegangen, weil sie als Station auf dem Weg zu einer Beziehung angesehen werden. Das bedeutet, dass sich viele Leute erhoffen, während Sie sich in einer Affäre befinden, den potentiellen Partner zu treffen. Gerade das wird aber während einer Affäre immer unwahrscheinlicher.\nIst es Ihre Affäre wert, auf Ihren Wunsch nach einer Beziehung womöglich dauerhaft zu verzichten?",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ist es Ihre Affäre wirklich wert, auf eine glückliche Beziehung womöglich dauerhaft zu verzichten?\r\n\r\nBesonders eine langanhaltende Affäre kann starke Selbstzweifel auslösen, weil Ihnen dauerhaft signalisiert wird, dass Sie \"nur\" als Affäre erwünscht sind. Dadurch verschlechtert sich Ihr Selbstbewusstsein, sie gewöhnen sich an diesen Zustand und irgendwann können Sie sich gar nicht mehr vorstellen, dass ein anderer Mensch Sie als Partner auswählen würde.\r\nLetztlich erschwert eine Affäre so Ihren Weg in eine erfüllende Beziehung und Sie sabotieren sich selbst.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was macht Sie wirklich glücklich?\r\n\r\nDenken Sie nun bitte spontan an Ihre 3 Lieblingsfilme und überlegen Sie: \r\nWelche Art von Liebesgeschichten kommen darin vor? \r\n\r\nSind es die tragischen, herzzerreißenden Geschichten?  Geht es um Herzschmerz, Sehnsucht und unerfüllte Wünsche?\r\n\r\nWenn Sie sich zu solchen Filmen hingezogen fühlen, überlegen Sie genau, ob diese Liebesbeziehungen Ihre Idealvorstellung einer Beziehung darstellen. \r\nKlar, auf der Leinwand ist das alles schön anzusehen, aber sind Liebesgeschichten dieser Art im wahren Leben wirklich romantisch? Im Film werden die zwei Wochen, die man auf eine SMS wartet und leidet, weil der Andere nicht reagiert, selten gezeigt. Auch das klassische Happy-End ist bei vorher schwierigen Beziehungen in der Realität nur sehr selten anzutreffen.\r\nWenn der Andere sich schon länger nicht auf mehr einlässt, ist es z.B. wahrscheinlicher, dass er das auch in Zukunft nicht tun wird, denn er hat seine Gründe. \nIn so einer Situation kämpft man dann auf verlorenem Posten und verschwendet Zeit und Energie. Kein schöner Gedanke.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den Absprung schaffen\r\n\r\nStellen Sie sich jetzt bitte einmal vor, 10 Jahre sind vergangen und Sie befinden sich immer noch in der Affäre. \r\nWas hätten Sie alles verpasst, wenn Sie die Affäre weitergeführt hätten? Ohne Affäre wären Sie sicher freier für jemand anderen gewesen, oder? In dieser Zeit hätten Sie sich neu verlieben und Kinder kriegen können. Ihre Affäre dagegen wird sich in 10 Jahren nicht großartig verändert haben.\r\n\r\nJetzt denken Sie vielleicht, 10 Jahren seien sehr lang, aber bedenken Sie, wie schnell sich ein Jahr an das andere reiht. Frühling und Sommer kommen und gehen und schnell steht schon wieder Weihnachten vor der Tür. Auch 10 Jahre können so schnell vergehen.\r\nSie sind hier, weil Sie Ihre Affäre beenden wollen. Dann gilt das Motto: Lieber jetzt als später. Verschenken Sie keine kostbare Zeit an etwas, mit dem Sie nicht glücklich sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auflösung der Affäre \n\nNach dem Entschluss, die Affäre zu beenden, müssen Sie sich darüber bewusst sein, dass der Andere das Ende höchstwahrscheinlich nicht kampflos hinnehmen wird. Immerhin hat sich Ihr Gegenüber an die Situation gewöhnt und wird diese nicht so schnell wieder aufgeben wollen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit Sie mit dem Gefühl, alles versucht zu haben, aus der Affäre gehen können, stellen Sie dem Anderen ein Ultimatum: Beziehung oder Ende der Affäre. In den meisten Fällen wird ein solches Ultimatum ausgeschlagen und der Andere stellt sich selbst ins Abseits. Das wird weh tun. Zumindest wissen Sie dann aber definitiv, dass der Andere keine Beziehung mit Ihnen eingehen wird. Spätestens jetzt ist es an der Zeit, die Hoffnung zu begraben und einen klaren Schlussstrich zu ziehen. Erinnern Sie sich an alle negativen Seiten Ihrer Affäre und schöpfen Sie dadurch die Energie und Motivation, neue Wege zu gehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie Ihre Affäre beenden, ist es besonders auch für Sie selbst wichtig, dass Sie Ihre Absicht auch deutlich kommunizieren. Das bedeutet, dass Sie zunächst natürlich Ihr Gegenüber über das Ende in Kenntnis setzen. Ebenso wichtig ist es aber auch, dass Sie für sich selbst einen klaren Schnitt vollziehen. Dazu gehört, dass Sie sich konsequent von allen eventuellen Geschenken und Andenken lösen und natürlich auch sämtliche E-Mails und Nachrichten auf Ihrem Handy löschen.\nBesonders hilfreich für Ihr Gefühlsleben ist es, wenn Sie sich nach dem Ende der Affäre einem Freund anvertrauen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Tappen Sie nicht in die klassischen „Fallen“\n\nDie ersten Wochen nach dem Ende einer Affäre zu überstehen, ist meist relativ einfach. Schwierig wird es für die meisten Menschen erst, wenn sie an dem Zeitpunkt ankommen, an dem sie sich normalerweise wieder mit dem Anderen getroffen hätten. Oft wird sich Ihr Gegenüber aus Gewohnheit genau dann wieder bei Ihnen melden und eine Fortsetzung der Affäre anstreben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Aber gerade wenn Sie Ihre Affäre beendet haben, weil diese einer möglichen glücklichen Beziehung im Weg stand, müssen Sie an diesem Ende beharrlich festhalten. Oft wird die Macht einer verflossenen Affäre unterschätzt, wie sehr sie jede mögliche neue Beziehung bereits im Keim erstickt. Dies geschieht meist, wenn sich bei Ihnen die Hoffnung aufbaut, der Andere könnte sich geändert haben. Erinnern Sie sich in diesem Fall daran, dass Ihr Gegenüber Ihr Ultimatum ausgeschlagen hat und keine Beziehung wünscht. Eine Rückkehr in die alte Situation wäre für Ihren Wunsch nach einer glücklichen Beziehung also nicht förderlich. Setzten Sie sich am besten dieser Situation gar nicht erst aus und löschen Sie mögliche Nachrichten und E-Mails bereits vor dem Lesen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls Sie eine Affäre beendet haben, Ihr Gegenüber Ihnen aber noch etwas schuldig ist, ganz gleich ob es sich dabei um Sach- oder Geldwerte handelt, ist es meist von Vorteil, diese Dinge einfach abzuschreiben. Die nötigen, oftmals nervenaufreibenden Absprachen, die getroffen werden müssen, um Dinge dieser Art zu klären, stehen selten in einem ausgeglichenen Verhältnis zum Wert der Dinge. Statt den Verlust immer wieder mit mit dem Ende Ihrer Affäre in Verbindung zu bringen, stellen Sie sich doch einfach vor, Sie hätten es verloren, es wäre zerbrochen oder gestohlen worden.\r\nDieser Gedanke kann für Sie sehr hilfreich sein, leichter über diesen weiteren Verlust hinwegzukommen. Denn je länger Sie gedanklich mit Dingen beschäftigt sind, die Ihre bereits beendete Affäre betreffen, umso länger wird es dauern, bis Sie einen endgültigen Schlussstrich ziehen können. Ablenkungen dieser Art stehen nur Ihrem Ziel im Weg, eine ausgefüllte Beziehung zu führen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie befinden sich in Ihrem Leben an einem Punkt, an dem Sie sich gegen eine Affäre und für eine mögliche glückliche Beziehung entschieden haben? Gleichzeitig sind Sie sich aber unsicher, wie Sie eine erfüllte Beziehung dauerhaft aufrecht erhalten können? Dann haben wir genau die richtigen Coachings für Sie. Mit unserer Hilfe können auch Sie ihren Wunsch nach einer ausgefüllten Beziehung in die Tat umsetzen und genau die Person treffen, die sie eigentlich suchen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Noch ein Hinweis zum Abschluss:\nWenn Sie sich aus einer Affäre lösen, von der Sie sich eigentlich mehr erhofft hatten, kann das sehr weh tun. Deshalb raten wir Ihnen unsere Coachings zum Thema “Liebeskummer” zu besuchen. Wenn es Ihnen über einen längeren Zeitraum schlecht geht und sich keine Besserung einstellt oder Sie es einfach nicht schaffen, von Ihrer Affäre loszukommen raten wir Ihnen außerdem einen Psychotherapeuten aufzusuchen. Sie können sich darüber hinaus an unsere Experten wenden, die Ihnen gerne weiterhelfen. Unsere Kontaktdaten finden Sie unter “Kontakt”.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

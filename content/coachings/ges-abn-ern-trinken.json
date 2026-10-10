@@ -1,0 +1,82 @@
+{
+  "key": "ges-abn-ern-trinken",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_IntroTrinkenWichtig_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Warum ist Trinken so wichtig?",
+      "text": "Gehen wir einmal davon aus, wir trinken zu wenig, was wären die Folgen für uns:\nNehmen wir zu wenig Flüssigkeit auf, wird unser Blut dicker und es befindet sich auch weniger Sauerstoff im Blut. Es wird zäher und somit schwieriger für das Herz durch den Körper zu pumpen. Dadurch wird unser Herz-Kreislaufsystem stärker belastet.\nSchädliche Rückstände aus dem Stoffwechsel können nicht so schnell abtransportiert werden. Die Giftstoffe bleiben länger im Körper und wir fühlen uns schneller schlapp, sind unkonzentrierter und bekommen manchmal sogar Kopfschmerzen oder fühlen uns schwindelig.\nÄhnliches gilt für die Nieren. Steht nicht genug Flüssigkeit zur Verfügung, um die Nieren durchspülen zu können, bleiben Abfallprodukte in der Niere zurück und können zu sehr schmerzhaften Nierensteinen führen.\nDarüber hinaus wird dem Darm bei akutem Wassermangel Wasser entzogen. Die Folge davon ist Verstopfung. Die Schleimhäute können austrocknen und sind somit anfälliger für Bakterien und Viren. \nSoviel zu allem, was im Körper passiert. Aber zu wenig zu trinken hat auch Folgen, die man deutlich von außen sehen kann. \nUnsere Haut ist unser größtes Organ und besteht zu ca. 80% aus Wasser. Sind die einzelnen Zellen unserer Haut nicht mehr ausreichend mit Wasser gefüllt, verliert die Haut an Spannkraft, wird rau und rissig. Auch Falten sieht man dann deutlicher und sie entstehen auch schneller.\nUnd gerade wenn man abnehmen möchte, gibt es noch ein paar sehr gute Gründe viel zu trinken:\nBeim Abnehmen wird überflüssiges Körperfett abgebaut. Beim Abbau dieses Körperfettes fallen vermehrt Giftstoffe an. Es ist jetzt also ganz besonders wichtig, dem Körper genügend Wasser zur Verfügung zu stellen, mithilfe dessen diese Giftstoffe aus dem Körper gespült werden.\nAbgesehen von diesen gesundheitlichen Folgen, wenn man zu wenig trinkt, hat viel zu trinken noch einen ganz banalen positiven Effekt: Es füllt den Magen. So kommt der Hunger nicht so schnell und auch bei den wohlbekannten Heißhungerattacken können schon zwei große Gläser Wasser den Heißhunger verschwinden lassen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Wann und wie sollte man also trinken?",
+      "text": "Der Körper kann keine großen Mengen Wasser speichern, und wir scheiden über den Tag verteilt nicht nur über den Urin, sondern auch über die Haut, über den Stuhlgang und die Atmung Wasser aus. Darum gilt es, immer regelmäßig über den Tag verteilt für Nachschub zu sorgen.\nEine Faustregel zu der Menge Wasser, die eine Person trinken sollte, ist 1 ml pro aufgenommener Kalorie. Bei einem täglichen Energiebedarf von ca. 1800 Kalorien müsste man also mindestens 1,8 Liter pro Tag trinken. \nGrundsätzlich sollte man alle 1 bis 1,5 Stunden ein Glas Wasser trinken. Isst man fettig oder sehr salzig, muss man entsprechend mehr trinken. Man sollte es so abstimmen, dass man eine halbe Stunde vor und eine Stunde nach großen Mahlzeiten nichts trinkt. Sonst werden die Verdauungssäfte im Magen zu sehr verdünnt. Trinken Sie also lieber viel zu den Zwischenmahlzeiten, bzw. zwischen den großen Mahlzeiten. \nAuch wenn man Sport treibt, muss man mehr trinken. Bei einer Einheit von gut einer Stunde, bei der Sie stark schwitzen, sollten Sie schon im Vorhinein mindestens einen halben Liter Wasser in kleinen Schlucken getrunken haben. Aber auch während des Trainings sollten Sie alle 20 Minuten ein paar Schlucke Wasser trinken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Und zum Schluss noch: Was sollte man trinken?",
+      "text": "Möchten Sie abnehmen, müssen Sie eh schon Kalorien bei Ihrem Essen einsparen. Machen Sie es sich also nicht noch schwerer, indem Sie Ihre Kalorien auch noch trinken.\nÜber diese Getränke schleichen sich Kalorien ein:\nLimonade (auch sogenannte zuckerfreie lassen Ihren Blutzuckerspiegel Achterbahn fahren), zuckriger Kaffee oder mit Zucker/Honig gesüßte Tees, Eiskaffee, Milkshakes, Fruchtsäfte, Smoothies und auch Joghurt-Drinks bringen vor allem durch die Menge, die man davon trinkt einiges an Kalorien auf die Waage. Alkohol sollte am besten komplett gemieden werden. Er entzieht dem Körper Wasser und hält ihn noch dazu von der Fettverbrennung ab. \nWas Sie anstelle dessen trinken sollten:\nAn erster Stelle natürlich Wasser. Es belastet den Körper am wenigsten und ist der günstigste Durstlöscher. Aber auch ungesüßter Tee darf unbegrenzt getrunken werden. Ist man den regelmäßigen Kaffee- oder Teegenuss gewöhnt, muss man hier keinen entwässernden Effekt befürchten und darf beide Getränke zu seiner Trinkmenge hinzu zählen. Vorausgesetzt natürlich, dass beide ungesüßt und ohne große Mengen Milch verzehrt werden. Darüber hinaus kann man mit stark verdünnten Fruchtschorlen für Abwechslung sorgen.\nEines der besten Sportgetränke ist übrigens die Apfelschorle. Hier brauchen Sie nicht einmal in teure isotonische Getränke zu investieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Machen Sie jetzt gleich den Anfang!",
+      "text": "Also dann, Sie wissen, warum Sie viel Flüssigkeit trinken sollten, und Sie wissen, wieviel Sie wovon trinken sollten. \nAm besten machen Sie jetzt gleich den Anfang, stehen Sie auf und holen Sie sich ein großes Glas Wasser.\nUnd auch in Zukunft sollten Sie immer eine Flasche Wasser griffbereit haben.\n\nGuten Durst!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "key": "bez-lk-1",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Coaching: Liebeskummer I\r\n\r\nBitte holen Sie sich etwas zum Schreiben und nehmen Sie Ihren Kalender zur Hand!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein Hinweis: \r\n\r\nLiebeskummer ist ein ernstzunehmendes Thema und sollte in keinem Fall unterschätzt werden. \r\n\r\nSymptome, die auftreten können, reichen von körperlichen Beschwerden (Appetitlosigkeit, Schlaflosigkeit, unerklärliche Schmerzen etc.) bis zu seelischem Leiden (Verzweiflung, Traurigkeit, Versagensgefühl etc.) und beeinträchtigen Leistungsfähigkeit und Lebensqualität. Insofern ähnelt schlimmer Liebeskummer dem Zustand, in dem sich jemand mit einer Depression befindet. \r\n\r\nIn den meisten Fällen klingen die Symptome mit der Zeit ab, es kann aber auch sein, dass Sie therapeutische oder ärztliche Unterstützung brauchen, damit es Ihnen wieder besser geht. In diesem Fall gibt es verschiedene gut bewährte Therapieverfahren, die Ihnen dabei helfen werden, sich wieder besser zu fühlen. Wenn es Ihnen also über einen längeren Zeitraum sehr schlecht geht, möchten wir Sie dazu ermutigen, sich weiterreichende Hilfe zu holen. \r\n\r\nWir raten Ihnen zu einem Psychiater oder Psychotherapeuten zu gehen, wenn Sie \r\n\r\n- sich über einen Zeitraum von 6 Wochen den Großteil des Tages sehr schlecht fühlen und keinerlei Verbesserung spürbar ist (eine Verbesserung wäre es z.B., wenn Sie für eine kurze Zeit mal nicht an Ihren Kummer denken, wenn Sie abgelenkt sind oder mal wieder eine Mahlzeit genießen können)\r\n- Schwierigkeiten haben Ihren Alltag zu organisieren (Sie können z.B. Termine nicht halten, den Haushalt nicht bewältigen oder Ihren Beruf nicht ausüben)\r\n- Ihre Hygiene vernachlässigen (sich z.B. nicht mehr zum duschen motivieren können)\r\n- körperliche Beschwerden haben, die auf keine Krankheit zurückzuführen sind (z.B. starke Schlafstörungen, starke Gewichtszunahme oder Gewichtsabnahme, unerklärliche Schmerzen)\r\n- sich länger als einen Monat stark isolieren und sich von Freunden und Familie zurückziehen\r\n- an Selbstmord denken und überlegen, wie Sie diesen Plan umsetzen können\r\n\r\nAll dies sind Anzeichen einer depressiven Verstimmung, die eine ärztliche oder therapeutische Behandlung nötig machen.\r\n\r\nAls erste Anlaufstelle können Sie sich stets an die Telefonseelsorge wenden, die rund um die Uhr für Sie erreichbar ist. Hier finden Sie kompetente Ansprechpartner, mit denen Sie Ihre Sorgen besprechen können (www.telefonseelsorge.de, 0800/1110111, auch per Email und Chat zu erreichen).\r\n\r\nWeiterhin können Sie eine Psychotherapie in Anspruch nehmen. Diese wird in aller Regel von der Krankenkasse bezahlt. Unter www.bptk.de können Sie nach gut ausgebildeten Psychotherapeuten in Ihrer Nähe suchen. Vereinbaren Sie dann einen ersten unverbindlichen Termin, der in jedem Fall von Ihrer Krankenkasse übernommen wird.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Warum tut es so weh?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V2A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Selbstwert leidet",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Die gute Nachricht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Motivations-Einheit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Symptome",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Phasen Liebeskummer",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V6A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Schockstarre",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Trauer und Ohnmacht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Verhandlungsphase",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Ärger",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Akzeptanz",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Milde mit sich selbst",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "List",
+      "key": "rel_lkBasics_letPainGo",
+      "title": "Was würde Ihnen im Moment gut tun?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V9A.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "List",
+      "key": "rel_lkBasics_letPainGo",
+      "title": "Ergänzen Sie bitte die Punkte, die für Sie passen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V10.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Zeitlimit setzen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "List",
+      "key": "rel_lkBasics_feelGood",
+      "title": "Bitte schreiben Sie nun alles auf, was Ihnen einfällt. Je mehr, desto besser!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V12.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 18
+          }
+        ],
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "List",
+      "key": "rel_lkBasics_feelGood",
+      "title": "Sehr schön. Hier sehen Sie nun noch einmal Ihre persönliche \"Wohlfühl-Liste\":",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V13.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie sich einen Beispielwochenplan sowie eine Vorlage zum Ausfüllen runterladen:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V14.flv"
+        },
+        "documents": [
+          {
+            "name": "Aktivitätenplan Beispiel",
+            "file": "LK_Aktivitaetenplan1_Beispiel.pdf"
+          },
+          {
+            "name": "Aktivitätenplan Vorlage",
+            "file": "LK_Aktivitaetenplan1_Vorlage.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "Wir raten Ihnen, Ihre Wohlfühliste und Ihren Wochenplan gut sichtbar in Ihrer Wohnung aufzuhängen und jedes Mal ein Häkchen zu setzen, wenn Sie etwas für sich getan haben. Das erhöht Ihre Motivation!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Unterstützung holen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "TextArea",
+      "key": "rel_lkA_coachingBuddy",
+      "title": "",
+      "text": "Manchmal fällt es schwer, Freunde und Familie um Hilfe zu bitten. \r\nWenn Sie uns hier den Namen und die E-Mail-Adresse einer Person mitteilen, die Sie in schwierigen Momenten unterstützen könnte, übernehmen wir den Rest:\r\nWir schreiben Ihren \"Coaching-Buddy\" an und geben ihm/ihr genaue Instruktionen, wie er oder sie Ihnen am besten helfen kann.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Video",
+      "key": null,
+      "title": "Wiederholen und üben!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_A_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "Ende des Coachings: Liebeskummer I",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

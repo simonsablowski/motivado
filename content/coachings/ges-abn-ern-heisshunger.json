@@ -1,0 +1,248 @@
+{
+  "key": "ges-abn-ern-heisshunger",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Heisshunger2_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Heißhunger-Regeln",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Heisshunger2_V2.flv"
+        },
+        "elements": [
+          {
+            "element": "Regel Nr. 1: Keine fettigen/zuckrigen Sachen im Haus haben!",
+            "second": 11
+          },
+          {
+            "element": "Regel Nr. 2: Halten Sie gesunde Alternativen bereit!",
+            "second": 16
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Es geht gar nicht ohne Süßes? ",
+      "text": "Es geht gar nicht ohne Süßes? Dann beachten Sie folgende Regeln: \n\n1. Nie große Packungen kaufen! Immer nur einzeln abgepackte und kleine Portionen.\n2. Räumen Sie sich am Tag 200Kcal ein für Dinge, auf die Sie nicht verzichten möchten. Gestalten Sie diese dann jedoch so gesund, wie möglich (anstatt Vollmilchschokolade -> Schokolade mit mindestens 70% Kakao, etc.)",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "DIC_WievielGetrunken",
+      "title": "Wieviele Gläser Wasser/Tee/Fruchtschorle haben Sie heute ungefähr getrunken?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Heisshunger2_V3.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Weniger als zwei Gläser."
+          },
+          {
+            "key": 2,
+            "value": "Ungefähr drei bis vier Gläser."
+          },
+          {
+            "key": 3,
+            "value": "Fünf Gläser oder mehr."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "DIC_WievielGetrunken is 1"
+        },
+        {
+          "to": "n006",
+          "if": "DIC_WievielGetrunken is 2"
+        },
+        {
+          "to": "n007",
+          "if": "DIC_WievielGetrunken is 3"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das ist sehr wenig! Eigentlich sollten Sie für jede Kalorie, die Sie zu sich nehmen, einen Mililiter Wasser trinken. Bei 1800 Kalorien wären das 1,8 Liter. Mit zwei Gläsern haben Sie nicht einmal ein Drittel dieser Menge erreicht. Das hat ernstzunehmende Folgen für Ihren Körper. Z.B. ist Ihr Blut dicker und Ihr Herz muss sich viel mehr anstrengen, um diese schwerfällige Masse durch den Körper zu pumpen. Wenn Sie hingegen ausreichend trinken, können Sie alle Giftstoffe, die beim Fettabbau entstehen, aus dem Körper spülen.\r\nSelbst wenn Sie keinen Durst verspüren, bedeutet das nicht, dass Ihr Körper die Flüssigkeit nicht braucht. Oft fühlt sich Durst auch wie Hunger an. Greifen Sie also das nächste Mal, wenn Sie Hunger haben, zu einem großen Glas Wasser, ungesüßten Tee oder stark verdünnte Saftschorle (ohne Zuckerzusatz). Und am besten stehen Sie gleich jetzt auf und holen sich etwas zu trinken. Ich warte solange hier auf Sie!",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Drei bis vier Gläser pro Tag sind schon ein guter Anfang, aber noch nicht genug, um Ihre Gesundheit und Ihren Abnehmprozess wirklich zu fördern. Die Faustregel ist: Für jede Kalorie, die Sie zu sich nehmen, sollten Sie einen Mililiter Wasser trinken. Bei 1800 Kalorien wären das 1,8 liter. Wenn Ihre Gläser nicht gerade einen halben Liter fassen, können Sie sich hier noch steigern. \r\nSelbst wenn Sie keinen Durst verspüren, bedeutet das nicht, dass Ihr Körper die Flüssigkeit nicht braucht. Oft fühlt sich Durst auch wie Hunger an. Greifen Sie also das nächste Mal, wenn Sie Hunger haben, zu einem großen Glas Wasser, ungesüßten Tee oder stark verdünnte Saftschorle (ohne Zuckerzusatz). Und am besten stehen Sie gleich jetzt auf und holen sich etwas zu trinken. Ich warte solange hier auf Sie!",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr gut, Sie scheinen Ihrem Körper schon ausreichend Flüssigkeit zuzuführen. Die Faustregel ist: Für jede Kalorie, die Sie zu sich nehmen, sollten Sie einen Mililiter Wasser trinken. Bei 1800 Kalorien wären das 1,8 liter.\r\nMit fünf großen Gläsern reichen Sie daran also schon an. \r\nAllerdings können sich gerade in Getränken mit Zuckerzusätzen viele Kalorien verstecken. Achten Sie also darauf, dass sich Ihre fünf Gläser oder mehr aus Wasser, ungesüßtem Tee und stark verdünnten Saftschorlen (ohne Zuckerzusatz) zusammensetzen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Noch mehr Tricks gegen Heißhunger",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Heisshunger2_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Zähne putzen!",
+            "second": 7
+          },
+          {
+            "element": "2. Lassen Sie nicht zu viel Zeit zwischen den Mahlzeiten (4 Stunden). ",
+            "second": 20
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Veränderungen fühlen sich immer erst einmal seltsam an, aber:",
+      "text": "Bis zur Übelkeit essen haben wir uns doch auch angewöhnt?!\nGroße Mengen Zucker sind für unseren Körper Gift! Unsere Leber kann große Mengen nicht abbauen. Die Folgen sind Vergiftungserscheinungen und uns wird schlecht. Dann schaffen Sie es jetzt auch sich gesünderes Verhalten anzugewöhnen!",
+      "props": {
+        "video": {
+          "url": "DIC_Heisshunger2_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Was werden Sie das nächste Mal anders machen, wenn der Heißunger kommen sollte?",
+      "text": "Schreiben Sie es auf:\n\"Wenn das nächste Mal der Heißhunger kommt, dann werde ich ... machen/tun.\"",
+      "props": {
+        "video": {
+          "url": "DIC_Heisshunger2_V7.flv",
+          "delay": 17
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Heisshunger2Outro_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie sich die Zusammenfassung des Coachings runterladen:",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Coaching-Zusammenfassung",
+            "file": "Zusammenfassung-Heißhunger.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

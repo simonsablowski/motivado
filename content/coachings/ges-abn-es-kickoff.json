@@ -1,0 +1,119 @@
+{
+  "key": "ges-abn-es-kickoff",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "KickOffMachen",
+      "title": "Möchten Sie sich jetzt den Kick-Start in Ihre letzte Abnehm-Zeit holen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_KickOff_V1.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich möchte die Kick-Start Übung jetzt machen"
+          },
+          {
+            "key": 2,
+            "value": "Ich möchte die Übung ein anderes Mal machen."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "KickOffMachen is 1"
+        },
+        {
+          "to": "n003",
+          "if": "KickOffMachen is 2"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Bereiten Sie sich einen Kick-Start in Ihre letzte Abnehm-Phase!",
+      "text": "Sie haben nun alles, was Sie für einen perfekten Start in Ihre Abnehm-Zeit brauchen.\nSie wissen, wie Ihr Ziel aussieht, wann Sie es erreiche haben werden und vor allem auch auf welchem Weg Sie es erreichen werden.\nSie wollen es unbedingt oder? Endlich Ihr Wunschgewicht erreichen?\nSind bereit einige Veränderungen auf sich zu nehmen und freuen sich schon auf die ersten Erfolge auf der Waage vor?\nGenießen Sie dieses Gefühl!\nÜber \"weiter\" geht's weiter!",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Sie wollen in Ihre Abnehmwoche starten? Auf geht's!\nDenken Sie an die Aufgaben, die Sie mit auf den Weg bekommen haben. Wenn Sie sich wieder anmelden, machen wir weiter mit dem nächsten Coaching. \nBis dann!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Dieses Mal wird alles anders, beweisen Sie es sich, dass Sie es auch so meinen!\n\nAber mal ganz ehrlich:\nWaren Sie nicht vielleicht schon einmal an genau diesem Punkt, wollten unbedingt abnehmen und sind dann doch gescheitert?\nVielleicht.\nAber dieses Mal haben Sie nicht nur den Willen abzunehmen, sondern auch einen Plan, wie Sie es schaffen können und Unterstützung von Freunden und uns, dem Motivado Team!\nSie haben also eine große Chance, dass dies hier heute der Start in das aller letzte Mal abnehmen für Sie ist!\nDas müssen Sie sich unbedingt bewusst machen!\n\nDies ist kein unsicheres Stolpern in ein unstrukturiertes Abnehm-Programm, sondern Sie sind motiviert und mit einem klaren Ziel vor Augen auf dem Weg in Richtung Wunschgewicht.\n\nAlso setzen Sie sich ein klares Zeichen, dass dieses Mal alles anders ist!\nBeweisen Sie sich und allen anderen, dass Sie es dieses Mal wirklich ernst meinen.\nMachen Sie was Verrücktes! Gehen Sie gleich nachdem Sie dieses Coaching abgeschlossen haben an Ihren Kühlschrank, an Ihren Vorratsschrank, Ihren Schreibtisch und schmeißen Sie alles, wirklich ALLES an Süßigkeiten, fettigen und salzigen Snacks weg!\n\nEin anderes Beispiel: Sind Sie mutig, dann machen Sie es öffentlich! Teilen Sie in einem Ihrer sozialen Netzwerke allen Ihren Freunden mit, dass Sie heute das letzte Mal ein Abnehm-Programm starten werden und in xx-Monaten Ihre Wunschfigur haben werden.\n\nKramen Sie Ihre Lieblingsjeans, in die Sie schon lange nicht mehr passen aus den Untiefen Ihres Kleiderschranks hervor und hängen Sie die in die Küche! Sie wollen bei der nächsten Heißhunger-Attacke wieder über den Kühlschrank herfallen? Dann zwingen Sie sich, sich zuerst in die alte Jeans zu quetschen - danach überlegen Sie sich zwei Mal, ob Sie es mit diesem Futteranfall noch schlimmer machen wollen.\n\nAm besten machen Sie alles oder denken sich selber noch etwas aus!\nHauptsache Sie beweisen sich, dass dieses Mal alles anders wird!",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Sie meinen es ernst? Wir auch!",
+      "text": "Sie haben sich entschieden die Aufgabe auf sich zu nehmen und dieses Mal wirklich erfolgreich abzunehmen.\nMachen Sie es offiziell!\nHier können Sie eine Art Vertrag unterschreiben, in dem wir Ihnen versprechen Sie nach all unseren Kräften beim Abnehmen zu unterstützen und in dem Sie sich selbst versprechen dieses Mal alles zu geben, um endlich Ihr Wunschgewicht zu erreichen!\nLaden Sie sich diesen psychologischen Vertrag hier runter und unterschreiben Sie Ihn.\nIch habe Ihn bereits unterschrieben, jetzt sind Sie dran!\n\nHiermit beginnt heute Ihre Reise in Richtung Wunschgewicht! Freuen Sie sich!\nSetzen Sie sich ein Zeichen und unterschreiben Sie den Vertrag.\nAuf geht's!\n\nKeine Sorge, dieser Vertrag ist nicht rechtskräftig. Es ist lediglich ein Vertrag mit Ihrem \"Gewissen\".",
+      "props": {
+        "documents": [
+          {
+            "name": "Psychologischer Vertrag",
+            "file": "PsychoContract.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "SetValue",
+      "key": "DIC_KickOffDone",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "y"
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    }
+  }
+}

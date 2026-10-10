@@ -1,0 +1,80 @@
+{
+  "key": "bez-balance-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V2.flv"
+        },
+        "elements": [
+          {
+            "element": "Verständnis",
+            "second": 5
+          },
+          {
+            "element": "Vision",
+            "second": 10
+          },
+          {
+            "element": "Ansatzpunkte für Änderungen",
+            "second": 15
+          },
+          {
+            "element": "Aufgabe",
+            "second": 24
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "bez-balance-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

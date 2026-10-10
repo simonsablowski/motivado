@@ -1,0 +1,441 @@
+{
+  "key": "bez-re-conversion-auswertungen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "c860aef81a2d45eaba45c0f1fce03620",
+      "title": "Wie lange ist die Trennung her?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V66.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Weniger als 4 Wochen"
+          },
+          {
+            "key": "2",
+            "value": "1-5 Monate"
+          },
+          {
+            "key": "3",
+            "value": "über 6 Monate"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "c860aef81a2d45eaba45c0f1fce03620 is '2'"
+        },
+        {
+          "to": "n002",
+          "if": "c860aef81a2d45eaba45c0f1fce03620 is '3'"
+        },
+        {
+          "to": "n003",
+          "if": "c860aef81a2d45eaba45c0f1fce03620 is '1'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "4310e7b0e3d0495bade62919cbdc94de",
+      "title": "Wieviel Kontakt haben Sie im Moment noch zu Ihrem/r Ex-Partner/in?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V23.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Selten / ab und zu"
+          },
+          {
+            "key": 2,
+            "value": "Regelmäßiger Kontakt"
+          },
+          {
+            "key": 3,
+            "value": "Kein / kaum Kontakt"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "4310e7b0e3d0495bade62919cbdc94de is 1"
+        },
+        {
+          "to": "n005",
+          "if": "4310e7b0e3d0495bade62919cbdc94de is 2"
+        },
+        {
+          "to": "n006",
+          "if": "4310e7b0e3d0495bade62919cbdc94de is 3"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "f2fb831850f948629ae2516b21fe2b8c",
+      "title": "Wieviel Kontakt haben Sie im Moment noch zu Ihrem/r Ex-Partner/in?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V24.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Regelmäßiger Kontakt"
+          },
+          {
+            "key": 2,
+            "value": "Selten / ab und zu"
+          },
+          {
+            "key": 3,
+            "value": "Kein / kaum Kontakt"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "f2fb831850f948629ae2516b21fe2b8c is 1"
+        },
+        {
+          "to": "n004",
+          "if": "f2fb831850f948629ae2516b21fe2b8c is 2"
+        },
+        {
+          "to": "n006",
+          "if": "f2fb831850f948629ae2516b21fe2b8c is 3"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Group",
+      "key": "rel_RueckFragebogen1",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V26.flv"
+        },
+        "count": 4
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Group",
+      "key": "rel_RueckFragebogen1",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V25.flv"
+        },
+        "count": 4
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Group",
+      "key": "rel_RueckFragebogen1",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V27.flv"
+        },
+        "count": 4
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "LaengeBeziehung",
+      "title": "Wie lange waren Sie zusammen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "bis 9 Monate"
+          },
+          {
+            "key": "2",
+            "value": "bis 2 Jahre"
+          },
+          {
+            "key": "3",
+            "value": "über 2 Jahre"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "LaengeBeziehung is '3'"
+        },
+        {
+          "to": "n008",
+          "if": "LaengeBeziehung is '2'"
+        },
+        {
+          "to": "n008",
+          "if": "LaengeBeziehung is '1'"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "schluss",
+      "title": "Wer hat die Beziehung beendet?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "Beide",
+            "value": "Beide"
+          },
+          {
+            "key": "Ex",
+            "value": "Mein/e Partner/in"
+          },
+          {
+            "key": "Ich",
+            "value": "Ich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "schluss is 'Ich'"
+        },
+        {
+          "to": "n009",
+          "if": "schluss is 'Beide'"
+        },
+        {
+          "to": "n009",
+          "if": "schluss is 'Ex'"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "TextInput",
+      "key": "rel_vorname",
+      "title": "Wie heißen Sie mit Vornamen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "TextInput",
+      "key": "rel_exvorname",
+      "title": "Wie heißt Ihr/e Ex-Partner/in mit Vornamen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011",
+          "if": "schluss is 'Beide'"
+        },
+        {
+          "to": "n012",
+          "if": "schluss is 'Ex'"
+        },
+        {
+          "to": "n013",
+          "if": "schluss is 'Ich'"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "schluss2",
+      "title": "Von wem ging die Initiative zur Trennung eher aus?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V7.flv"
+        },
+        "options": [
+          {
+            "key": "Ex",
+            "value": "Eher von #rel_exvorname|'Ihrem/r Ex-Partner/in'"
+          },
+          {
+            "key": "Ich",
+            "value": "Eher von mir"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "schluss2 is 'Ex'"
+        },
+        {
+          "to": "n013",
+          "if": "schluss2 is 'Ich'"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "ListView",
+      "key": null,
+      "title": "Wobei helfen wir Ihnen:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V5F.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 14
+          },
+          {
+            "type": "hide",
+            "second": 55
+          },
+          {
+            "type": "slide",
+            "second": 55,
+            "url": "weiter.png"
+          }
+        ],
+        "elements": [
+          {
+            "element": "Do's und Don'ts",
+            "second": 16
+          },
+          {
+            "element": "Richtiges Timing",
+            "second": 19
+          },
+          {
+            "element": "E-Mails und Sms an den/die Ex schreiben",
+            "second": 20
+          },
+          {
+            "element": "Richtiges Verhalten beim Treffen",
+            "second": 23
+          },
+          {
+            "element": "Mit Funkstille umgehen",
+            "second": 25
+          },
+          {
+            "element": "Eine bessere Beziehung aufbauen",
+            "second": 32
+          },
+          {
+            "element": "Liebeskummer überwinden",
+            "second": 35
+          },
+          {
+            "element": "Persönliche E-Mail-Betreuung",
+            "second": 43
+          },
+          {
+            "element": "10 Minuten kostenlose Telefonanalyse",
+            "second": 46
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Video",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V6.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "second": 46,
+            "url": "weiter.png"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy Coaching",
+      "text": "",
+      "props": {
+        "key": "bez-re-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

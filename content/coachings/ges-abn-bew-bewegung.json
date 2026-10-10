@@ -1,0 +1,248 @@
+{
+  "key": "ges-abn-bew-bewegung",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_IntroInBewegung_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Welche positiven Effekte hat Sport?",
+      "text": "1. Regelmäßiger Sport erhöht Ihren Grundumsatz - Sport macht also schlank!\n2. Sport stärkt das Immunsystem\n3. Sport kann Rücken- und Knieschmerzen lindern\n4. Sport stärkt Ihr Herz-Kreislaufsystem\n5. Sport stärkt Ihre Stützmuskulatur und schützt so vor Verletzungen\nUnd noch viel mehr!",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3_V1.flv",
+          "delay": 66
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "DIC_AusredenSport",
+      "title": "Welche dieser Beispiele halten auch Sie am häufigsten davon ab, Sport zu treiben?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3_V3.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich habe keine Zeit, Sport zu machen."
+          },
+          {
+            "key": 2,
+            "value": "Sport ist langweilig."
+          },
+          {
+            "key": 3,
+            "value": "Nach der Arbeit bin ich einfach viel zu müde, um auch noch Sport zu machen."
+          },
+          {
+            "key": 4,
+            "value": "Ich bin einfach viel zu faul, um Sport zu machen."
+          },
+          {
+            "key": 5,
+            "value": "Ich habe es in der Vergangenheit oft mit Sport probiert und bin immer wieder gescheitert."
+          },
+          {
+            "key": 6,
+            "value": "Ich kann mir ein teures Fitnessstudio oder teure Trainingsgeräte nicht leisten."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "DIC_AusredenSport is 1"
+        },
+        {
+          "to": "n006",
+          "if": "DIC_AusredenSport is 2"
+        },
+        {
+          "to": "n007",
+          "if": "DIC_AusredenSport is 3"
+        },
+        {
+          "to": "n008",
+          "if": "DIC_AusredenSport is 4"
+        },
+        {
+          "to": "n009",
+          "if": "DIC_AusredenSport is 5"
+        },
+        {
+          "to": "n010",
+          "if": "DIC_AusredenSport is 6"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3Bewegung_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3Bewegung_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3Bewegung_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3Bewegung_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3Bewegung_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_WOThema3Bewegung_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_OutroInBewegung_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

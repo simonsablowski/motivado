@@ -1,0 +1,1121 @@
+{
+  "key": "kar-unterlagen",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "dcab1d4cd6d242ef97cd375f6b7f5fa1",
+      "title": "Willkommen im Coaching! Sie haben jetzt die Möglichkeit selbst das Thema mit dem sie fortfahren wollen zu wählen. ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Unterlagen"
+          },
+          {
+            "key": "2",
+            "value": "Anschreiben"
+          },
+          {
+            "key": "3",
+            "value": "Mappe, Foto, Zeugnisse"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "dcab1d4cd6d242ef97cd375f6b7f5fa1 is '1'"
+        },
+        {
+          "to": "n003",
+          "if": "dcab1d4cd6d242ef97cd375f6b7f5fa1 is '2'"
+        },
+        {
+          "to": "n004",
+          "if": "dcab1d4cd6d242ef97cd375f6b7f5fa1 is '3'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Unterlagen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Unterlagen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wozu ein Anschreiben, wenn alles im Lebenslauf steht, fragen Sie sich vielleicht. \nVerschenken Sie sich aber bitte an dieser Stelle keine Chancen! Ihr Anschreiben soll den Leser nämlich erst davon überzeugen, dass es sich lohnt, sich Ihren Lebenslauf anzusehen. Machen Sie sich ihm also „schmackhaft“, indem Sie im Anschreiben gelungen darstellen, wer Sie sind und was Sie als Bewerber spannend macht.\n\nWenn wir gleich ein erstes Anschreiben entwerfen, fragen Sie sich beim Erstellen: wie kann ich mich mit meinem Anschreiben wirklich von der Masse aller anderen Bewerber abheben? \nEin Punkt, der häufig fehlt ist Leidenschaft! Wenn man einen Job wirklich haben will, darf das auch durchscheinen. Und echte (authentische!) Begeisterung fällt aus dem Rahmen und somit auf. Solange es Ihrem Naturell entspricht, dürfen Sie ruhig zeigen, dass Sie brennen. \n\nWas in ein überzeugendes Anschreiben gehört, schauen wir uns auf der nächsten Seite an. \nLos geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die professionelle Bewerbungsmappe\r\n\r\nIm Fachhandel wird eine große Auswahl an Bewerbungsmappen angeboten. Geeignet sind sie alle - von einfachen Klemm-Mappen bis hin zu den dreigeteilten, hochwertig gestalteten Mappen. Der Preis kann leicht zwischen 1,50 Euro und 6 Euro schwanken. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Lebenslauf\r\n\r\nIhr Lebenslauf ist Ihr Aushängeschild, Ihre Verkaufsbroschüre und auch Ihre Möglichkeit, das Bewerbungsgespräch zu steuern. \r\nWenn Sie gleich Ihren Lebenslauf zu Papier bringen, möchten wir Ihnen vorweg ein wenig den Druck nehmen:\r\nder optimale Lebenslauf entsteht nicht mit dem ersten Entwurf! Wir erstellen daher eine erste Rohfassung, die Sie dann nach und nach perfektionieren und später an die jeweiligen Stellenanzeigen anpassen können.\r\n\r\nAls erstes öffnen Sie bitte Ihr Standard-Schreibprogramm, also bspw. MS Word oder Pages.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Gliedern Sie Ihr Anschreiben in logische Abschnitte. Idealerweise enthält jedes Anschreiben einen Einstieg, einen Mittelteil und einen Schluss. Einige Bausteine wie die Begrüßung oder die Verabschiedung können dabei gleich bleiben und müssen nicht jedes Mal verändert werden.\n\nSeien Sie dabei leserfreundlich in Ihren Formulierungen. Versetzen Sie sich in die Lage des Personalers, der unzählige Anschreiben liest – Schachtelsätze und Phrasen tauchen in 90% aller Anschreiben auf. Das Persönliche bleibt inmitten solcher Satzkonstruktionen komplett auf der Strecke.\n\nBilden Sie stattdessen kurze Sätze und vermeiden Sie lange Bandwürmer über mehrere Zeilen.  \nSeien Sie in Ihrer Formulierung persönlich, lebendig und dabei stets authentisch. Das erreichen Sie z.B. dadurch, dass Sie Ihre Aussagen auch belegen, etwa:\n\"Ich habe stets positives Feedback für mein Organisationstalent erhalten. Beispielsweise habe ich jede Woche unser Teammeeting zuverlässig vorbereitet.\"\nDas wirkt sehr viel ansprechender als: \"Ich kann gut organisieren.\"\n\nÖffnen Sie bitte jetzt Ihr Schreibprogramm oder notieren Sie sich Stichpunkte während wir die Bausteine Ihres Anschreibens durchgehen.\n\nZur Unterstützung haben wir 2 Beispielanschreiben für Sie vorbereitet, die Sie unterhalb herunterladen können.",
+      "props": {
+        "documents": [
+          {
+            "name": "Anschreiben Muster 1",
+            "file": "Anschreiben_Muster1.pdf"
+          },
+          {
+            "name": "Anschreiben Muster 2",
+            "file": "Anschreiben_Muster2.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auf eines sollten Sie bei der Wahl der Mappe jedoch achten: Verwenden Sie keine Klarsichthüllen oder Schnellhefter. Bitte verzichten Sie auch auf Dekoration und halten Sie Ihre Bewerbung schlicht und klassisch. \r\nZum Versand wählen Sie idealerweise einen A4-Umschlag mit Papprücken. So lassen sich Knicke vermeiden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihr Lebenslauf sollte insgesamt nicht mehr als drei Seiten umfassen. \r\nDadurch beweisen Sie dem Personaler auch gleich, dass Sie einen Blick für das Wesentliche haben und alle wichtigen Fakten sturkturiert gliedern können. Nichts macht Ihren Lebenslauf stärker als das Auswählen und Abschmelzen der Informationen!\r\n\r\nDamit Sie keine wichtigen Informationen vergessen, stellen Sie sich bitte bei jedem Eintrag in Ihrem Lebenslauf diese Fragen:\r\n\r\n1. Verweist der Eintrag auf meine aktuelle Kompetenz? Falls ja, ergänzen Sie Zusatzinformationen zu Aufgaben, Tätigkeiten, Leistungen oder Erfolgen! \r\n\r\n2. Hat der Eintrag etwas mit einer Institution, Organisation oder Firma zu tun? Dann nennen Sie Ort und vollständigen Namen.\r\n  \r\n3. Trägt der Eintrag nichts zur Darstellung meiner Arbeits- und Lernleistungen, meinem Wissen oder meinem Engagement bei? Dann hat er im Lebenslauf nichts zu suchen. \r\n\r\n ",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Fangen wir mit Ihren Absenderdaten an.\n\nDazu gehört:\n\nVorname, Nachname (plus akademischer Grad, wenn vorhanden)\nStraße und Hausnummer\nPLZ und Ort\nTelefon (+49 71 11 22 33 4444)\nMobilnummer, falls Sie meist unterwegs sind (+49 151 12 33 44 5555)\nE-Mail-Adresse, wenn Sie Ihre Nachrichten mindestens einmal pro Tag abrufen (vorname.nachname@emailanbieter.de)\n\nPlatzieren Sie diese entweder oben in Form eines Briefkopfs oder in klassischer Form untereinander.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie ist die richtige Reihenfolge Ihrer Unterlagen?\r\n\r\n1. Deckblatt mit Foto, falls Sie ein Deckblatt verwenden wollen\r\n2. Ihr Lebenslauf mit Anlagenverzeichnis\r\n3. ggf. die Dritte Seite\r\n4. Ihre Zeugnisse\r\n\r\nDas Anschreiben wird auf die Bewerbungsmappe und nicht hineingelegt. Auf manchen Bewerbungsmappen gibt es außen noch eine Möglichkeit Ihr Anschreiben zu befestigen.\r\nWenn Sie Ihre Bewerbung online verschicken, sollten Sie das Anschreiben zwischen Deckblatt und Lebenslauf platzieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und jetzt zum konkreten Inhalt! Was ist hier wichtig, was muss rein? \r\n\r\nDas hängt ein bisschen davon ab, aus welcher Position heraus und mit welchem Ziel Sie sich bewerben. Wenn Sie sich direkt aus dem Job bewerben und eine gewisse Karriere aufweisen können, hat der häufig genutzte chronologische Lebenslauf das richtige Format für Sie.\r\nSind Sie dagegen derzeit arbeitslos oder bewerben sich für ein völlig anderes Berufsfeld, wird Ihnen der funktionale Lebenslauf mehr nützen, den wir uns im Anschluss ansehen.\r\n\r\nUnabhängig davon, für welche Form Sie sich entscheiden, was gehört in den Lebenslauf? Klicken Sie auf \"weiter\", um mehr zu erfahren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Empfänger\n\nHierbei sollten der Name und die Adresse unbedingt richtig geschrieben werden. Prüfen Sie das also bitte sorgfältig vor dem Absenden.\n\nHier sehen Sie verschiedene Gestaltungsmöglichkeiten für den Empfänger:\n\nSchulze und Co. GmbH\nHerrn Michael Schulze\nKarl-Schuster-Str. 26\n12345 Berlin\n\nMeier & Partner\nFrau Maria Meier\nLiebemannstr. 45a\n12345 Berlin\n\nKrüger AG\n- Personalabteilung -\nFrau Dr. Elisabeth Kaiser (der Titel gehört immer vor den Namen)\nOtto-Suhr-Allee 13\n12345 Berlin\n\nFried und Parter\nHerrn Rechtsanwalt (die Berufsbezeichnung platziert man oberhalb des Namens)\nHans Küster",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zu einer professionellen Bewerbung gehört auch ein professionelles Bewerbungsfoto!\r\n\r\nZwar ist es dem Arbeitgeber rein rechtlich nicht gestattet, auf einem Foto von Ihnen zu bestehen, viele Arbeitgeber ziehen es aber vor, sich bereits beim Durchlesen der Bewerbung ein \"Bild\" des Bewerbers machen zu können. Wir empfehlen Ihnen daher, Ihrer Bewerbung ein Foto beizufügen, da Sie daher Ihre Erfolgschancen erhöhen.\r\nWenn Sie sich für ein Bewerbungsfoto entscheiden, investieren Sie ein paar Euro und gehen Sie unbedingt zu einem professionellen Fotografen! Wir sagen Ihnen auch, warum sich das lohnt! „Bild schlägt Text“ sagen Werbeprofis. Ihr Bild kann dafür sorgen, dass Sie Ihrem potentiellen Arbeitgeber sofort sympathisch sind. Umgekehrt kann es genauso passieren, dass er Sie sofort unsympathisch findet. Diesen ersten Eindruck kriegen Sie auch mit dem besten Vorstellungsgespräch nur schwer wieder aus der Welt! \r\nNehmen Sie sich daher die Zeit, investieren Sie das Geld und lassen Sie professionelle Aufnahmen beim Fotografen machen. Fragen Sie Freunde und Bekannte, ob sie einen guten Fotografen kennen. Dort können Sie sich Ihr Foto als .jpg-Datei auf CD-ROM geben lassen und es gleichzeitig für Online-Bewerbungen nutzen.\r\n\r\nBeachten Sie bitte auch, dass Sie auf den Aufnahmen seriös und gepflegt wirken. So sollten Sie frisch geduscht und passend gekleidet sein. Männer sollten außerdem frisch rasiert sein. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "In den Lebenslauf gehören zuallerst einmal Ihre persönlichen Daten, also Ihr Vor- und Zuname, Ihr Geburtsdatum und der Geburtsort.\n\nNicht zwingend dagegen sind:\n* Ihr aktueller Familienstand - außer, es sind echte Argumente; verheiratet zu sein ist immer ein Argument!\n* Nationalität bzw. Staatsangehörigkeit, es sei denn, das Unternehmen sucht jemanden mit einer speziellen Staatsangehörigkeit\n* Anzahl der Geschwister (bitte verzichten Sie auf Angaben zu Tätigkeiten von Familienangehörigen, es sei denn es gibt einen direkten Bezug zur ausgeschriebenen Stelle oder dem potenziellen Arbeitgeber)\n\n\nWir haben Beispiel-Lebensläufe für Sie zusammengestellt, die Sie unten downloaden können. Dort sehen Sie, wo Sie Ihre persönlichen Angaben am Besten unterbringen. Ihren Namen und Ihre Kontaktdaten platzieren Sie entweder auf das Deckblatt oder, wenn Sie keines verwenden, in den oberen Abschnitt Ihres Lebenslaufs. Geburtsdatum und Familienstand gehören nicht mehr auf das Deckblatt, sondern wie im Beispiel auf die erste Seite Ihres Lebenslaufs. Denken Sie bei der Gestaltung Ihres Lebenslauf daran, dass Ihre wichtigsten Kontaktdaten (auch Telefonnummer und Emailadresse) stets gut sichtbar sind. So sparen Sie dem Personaler Sucharbeit, wenn er Sie kontaktieren möchte.",
+      "props": {
+        "documents": [
+          {
+            "name": "Lebenslauf Muster 1",
+            "file": "Lebenslauf_Muster1.pdf"
+          },
+          {
+            "name": "Lebenslauf Muster 2",
+            "file": "Lebenslauf_Muster2.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Datum\n\nDas Datum steht in der Regel rechtsbündig zwischen Empfänger und Betreffzeile. Den Ort brauchen Sie nur dann anzugeben, wenn er aus Ihrer Absenderadresse nicht eindeutig hervorgeht.\n\nBeispielsweise:\n\n2010-05-17\n\n17-05-2010\n\n17.05.2010\n\n17.05.10\n\n17. Mai 2010\n\n17. Dez. 2010",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sympathisch auf dem Foto rüberzukommen schaffen Sie, indem Sie...\r\n\r\n* auf dem Foto lächeln! Wenn Sie zu denen gehören, die nicht gern fotografiert werden, denken Sie beim Fotografieren an die positiven Folgen, die eine erfolgreiche Bewerbung für Sie hat – neue, spannende Aufgaben, ein gesichertes Einkommen, wieder im Job zu stehen. Lächeln Sie, als wenn Sie Ihren Arbeitsvertrag schon in der Tasche hätten. Das wird sich auch in Ihrem Gesichtsausdruck widerspiegeln!\r\n* ein modisch-dezentes Outfit für Ihr Foto wählen, das sauber ist und zu Ihrem Typ als auch der betreffenden Stelle passt. \r\n* gepflegt erscheinen. Also: frisch gewaschene und frisierte Haare mit dezenter Frisur. Schlichtes Make-up für alle Frauen und frische Rasur für die Männer.\r\n* nicht zum Fototermin gehen, wenn Sie sich krank oder nicht fit fühlen. Mit dickem Kopf oder (psychischem oder zeitlichen) Druck im Nacken ist es schwer, selbstbewusst in die Kamera zu lächeln, ohne aufgesetzt zu wirken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im ersten Schritt erstellen wir gemeinsam den klassischen, chronologischen Lebenslauf. Wir werden dabei auf die mittlerweile gängige amerikanische Form zurückgreifen, das heißt, wir starten mit Ihrer aktuellen Station und enden mit der Schulzeit. So rückt in den Vordergrund, was am meisten für Sie spricht. \r\nWenn Sie sich jedoch aus der Arbeitslosigkeit heraus bewerben oder gerade eine (Familien-)Auszeit vom Beruf nehmen, ist der funktionale Lebenslauf für Sie besser geeignet, den wir uns im zweiten Schritt anschauen. Mit dem Prädikat “arbeitssuchend” möchte man sich ja schließlich nicht an erster Stelle präsentieren...",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Betreff\n\nBeziehen Sie sich hier direkt auf die Stelle, auf die Sie sich bewerben, also:\n\n\"Bewerbung als Projektassistentin - Ihre Stellenanzeige vom 07. Mai 2010 in der Süddeutschen Zeitung, Kennziffer 1234\" (ist eine Kennziffer erwähnt, geben Sie sie mit an)\n\nHeben Sie die Betreffzeile hervor, indem Sie sie fett oder kursiv formatieren oder in Großbuchstaben schreiben. Sie kann auch gern über zwei Zeilen gehen, Hauptsache, der Personaler weiß sofort, um welche Stelle es sich dreht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ist beim Foto zu beachten?\r\n\r\nWie ist die optimale Bildgröße? \r\nDie ideale Größe liegt bei ca. 6x9 cm. Ein Foto von Ihnen, dass die halbe Seite des Deckblatts ziert, wirkt überheblich. Ein zu kleines Bild wirkt dagegen, als würden Sie sich verstecken wollen. \r\n\r\nSchwarz/Weiß oder Farbe?\r\nIm Grunde ist da Ihre Vorliebe entscheidend. Beides ist ok. Wichtig ist beim Farbfoto, dass der Hintergrund dezent ist. Verzichten Sie also auf Farbverläufe.\r\n\r\nWo kommt Ihr Foto hin?\r\nDamit Ihre Ausstrahlung den nötigen Raum hat, befestigen Sie es idealerweise auf dem Deckblatt. So kommen Sie voll zur Geltung, ohne dass allzu viel Text von Ihrem Gesicht ablenkt. Sie können das Foto natürlich auch an einem anderen Ort platzieren – auf dem Lebenslauf beispielsweise.\r\n\r\nEin Tipp: Schreiben Sie Ihren Namen mit Bleistift auf die Rückseite. So kann man es auch noch Ihren Unterlagen zuordnen, wenn es sich gelöst haben sollte. Befestigen Sie es mit einem Klebestift oder fügen Sie es gleich als Bild-Datei ein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Womit fangen wir an?\r\n\r\nListen Sie alles auf, was Sie bisher gemacht haben: Schulabschluss, Studium, Praktika, Jobs neben dem Studium, besondere Weiterbildungen und Kurse, Auslandsaufenthalte sowie soziales und gesellschaftliches Engagement.\r\n\r\nGliedern Sie die einzelnen Bereiche, die wir jetzt nach und nach erstellen, mit Hilfe von Überschriften, bspw.: \r\n* Persönliche Daten\r\n* Berufserfahrung\r\n* Studium\r\n* Ausbildung\r\n* Weiterbildung\r\n* Kenntnisse und Fähigkeiten\r\n* Engagement\r\n* Publikationen.\r\n \r\nNicht jede dieser Überschriften trifft auf Sie zu, aber mehr Überschriften brauchen Sie in keinem Fall!\r\n\r\nGehen wir die einzelnen Bereiche etwas genauer an, damit Sie wissen, worauf es hierbei jeweils ankommt. Klicken Sie auf \"Nächster Schritt\"!\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Persönlich sein - Die Anrede\n\n„Sehr geehrte Damen und Herren“ gehört der Vergangenheit an und sollte durch eine persönliche Ansprache ersetzt werden, also „Sehr geehrte Frau Schreiber“ oder „Sehr geehrter Herr Küster“. Häufig steht der Ansprechpartner bereits in der Stellenanzeige. Sollte das nicht der Fall sein, recherchieren Sie den entsprechenden Kontakt im Internet oder fragen Sie in der Personalabteilung nach dem Kontakt für Ihre Bewerbung.\n\nWenn Sie bereits Kontakt zu Ihrem Ansprechpartner – entweder per Mail oder Telefon – gehabt haben, können Sie in Ihrer Anrede etwas lockerer sein und folgende Varianten benutzen:\n* „Hallo Frau Schneider,“\n* „Hallo, sehr geehrte Frau Schneider,“\n* „Guten Tag, Frau Schneider,“\n\nNach der Anrede kommt immer ein Komma, so dass Sie im Anschreibentext klein beginnen.\n\nDer übelste Fauxpas, der Ihnen hier passieren kann, ist die falsche Schreibweise des Namens. Kontrollieren Sie diese also unbedingt, bevor Sie Ihr Anschreiben rausschicken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Zeugnisse für Ihre Bewerbung\r\n\r\n\r\nZeugnisse zeigen entweder eine sachlich-objektive Bewertung Ihrer Leistung (Schul- und Anschlusszeugnis) oder die berufliche Einschätzung Ihrer Fähigkeiten durch Dritte (Referenzen). Und sie sind sichtbarer Beweis Ihrer Lernbereitschaft (Zertifikat der Teilnahme an Weiterbildungsmaßnahmen) – was besonders wichtig ist, wenn Sie etwas älter sind.\r\n\r\nFür Ihre Bewerbungsmappe sind alle Zeugnisse interessant, die für die optimale Erfüllung der angestrebten Stelle wichtig sind – dazu gehören Schul- und Studienabschlüsse, Zeugnisse von Weiterbildungsmaßnahmen, die Ihre Qualifikation für die Stelle unterstreichen und Arbeitszeugnisse der beruflichen Stationen, die Ihre Erfahrung im angestrebten Bereich dokumentieren.\r\n\r\nBitte sortieren Sie Ihre Zeugnisse in umgekehrt chronologischer Reihenfolge-beginnen Sie also mit den aktuellsten Unterlagen. Legen Sie grundsätzlich nur Kopien und keine Originale bei.",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Starten wir mit Ihrer Berufserfahrung. Ihre letzte oder aktuelle Berufstätigkeit steht ganz oben auf Ihrem Lebenslauf inklusive Ihrer Berufsbezeichnung, dem Arbeitgeber und der Ortsangabe. Danach kommen frühere Tätigkeiten, mit der Ältesten an letzter Stelle. \r\nVerwenden Sie für Ihre aktuelle Tätigkeit den Präsens. Nur für die älteren Stationen wird die Vergangenheitsform benutzt.\r\n\r\nDer Arbeitgeber interessiert sich vor allem für die Tätigkeiten, die Ihr berufliches Ziel unterstützen. Überlegen Sie für jede Ihrer beruflichen Stationen, welche sind das? Was haben Sie gemacht, das auch für Ihre Zielsetzung relevant ist? Unterfüttern Sie den Eintrag mit Zusatzinformationen zu Aufgaben, Tätigkeiten, Leistungen oder Erfolgen.\r\nBeschreiben Sie:\r\n1. Die aktuelle oder letzte Tätigkeit:\r\n2. Was waren dabei Ihre Aufgaben, Tätigkeiten, was haben Sie konkret getan? Verwenden Sie dafür aktive Formulierungen! Eine Liste mit aktiven Formulierungen haben wir weiter unten für Sie zum Download bereitgestellt.\r\n3. Was waren ggf. Erfolge, das Ergebnis und Vorteile für das Unternehmen?\r\n\r\nEin Beispiel:\r\n\r\n03/2001 - 05/2006 Marketingreferent, Marketing Solutions GmbH, München\r\nTätigkeiten: Projektleitung, Entwicklung von Marketingstrategien, Durchführung von Kundenanalysen, Erstellung von Werbekonzepten, Erarbeitung von Produktpräsentationen\r\nErgebnisse: Steigerung des Marktanteils des Produkts XYZ um 10%; erfolgreiche Marketingkampagne für Produkt XYZ\r\n\r\nAchten Sie bitte darauf, dass keine zeitlichen \"Lücken\" zwischen zwei Einträgen in Ihrem Lebenslauf entstehen. Auch wenn Sie arbeitssuchend waren oder eine Auszeit genommen haben, geben Sie das bitte an. Sonst macht es schnell den Eindruck, dass Sie etwas unter den Tisch fallen lassen. Ehrlichkeit ist hier in jedem Fall die bessere Wahl.",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die starke Einleitung\n\nNach der Anrede stellen Sie sich im Grunde wie auf einer Party mit lauter fremden Menschen erst einmal klassischerweise vor: beschreiben Sie dabei kurz, wie Sie auf die Anzeige aufmerksam geworden sind. \n\nWenn Sie durch einen Mitarbeiter der Firma darauf hingewiesen wurden, erwähnen Sie unbedingt Ihre Referenz: das ist der gute alte Trick, Ihr Vitamin B ins Spiel zu bringen, bspw.: \n„Ihr Kollege Peter Braun aus der PR- und Marketingabteilung war bereits so freundlich, mich Ihnen als Projektassistent zu empfehlen.“\n\nSchreiben Sie sonst einfach, wo Sie die Stellenanzeige entdeckt haben, bspw.: \n„Bei meiner Stellensuche bin ich auch auf Ihre Homepage gestoßen und habe dabei die ausgeschriebene Position als XYZ entdeckt.“ \n\nVielleicht haben Sie auch bereits vorher mit der Personalabteilung gesprochen, um beispielsweise den Namen Ihres Ansprechpartners in Erfahrung zu bringen. Erwähnen Sie dann unbedingt Ihr Telefonat, also beispielsweise: \n\"Vielen Dank, dass Sie sich gestern am Telefon so viel Zeit für mich genommen haben. Wie ich in unserem Gespräch erwähnte, habe ich durch meine Arbeit in einer interdisziplinären Forschungseinrichtung - zuletzt als Projektleiterin - bereits viel Berufserfahrung gesammelt.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hier die Liste der relevanten Zeugnisse:\r\n\r\n* Schulabschlusszeugnis\r\n* ggf. Ausbildungsabschlusszeugnis\r\n* ggf. Hochschulzeugnis/Diplom\r\n* ggf. aussagekräftige Praktikumsnachweise\r\n* ggf. Arbeitszeugnisse\r\n* besondere Zertifikate über Fort- und Weiterbildungen",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Starten wir also mit der Auflistung Ihrer Tätigkeiten. Dabei können Sie sich an folgenden Punkten orientieren:\n\n1. Was ist oder war Ihre aktuelle bzw. letzte berufliche Tätigkeit?\n2. Was haben Sie konkret getan? Was waren Ihre genauen Aufgaben? \n3. Was waren ggf. Erfolge, Ergebnisse oder Vorteile für das Unternehmen?\n\nUnten finden Sie eine Liste zum herunterladen mit aktiven Verben, die sich an dieser Stelle bei der Formulierung besonders gut machen. Kontaktieren Sie auch unsere Experten, die Ihnen gerne weiterhelfen.",
+      "props": {
+        "documents": [
+          {
+            "name": "Liste mit aktiven Formulierungen",
+            "file": "Aktive_Formulierungen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "So, wie Sie jetzt die schöne Dekoration oder das leckere Essen auf der Party loben würden, machen Sie dem Annoncenschreiber an dieser Stelle ein Kompliment. Was hat Ihnen an der Stellenbeschreibung besonders gefallen?\r\n\r\nBeispielsweise: \r\n„An Ihrer Anzeige hat mir besonders gut gefallen, dass ___.“ \r\n\r\nFür den Arbeitgeber kommt so auch deutlich rüber, dass Sie die Stellenanzeige tatsächlich gelesen haben.\r\n\r\nSie können die ersten Sätze der Einleitung gleich direkt in Ihr Anschreiben übernehmen. Wenn Sie schon eine interessante Stellenanzeige entdeckt haben, formulieren Sie schon mal aus, was Ihnen daran positiv aufgefallen ist. Los geht’s!",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Meine Bewerbungsunterlagen\". \r\nJetzt brauchen wir noch die Firmen, bei denen Sie sich mit Ihren Unterlagen präsentieren werden. Diese sammeln wir gemeinsam im nächsten Coaching \"Wo kann ich mich bewerben?\".",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Beschreiben Sie jetzt bitte Ihre letzte Tätigkeit und drei bis fünf Aufgaben, die Sie dabei wahrgenommen haben. \r\nIhre Fragen zur Orientierung:\r\n1. Was ist oder war Ihre aktuelle bzw. letzte berufliche Tätigkeit?\r\n2. Was haben Sie konkret getan? Was waren Ihre genauen Aufgaben? \r\n3. Was waren ggf. Erfolge, Ergebnisse oder Vorteile für das Unternehmen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Weiterhin geht es jetzt darum, Ihr Interesse an der Position zu demonstrieren. Tun Sie das, indem Sie Ihre Ansicht äußern, ein geeigneter Kandidat für die Stelle zu sein.\n\nBeispielsweise:\n\n„Ich denke, dass ich gut für die Position geeignet bin, wie Sie an meinem beigefügten Lebenslauf sehen können.“\n\n„Als ich Ihre Annonce gelesen habe, hatte ich den Eindruck, dass meine Erfahrungen gut zu Ihrem Stellenprofil passen.“\n\n„Beim Lesen Ihrer Anzeige hatte ich gleich das Gefühl, dass ich mit meinen Qualifikationen der/die Richtige für Sie bin.“\n\n„Ich habe mich gefreut, Ihre Annonce zu lesen, da ich das Gefühl habe, dass ich mit meinen Erfahrungen einen echten Mehrwert für Ihr Unternehmen darstelle.“\n\n„Ihre Anzeige vom XYZ hat mich sehr angesprochen, da ich denke, dass ich Ihre Anforderungen sehr gut abdecke.“\n\n„Mit Freude habe ich gelesen, dass Sie einen/eine XYZ suchen. Ich habe das Gefühl, dass die Stellenausschreibung meinen Fähigkeiten in besonderem Maße entspricht.\"\n\n\nWeiter geht's mit dem Hauptteil Ihres Anschreibens!",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Meine Bewerbungsunterlagen\"",
+      "text": "Als Aufgabe bis zu unserem nächsten Coaching erstellen Sie bitte Ihre erste Bewerbung. Falls Sie schon Bewerbungen verfasst haben, gehen Sie diese bitte nochmal durch und integrieren Sie alles, was Sie in diesem Coaching gelernt haben.\nViel Erfolg!",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gehen Sie so jetzt für alle Ihre beruflichen Stationen vor. Berufserfahrene sollten dabei auf Praktika, die länger als zehn Jahre zurückliegen oder Jobs während des Studiums oder Ausbildung verzichten.\n\nEs reicht dabei, wenn alle Zeitangaben jeweils nur aus Monat und Jahr bestehen. Kleinere Lücken im Lebenslauf lassen sich so schließen. Hierzu zählen z.B. die Zeiten zwischen Abitur und Beginn des Wehrdienstes oder die Zeit zwischen Wehrdienst und Beginn des Studiums.\n\nWas tun bei größeren Lücken im Lebenslauf? Sehen wir uns im nächsten Schritt an, wie Sie damit am besten umgehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Hauptteil - Wer bin ich, was kann ich?\n\nIn den mittleren Teil des Anschreibens kommen die beruflichen Erfahrungen aus Ihrem Lebenslauf, die Sie hier leicht verdaulich präsentieren.\n\nDabei möchte der Leser sehen:\n* Wie sehr haben Sie sich mit der Position auseinandergesetzt?\n* Wie viel Mühe haben Sie sich beim Anschreiben gegeben?\n* Wie sehen und präsentieren Sie sich selbst?\n\nBelegen Sie hier, dass Sie gut auf die ausgeschriebene Stelle passen, beispielsweise:\n\n„In meiner letzten Tätigkeit habe ich dieselben Aufgaben/Tätigkeiten wahrgenommen, die Sie in Ihrer Stellenanzeige beschreiben.\"\n\n„In meinem letzten Job verfolgte ich dieselben Ziele, die für Sie im Vordergrund stehen, nämlich XYZ.\"  \n\n„In meiner Position als XYZ habe ich mit den gleichen Werkzeugen gearbeitet, die Sie in Ihrer Stellenanzeige auflisten.“\n\n„Durch meine langjährige Berufstätigkeit als XYZ habe ich mit ganz ähnlichen Herausforderungen zu tun gehabt, die Sie in Ihrer Annonce anführen.“\n\n„Seit meiner Ausbildung bringe ich genau die Fähigkeiten zum Einsatz, die Sie von einem zukünftigen Mitarbeiter fordern.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Options",
+      "key": "17af69d648664acc9d98a4c57bc9416a",
+      "title": "Herzlichen Glückwunsch! Sie haben das Coaching \"Mappe, Foto, Zeugnisse\" erfolgreich beendet. \nSie haben jetzt die Möglichkeit selbst das Thema mit dem sie fortfahren wollen zu wählen. ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Unterlagen"
+          },
+          {
+            "key": "2",
+            "value": "Anschreiben"
+          },
+          {
+            "key": "3",
+            "value": "Coaching beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "17af69d648664acc9d98a4c57bc9416a is '1'"
+        },
+        {
+          "to": "n003",
+          "if": "17af69d648664acc9d98a4c57bc9416a is '2'"
+        },
+        {
+          "to": null,
+          "if": "17af69d648664acc9d98a4c57bc9416a is '3'"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie größere Lücken in Ihrer beruflichen Laufbahn haben, sei gesagt, dass eine Zeit der Arbeitslosigkeit heute nicht mehr unbedingt einen Makel darstellt. Wichtig ist, was Sie aus Ihrer Lücke im Lebenslauf gemacht haben. Haben Sie die Zeit genutzt, etwas für Ihre berufliche Fortbildung zu tun, haben Sie nebenher gejobbt, sich für eine soziale, politische oder gesellschaftliche Sache engagiert oder sich um die Familie gekümmert? Eventuell können Sie auch mehrere aufeinanderfolgende ähnliche Tätigkeiten mit kurzen Unterbrechungen zu einem Block zusammenfassen.\n\nFalls Ihnen gekündigt wurde, sollten Sie dies ehrlich angeben. Eine Lüge wird entweder bereits im Bewerbungsgespräch aufgedeckt oder später im Job. Beides führt dazu, dass Sie augenblicklich aus dem Spiel sind – entweder man sagt Ihnen sofort ab oder Sie erhalten die fristlose Kündigung. \n\nWurden Sie unverschuldet entlassen, weil die Abteilung dicht gemacht wurde oder das Unternehmen im großen Stil Stellen abbaute, können Sie dies erhobenen Hauptes erwähnen. Im Lebenslauf reicht dann die Formulierung: \n\"04/2007 bis 11/2010 – Teamleiter bei der Schall und Rauch GmbH (Kündigung wegen Insolvenz)\"\n\nWas tun bei selbstverschuldeter Kündigung? Dazu mehr auf der nächsten Seite!",
+      "props": {},
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Punkten Sie jetzt mit Ihren stärksten Argumenten - Ihren Erfahrungen, die Sie für diese Stelle qualifizieren: \n\nBeispielsweise:\n\n\"Als Fachanwalt für Patent- und Markenrecht für die Kanzlei Grüner & Berger habe ich in den letzten fünf Jahren mehrere komplexe internationale Urheberrechtsfälle erfolgreich gelöst.\"\n\n\"Im Fachblatt für Rehabilitationsmedizin las ich heute, dass Sie stärker auf den Bereich der Rehatechnik setzen wollen. Bei diesem Vorhaben möchte ich Sie unterstützen: Als Ingenieurin für Medizintechnik mit langjähriger Berufserfahrung bei der RAS GmbH biete ich Ihnen...\"\n\n\"Wie ich von Frau Peters erfahren habe, interessieren Sie sich zunehmend für nachhaltiges Wirtschaften. Als Wirtschaftsexpertin mit dem Schwerpunkt nachhaltige Ressourcenplanung möchte ich meine Erfahrungen auf diesem Zukunftsmarkt gerne in Ihr Unternehmen einbringen.\"\n\n\"Seit mehr als sechs Jahren bin ich als Ingenieur für Fahrzeugtechnik tätig. In dieser Zeit habe ich...\"\n\nWeisen Sie als Hochschulabsolvent auf Schwerpunkte hin: \n\"Social Entrepreneurship und Technologie-Gründungen sind die Schwerpunkte meines Studiums der BWL, das ich im vergangenen Monat mit der Note 1,4 abgeschlossen habe.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine selbstverschuldete Kündigung ist ärgerlich. Vielleicht haben Sie ein schlechtes Gewissen und machen sich deswegen Sorgen. \nWir raten Ihnen dennoch bei den Fakten zu bleiben-sie können allerdings etwas Schadensbegrenzung betreiben.\n\nFolgende drei Tipps können Ihnen dabei helfen, den Fleck zumindest etwas aufzupolieren: \n\n1. Der funktionale Lebenslauf. Der funktionale Lebenslauf ist dem chronologischen überlegen, wenn es darum geht, Lücken oder Knicke im Lebenslauf zu kaschieren. Wir schauen uns gleich noch genauer an, wie das geht.\n\n2. Erwähnen. Aber nicht mehr als das! Hüten Sie sich vor Erklärungen oder Rechtfertigungen! Beides hat im Lebenslauf nichts verloren und wirkt immer negativ. Selbst, wenn sie einen miesen Chef oder mobbende Kollegen hatten - verlieren Sie darüber kein Wort. Auch nicht im Vorstellungsgespräch. Sie können dabei nur verlieren und erwecken den Eindruck, keine Verantwortung übernehmen zu können.\n\n3. Positiv formulieren. Falls Ihre Arbeitslosigkeit immer noch aktuell ist, dann bezeichnen Sie sich nicht als arbeitslos, sondern als arbeitssuchend – das klingt aktiver! Noch besser wirkt es, wenn Sie Ihre Jobsuche gleich mit Ihrem beruflichen Ziel verbinden, also etwa: \n\"9/2009 bis 1/2010 – Berufliche Neuorientierung mit dem Ziel: neue Position im Bereich Projektassistenz\" \nSo kommen Sie selbstbewusst und engagiert rüber.",
+      "props": {},
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Seien Sie dabei in Ihren Aussagen so konkret wie möglich und führen Sie Beispiele für Ihre Kompetenzen und Erfahrungen an. \r\n\r\nEin Beispiel:\r\n„Meine Teamfähigkeit habe ich unter Beweis gestellt, indem ich in Zusammenarbeit mit meinem Kollegen ein Projekt zur Prozessoptimierung gestemmt habe.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Machen wir uns nun an Ihren Ausbildungshintergrund und fangen wir bei Ihrer Schulbildung an. \r\nWenn Sie schon länger im Job stehen, können Sie Ihre Schulbildung zusammenfassen und einfach den höchsten Abschluss nennen (mit Auszeichnung, falls zutreffend). Haben Sie eine bekannte Schule besucht, sollten Sie das erwähnen. Auch gute Abschlussnoten sollten Sie hervorheben.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nennen Sie auch erreichte Erfolge Ihrer beruflichen Laufbahn und belegen Sie sie mit Zahlen oder ähnlichen überzeugenden Fakten!\n\nBeispiele dafür:\n„Aufgrund meines hohen Maßes an ... konnte ich die Abläufe ... optimieren, sodass die Fehlerquote um ...% sank und/oder der Durchsatz um ...% stieg.\"\n\nWelche Erfolge können Sie anführen? Nehmen Sie dabei Ihre Erfolgsgeschichten zu Hilfe, die Sie am Anfang unseres Bewerbungscoachings entwickelt haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls Sie ein Hochschulstudium absolviert haben, listen Sie die Art und die Richtung des Studiums ebenso auf wie die Hochschule, an der Sie studiert haben. Haben Sie ein Spezialgebiet studiert oder bereits mit einem bestimmten Schwerpunkt geforscht? Wenn das Thema Ihrer Abschlussarbeit für Ihre Bewerbung relevant ist, sollte es genannt werden. Außerdem kommt rein: welchen Abschluss haben Sie gemacht? Haben Sie ihn mit Auszeichnung bestanden?",
+      "props": {},
+      "next": [
+        {
+          "to": "n043"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "List",
+      "key": "kar_anschreiben_AnschErfolge",
+      "title": "Formulieren Sie jetzt bitte ca. fünf Erfolge, die Sie dann auch in späteren Anschreiben immer wieder verwenden können.",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n044"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "Text",
+      "key": null,
+      "title": "Wenn Sie eine Berufsausbildung gemacht haben, nennen Sie die Art, Ihre Ausbildungsfirma und die Ausbildungsinstitution mit Ortsangabe und dem erzielten Abschluss.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n045"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn es Differenzen zwischen den erwähnten Anforderungen und Ihren Kompetenzen und Qualifikationen gibt, haben Sie folgende drei Möglichkeiten, kleinere fachliche Defizite auszugleichen:\n\n1. Kompensation über ein ähnliches Fachgebiet\nSie können sagen, dass Sie bereits in einem ähnlichen Fachgebiet gearbeitet haben, wenn das der Fall ist. Beispielsweise haben Sie sich hauptsächlich um Kundenanfragen in Ihrem letzen Job gekümmert. Ein weiterer Bestandteil Ihrer Tätigkeit bestand jedoch auch darin, sich um kleinere Projekte eigenständig zu kümmern. Daher haben Sie bereits Erfahrung im Projektmanagement gesammelt, die sie gerne in die Position einbringen möchten. \n\n2. Kompensation über Nähe zum Thema\nVielleicht haben Sie durch Kollegen einen guten Einblick in das Gebiet gewonnen und eine große Nähe zum Thema aufgebaut. Beispielsweise war ein Teilbereich seiner Arbeit sehr marketinglastig. Sie haben so viel rund um die Themen PR und Marketing gelernt und ein Verständnis für das Marketing von Websites aufbauen können.\n\n3. Kompensation über erste Berührungspunkte\nMöglicherweise haben Sie zu Beginn Ihrer beruflichen Laufbahn diese oder eine ähnliche Richtung eingeschlagen. Sie haben also vor einiger Zeit solche Tätigkeiten ausgeübt, die in der Stellenbeschreibung gefordert sind.\nBeispielsweise haben Sie direkt nach dem Studium begonnen, Sprach- und Studienreisen bei einem großen Reiseveranstalter zu organisieren. Nachdem es danach erst einmal in eine andere Richtung ging, sind Sie dennoch mit dem Thema vertraut geworden und wollen diese Richtung Ihrer Karriere jetzt wieder stärker einschlagen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nach Ihrer schulischen Laufbahn geht es weiter mit Ihren besonderen Kenntnissen und Qualifikationen. Haben Sie Trainings, Fortbildungskurse besucht, die Ihr berufliches Ziel unterstützen? Alles, was hier passt, schreiben Sie jetzt in Ihren Lebenslauf und alles, was nicht unmittelbar mit Ihrem Ziel zu tun hat, sollten Sie weglassen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n047"
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn sich für Sie bereits in der Stellenanzeige Fragen zu der Position ergeben haben, können Sie dies auch kurz im Mittelteil erwähnen.\n\nBeispielsweise: \n„In welche Richtung Ihr Projekt XYZ geht, konnte ich Ihrer Annonce noch nicht entnehmen und würde diese Frage gern in einem persönlichen Gespräch mit Ihnen erörtern.“\n\nDamit haben Sie dann gleich eine indirekte Aufforderung zur Einladung in Ihr Anschreiben eingebaut.",
+      "props": {},
+      "next": [
+        {
+          "to": "n048"
+        }
+      ]
+    },
+    "n047": {
+      "id": "n047",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Welche Fremdsprachen sprechen Sie? Erwähnen Sie tote Sprachen wie Latein nur dann, wenn Sie sie im Job brauchen.\r\nSeien Sie bei der Angabe Ihrer Sprachkenntnisse spezifisch. Wenn Sie über Sprachkenntnisse verfügen, wie sicher sind Sie in der Sprache? \r\n\r\nFolgende Abstufung ist sehr verbreitet:\r\n* Grundkenntnisse\r\n* Gute Kenntnisse\r\n* Sehr gute Kenntnisse\r\n* Fließend (=in Wort und Schrift)\r\n* Verhandlungssicher\r\n* Muttersprache \r\n\r\nAuf geht's, tragen Sie Ihre Sprachkenntnisse gleich in Ihren Lebenslauf ein!",
+      "props": {},
+      "next": [
+        {
+          "to": "n049"
+        }
+      ]
+    },
+    "n048": {
+      "id": "n048",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jetzt folgt Ihre berufliche Vision, für die Sie beispielhaft folgende Formulierungen wählen können:\n\n„Ich habe in den kommenden Jahren vor, mich noch stärker in den Bereich XYZ einzuarbeiten.“\n\n„Auch zukünftig möchte ich meine Erfahrungen dazu einsetzen, ...\" \n\n„Ich sehe mich auch in der Zukunft in dem Bereich als XYZ tätig.“\n\nDer Arbeitgeber sieht jetzt, dass Sie mit Ihren Qualifikationen und Kompetenzen gut auf die Stelle passen. Er merkt zudem, dass Sie auch längerfristig ein wertvoller Mitarbeiter für das Unternehmen sein können. Langfristigkeit ist hier das Stichwort! So geeignet Sie für die Stelle auch sein mögen, wenn Sie innerhalb kürzester Zeit schon wieder ganz andere berufliche Ziele verfolgen, sind Sie kein attraktiver Kandidat für den Arbeitgeber.",
+      "props": {},
+      "next": [
+        {
+          "to": "n050"
+        }
+      ]
+    },
+    "n049": {
+      "id": "n049",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Besitzen Sie bestimmte Erfahrungen mit Soft- oder Hardware? \r\n\r\nBei IT-Kenntnissen können Sie ebenso unterscheiden zwischen Grundkenntnissen, guten Kenntnisse und sehr guten Kenntnissen. Verwenden Sie jedoch keine schwammigen Aussagen wie „sicheres Beherrschen von Adobe Photoshop sowie Internet\". Im Internet hat sich jeder schon mal rumgetrieben, das sagt nichts darüber aus, was Sie da konkret getan haben. Dass Sie Photoshop können ist auch ne feine Sache. Aber wozu nutzen Sie es? Schreiben Sie vielmehr: \"Web-Recherche, Redaktion einer Homepage, Bildbearbeitung\" usw.\r\n\r\nTragen Sie alles zusammen, was Ihnen dazu einfällt. Ergänzen können Sie immer noch später.",
+      "props": {},
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n050": {
+      "id": "n050",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zum Schluss: Motivation zeigen!\n\nMotivierte Arbeitnehmer leisten mehr als unmotivierte. Daher sollten Sie am Ende Ihres Anschreibens noch einmal deutlich herausstellen, dass Sie den Job wollen und motiviert dafür sind. \nHierbei können Sie sich an den folgenden zwei Leifragen orientieren:\n1. \"Warum möchte ich genau diese Tätigkeit ausführen?\" (z.B. spannende Herausforderung, Leidenschaft für das Thema etc.)\n2. \"Warum möchte ich genau bei diesem Unternehmen arbeiten?\" (z.B. internationale Ausrichtung, Unternehmenskultur etc.)\n\nBringen Sie einen klaren sogenannten \"call to action\", also die Aufforderung zum Handeln, rein. Im Fall des Anschreibens geht es um die Einladung zum Vorstellungsgespräch.\n\nSeien Sie auch hier konkret und verfallen Sie nicht in Allgemeinphrasen, wie z.B.: \n„Mit diesen Voraussetzungen, den von mir erworbenen Kenntnissen und Fähigkeiten kann ich einen Beitrag zur Stärkung Ihres Unternehmens leisten.“\n\nStattdessen schreiben Sie:\n\n„Ich finde es sehr spannend, in einem aufstrebenden und internationalen Unternehmen wie Ihrem mitzuarbeiten und es tatkräftig zu unterstützen. In meinen letzten Positionen war ich deshalb so erfolgreich, weil ich stets einen diplomatischen und motivierenden Führungsstil verfolge. Sehr gern würde ich diese Erfahrungen in den Aufbau Ihres Teams einbringen. Deshalb freut es mich, wenn Sie mich zu einem persönlichen Gespräch einladen und wir uns persönlich kennen lernen.“\n\noder z.B.:\n\n„Ich bin mit Leib und Seele als XYZ tätig und möchte Ihr Team (Ihr Unternehmen) gern aktiv mit meinem ___  (Wissen) und meinem ___ (Organisationstalent) vorantreiben. Deswegen sehe ich mit meinen Erfahrungen und meiner beruflichen Vision eine ideale Voraussetzung für eine Win-Win-Situation und freue mich, Ihr Unternehmen (Ihr Team) in einem persönlichen Gespräch näher kennen zu lernen.“\n\nVerwenden Sie dabei eine aktive Sprache und verzichten Sie auf Konjunktive wie „ich würde mich freuen“. So klingen Sie verbindlicher und viel selbstbewusster!",
+      "props": {},
+      "next": [
+        {
+          "to": "n052"
+        }
+      ]
+    },
+    "n051": {
+      "id": "n051",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und schließlich: engagieren Sie sich gesellschaftlich und passt dieses Engagement zur angestrebten Stelle?  Vielleicht sind Sie in einem Verein tätig, haben schon mal Spendengelder gesammelt oder helfen in der Schule Ihrer Kinder aus, wenn Veranstaltungen geplant werden?\r\n\r\nListen Sie alles auf, was Sie hier vorweisen können. Gesellschaftliches Engagement wird generell gern gesehen. Sie sollten nun auch nicht zehn verschieden Aktivitäten in diesem Bereich angeben - protzen wäre auch hier die falsche Strategie. Schreiben Sie aber ruhig auf, wenn Sie ein Engagement dieser Art vorweisen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n053"
+        }
+      ]
+    },
+    "n052": {
+      "id": "n052",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ggf. noch fehlt:\n\nDas Eintrittsdatum und die Gehaltsvorstellungen\n\nDie Angabe zum Eintrittstermin kommt in den letzten Teil Ihres Anschreibens und noch vor der Grußformel.\n\nHier können Sie einfach schreiben:\n„Mein frühstmöglicher Eintrittstermin ist der XXX.“\n„Ich kann jederzeit bei Ihnen beginnen und Ihr Team verstärken.“\n„Ich kann Ihnen vom 1. Mai an zur Verfügung stehen.“\n\nWenn Sie um eine Angabe der Gehaltsvorstellungen gebeten werden, sollten Sie die Frage nicht ignorieren. Platzieren Sie Ihre Vorstellungen am besten zwischen Hauptteil und Schluss und nicht direkt vor der Grußformel. So enden Sie nicht mit harten Fakten, sondern mit ein paar persönlichen Zeilen.\n\nGeben Sie Ihren Gehaltswunsch dabei immer als Jahresbruttogehalt an, beispielsweise:\n„Meine Gehaltsvorstellungen belaufen sich auf ein Jahresbruttogehalt von 50.000€.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n054"
+        }
+      ]
+    },
+    "n053": {
+      "id": "n053",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für den akademischen Bereich sind Vorträge und Publikationen von Interesse. Wir schauen uns die Besonderheiten für die akademische Bewerbung noch in einem späteren Coaching an.\r\nÜberlegen Sie hier jedoch schon: haben Sie bereits Artikel, Forschungsberichte oder Ähnliches veröffentlicht? Wenn ja, in welcher (Fach-)zeitschrift? Geben Sie den Titel Ihrer Publikation an, das Datum der Veröffentlichung und wo sie erschienen ist. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n055"
+        }
+      ]
+    },
+    "n054": {
+      "id": "n054",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Gruß zum Schluss\n\nKlassischerweise verabschieden Sie sich \"mit freundlichen Grüßen\" vom Leser. Andere Grußformeln sind jedoch auch möglich, um eine persönlichere Note zu setzen, beispielsweise:\n\n* Mit freundlichem Gruß,\n* Mit freundlichen Grüßen (ein zweiter oder dritter schadet nicht),\n* Viele Grüße aus der Hansestadt Rostock,\n* Viele Grüße und ein schönes Wochenende,\n* Freundliche Grüße und einen schönen Start in die Woche,\n\nNadine Fischer/ Alexander Waltz.\n\nDarunter folgt Ihre eigenhändige Unterschrift, oder, im Falle eines Schreibens per Mail, einfach Ihr ausgeschriebener Name.\n\nFertig!",
+      "props": {},
+      "next": [
+        {
+          "to": "n056"
+        }
+      ]
+    },
+    "n055": {
+      "id": "n055",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Arbeitgeber interessieren sich auch für Ihre persönliche Seite. Schließlich suchen sie eine Person, die gut in ein bestehendes Team passt.\r\nWelches sind Hobbies und Interessen, denen Sie nachgehen? Wenn Ihr Hobby einen wichtigen Bezug zu Ihrer Zielsetzung hat, sollte es auf jeden Fall mit rein. Ehrenamtliches oder soziales Engagement sind immer Pluspunkte und unterstreichen Ihre soziale Kompetenz. Ideal ist es, wenn Ihre Interessen zeigen, dass Sie sowohl gerne Dinge mit anderen als auch allein unternehmen.\r\n\r\nEin Beispiel:\r\nSie treiben gerne Sport? Dann wählen Sie eine Mannschaftssport, wie Fußball, Handball, Rudern, und eine Sportart, bei der es im wahrsten Sinn des Wortes um Einzelkämpfertum geht, wie Laufen, Schwimmen oder Aerobic.",
+      "props": {},
+      "next": [
+        {
+          "to": "n057"
+        }
+      ]
+    },
+    "n056": {
+      "id": "n056",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zum Schluss ein paar Tipps zur richtigen Form Ihres Anschreibens:\n\nVerwenden Sie wie für den Lebenslauf Papier mit einer Stärke von 80g. Wenn Sie dem Ganzen jedoch etwas mehr „Gewicht“ verleihen wollen, können Sie auch etwas dickeres Papier verwenden. Angemessene Farben sind Weiß, Creme oder ein ganz blasses Grau.\n\nWählen Sie dieselbe Schriftart wie im Lebenslauf. So wirken Ihre Bewerbungsunterlagen wie eine Einheit. Auch hier gilt: 10 Punkt nicht unter- und 12 Punkt nicht überschreiten.\n\nAuf übermäßige Formatierungen verzichten und immer nur eine Formatierungsart verwenden, also entweder fett ODER kursiv ODER unterstrichen.\n\nRichten Sie den Text im Blocksatz aus-das ist für den Leser angenehmer. Achten Sie aber bitte darauf, dass dadurch keine Lücken im Text entstehen. \n\nNoch ein Tip zum Abschluss: versuchen Sie das Anschreiben auf ca. 1 DIN-A 4 Seite zu beschränken-allzu lange Texte schrecken Personaler eher ab.\n\nWenn Sie Ihr erstes Anschreiben formuliert haben, seien Sie stolz auf sich und gönnen Sie sich eine Belohnung! Sie haben grade eine wichtige Hürde genommen. Seien Sie außerdem milde zu sich selbst: es ist noch kein Meister vom Himmel gefallen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n058"
+        }
+      ]
+    },
+    "n057": {
+      "id": "n057",
+      "type": "Text",
+      "key": null,
+      "title": "Damit steht ein erster Entwurf Ihres Lebenslaufs. Herzlichen Glückwunsch!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n059"
+        }
+      ]
+    },
+    "n058": {
+      "id": "n058",
+      "type": "Options",
+      "key": "a5a952cc35d24beaac397738354e580a",
+      "title": "Herzlichen Glückwunsch! Sie haben das Coaching \"Anschreiben\" erfolgreich beendet. \nSie haben jetzt die Möglichkeit selbst das Thema mit dem sie fortfahren wollen zu wählen. ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Unterlagen"
+          },
+          {
+            "key": "2",
+            "value": "Mappe, Foto, Zeugnisse"
+          },
+          {
+            "key": "3",
+            "value": "Coaching beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "a5a952cc35d24beaac397738354e580a is '3'"
+        },
+        {
+          "to": "n002",
+          "if": "a5a952cc35d24beaac397738354e580a is '1'"
+        },
+        {
+          "to": "n004",
+          "if": "a5a952cc35d24beaac397738354e580a is '2'"
+        }
+      ]
+    },
+    "n059": {
+      "id": "n059",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Kümmern wir uns jetzt um die professionelle Form!\r\n\r\nEs sei auch hier gesagt: Schlichtheit bringt die Inhalte in Fokus und das ist das Wichtigste!\r\n\r\nEin übersichtlicher Lebenslaufs hilft dem Personaler, die wichtigsten Daten auf einen Blick zu erfassen. Wenn der Lebenslauf dabei auch optisch einen klaren, gut gegliederten Eindruck macht, haben Sie schon viel gewonnen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n060"
+        }
+      ]
+    },
+    "n060": {
+      "id": "n060",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ist zu empfehlen in Bezug auf...\r\n\r\n... Schriftart und –größe?\r\n\r\nWählen Sie eine schlichte Schriftart. Sie heben sich dabei noch ab, wenn Sie einen Typ wählen, den der Personaler nicht jeden Tag sieht. Schöne und weniger typische Schriftarten sind zum Beispiel: Arial Narrow, Calibri, Gill Sans oder Helvetica. \r\nDie Schrift sollte in jedem Fall gut lesbar und somit nicht kleiner als zehn Punkt, aber auch nicht gößer als zwölf Punkt sein!",
+      "props": {},
+      "next": [
+        {
+          "to": "n061"
+        }
+      ]
+    },
+    "n061": {
+      "id": "n061",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie sieht es aus mit der...\r\n\r\n... Farbgestaltung?\r\nSparen Sie sich selbst Zeit, indem Sie auf die Gestaltung mit Farben für Ihre Überschriften verzichten. Klassisches Schwarz tut es immer noch sehr gut!  Ihre aufwändige Farbwahl verliert zudem seine Wirkung, sobald der Arbeitgeber Ihre Unterlagen auf dem Schwarz-Weiß-Drucker druckt. \r\n\r\nStattdessen können Sie für Überschriften eine größere Schrift oder Fettdruck verwenden. Doppelte Formatierungen (z.B. fett und unterstrichen) gilt es aber zu vermeiden! \r\n\r\nNehmen Sie zur Orientierung auch hier wieder die Beispiel-Lebensläufe zur Hand.",
+      "props": {},
+      "next": [
+        {
+          "to": "n062"
+        }
+      ]
+    },
+    "n062": {
+      "id": "n062",
+      "type": "Text",
+      "key": null,
+      "title": "Normales 80g-Papier ist völlig ausreichend. Am besten einfaches, weißes Papier ohne Schnörkeleien verwenden – alles, was das Auge vom Inhalt ablenkt, stört nur.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n063"
+        }
+      ]
+    },
+    "n063": {
+      "id": "n063",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nach dem chronologischen Lebenslauf schauen wir uns zunächst noch den funktionalen Lebenslauf an, bevor wir weitermachen mit Ihren weiteren Bewerbungsunterlagen.\n\nWir haben oben schon erwähnt, dass der chronologische Lebenslauf nicht für alle Laufbahnen geeignet ist. Gerade, wenn Sie Lücken in Ihrem Lebenslauf haben oder Ihr beruflicher Werdegang nicht gradlinig verlaufen ist, empfiehlt sich die zweite Variante – der funktionale Lebenslauf. \nHier ordnen Sie Ihr Berufsleben nach bestimmten Themenschwerpunkten wie Ausbildung, berufliche Stationen, besondere Fähigkeiten etc.  Zeitliche \"Löcher\" oder ein fehlender \"roter Faden\" fallen dem Arbeitgeber so weniger schnell ins Auge.\n\nSchauen wir uns den funktionalen Lebenslauf im nächsten Abschnitt etwas genauer an.",
+      "props": {},
+      "next": [
+        {
+          "to": "n064"
+        }
+      ]
+    },
+    "n064": {
+      "id": "n064",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Vordergrund steht das, was Sie wissen und können. Im funktionalen Lebenslauf geht es darum zu betonen, dass Ihre bisherigen beruflichen Erfahrungen auf einen neuen Job übertragbar sind – auch, wenn Sie diese noch nicht hauptsächlich ausgeübt haben.\r\n \r\nEin Beispiel: \r\n\r\nSie waren Marketing-Manager, hatten aber in einer mittelständischen Firma auch Vertriebsaufgaben. In einem klassischen Lebenslauf würde das untergehen. In einem funktionalen Lebenslauf können Sie dagegen einen Abschnitt „Vertriebsaufgaben“ nennen, in dem Sie genau schreiben, was Sie in diesem Bereich getan und erreicht haben.\r\n\r\nSie können also verschiedene Überschriften bilden, die Ihre Erfahrungen und Kenntnisse zusammenfassen und sie so optimal betonen! Beispielsweise: Vertriebserfahrung, Projektleitung, Managementfunktionen etc..",
+      "props": {},
+      "next": [
+        {
+          "to": "n065"
+        }
+      ]
+    },
+    "n065": {
+      "id": "n065",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie sich für den funktionalen Lebenslauf entscheiden, sollten Sie im Hinterkopf haben, dass Arbeitgeber möglicherweise vermuten, Sie würden mit dieser Form Lücken kaschieren wollen. Überlegen Sie sich also vorher genau, welche Form Sie für Ihre Bewerbungen wählen wollen.\n\nEinen funktionalen Beispiellebenslauf finden Sie unten zum herunterladen.",
+      "props": {
+        "documents": [
+          {
+            "name": "Beispiel Funktionaler Lebenslauf",
+            "file": "Funktionaler_Lebenslauf.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n066"
+        }
+      ]
+    },
+    "n066": {
+      "id": "n066",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Ganz zum Schluss sollten Sie Ihren Lebenslauf unbedingt einer letzten Prüfung unterziehen. \n\nDazu haben wir für Sie eine Checkliste bereitgestellt. Auch diese können Sie sich jetzt bequem herunterladen.",
+      "props": {
+        "documents": [
+          {
+            "name": "Checkliste Lebenslauf",
+            "file": "Checkliste_Lebenslauf.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n067"
+        }
+      ]
+    },
+    "n067": {
+      "id": "n067",
+      "type": "Text",
+      "key": null,
+      "title": "Sehr schön! Damit haben Sie den wichtigsten Grundstein für Ihre erfolgreiche Bewerbung gelegt.\r\nGönnen Sie sich hier ruhig eine Pause - und dann gehts mit frischer Energie weiter zum nächsten Schritt.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n068"
+        }
+      ]
+    },
+    "n068": {
+      "id": "n068",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was Ihre Bewerbung zusätzlich von anderen abhebt, ist die so genannte dritte Seite. \n\nDie dritte Seite ist eine weitere Seite in Ihrem Lebenslauf, in der Sie kurz und prägnant Ihre Schwerpunkte präsentieren. Dadurch erhält der Personaler einen schnellen und individuellen Eindruck von Ihnen und dem, was Sie für die Stelle mitbringen.\n\nBegonnen wird mit einer Überschrift. Wählen Sie eine, die die Neugierde des Personalers weckt! \n\nZum Beispiel:\n* Meine Motivation\n* Was ich mitbringe...\n* Mein berufliches Profil\n* Meine Erfahrung\n* Meine Leistungsbilanz\n* etc. ...\n\nHier ist zudem Platz für Ihre berufliche Kurzdarstellung und Ihr Kompetenzprofil. Beides schauen wir uns in den nächsten Schritten an.",
+      "props": {},
+      "next": [
+        {
+          "to": "n069"
+        }
+      ]
+    },
+    "n069": {
+      "id": "n069",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre berufliche Kurzdarstellung\n\nDie Kurzdarstellung rückt Ihre Kernkompetenzen, Erfahrungen und spezifischen Fähigkeiten in den Vordergrund. Sie enthält also Ihre stärksten „Verkaufsargumente“, wiederholt jedoch nur die Punkte, die für die aktuelle Stelle von Bedeutung sind. \n\nDie Kurzdarstellung können Sie entweder \n1. auf dem Deckblatt, \n2. im oberen Teil auf der ersten Seite nach dem Deckblatt oder \n3. auf der dritten Seite platzieren.\n\nHier ein Beispiel für eine berufliche Kurzdarstellung:\n\nQualitätsmanager\nAcht Jahre Erfahrung als Qualitätsmanager in einem globalen Versicherungskonzern. Analytisch, verhandlungsstark,  Sensibilität gegenüber Kundenbedürfnissen. Verantwortlich für die Entwicklung und Implementierung globaler Qualitätsstandards.",
+      "props": {},
+      "next": [
+        {
+          "to": "n070"
+        }
+      ]
+    },
+    "n070": {
+      "id": "n070",
+      "type": "Text",
+      "key": null,
+      "title": "Wie könnte Ihre berufliche Kurzdarstellung aussehen? Formulieren Sie sie jetzt in maximal zwei bis drei Sätzen!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n071"
+        }
+      ]
+    },
+    "n071": {
+      "id": "n071",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Ihr Kompetenzprofil\n\nNeben der Kurzdarstellung passt auch ein Kompetenzprofil sehr gut auf die dritte Seite. Es ist vor allem bei Initiativbewerbungen sehr nützlich, da es einen schnellen Überblick über Ihre Berufserfahrungen und Kompetenzen liefert, ohne zu speziell zu werden.\n\nVersuchen Sie hier nicht in Phrasen zu verfallen. Toll klingende Schlagwörter und hochtrabende Eigenschaften zerstören mehr, als dass sie Gutes für Ihre Bewerbung tun. Ihr Kompetenzprofil sollte individuell und vor allem authentisch sein!\n\nBeispielprofile finden Sie unterhalb zum herunterladen.",
+      "props": {
+        "documents": [
+          {
+            "name": "Beispiel Kompetenzprofil 1",
+            "file": "Kompetenzprofil_1.pdf"
+          },
+          {
+            "name": "Beispiel Kompetenzprofil 2",
+            "file": "Kompetenzprofil_2.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n072"
+        }
+      ]
+    },
+    "n072": {
+      "id": "n072",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Verfassen Sie bitte jetzt einen Entwurf Ihres persönlichen Kompetenzprofils!\r\nWelche beruflichen Kompetenzen und Fähigkeiten drücken am besten aus, was Sie können und für Ihren nächsten Arbeitgeber mitbringen? Greifen Sie hier auch auf Ihre Erfolgsgeschichten zurück und schreiben Sie Ihre Kernkompetenzen in Stichpunktform auf. Rufen Sie unsere Experten an, wenn Sie Hilfe benötigen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        },
+        {
+          "to": "n073"
+        }
+      ]
+    },
+    "n073": {
+      "id": "n073",
+      "type": "Options",
+      "key": "0b83df40c30443c9a80b8b4dddd48eab",
+      "title": "Herzlichen Glückwunsch! Sie haben das Coaching \"Unterlagen\" erfolgreich beendet. \r\nSie haben jetzt die Möglichkeit selbst das Thema mit dem sie fortfahren wollen zu wählen. ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Anschreiben"
+          },
+          {
+            "key": "2",
+            "value": "Mappe, Foto, Zeugnisse"
+          },
+          {
+            "key": "3",
+            "value": "Coaching beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "0b83df40c30443c9a80b8b4dddd48eab is '1'"
+        },
+        {
+          "to": "n004",
+          "if": "0b83df40c30443c9a80b8b4dddd48eab is '2'"
+        },
+        {
+          "to": null,
+          "if": "0b83df40c30443c9a80b8b4dddd48eab is '3'"
+        }
+      ]
+    }
+  }
+}

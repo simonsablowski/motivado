@@ -1,0 +1,286 @@
+{
+  "key": "kar-gespraech-selbstmarketing",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching \"Sich gut präsentieren\" \r\n\r\nIn diesem Coaching lernen Sie Ihren Werdegang, ihre persönliche Seite, ihre Motivation und Ihre Interessen überzeugend zu präsentieren.\r\n\r\nLos gehts mit Ihrem beruflichen Werdegang:\r\n\r\nAuch wenn der Personaler Ihren Lebenslauf bereits kennt: beschreiben Sie Ihren Werdegang mit eigenen Worten. So sieht der Arbeitgeber, ob Sie strukturiert reden können und welche Punkte Ihnen besonders wichtig sind. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für diesen Zweck haben wir hier einen kleinen Leitfaden für Ihre Kurzpräsentation erstellt, der Ihnen hilft, beim Erzählen den roten Faden vor Augen zu haben. Gucken wir uns an, wie er aufgebaut ist:\r\n\r\n1. Starten Sie mit Ihrem Geburtsort. Hierzu können Sie kurz einen Satz erzählen oder fragen, ob der Arbeitgeber schon mal da war bzw. den Ort kennt. Nicht sofort mit dem Beruflichen, sondern erstmal mit dem Geburtsort zu starten, sorgt dafür, dass Sie Ruhe in die Schilderung Ihres Werdegangs bringen. \r\n\r\n2. Jetzt springen Sie kurz über die ersten Stationen Ihres Werdegangs. Also: wo sind Sie zur Schule gegangen, wie sahen Ihre ersten Jobs aus? Der Personaler erschrickt hier häufig, wenn er hört, wie Sie anfangen über Ihre Schulzeit zu sprechen. Die Kunst ist es jedoch, nach spätestens zehn Sekunden bereits bei den beruflichen Stationen angekommen zu sein. Die Emotion \"Überraschung\", die wir hier kurz integriert haben, führt später dazu, dass er sich stärker an Sie erinnert. Hier machen Sie nichts anderes als jeder gute Regisseur: sie bringen Emotionen rein! Und Emotionen werden erinnert! Nehmen Sie sich für die Schilderung Ihrer früheren beruflichen Staionen jedoch nicht mehr als eine Minute Zeit.\r\n\r\n3. Kommen Sie nach maximal einer Minute entweder zu Ihren letzten drei Berufsjahren oder einem früheren Job, der relevant für die aktuelle Position ist. Hier zeigen Sie klare Parallelen zu der aktuellen Position auf: was haben Sie bis jetzt getan, was auch zu den Anforderungen der Stelle passt? Wählen Sie hier gezielt die Tätigkeiten aus, die auf die Position passen und demonstrieren, dass Sie Ähnliches bereits in der Vergangenheit gemacht haben. Integrieren Sie hier auch passende Stärken, die Sie bereits in einer der früheren Coaching-Einheiten mit Hilfe Ihrer Erfolgsgeschichten erarbeitet haben.\r\n\r\n4. Runden Sie Ihre Kurzpräsentation ab, indem Sie betonen, wie Ihre Qualifikationen zum Unternehmen passen und welchen Mehrwert Sie demzufolge für die Firma bieten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein Beispiel: \r\n(1. Die Heimatstadt)\r\nIch komme aus der schönen Hansestadt Greifswald, vielleicht sind Sie ja schon mal dort gewesen.\r\n\r\n(2. Eine Minute für ältere Stationen)\r\nIch bin dort zur Grundschule und später auf das Albert-Schweitzer-Gymnasium gegangen. Nach meinem Zivildienst als Betreuer beim Verein „Lebenshilfe“ habe ich an der Ernst-Moritz-Arndt-Universität BWL studiert. Im Hauptstudium habe ich schnell gemerkt, dass mich der Bereich Qualitätsmanagement besonders interessiert. Als Zivi und später in meinem Nebenjob als Schichtleiter bei McDonalds habe ich bspw. daran mitgearbeitet, Konzepte für bessere Arbeitsbedingungen für die Mitarbeiter zu erstellen.\r\nMein erster Job führte mich dann nach Hamburg, wo ich bei Airbus als Qualitätsspezialist Analysen zur Steigerung der Kundenzufriedenheit erstellt und ausgewertet habe. Man hat mich bald mit verantwortungsvolleren Aufgaben betraut und mir ein Team von fünf Mitarbeitern unterstellt. Von da an war ich für die Qualitätssicherung im Logistikprozess sowie das Reklamationsmanagement zuständig und habe dort dafür gesorgt, dass die Beschwerden der Lieferanten um 1% sanken.\r\n\r\n(3. + 4. Ihre Berufsstationen der letzen 2-3 Jahre, verknüpft mit Ihrem Mehrwert für das Unternehmen)\r\nAnschließend war ich die letzten fünf Jahre als Leiter Qualitätsmanagement bei Lufthansa in Frankfurt am Main tätig. Neben der Führung des QM-Teams habe mich um alle strategischen und operativen Aktivitäten im Bereich Qualitätssysteme und Qualitätsplanung, -sicherung und -prüfung gekümmert. Durch unseren internationalen Schwerpunkt bringe ich eine starke interkulturelle Kompetenz und Kenntnisse in der Steuerung globaler QM-Prozesse mit, was ein großer Mehrwert für Ihr Unternehmen ist, da für Sie, wie ich gelesen habe, derzeit der Aufbau eines globalen Systems ein nächstes Ziel ist. Mein Team hat die Geschäftsleitung beim Aufbau effizienter Qualitätsprozesse beraten. Ich bin daher sehr präsentationsstark und beweise viel diplomatisches Geschick. Besonders meine Zusatzausbildung als Mediator hat mir dabei geholfen, eine konstruktive Gesprächsatmosphäre zu schaffen. Zusätzlich habe ich regelmäßig Prozessaudits geplant und durchgeführt und meine Kollegen darin fit gemacht, selbstständig eigene Audits zu leiten. Ich habe so gelernt, mein Wissen strukturiert an andere weiterzugeben. Wie Sie schrieben, sind Sie auch daran interessiert, Ihre Mitarbeiter stärker in diesem Bereich zu schulen. Dafür bringe ich die idealen Voraussetzungen mit.\r\nInsgesamt habe ich das Gefühl, dass ich mit meinen Erfahrungen im Bereich Qualitätsmanagement ein gutes Rüstzeug mitbringe und damit die Position gut ausfüllen kann.\r\n\r\nLassen Sie uns jetzt Ihre eigene Kurzdarstellung entwickeln und üben. Klicken Sie dazu auf \"Nächster Schritt\"!",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie uns üben und Ihre eigene Kurzpräsentation Stück für Stück gemeinsam aufbauen und üben:\r\n\r\n1. Woher kommen Sie?\r\n\r\n2. Welche Ihrer älteren Stationen passt zur Stelle, auf die Sie sich gerade bewerben? Was haben Sie dort gemacht, wofür waren Sie verantwortlich? Bleiben Sie kurz und knackig, indem Sie die Arbeitsstelle, Ihre Position und Ihre Hauptaufgaben nennen. \r\n\r\n3. Blicken wir auf Ihre letzten drei Berufsjahre. Nehmen Sie hier auch Ihre Erfolgsgeschichten zu Hilfe. Welche Kompetenzen haben Sie aufgebaut? Wie sahen Ihre Tätigkeiten und Aufgaben aus, die auch für die neue Position relevant sind? Bauen Sie diesen Teil schön aus, da er für den Personalverantwortlichen besonders wichtig ist. \r\n\r\n4. Welche Ihrer Qualifikationen bringen einen Mehrwert für das Unternehmen oder die Position? Was können Sie Wertvolles für die Firma leisten? Was qualifiziert Sie besonders für diese Stelle?\r\n\r\nÜben Sie Ihre Kurzpräsentation jetzt mindestens dreimal und bleiben Sie innerhalb eines Zeitrahmens von 4-8 Minuten! .\r\n\r\nAuf geht’s!",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gelingt es Ihnen, alles zu erzählen? Liegen Sie in der Zeit? Die Übung macht auch hier, wie so oft, den Meister!\r\n\r\nMit Ihrer Kurzpräsentation können Sie sich jedoch nicht nur strukturiert und souverän präsentieren, sie haben außerdem Antwortmaterial für andere Fragen, die typischerweise im Vorstellungsgespräch gestellt werden. Fragt man Sie beispielsweise danach, warum Sie ein geeigneter Kandidat für diese Stelle sind, haben Sie mit dem 4. Punkt schon einige gute Antworten zu Ihrem persönlichen Mehrwert.\r\n\r\nBereiten Sie Ihre Präsentation also gut vor und üben Sie sie mindestens 5mal! Sie haben den anderen Bewerbern damit Einiges voraus!",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Motivation und Interesse demonstieren\r\n\r\nPersonalern liegt es besonders am Herzen, wie es um Ihre Motivation und Ihr Interesse an der Firma und Position bestellt ist. \r\n\"Warum haben Sie sich bei uns beworben?“ Mit solchen oder ähnlichen Fragen wird gern überprüft, wie motiviert und interessiert Sie an der Position sind. Wie stark sind beide Dinge ausgeprägt? Was bewegt Sie tatsächlich? Aus welcher Situation heraus bewerben Sie sich? Ist der Arbeitsplatz erste Wahl oder nur Kompromiss- oder sogar Notlösung? Welches Image hat der Arbeitgeber bei Ihnen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine typische Frage ist auch: Warum sollten wir uns ausgerechnet für Sie entscheiden? \r\nNatürlich weiß der Arbeitgeber um Ihre Qualifikationen, sonst säßen Sie jetzt nicht hier. Hier geht es darum zu gucken, wie groß Ihr Interesse für den Job wirklich ist. \r\nSie punkten hier, wenn Sie damit antworten, was Sie an der Branche, am Unternehmen oder Aufgabengebiet besonders fasziniert. Mit allem, was Ihnen positiv bei der Recherche zu Ihren Zielfirmen aufgefallen ist, können Sie jetzt Gewinne einfahren. Der Arbeitgeber wird Ihre Komplimente gerne hören!\r\nBetonen Sie auch nochmals, welchen Mehrwert Sie für das Unternehmen bieten und wie Ihre Qualifikation, Erfahrung und Kompetenz Sie für den Job auszeichnen. Welches sind Vorteile, die Sie und Ihr Arbeitgeber durch eine Zusammenarbeit haben?",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie gefragt werden, was Sie sich von der Stelle und dem Unternehmen versprechen, ist jetzt entscheidend, wie gut Sie sich bei Ihrer Zielrecherche vorbereitet haben! Der Arbeitgeber wird sich freuen zu hören, dass Sie natürlich wissen, was Sie erwartet. Sprechen Sie hier auch Erwartungen an das Unternehmen an. Wenn Sie Fragen haben, steuern Sie, wie zu Beginn des Kapitels erwähnt, das Gespräch gleich aktiv mit.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Häufig kommt auch hier die Frage danach, warum Sie Ihre letzte Stelle verloren oder Ihr jetziges Unternehmen verlassen haben. Hierfür halten Sie Ihre Ende-Erklärung parat! Wir haben dieses bereits zusammen im Coaching \r\n\"Wie überzeuge ich? Meine persönliche Verkaufsstrategie“ ausformuliert. Sie können es wunderbar hier einsetzen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre berufliche Eignung \r\n\r\nWenn es im Gespräch um Ihre berufliche Eignung geht, sind Sie mit Ihrer Einminutenpräsentation und Ihren Erfolgsgeschichten bestens vorbereitet, um Ihre Vorzüge gewinnbringend rüberzubringen.  \r\n\r\nNoch einmal zur Erinnerung:\r\nWelche fachlichen Qualifikationen, Stärken und Kompetenzen bringen Sie mit, die für diese Position von Vorteil sind? \r\nNennen Sie berufliche und private Aspekte, die zu der Stelle und dem Unternehmen passen und belegen Sie diese anschaulich mit Beispielen!\r\n\r\nWo die Frage nach Stärken ist, folgt die Frage nach Schwächen häufig auf dem Fuß. Klar haben Sie welche, wenn Sie danach gefragt werden. \r\nAuch mit Ihren Schwächen haben wir uns bereits befasst. \r\nZur Erinnerung: wiederholen Sie nicht, was 100 andere Bewerber bereits vor Ihnen gesagt haben. Lassen wir also die anderen zu ehrgeizig, perfektionistisch, zielstrebig und selbstkritisch sein.\r\nWählen Sie Ihre Schwächen so aus, dass Sie zwar einen Bezug zu Ihrer Tätigkeit haben, aber Sie nicht komplett disqualifizieren. Wenn Sie sich z.B. für eine Stelle bewerben, in der Präsentationsgeschick gefragt ist, können Sie ruhig zugeben, wenn Sie vor einer Präsentation etwas aufgeregt sind. Sagen Sie aber z.B. nicht, dass Sie sich nie trauen würden vor mehr als 5 Menschen zu sprechen. \r\nErklären Sie stattdessen, was Sie unternehmen, um an Ihrer Schwäche zu arbeiten, also z.B.: Ich habe manchmal mit meiner Aufregung zu kämpfen, wenn ich eine Präsentation halten soll - um das möglichst schnell zu überwinden, nehme ich jede Möglichkeit wahr das Präsentieren zu üben, um mich so an die Situation zu gewöhnen.\"  ",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie nicht alle Anforderungen der Stelle erfüllen, können Sie das über Ihre Motivation und Ihr Engagement kompensieren. Darüber lassen sich jedoch nur kleine Defizite ausgleichen. \r\n\r\nWir verraten Ihnen, wie Sie größere Unterschiede zwischen Ihren Fähigkeiten und den Anforderungen der Stelle kompensieren können:",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1. Kompensation über ein ähnliches Fachgebiet\r\n\r\nSie können anführen, dass Sie bereits in einem ähnlichen Fachgebiet gearbeitet haben, wenn das der Fall ist. Beispielsweise haben Sie sich in Ihrem letzen Job hauptsächlich um Kundenanfragen gekümmert. Ein weiterer Bestandteil Ihrer Tätigkeit bestand jedoch auch darin, sich um kleinere Projekte eigenständig zu kümmern. Daher haben Sie bereits Erfahrung im Projektmanagement gesammelt, die sie gerne in die Position einbringen möchten. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Kompensation über Nähe zum Thema\r\n\r\nVielleicht hat ein Kollege von Ihnen bereits mit ähnlichen beruflichen Themen zu tun gehabt. Sie haben dadurch einen recht guten Einblick in das Gebiet gewonnen und eine große Nähe zum Thema aufgebaut. \r\nBeispielsweise war ein Teilbereich seiner Arbeit sehr marketinglastig. Sie haben so viel rund um die Themen PR und Marketing gelernt und ein Verständnis für das Marketing von Websites aufbauen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3. Kompensation über erste Berührungspunkte\r\n\r\nMöglicherweise haben Sie zu Beginn Ihrer beruflichen Laufbahn diese oder eine ähnliche Richtung eingeschlagen. Sie haben also vor einiger Zeit solche Tätigkeiten ausgeübt, die in der Stellenbeschreibung gefordert sind.\r\nBeispielsweise haben Sie direkt nach dem Studium begonnen, Sprach- und Studienreisen bei einem großen Reiseveranstalter zu organisieren. Nachdem es danach erst einmal in eine andere Richtung ging, sind Sie dennoch mit dem Thema vertraut geworden und wollen diese Richtung Ihrer Karriere jetzt wieder stärker einschlagen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "4. Von sich aus den Rückzieher anbieten\r\n\r\nPunkten Sie, indem Sie selbst vorschlagen, Ihre Bewerbung \"zurückzuziehen\". Wenn Sie es geschickt und vorteilhaft formulieren, sieht der Arbeitgeber möglicherweise, was Sie dennoch an unverzichtbarem Potential mitbringen! \r\n\r\nBeispielsweise: \"Wenn ich einige Fähigkeiten nicht mitbringe, die Sie für diese Stelle als essentiell ansehen, ist es natürlich sinnvoll, wenn Sie sich nach einem anderen Bewerber umsehen. Wenn ich jedoch Qualitäten mitbringe, die Sie für wertvoll erachten und ich mich gleichzeitig mit Hochgeschwindigkeit in den neuen Bereich einarbeite, würde ich mich natürlich freuen, wenn Sie mir die Stelle anbieten.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Mit Hilfe dieser vier Möglichkeiten können Sie Defizite ausgleichen, die zwischen Ihren Erfahrungen und dem Stellenprofil bestehen und Ihr Gegenüber von Ihrer Eignung überzeugen. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre persönliche Seite\r\n\r\nIm nächsten Teil des Gesprächs will Ihr Gesprächspartner wissen, mit was für einem Menschen er es zu tun hat. Typische Fragen drehen sich um Ihre Hobbies, was Sie mit Freunden unternehmen und wie wichtig Ihnen Familie ist. Lassen Sie Konflikte mit Ihnen nahe stehenden Personen außen vor, ansonsten können Sie unbefangen antworten.\r\n\r\nAuch Ihre Ziele werden hier gern abgefragt. „Wo sehen Sie sich in 3, 5 oder 10 Jahren?“, heißt es dann etwa. Hierbei geht es jedoch weniger um Ihre privaten Ziele. Der Arbeitgeber möchte von Ihnen wissen, ob Sie beruflich gesehen planvoll in die Zukunft schreiten oder ob Sie von Tag zu Tag leben und alles auf sich zukommen lassen. Außerdem will er sehen, ob Sie sich von Zielen motivieren lassen und dafür auch bereit sind, neue Herausforderungen anzunehmen. \r\nBleiben Sie dabei aber auf dem Teppich. Es ist wenig glaubwürdig, wenn Sie sagen, dass Sie in fünf Jahren Ihre eigene Firma leiten wollen, wenn Sie bspw. gerade erst ins Berufsleben eingestiegen sind. Seien Sie zudem vorsichtig: der Chef sollte nicht den Eindruck bekommen, Sie hätten bereits jetzt vor, an seinem Stuhl zu sägen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Idealerweise lehnen Sie Ihre kurzfristige Vision eng an die aktuelle Stelle an. Nennen Sie auch Ihre berufliche Vision zu Hilfe, die wir gemeinsam im Coaching „Wo will ich hin? Meine berufliche Zielsetzung“ entwickelt haben. \r\n\r\nBeispielsweise: \r\n\r\n\"Idealerweise sehe ich innerhalb des kommenden halben Jahres für mich die Chance, gut in die neue Position reinzukommen. Sich zu etablieren, die Schnittstellen, Prozesse und Menschen kennen zu lernen gehört für mich genauso dazu wie, den Aufgabenbereich auszufüllen und zu erweitern. Sowas dauert ja häufig 2-3 Jahre. Zudem möchte ich schauen, wie ich einen konkreten Mehrwert für Ihr Unternehmen leisten kann.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die langfristige Vision braucht sich weniger auf die aktuelle Stelle beziehen. Aber selbst hier können Sie sagen, dass Sie sich eine Weiterentwicklung in einem bestimmten Bereich vorstellen können - idealerweise innerhalb des Unternehmens, wenn sich diese Möglichkeit bietet. Hier können Sie jedoch stärker Ihre Vision integrieren, die Sie ja bereits entwickelt haben.\r\n\r\nBeispielsweise:\r\n\"Später hat man dann das Unternehmen und seine Prozesse und Möglichkeiten besser kennengelernt. Vielleicht hat man dabei auch einen weiteren spannenden Bereich entdeckt und kann dann perspektivisch gemeinsam sehen, ob es für beide Seiten von Vorteil ist, sich in diese Richtung weiterzuentwickeln.\"\r\n\r\nWenn sich keine langfristigen Entwicklungsmöglichkeiten abzeichnen und das bereits im Vorstellungsgespräch gesagt wird, reiten Sie auf diesem Punkt nicht weiter rum. Sagen Sie stattdessen, dass Ihnen Karriere nicht wichtiger ist, als die Position gut auszufüllen und einen guten Job zu machen, der Ihnen Spaß macht. Selbst wenn Sie im Grunde Ihres Herzens ein Karrieremensch sind, müssen Sie das an dieser Stelle nicht raushängen lassen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Sich gut präsentieren\". Im nächsten Coaching erwarten Sie die Themen Vorstellung des Unternehmens und Gehaltsverhandlungen.\r\n",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Sich gut präsentieren\"",
+      "text": "Bis zu unserem nächsten Coaching nehmen Sie sich bitte eine Stelle vor, die Sie im Coaching \"Stellensuche\" recherchiert haben. \nPräsentieren Sie nun die folgenden Punkte einer vertrauten Person und lassen Sie sich dazu Feedback geben:\n\n- Ihre Kurzpräsentation\n- Ihre Motivation und Ihr Interesse an der Position\n- Ihre Antwort auf die Frage: warum sollten wir uns für Sie entscheiden?\n- Ihr Endestatement\n- Ihre Einminuten-präsentation\n- (Ihre Kompensation bei Lücken zwischen Ihrem Profil und den Anforderungen der Stelle)\n\nNachdem Sie Feedback erhalten haben, üben Sie 4-5 Tage lang jeden Tag einmal alleine! Je öfter Sie üben, desto mehr gehen Ihnen Ihre Antworten in Fleisch und Blut über und umso souveräner werden Sie in Ihren Bewerbungsgesprächen rüberkommen.\n\nWir wünschen Ihnen viel Erfolg beim Üben!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

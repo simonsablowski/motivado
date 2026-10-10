@@ -1,0 +1,329 @@
+{
+  "key": "bez-power-einstellung",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Schreiben Sie jetzt bitte auf, warum Sie sich eine Beziehung wünschen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Schreiben Sie jetzt bitte auf: Was verpassen Sie ohne eine glückliche Beziehung?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Wichtiges unterstreichen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "a3ff23d4edea4f4d862cbc8dd47628e4",
+      "title": "Können Sie sich jetzt schon eher vorstellen, dass Sie in absehbarer Zeit in einer glücklichen Beziehung sein werden?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V5.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja, durchaus"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "a3ff23d4edea4f4d862cbc8dd47628e4 is 1"
+        },
+        {
+          "to": "n007",
+          "if": "a3ff23d4edea4f4d862cbc8dd47628e4 is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Warum haben Sie keine glückliche Beziehung?",
+      "text": "Finden Sie die Ängste und Glaubenssätze, die Sie davon abhalten, in einer glücklichen Beziehung zu sein, und schreiben Sie sie auf. Typisch ist: 'Ich bin für eine Beziehung nicht gemacht!', 'Ich verstehe die Männer, die Frauen nicht!', 'Ich brauche meine Freiheit!'",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "6c08f33acf1f4459822e77092377cad4",
+      "title": "Übung macht den Meister.",
+      "text": "Indem Sie die bisher erstellten Listen noch einmal intensiv überarbeiten, vertiefen Sie eine bessere Einstellung für eine bessere Beziehung. Möchten Sie Ihre Listen jetzt überarbeiten?",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V6.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein, weiter im Coaching"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "6c08f33acf1f4459822e77092377cad4 is 1"
+        },
+        {
+          "to": "n006",
+          "if": "6c08f33acf1f4459822e77092377cad4 is 2"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Wie sieht es in Ihrer Umgebung aus? ",
+      "text": "Welche Beziehungen erleben Sie in Ihrer Verwandtschaft, Ihrem Freundenskreis, bei Ihren Kollegen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Glaubenssätze durchschauen:",
+      "text": "Ihre Glaubenssätze könnten nicht stimmen. Was dann? Sie lassen sich in Ihrem Kopf bremsen.\n\nDaher müssen wir sie streichen, und umarbeiten!\n\nBeginnen Sie damit jeden Satz mit Fragezeichen zu versehen.",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Glaubenssätze transformieren:\r\n",
+      "text": "Gehen Sie jeden Glaubenssatz durch und schreiben Sie daneben eine positve, eine konstruktive Variante. Eine Variante, die Ihnen gut tut, und die es auch wert wäre von Ihrem wertvollen Gehirn gedacht zu werden.\nLesen Sie sich die neuen Sätze vor, so lange, bis Sie merken, dass die neuen Glaubenssätze mehr und mehr Sinn machen!",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Bestärken der neuen Glaubenssätze",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Options",
+      "key": "3acedd40beeb479dac83982b18e0ba88",
+      "title": "Haben Sie das Gefühl, dass Sie sich nach diesen Übungen stärker fühlen, um eine glückliche Beziehung zu führen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V11.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja, durchaus."
+          },
+          {
+            "key": 3,
+            "value": "Nochmal die vorige Übung"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "3acedd40beeb479dac83982b18e0ba88 is 1"
+        },
+        {
+          "to": "n014",
+          "if": "3acedd40beeb479dac83982b18e0ba88 is 2"
+        },
+        {
+          "to": "n006",
+          "if": "3acedd40beeb479dac83982b18e0ba88 is 3"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "fdf855f12f074fdc9768dc1c94ea418a",
+      "title": "Wollen Sie die Übungen wiederholen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "fdf855f12f074fdc9768dc1c94ea418a is 1"
+        },
+        {
+          "to": "n006",
+          "if": "fdf855f12f074fdc9768dc1c94ea418a is 2"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Vertiefung der stärkenden Glaubenssätze und positiven Bilder",
+      "text": "Machen Sie die nächsten drei Tage unbedingt die angesprochenen Übungen aus diesem Coaching damit Sie eine tolle Beziehung automatisch mehr und mehr anziehen.",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Dies war das Coaching \"Die Frage der richtigen Einstellung\"\n\n",
+      "text": "Viel Glück und Erfolg damit!",
+      "props": {
+        "video": {
+          "url": "REL_MindSet_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

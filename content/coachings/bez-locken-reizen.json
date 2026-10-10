@@ -1,0 +1,281 @@
+{
+  "key": "bez-locken-reizen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Willkommen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Warum locken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Freches mit einem kleinen Lächeln",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Familie, Religion, Körper",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Positiv beginnen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Beruf falsch raten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Äußerlichkeiten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Unerwartet abbiegen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "ironische Komplimente",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Körperhaltung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Mit den Augen reizen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Auf den Arm nehmen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Lachen Verzeihung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Den Anderen Locken und Reizen\"",
+      "text": "Üben Sie mit Bekannten und Fremden, ohne dass diese es wissen, Elemente des Locken und Reizens.\n\nHalten Sie fest, wie gut Ihnen das gelingt, mit wem Sie es versucht haben, und wie gut Sie die Elemente unterbringen konnten.\nHalten Sie auch fest, was Sie beim nächsten Mal besser machen wollen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ReizLock_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

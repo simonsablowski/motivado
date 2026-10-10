@@ -1,0 +1,262 @@
+{
+  "key": "bez-flirttech-groupon-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "4ab2326cf7564c39a6fd378013622357",
+      "title": "Möchten Sie den Test machen oder direkt zu den Beispielen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V89A.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja, Test starten."
+          },
+          {
+            "key": 2,
+            "value": "Nein, direkt zu den Coaching-Beispielen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "4ab2326cf7564c39a6fd378013622357 is 1"
+        },
+        {
+          "to": "n003",
+          "if": "4ab2326cf7564c39a6fd378013622357 is 2"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "fd6d7ebd1f3a4b0b90f7e59f291339bd",
+      "title": "Kam es selten vor, dass Sie mir Ihrem Traumpartner zusammenkommen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V2.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "fd6d7ebd1f3a4b0b90f7e59f291339bd is '1'"
+        },
+        {
+          "to": "n004",
+          "if": "fd6d7ebd1f3a4b0b90f7e59f291339bd is '2'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Locken und Reizen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BeispieleFlirtPaket_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "002923df93f34a348bf1afda9a2f0584",
+      "title": "Haben Ihre Beziehungen / Affären häufig nur kurz gehalten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V3.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "002923df93f34a348bf1afda9a2f0584 is '2'"
+        },
+        {
+          "to": "n006",
+          "if": "002923df93f34a348bf1afda9a2f0584 is '1'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Testimos",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "MOT_TestimonialsMontage_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "ae5d4f1c9528452a8aaa945cbf36fc29",
+      "title": "Haben Sie häufiger nicht verstanden, warum eine Person Sie hat abblitzen lassen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V4.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "ae5d4f1c9528452a8aaa945cbf36fc29 is '1'"
+        },
+        {
+          "to": "n008",
+          "if": "ae5d4f1c9528452a8aaa945cbf36fc29 is '2'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "9c5a6e92c0024bd3865fbe10b3124885",
+      "title": "Wollen Sie sich die Beispiele noch einmal ansehen.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "9c5a6e92c0024bd3865fbe10b3124885 is 1"
+        },
+        {
+          "to": "n003",
+          "if": "9c5a6e92c0024bd3865fbe10b3124885 is 2"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "ListView",
+      "key": null,
+      "title": "Im Folgenden zeigen wir Ihnen Beispiele aus den Coachings:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V1.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 54,
+            "url": ""
+          }
+        ],
+        "elements": [
+          {
+            "element": "Locken und Reizen",
+            "second": 0
+          },
+          {
+            "element": "Telefonnummer bekommen",
+            "second": 0
+          },
+          {
+            "element": "Traumpartner / Albtraumpartner",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Buy",
+      "key": null,
+      "title": "Intro und Buy",
+      "text": "",
+      "props": {
+        "key": "bez-flirttech-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

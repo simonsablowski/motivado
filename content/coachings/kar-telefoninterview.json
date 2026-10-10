@@ -1,0 +1,221 @@
+{
+  "key": "kar-telefoninterview",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching zum Thema \"Telefonische Interviews\"!\r\n\r\nBeim telefonischen Interview gilt: es ist genauso vollwertig wie ein echtes Gegenüber-Gespräch. Sie sollten sich darauf genauso intensiv und gut vorbereiten wie auf ein persönliches Bewerbungsgespräch! \r\n\r\nEin telefonisches Interview kommt immer dann zum Einsatz, wenn es sehr viele Bewerber gibt und man möglichst schnell wissen möchte: wo sind die Guten, wo sind die Schlechten? Aus diesem Grund ist es ein genauso ernstzunehmendes Interview wie jedes andere. Sollten Sie also zu einem Telefoninterview eingeladen werden, ist das ein gutes Zeichen: Sie sind im Gespräch! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie können Sie sich jetzt gut darauf vorbereiten?\r\n\r\nErstmal sollten Sie sich darauf einstellen, dass das Interview in der Regel 30 bis 45 Minuten dauert.\r\n\r\nDie Person, die es mit Ihnen führt, zeigt dabei folgende Eigenschaften: Sie arbeitet effizient, ist praktisch getrieben, bewertet die Fähigkeiten höher als Aussehen und Form und zeigt, dass sie kosteneffizient ist.\r\n\r\nDemonstrieren Sie also ebenso Effizienz und Effektivität, indem Sie Ihre Unterlagen parat haben und durch fachliche Fragen im Gespräch zeigen, dass Sie vorbereitet sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn es um Ihre Bewerbungsunterlagen geht, können Sie diese natürlich hier viel entspannter vorbereiten:\r\n \r\n1. Legen Sie Ihre Erfolgsgeschichten bereit. Setzen Sie hier jedesmal einen Haken dahinter, wenn Sie es geschafft haben, diese im Gespräch einfließen zu lassen. Das sollten Sie auf jeden Fall versuchen, wenn auch nicht zwanghaft!\r\n2. Haben Sie Ihren Lebenslauf und das Anschreiben offen, so dass Sie Punkte daraus aufgreifen können, während Sie reden.\r\n3. Legen Sie die Stellenausschreibung vor sich hin, so dass Sie noch einmal draufschauen können, wenn Sie die einzelnen Aufgaben und Anforderungen im Gespräch durchgehen.\r\n4. Öffnen Sie den Internetbrowser, so dass Sie Sachen auch mal schnell nachschlagen können. Haben Sie hier zudem die Firmenseite offen.\r\n5. Bereiten Sie auch Ihre Kurzvorstellung vor, die Sie bitte nicht ablesen! Arbeiten Sie diese vorher in Stichpunkten aus.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was gibt es noch zu beachten?\r\n\r\nBesprechen Sie Ihren Anrufbeantworter professionell, also mit Ihrem vollen Namen und der Bitte, die Telefonnummer und eine günstige Zeit für einen Rückruf zu hinterlassen. Falls dies noch nicht geschehen ist, tun Sie das bitte jetzt!",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Gespräch selbst:\r\n\r\nSorgen Sie dafür, dass der Raum, in dem Sie telefonieren, ruhig ist. Achten Sie beispielsweise darauf, dass es keine großartigen Hintergrundgeräusche gibt. Wenn Ihr Kind im Flur lärmt, mag das noch in Ordnung gehen. Auch wenn mal jemand reinkommt, wie Ihre Tochter oder Ihr Ehemann - das darf vorkommen, daraus dreht man Ihnen in der Regel keinen Strick. \r\nNehmen Sie während des Telefoninterviews jedoch keine anderen Telefonate entgegen. Ihr Telefon darf klingeln und Sie dürfen SMS bekommen, sprechen sollten Sie jedoch in keinem Fall, also auch nicht der lieben Frau Mama sagen, dass Sie sie gleich zurückrufen werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Denken Sie daran, dass Sie gerade am Anfang des Gesprächs lächeln. Ein Lächeln sieht man nicht nur, man hört es vor allem auch. Haben Sie deshalb einen Spiegel neben sich liegen. Mit einem Lächeln wirkt Ihre Stimme gleich viel sympathischer!\r\nSie können zudem zusätzlich die Sympathie auf Seiten Ihres Gegenübers erhöhen, wenn Sie sich ein wenig (aber nicht übertrieben) Stimmlage und -geschwindigkeit des Gegenübers anpassen. Spricht er also besonders langsam, sollten Sie nicht ins Gegenteil verfallen, sondern sich seiner Geschwindigkeit etwas annähern. Vor allem Menschen, die uns ähnlich sind, sind uns meist auch sympathisch. Das kann man gut beobachten, wenn man plötzlich an sich feststellt, dass man ähnliche Worte wie der Partner oder die neue Freundin verwendet. Daran merken Sie, dass Ihnen die Person sympathisch ist. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen Sie außerdem eine aufrechte Körperhaltung ein - das beeinflusst auch Ihre Stimme und lässt sie selbstbewusster und ruhiger klingen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Bei der Begrüßung:\r\n\r\nSchreiben Sie sich die Namen auf, die man Ihnen bei der Begrüßung im Gespräch sagt und notieren Sie sich auch die Positionen Ihrer Gegenüber. So können Sie sie später mit Ihren gezielten Fragen direkt ansprechen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Telefoninterview folgt dann meist zuerst Ihre Kurzvorstellung, die der aus dem Gegenüber-Gespräch gleicht. Starten Sie auch hier mit einer knappen persönlichen Vorstellung, also beispielsweise: „Ich bin Peter Müller, bin 43 Jahre alt und bewerbe mich bei Ihnen auf die Position XYZ.“ \r\nJetzt kommt die klassische Vorstellung, bei der es ganz wichtig ist, dass Sie schnell ihre guten Fragen unterbringen, da auch Ihr Gegenüber zeigt, dass er effizient und praktisch ist. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Werden Sie selbst etwas im Gespräch gefragt, antworten Sie auch hier schnell mit entweder: \"Ja, hab ich gemacht und zwar da und dort...\" beziehungsweise mit \"Nein, hab ich nicht gemacht, aber ich war in einem Projekt involviert und habe dort ähnliche Aufgaben übernommen.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Die einzelnen Phasen ähneln denen eines klassischen Vorstellungsgesprächs. Besuchen Sie daher unser Coaching \"Im Vorstellungsgespräch glänzen\" und bereiten Sie sich genaustens auf die einzelnen Inhalte vor!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hier sind weitere Tipps für das laufende Gespräch:\r\n\r\n* auch im telefonischen Interview gilt: kein Einwand bleibt unbehandelt! Für Methoden der Einwandbehandlung besuchen Sie unser Coaching \"Mit Einwänden und schwierigen Fragen umgehen\"\r\n* bei Versprechern neigt man häufig dazu, schneller zu werden. Achten Sie daher darauf, dass Sie in diesem Moment ganz bewusst daran denken, langsam weiter zu sprechen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nach dem Telefongespräch:\r\n\r\nAuch hier gilt: fassen Sie in jedem Fall nach und bedanken Sie sich für das Gespräch! Wir haben für Sie im Coaching \"Aktive Nachbereitung und Umgang mit Absagen\" Tipps zusammengestellt, wie Sie das Interview professionell nachbereiten. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Interview per Skype\r\n\r\nWenn man vorher ankündigt, dass es ein Skype-Interview wird, machen Sie sich darauf gefasst, dass es auch zu einem Videogespräch kommt. Achten Sie also auch hier auf Ihr Outfit, Ihr äußeres Erscheinungsbild und all die Dinge, die Sie auch bei einem „normalen“ Vorstellungsgespräch beachten würden. Achten Sie zudem auf einen klaren und aufgeräumten Hintergrund. Schmutziges Geschirr, ein chaotischer Schreibtisch oder ein \"Gelage\" vom letzten Abend mit Freunden kommt weniger gut an.\r\n\r\nAchten Sie auch darauf, dass Ton und Bild einwandfrei funktionieren. Sie können das vorher entspannt mit einem Freund oder Bekannten testen. Wenn Sie dann im Gespräch gebeten werden, auf Video umzuschalten, sollten Sie beides sofort einsatzbereit haben! Es wirkt extrem unprofessionell, wenn Sie dann erst nach einer Kamera kramen oder Ihr Gegenüber im schlimmsten Fall auf später vertrösten, weil Ihr Mikro streikt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Telefonische Interviews\". ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Telefonische Interviews\"",
+      "text": "Um auch auf Telefonate gut vorbereitet zu sein, führen Sie bis zum nächsten Mal bitte ein kleines Rollenspiel durch: Lassen Sie eine vertraute Person am Telefon den Interviewer spielen, der Sie auffordert sich kurz vorzustellen und auf Ihren beruflichen Hintergrund einzugehen. Antworten Sie mit Ihrer Einminutenpräsentation und lassen Sie sich Feedback dazu geben (Wie wirkt Ihre Stimme? Wie kommen die Inhalte rüber?)\nViel Erfolg und bis zum nächsten Mal!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

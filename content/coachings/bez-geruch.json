@@ -1,0 +1,250 @@
+{
+  "key": "bez-geruch",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Willkommen im Coaching \"Geruch\"!",
+      "text": "Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie unangenehm riechen könnten.",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Was führt zu Geruch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Umstände zu Geruch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Zahnprobleme etc. ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "Fragen Sie 5 Personen, die wirklich ehrlich sind (Verwandte sind gut, haben aber manchmal wegen des gleichen \"Stallgeruchs\" eine ähnliche Nase, bemerken also nichts.). Ideal ist eine Mischung von Bekannten, Freunden und evtl. einem peniblen Ex-Partner. Je penibler, desto ehrlich und besser.",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Ansprechen unangenehmer Gerüche",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Vermeiden Sie Billig-Düfte (Parfums, Duschgel, etc., das als nicht gut gewertet wurde: ersetzen).\nPlanen Sie, wie Sie regelmäßiger Ihren Duft auffrischen können (Dusche, Waschgänge, Deo).\nHaben Sie immer Kaugummis dabei!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Sollte etwas aufgetreten sein, vereinbaren Sie Arzttermine für alle Arten von Mundgeruch.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "d2b62c9e41a84a43bdd153c06dbe117c",
+      "title": "Haben Sie ehrliche und gleichzeitig sensible Personen  gefragt und das Feedback aufgenommen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja."
+          },
+          {
+            "key": 2,
+            "value": "Nein."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "d2b62c9e41a84a43bdd153c06dbe117c is 1"
+        },
+        {
+          "to": "n011",
+          "if": "d2b62c9e41a84a43bdd153c06dbe117c is 2"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "235073908c834e1eb6a9f05595f9685b",
+      "title": "Sind Sie sensibilisiert für dieses Thema? Wie erwähnt, die Horrerstories über Sie werden nicht Sie erfahren. Die Horrorstories werden alle Freunde Ihrer Affäre oder Ex-Partner erfahren.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Eher schon sensibilisiert."
+          },
+          {
+            "key": 2,
+            "value": "Eher noch nicht sensibilisiert."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "235073908c834e1eb6a9f05595f9685b is 1"
+        },
+        {
+          "to": "n013",
+          "if": "235073908c834e1eb6a9f05595f9685b is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Das ist sehr wichtig. Man kann seinen Geruch nur grob einschätzen, und selbst das fällt meistens völlig verfälscht aus. Wir wollen bei Ihrer Partnersuche nicht über so etwas stolpern, nur weil Sie sich getäuscht haben.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Viel Erfolg beim Umsetzen der Punkte. Mögen Sie immer wunderbar duften!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Geruch_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Gerne beraten wir Sie auch per Telefon. Schreiben Sie uns eine Nachricht über das Kontaktformular, unsere Experten helfen Ihnen gerne weiter.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "key": "bez-betrogen-unsicher",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den Partner zu verdächtigen, Sie zu betrügen, ohne genau zu wissen, ob dieser Verdacht der Wahrheit entspricht, ist eine enorme Belastung für Ihre Beziehung.  Denn auch, wenn Ihre Vermutung sich letztendlich nicht bestätigen sollte, leben Sie doch in einem dauerhaften Zustand des Zweifels und der Angst. Das wirkt sich natürlich auch auf Ihren Partner aus.\r\n\r\nIn dieser Situation müssen Sie sich Sicherheit verschaffen, auch wenn das bedeutet, dass Sie vielleicht herausfinden, dass Sie tatsächlich betrogen werden. Aber Sie können Ihre Beziehung auch nicht in einem Zustand des ständigen Zweifels führen. Oft ist dies sogar schlimmer, als die manchmal schmerzhafte Wahrheit zu erfahren. Nicht umsonst heißt es: lieber ein Ende mit Schrecken als ein Schrecken ohne Ende.\r\n\r\nIn diesem Coaching helfen wir Ihnen dabei, vermeintliche Anzeichen für das Fremdgehen Ihres Partners richtig zu deuten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Verändertes Verhalten Ihres Partners\r\n\r\nOft sind veränderte Verhaltensweisen des Partners Auslöser des Misstrauens ihm gegenüber. Wenn Sie wissen möchten, ob Ihr Partner Sie tatsächlich betrügt, sollten Sie innerlich darauf eingestellt sein, dass es vielleicht wirklich so ist. Andererseits sollten Sie Ihrem Partner aber auch vertrauen und nicht hinter jeder Handlung einen Vertrauensbruch seinerseits geradezu suchen.\r\n\r\nManchmal ist verändertes Verhalten aber auch dadurch begründet, dass Ihr Partner einen neuen Job hat etc. Bei solchen einschneidenden Veränderungen brauchen Ihr Partner und Sie Zeit, um sich an die veränderte Situation und Umstände zu gewöhnen. Seien Sie mit Ihren Verdächtigungen also etwas vorsichtig und zurückhaltend bis Sie tatsächlich einen Grund für Misstrauen haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Anzeichen dafür, dass Ihr Partner fremdgeht\r\n\r\nDafür dass man von seinem Partner betrogen wird, gibt es zahlreiche Anzeichen, denn häufig ändert sich das Verhalten des Partners signifikant. Auf der einen Seite kann es sein, dass Ihr Partner generell nicht mehr so viel Nähe zulässt, wie zuvor. Das heißt, dass er über einen längeren Zeitraum wiederholt nicht an Ihnen interessiert ist, bei Freunden übernachtet, weil es zu spät wird oder öfter alleine feiern geht. Oder plötzlich einem neuen Hobby nachgeht ohne Sie daran teilhaben zu lassen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ausreden und Ablenken\r\n\r\nBesonders auffällig sind sich wiederholende Mädels- oder Jungs-Abende, zu denen der Partner allein geht, ohne anschließend darüber zu erzählen oder auf Nachfrage nur über unwichtige Dinge spricht. Wenn Sie nachfragen, ob noch andere Mädels oder Jungs da waren, und Ihr Partner nur mit fadenscheinigen Ausreden rausrückt oder vom Thema ablenkt, haken Sie besser noch einmal nach.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Heimlichkeiten\r\n\r\nWiederholte Heimlichkeiten in Bezug auf Telefonate, Sms oder E-Mails sind ebenfalls ein wichtiges Indiz für eventuelles Fremdgehen des Partners. Sätze wie \"Ich brauche meine Ruhe.\" oder \"Ich würde das gern alleine machen.\" sind zweifelhaft, wenn Sie immer wieder vorkommen. Generell sind Heimlichkeiten und Undurchsichtigkeiten, etwa Namen von Kollegen, von denen Sie noch nie gehört haben, ein Anzeichen für eine mögliche Affäre Ihres Partners.\r\n\r\nSeien Sie sich aber auch dessen bewusst, dass es manchmal Phasen innerhalb einer Beziehung gibt, in denen einer der Partner etwas weniger Interesse zeigt ohne fremdzugehen. Manchmal sind gesundheitliche oder familiäre Probleme, Stress im Job oder einfach nur ein neues Computerspiel der Grund dafür, dass er sich etwas zurückzieht.\r\n\r\nAuf der anderen Seite passiert es häufig, dass der Betrogene vom seinem Partner kleine Aufmerksamkeiten geschenkt bekommt. Wenn es normalerweise unüblich ist, Blumen etc. geschenkt zu bekommen, könnte das an Anzeichen für ein schlechtes Gewissen sein, wenn Sie sie völlig aus dem Blauen heraus erhalten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Spatzen pfeifen es von den Dächern\r\n\r\nBesonders mißtrauisch sollten Sie werden, wenn sich das Verhalten von gemeinsamen Freunden, Bekannten oder Kollegen in Ihrer Gegenwart verändert. Wenn also häufiger betretenes Schweigen auftritt, Sie verstohlene oder mitleidige Blicke auffangen, kann es sein, dass die Anderen mehr wissen als Sie.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eindeutige Anzeichen und Konfrontation\r\n\r\nNatürlich ist es auch möglich, dass Sie ganz eindeutige Anzeichen dafür finden, dass Ihr Partner Sie betrügt. Etwa wenn Sie E-Mails oder Sms mit eindeutigen Inhalten finden sollten oder Ihr Partner Knutschflecke hat, bei denen Sie sicher sind, dass diese nicht von Ihnen stammen. An dieser Stelle möchten wir es nicht gut heißen, wenn Sie Ihrem Partner auf diese Weise nachspionieren und sein Vertrauen auf diese Weise womöglich unbegründet verletzten. \r\n\r\nWenn Sie sich also nicht sicher sind, ob Sie betrogen worden sind oder betrogen werden, sollten Sie letztendlich das Gespräch mit Ihrem Partner suchen und Ihren Verdacht äußern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den Partner auf den Verdacht ansprechen\r\n\r\nDa natürlich immer die Möglichkeit besteht, dass Ihr Partner Sie nicht betrügt, sollten Sie dieses Gespräch nicht mit Vorwürfen beginnen, sondern vielmehr Ihre Gefühle äußern: \"Ich habe in letzter Zeit das Gefühl, dass...\" oder \"Ich habe den Eindruck, dass....\" oder \"Für mich stellt es sich so dar, dass...\".\r\n\r\nSo hat Ihr Partner die Möglichkeit, Ihnen gegebenenfalls die Angst oder Unsicherheit zu nehmen, statt sich angegriffen zu fühlen. \r\n\r\nDa Sie dieses Gespräch aber natürlich suchen, um Klarheit über Ihre Situation und Ihre Beziehung zu bekommen, sollten Sie sich nicht mit Ausflüchten Ihres Partners zufrieden geben. Sie haben ein Recht darauf zu erfahren, was in Ihrer Beziehung vor sich geht und daher sollten Sie dieses Recht auch durchsetzen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Wahrheit ist raus - was nun?\r\n\r\nGanz gleich, wie das Gespräch mit Ihrem Partner verläuft und welche Antwort Sie erhalten, wir haben die nötigen Coachings für Sie, um Ihnen durch diese Situation zu helfen. \r\n\r\nSelbst wenn sich herausstellt, dass Ihr Partner Sie nicht betrogen hat, sollten Sie die im Anschluss für Sie empfohlenen Coachings durchlaufen, um das Vetrauen innerhalb Ihrer Beziehung zu stärken und Ihren Partner wieder mehr reizen und locken zu können.\r\n\r\nWichtig ist, dass Sie, falls Ihr Partner Sie wirklich betrügt, keine übereilten Entscheidungen treffen. Nehmen Sie sich aus der Situation heraus, damit Sie einen klaren Kopf bekommen können. Wir haben auch für diese Situation im nächsten Schritt die passenden Coachings für Sie.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

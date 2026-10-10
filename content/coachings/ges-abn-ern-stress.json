@@ -1,0 +1,104 @@
+{
+  "key": "ges-abn-ern-stress",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Stress-Frust-Essen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2A_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "1. In Stresssituationen wird Adrenalin und Cortisol ausgeschüttet.",
+            "second": 29
+          },
+          {
+            "element": "2. Kalorienreiches Essen stresst den Körper zusätzlich.",
+            "second": 90
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Warum essen Sie also in stressigen Situationen?",
+      "text": "Stress-Essen ist Gewohnheitssache!\n\nDer kalorienreiche Snack sorgt kurz für vermeintliche Entspannung. An diesen Effekt erinnern wir uns und machen es das nächste Mal wieder genauso.\nDas Völlegefühl, die Übelkeit und das schlechte Gewissen hingegen nur eine halbe Stunde später verdrängen wir sofort wieder.\nFrust- und Stressessen macht dick!\nAber wie kommt man aus diesem Teufelskreis nun heraus?\n\nMehr dazu im nächsten Video.",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2A_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Was können Sie anders machen?",
+      "text": "Überlegen Sie sich jetzt schon einmal eine Taktik, was Sie das nächste Mal anstatt zu essen tun können, wenn Sie in eine stressige Situation geraten.\nBeispiele sind:\n- eine gute Freundin/einen guten Freund anrufen\n- Bewegen Sie sich! Machen Sie einen Spaziergang, gehen Sie zum Sport\n- schaffen Sie sich gesunde Rituale (zum Feierabend erst einen Tee kochen/Eine Runde um den Block laufen/ein paar Seiten im neuen Buch lesen/etc).\n\nBringen Sie sich aus der Situation unbedingt über den Kühlschrank herfallen zu müssen raus, indem Sie weg gehen!",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2A_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Planen Sie Ihre Alternative bis ins kleinste Detail!",
+      "text": "Neigen Sie zu bestimmten Tageszeiten dazu aus Frust oder Stress zu essen?\n\nDann ist Ihre Aufgabe jetzt für genau diese Momente einen Plan zu erstellen mit einer ganze genauen Strategie, was Sie in diesen Momenten anderes tun können, sodass das Stress-Ess-Bedürfnis erst gar nicht aufkommt.\nSchreiben Sie diesen Plan unbedingt auf und bereiten Sie Ihn noch heute vor!",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2A_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Viel Erfolg in den kommenden Tagen!",
+      "text": "Wir müssen lang antrainierte Verhaltensweisen durchbrechen. Es wird nicht immer leicht sein, von jetzt an, nicht mehr mit Essen auf Stress zu reagieren.\nMit guter Vorbereitung und Durchhaltevermögen werden Sie jedoch merken, wie es von Mal zu Mal einfacher wird dem Stress-Essen die kalte Schulter zu zeigen!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

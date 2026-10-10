@@ -1,0 +1,105 @@
+{
+  "key": "bez-re-vision",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "TextInput",
+      "key": "rel_rueckVision_bild",
+      "title": "Bitte schreiben Sie das Bild auf, das Ihnen spontan einfällt!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Vision_V1.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 21
+          }
+        ],
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Bild vertiefen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Vision_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Falle des Bildes",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Vision_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Jetzt umsetzen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Vision_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bitte planen Sie jetzt, wann und wo Sie täglich min. 15 Minuten an Ihrer Vision arbeiten können.\r\nIhre Vision besteht aus dem Satz, den Sie notiert haben (\"Ich halte es für möglich, meinen Partner zurückzuerobern\" und Ihrem Zielbild (z.B. wir spazieren gemeinsam durch den Park).\r\nGanz wichtig ist, dass Sie sich bei der Visionsarbeit bewegen, am besten Sport machen, zumindest aber stramm spazieren gehen!\r\nFür Rückfragen wenden Sie sich bitte an unser Rückeroberungsteam. ",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

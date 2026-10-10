@@ -1,0 +1,1397 @@
+{
+  "key": "b2b-simyo",
+  "domain": "b2b",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "e33272c0af4a407fa033f3c9883aae90",
+      "title": "Weißt Du wieviele Minuten Du telefonierst und wieviele Sms Du schreibst (pro Monat)?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "B2B_SimyoExample_V1.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein, ich hab keine Ahnung!"
+          },
+          {
+            "key": 2,
+            "value": "Ja, ich weiß es ziemlich genau?"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "e33272c0af4a407fa033f3c9883aae90 is 1"
+        },
+        {
+          "to": "n003",
+          "if": "e33272c0af4a407fa033f3c9883aae90 is 2"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Dein persönliches Mobil-Profil",
+      "text": "Wir werden Dir jetzt ein paar Fragen stellen, durch die wir feststellen, wie Dein Telefon- und SMS-Verhalten ist. So können wir Deinen idealen Tarif bestimmen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Group",
+      "key": null,
+      "title": "Wieviele...",
+      "text": "",
+      "props": {
+        "count": 2
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Dropdown",
+      "key": "teldaily",
+      "title": "Wie oft telefonierst Du am Tag?",
+      "text": "Wir wollen heraus finden, wie oft Du pro Tag jemanden anrufst. Schau' einmal in Deinem Handy nach, wieviele Telefonate Du letzten Tagen pro Tag geführt hast. Oder entscheide nach Bauchgefühl.\nWieviel telefonierst Du pro Tag?",
+      "props": {
+        "items": [
+          {
+            "label": "Wenige Telefonate (1-3 Anrufe am Tag)",
+            "value": "2"
+          },
+          {
+            "label": "Ein paar Telefonate (4-6 Anrufe am Tag)",
+            "value": "5"
+          },
+          {
+            "label": "Mehrere Telefonate (7-12 Anrufe am Tag)",
+            "value": "10"
+          },
+          {
+            "label": "Viele Telefonate (13-20 Anrufe am Tag)",
+            "value": "18"
+          },
+          {
+            "label": "Sehr viele Telefonate (über 20 Anrufe am Tag)",
+            "value": "30"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "TextInput",
+      "key": "min",
+      "title": "Minuten telefonierst Du im Monat (insg. in alle Netze).",
+      "text": "",
+      "props": {
+        "type": "amount"
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "tellong",
+      "title": "Sind Deine Telefonate länger (mehr als 1 Minute) oder kürzer (unter 1 Minute)?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "0.1",
+            "value": "Immer nur ganz kurz"
+          },
+          {
+            "key": "0.2",
+            "value": "Meistens ganz kurz"
+          },
+          {
+            "key": "0.5",
+            "value": "Mal länger, mal kurz"
+          },
+          {
+            "key": "0.8",
+            "value": "Meistens länger"
+          },
+          {
+            "key": "1",
+            "value": "Immer länger"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "tellong is '0.1'"
+        },
+        {
+          "to": "n008",
+          "if": "tellong is '0.2'"
+        },
+        {
+          "to": "n008",
+          "if": "tellong is '0.5'"
+        },
+        {
+          "to": "n009",
+          "if": "tellong is '0.8'"
+        },
+        {
+          "to": "n009",
+          "if": "tellong is '1'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "TextInput",
+      "key": "sms",
+      "title": "SMS schreibst Du im Monat?",
+      "text": "",
+      "props": {
+        "type": "amount"
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "AddValue",
+      "key": "telshort",
+      "title": "Telefonate short",
+      "text": "",
+      "props": {
+        "operation": "subtract",
+        "values": [
+          1,
+          "#tellong"
+        ]
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Group",
+      "key": null,
+      "title": "Du hast angegeben, dass Du oft länger telefonierst. Lass uns das genauer ansehen. Wie oft telefonierst Du...",
+      "text": "",
+      "props": {
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "AddValue",
+      "key": "sum",
+      "title": "Add Sum Min and SMS",
+      "text": "",
+      "props": {
+        "values": [
+          "#min",
+          "#sms"
+        ]
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "AddValue",
+      "key": "mintellong",
+      "title": "Calc MinLong",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#teldaily",
+          30,
+          "#tellong",
+          2
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Dropdown",
+      "key": "tellong1",
+      "title": "... über 1 Minute",
+      "text": "",
+      "props": {
+        "items": [
+          {
+            "label": "selten",
+            "value": "0.08"
+          },
+          {
+            "label": "manchmal",
+            "value": "0.24"
+          },
+          {
+            "label": "oft",
+            "value": "0.4"
+          },
+          {
+            "label": "sehr oft",
+            "value": "0.64"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "AddValue",
+      "key": "costsum",
+      "title": "Calculate Costs",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#sum",
+          "0.09"
+        ]
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "AddValue",
+      "key": "mintelshort",
+      "title": "Calc MinShort",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#teldaily",
+          30,
+          "#telshort",
+          1
+        ]
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Dropdown",
+      "key": "tellong5",
+      "title": "über 5 Minuten",
+      "text": "",
+      "props": {
+        "items": [
+          {
+            "label": "selten",
+            "value": "0.08"
+          },
+          {
+            "label": "manchmal",
+            "value": "0.24"
+          },
+          {
+            "label": "oft",
+            "value": "0.4"
+          },
+          {
+            "label": "sehr oft",
+            "value": "0.64"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "AddValue",
+      "key": "costsms",
+      "title": "Calculate Costs SMS",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#sms",
+          "0.09"
+        ]
+      },
+      "next": [
+        {
+          "to": "n019",
+          "if": "costsum le '39'"
+        },
+        {
+          "to": "n020",
+          "if": "costsum gt '39'"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "AddValue",
+      "key": "min",
+      "title": "Add MinShort und MinLong",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#mintellong",
+          "#mintelshort"
+        ]
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Dropdown",
+      "key": "tellong10",
+      "title": "... über 10min",
+      "text": "",
+      "props": {
+        "items": [
+          {
+            "label": "selten",
+            "value": "0.08"
+          },
+          {
+            "label": "manchmal",
+            "value": "0.24"
+          },
+          {
+            "label": "oft",
+            "value": "0.4"
+          },
+          {
+            "label": "sehr oft",
+            "value": "0.64"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gut! Wenn Du nur den Kostenstopp nimmst (ohne Flatrates) würdest Du für Deine #min Telefonminuten und #sms SMS (insgesamt #sum Minuten/SMS) monatlich #costsum|'Angabe fehlt'€ bezahlen! Und wenn Du mal mehr telefonierst oder SMS schreibst, zahlst Du niemals mehr als 39.00€. Aber mal sehen ob wir das mit den Flatrates noch günstiger für Dich hinbekommen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n023",
+          "if": "min gt '44'"
+        },
+        {
+          "to": "n024",
+          "if": "min le '44'"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hui! Gäbe es keinen Kostenstopp würdest Du für Deine #min Telefonminuten und #sms SMS (insgesamt #sum Minuten/SMS) #costsum€ zahlen. Ein Glück gibt es den Kostenstopp. Denn der greift bei 39.00€, so dass Du statt #costsum€ nur 39.00€ zahlst. Sehr cool! Mal sehen ob wir das mit den Flatrates noch günstiger für Dich hinbekommen!!!!",
+      "props": {},
+      "next": [
+        {
+          "to": "n023",
+          "if": "min gt '44'"
+        },
+        {
+          "to": "n024",
+          "if": "min le '44'"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "TextInput",
+      "key": "min",
+      "title": "Wir schätzen Du telefonierst ungefähr #min Minuten im Monat. Hier kannst Du die Zahl noch mal anpassen, wenn Du möchtest.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "AddValue",
+      "key": "mintellong1",
+      "title": "Calc Min Long ü1",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#teldaily",
+          30,
+          "#tellong1",
+          3
+        ]
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "AddValue",
+      "key": "finalpaket",
+      "title": "Add finalpaket",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "Kostenstopp, nie mehr als 39.00€ zahlen"
+        ]
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "Du telefonierst nicht sehr viel, aber vielleicht kannst Du bei Deinen SMS noch mal sparen. Schauen wir uns das an!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n028",
+          "if": "sms le '110'"
+        },
+        {
+          "to": "n029",
+          "if": "sms gt '110'"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Dropdown",
+      "key": "smsdaily",
+      "title": "Schauen wir uns jetzt Deine SMS Nutzung an.",
+      "text": "Wieviele SMS schreibst Du ungefähr am Tag?",
+      "props": {
+        "items": [
+          {
+            "label": "Sehr wenig SMS (1-2)",
+            "value": "2"
+          },
+          {
+            "label": "Wenige SMS (2-5)",
+            "value": "3"
+          },
+          {
+            "label": "Ein paar SMS (5-10)",
+            "value": "5"
+          },
+          {
+            "label": "Viele Sms (10-20)",
+            "value": "13"
+          },
+          {
+            "label": "Sehr viele Sms (10-20)",
+            "value": "21"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "AddValue",
+      "key": "mintellong5",
+      "title": "Calc Min Long ü5",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#teldaily",
+          30,
+          "#tellong5",
+          7
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "AddValue",
+      "key": "costflats",
+      "title": "Add cost Flatrates",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          0
+        ]
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "ListView",
+      "key": "sum",
+      "title": "Du telefonierst wenig und Du schreibst auch sehr wenig SMS! Für Dich lohnt sich der Kostenstopp ohne Flatrates am meisten. Da zahlst Du nur #costsum€. Und wenn Du mal mehr telefonierst, niemals mehr als 39.90€.",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "Kostenstopp",
+            "second": 0
+          },
+          {
+            "element": "keine Flatrates",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "ListView",
+      "key": "sum",
+      "title": "Du telefonierst zwar sehr wenig, schreibst aber viel SMS. Für Dich lohnt sich die SMS-Flatrate!",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "Kostenstopp, nie mehr als 39,- €",
+            "second": 0
+          },
+          {
+            "element": "SMS-Flatrate für 3.90€",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "AddValue",
+      "key": "sms",
+      "title": "Calc SMS",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#smsdaily",
+          30
+        ]
+      },
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "AddValue",
+      "key": "mintellong10",
+      "title": "Calc Min Long ü10",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#teldaily",
+          30,
+          "#tellong10",
+          15
+        ]
+      },
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Group",
+      "key": null,
+      "title": "Du telefonierst sehr viel. Für Dich würde sich evtl. eine Flatrate fürs Telefonieren lohnen. Lass uns das mal genauer anschauen. Wie viele Minuten von Deinen #min|'Angabe fehlt' Minuten telefonierst Du in folgende Netze:",
+      "text": "",
+      "props": {
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "TextInput",
+      "key": "sms",
+      "title": "Wir schätzen Du schreibst ungefähr #sms Sms im Monat. Hier kannst Du die Zahl noch mal anpassen, wenn Du möchtest.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "AddValue",
+      "key": "mintelshort",
+      "title": "Cal Min Tel Short",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#teldaily",
+          30,
+          0.15,
+          1
+        ]
+      },
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "TextInput",
+      "key": "minsimyo",
+      "title": "... ins SIMYO Netz?",
+      "text": "",
+      "props": {
+        "type": "amount"
+      },
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "AddValue",
+      "key": "min",
+      "title": "Calc Min",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#mintellong1",
+          "#mintellong5",
+          "#mintellong10",
+          "#mintelshort"
+        ]
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "TextInput",
+      "key": "minfest",
+      "title": "... ins Festnetz?",
+      "text": "",
+      "props": {
+        "type": "amount"
+      },
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "TextInput",
+      "key": "minmobil",
+      "title": "... in alle anderen Mobilfunknetze (Vodafone, Base, etc.).",
+      "text": "",
+      "props": {
+        "type": "amount"
+      },
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "AddValue",
+      "key": "min",
+      "title": "Add New Min",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#minfest",
+          "#minmobil",
+          "#minsimyo"
+        ]
+      },
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "AddValue",
+      "key": "diffminsimyo",
+      "title": "Subtract 44 - minsimyo",
+      "text": "",
+      "props": {
+        "operation": "subtract",
+        "values": [
+          44,
+          "#minsimyo"
+        ]
+      },
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "AddValue",
+      "key": "diffminfest",
+      "title": "Subtract 110 - minfest",
+      "text": "",
+      "props": {
+        "operation": "subtract",
+        "values": [
+          110,
+          "#minfest"
+        ]
+      },
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "AddValue",
+      "key": "diffsms",
+      "title": "Subtract 110 - sms",
+      "text": "",
+      "props": {
+        "operation": "subtract",
+        "values": [
+          110,
+          "#sms"
+        ]
+      },
+      "next": [
+        {
+          "to": "n043"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "AddValue",
+      "key": "costminfest",
+      "title": "Cost Min Fest",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          0.09,
+          "#minfest"
+        ]
+      },
+      "next": [
+        {
+          "to": "n044"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "AddValue",
+      "key": "costminsimyo",
+      "title": "Cost Min Simyo",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          0.09,
+          "#minsimyo"
+        ]
+      },
+      "next": [
+        {
+          "to": "n045",
+          "if": "minsimyo lt '44'"
+        },
+        {
+          "to": "n046",
+          "if": "minsimyo ge '44'"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "Options",
+      "key": "4c2c71f57d9a4d58bff9037b15c7b034",
+      "title": "",
+      "text": "Für Dich lohnt sich die SIMYO Flatrate momentan nicht. Solltest Du aber nur #diffminsimyo Minuten mehr ins SIMYO Netz telefonieren, lohnt sich die Flatrate schon. Denk' mal drüber nach. Das sind nicht mal 2 Telefonate mit Mutti. ;-). Also willst Du SIMYO Flatrate für 3,90€ hinzufügen?",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja, SIMYO Flat hinzufügen"
+          },
+          {
+            "key": 2,
+            "value": "Nein, ohne SIMYO Flat weiter machen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n047",
+          "if": "4c2c71f57d9a4d58bff9037b15c7b034 is 1"
+        },
+        {
+          "to": "n048",
+          "if": "diffminfest ge '0' and 4c2c71f57d9a4d58bff9037b15c7b034 is 2"
+        },
+        {
+          "to": "n049",
+          "if": "diffminfest lt '0' and 4c2c71f57d9a4d58bff9037b15c7b034 is 2"
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Text",
+      "key": null,
+      "title": "Für Dich lohnt sich die SIMYO Flatrate für 3,90€, denn statt #costminsimyo€ zahlst Du für Deine #minsimyo Minuten ins SIMYO-Netz nur 3.90€. Cool!!! Wir fügen die SIMYO Flatrate zu Deinen Angebot hinzu.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n047"
+        }
+      ]
+    },
+    "n047": {
+      "id": "n047",
+      "type": "AddValue",
+      "key": "finalpaket",
+      "title": "Add Simyo to final paket finalpaket",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#finalpaket",
+          "SIMYO Flatrate für 3.90€"
+        ]
+      },
+      "next": [
+        {
+          "to": "n050"
+        }
+      ]
+    },
+    "n048": {
+      "id": "n048",
+      "type": "Options",
+      "key": "c1eb55cd7aa34cbc8e470e8535359853",
+      "title": "Für Dich lohnt sich die Festnetz-Flatrate nicht. Solltest Du aber nur #diffminfest Minuten mehr ins Festnetz telefonieren, lohnt sich die Flatrate schon. Überleg mal das sind nur 2 Telefonate mit Deiner Mutti!",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein, ohne Festnetz-Flat weiter machen"
+          },
+          {
+            "key": 2,
+            "value": "Ja, Festnetz-Flat hinzufügen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n051",
+          "if": "c1eb55cd7aa34cbc8e470e8535359853 is 1"
+        },
+        {
+          "to": "n052",
+          "if": "c1eb55cd7aa34cbc8e470e8535359853 is 2"
+        }
+      ]
+    },
+    "n049": {
+      "id": "n049",
+      "type": "Text",
+      "key": null,
+      "title": "Für Dich lohnt sich die Festnetz Flatrate für 9,90€. Denn statt #costminfest€ für Deine #minfest Minuten ins Festnetz zahlst Du nur 9.90€. Sehr cool! Wir fügen die Festnetz-Flatrate zu Deinem Angebot hinzu.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n052"
+        }
+      ]
+    },
+    "n050": {
+      "id": "n050",
+      "type": "AddValue",
+      "key": "min",
+      "title": "Subtract Minsim from Min",
+      "text": "",
+      "props": {
+        "operation": "subtract",
+        "values": [
+          "#min",
+          "#minsimyo"
+        ]
+      },
+      "next": [
+        {
+          "to": "n053"
+        }
+      ]
+    },
+    "n051": {
+      "id": "n051",
+      "type": "Text",
+      "key": null,
+      "title": "Schauen wir uns nun an, ob Du bei Deinem SMS Versand durch eine SMS-Flatrate noch sparen kannst.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n054",
+          "if": "diffsms ge '0'"
+        },
+        {
+          "to": "n055",
+          "if": "diffsms lt '0'"
+        }
+      ]
+    },
+    "n052": {
+      "id": "n052",
+      "type": "AddValue",
+      "key": "finalpaket",
+      "title": "Add Festnetz Flat to final paket",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#finalpaket",
+          "Festnetz Flatrate für 9.90€"
+        ]
+      },
+      "next": [
+        {
+          "to": "n056"
+        }
+      ]
+    },
+    "n053": {
+      "id": "n053",
+      "type": "AddValue",
+      "key": "costflats",
+      "title": "Add SIMYO Flat Costs",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#costflats",
+          3.9
+        ]
+      },
+      "next": [
+        {
+          "to": "n048",
+          "if": "diffminfest ge '0'"
+        },
+        {
+          "to": "n049",
+          "if": "diffminfest lt '0'"
+        }
+      ]
+    },
+    "n054": {
+      "id": "n054",
+      "type": "Options",
+      "key": "d3ca0f68ab8e460e9af526d44677e323",
+      "title": "Eine SMS-Flatrate lohnt sich momentan für Dich nicht. Wenn Du aber nur #diffsms SMS mehr schreibst, lohnt sich die SMS-Flatrate schon. Das sind ja nur 3 Streitgespräche mit Deiner Mutter. Willst Du die SMS Flatrate hinzufügen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein, ohne SMS Flat weitermachen"
+          },
+          {
+            "key": 2,
+            "value": "Ja, SMS Flat hinzufügen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n057",
+          "if": "d3ca0f68ab8e460e9af526d44677e323 is 1"
+        },
+        {
+          "to": "n058",
+          "if": "d3ca0f68ab8e460e9af526d44677e323 is 2"
+        }
+      ]
+    },
+    "n055": {
+      "id": "n055",
+      "type": "Text",
+      "key": null,
+      "title": "Auch bei Deinen SMS kannst Du durch eine Flatrate noch sparen. Wir empfehlen die SMS Flatrate für 9,90€. Dann zahlst Du statt #costsms€ für Deine #sms SMS nur 9,90€. Egal, wie viele SMS Du schreibst.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n058"
+        }
+      ]
+    },
+    "n056": {
+      "id": "n056",
+      "type": "AddValue",
+      "key": "min",
+      "title": "Subtract MinFest from Min",
+      "text": "",
+      "props": {
+        "operation": "subtract",
+        "values": [
+          "#min",
+          "#minfest"
+        ]
+      },
+      "next": [
+        {
+          "to": "n059"
+        }
+      ]
+    },
+    "n057": {
+      "id": "n057",
+      "type": "AddValue",
+      "key": "sum",
+      "title": "Add Sum Min and SMS",
+      "text": "",
+      "props": {
+        "values": [
+          "#min",
+          "#sms"
+        ]
+      },
+      "next": [
+        {
+          "to": "n060"
+        }
+      ]
+    },
+    "n058": {
+      "id": "n058",
+      "type": "AddValue",
+      "key": "finalpaket",
+      "title": "Add SMS Flat to paket",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#finalpaket",
+          "SMS Flatrate für 9.90€"
+        ]
+      },
+      "next": [
+        {
+          "to": "n061"
+        }
+      ]
+    },
+    "n059": {
+      "id": "n059",
+      "type": "AddValue",
+      "key": "costflats",
+      "title": "Add Fest Flat Costs",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#costflats",
+          9.9
+        ]
+      },
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n060": {
+      "id": "n060",
+      "type": "AddValue",
+      "key": "costsum",
+      "title": "Calc Costs",
+      "text": "",
+      "props": {
+        "operation": "multiply",
+        "values": [
+          "#sum",
+          "0.09"
+        ]
+      },
+      "next": [
+        {
+          "to": "n062"
+        }
+      ]
+    },
+    "n061": {
+      "id": "n061",
+      "type": "AddValue",
+      "key": "sms",
+      "title": "Set SMS to 0",
+      "text": "",
+      "props": {
+        "values": [
+          0
+        ]
+      },
+      "next": [
+        {
+          "to": "n063"
+        }
+      ]
+    },
+    "n062": {
+      "id": "n062",
+      "type": "AddValue",
+      "key": "costtotal",
+      "title": "Calculate Total Costs (Flats, Minutes, SMS)",
+      "text": "",
+      "props": {
+        "values": [
+          "#costsum",
+          "#costflats"
+        ]
+      },
+      "next": [
+        {
+          "to": "n064"
+        }
+      ]
+    },
+    "n063": {
+      "id": "n063",
+      "type": "AddValue",
+      "key": "costflats",
+      "title": "Add SMS-Flat to Flat Costs",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#costflats",
+          9.9
+        ]
+      },
+      "next": [
+        {
+          "to": "n057"
+        }
+      ]
+    },
+    "n064": {
+      "id": "n064",
+      "type": "AddValue",
+      "key": "finalpaket",
+      "title": "Add Cost Sum to Finalpaket",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#finalpaket",
+          "Für #min Minuten und #sms SMS zahlst Du #costsum€"
+        ]
+      },
+      "next": [
+        {
+          "to": "n065"
+        }
+      ]
+    },
+    "n065": {
+      "id": "n065",
+      "type": "AddValue",
+      "key": "finalpaket",
+      "title": "Add Costs Flat to Finalpaket",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#finalpaket",
+          "Für Deine Flatrates zahlst Du insgesamt: #costflats€"
+        ]
+      },
+      "next": [
+        {
+          "to": "n066"
+        }
+      ]
+    },
+    "n066": {
+      "id": "n066",
+      "type": "AddValue",
+      "key": "finalpaket",
+      "title": "Add Total Costs to Finalpaket",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#finalpaket",
+          "Monatlich zahlst Du also #costtotal€ und niemals mehr als 39.90€"
+        ]
+      },
+      "next": [
+        {
+          "to": "n067"
+        }
+      ]
+    },
+    "n067": {
+      "id": "n067",
+      "type": "ListView",
+      "key": null,
+      "title": "Zusammengefasst ist folgendes Angebot für Dich ideal:",
+      "text": "",
+      "props": {
+        "elementsReference": "#finalpaket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

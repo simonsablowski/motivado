@@ -1,0 +1,37 @@
+[
+  {
+    "id": 3,
+    "name": "Mascha Grote",
+    "description": "Unsere Sportpsychologin Mascha Grote unterstützt Sie in allen Fragen rund um Ernährung und Fitness."
+  },
+  {
+    "id": 4,
+    "name": "Emanuel Albert",
+    "description": "Als Personal Coach blickt der studierte Pädagoge und Psychologe auf mehr als 10 Jahre Erfahrung zurück."
+  },
+  {
+    "id": 5,
+    "name": "Julia Zichner",
+    "description": "Als Ernährungswissenschaftlerin kennt Julia Zichner alle Tipps und Tricks zum Abnehmen."
+  },
+  {
+    "id": 6,
+    "name": "Nicco Krezdorn",
+    "description": "Zum gesunden Geist gehört ein gesunder Körper. Nicco Krezdorn kümmert sich ums leibliche Wohl."
+  },
+  {
+    "id": 7,
+    "name": "Janina Blume",
+    "description": "Als Diplom-Psychologin bringt Janina Blume viel Wissen und Erfahrung in der Betreuung von Menschen mit ein."
+  },
+  {
+    "id": 13,
+    "name": "Thomas Sonnenburg",
+    "description": "Seit über 20 Jahren arbeitet er mit Kindern und Jugendlichen. Zuletzt auch im Fernsehen bei RTL 'Die Ausreißer'."
+  },
+  {
+    "id": 26,
+    "name": "Ania Ferstl",
+    "description": "Die international tätige Sprachexpertin zeigt Ihnen, wie Sie Ihre Partnerschaft wieder auf Augenhöhe gestalten."
+  }
+]

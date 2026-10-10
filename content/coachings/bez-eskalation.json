@@ -1,0 +1,221 @@
+{
+  "key": "bez-eskalation",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching \"Eskalation zu Intimitäten\". ",
+      "text": "Dieses Coaching ist für Menschen gedacht, die Ihrem Date gerne näher kommen würden oder gerne Sex hätten, aber nicht genau wissen, wie Sie körperliche Nähe provozieren können, dass es zum Kuss und/oder Sex kommt. Sollten Sie sich mit dem Forcieren des Körperkontakts etwas schwer tun, ist dies das richtige Coaching für Sie. \nIn welcher Situation können und dürfen Sie Ihr Date berühren, ohne dass Sie zu aufdringlich wirken? Und welche Berührungen scheinen auf den ersten Blick harmlos, sind aber dennoch intensiv?\nHier finden Sie Strategien, wie Sie auf leichte Art und Weise Körperkontakt herstellen können und warum Sie bei einer abweisenden Reaktion nicht gleich komplett aufgeben sollten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Wenn es darum geht, Ihrem Date zu zeigen, dass Sie Ihren Gegenüber küssen möchten oder gern Sex mit ihm hätten, gibt es im Grunde mehrere Wege, dies zu erreichen. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "1. Forcieren von Berührungen / Eskalation",
+      "text": "Unverfänglich I\n\nEine gute \"Ausrede\" Ihr Date unaufdringlich zu berühren, ist wenn Sie einen Grund dafür haben. Zum Beispiel, wenn Sie eine Geschichte erzählen, in der jemand eine andere Person am Arm anfasst, können Sie analog dazu auch Ihr Date berühren. Oder Sie lesen Ihrem Gegenüber aus der Hand und fahren dabei mit Ihrem Finger die Linien auf der Haut nach. Bewundern Sie die Ohrringe oder Kette einer Frau und berühren Sie sie dabei leicht. Wenn Sie gemeinsam eine Straße überqueren, nehmen Sie die Hand des Anderen, um ihm über die Straße zu helfen.\nWenn Sie Ihrem Date etwas zeigen wollen, greifen Sie ebenfalls nach der Hand. \"Ich weiß, wo es ist.\" \"Ich weiß, wo wir lang müssen.\" Diese Berührung kann zu jeder Zeit von beiden wieder gelöst werden, ohne dass ein unangenehmes Gefühl entsteht.\nFordern Sie körperliche Nähe heraus, indem Sie in einer Bar oder in einem Restaurant zu leise sprechen, so dass Sie sich einander entgegenlehnen müssen, um sich zu unterhalten. Dabei können Sie mit den Lippen das Ohr Ihres Gegenübers berühren. Oder Sie fragen Ihr Date, wie es Ihr Parfüm findet.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Unverfänglich II",
+      "text": "Berührungen lassen sich außerdem auch gut mit Komplimenten verbinden. Tragen Sie dabei aber nicht zu dick auf, sondern beziehen Sie Ihre Komplimente auf Sinne wie Riechen oder Fühlen. \"Du riechst gut.\" \"Deine Haut ist weich.\" \"Deine Haare fühlen sich toll an.\" Gerade, wenn Sie Berührungen im Bereich des Kopfes anstreben, begleiten Sie diese Berührung verbal, damit Ihr Gegenüber nicht vor Ihnen zurückschreckt. \"Du hast da was....\" \"Darf ich...?\"\n\nAllerdings werden Berührungen im Bereich des Halses oder Kopfes oft auch als intensiver empfunden, als eine Hand, die man auf den Arm des Anderen legt. Ein Kuss am Hals oder Ohr und ein leichtes Ziehen an den Haaren geht tiefer, als das Berühren der Finger beim Handlesen. Achten Sie dabei darauf, ob Ihr Gegenüber es duldet oder mag oder nicht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Unverfänglich III",
+      "text": "Stellen Sie sich hinter Ihr Date und beginnen Sie einfach eine Rückenmassage. Dadurch können Sie nicht nur den Körperkontakt intensivieren. Sie befinden sich auch nicht im direkten Sichtfeld des Anderen, so dass es Ihrem Gegenüber eventuell leichter fällt, sich der Situation zu öffnen. Bei dieser Gelegenheit könnten Sie mit Nase oder Lippen über das Ohr Ihres Dates streichen.\n\nBeim Tanzen können Sie außerdem ganz leicht eine Situation aufbauen, in der sie Ihrem Gegenüber näher kommen. Begleiten Sie eine solche Situation hinterher mit einem Satz wie \"Weißt Du eigentlich, wie heiß Du bist?\"\n\nWenn Ihr Date mit Ihnen das Essen z.B. Eis teilt, ist dies ein Hinweis für Vertrauen, besonders, wenn Sie beide dabei den gleichen Löffel oder Gabel benutzen. Die Chancen auf intensivierten Körperkontakt stehen hier nicht schlecht. Das gilt auch dafür, wenn Ihr Gegenüber beispielsweise mit dem Mund am Stift/Strohhalm knabbert.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "2. Vakuum\r\n\r\n",
+      "text": "Sie können auch Körperkontakt herausfordern, indem Sie zunächst ein Berührungs-Vakuum herstellen. Enthalten Sie sich jeder Berührung, aber reizen Sie Ihr Gegenüber. In unserem Coaching \"Locken und Reizen\" haben wir bereits Mittel und Strategien zusammengestellt, wie Sie dies erreichen können.(Das spezielle Coaching \"Locken und Reizen\" steht anschließend als Extra-Coaching für Sie zur Auswahl, falls Sie es dann wünschen.)\n\nZiehen Sie sich wieder aus einer Situation zurück, nachdem Sie Ihr Date berührt oder geküsst haben. Besonders dann, wenn Sie Ihr Gegenüber an einer als intensiv empfundenen Stelle berührt haben. \"Wo waren wir stehen geblieben?\" \"Möchtest Du noch etwas trinken?\" \nVerabschieden Sie sich von Ihrem Date mit einem Kuss auf den Mund, nachdem Sie während des Treffens keinen anderen Körperkontakt zugelassen haben. Spielen Sie mit dem Wechsel von Nähe und Distanz.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "3. Sprechen\r\n\r\n",
+      "text": "Wenn Sie Ihrem Date körperlich nicht näherkommen, können Sie die Eskalation natürlich auch verbal provozieren. Zum Beispiel indem Sie Geschichten und Anekdoten erzählen, in denen es um Sex geht. Seien Sie dabei nicht zu direkt. \nDurch eine Geschichte mit sexuellen Anspielungen bedeuten Sie Ihrem Gegenüber zwischen den Zeilen, dass Sie ihm näher kommen wollen. Sie berühren den Anderen dadurch auf mentaler Ebene. Wenn Sie nach einer solchen Geschichte ein Vakuum herbeiführen, wird die Andeutung noch intensiver wahrgenommen.\nZum Beispiel: „Hier hatten letztens zwei Leute Sex! Kannst Du Dir das vorstellen?!“\n\nReizen Sie Ihr Date mit Sätzen wie \"Du bist aber frech.\" \"Sei nicht so frech/unverschämt/gierig.\" Aussagen dieser Art haben einen sexy Unterton, wenn Sie sie freundlich und humorvoll aussprechen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Speed-up\r\n\r\n",
+      "text": "Wenn Frauen bei einem Date einem anderen Mann, der gerade vorbeigeht, ein sexuelles oder körperlastiges Kompliment macht - \"Der Typ hat aber einen tollen Hintern.\" ist dies ein Hinweis darauf, dass sie sexuell offen ist. Strengen Sie sich an! Sätze wie \"Ich habe schon lange nicht mehr mit einem Mann geknutscht/geschlafen.\" gehören auch zu dieser Kategorie. \nSie erhöhen das Tempo der Eskalation enorm, denn Sie sind ein Hinweis darauf, dass sie gerne wieder Sex hätte oder jemanden küssen möchte. Sie gibt dem Mann damit zu verstehen, dass er dieser Situation ein Ende setzen kann. Außerdem ist eine Aussage wie diese für Mann natürlich auch ein Turn-on.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Direktes Ansprechen",
+      "text": "Natürlich kann man den Wunsch nach körperlicher Nähe auch direkt ansprechen. Allerdings entstehen solche Situationen meist, wenn sich während des Treffens keine Möglichkeit zu Berührungen etc. ergeben hat. Viele dieser Situationen führen auch nicht zum gewünschten Erfolg, denn immerhin hat es vorher kaum einen Hinweis darauf gegeben, dass Körperkontakt erwünscht ist.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Probieren Sie die Eskalation mit 8 beliebigen Personen. Versuchen Sie die verschiedenen Strategien aus - arbeiten Sie sich vom Berühren der Hand immer weiter vor.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Was ist, wenn man Ihren Berührungen ausweicht?",
+      "text": "Sollte Ihr Gegenüber bei Ihrer Berührung ausweichend oder ablehnend reagieren, fahren Sie alle Berührungen auf Null herunter. Geben Sie Ihrem Date Zeit. Und fühlen Sie sich nicht gleich komplett abgewiesen. Jede Person vergibt nur eine bestimmte Anzahl an Abweisungen. Überschreitet man diese Grenze, ist ein für allemal klar, dass es nicht zum gewünschten intimen Kontakt kommen wird. Ist dies der Fall, haben Sie zumindest Ihre Intention deutlich gemacht und verhindert, womöglich für einen langen Zeitraum auf dem Level der Freundschaft hängen zu bleiben und sich eventuell unglücklich zu verlieben.\n\nSolange Sie diese Grenze aber noch nicht überschritten haben, braucht Ihr Gegenüber vielleicht einfach nur Zeit, um auf dem gleichen Level wie Sie anzukommen. Ganz wichtig ist, dass Sie Ihre Vision, Ihr Vorhaben, körperlichen Kontakt aufzubauen, nicht aus den Augen verlieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie können bei Ablehnung Ihres Gegenübers auch in die Opfer-Rolle schlüpfen. „Hast Du heute schon mal in den Spiegel geschaut?“ \"Was kann ich denn dafür, dass Du gerade so gut rüberkommst?\" \"Ich ärgere mich selbst, dass ich mich bei Dir so wenig unter Kontrolle habe.\" Auch hier achten Sie darauf, dass Ihre Komplimente nicht zu offensichtlich sind. Kein \"Ich wollte Dich schon seit Ewigkeiten küssen.\" - nehmen Sie sich einfach wieder aus der Situation heraus und stellen Sie ein Vakuum her.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Für Mutige",
+      "text": "Wenn Sie mutig sind, können Sie bei frechen Sprüchen Ihres Dates Ihrem Gegenüber in gespielter Entrüstung einen Klaps auf den Po geben. Kommentieren Sie Ihre Handlung wieder. \"Wie unverschämt von Dir.\" Oder tun Sie so, als ob Sie die Frau Caveman-Style einfach wegtragen würden. Den Neanderthaler zu mimen, kann auch in einer Situation der Unentschlossenheit ein einfaches Mittel sein, selbige zu beenden. Ist sich die Frau nicht sicher, ob Sie mitkommen soll oder nicht, tragen Sie sie einfach in die gewünschte Richtung. Umgekehrt kann die Frau einfach den Arm des Mannes nehmen und Ihn mit sich ziehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Achtung: Freiheiten",
+      "text": "Oft wird auch unterschätzt, dass man in der ersten Kennenlern-Phase mehr Freiheiten hat als später in der zwischenmenschlichen Beziehung. Sie können also durchaus schon am Anfang einen Kuss provozieren. \"Wie gut, glaubst Du, kannst Du auf einer Skala von 1-10 eigentlich küssen?\" Überprüfen Sie die Einschätzung des Anderen. Vergeben Sie hier aber auch keine Höchstwerte, sondern bleiben Sie bei 5-6 Punkten. Zeit zum Üben bleibt später ja vielleicht noch genug.\nWenn Ihr Gegenüber in diesen Situationen ausweichen sollte, bauen Sie weder bei sich noch beim Anderen Druck auf. Ein Ausweichen ist keine generelle Absage.\n\nAll die eben genannten Beispiele sind zwar sowohl für Männer als auch für Frauen gedacht, aber im Grunde haben Frauen es einfacher. Es reicht aus, wenn Frauen den Mann immer wieder berühren, wenn sie Hilfestellung beim Mann suchen wie z.B. das Einhaken beim Überqueren einer Straße. \nWenn eine Frau es schafft, beim Einhaken mit Ihrer Brust den Arm des Mannes zu streifen, wird er es registrieren. Fühlen Sie sich weiblich und spielen Sie auch hier mit dem Reiz des Wechsels von Nähe und Distanz.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sind Sie Ihrem Date so nah gekommen, dass es bereits zum Kuss auf den Mund kam und Sie den Kontakt weiter vorantreiben wollen, um Sex mit dem Anderen zu haben, sollten Sie das Küssen nicht nur auf den Mund beschränken. Küssen Sie die Hände und den Hals Ihres Gegenübers.\r\nWerden Sie an dieser Stelle gestoppt, ist die Situation zwischen Ihnen klar. Aber diese Situation bietet auch eine gewisse Sicherheit, denn Sie haben bereits physischen Kontakt hergestellt. Sex muss nicht gleich am ersten Abend passieren. Wenn Sie bereits geküsst haben, stehen in Kombination mit Geduld die Chancen auf Sex nicht schlecht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching \"Wichtiges in Sachen Sex\" durchlaufen. Wir hoffen, Sie haben nun einige Strategien für verschiedene Situationen  entwickeln können. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

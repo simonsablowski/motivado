@@ -1,0 +1,471 @@
+{
+  "key": "erz-mob-toa",
+  "domain": "erz",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Was erklären wir Ihnen in diesem Coaching:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "was ein Täter-Opfer-Gespräch ist",
+            "second": 0
+          },
+          {
+            "element": "wie Sie sich darauf vorbereiten",
+            "second": 0
+          },
+          {
+            "element": "wie das Gespräch abläuft",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Beispiel Fischkopp",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Ablauf",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Teilnehmer des Gesprächs:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V4.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Das Opfer",
+            "second": 8
+          },
+          {
+            "element": "2. Vertrauensperson des Opfers",
+            "second": 13
+          },
+          {
+            "element": "3. Der Täter",
+            "second": 18
+          },
+          {
+            "element": "4. Begleiter des Täters",
+            "second": 26
+          },
+          {
+            "element": "5. Unabhängiger Moderator",
+            "second": 31
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "So bereiten Sie Ihr Kind gut auf das Gespräch vor:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "Nehmen Sie sich Zeit",
+            "second": 21
+          },
+          {
+            "element": "Vertrauensperson erwähnen",
+            "second": 44
+          },
+          {
+            "element": "Nichts erzwingen",
+            "second": 63
+          },
+          {
+            "element": "Machen Sie Ihrem Kind Mut",
+            "second": 113
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Vertrauensperson",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Moderator",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls an der Schule Ihres Kindes kein Moderator zur Verfügung steht, wenden Sie sich am besten an den schulpsychologischen Dienst in Ihrer Region. \r\n\r\nHier gibt es speziell ausgebildetet Fachleute, die an die Schule kommen und die Organisation/die Durchführung des Täter-Opfer-Gesprächs übernehmen. \r\nOft sind das die sogenannten \"Gewaltbeauftragten\". \r\n\r\nAuf folgenden Websites finden Sie Kontaktadressen zu schulpsychologischen Diensten im deutschprachigen Raum:\r\n \r\nwww.schulpsychologie.de (Deutschland)\r\n\r\nwww.schulpsychologie.at (Österreich)\r\n\r\nwww.schulpsychologie.ch (Schweiz)\r\n\r\nBei Rückfragen wenden Sie sich bitte an die Motivado-Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Täter",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Aufpasser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V30.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und was passiert, wenn der Täter sich weigert?\r\n\r\nWenn der Moderator bzw. die Schule feststellen, dass der Täter sich weigert am Gespräch teilzunehmen, ist wieder der Präventionsbeauftragte der Polizei gefragt.\r\nEr redet dem Täter ins Gewissen.\r\nWenn es sich um einen Straftatbestand handelt (z.B. Körperverletzung) kann das Täter-Oper-Gespräch für den Täter vor Gericht strafmildernd wirken.\r\nHierauf weist der Präventionsbeauftragte den Täter hin und motiviert ihn, an dem Gespräch teilzunehmen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Da Sie als Eltern nicht an dem Gespräch teilnehmen, möchten wir Ihnen im Folgenden den typischen Ablauf eines solchen Gesprächs erläutern.\r\nSo bekommen Sie einen Eindruck und können auch aufkommenden Fragen Ihres Kindes besser begegnen.\r\nWenn Sie hierzu noch Fragen haben, wenden Sie sich bitte an unsere Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Ablauf Gespräch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Ziel Gespräch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Wiedergutmachung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Ort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie alle nötigen Schritte eingeleitet haben, damit ein Täter-Opfer-Gespräch an der Schule stattfinden kann (siehe unseren Leitfaden am Ende dieses Coachings), wird es Zeit ein Gespräch mit Ihrem Kind zu führen. Da das Gespräch nur von Erfolg gekrönt sein kann, wenn Ihr Kind freiwillig daran teilnimmt, müssen Sie hier jetzt gut informiert und behutsam vorgehen.\r\nWie Sie das machen, erklären wir Ihnen jetzt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Angst des Kindes",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Opferrolle",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Ihr Kind Angst vor dem Täter-Opfer-Gespräch hat, sollten Sie das ernst nehmen. Für Ihr Kind ist das tatsächlich eine sehr schwierige Situation und es erfordert Mut, an dem Gespräch teilzunehmen.\r\nIhre Aufgabe ist es in diesem Moment, Ihrem Kind diesen Mut zu geben.\r\n\r\nIhre Botschaft an das Kind sollte dabei sein: \r\n\r\n\"Ich finde es ist das Richtige, an diesem Gespräch teilzunehmen!\"\r\n\r\nWichtig ist hier wie immer, dass Sie Ihrem Kind keine Vorwürfe machen und keinen Druck ausüben. Ziel ist, dass das Kind freiwillig an dem Gespräch teilnimmt. Auf keinen Fall sollten Sie das Kind zwingen! Falls Sie hierbei Unterstützung brauchen, wenden Sie sich gerne an unsere Experten. Wir können Ihnen auch kurzfristig per E-Mail weiterhelfen (contact@simsab.net).",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hier sehen Sie weitere Formulierungen, die Sie in das Gespräch mit Ihrem Kind einbauen können:\r\n\r\n„Die Situation in der Schule ist ganz furchtbar für Dich. Das soll ein Ende haben.“ \r\n\r\n„Das Gespräch wird die Situation in der Schule für Dich verbessern.“\r\n\r\n„Wenn das Gespräch zu unangenehm für Dich ist, kannst Du jederzeit rausgehen. Keiner zwingt Dich dann, da zu bleiben. Ich bespreche das auch gerne vorher nochmal mit dem Moderator, damit er weiß, dass Du jederzeit gehen darfst.“\r\n\r\n„Der Täter wird dadurch verstehen, was er da anrichtet und warum er sofort damit aufhören muss.“\r\n\r\n„Ich werde die ganze Zeit über vor der Tür auf Dich warten.“\r\n\r\n„Wenn Du das Gespräch hinter Dir hast, machen wir etwas ganz tolles zusammen. Und Du darfst Dir aussuchen, was wir zusammen machen.“\r\n\r\n„Ich finde es wichtig, dass Du an dem Gespräch teilnimmst.“\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "Beispiel ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Mädchen hat teilgenommen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "In diesem Dokument finden Sie noch einmal zusammengefasst alle wichtigen Schritte, um ein Täter-Opfer-Gespräch vor- und nachzubereiten und worauf Sie dabei im Umgang mit Ihrem Kind achten sollten. ",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Merkblatt Täter-Opfer-Gespräch",
+            "file": "EDU_Merkblatt_TOA.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "So erreichen Sie unsere Experten:\r\n\r\nPer E-Mail unter contact@simsab.net",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

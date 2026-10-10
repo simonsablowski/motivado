@@ -1,0 +1,143 @@
+{
+  "key": "bez-date-versetzt",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bei einem Date versetzt zu werden, ist ein verdammt unangenehmes Gefühl. Jeder weiß, wie sehr es am Selbstbewusstsein kratzt, wenn man allein im Restaurant sitzt und der andere schon 15 Minuten zu spät ist.\r\n\r\nNicht zu wissen, ob der Andere noch kommt oder nicht und nicht nur, dass man sich ohnehin schon in einer peinlichen Situation befindet, wie sollen Sie sich in dieser Situation überhaupt verhalten? Wie lange sollte man warten? Wann fragt man das erste Mal nach? Wie schafft man es, nicht verzweifelt zu wirken? Gibt man dem Anderen eine zweite Chance?\r\n\r\nDie Antworten auf all diese Fragen finden Sie in unserem Coaching \"Beim Date versetzt\". Wir helfen Ihnen dabei, diese Situation, soweit es in Ihrer Macht steht, zu verhindern, und zeigen Ihnen Strategien und Wege, wie Sie mit damit souverän umgehen, sollten Sie wirklich bei einem Date versetzt werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen in unserem Coaching \"Beim Date versetzt\".\r\n\r\nWenn man ein Date hat, sich schon lange darauf freut und die Stunden zählt, bis es endlich so weit ist, ist das Schlimmste, was einem passieren kann, versetzt zu werden. Aber nicht nur das vergebliche Warten auf den Anderen ist eine peinliche und unangenehme Situation. Schon wenn der Andere sich \"nur\" verspätet, fühlt man sich unwichtig.\r\n\r\nIn unserem Coaching \"Beim Date versetzt\" geht es darum, Ihnen zu zeigen, wie Sie mit dieser Situation am besten umgehen. Nur weil der Andere Sie sitzenlässt oder zu spät kommt, können Sie trotzdem souverän und gekonnt reagieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Prävention\r\n\r\nIn unserem Coaching geht es zwar darum, wie man mit der Situation umgeht, wenn man tatsächlich versetzt wird, aber es gibt natürlich kleine Tricks, die Sie davor bewahren können, überhaupt in diese Situation zu geraten.\r\n\r\nWenn Sie sich in einem Restaurant verabreden, können Sie im Vorfeld des Dates den Anderen darauf hinweisen, dass Sie durch die Reservierung pünktlich vor Ort sein sollten, da der Tisch sonst nicht mehr zur Verfügung steht.\r\n\r\nGenauso können Sie am Telefon sagen, dass Sie selbst eine zuverlässige und pünktliche Person sind und der Andere daher bitte rechtzeitig absagen möchte, wenn ihm etwas dazwischen kommen sollte. \r\n\r\nDurch diese Hinweise fühlt sich der Andere meist eher dazu verpflichtet, wirklich pünktlich zu erscheinen. Außerdem sollten Sie selbst ungefähr 5 bis 8 Minuten zu spät kommen. Damit nehmen Sie eine eventuelle Wartezeit, weil sich auch der Andere verspätet gleich vorweg und signalisieren Lässigkeit. Es sollte aber nicht später werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zeit nutzen\r\n\r\nWenn Sie zu einem Date verabredet sind, nehmen Sie von vornherein etwas zu lesen mit, ein Buch, eine Zeitschrift oder Arbeit. Damit können Sie nicht nur die Wartezeit überbrücken, sondern wirken gleichzeitig auch vielbeschäftigt und wichtig. Kommt der Andere nur ein paar Minuten zu spät, sieht er, dass Ihre Zeit kostbar ist und Sie nicht einfach nur gewartet haben. Das zeugt von Souveränität.\r\n\r\nAußerdem können Sie sich auch mit anderen Tischen oder dem Personal sozialisieren. Nehmen Sie sich ein Herz und sprechen Sie die Bedienung oder den/die Barmann/Frau an. Wenn Sie sich vor dem Kino treffen wollen, können Sie auch mit einer Gruppe Touristen ins Gespräch kommen oder Sie rufen Freunde an. Auch das hilft beim Warten und wenn der Andere genau zu dem Zeitpunkt erscheint, wenn Sie sich mit jemand Anderem unterhalten, wirken Sie sehr unabhängig.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie lange warten\r\n\r\nAus Erfahrung wissen wir, dass, wenn sich den Andere verspätet, viele Leute von selbst eine Nachricht schreiben und kurz auf diesem Umstand aufmerksam machen. \r\n\r\nWenn Sie darauf antworten, ist es wichtig, dass Sie den Ton Ihrer Sms leicht und locker halten. Gleichzeitig können Sie dem Anderen ruhig ein bisschen schlechtes Gewissen machen: \"Hatte mich schon gewundert, aber die Kellnerin ist sehr nett und hält mich bei Laune.\" Der Trick ist, dass Sie den Anderen trotzdem darauf aufmerksam machen, dass Sie sich mit anderen Personen (vorzugsweise vom anderen Geschlecht) angefreundet haben.\r\n\r\nMeldet sich der Andere nicht von selbst, sollten Sie sich nach etwa 10 bis 15 Minuten das erste Mal melden. Schreiben Sie eine positive Nachricht, in dem Sie etwas nettes über den Ort sagen, an dem sie sich treffen wollen. \"Hi Nina, der Laden ist wirklich cool, die Karte sieht wirklich vielversprechend aus. Wo steckst Du?\" Damit geben Sie dem Anderen zu verstehen, dass Sie bereits da sind, aber er immer noch die Chance hat, aufzutauchen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Andere kommt später\r\n\r\nMeldet sich der Andere auf Ihre erste Nachricht oder von selbst und teilt Ihnen mit, dass er bis zu 30 Minuten zu spät kommt, stimmen Sie dem nur eingeschränkt zu. Dabei heben Sie wieder soziale Kontakte zum anderen Geschlecht hervor: \"Na gut, eine halbe Stunde ist grade noch akzeptabel, weil der Barmann so nett ist\" Geben Sie aber nicht nach, ohne eine Gegenforderung zu stellen. \"Aber wenn es länger dauert, sollten wir es lieber lassen und verschieben.\" \r\n\r\nAus unserer Erfahrung wissen wir, dass 70-80% aller Leute positiv reagieren werden. Wenn der Andere also verspätet kommen wird, können Sie übrigens schon Ihre Bestellung aufgeben ohne zu warten bis er erscheint.\r\n\r\nDie restlichen 20-30%, die nicht mehr zum Date erscheinen, wären es ohnehin nicht wert gewesen. Sie wollen es nicht mit einer Person zu tun haben, die von Anfang an problematisch ist.\r\n\r\nWenn der Andere Ihnen mitteilt, dass er sich verspäten wird, dann aber zur nachträglich angegebenen Zeit immer noch nicht erscheint, ist es wichtig, dass Sie Ihre vorherige \"Drohung\" dann auch durchziehen und nicht länger warten. Zeigen Sie Würde und Respekt. Wenn sich der Andere wirklich mit Ihnen treffen möchte, wird er nochmals auf Sie zukommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Keine Reaktion des Anderen\r\n\r\nReagiert der Andere auch nicht auf Ihre Nachricht und ist nach 30 Minuten immer noch nicht da, können Sie noch einmal schreiben, da man nie wissen kann, was los ist. In der zweiten Nachricht müssen Sie allerdings den Ton der Sms nicht mehr leicht und locker halten, schließlich hat der Andere gerade Ihre kostbare Zeit verschwendet. \"Ich bin noch nie versetzt worden und hoffe, Du hast eine extrem gute Entschuldigung.\" oder \"Ich bin es nicht gewöhnt, auf Andere so lange zu warten und gehe daher von mangelndem Interesse aus.\" Der Andere ist jetzt im Zugzwang.\r\n\r\nJetzt gibt es zwei Möglichkeiten. \r\nErstens: Der Andere meldet sich und erklärt, warum er nicht erschienen ist. Haben Sie das Gefühl, dass es sich um eine gute Erklärung handelt, können Sie dem Anderen natürlich noch eine zweite Chance geben und sich erneut verabreden. Zur Wiedergutmachung sollte er sich allerdings schon etwas einfallen lassen. Wenn Ihnen Ihr Gefühl sagt, dass es sich nur um eine dumme Ausrede handelt, sollten Sie den Kontakt abbrechen.\r\n\r\nZweitens: Der Andere meldet sich nicht mehr. Ist dies der Fall hat es keinen Sinn, dem Anderen weiterhin Nachrichten zu schreiben oder auf andere Art und Weise zu versuchen, eine Antwort zu erhalten. Sie haben es nicht nötig, Ihre Zeit zu verschwenden. Einem solchen Kontakt noch länger in Gedanken nachzuhängen, bringt nichts als Kopfschmerzen, Krankheit, nagt am Selbstbewusstsein und zerstört dadurch die Ausstrahlung. Egal, wie toll die äußere Schale ist, die Person wird Ihnen immer schaden.\r\n\r\nSollten Sie das starke Gefühl verspüren, dem Anderen dennoch nachrennen zu wollen, empfehlen wir Ihnen unser Coaching zum Thema \"Selbstbewusstsein\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Folgetermin\r\n\r\nWenn Sie beim ersten Date versetzt wurden, aber einen neues Date verabreden, achten Sie darauf, dass Sie es dem Anderen nicht zu leicht machen. Willigen Sie nur ein, wenn Sie gleichzeitig eine Gegenforderung stellen. \"Ok, aber dann bitte pünktlich.\" oder \"Gut, aber dann hol' mich von zu Hause ab.\" \r\n\r\nSich von zu Hause abholen zu lassen, ist insofern von Vorteil für Sie, dass Sie in Ihren eigenen vier Wänden immer eine Beschäftigung haben. Natürlich warten Sie auch zu Hause auf den Anderen, aber die Wartezeit zu überbrücken, fällt in diesem Fall wesentlich leichter.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie sich verspäten\r\n\r\nWenn Sie selbst zu spät dran sind, melden Sie sich von selbst und zwar rechtzeitig! Entschuldigen Sie sich beim Anderen und spendieren Sie als Wiedergutmachung vielleicht einen Drink.\r\n\r\nKommt Ihnen etwas dazwischen und Sie können nicht kommen, dann seien Sie ehrlich und verstricken Sie sich nicht in Lügen. Wenn Sie wirklich noch eine Chance beim Anderen haben wollen, ist Ehrlichkeit der beste Weg. Schlagen Sie ein neues Date vor und bieten Sie selbst an, den Anderen von zu Hause abzuholen oder ihm entgegen zu kommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching rund um das Thema \"Beim Date versetzt\". Wir hoffen Ihnen hilfreiche Anregungen mitgegeben zu haben und wünschen Ihnen viel Erfolg bei der Umsetzung!\r\n\r\nWenn Sie noch Fragen haben oder weitere Unterstützung wünschen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen. Sie können uns per E-Mail oder Telefon erreichen. Dazu gehen Sie bitte auf \"Hilfe/Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

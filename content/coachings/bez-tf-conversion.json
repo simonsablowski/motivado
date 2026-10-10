@@ -1,0 +1,313 @@
+{
+  "key": "bez-tf-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "schuechtern",
+      "title": "Sind Sie manchmal etwas gehemmt oder schüchtern, wenn Sie eine Frau kennenlernen möchten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V3.flv"
+        },
+        "options": [
+          {
+            "key": "ja",
+            "value": "Ja"
+          },
+          {
+            "key": "nein",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "schuechtern is 'nein'"
+        },
+        {
+          "to": "n002",
+          "if": "schuechtern is 'ja'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "attraktiveFrau",
+      "title": "Angenommen da ist eine attrakttive Frau, fällt es Ihnen eher schwer diese anzusprechen, kennenzulernen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V2.flv"
+        },
+        "options": [
+          {
+            "key": "ja",
+            "value": "Ja"
+          },
+          {
+            "key": "nein",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "attraktiveFrau is 'ja'"
+        },
+        {
+          "to": "n003",
+          "if": "attraktiveFrau is 'nein'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "gespraech",
+      "title": "Fragen Sie sich manchmal im Gespräch mit einer Frau, was jetzt das Beste wäre, dass Sie tun könnten, damit es gut weitergeht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V5.flv"
+        },
+        "options": [
+          {
+            "key": "ja",
+            "value": "Ja"
+          },
+          {
+            "key": "nein",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "gespraech is 'ja'"
+        },
+        {
+          "to": "n004",
+          "if": "gespraech is 'nein'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "471baf606c354d8385c8c9c94498386f",
+      "title": "Wer weiß, wie er gut rüberkommt, hat bessere Chancen beim Kennlernen. Richtig oder falsch?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V47.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Richtig"
+          },
+          {
+            "key": 2,
+            "value": "Falsch"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "schuechtern is 'ja' and attraktiveFrau is 'nein' and gespraech is 'nein' and 471baf606c354d8385c8c9c94498386f is 1"
+        },
+        {
+          "to": "n006",
+          "if": "schuechtern is 'nein' and attraktiveFrau is 'nein' and gespraech is 'nein' and 471baf606c354d8385c8c9c94498386f is 1"
+        },
+        {
+          "to": "n007",
+          "if": "schuechtern is 'ja' and attraktiveFrau is 'ja' and gespraech is 'nein' and 471baf606c354d8385c8c9c94498386f is 1"
+        },
+        {
+          "to": "n008",
+          "if": "schuechtern is 'ja' and attraktiveFrau is 'nein' and gespraech is 'ja' and 471baf606c354d8385c8c9c94498386f is 1"
+        },
+        {
+          "to": "n009",
+          "if": "471baf606c354d8385c8c9c94498386f is 1"
+        },
+        {
+          "to": "n006",
+          "if": "schuechtern is 'nein' and attraktiveFrau is 'nein' and gespraech is 'nein' and 471baf606c354d8385c8c9c94498386f is 2"
+        },
+        {
+          "to": "n005",
+          "if": "schuechtern is 'ja' and attraktiveFrau is 'nein' and gespraech is 'nein' and 471baf606c354d8385c8c9c94498386f is 2"
+        },
+        {
+          "to": "n007",
+          "if": "schuechtern is 'ja' and attraktiveFrau is 'ja' and gespraech is 'nein' and 471baf606c354d8385c8c9c94498386f is 2"
+        },
+        {
+          "to": "n008",
+          "if": "schuechtern is 'ja' and attraktiveFrau is 'nein' and gespraech is 'ja' and 471baf606c354d8385c8c9c94498386f is 2"
+        },
+        {
+          "to": "n009",
+          "if": "471baf606c354d8385c8c9c94498386f is 2"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Buy",
+      "key": null,
+      "title": "Selber entscheiden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V8.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 13
+          }
+        ],
+        "key": "bez-tf-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Buy",
+      "key": null,
+      "title": "Mittel-trotzdem empfohlen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V7.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 8
+          }
+        ],
+        "key": "bez-tf-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Buy",
+      "key": null,
+      "title": "Mittel-trotzdem empfohlen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V7.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 8
+          }
+        ],
+        "key": "bez-tf-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Buy",
+      "key": null,
+      "title": "Mittel-trotzdem empfohlen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V7.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 8
+          }
+        ],
+        "key": "bez-tf-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Buy",
+      "key": null,
+      "title": "Sehr empfohlen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V6.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 22
+          }
+        ],
+        "key": "bez-tf-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

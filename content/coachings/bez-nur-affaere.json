@@ -1,0 +1,117 @@
+{
+  "key": "bez-nur-affaere",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie schaffen Sie die nötigen Voraussetzungen, um eine Affäre dauerhaft aufrecht erhalten zu können? Oder wie vermeiden Sie es, dass Ihre Affäre abbricht, wenn Ihr Gegenüber mehr erwartet? Wir möchten Sie bei Ihrem Anliegen rund um das Thema Affäre unterstützen. Damit Sie lernen können, wie Sie mit einer solchen Situation am Besten umgehen, haben wir für Sie dieses Coaching zusammengestellt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen im Coaching „Just Affair“\r\nUm Ihr Ziel zu erreichen, ist es wichtig, dass Sie sich genau vor Augen führen, was Sie von einer Affäre erwarten. Vielen Menschen fällt es leichter, auf ein Ziel überhaupt erst zuzugehen, wenn sie eine exakte Vorstellung davon haben. \r\nNehmen Sie sich ein paar Minuten Zeit und entwickeln Sie mental Ihr Idealbild einer Affäre. Überlegen Sie gründlich, wie viel Freiheit Sie brauchen, wann Sie sich eingeengt fühlen und wie viel zu geben Sie tatsächlich bereit sind. Fixieren Sie Ihre Idealvorstellung schriftlich, damit Sie sich dessen, was Sie wollen, auch wirklich bewusst werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie sich darüber im Klaren sind, was Sie von einer Affäre erwarten, müssen Sie dies Ihrem Gegenüber kommunizieren. Besonders wichig ist, dass Sie darauf achten, dass bestimmte Grenzen nicht überschritten werden. So sollte es zwischen Ihnen klar sein, dass Sie gegenüber Dritten in der Öffentlichkeit nicht als Freund oder Partner bezeichnet werden. Um nötigen Abstand zu bewahren, vermeiden Sie es, auf SMS, E-Mails etc. sofort zu reagieren, sondern beantworten Sie diese mit einer gewissen Zeitverzögerung. Gleiches gilt auch für persönliche Treffen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auch wenn Sie zu Beginn der Affäre Ihren Standpunkt deutlich gemacht haben, ist es hilfreich, eben diesen hin und wieder in Erinnerung zu rufen. Klare Kommunikation ist ein wesentlicher Bestandteil innerhalb einer Affäre, ebenso wie die grundsätzliche Klärung, warum Sie keine Beziehung wünschen. Egal ob es daran liegt, dass Sie die Trennung von einem Ex-Partner noch nicht verarbeitet haben, dass Sie schlechte Erfahrungen gemacht haben oder dass einfach mangelnde Bereitschaft oder die Karriere der Grund sind - machen Sie Ihren Standpunkt deutlich und begründen Sie diesen. \r\nSollte bei Ihnen das Gefühl von innerem Druck oder Stress entstehen, weil Sie sich bedrängt fühlen, scheuen Sie nicht, dieses Problem auch so früh wie möglich anzusprechen. Bestehen Sie auf Ihre Freiräume und verhindern Sie, dass sich unterdrückte Gefühle aufstauen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "So wichtig es ist, dass Sie innerhalb der Affäre auf die Einhaltung gewisser Grenzen achten, sollte der Fokus doch vor allem auf dem Genuss der gemeinsamen Zeit liegen. Leben Sie Ihre Affäre, konzentrieren Sie sich auf die Leichtigkeit und Unverfänglichkeit Ihrer Situation. Lassen Sie dem Anderen vielleicht kleine Aufmerksamkeiten zukommen, die die Sinnlichkeit anregen - beispielsweise ein Massageöl oder Schokolade.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie sollten darauf achten, dass Geschenke dieser Art nicht falsch verstanden und als romantische Geste interpretiert werden. Aber es ist auch von Bedeutung, dass Sie Ihrem Gegenüber signalisieren, dass Sie Interesse daran haben, Zeit mit ihm zu verbringen. Denn immerhin sind auch Sie ein Teil Ihres Arrangements und wollen eine Affäre führen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit sich beide Beteiligten innerhalb ihrer Situation wohl fühlen können, sind neben der Sinnlichkeit außerdem Offenheit und Verständnis grundlegend. Verständnis für die Gefühle des Anderen zu zeigen, bedeutet jedoch nicht, dass Sie zwangsläufig auch dessen Position annehmen müssen, falls dieser etwa in einer Situation eifersüchtig reagiert.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sollten Sie sich in Ihrer Freiheit zu sehr eingeschränkt fühlen und das Gespräch mit Ihrem Gegenüber konnte zur Klärung der Situation nicht beitragen, ist zumindest eine Unterbrechung der Affäre angebracht. Wenn Sie Ihren Wunsch nach Freiraum wiederholt betonen und ihm trotzdem nicht nachgekommen wird, bleibt letztendlich keine andere Lösungsmöglichkeit, um Ihre Ungebundenheit zu gewährleisten.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

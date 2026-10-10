@@ -1,0 +1,117 @@
+{
+  "key": "ges-abn-bew-lust",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Willkommen im Coaching \"Keine Lust bei Frust\"!",
+      "text": "Hier wollen wir einmal dem Frust zu Leibe rücken und gemeinsam überlegen, was man gegen lustlose Frustsituationen machen könnte.\n\nNehmen Sie sich für dieses Coaching ungefähr 15 Minuten Zeit.",
+      "props": {
+        "video": {
+          "url": "DIC_KeineLustBFrust_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_KeineLustBFrust_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Haben Sie viel gegessen ist Ihre Verdauung sehr aktiv und alle anderen Prozesse werden heruntergefahren. Was sich wie Entspannung anfühlt, kommt eher einer Betäubung gleich.\nLohnt sich der Frust nach einer Futterattacke und die Angst vor der Waage für den kurzen Beruhigungs-Effekt nach einem stressigen Tag?",
+      "props": {
+        "video": {
+          "url": "DIC_KeineLustBFrust_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Belohnen Sie sich (aber nicht mit Essen)!",
+      "text": "Sie wissen selbst am besten, was Sie glücklich macht, also überlegen Sie sich etwas!",
+      "props": {
+        "video": {
+          "url": "DIC_KeineLustBFrust_V4.flv",
+          "delay": 25
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Beweisen Sie sich, dass Sie wirklich abnehmen wollen und holen Sie Ihre Sporteinheit gleich heute noch nach!",
+      "props": {
+        "video": {
+          "url": "DIC_KeineLustBFrust_V5.flv",
+          "delay": 15
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_KeineLustBFrust_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

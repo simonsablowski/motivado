@@ -1,0 +1,500 @@
+{
+  "key": "erz-mob-selbstbewusstsein",
+  "domain": "erz",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "2225a63583c8409d82a0d8daf0ba9681",
+      "title": "Hat Ihr Kind Angst, wenn es alleine unterwegs ist?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V8.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "2225a63583c8409d82a0d8daf0ba9681 is 1"
+        },
+        {
+          "to": "n004",
+          "if": "2225a63583c8409d82a0d8daf0ba9681 is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "165d63ffa5114a6da179d60669ced6bb",
+      "title": "Haben Sie sich in letzter Zeit mehr Zeit für Ihr Kind genommen als sonst?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V3.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "165d63ffa5114a6da179d60669ced6bb is 1"
+        },
+        {
+          "to": "n006",
+          "if": "165d63ffa5114a6da179d60669ced6bb is 2"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Installieren Sie ein Sicherheitssystem:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V9.flv"
+        },
+        "elements": [
+          {
+            "element": "Begleiten Sie Ihr Kind",
+            "second": 10
+          },
+          {
+            "element": "Unterstützung organisieren",
+            "second": 18
+          },
+          {
+            "element": "Zweifel aufgreifen",
+            "second": 33
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Bleiben Sie im Rhythmus!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V2.flv"
+        },
+        "elements": [
+          {
+            "element": "Weiterhin gemeinsame Zeit",
+            "second": 3
+          },
+          {
+            "element": "Kind weiter stärken",
+            "second": 5
+          },
+          {
+            "element": "täglich auf das Kind eingehen",
+            "second": 10
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Noch ein Tipp von uns: Besuchen Sie unser Coaching \"Umgang mit meinem Kind\" um sich hier Anregungen zu holen, wie Sie die gemeinsame Zeit sinnvoll gestalten können.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V13.flv"
+        },
+        "elements": [
+          {
+            "element": "Talente und Stärken fördern",
+            "second": 12
+          },
+          {
+            "element": "Kind an die Hand nehmen",
+            "second": 39
+          },
+          {
+            "element": "Zeit lassen",
+            "second": 55
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Angebote Selbstverteidigung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Neben Interessen und Hobbies Ihres Kindes, können auch Sie bei gemeinsamen Unternehmungen viel dazu beitragen, dass Ihr Kind wieder mehr Selbstbewusstsein entwickelt.\r\nSchaffen Sie Ihrem Kind so oft es geht die Möglichkeit Erfolgserlebnisse zu haben.\r\nDas kann eine gemeinsame Radtour sein, bei dem das Kind es als erstes schafft, das Ziel zu erreichen. Das kann ein Drachen sein, den Sie gemeinsam bauen und den das Kind dann steigen lassen darf.\r\nIhrer Fantasie sind hier keine Grenzen gesetzt!\r\nAchten Sie allerdings darauf, dass die Unternehmung altersgerecht ist und dass das Ziel für das Kind weder sehr leicht noch sehr schwer zu erreichen ist. Die Aufgabe soll eine Herausforderung darstellen, aber für das Kind realistisch erreichbar sein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "Thema im Auge behalten",
+            "second": 7
+          },
+          {
+            "element": "Gesunden Trotz entwickeln",
+            "second": 39
+          },
+          {
+            "element": "Neue Vorfälle sofort melden",
+            "second": 51
+          },
+          {
+            "element": "Mobbing hat Konsequenzen",
+            "second": 66
+          },
+          {
+            "element": "Selbstschutz ist nicht feige",
+            "second": 75
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "So kommt ihr Kind aus der Opferrolle:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V6.flv"
+        },
+        "elements": [
+          {
+            "element": "Reden",
+            "second": 37
+          },
+          {
+            "element": "Nein sagen",
+            "second": 41
+          },
+          {
+            "element": "Selbstbestimmt handeln",
+            "second": 48
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie sich eine Liste von Büchern runterladen, die Sie mit Ihrem Kind lesen können:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V7.flv"
+        },
+        "documents": [
+          {
+            "name": "Bücher zum Thema Mobbing",
+            "file": "EDU_Buchliste_Mobbing.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Praxisbeispiel",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "List",
+      "key": "rel_selfesteem_ideas",
+      "title": "Welche Ideen haben Sie, um das Selbstbewusstsein Ihres Kindes nachhaltig zu stärken? \r\nNotieren Sie hier bitte alles, was Ihnen einfällt:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V21.flv"
+        },
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie ein paar Punkte gefunden haben, geht es um die konkrete Planung der einzelnen Punkte. \r\nBesprechen Sie mit Ihrem Kind die Punkte, die Ihnen eingefallen sind.\r\nMachen Sie dabei keine Vorgaben, sondern schlagen Sie dem Kind verschiedene Punkte vor.\r\n\r\nStellen Sie Nachfragen, z.B.: \r\n\r\nWozu hättest Du Lust? \r\nWas gefällt Dir an meinem Vorschlag?\r\nWas gefällt Dir nicht an diesem Vorschlag? \r\nWollen wir einmal gemeinsam etwas ausprobieren?\r\n\r\nErarbeiten Sie so Schritt für Schritt, welche Maßnahmen aus Ihrer Sicht realistisch sind und aus Sicht Ihres Kindes gut passen.\r\n\r\nFür Unterstützung zu diesem Gespräch wenden Sie sich gerne an unsere Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Anzeichen, dass es sich fortsetzt?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Kommunikation mit der Schule",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V10.flv"
+        },
+        "elements": [
+          {
+            "element": "4 Wochen lang 1 x pro Woche",
+            "second": 15
+          },
+          {
+            "element": "ab Woche 5 alle 14 Tage",
+            "second": 32
+          },
+          {
+            "element": "bei Rückfall sofort handeln",
+            "second": 42
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn das Mobbing in der Schule trotz getroffener Maßnahmen wieder auftritt, müssen Sie das umgehend Ihrer Vertrauensperson an der Schule melden.\nUm im Einzelfall zu entscheiden, welche nächsten Schritte dann sinnvoll sind, schreiben Sie uns bitte an contact@simsab.net.\nUnsere Experten helfen Ihnen gerne weiter!",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte loggen Sie sich jetzt aus und versuchen Sie möglichst viele Punkte aus diesem Coaching umzusetzen, bevor wir im Coaching weiterarbeiten.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

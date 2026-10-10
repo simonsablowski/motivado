@@ -1,0 +1,1213 @@
+{
+  "key": "ges-abn-es-plaene",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Ihre individuellen Ernährungs- und Trainingspläne",
+      "text": "In den kommenden Wochen möchten wir Ihnen individuelle Ernährungspläne und einen an Sie angepassten Trainingsplan per E-Mail zukommen lassen.\n\nUm diese individualisierten Pläne erstellen zu können, brauchen wir natürlich ein paar Angaben dazu von Ihnen.\n\nBeginnen wir mit den Fragen zu Ihrem Ernährungsplan.\nIm folgenden Schritt wenden wir uns dann Ihrem Trainingsplan zu.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "09664b29bac94876bc3fecf50bd24b4f",
+      "title": "Beginnen wir mit Ihrer Ernährungsform: Essen Sie alles oder möchten Sie sich vegetarisch ernähren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich möchte mich vegetarisch ernähren"
+          },
+          {
+            "key": 2,
+            "value": "Ich esse eigentlich alles"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "09664b29bac94876bc3fecf50bd24b4f is 1"
+        },
+        {
+          "to": "n004",
+          "if": "09664b29bac94876bc3fecf50bd24b4f is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Kochen nach Rezept kann jeder...",
+      "text": "...entscheidend ist jedoch, ob die Rezepte auch in Ihren Alltag passen!\nEinen großen Unterschied, der bei gewöhnlichen Rezepten nicht berücksichtigt wird, macht es, ob Sie überhaupt die Zeit und die Bereitschaft haben regelmäßig für sich zu kochen. Manchmal zwingen einen auch äußere Umstände dazu häußig außer Haus zu essen.\nDamit wir Ihre persönliche Situation in Ihren Ernährungsplänen berücksichtigen können und Ihnen konkrete Hinweise und Tipps geben können, bitten wir Sie im nächsten Schritt einmal anzugeben, ob Sie denn Zeit und Lust haben regelmäßig zu kochen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Kochen nach Rezept kann jeder...",
+      "text": "...entscheidend ist jedoch, ob die Rezepte auch in Ihren Alltag passen!\nEinen großen Unterschied, der bei gewöhnlichen Rezepten nicht berücksichtigt wird, macht es, ob Sie überhaupt die Zeit und die Bereitschaft haben regelmäßig für sich zu kochen. Manchmal zwingen einen auch äußere Umstände dazu häußig außer Haus zu essen.\nDamit wir Ihre persönliche Situation in Ihren Ernährungsplänen berücksichtigen können und Ihnen konkrete Hinweise und Tipps geben können, bitten wir Sie im nächsten Schritt einmal anzugeben, ob Sie denn Zeit und Lust haben regelmäßig zu kochen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "9bbeca97426f4334b5a29e0b9a96dfd6",
+      "title": "Möchten Sie sich die Zeit nehmen zu kochen oder werden Sie auch in Zukunft häufig außer Haus essen müssen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich nehme mir die Zeit zum Kochen"
+          },
+          {
+            "key": 2,
+            "value": "Ich habe keine Zeit zum Kochen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "9bbeca97426f4334b5a29e0b9a96dfd6 is 1"
+        },
+        {
+          "to": "n008",
+          "if": "9bbeca97426f4334b5a29e0b9a96dfd6 is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "bd589e577be0474694ca0b1345d7c6ba",
+      "title": "Möchten Sie sich die Zeit nehmen zu kochen oder werden Sie auch in Zukunft häufig außer Haus essen müssen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich nehme mir die Zeit zum Kochen"
+          },
+          {
+            "key": 2,
+            "value": "Ich habe keine Zeit zum Kochen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "bd589e577be0474694ca0b1345d7c6ba is 1"
+        },
+        {
+          "to": "n010",
+          "if": "bd589e577be0474694ca0b1345d7c6ba is 2"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "5a784337076945238bbb633fcb21f250",
+      "title": "Werden Sie nur für sich kochen oder müssen Sie die Wünsche Anderer (z.Bsp. Ihrer Familie) berücksichtigen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich koche regelmäßig für mehrere Personen"
+          },
+          {
+            "key": 2,
+            "value": "Ich koche nur für mich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "5a784337076945238bbb633fcb21f250 is 1"
+        },
+        {
+          "to": "n012",
+          "if": "5a784337076945238bbb633fcb21f250 is 2"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "SetValue",
+      "key": "DIC_Ernaehrungsform",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "vegNK"
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "7875709fcc7e4719b70c3f7483608ecd",
+      "title": "Werden Sie nur für sich kochen oder müssen Sie die Wünsche Anderer (z.Bsp. Ihrer Familie) berücksichtigen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich koche regelmäßig für mehrere Personen"
+          },
+          {
+            "key": 2,
+            "value": "Ich koche nur für mich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "7875709fcc7e4719b70c3f7483608ecd is 1"
+        },
+        {
+          "to": "n015",
+          "if": "7875709fcc7e4719b70c3f7483608ecd is 2"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "SetValue",
+      "key": "DIC_Ernaehrungsform",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "allNK"
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "SetValue",
+      "key": "DIC_Ernaehrungsform",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "vegfamily"
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "SetValue",
+      "key": "DIC_Ernaehrungsform",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "vegK"
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "9553e2cdd4b1481eb952d6ff8d389c67",
+      "title": "Bitte geben Sie an, ob eine der folgenden Lebensmittelunverträglichkeiten auf Sie zutrifft. Sie erhalten dann Hinweise dazu in Ihrem Mitgliederbereich.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "andere"
+          },
+          {
+            "key": 2,
+            "value": "Laktoseintoleranz"
+          },
+          {
+            "key": 3,
+            "value": "Fructoseintoleranz"
+          },
+          {
+            "key": 4,
+            "value": "Ich habe keine Lebensmittelunverträglichkeiten"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "9553e2cdd4b1481eb952d6ff8d389c67 is 1"
+        },
+        {
+          "to": "n017",
+          "if": "9553e2cdd4b1481eb952d6ff8d389c67 is 2"
+        },
+        {
+          "to": "n018",
+          "if": "9553e2cdd4b1481eb952d6ff8d389c67 is 3"
+        },
+        {
+          "to": "n019",
+          "if": "9553e2cdd4b1481eb952d6ff8d389c67 is 4"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "SetValue",
+      "key": "DIC_Ernaehrungsform",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "allfamily"
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "SetValue",
+      "key": "DIC_Ernaehrungsform",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "allK"
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "TextArea",
+      "key": "DIC_AndereLebensmittelunvertraeglichkeiten",
+      "title": "Bitte geben Sie hier Ihre Lebensmittelunverträglichkeiten an.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "SetValue",
+      "key": "DIC_Laktoseintoleranz",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "lak"
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "SetValue",
+      "key": "DIC_Fructoseintoleranz",
+      "title": "SetValue",
+      "text": "",
+      "props": {
+        "value": "fruc"
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Group",
+      "key": null,
+      "title": "Wenden wir uns Ihrem persönlichen Trainingsplan zu",
+      "text": "Wählen Sie hier bitte eine Sportart aus und geben Sie an, an welchen Wochentagen Sie, zu welcher Uhrzeit und wie lange in Minuten Sie die Sportart ausüben wollen.",
+      "props": {
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Dropdown",
+      "key": "DIC_Sportart1",
+      "title": "Sportart",
+      "text": "",
+      "props": {
+        "items": [
+          "Walken",
+          "Schwimmen",
+          "Fahrradfahren",
+          "Joggen",
+          "Krafttraining",
+          "Aerobic",
+          "Ballsport",
+          "Inliner",
+          "Gehen",
+          "Hausarbeit"
+        ]
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Dropdown",
+      "key": "DIC_Sport1Intensity",
+      "title": "Geben Sie bitte die Intensität an, mit der Sie diese Sportart ausüben wollen.",
+      "text": "",
+      "props": {
+        "items": [
+          "normal",
+          "intensiv"
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "TextInput",
+      "key": "OtherSports1",
+      "title": "Andere Sportart:",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Dropdown",
+      "key": "DIC_SportDif1Intensity",
+      "title": "Intensität:",
+      "text": "",
+      "props": {
+        "items": [
+          "normal",
+          "intensiv"
+        ]
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "TextArea",
+      "key": "DIC_TrainingsplanZeiten1",
+      "title": "Wochentag, Uhrzeit und Dauer",
+      "text": "z.B.: \"Dienstags, 14:00 Uhr, 60Minuten\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n025",
+          "if": "DIC_Sportart1 is 'Walken'"
+        },
+        {
+          "to": "n026",
+          "if": "DIC_Sportart1 is 'Schwimmen'"
+        },
+        {
+          "to": "n027",
+          "if": "DIC_Sportart1 is 'Fahrradfahren'"
+        },
+        {
+          "to": "n028",
+          "if": "DIC_Sportart1 is 'Joggen'"
+        },
+        {
+          "to": "n029",
+          "if": "DIC_Sportart1 is 'Krafttraining'"
+        },
+        {
+          "to": "n030",
+          "if": "DIC_Sportart1 is 'Aerobic'"
+        },
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Walken herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Walken",
+            "file": "Walken.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Schwimmen herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Schwimmen",
+            "file": "Schwimmen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Fahrradfahren herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Fahrradfahren",
+            "file": "Fahrradfahren.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Joggen herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Joggen",
+            "file": "Joggen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Krafttraining herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Krafttraining",
+            "file": "Krafttraining.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Training zum Beispiel im Fitnessstudio herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Cardio-Training",
+            "file": "Cardio-Training.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Options",
+      "key": "d58dc30a95c144fa8dbe418592666711",
+      "title": "Möchten Sie noch eine Sportart hinzufügen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032",
+          "if": "d58dc30a95c144fa8dbe418592666711 is 1"
+        },
+        {
+          "to": "n033",
+          "if": "d58dc30a95c144fa8dbe418592666711 is 2"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n034",
+          "if": "DIC_KickOffDone not 'y'"
+        },
+        {
+          "to": null,
+          "if": "DIC_KickOffDone is 'y'"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Group",
+      "key": null,
+      "title": "Hier können Sie nun noch eine zweite Sportart wählen.",
+      "text": "Wählen Sie eine weitere Sportart aus und geben Sie auch hier an, an welchen Wochentagen Sie, zu welcher Uhrzeit und wie lange in Minuten Sie die Sportart ausüben wollen.",
+      "props": {
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Coaching",
+      "key": null,
+      "title": "Kick Off",
+      "text": "",
+      "props": {
+        "key": "kick-off"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Dropdown",
+      "key": "DIC_Sportart2",
+      "title": "Sportart",
+      "text": "",
+      "props": {
+        "items": [
+          "Walken",
+          "Schwimmen",
+          "Fahrradfahren",
+          "Joggen",
+          "Krafttraining",
+          "Aerobic",
+          "Ballsport",
+          "Inliner",
+          "Gehen",
+          "Hausarbeit"
+        ]
+      },
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Dropdown",
+      "key": "DIC_Sport2Intensity",
+      "title": "Geben Sie bitte die Intensität an, mit der Sie diese Sportart ausüben wollen.",
+      "text": "",
+      "props": {
+        "items": [
+          "normal",
+          "intensiv"
+        ]
+      },
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "TextInput",
+      "key": "OtherSports2",
+      "title": "Andere Sportart:",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Dropdown",
+      "key": "DIC_SportDif2Intensity",
+      "title": "Intensität",
+      "text": "",
+      "props": {
+        "items": [
+          "normal",
+          "intensiv"
+        ]
+      },
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "TextArea",
+      "key": "DIC_TrainingsplanZeiten2",
+      "title": "Wochentag, Uhrzeit und Dauer",
+      "text": "z.B.: \"Dienstags, 14:00 Uhr, 60Minuten\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n040",
+          "if": "DIC_Sportart2 is 'Aerobic'"
+        },
+        {
+          "to": "n041",
+          "if": "DIC_Sportart2 is 'Walken'"
+        },
+        {
+          "to": "n042",
+          "if": "DIC_Sportart2 is 'Joggen'"
+        },
+        {
+          "to": "n043",
+          "if": "DIC_Sportart2 is 'Fahrradfahren'"
+        },
+        {
+          "to": "n044",
+          "if": "DIC_Sportart2 is 'Schwimmen'"
+        },
+        {
+          "to": "n045",
+          "if": "DIC_Sportart2 is 'Krafttraining'"
+        },
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Training zum Beispiel im Fitnessstudio herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Cardio-Training",
+            "file": "Cardio-Training.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Walken herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Walken",
+            "file": "Walken.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Joggen herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Joggen",
+            "file": "Joggen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Fahrradfahren herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Fahrradfahren",
+            "file": "Fahrradfahren.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Schwimmen herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Schwimmen",
+            "file": "Schwimmen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Krafttraining herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Krafttraining",
+            "file": "Krafttraining.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Options",
+      "key": "9a80de15a548434bb45a926d7e00f142",
+      "title": "Möchten Sie noch eine weitere Sportart hinzufügen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032",
+          "if": "9a80de15a548434bb45a926d7e00f142 is 1"
+        },
+        {
+          "to": "n047",
+          "if": "9a80de15a548434bb45a926d7e00f142 is 2"
+        }
+      ]
+    },
+    "n047": {
+      "id": "n047",
+      "type": "Group",
+      "key": null,
+      "title": "Hier können Sie noch eine dritte Sportart wählen.",
+      "text": "Geben Sie auch hier wieder an, an welchen Wochentagen Sie, zu welcher Uhrzeit und wie lange in Minuten Sie die Sportart ausüben wollen.\nPlanen Sie jedoch immer nur so viele verschiedene Sporteinheiten ein, wie Sie auch ganz sicher sind umsetzen zu können!",
+      "props": {
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n048"
+        }
+      ]
+    },
+    "n048": {
+      "id": "n048",
+      "type": "Dropdown",
+      "key": "DIC_Sportart3",
+      "title": "Sportart",
+      "text": "",
+      "props": {
+        "items": [
+          "Walken",
+          "Schwimmen",
+          "Fahrradfahren",
+          "Joggen",
+          "Krafttraining",
+          "Aerobic",
+          "Ballsport",
+          "Inliner",
+          "Gehen",
+          "Hausarbeit"
+        ]
+      },
+      "next": [
+        {
+          "to": "n049"
+        }
+      ]
+    },
+    "n049": {
+      "id": "n049",
+      "type": "Dropdown",
+      "key": "DIC_Sport3Intensity",
+      "title": "Geben Sie bitte die Intensität an, mit der Sie diese Sportart ausüben wollen.",
+      "text": "",
+      "props": {
+        "items": [
+          "normal",
+          "intensiv"
+        ]
+      },
+      "next": [
+        {
+          "to": "n050"
+        }
+      ]
+    },
+    "n050": {
+      "id": "n050",
+      "type": "TextInput",
+      "key": "OtherSports3",
+      "title": "Andere Sportart:",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n051": {
+      "id": "n051",
+      "type": "Dropdown",
+      "key": "DIC_SportDif3Intensity",
+      "title": "Intensität",
+      "text": "",
+      "props": {
+        "items": [
+          "normal",
+          "intensiv"
+        ]
+      },
+      "next": [
+        {
+          "to": "n052"
+        }
+      ]
+    },
+    "n052": {
+      "id": "n052",
+      "type": "TextArea",
+      "key": "DIC_TrainingsplanZeiten3",
+      "title": "Wochentag, Uhrzeit und Dauer",
+      "text": "z.B.: \"Dienstags, 14:00 Uhr, 60Minuten\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n053",
+          "if": "DIC_Sportart3 is 'Joggen'"
+        },
+        {
+          "to": "n054",
+          "if": "DIC_Sportart3 is 'Schwimmen'"
+        },
+        {
+          "to": "n055",
+          "if": "DIC_Sportart3 is 'Aerobic'"
+        },
+        {
+          "to": "n056",
+          "if": "DIC_Sportart3 is 'Fahrradfahren'"
+        },
+        {
+          "to": "n057",
+          "if": "DIC_Sportart3 is 'Krafttraining'"
+        },
+        {
+          "to": "n058",
+          "if": "DIC_Sportart3 is 'Walken'"
+        },
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n053": {
+      "id": "n053",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Joggen herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Joggen",
+            "file": "Joggen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n054": {
+      "id": "n054",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Schwimmen herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Schwimmen",
+            "file": "Schwimmen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n055": {
+      "id": "n055",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Training zum Beispiel im Fitnessstudio herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Cardio-Training",
+            "file": "Cardio-Training.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n056": {
+      "id": "n056",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Fahrradfahren herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Fahrradfahren",
+            "file": "Fahrradfahren.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n057": {
+      "id": "n057",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Krafttraining herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Krafttraining",
+            "file": "Krafttraining.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n058": {
+      "id": "n058",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie die wichtigsten Informationen zum Walken herunter laden.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Walken",
+            "file": "Walken.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    }
+  }
+}

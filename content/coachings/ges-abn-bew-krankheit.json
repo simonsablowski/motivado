@@ -1,0 +1,82 @@
+{
+  "key": "ges-abn-bew-krankheit",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sind die Symptome Ihnen unbekannt oder dauert die Krankheit schon länger an, dann suchen Sie unbedingt einen Arzt auf!",
+      "props": {
+        "video": {
+          "url": "DIC_KrankheitSport_V1.flv",
+          "delay": 24
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Folgendes sollten Sie beachten:",
+      "text": "Haben Sie nur eine leichte Erkältung, ist Sport grundsätzlich okay. Achten Sie allerdings darauf, dass Sie nicht auskühlen. Verstärken sich die Erkältungssymptome sollten Sie von Sporteinheiten auf Bewegungseinheiten (ausgedehnte Spaziergänge, etc.) umsteigen und einen Arzt aufsuchen.\nMeiden Sie Fitnessstudios, wenn Sie krank sind. Sie könnten andere anstecken.\nKommt Fieber ins Spiel, möchten wir Ihnen von jeglicher sportlicher Aktivität abraten! Auch von Spaziergängen oder Fahrradtouren. Ihr Körper kämpft bei Fieber mit allen Mitteln und ist bereits angestrengt, schonen Sie sich jetzt!\n\nMüssen Sie Medikamente einnehmen, dann sollten Sie für die Dauer der Medikamenteneinnahme keinen Sport treiben! Kurze Spaziergänge zum Beispiel sind in Ordnung, aber immer nur dann, wenn Sie sich dafür fit genug fühlen! Geben Sie sich nachBeendigung der Medikamenteneinnahme mindestens 2 Tage, bis Sie wieder langsam in Ihr Sportprogramm einsteigen. \nIhre Gesundheit geht vor!\nSorgen Sie erst einmal dafür, dass Sie wieder gesund werden, danach kümmern wir uns wieder um Ihre Abnehmpläne!",
+      "props": {
+        "video": {
+          "url": "DIC_KrankheitSport_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zu dem Coaching \"Krankheit und Sport\"",
+      "text": "Ernähren Sie sich gesund und gönnen Sie sich ausreichend Ruhe, wenn Ihr Körper das braucht.\nKurzum: Werden Sie gesund!",
+      "props": {
+        "video": {
+          "url": "DIC_KrankheitSport_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_KrankheitSport_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

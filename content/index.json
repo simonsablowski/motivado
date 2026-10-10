@@ -1,0 +1,1208 @@
+[
+  {
+    "key": "b2b-limbeck",
+    "domain": "b2b",
+    "nodes": 24,
+    "edges": 31
+  },
+  {
+    "key": "b2b-simyo",
+    "domain": "b2b",
+    "nodes": 67,
+    "edges": 84
+  },
+  {
+    "key": "b2b-zeitmanagement",
+    "domain": "b2b",
+    "nodes": 51,
+    "edges": 79
+  },
+  {
+    "key": "bez-affaere-beenden",
+    "domain": "bez",
+    "nodes": 13,
+    "edges": 14
+  },
+  {
+    "key": "bez-affaere-beziehung-parallel",
+    "domain": "bez",
+    "nodes": 37,
+    "edges": 43
+  },
+  {
+    "key": "bez-affaere-zu-beziehung",
+    "domain": "bez",
+    "nodes": 22,
+    "edges": 29
+  },
+  {
+    "key": "bez-affaeren-conversion",
+    "domain": "bez",
+    "nodes": 1,
+    "edges": 2
+  },
+  {
+    "key": "bez-angenehme-gespraeche",
+    "domain": "bez",
+    "nodes": 14,
+    "edges": 15
+  },
+  {
+    "key": "bez-asexuell",
+    "domain": "bez",
+    "nodes": 9,
+    "edges": 10
+  },
+  {
+    "key": "bez-aussehen-conversion",
+    "domain": "bez",
+    "nodes": 5,
+    "edges": 10
+  },
+  {
+    "key": "bez-balance-conversion",
+    "domain": "bez",
+    "nodes": 3,
+    "edges": 4
+  },
+  {
+    "key": "bez-balance-mehr1",
+    "domain": "bez",
+    "nodes": 20,
+    "edges": 22
+  },
+  {
+    "key": "bez-balance-mehr2",
+    "domain": "bez",
+    "nodes": 21,
+    "edges": 25
+  },
+  {
+    "key": "bez-balance-weniger",
+    "domain": "bez",
+    "nodes": 17,
+    "edges": 18
+  },
+  {
+    "key": "bez-be2-erste-nachricht",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 26
+  },
+  {
+    "key": "bez-be2-kontakte",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 21
+  },
+  {
+    "key": "bez-be2-nachrichten-austausch",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 20
+  },
+  {
+    "key": "bez-be2-profil",
+    "domain": "bez",
+    "nodes": 37,
+    "edges": 47
+  },
+  {
+    "key": "bez-be2-telefon",
+    "domain": "bez",
+    "nodes": 48,
+    "edges": 55
+  },
+  {
+    "key": "bez-bet-conversion",
+    "domain": "bez",
+    "nodes": 3,
+    "edges": 5
+  },
+  {
+    "key": "bez-betrogen",
+    "domain": "bez",
+    "nodes": 41,
+    "edges": 45
+  },
+  {
+    "key": "bez-betrogen-unsicher",
+    "domain": "bez",
+    "nodes": 9,
+    "edges": 10
+  },
+  {
+    "key": "bez-bez-check",
+    "domain": "bez",
+    "nodes": 27,
+    "edges": 33
+  },
+  {
+    "key": "bez-bezstaerken-koerper",
+    "domain": "bez",
+    "nodes": 41,
+    "edges": 42
+  },
+  {
+    "key": "bez-bezstaerken-kommunizieren",
+    "domain": "bez",
+    "nodes": 18,
+    "edges": 19
+  },
+  {
+    "key": "bez-bezstaerken-partner-lesen",
+    "domain": "bez",
+    "nodes": 8,
+    "edges": 9
+  },
+  {
+    "key": "bez-bezstaerken-verhalten",
+    "domain": "bez",
+    "nodes": 8,
+    "edges": 9
+  },
+  {
+    "key": "bez-br-conversion",
+    "domain": "bez",
+    "nodes": 4,
+    "edges": 11
+  },
+  {
+    "key": "bez-casual-check",
+    "domain": "bez",
+    "nodes": 28,
+    "edges": 35
+  },
+  {
+    "key": "bez-coaching",
+    "domain": "bez",
+    "nodes": 1,
+    "edges": 2
+  },
+  {
+    "key": "bez-date",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 16
+  },
+  {
+    "key": "bez-date-raum",
+    "domain": "bez",
+    "nodes": 13,
+    "edges": 14
+  },
+  {
+    "key": "bez-date-versetzt",
+    "domain": "bez",
+    "nodes": 10,
+    "edges": 11
+  },
+  {
+    "key": "bez-datezubez-conversion",
+    "domain": "bez",
+    "nodes": 7,
+    "edges": 13
+  },
+  {
+    "key": "bez-eif-conversion",
+    "domain": "bez",
+    "nodes": 4,
+    "edges": 7
+  },
+  {
+    "key": "bez-eif-partner",
+    "domain": "bez",
+    "nodes": 21,
+    "edges": 31
+  },
+  {
+    "key": "bez-eif-selbst",
+    "domain": "bez",
+    "nodes": 42,
+    "edges": 55
+  },
+  {
+    "key": "bez-einstellung-affaere",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 20
+  },
+  {
+    "key": "bez-einstellung-kennenlernen",
+    "domain": "bez",
+    "nodes": 12,
+    "edges": 13
+  },
+  {
+    "key": "bez-einstellung-naeherkennen",
+    "domain": "bez",
+    "nodes": 11,
+    "edges": 12
+  },
+  {
+    "key": "bez-einstellung-sex",
+    "domain": "bez",
+    "nodes": 18,
+    "edges": 19
+  },
+  {
+    "key": "bez-eroberung-email",
+    "domain": "bez",
+    "nodes": 12,
+    "edges": 13
+  },
+  {
+    "key": "bez-eroberung-tel",
+    "domain": "bez",
+    "nodes": 50,
+    "edges": 51
+  },
+  {
+    "key": "bez-eskalation",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 17
+  },
+  {
+    "key": "bez-ex-check",
+    "domain": "bez",
+    "nodes": 26,
+    "edges": 29
+  },
+  {
+    "key": "bez-exdenex",
+    "domain": "bez",
+    "nodes": 17,
+    "edges": 22
+  },
+  {
+    "key": "bez-fb-conversion",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 41
+  },
+  {
+    "key": "bez-fit-fuer-partner",
+    "domain": "bez",
+    "nodes": 11,
+    "edges": 12
+  },
+  {
+    "key": "bez-flirttech-conversion",
+    "domain": "bez",
+    "nodes": 4,
+    "edges": 8
+  },
+  {
+    "key": "bez-flirttech-groupon-conversion",
+    "domain": "bez",
+    "nodes": 9,
+    "edges": 15
+  },
+  {
+    "key": "bez-freundschaft-mehr",
+    "domain": "bez",
+    "nodes": 18,
+    "edges": 20
+  },
+  {
+    "key": "bez-geruch",
+    "domain": "bez",
+    "nodes": 13,
+    "edges": 16
+  },
+  {
+    "key": "bez-haare",
+    "domain": "bez",
+    "nodes": 13,
+    "edges": 14
+  },
+  {
+    "key": "bez-intimhygiene",
+    "domain": "bez",
+    "nodes": 14,
+    "edges": 15
+  },
+  {
+    "key": "bez-kennenlernen-diaet",
+    "domain": "bez",
+    "nodes": 17,
+    "edges": 18
+  },
+  {
+    "key": "bez-kennenlernen-negativinfos",
+    "domain": "bez",
+    "nodes": 18,
+    "edges": 19
+  },
+  {
+    "key": "bez-kennenlernen-restmoeglichkeiten",
+    "domain": "bez",
+    "nodes": 1,
+    "edges": 2
+  },
+  {
+    "key": "bez-kennenlernen-soz-netzwerke",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 17
+  },
+  {
+    "key": "bez-kleidung",
+    "domain": "bez",
+    "nodes": 3,
+    "edges": 4
+  },
+  {
+    "key": "bez-konstruktive-vision",
+    "domain": "bez",
+    "nodes": 10,
+    "edges": 11
+  },
+  {
+    "key": "bez-laecheln-haende-haut",
+    "domain": "bez",
+    "nodes": 8,
+    "edges": 9
+  },
+  {
+    "key": "bez-lk-1",
+    "domain": "bez",
+    "nodes": 26,
+    "edges": 27
+  },
+  {
+    "key": "bez-lk-2",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 16
+  },
+  {
+    "key": "bez-lk-3",
+    "domain": "bez",
+    "nodes": 25,
+    "edges": 33
+  },
+  {
+    "key": "bez-lk-4",
+    "domain": "bez",
+    "nodes": 17,
+    "edges": 18
+  },
+  {
+    "key": "bez-lk-conversion",
+    "domain": "bez",
+    "nodes": 7,
+    "edges": 16
+  },
+  {
+    "key": "bez-lk-letgo",
+    "domain": "bez",
+    "nodes": 18,
+    "edges": 19
+  },
+  {
+    "key": "bez-locken-reizen",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 17
+  },
+  {
+    "key": "bez-make-up",
+    "domain": "bez",
+    "nodes": 17,
+    "edges": 23
+  },
+  {
+    "key": "bez-naeherkommen-gruppen-feste",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 16
+  },
+  {
+    "key": "bez-nur-affaere",
+    "domain": "bez",
+    "nodes": 8,
+    "edges": 9
+  },
+  {
+    "key": "bez-od-chatten",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 17
+  },
+  {
+    "key": "bez-od-conversion",
+    "domain": "bez",
+    "nodes": 1,
+    "edges": 2
+  },
+  {
+    "key": "bez-od-kontakte",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 16
+  },
+  {
+    "key": "bez-od-nachrichten",
+    "domain": "bez",
+    "nodes": 13,
+    "edges": 14
+  },
+  {
+    "key": "bez-od-nachrichten-verfassen",
+    "domain": "bez",
+    "nodes": 17,
+    "edges": 18
+  },
+  {
+    "key": "bez-od-profil",
+    "domain": "bez",
+    "nodes": 31,
+    "edges": 33
+  },
+  {
+    "key": "bez-od-telefon",
+    "domain": "bez",
+    "nodes": 46,
+    "edges": 47
+  },
+  {
+    "key": "bez-orgasmus",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 18
+  },
+  {
+    "key": "bez-partner-check",
+    "domain": "bez",
+    "nodes": 33,
+    "edges": 63
+  },
+  {
+    "key": "bez-partner-check-extern",
+    "domain": "bez",
+    "nodes": 33,
+    "edges": 50
+  },
+  {
+    "key": "bez-power-einstellung",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 21
+  },
+  {
+    "key": "bez-pp-conversion",
+    "domain": "bez",
+    "nodes": 3,
+    "edges": 4
+  },
+  {
+    "key": "bez-pp-intro",
+    "domain": "bez",
+    "nodes": 10,
+    "edges": 16
+  },
+  {
+    "key": "bez-rapid-left",
+    "domain": "bez",
+    "nodes": 21,
+    "edges": 22
+  },
+  {
+    "key": "bez-rapid-ruin",
+    "domain": "bez",
+    "nodes": 19,
+    "edges": 20
+  },
+  {
+    "key": "bez-re-aktionen",
+    "domain": "bez",
+    "nodes": 9,
+    "edges": 11
+  },
+  {
+    "key": "bez-re-bewegung",
+    "domain": "bez",
+    "nodes": 4,
+    "edges": 5
+  },
+  {
+    "key": "bez-re-bruecke1",
+    "domain": "bez",
+    "nodes": 1,
+    "edges": 2
+  },
+  {
+    "key": "bez-re-bruecke2",
+    "domain": "bez",
+    "nodes": 2,
+    "edges": 3
+  },
+  {
+    "key": "bez-re-bruecke3",
+    "domain": "bez",
+    "nodes": 1,
+    "edges": 2
+  },
+  {
+    "key": "bez-re-chancen",
+    "domain": "bez",
+    "nodes": 52,
+    "edges": 80
+  },
+  {
+    "key": "bez-re-conversion-auswertungen",
+    "domain": "bez",
+    "nodes": 14,
+    "edges": 28
+  },
+  {
+    "key": "bez-re-conversion-groupon",
+    "domain": "bez",
+    "nodes": 11,
+    "edges": 20
+  },
+  {
+    "key": "bez-re-conversion2",
+    "domain": "bez",
+    "nodes": 16,
+    "edges": 34
+  },
+  {
+    "key": "bez-re-donts",
+    "domain": "bez",
+    "nodes": 17,
+    "edges": 18
+  },
+  {
+    "key": "bez-re-fallen",
+    "domain": "bez",
+    "nodes": 9,
+    "edges": 10
+  },
+  {
+    "key": "bez-re-faq",
+    "domain": "bez",
+    "nodes": 28,
+    "edges": 56
+  },
+  {
+    "key": "bez-re-grundlagen",
+    "domain": "bez",
+    "nodes": 11,
+    "edges": 13
+  },
+  {
+    "key": "bez-re-kontaktsperre",
+    "domain": "bez",
+    "nodes": 6,
+    "edges": 7
+  },
+  {
+    "key": "bez-re-locken-reizen",
+    "domain": "bez",
+    "nodes": 32,
+    "edges": 34
+  },
+  {
+    "key": "bez-re-selbstbewusstsein",
+    "domain": "bez",
+    "nodes": 24,
+    "edges": 25
+  },
+  {
+    "key": "bez-re-sms",
+    "domain": "bez",
+    "nodes": 19,
+    "edges": 21
+  },
+  {
+    "key": "bez-re-spannend",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 16
+  },
+  {
+    "key": "bez-re-strategie",
+    "domain": "bez",
+    "nodes": 8,
+    "edges": 9
+  },
+  {
+    "key": "bez-re-treffen",
+    "domain": "bez",
+    "nodes": 14,
+    "edges": 15
+  },
+  {
+    "key": "bez-re-vision",
+    "domain": "bez",
+    "nodes": 5,
+    "edges": 6
+  },
+  {
+    "key": "bez-re-zeitlimit",
+    "domain": "bez",
+    "nodes": 4,
+    "edges": 5
+  },
+  {
+    "key": "bez-selbstbewusstein-allgemein",
+    "domain": "bez",
+    "nodes": 20,
+    "edges": 21
+  },
+  {
+    "key": "bez-selbstbewusstsein-partner",
+    "domain": "bez",
+    "nodes": 14,
+    "edges": 16
+  },
+  {
+    "key": "bez-sex-basics",
+    "domain": "bez",
+    "nodes": 15,
+    "edges": 16
+  },
+  {
+    "key": "bez-smalltalk",
+    "domain": "bez",
+    "nodes": 21,
+    "edges": 22
+  },
+  {
+    "key": "bez-super-rueberk",
+    "domain": "bez",
+    "nodes": 21,
+    "edges": 23
+  },
+  {
+    "key": "bez-testpath",
+    "domain": "bez",
+    "nodes": 2,
+    "edges": 4
+  },
+  {
+    "key": "bez-tf-1a",
+    "domain": "bez",
+    "nodes": 24,
+    "edges": 25
+  },
+  {
+    "key": "bez-tf-1b",
+    "domain": "bez",
+    "nodes": 19,
+    "edges": 20
+  },
+  {
+    "key": "bez-tf-2",
+    "domain": "bez",
+    "nodes": 14,
+    "edges": 15
+  },
+  {
+    "key": "bez-tf-3",
+    "domain": "bez",
+    "nodes": 28,
+    "edges": 29
+  },
+  {
+    "key": "bez-tf-conversion",
+    "domain": "bez",
+    "nodes": 9,
+    "edges": 22
+  },
+  {
+    "key": "bez-tm-1",
+    "domain": "bez",
+    "nodes": 23,
+    "edges": 24
+  },
+  {
+    "key": "bez-tm-2",
+    "domain": "bez",
+    "nodes": 13,
+    "edges": 15
+  },
+  {
+    "key": "bez-tm-conversion",
+    "domain": "bez",
+    "nodes": 4,
+    "edges": 8
+  },
+  {
+    "key": "bez-traum-alptraum",
+    "domain": "bez",
+    "nodes": 17,
+    "edges": 19
+  },
+  {
+    "key": "bez-traumpart-verstehen",
+    "domain": "bez",
+    "nodes": 13,
+    "edges": 15
+  },
+  {
+    "key": "bez-traumpartner-affaere",
+    "domain": "bez",
+    "nodes": 10,
+    "edges": 12
+  },
+  {
+    "key": "bez-trennung",
+    "domain": "bez",
+    "nodes": 31,
+    "edges": 39
+  },
+  {
+    "key": "bez-trennung-conversion",
+    "domain": "bez",
+    "nodes": 3,
+    "edges": 6
+  },
+  {
+    "key": "bez-wasgehtschief-conversion",
+    "domain": "bez",
+    "nodes": 2,
+    "edges": 3
+  },
+  {
+    "key": "erz-mob-conversion1",
+    "domain": "erz",
+    "nodes": 4,
+    "edges": 5
+  },
+  {
+    "key": "erz-mob-conversion2",
+    "domain": "erz",
+    "nodes": 11,
+    "edges": 14
+  },
+  {
+    "key": "erz-mob-conversion3",
+    "domain": "erz",
+    "nodes": 24,
+    "edges": 33
+  },
+  {
+    "key": "erz-mob-conversion4",
+    "domain": "erz",
+    "nodes": 24,
+    "edges": 40
+  },
+  {
+    "key": "erz-mob-definition",
+    "domain": "erz",
+    "nodes": 12,
+    "edges": 18
+  },
+  {
+    "key": "erz-mob-eltern-kind",
+    "domain": "erz",
+    "nodes": 40,
+    "edges": 55
+  },
+  {
+    "key": "erz-mob-schule",
+    "domain": "erz",
+    "nodes": 28,
+    "edges": 34
+  },
+  {
+    "key": "erz-mob-selbstbewusstsein",
+    "domain": "erz",
+    "nodes": 22,
+    "edges": 25
+  },
+  {
+    "key": "erz-mob-test",
+    "domain": "erz",
+    "nodes": 7,
+    "edges": 10
+  },
+  {
+    "key": "erz-mob-toa",
+    "domain": "erz",
+    "nodes": 25,
+    "edges": 26
+  },
+  {
+    "key": "ges-abn-bew-aufraffen1",
+    "domain": "ges",
+    "nodes": 12,
+    "edges": 14
+  },
+  {
+    "key": "ges-abn-bew-aufraffen2",
+    "domain": "ges",
+    "nodes": 5,
+    "edges": 6
+  },
+  {
+    "key": "ges-abn-bew-bewegung",
+    "domain": "ges",
+    "nodes": 11,
+    "edges": 17
+  },
+  {
+    "key": "ges-abn-bew-krankheit",
+    "domain": "ges",
+    "nodes": 4,
+    "edges": 5
+  },
+  {
+    "key": "ges-abn-bew-lust",
+    "domain": "ges",
+    "nodes": 6,
+    "edges": 7
+  },
+  {
+    "key": "ges-abn-bew-spass2",
+    "domain": "ges",
+    "nodes": 10,
+    "edges": 13
+  },
+  {
+    "key": "ges-abn-conversion-bmikat",
+    "domain": "ges",
+    "nodes": 9,
+    "edges": 17
+  },
+  {
+    "key": "ges-abn-ern-belohnung1",
+    "domain": "ges",
+    "nodes": 8,
+    "edges": 9
+  },
+  {
+    "key": "ges-abn-ern-belohnung2",
+    "domain": "ges",
+    "nodes": 6,
+    "edges": 7
+  },
+  {
+    "key": "ges-abn-ern-diaetfrust",
+    "domain": "ges",
+    "nodes": 6,
+    "edges": 7
+  },
+  {
+    "key": "ges-abn-ern-emotio",
+    "domain": "ges",
+    "nodes": 6,
+    "edges": 7
+  },
+  {
+    "key": "ges-abn-ern-falle",
+    "domain": "ges",
+    "nodes": 5,
+    "edges": 6
+  },
+  {
+    "key": "ges-abn-ern-heissh-abend1",
+    "domain": "ges",
+    "nodes": 8,
+    "edges": 9
+  },
+  {
+    "key": "ges-abn-ern-heissh-abend2",
+    "domain": "ges",
+    "nodes": 6,
+    "edges": 7
+  },
+  {
+    "key": "ges-abn-ern-heisshunger",
+    "domain": "ges",
+    "nodes": 12,
+    "edges": 15
+  },
+  {
+    "key": "ges-abn-ern-langeweile",
+    "domain": "ges",
+    "nodes": 7,
+    "edges": 8
+  },
+  {
+    "key": "ges-abn-ern-satt-werden",
+    "domain": "ges",
+    "nodes": 10,
+    "edges": 11
+  },
+  {
+    "key": "ges-abn-ern-stress",
+    "domain": "ges",
+    "nodes": 5,
+    "edges": 6
+  },
+  {
+    "key": "ges-abn-ern-trinken",
+    "domain": "ges",
+    "nodes": 5,
+    "edges": 6
+  },
+  {
+    "key": "ges-abn-ern-wut",
+    "domain": "ges",
+    "nodes": 8,
+    "edges": 9
+  },
+  {
+    "key": "ges-abn-es-kickoff",
+    "domain": "ges",
+    "nodes": 6,
+    "edges": 8
+  },
+  {
+    "key": "ges-abn-es-motivation",
+    "domain": "ges",
+    "nodes": 19,
+    "edges": 24
+  },
+  {
+    "key": "ges-abn-es-plaene",
+    "domain": "ges",
+    "nodes": 58,
+    "edges": 88
+  },
+  {
+    "key": "ges-abn-es-sozial",
+    "domain": "ges",
+    "nodes": 16,
+    "edges": 19
+  },
+  {
+    "key": "ges-abn-es-zieldefintion",
+    "domain": "ges",
+    "nodes": 22,
+    "edges": 27
+  },
+  {
+    "key": "ges-abn-mot-bauch",
+    "domain": "ges",
+    "nodes": 16,
+    "edges": 18
+  },
+  {
+    "key": "ges-abn-mot-hunger",
+    "domain": "ges",
+    "nodes": 11,
+    "edges": 12
+  },
+  {
+    "key": "ges-abn-mot-keine-mot",
+    "domain": "ges",
+    "nodes": 11,
+    "edges": 13
+  },
+  {
+    "key": "ges-abn-mot-kontrolle1",
+    "domain": "ges",
+    "nodes": 5,
+    "edges": 6
+  },
+  {
+    "key": "ges-abn-mot-kontrolle2",
+    "domain": "ges",
+    "nodes": 4,
+    "edges": 5
+  },
+  {
+    "key": "ges-coaching",
+    "domain": "ges",
+    "nodes": 1,
+    "edges": 2
+  },
+  {
+    "key": "ges-patienten-service",
+    "domain": "ges",
+    "nodes": 177,
+    "edges": 346
+  },
+  {
+    "key": "kar-ac",
+    "domain": "kar",
+    "nodes": 25,
+    "edges": 26
+  },
+  {
+    "key": "kar-durchstarten",
+    "domain": "kar",
+    "nodes": 17,
+    "edges": 20
+  },
+  {
+    "key": "kar-erster-anruf",
+    "domain": "kar",
+    "nodes": 21,
+    "edges": 22
+  },
+  {
+    "key": "kar-extra-aufregung",
+    "domain": "kar",
+    "nodes": 12,
+    "edges": 13
+  },
+  {
+    "key": "kar-gespraech-einstieg",
+    "domain": "kar",
+    "nodes": 32,
+    "edges": 34
+  },
+  {
+    "key": "kar-gespraech-einwaende",
+    "domain": "kar",
+    "nodes": 20,
+    "edges": 21
+  },
+  {
+    "key": "kar-gespraech-gehalt",
+    "domain": "kar",
+    "nodes": 34,
+    "edges": 35
+  },
+  {
+    "key": "kar-gespraech-nachbereitung",
+    "domain": "kar",
+    "nodes": 41,
+    "edges": 52
+  },
+  {
+    "key": "kar-gespraech-selbstmarketing",
+    "domain": "kar",
+    "nodes": 21,
+    "edges": 22
+  },
+  {
+    "key": "kar-gespraech-vorbereitung",
+    "domain": "kar",
+    "nodes": 21,
+    "edges": 27
+  },
+  {
+    "key": "kar-initiativ",
+    "domain": "kar",
+    "nodes": 87,
+    "edges": 96
+  },
+  {
+    "key": "kar-interessen",
+    "domain": "kar",
+    "nodes": 13,
+    "edges": 14
+  },
+  {
+    "key": "kar-potenzial",
+    "domain": "kar",
+    "nodes": 36,
+    "edges": 37
+  },
+  {
+    "key": "kar-selbstmarketing",
+    "domain": "kar",
+    "nodes": 19,
+    "edges": 20
+  },
+  {
+    "key": "kar-situationsanalyse",
+    "domain": "kar",
+    "nodes": 42,
+    "edges": 66
+  },
+  {
+    "key": "kar-start-job",
+    "domain": "kar",
+    "nodes": 40,
+    "edges": 41
+  },
+  {
+    "key": "kar-stellenauswahl",
+    "domain": "kar",
+    "nodes": 16,
+    "edges": 17
+  },
+  {
+    "key": "kar-telefoninterview",
+    "domain": "kar",
+    "nodes": 16,
+    "edges": 17
+  },
+  {
+    "key": "kar-unterlagen",
+    "domain": "kar",
+    "nodes": 73,
+    "edges": 83
+  },
+  {
+    "key": "kar-vollgas",
+    "domain": "kar",
+    "nodes": 17,
+    "edges": 38
+  },
+  {
+    "key": "kar-was-passt",
+    "domain": "kar",
+    "nodes": 12,
+    "edges": 13
+  },
+  {
+    "key": "kar-zielmarkt",
+    "domain": "kar",
+    "nodes": 29,
+    "edges": 30
+  },
+  {
+    "key": "slc-abc",
+    "domain": "slc",
+    "nodes": 8,
+    "edges": 10
+  },
+  {
+    "key": "slc-fitter",
+    "domain": "slc",
+    "nodes": 56,
+    "edges": 85
+  },
+  {
+    "key": "slc-hilfsmittel",
+    "domain": "slc",
+    "nodes": 10,
+    "edges": 17
+  },
+  {
+    "key": "slc-lifystyle",
+    "domain": "slc",
+    "nodes": 11,
+    "edges": 17
+  },
+  {
+    "key": "slc-nykturie",
+    "domain": "slc",
+    "nodes": 3,
+    "edges": 5
+  },
+  {
+    "key": "slc-reduktion",
+    "domain": "slc",
+    "nodes": 19,
+    "edges": 24
+  },
+  {
+    "key": "slc-schicht",
+    "domain": "slc",
+    "nodes": 6,
+    "edges": 7
+  },
+  {
+    "key": "slc-umgebung",
+    "domain": "slc",
+    "nodes": 26,
+    "edges": 41
+  },
+  {
+    "key": "slc-verhalten",
+    "domain": "slc",
+    "nodes": 17,
+    "edges": 33
+  }
+]

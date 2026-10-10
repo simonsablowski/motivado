@@ -1,0 +1,1350 @@
+{
+  "key": "bez-be2-profil",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Womit helfen wir Ihnen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V5.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "willkommenprofil.png",
+            "second": 0
+          },
+          {
+            "type": "clearslide",
+            "second": 9
+          },
+          {
+            "type": "show",
+            "second": 10
+          },
+          {
+            "type": "hide",
+            "second": 68
+          },
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 71
+          }
+        ],
+        "elements": [
+          {
+            "element": "Profilfoto auswählen",
+            "second": 12
+          },
+          {
+            "element": "Profiltexte ausfüllen",
+            "second": 18
+          },
+          {
+            "element": "Beispieltexte",
+            "second": 33
+          },
+          {
+            "element": "Skalen ausfüllen",
+            "second": 43
+          },
+          {
+            "element": "Allgemeine Hinweise zu Profilen",
+            "second": 55
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Vorbereitung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V6.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "be2word.png",
+            "second": 8
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "9b39b9b8f9ac49a89a198f0b04fb9052",
+      "title": "Wobei sollen wir Ihnen helfen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V7.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Profilfoto auswählen"
+          },
+          {
+            "key": "2",
+            "value": "Profiltexte ausfüllen"
+          },
+          {
+            "key": "3",
+            "value": "\"Leben\" ausfüllen"
+          },
+          {
+            "key": "4",
+            "value": "\"Wünsche\" und \"Liebe\" ausfüllen"
+          },
+          {
+            "key": "5",
+            "value": "\"Lifestyle & Ansichten\" ausfüllen"
+          },
+          {
+            "key": "6",
+            "value": "Fazit unseres Coachings (Ende)"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "9b39b9b8f9ac49a89a198f0b04fb9052 is '5'"
+        },
+        {
+          "to": "n005",
+          "if": "9b39b9b8f9ac49a89a198f0b04fb9052 is '4'"
+        },
+        {
+          "to": "n006",
+          "if": "9b39b9b8f9ac49a89a198f0b04fb9052 is '6'"
+        },
+        {
+          "to": "n007",
+          "if": "9b39b9b8f9ac49a89a198f0b04fb9052 is '1'"
+        },
+        {
+          "to": "n008",
+          "if": "9b39b9b8f9ac49a89a198f0b04fb9052 is '2'"
+        },
+        {
+          "to": "n009",
+          "if": "9b39b9b8f9ac49a89a198f0b04fb9052 is '3'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Unsere Tipps für den Bereich \"Lifestyle & Ansichten\"",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V18.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "be2profillifestyle.png",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "be2mehrerfahren.png",
+            "second": 18
+          },
+          {
+            "type": "slide",
+            "url": "be2profilaehnlichkeiten.png",
+            "second": 58
+          },
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 65
+          },
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 65
+          }
+        ],
+        "elements": [
+          {
+            "element": "Schnell beantworten",
+            "second": 65
+          },
+          {
+            "element": "Kontur zeigen",
+            "second": 72
+          },
+          {
+            "element": "Extreme wagen",
+            "second": 80
+          },
+          {
+            "element": "Titel konkret angeben",
+            "second": 102
+          },
+          {
+            "element": "Regelmäßig ändern",
+            "second": 136
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Beispieltexte \"Wünsche\" und \"Liebe\"",
+      "text": "Hier können Sie sich Beispieltexte für die Bereiche \"Wünsche\" und \"Liebe\" in Ihrem be2-Profil herunter laden. Viel Spaß damit!",
+      "props": {
+        "documents": [
+          {
+            "name": "Beispieltexte Wünsche",
+            "file": "bspwuensche.pdf"
+          },
+          {
+            "name": "Beispieltexte Liebe",
+            "file": "bspliebe.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V21.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 17
+          },
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 17
+          }
+        ],
+        "elements": [
+          {
+            "element": "Regelmäßig Profil ändern",
+            "second": 18
+          },
+          {
+            "element": "\"Gruß\" oft ändern",
+            "second": 30
+          },
+          {
+            "element": "An potientielle Partner anpassen",
+            "second": 42
+          },
+          {
+            "element": "Bis Sie erfolgreich sind",
+            "second": 55
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Basics",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V8.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "willkommenfoto.png",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Video",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V13.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "willkommentexte.png",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "be2profilliebe.png",
+            "second": 10
+          },
+          {
+            "type": "slide",
+            "url": "be2profilwuensche.png",
+            "second": 43
+          },
+          {
+            "type": "slide",
+            "url": "wordliebe.png",
+            "second": 60
+          },
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 74
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Bereich Leben",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V23.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "be2profilleben.png",
+            "second": 5
+          },
+          {
+            "type": "slide",
+            "url": "profilkopf.png",
+            "second": 20
+          },
+          {
+            "type": "slide",
+            "url": "gruss.png",
+            "second": 54
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Angaben zum Sport:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V17.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 18
+          },
+          {
+            "type": "slide",
+            "url": "be2sportarten.png",
+            "second": 9
+          },
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 18
+          }
+        ],
+        "elements": [
+          {
+            "element": "Mannschafts-Sport auswählen",
+            "second": 19
+          },
+          {
+            "element": "Individual-Sportart auswählen",
+            "second": 30
+          },
+          {
+            "element": "Computerspiele vermeiden",
+            "second": 66
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Wir sind für Sie da:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V32.flv"
+        },
+        "elements": [
+          {
+            "element": "E-Mail: contact@simsab.net",
+            "second": 5
+          },
+          {
+            "element": "Text-Kontrolle",
+            "second": 8
+          },
+          {
+            "element": "Bilder-Check",
+            "second": 16
+          },
+          {
+            "element": "Profil-Verbesserung",
+            "second": 32
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Was ist wichtig für Ihr Profilfoto:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V9.flv"
+        },
+        "elements": [
+          {
+            "element": "Eine positive Austrahlung",
+            "second": 48
+          },
+          {
+            "element": "Sie sind gut erkennbar",
+            "second": 56
+          },
+          {
+            "element": "Bleiben Sie authentisch",
+            "second": 63
+          },
+          {
+            "element": "... ab zum Fotografen!",
+            "second": 87
+          }
+        ],
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 43
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Beantworten Sie jetzt die Fragen.",
+      "text": "Hier ist unsere erste Aufgabe für Sie. Bitte füllen Sie die gerade in einen Texteditor kopierten Fragen aus. Beantworten Sie die Fragen zügig, ohne lange darüber nachzudenken. Im weiteren Verlauf werden wir Ihnen weitere Hinweise für diese Texte geben. \n\nAuf geht's: Beantworten Sie die Fragen in Ihrem Editor und klicken dann auf \"weiter\".",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V15.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "aufgabe.png",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V24.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 20
+          },
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 20
+          },
+          {
+            "type": "slide",
+            "url": "gruss.png",
+            "second": 0
+          }
+        ],
+        "elements": [
+          {
+            "element": "Mehr als \"Hallo\"",
+            "second": 20
+          },
+          {
+            "element": "Zitat verwenden",
+            "second": 25
+          },
+          {
+            "element": "Kein Standardgruß",
+            "second": 35
+          },
+          {
+            "element": "Humorvollen Gruß schreiben",
+            "second": 52
+          },
+          {
+            "element": "Regelmäßig ändern",
+            "second": 58
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Checkliste für Ihr Profil",
+      "text": "Hier können Sie sich die wichtigsten Informationen noch einmal als Checkliste herunter laden. Gehen Sie die Punkte sorgfältig durch. Bei Fragen können Sie uns jederzeit kontaktieren.",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V22.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 94
+          }
+        ],
+        "documents": [
+          {
+            "name": "Checkliste Profil",
+            "file": "profilcheck.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Group",
+      "key": null,
+      "title": "Wer könnte Ihnen Feedback auf Ihr Foto geben?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V10.flv"
+        },
+        "count": 2
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Mühe gegeben = unerfolgreich",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "TextInput",
+      "key": "be2_fotofreund_name",
+      "title": "Name Ihrer/s Freundin/es:",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Wichtig für Ihre Texte ist:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V14.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "be2mehrerfahren.png",
+            "second": 22
+          },
+          {
+            "type": "hide",
+            "second": 21
+          },
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 34
+          },
+          {
+            "type": "show",
+            "second": 35
+          },
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 55
+          }
+        ],
+        "elements": [
+          {
+            "element": "60-70% ausfüllen",
+            "second": 10
+          },
+          {
+            "element": "Ab und zu Texte löschen",
+            "second": 36
+          },
+          {
+            "element": "Fassen Sie sich kurz",
+            "second": 41
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021",
+          "if": "geschlecht is 'f'"
+        },
+        {
+          "to": "n022"
+        },
+        {
+          "to": "n023",
+          "if": "geschlecht is 'm'"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "TextInput",
+      "key": "be2_fotofreund_email",
+      "title": "E-Mail-Adresse Ihrer/s Freundin/es:",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Weibliches Profil",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Options",
+      "key": "geschlecht",
+      "title": "Ein kurze Frage zwischendurch:\nSind Sie ein Mann oder eine Frau?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "f",
+            "value": "Frau"
+          },
+          {
+            "key": "m",
+            "value": "Mann"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n023",
+          "if": "geschlecht is 'm'"
+        },
+        {
+          "to": "n021",
+          "if": "geschlecht is 'f'"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Keywords",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V9.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 38
+          }
+        ],
+        "elements": [
+          {
+            "element": "seien Sie...",
+            "second": 12
+          },
+          {
+            "element": "männlich",
+            "second": 15
+          },
+          {
+            "element": "rational",
+            "second": 21
+          },
+          {
+            "element": "entschlossen",
+            "second": 23
+          },
+          {
+            "element": "planvoll",
+            "second": 19
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Sie sollten unbedingt:",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "Mit Sichtbarkeit experimentieren",
+            "second": 43
+          },
+          {
+            "element": "Foto regelmäßig austauschen",
+            "second": 58
+          }
+        ],
+        "video": {
+          "url": "REL_EDateProfilBe2_V11.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "profilfotoscharf.png",
+            "second": 8
+          },
+          {
+            "type": "slide",
+            "url": "fotosichtbar.png",
+            "second": 21
+          },
+          {
+            "type": "clearslide",
+            "second": 40
+          },
+          {
+            "type": "show",
+            "second": 40
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfilBe2_V16.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "klassenzimmer.jpg",
+            "second": 20
+          },
+          {
+            "type": "clearslide",
+            "second": 45
+          },
+          {
+            "type": "show",
+            "second": 47
+          }
+        ],
+        "elements": [
+          {
+            "element": "Wie überraschen Sie?",
+            "second": 49
+          },
+          {
+            "element": "Worüber lachen Sie?",
+            "second": 51
+          },
+          {
+            "element": "Was erzählen Sie weiter?",
+            "second": 53
+          },
+          {
+            "element": "Schreiben Sie gut gelaunt",
+            "second": 64
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "Wie geht es jetzt weiter?",
+      "text": "Das waren die wichtigsten Hinweise für Ihr Foto in Ihrem be2-Profil. Bitte nehmen Sie sich die Zeit diese umzusetzen und ein gutes Foto auszuwählen. \n\nDenken Sie daran #be2_fotofreund_name|'eine/n Freund/in' um Feedback zu Ihrem Bild zu bitten.\n\nSollten Sie unsicher sein, können Sie auch uns jederzeit kontaktieren und von uns Feedback zu Ihrem Foto erhalten. Schicken Sie uns eine E-Mail mit Ihrem Foto an contact@simsab.net.\n\nNun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Options",
+      "key": "68ef4e2f98954181b65c8d6c6a760595",
+      "title": "Wollen Sie sich jetzt Beispieltexte für die Bereiche \"Liebe\" und \"Wünsche\" ansehen und herunterladen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter im Coaching"
+          },
+          {
+            "key": 2,
+            "value": "Beispiele ansehen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n028",
+          "if": "68ef4e2f98954181b65c8d6c6a760595 is 1"
+        },
+        {
+          "to": "n029",
+          "if": "68ef4e2f98954181b65c8d6c6a760595 is 2"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Video",
+      "key": null,
+      "title": "Video Mindset",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V24a.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "hotel.jpg",
+            "second": 17
+          },
+          {
+            "type": "slide",
+            "url": "pudding.jpg",
+            "second": 36
+          },
+          {
+            "type": "slide",
+            "url": "luftschloss.jpg",
+            "second": 77
+          },
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 91
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Beispieltexte \"Wünsche\" und \"Liebe\"",
+      "text": "Hier können Sie sich Beispieltexte für die Bereiche \"Wünsche\" und \"Liebe\" in Ihrem be2-Profil herunter laden. Viel Spaß damit!",
+      "props": {
+        "documents": [
+          {
+            "name": "Beispieltexte Wünsche",
+            "file": "bspwuensche.pdf"
+          },
+          {
+            "name": "Beispieltexte Liebe",
+            "file": "bspliebe.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Group",
+      "key": null,
+      "title": "Wer könnte Ihnen Feedback auf Ihre Texte geben?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V22.flv"
+        },
+        "count": 2,
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 32
+          },
+          {
+            "type": "slide",
+            "url": "aufgabe.png",
+            "second": 32
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "TextInput",
+      "key": "be2_textefreund_name",
+      "title": "Name Ihrer/s Freundin/es:",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "TextInput",
+      "key": "be2_textefreund_email",
+      "title": "E-Mail-Adresse Ihrer/s Freundin/es:",
+      "text": "Wir schicken Ihrem Feedback-Partner eine E-Mail mit Hinweisen, auf was er/sie achten soll.",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Video",
+      "key": null,
+      "title": "No Gos",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V25.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 12
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Schlechte Gründe, um Smileys zu verwenden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V26.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "smiley.png",
+            "second": 0
+          },
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "clearslide",
+            "second": 15
+          },
+          {
+            "type": "show",
+            "second": 15
+          }
+        ],
+        "elements": [
+          {
+            "element": "Humor erzwingen",
+            "second": 18
+          },
+          {
+            "element": "Peinlichkeiten überspielen",
+            "second": 48
+          },
+          {
+            "element": "Ironie kennzeichnen",
+            "second": 89
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Keywords",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V27.flv"
+        },
+        "elements": [
+          {
+            "element": "Keine Chat-Abkürzungen",
+            "second": 2
+          },
+          {
+            "element": "LOL",
+            "second": 8
+          },
+          {
+            "element": "ROFL",
+            "second": 10
+          },
+          {
+            "element": "WTF",
+            "second": 15
+          },
+          {
+            "element": "HDGDL",
+            "second": 20
+          },
+          {
+            "element": "Kein Slang",
+            "second": 43
+          },
+          {
+            "element": "'ne",
+            "second": 46
+          },
+          {
+            "element": "\"ich check das nich\"",
+            "second": 50
+          },
+          {
+            "element": "\"verpeilt\"",
+            "second": 55
+          },
+          {
+            "element": "\"lassma chatten\"",
+            "second": 65
+          },
+          {
+            "element": "\"krass\"",
+            "second": 70
+          },
+          {
+            "element": "\"Mucke\"",
+            "second": 75
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Bevor Sie die Texte veröffentlichen, sollten Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V28.flv"
+        },
+        "elements": [
+          {
+            "element": "Rechtschreibung prüfen",
+            "second": 8
+          },
+          {
+            "element": "Grammatik prüfen",
+            "second": 10
+          },
+          {
+            "element": "Texte mehrmals lesen",
+            "second": 34
+          },
+          {
+            "element": "Texte einem Freund schicken",
+            "second": 47
+          }
+        ],
+        "events": [
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "Wie geht es jetzt weiter?",
+      "text": "Das waren unsere wichtigsten Hinweise, mit denen Sie wirklich gute Texte für Ihr be2-Profil verfassen können. Bitte nehmen Sie sich die Zeit, um die Hinweise umzusetzen.\n\nDenken Sie daran #be2_textefreund_name|'eine/n Freund/in' um Feedback zu Ihren Texten zu bitten.\n\nSollten Sie unsicher sein, können Sie auch uns jederzeit kontaktieren und Hilfe beim Erstellen Ihrer Texte erhalten. Schicken Sie uns eine E-Mail an contact@simsab.net.\n\nNun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken Sie auf weiter!",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    }
+  }
+}

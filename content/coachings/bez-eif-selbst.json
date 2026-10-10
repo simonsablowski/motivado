@@ -1,0 +1,728 @@
+{
+  "key": "bez-eif-selbst",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Ready to go?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "9f5cab2deff042e7ac8f4152e1f387d0",
+      "title": "Möchten Sie einen kurzen Test zum Thema Eifersucht machen oder das Coaching direkt starten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V89A.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Direkt zum Eifersuchts-Coaching"
+          },
+          {
+            "key": 2,
+            "value": "Zum Test"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "9f5cab2deff042e7ac8f4152e1f387d0 is 1"
+        },
+        {
+          "to": "n004",
+          "if": "9f5cab2deff042e7ac8f4152e1f387d0 is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen in unserem Coaching \"Mit der eigenen Eifersucht umgehen\", bei dem wir Ihnen viel Erfolg wünschen!\r\nBei Fragen oder Anregungen wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen. \r\nSie können uns per E-Mail oder Telefon erreichen. Dazu gehen Sie bitte auf \"Hilfe\" oder \"Kontakt\". ",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Group",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "rel_eifersuchtGrund",
+      "title": "Bevor wir mit dem Coaching starten, beantworten Sie uns noch folgende Frage: Sind Sie mit oder ohne konkreten Grund eifersüchtig? ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "m",
+            "value": "Mit konkretem Grund"
+          },
+          {
+            "key": "o",
+            "value": "Ohne konkreten Grund"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "rel_eifersuchtGrund is 'm'"
+        },
+        {
+          "to": "n008",
+          "if": "rel_eifersuchtGrund is 'o'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "rel_eiferTest1",
+      "title": "Fühlen Sie sich unwohl oder haben Sie ein komisches Gefühl, wenn  Ihr Partner allein unterwegs ist?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V6.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": "j",
+            "value": "Ja"
+          },
+          {
+            "key": "n",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "rel_eiferTest1 is 'n'"
+        },
+        {
+          "to": "n009",
+          "if": "rel_eiferTest1 is 'j'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Von seinem Partner betrogen worden zu sein, bedeutet einen riesigen Vertrauensbruch innerhalb der Beziehung. Es ist verständlich, dass Sie Ihrem Partner gegenüber jetzt verstärkt Eifersucht empfinden, schließlich scheint diese ja begründet zu sein.\r\n\r\nAber, wenn Sie Ihre Beziehung weiterführen wollen - und das beinhaltet, dass Sie Ihrem Partner verzeihen, denn sonst ist Ihre Beziehung zum Scheitern verurteilt -  ist es wichtig, dass Sie Ihre Eifersucht in den Griff bekommen. Auch wenn Ihr Partner Ihnen einen konkreten Anlass dazu gegeben hat, eifersüchtig zu sein, hat Ihre Eifersucht trotzdem die Macht, Ihre Beziehung zusätzlich scheitern zu lassen. \r\n\r\nIn diesem Coaching zeigen wir Ihnen, wie Sie am besten mit Ihrer Eifersucht umgehen, damit Ihre Beziehung nicht doch noch scheitert.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zuzugeben, dass Sie ohne einen konkreten Grund eifersüchtig sind, ist ein großer Schritt, zu dem wir Ihnen gratulieren möchten. Sie haben Ihr Problem erkannt und beim Namen genannt - Herzlich Glückwunsch!\r\n\r\nAber es werden noch viele weitere Schritte folgen müssen, denn wenn Sie Ihrem Partner schon einmal nach spioniert, sein Handy kontrolliert, seine E-Mails und Post gelesen, seine Kleidung oder Brieftasche durchsucht haben, sind Sie dabei, Ihre Beziehung ernsthaft aufs Spiel zu setzen.\r\n\r\nMit Vertrauensbrüchen dieser Art ist nicht zu spaßen, daher begleiten wir Sie in diesem Coaching auf Ihrem Weg und geben Ihnen Strategien an die Hand, die Ihnen zeigen, wie Sie Ihre Eifersucht in den Griff kriegen. Wir wollen Ihnen helfen, mit Ihrer Eifersucht besser umzugehen, damit Ihre Beziehung auf Vertrauen und nicht auf Kontrolle beruhen kann.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "rel_eiferTest2",
+      "title": "Haben Sie schon einmal das Handy Ihres Partners durchsucht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V7.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": "j",
+            "value": "Ja"
+          },
+          {
+            "key": "n",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "rel_eiferTest2 is 'n'"
+        },
+        {
+          "to": "n011",
+          "if": "rel_eiferTest2 is 'j'"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Leichte Eifersucht\r\n\r\nEs kann auch Vorteile haben, wenn Sie hin und wieder eifersüchtig sind. Leichte Eifersucht wirkt sich durchaus positiv auf eine Beziehung aus, da Sie für mehr Feuer in der Beziehung sorgt und zeigt, dass Sie ein leidenschaftlicher Mensch sind. Beziehungen, in der sich einer der Partner über Eifersucht beschwert, sind häufig glücklicher als emotionsarme Paare.\r\n\r\nDies soll nun aber keine Entschuldigung für Sie sein, Ihrem Partner zu mißtrauen und mit Ihrer Eifersucht unter Druck zu setzen. Nehmen Sie Ihre Eifersucht nicht auf die leichte Schulter, denn Sie kann zu einem ernstzunehmenden Problem und für Ihre Beziehung zu einer wirklichen Gefährdung werden. Wollen Sie das Risiko eingehen, Ihren Partner zu verlieren oder wollen Sie sich selbst die Erlaubnis geben, eine glückliche Beziehung zu führen? Die Entscheidung für eine glückliche Beziehung liegt bei Ihnen.\r\n\r\nUnd immerhin haben Sie sich schon für Ihre Beziehung entschieden, sonst wären Sie jetzt nicht hier. Nehmen Sie dieses Problem ernst und seien Sie sich bewusst, dass auch Sie innerhalb einer Beziehung in jeder Situation an sich arbeiten müssen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "rel_eiferTest3",
+      "title": "Haben Sie Ihren Partner auf einer Party schon einmal aus einer Unterhaltung gezogen, weil er Ihnen zu wenig Aufmerksamkeit zukommen ließ?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "j",
+            "value": "Ja"
+          },
+          {
+            "key": "n",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "rel_eiferTest1 is 'j' and rel_eiferTest2 is 'j' and rel_eiferTest3 is 'j'"
+        },
+        {
+          "to": "n014",
+          "if": "rel_eiferTest3 is 'j'"
+        },
+        {
+          "to": "n014",
+          "if": "rel_eiferTest3 is 'n'"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eifersucht bietet viel Zündstoff\r\n\r\nDer Begriff 'Eifersucht' kommt nicht von ungefähr. Das bedeutet, dass es sich bei diesem sehr starken Gefühl tatsächlich um eine Sucht handelt, und wie bei jeder anderen Sucht auch, verschlimmert sie sich, je mehr man ihr nachgibt.\r\n\r\nWieviel Zündstoff hinter diesem Gefühl steckt, zeigt sich sogar in der Herkunft des Wortes: 'Eifer' geht auf die mittelhochdeutschen Begriffe 'eivar' oder 'eiveri' zurück, die so viel bedeuteten wie 'Feuer'.\r\n\r\nDas Zerstörungspotential von Eifersucht in einer Beziehung ist also schon lange bekannt und es gilt, dieses Potential zu entschärfen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        },
+        {
+          "to": "n016",
+          "if": "rel_eifersuchtGrund is 'm'"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgrund Ihrer Angaben empfehlen wir Ihnen unbedingt das Coaching zum Thema \"Mit der eigenen Eifersucht umgehen\" zu besuchen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V13.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgrund Ihrer Angaben empfehlen wir Ihnen das Coaching zum Thema \"Mit der eigenen Eifersucht umgehen\" zu besuchen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V14.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtige Erkenntnisse\r\n\r\nEifersucht ist ein Verhalten, das man entweder schon im Elternhaus erlernt oder das dadurch entsteht, dass die eifersüchtige Person einen Mangel hat. Diese sind meist bedingt durch negative Erfahrungen in der Vergangenheit und resultieren nun in Verlustängsten, die durch Kontrollübernahme ausgeglichen werden soll.\r\n\r\nAus diesen Gefühlen lassen sich zwei wichtige Erkenntnisse für Sie und Ihren Partner ableiten. Zum einen ist Eifersucht ein guter Indikator dafür, dass Ihnen an Ihrem Partner sehr viel liegt. Auf diese positive Emotion, die der Eifersucht zu Grunde liegt, sollten Sie sich konzentrieren.\r\n\r\nZum anderen besteht eine weitere Erkenntnis darin, dass Sie gerade eben weil Ihnen der Andere so viel bedeutet, ihm auch genauso viel Freiheit und Respekt zugestehen sollten wie einer Person, die man nicht so toll findet.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Woher kommt Eifersucht?\r\n\r\nEifersucht ist ein erlerntes Verhalten oder resultiert daraus, dass die eifersüchtige Person einen Mangel hat. In Ihrem Fall wurde Ihnen von Ihrem Partner ein konkreter Anlass zur Eifersucht gegeben. Dies führt nun dazu, dass Sie Verlustängste haben und diese durch Kontrollübernahme ausgleichen wollen. Besonders problematisch an dieser Situation ist, dass Sie vermeintlich einen offensichtlichen Grund zur Eifersucht haben.\r\n\r\nAber genau hier liegt das Problem: Wenn Sie zulassen, dass der Fehltritt Ihres Partners Ihr Handeln bestimmt, steht es um Ihre Beziehung noch schlechter. Wenn Sie trotz des Fehltritts Ihres Partners immer noch in einer Beziehung mit Ihm sind, ist es wichtig, dass Sie über diesen Vorfall hinwegkommen. Konzentrieren Sie sich zunächst auf die positiven Erkenntnisse, die Sie aus Ihrer Eifersucht ziehen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Options",
+      "key": "e94b0f568cdc4af6bce4db38e01e9d4f",
+      "title": "Möchten Sie das Coaching 'Mit der eigenen Eifersucht umgehen' jetzt starten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V86.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "e94b0f568cdc4af6bce4db38e01e9d4f is '1'"
+        },
+        {
+          "to": null,
+          "if": "e94b0f568cdc4af6bce4db38e01e9d4f is '2'"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gefahren der Eifersucht\r\n\r\nWorüber sich viele Menschen nicht bewusst sind, ist, dass eifersüchtige Menschen leicht zu manipulieren sind. Wenn Sie also schnell Eifersucht verspüren und dieser auch oft nachgeben, machen Sie es Ihrem Partner sehr einfach, Ihr eifersüchtiges Verhalten zu seinem Vorteil zu nutzen. Es reicht oft schon aus, einen neuen Kollegen nur zu erwähnen, um eine übersteigerte Reaktion von Ihnen zu verhalten, wenn man Aufmerksamkeit von Ihnen fordert.\r\n\r\nWollen Sie für Ihren Partner leicht manipulierbar sein, weil Sie vor Eifersucht rot sehen? Immerhin sind Sie eine selbstbestimmte Person.\r\n\r\nAus vielfacher Erfahrung wissen wir außerdem, dass übertriebene und unbegründete Eifersucht oft genau den Effekt hat, den man eigentlich verhindern will. Dass heißt, dass die Angst den Partner zu verlieren, zu Handlungen führt, die letztendlich im Verlust des Partners enden. Das mangelnde Vertrauen in den Anderen ist oftmals eine zu große Belastung für die Beziehung.\r\n\r\nWie können Sie diesem Kreislauf aber entkommen? Denn immerhin gilt es, Ihre Beziehung zu retten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtige Erkenntnisse\r\n\r\nAus diesen Gefühlen lassen sich zwei wichtige Erkenntnisse für Sie und Ihren Partner ableiten. Zum einen ist Eifersucht ein guter Indikator dafür, dass Ihnen an Ihrem Partner sehr viel liegt. Auf diese positive Emotion, die der Eifersucht zu Grunde liegt, sollten Sie sich konzentrieren.\r\n\r\nZum anderen besteht eine weitere Erkenntnis darin, dass Sie gerade eben weil Ihnen der Andere so viel bedeutet, Sie ihm auch genauso viel Freiheit und Respekt zugestehen sollten wie einer Person, die man nicht so toll findet. Auch dann, wenn Sie betrogen worden sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Akzeptieren Sie Ihre Eifersucht\r\n\r\nWenn Sie sich in einer Situation befinden, in der Sie von Ihrer Eifersucht überwältigt werden und das Bedürfnis verspüren, Ihrem Partner nach spionieren zu wollen etc., nehmen Sie sich einen Moment Zeit und akzeptieren Sie Ihre Gefühle. Setzen Sie sich damit auseinander, dass Ihre Verlustängste in Phantasien resultieren, in denen Ihr Partner Sie betrügt. Werden Sie sich klar darüber, dass dies nur Ihren Ängsten entspringt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gefahren der Eifersucht\r\n\r\nAus vielfacher Erfahrung wissen wir, dass übertriebene und unbegründete Eifersucht oft genau den Effekt hat, den man eigentlich verhindern will. Dass heißt, dass die Angst den Partner zu verlieren, zu Handlungen führt, die letztendlich im Verlust des Partners enden. Das mangelnde Vertrauen in den Anderen ist oftmals eine zu große Belastung für die Beziehung.\r\n\r\nWenn Sie die realistische Einschätzung verlieren, wann und ob Ihre Eifersucht überhaupt begründet ist, besteht die Gefahr, dass Sie Ihren Partner überhaupt zu einem Fehltritt provozieren. \r\n\r\nDamit soll Ihnen keineswegs die Schuld für eventuelle Vertrauensbrüche in die Schuhe geschoben werden. Aber der Mangel an realistischer Einschätzung der Situation und dauerhafter Eifersucht kann dazu führen, dass Ihr Partner sich leichter anderen Personen zuwendet.",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Options",
+      "key": "00d7763e8f194455929c90bb67e75159",
+      "title": "Haben Sie schon einmal das Handy, die E-Mails oder die Post Ihres Partners kontrolliert, ihm hinterher spioniert oder ihm nachtelefoniert etc.?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n024",
+          "if": "00d7763e8f194455929c90bb67e75159 is 1"
+        },
+        {
+          "to": "n025",
+          "if": "00d7763e8f194455929c90bb67e75159 is 2"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Akzeptieren Sie Ihre Eifersucht\r\n\r\nWenn Sie sich in einer Situation befinden, in der Sie von Ihrer Eifersucht überwältigt werden und das Bedürfnis verspüren, Ihrem Partner nach spionieren zu wollen etc., nehmen Sie sich einen Moment Zeit und akzeptieren Sie Ihre Gefühle. Setzen Sie sich damit auseinander, dass Ihre Verlustängste in Phantasien resultieren, in denen Ihr Partner Sie betrügt. Werden Sie sich klar darüber, dass dies nur Ihren Ängsten entspringt. \r\n\r\nZwar hat Ihr Partner Ihr Vertrauen in der Vergangenheit enttäuscht, aber Sie haben sich dazu entschieden, die Beziehung weiterzuführen. Das bedeutet, dass auch Sie in der Verantwortung für Ihre Beziehung stehen und sich deswegen klar sein sollten, dass Sie Ihrem Partner nicht bei jedem zukünftigen Streit, seinen Fehltritt vorhalten können und als Entschuldigung für Ihr Verhalten benutzen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit Sie sich und Ihre Beziehung nicht blockieren und sich selbst ins Aus schießen, ist es sehr wichtig, dass Sie alle Handlungen, die Sie aus Eifersucht begehen, wie zum Beispiel eben das Kontrollieren von Handys, das nach Spionieren, das Lesen von E-Mails, Kontrollanrufe oder unbegründete verbale Angriffe ab sofort unterlassen oder unterbrechen. Und zwar ab sofort.",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Suchen Sie sich einen Freund, dem Sie von Ihrer Eifersucht erzählen und den Sie anrufen können, wenn Sie wieder von Ihrer Eifersucht eingeholt werden. Sie können dann Ihre Ängste und Befürchtungen mit einer vertrauten Person teilen, ohne bei Ihrem Partner durch Ihre Eifersucht wiederholt Druck aufzubauen.\r\nWenn Sie keine Vertrauensperson haben, wenden Sie sich an Ihren Motivado Beziehungs-Coach. Wir sind selbstverständlich telefonisch für Sie erreichbar.",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls es Ihnen besonders schwer fällt, Ihr Kontrollverhalten zu unterlassen, haben wir einen Power-Kniff für Sie: Führen Sie eine Strichliste für jeden Tag, an dem Sie es geschafft haben, Ihrem Partner nicht nachzuspionieren.\r\n\r\nIm Folgenden haben wir einige Übungen für Sie, die Sie zusätzlich dabei unterstützen werden, den Kreislauf Ihrer Eifersucht zu unterbrechen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        },
+        {
+          "to": "n029",
+          "if": "rel_eifersuchtGrund is 'm'"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "List",
+      "key": "rel_eifersuchtI_nameYourFriends",
+      "title": "Notieren Sie jetzt den oder die Namen Ihrer Freunde!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "List",
+      "key": "rel_eifersuchtI_toDoList",
+      "title": "überlegen Sie sich jetzt welche Handlungen oder Tätigkeiten Sie das nächste Mal lieber ausführen möchten, wenn Sie Ihren Partner wieder kontrollieren oder ihm nachspionieren wollen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie von Ihrer Eifersucht eingeholt werden, ist es besonders hilfreich, wenn Sie in dieser Situation gedanklich einen Realitätscheck vollziehen. Das heißt, anstatt sich in Gedanken nur daran zu klammern, dass Ihr Partner Ihr Vertrauen in der Vergangenheit mißbraucht hat, sollten Sie darüber nachdenken, ob es in der jetzigen Situation realistisch ist, dass er es wieder tut.\r\n\r\nÜberlegen Sie sich, wie hoch die Wahrscheinlichkeit ist, dass Ihre Eifersucht begründet ist. Denken Sie in diesem Zuammenhang auch daran, ob Sie vor dem Fehltritt Ihres Partners in der selben oder ähnlichen Situation eifersüchtig gewesen wären.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bevor Sie Ihrer Eifersucht nachgeben, atmen Sie tief durch und zählen Sie in Gedanken beispielsweise bis 80. Auf diese Weise verhindern Sie, dass Sie unreflektiert Ihren Impulsen nachgeben. \r\n\r\nEs ist wichtig, dass Sie bis zu einer Nummer zählen, die hoch genug ist, dass Sie sich während Sie zählen tatsächlich beruhigen können. Sich eine Zahl als Ziel zu setzen, die Sie, wenn Sie in Gedanken zählen, bereits innerhalb von nur wenigen Sekunden erreichen, hat kaum beruhighende Wirkung. \r\nAm besten zählen Sie laut vor sich hin, denn durch das tatsächliche laute Aussprechen verstärkt sich die beruhigende Wirkung dieser Übung.\r\n\r\nÜberlegen Sie sich jetzt, bis zu welcher Zahl Sie gegebenenfalls zählen wollen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        },
+        {
+          "to": "n033",
+          "if": "rel_eifersuchtGrund is 'm'"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gefahr einer unrealistischen Einschätzung\r\n\r\nNatürlich ist es verständlich, dass es nicht leicht ist, über einen derartigen Vertrauensbruch hinwegzukommen, aber wenn Sie die realistische Einschätzung verlieren, wann und ob Ihre Eifersucht überhaupt begründet ist, besteht die Gefahr, dass Sie Ihren Partner zu einenm erneuten Fehltritt provozieren. \r\n\r\nDamit soll Ihnen keineswegs die Schuld für den Vertrauensbruchs Ihres Partners in die Schuhe geschoben werden. Aber der Mangel an realistischer Einschätzung der Situation und dauerhafter Eifersucht kann dazu führen, dass Ihr Partner sich leichter anderen Personen zuwendet.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "List",
+      "key": "rel_eifersuchtI_jealousWithoutReason",
+      "title": "",
+      "text": "Wenn Sie von Ihrer Eifersucht eingeholt werden, ist es besonders hilfreich, wenn Sie sich an Situationen erinnern, in denen Sie schon einmal unbegründet eifersüchtig waren. Vergleichen Sie diese Situationen mit der, in der Sie sich gerade befinden und überlegen Sie, ob Sie sich nicht gerade in einer ganz ähnlichen Situation befinden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was könnten Sie verlieren?\r\n\r\nEine weitere gute Übung ist, wenn Sie darüber nachdenken, was Sie verlieren könnten, wenn Sie weiterhin Ihrer Eifersucht nachgeben. Überlegen Sie genau, was es für Sie bedeuten würde, wenn sich Ihr Partner wegen Ihrer Eifersucht von Ihnen trennen würde.",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "List",
+      "key": "rel_eifersuchtI_loose",
+      "title": "Schreiben Sie jetzt bitte auf, welche negativen Auswirkungen es hätte, wenn der Partner sich von Ihnen trennen würde!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Eifersucht ansprechen\r\n\r\nEs kann natürlich eine Weile dauern, bis Sie Ihre Alternativ-Strategien leicht und ohne Probleme umsetzen können, ohne in Ihre alten Verhaltensmuster zurückzufallen. Es kann auch sein, dass Sie Ihre Eifersucht nie ganz in den Griff bekommen werden. Daher ist sehr wichtig, dass Sie mit Ihrem Partner kommunizieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        },
+        {
+          "to": "n037",
+          "if": "rel_eifersuchtGrund is 'm'"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit ist nicht gemeint, dass Sie ihn mit Ihrer Eifersucht konfrontieren, wenn es schon zu spät ist. Sprechen Sie Ihre Eifersucht an, aber legen Sie dabei nicht die Betonung auf Ihr Misstrauen gegenüber Ihrem Partner. Konzentrieren Sie sich statt dessen darauf, dass Sie eifersüchtig sind, weil Ihnen der Andere wichtig ist. \"Du bist ein toller Mensch, deswegen habe ich manchmal Angst, Dich zu verlieren.\"  oder \"Weil Du mir eben so wichtig bist, werde ich schnell eifersüchtig.\"\r\n\r\nWenn eine Situation entsteht, in der Sie eifersüchtig werden, sprechen Sie diese an. Wenn Ihr Partner beispielsweise ein Telefonat führt, fragen Sie ihn anschließend, wer am Telefon war, aber haken Sie nicht noch weiter nach. Ihr Partner weiß jetzt, dass Sie sich in dieser Situation unwohl gefühlt haben, ohne dass Sie ihm gleichzeitig ein schlechtes Gefühl vermittelt haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit ist nicht gemeint, dass Sie ihn mit Ihrer Eifersucht konfrontieren, wenn es schon zu spät ist. Sprechen Sie Ihre Eifersucht an, aber legen Sie dabei nicht die Betonung auf Ihr Misstrauen gegenüber Ihrem Partner. Konzentrieren Sie sich statt dessen auf Ihre Gefühle: \"Ich weiß, dass meine Eifersucht gerade unbegründet ist, aber mir fällt es einfach schwer, Dir wieder zu vertrauen.\"\r\n\r\nGeben Sie Ihrem Partner durch rechtzeitige Kommunikation die Möglichkeit, seinerseits verstärkt zu kommunizieren, dass es keinen Grund für Ihre Eifersucht gibt.\r\n\r\nSobald eine Situation entsteht, in der Sie eifersüchtig werden, sprechen Sie diese an. Wenn Ihr Partner beispielsweise ein Telefonat führt, fragen Sie ihn anschließend, wer am Telefon war, aber haken Sie nach der Antwort Ihres Partners nicht noch weiter nach. Ihr Partner weiß jetzt, dass Sie sich in dieser Situation unwohl gefühlt haben, ohne dass Sie ihm gleichzeitig ein schlechtes Gefühl vermittelt haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Selbstbewusstsein\r\n\r\nDa Eifersucht aus Unsicherheit und Verlustängsten entsteht, resultieren Sie im Grunde auch immer aus mangelndem Selbstvertrauen. In dem Moment, in dem Sie Ihre Eifersucht zulassen, definieren Sie sich vollständig über das Verhalten Ihres Partners, statt selbstbestimmt zu handeln.\r\n\r\nUm Ihr Selbstbewusstsein und dadurch auch Ihre Beziehung zu stärken, haben wir eine weitere sehr effektive Übung für Sie.",
+      "props": {},
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie den Gedanken zu, dass Ihnen tatsächlich gute Dinge passieren können, das heißt, dass es tatsächlich möglich ist, dass Sie einen tollen Partner haben und eine tolle Beziehung führen.\r\n\r\nNatürlich ist das leichter gesagt als getan, aber vergleichen Sie Ihr ständiges Mißtrauen, Ihre Angst und Eifersucht in Ihrer Beziehung einmal mit der täglichen Verkehrssituation, in die Sie sich tagtäglich begeben. Wenn Sie mit dem selben Mißtrauen auch an diese Situationen herangehen und hinter jeder Ecke einen möglichen Verkehrsunfall vermuten würden, könnten Sie sich nicht mehr frei bewegen. \r\n\r\nDie Angst würde Sie lähmen und ein normales Leben nicht mehr möglich machen. Befreien Sie sich aus dem Griff der Angst und Eifersucht und haben Sie Vertrauen zu Ihrer Beziehung und Ihrem Partner. So wie Sie jeden Tag anderen, Ihnen völlig unbekannten Menschen entgegenbringen, wenn Sie eine Straße überqueren oder Auto fahren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Entscheiden Sie sich\r\n\r\nStellen Sie sich der Entscheidung: Wollen Sie Ihrem Partner und Ihrer Beziehung trauen oder wollen Sie Ihrer Eifersucht nachgeben? \r\n\r\nWenn Sie sich für Ihre Beziehung entscheiden, sollten Sie sich darüber klar sein, dass Sie Ihrem Partner vertrauen müssen. Denn wenn Sie sich weiterhin von Ihrer Eifersucht bestimmen lassen, setzen Sie Ihre Beziehung aufs Spiel. Es muss also eine klare Entscheidung her, nach der Sie sich auch richten, wenn Sie gefällt ist.\r\n\r\nUnd immerhin haben Sie sich schon für Ihre Beziehung entschieden, sonst wären Sie jetzt nicht hier. Nehmen Sie dieses Problem ernst und seien Sie sich bewusst, dass auch Sie innerhalb einer Beziehung in jeder Situation an sich arbeiten müssen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Video",
+      "key": null,
+      "title": "Üben Sie!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V2.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching rund um das Thema \"Mit Eifersucht umgehen\". Wir hoffen Ihnen hilfreiche Anregungen mitgegeben zu haben und wünschen Ihnen viel Erfolg bei der Umsetzung!\r\n\r\nWenn Sie noch Fragen haben oder weitere Unterstützung wünschen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen. Sie können uns per E-Mail oder Telefon erreichen. Dazu gehen Sie bitte auf \"Hilfe/Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

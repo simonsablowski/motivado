@@ -1,0 +1,159 @@
+{
+  "key": "bez-traumpartner-affaere",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wer vorher nicht entscheidet, wohin die Reise gehen soll, der soll sich anschließend nicht beschweren, das es ihm nicht gefällt!\n\nWillkommen beim Coaching \"Affären-Traumpartner\"\n\nJeder Mensch verfügt über verschiedene bewusste und unbewusste Selektionsmechanismen und Motivationen. Das nutzen wir hier aus, damit Ihre Affären möglichst so laufen, wie Sie es sich wünschen. Und viel wichtiger: mit einem tollen Menschen, ohne dass Sie  (wieder) an irgendwelche Falsche geraten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Was wollen Sie mit Ihrem Affären-Partner erleben, wie wollen Sie sich fühlen? Bitte schreiben Sie alles auf, was Ihnen einfällt!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Schreiben Sie nun bitte die wichtigsten Punkte auf, was Sie auf keinen Fall erleben wollen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nun betrachten Sie sich selbst. Gehen Sie jeden positiven Punkt durch und tragen Sie daneben ein, ob Sie eine solche Person und Affäre anziehen oder ob Sie sich in irgendeiner Form verbessern müssten, um Personen bzw. Affären mit diesen Eigenschaften anzuziehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nun betrachten Sie sich selbst noch einmal bezüglich Ihrer Negativ-Liste. Gehen Sie jeden Punkt ihrer Liste durch und tragen Sie daneben ein, ob Sie  solche Punkte bei anderen Menschen eventuell anziehen. Vermerken Sie auch, ob Sie sich in irgendeiner Form verbessern müssten, um Partner mit dieser Eigenschaft nicht anzuziehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wunderbar! Mit den Listen, die Sie erstellt haben, haben Sie etwas gemacht, das nur wenige tun, wenn sie sich wundern, warum sie nicht die richtigen Menschen kennenlernen.\r\n\r\nMit dieser Liste haben Sie festgehalten, was Sie sich sonst nur getraut haben zu denken. Allein das wird Sie stärken und unterstützen. \r\n\r\nAchtung: Bitte achten Sie sehr genau auf diese Listen und lassen Sie diese nirgends herumliegen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "12196a655e2244edbfccde0617ff3f28",
+      "title": "Ist ein klares Bild entstanden, wen Sie sich wünschen, wen nicht und wie Sie sich entwickeln müssten, um die richtige Person noch mehr anzuziehen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein / eher nicht"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "12196a655e2244edbfccde0617ff3f28 is 1"
+        },
+        {
+          "to": "n009",
+          "if": "12196a655e2244edbfccde0617ff3f28 is 2"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön. Um diese Punkte weiter zu vertiefen, gehen Sie in der nächsten Woche bitte jeden Tag Ihre Listen in Ruhe durch und ergänzen Sie weitere Punkte, die Ihnen einfallen. Je mehr Sie sich mit Ihren Wünschen auseinandersetzen, desto klarer werden Sie vor Ihrem inneren Auge erscheinen. Überlegen Sie dabei stets auch, was Sie dazu beitragen können, Ihrem Ziel näher zu kommen. Andere Menschen können Sie nicht verändern. Sich selbst aber schon.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es ist möglich, dass das Gefühl für gute, tolle Affären und die passenden Person dazu noch reifen muss. Das gilt auch für die Verbesserungspunkte, die Sie angehen möchten. Veränderung braucht Zeit.\r\nDaher gehen Sie in der nächsten Woche bitte jeden Tag Ihre Listen in Ruhe durch und ergänzen Sie weitere Punkte, die Ihnen einfallen. Je mehr Sie sich mit Ihren Wünschen auseinandersetzen, desto klarer werden Sie vor Ihrem inneren Auge erscheinen. Überlegen Sie dabei stets auch, was Sie dazu beitragen können, Ihrem Ziel näher zu kommen. Andere Menschen können Sie nicht verändern. Sich selbst aber schon.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Gratulation! Sie haben das Coaching \"Affären-Traumpartner\" durchlaufen. Wenn Sie weitere Unterstützung brauchen oder Fragen haben, wenden Sie sich gerne an unsere Experten! ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

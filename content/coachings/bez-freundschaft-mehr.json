@@ -1,0 +1,270 @@
+{
+  "key": "bez-freundschaft-mehr",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V167.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen in unserem Coaching \"Aus Freundschaft wird mehr\".\r\n\r\nSich für jemandem aus dem Freundes- oder Bekanntenkreis zu interessieren ist oft eine schwierige Situation. Sich jetzt zurückzulehnen und zu hoffen, dass sich dieser Zustand irgendwann ändert, ist der schlimmste Fehler.\r\n\r\nWenn Sie an einer Person aus Ihrem Freundes- oder Bekanntenkreis interessiert sind, aber eben nicht wissen, wie Sie sich dieser Person annähern sollen, sind Sie hier bei uns genau richtig. \r\n\r\nIn unserem Coaching \"Von Freundschaft zu mehr\" zeigen wir Ihnen die Strategien, die Sie brauchen, um nicht mehr nur passiv abzuwarten und zu hoffen, dass sich etwas ändern wird. Wir zeigen Ihnen wie Sie aus der Freundschafts-Fallen wieder herauskommen und helfen Ihnen dabei, Ihre Intention klar zu kommunizieren. Außerdem bereiten wir Sie auch auf mögliche Einwände des Anderen vor und sagen Ihnen wie Sie auf diese angemessen und richtig reagieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Grundlagen\r\n\r\nNehmen wir an, dass Thomas und Anna schon seit Jahren befreundet sind, aber Thomas eigentlich an Anna interessiert ist. Leider hat Anna davon aber nicht die geringste Ahnung, denn Thomas verhält sich wie ein guter Freund. Er  steht ihr immer mit Rat und Tat zur Seite und hört ihr zu, wenn Sie über ihr Liebesleben redet. Er ist immer fast für sie da.\r\n\r\nWenn Sie das lesen, wundern Sie sich wirklich, dass Thomas und Anna kein Paar sind? Wundert es Sie wirklich, dass Anna Thomas nicht als potentiellen Partner wahrnimmt?\r\n\r\nNein, natürlich wundert Sie das nicht. Thomas steckt ganz tief in der Freundschaftsfalle. Aber was kann Thomas an seinem Verhalten ändern, damit Anna ihn anders wahrnimmt? Die wesentlichen Handlungsweisen haben wir im Folgenden für Sie zusammengestellt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1. Eine Entscheidung treffen\r\n\r\nZuallererst sollte Thomas tatsächlich für sich selbst die Entscheidung fällen, dass er Annas Partner werden will. Das bedeutet, dass er den gedanklichen Schritt vollzieht, dass er tatsächlich auch Annas Partner und Sexualpartner sein will. Gerade wenn man so lange befreundet ist, wie Thomas und Anna, steht die sexuelle Komponente ihrer Beziehung weit im Hintergrund. Da Thomas aber Annas Partner sein möchte, ist es wichtig, dass sich Thomas diese Seite einer Beziehung deutlich in Erinnerung ruft.\r\n\r\nZudem muss Thomas selbst daran glauben, dass es für ihn möglich ist, mit Anna eine Beziehung haben zu können. Darauf gehen wir später noch genauer ein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "028914c071ef4f549eae3533bdcb6497",
+      "title": "Hatten Sie mit der Person, an der Sie interessiert sind, bereits Sex?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V118.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "028914c071ef4f549eae3533bdcb6497 is 1"
+        },
+        {
+          "to": "n007",
+          "if": "028914c071ef4f549eae3533bdcb6497 is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn sich Thomas und Anna in einer Situation befinden, in der Sie \"trotz\" Freundschaft Sex miteinander haben, gibt es zwei Dinge zu beachten:\r\n\r\nZum einen ist es bei dieser Ausgangslage für Thomas leichter, den Schritt von Freundschaft zu Beziehung zu nehmen, da Anna Thomas bereits als Mann wahrnimmt. Immerhin haben die beiden Sex miteinander. Aber schwierig bleibt die Situation trotzdem.\r\n\r\nZum anderen ist es in dieser Situation für Thomas aber wichtig, dass er sich nicht von Annas Unsicherheiten beeindrucken lässt. Thomas macht einen großen Fehler, wenn er sich in dieser Situation von Annas Zögern auf Armes Länge halten lässt. Er muss jetzt eine klare Entscheidung fordern oder diese sogar einfach übernehmen. Natürlich kann es sein, dass Anna mit Einwänden gegen eine Beziehung reagieren wird, aber darauf, wie Thomas auf diese am besten reagiert, gehen wir etwas später in diesem Coaching ein. Außerdem ist eine klare Entscheidung die beste Wahl, wenn Thomas nicht weiterhin irgendwo im Niemandsland zwischen Freundschaft und Beziehung gefangen bleiben will.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Gerade dann, wenn Thomas und Anna sich körperlich noch nicht näher gekommen sind, ist es besonders wichtig, dass Thomas eine wichtige weitere Handlungsweise beachtet: ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Nicht mit gemeinsamen Freunden darüber sprechen\r\n\r\nAuf keinen Fall sollte er mit gemeinsamen Freunden darüber sprechen, dass er an einer Beziehung mit Anna interessiert ist. \r\n\r\nSollte er den dümmsten aller Fehler dennoch begehen, wird Folgendes passieren: Die Freunde werden mit Anna darüber sprechen - und zwar bevor Thomas die Gelegenheit haben wird, seine Intention selbst deutlich zu machen oder während er dies tut. Das bedeutet, dass sie Anna entweder zu einer Beziehung mit Thomas raten werden oder eben nicht. Aber auf jeden Fall entsteht auf Annas Seite ein hoher sozialer Druck, sich mit dieser Situation irgendwie auseinanderzusetzen. Und das wirkt sich immer negativ für Thomas aus.\r\n\r\nEs reicht aus, dass Thomas zu einem gemeinsamen Treffen im Freundeskreis einmal fünf Minuten zu spät kommt und diese fünf Minuten sind genug Zeit, sich ausgiebig über dieses Thema mit Anna zu unterhalten, Witze zu reißen, Thomas lächerlich zu machen, Rat zu erteilen und schon hat Thomas verloren. \r\n\r\nAußerdem kann es zusätzlich auch noch passieren, dass die Freunde von eben auf einmal zu Nebenbuhlern werden. Und die befinden sich im Vorteil, denn sie wissen von Thomas' Gefühlen ohne ihre eigenen offenbart zu haben. Auch in dieser Situation ist Thomas definitiv im Nachteil, denn seine Pläne werden durchkreuzt und sabotiert.\r\n\r\nEs ist besser, wenn Thomas und Anna ihren Freundeskreis letztendlich damit überraschen, dass sie Paar sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3. Auf Gelegenheit warten\r\n\r\nZudem ist es nun wichtig, wenn Thomas wirklich die Entscheidung getroffen hat, sich Anna zu nähern, dass er auf Gelegenheiten lauert, in denen er das Freundschaftsmuster durchbrechen kann. Denn genau dort liegt das größte Problem. Die Freundschaft zwischen Thomas und Anna dauert schon so lange und verläuft in gewissen Mustern, dass Thomas diese unbedingt durchbrechen muss, um Anna zu verstehen geben zu können, dass er nicht mehr nur ein Freund sein will.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was muss Thomas nun tun, um nicht weiterhin in der Freundschaftsschiene hängen zu bleiben und um nicht weiterhin von einer Falle in die nächste zu stolpern?\r\n\r\nFolgenden haben wir hier die wichtigsten Tipps für Thomas:\r\n\r\nFallen\r\n1. Der eigene Glaube\r\n\r\nIn einer Freundschaft, die schon so lange dauert, wie die von Anna und Thomas, ist es nicht nur Anna, die sich daran gewöhnt hat, mit Thomas befreundet zu sein. Thomas selbst fühlt sich in seiner Rolle als Freund wohl und hat sich ebenfalls an diese Situation gewöhnt. \r\n\r\nOftmals würde Thomas es jedem anderen, neuen Menschen in Annas Leben eher zutrauen, eine Beziehung mit Ihr eingehen zu können als er selbst. Und das obwohl er Anna schon sehr lange kennt. Aber warum sollte eben jeder Andere eine größere Chance haben, als Thomas selbst?\r\nEs ist wichtig, dass Thomas an sich und vor allem auch daran glaubt, eine Chance bei Anna zu haben.\r\n\r\nUnd er sollte sich bereits jetzt darauf einstellen, dass er auf Widerspruch stoßen wird. Anna fühlt sich in ihrer Freundschaft zu Thomas sicher. Eine Veränderung dieses Zustands bedeutet eben ein Risiko. Thomas muss Anna erst davon überzeugen, dass eine Beziehung es wert ist, dieses Risiko einzugehen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Das Freundschaftsmuster sprengen\r\n\r\nDer wichtigste Schritt ist tatsächlich die Veränderung des Verhaltens und das Durchbrechen der bisher eingefahrenen Freundschaftsmuster. Aber was genau sollte Thomas ändern?\r\n\r\na) Nicht der Berater in Liebesdingen sein\r\nGerade dann, wenn Thomas romantisches Interesse an Anna hat, sollte Thomas es auf jeden Fall vermeiden, in eine \"Berater-Stellung\" zu geraten. Und dies gilt besonders dafür, wenn Anna von ihrem Liebesleben redet. Das heißt, dass Thomas sich deutlich machen sollte, dass er kein Interesse daran hat, mit Anna weiterhin über ihr Liebesleben zu reden. Er muss ihr statt dessen klar und deutlich kommunizieren, dass er für diese klassischen Freundschafts-Dinge nicht (mehr) der richtige Ansprechpartner ist. \r\n\r\nThomas als Mann kann sich dabei ruhig ein bisschen seiner Männlichkeit bedienen: \"Ich bin nicht Deine Freundin mit der Du Dich über andere Männer unterhalten kannst.\" oder \"Für solche Gespräche habe ich zu viel Testosteron im Blut.\"\r\nWäre Anna an Thomas interessiert, könnte Sie in diesem Fall dieses Thema ruhig als langweilig und ermüdend von sich weisen. Wenn Thomas also wieder von seinen Eroberungen berichtet, kann Anna mit \"Langweile mich doch nicht mit diesen Geschichten\" reagieren. Sie kann dabei auch zickig und ungehalten reagieren, um ihre Ablehnung dieses Themas gegenüber deutlich zu machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "b) Den Anderen eifersüchtig machen\r\nWährend Thomas ablehnt mit Anna über ihr Liebesleben zu reden, sollte er Anna aber gleichzeitig eifersüchtig machen. Das heißt nicht, dass er damit angeben sollte, mit wie vielen Frauen er Sex hat oder hatte, sondern dass er Anna erzählt, dass er von Frauen Avancen erhält, sich selbst aber ziert. Wenn Anna hört, dass andere Frauen Thomas sexuell attraktiv finden, wird das ihre Fantasie in dieser Beziehung ebenfalls beflügeln. \r\n\r\nc) Komplimente vertiefen\r\nEine weitere Möglichkeit das Freundschaftsmuster zu sprengen ist außerdem, wenn Thomas Komplimente von Anna vertieft bzw. hinterfragt. \r\n\r\nEin Beispiel: \"Ich fühle mich wohl mit Dir.\" Wenn Anna Thomas ein solches Kompliment macht, könnte Thomas wir folgt reagieren: \"Ach, ist das so?\" Er zweifelt den Wahrheitsgehalt von Annas Aussage an und zwingt Sie damit dazu, Ihr Kompliment weiter zu vertiefen und noch nachzulegen. Ein solches Kompliment kann dann ganz leicht auf die sexuelle Ebene gehoben werden. Gleichzeitig kann er Anna auch selbst sexuell konnotierte Komplimente machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3. Tiefenverständnis vermitteln\r\n\r\nThomas kann Anna ganz einfach darauf aufmerksam machen, dass alle Anderen sie nicht so gut kennen, wie er es tut. Wenn Anna in einem Gespräch von anderen Personen erzählt und eventuell über diese oder gemeinsame Aktivitäten lästert, kann er wie folgt reagieren:\r\n\"Die haben eben einfach keine Ahnung, wie Du wirklich bist.\" Oder \"Wenn die Dich kennen würden, dann wüssten Sie, dass das nichts für Dich ist.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "4. Körperkontakt erhöhen\r\n\r\nEs ist wichtig, dass Thomas neben dem vertiefen von Komplimenten auch den Körperkontakt zu ihr zu erhöht. Das bedeutet, dass Thomas zunächst Zweier-Situationen (Konzert, Kino, Essen etc.) herbeiführen sollte, um bei dieser Gelegenheit die Freundschaftsgrenzen zu durchbrechen. In Gegenwart des Freundeskreises ist das unmöglich. \r\n\r\nWenn sich Thomas und Anna gegenseitig ärgern und necken, kann Thomas das ganz leicht auf die körperlich Ebene heben und mit einem Stoß gegen den Oberarm antworten. Ein solcher Stoß kann dann ruhig auf etwas fester ausfallen, als es für Freunde sonst üblich wäre. Natürlich sollte Thomas Anna nicht weh tun, aber durch einen stärkeren Stoß, verändert sich bei Anna die Emotion, die mit dieser Berührung zusammenhängt.\r\n\r\nEine gute Möglichkeit Körperkontakt zu initiieren ist, wenn Thomas sich Anna von hinten nähert und ihr den Nacken massiert, die Hand auf die Schulter legt, den Hals oder das Ohr küsst etc. Da diese Annäherung nicht im direkten Sichtfeld von Anna stattfindet, kann Sie der Berührung nicht gleich von vornherein ausweichen und so hat Thomas die Möglichkeit, dass Anna neue Emotionen mit einer Berührung von ihm verbindet.\r\n\r\nWie Sie entspannt Körperkontakt herstellen oder auch Körperkontakt eskalieren lassen können, haben wir für Sie in unserem Coaching \"Eskalation zu Intimitäten\" zusammengestellt. Wenn Sie sich für dieses Coaching interessieren, können Sie es im Anschluss an dieses Coaching direkt auswählen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "5. Auf Einwands-Verhandlungen richtig reagieren\r\n\r\nWenn Thomas Anna zu verstehen gegeben hat, dass er an mehr als nur Freundschaft interessiert ist, ist es sehr wahrscheinlich, dass Anna mit verschiedenen Einwänden, die gegen eine Beziehung sprechen, argumentieren wird. Für Thomas ist es nun besonders wichtig, dass er in dieser Situation richtig reagiert.\r\n\r\nKüsst Thomas sie, wie gerade angesprochen, auf den Nacken und Anna reagiert verwirrt und erstaunt - \"Hast Du mich gerade geküsst?\" oder \"Was war das denn eben?\" oder \"Wo kam das denn gerade her?\" - sollte er ebenfalls erstaunt reagieren: \"Ich weiß auch nicht, was das gerade war.\" \"ich habe keine Ahnung, was da gerade passiert ist.\" Es ist wichtig, dass Thomas trotz dieser Reaktion und aller, die wir gleich noch besprechen werden, den eisernen Glauben daran, dass es zur Beziehung kommen kann, nicht verliert.\r\n\r\nEiner der möglichen Einwände von Anna könnte folgender sein: \"Du bist mir als Freund zu wertvoll.\"\r\nDie oft jahrelange Freundschaft wird häufig aus Angst als Entschuldigung benutzt, keine Beziehung mit einem Freund einzugehen. Dieser Einwand von Annas Seite stellt die Wichtigkeit der Freundschaft in den Vordergrund und schafft so einen vermeintlich wichtigen Grund, warum eine Beziehung nicht möglich ist. Thomas muss darauf genauso stark reagieren und den Einwand zu seinem Vorteil nutzen: das Vertrauen in einer Freundschaft ist ein großer Vorteil für eine Beziehung. Freunde sind die besseren Partner. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "5. Auf Einwands-Verhandlungen richtig reagieren - Teil 2\r\n\r\nEine weitere Reaktion von Anna könnte sein: \"Ich weiß nicht, was daraus wird.\"\r\nGesetzt den Fall Thomas und Anna hatten bereits Sex und Anna reagiert, wie eben beschrieben, dann sollte Thomas möglichst entspannt darauf antworten und keine Besitzansprüche stellen. \"Ich weiß es auch nicht.\" Anna könnte Angst davor haben, dass eine Beziehung zu Thomas (oder auch das Scheitern dieser Beziehung) den gemeinsamen Freundeskreis spaltet oder zerstört. Daher sollte sich Thomas zurücklehnen und Anna nicht mit Forderungen erdrücken. Dies gilt für den Fall, indem die beiden erst ein- oder ein paarmal Sex hatten. Läuft Sex schon eine Weile neben der eigentlich freundschaftlichen Beziehung sollte Thomas, wie bereits zuvor erwähnt, auf eine Entscheidung drängen.\r\n\r\nDaher ist es für Thomas wichtig, dass er locker bleibt. Die sich aufbauende Beziehung zu Anna sollte daher geheim gehalten werden. Thomas sollte Anna die Möglichkeit geben, ohne Druck auf die veränderte Situation zu reagieren.\r\n\r\nGeständnisse wie \"Ich bin schon seit 10 Jahren in Dich verliebt:\" müssen unbedingt unterbleiben, da Sie Anna das Gefühl geben könnten, dass Thomas seit 10 Jahren eben kein echter Freund war und somit das Vertrauen zu ihm verliert.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "6. Immer wieder an sich glauben\r\n\r\nWenn Thomas sich dazu entscheidet, mit Anna eine Beziehung eingehen zu wollen und Ihr dies nun auch kommunizieren will, ist es notwendig, dass er immer wieder an seine Vision glaubt. Er sollte sich regelmäßig vor Augen führen, was er will und dann auch daran glaubt, dass er dieses Ziel erreichen kann.\r\n\r\nSelbst wenn Thomas von Anna eine Abfuhr bekommt, kann er zumindest von sich behaupten, dass er alles versucht hat. Und das ist allemal besser, als ewig die Freundschaftsschiene zu fahren und immer zu denken \"was wäre, wenn?\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching \"Aus Freundschaft wird mehr\" durchlaufen. Wir hoffen, Sie haben nun einige Strategien dafür, wie Sie einer Person aus Ihrem Freundes- oder Bekanntenkreis näher kommen können. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

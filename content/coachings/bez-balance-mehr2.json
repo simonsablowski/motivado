@@ -1,0 +1,432 @@
+{
+  "key": "bez-balance-mehr2",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Erinnern Sie noch die Grundlagen Ihrer Beziehung? Bitte gehen Sie das nochmals kurz durch, bevor die nächsten wichtigen Fallen und Strategien zu ihrer Lösung behandelt werden.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Weisheit vom Hund",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Beziehung ist ein Körper der gepflegt werden muss",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Komplimente inkl. Strategie",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Welche Strategie wollen Sie als erstes ausprobieren? \n\nUnd wenn Sie das über den Zeitraum von zwei Wochen probieren, schauen Sie mal, worauf Ihr Partner am meisten reagiert.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "f1446a94f1a94acca1b0be1da35ba627",
+      "title": "Haben Sie das Gefühl, sich mit dem Anderen zu selten zu treffen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V16.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 13
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "f1446a94f1a94acca1b0be1da35ba627 is 1"
+        },
+        {
+          "to": "n008",
+          "if": "f1446a94f1a94acca1b0be1da35ba627 is 2"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "a6d9331b43404d5e8fb2c1dec326d9d4",
+      "title": "Wollen Sie mehr Nähe beim Einschlafen, im Bett? Bzw. wollen Sie das Teil-Coaching dazu?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V18.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 16
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "a6d9331b43404d5e8fb2c1dec326d9d4 is 1"
+        },
+        {
+          "to": "n010",
+          "if": "a6d9331b43404d5e8fb2c1dec326d9d4 is 2"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Mehr Äktivitäten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Strategie zu viel Freunde und Fam",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Nähe beim Einschlafen Strategie",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "f5cee171579444f6bd11e43d0c137af1",
+      "title": "Haben Sie das Gefühl, Ihr Partner liebt Sie nicht so, wie Sie ihn? Bzw. der Partner sagt viel seltener Dinge wie \"Ich liebe Dich.\"?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "f5cee171579444f6bd11e43d0c137af1 is 1"
+        },
+        {
+          "to": "n013",
+          "if": "f5cee171579444f6bd11e43d0c137af1 is 2"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Liebt mich weniger - Sagt seltener I love u",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Wenn Anderer kommt - stabilisieren nicht drauf springen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Noch ein Punkt zu dem \"Ich liebe Dich.\"\n\nManche Menschen haben richtig Angst vor dieser Aussage und würden am liebsten wegrennen wenn der Partner so etwas sagt. Wenn Sie Ihren Partner wirklich lieben, und der Partner vor dieser Aussage Angst hat, dann frage ich Sie: Wollen sie den Partner erschrecken oder wollen Sie, weil Sie ihn lieben, diese Aussage einfach mal für ein paar Wochen runterschlucken und eben den Partner, den Sie lieben, nicht mit dieser Aussage erschrecken?",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Wenn Sie Dinge ausprobieren und es gut läuft, die eine oder andere Strategie probiert haben, kann sein, dass das folgende Element passend sein.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Gratulation zu guter Erfahrung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "Wenn Sie Dinge ausprobieren und es nicht so gut läuft, können Ihnen die folgenden Hinweise helfen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Durchhalten zu schlechter Erfahrung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "TextArea",
+      "key": "rel_balance_mehr2_schoeneaspekte",
+      "title": "Mehr genießen, was Sie haben",
+      "text": "1. Aufgabe: Ziel ist mehr Dankbarkeit für Ihre Beziehung und mehr Freiheit für Ihren Partner zu spüren. Dazu gehört, sämtliche Punkte zu finden, die an dieser Beziehung, diesem Partner besonders schön und gut sind.",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V26.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 69
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Umsetzung der Strategien für Ihre Beziehung",
+      "text": "2. Aufgabe: Versuchen Sie die vorgestellten Strategien, die für Ihre Beziehung passen könnten. Versuchen Sie sie länger aus! Und verlieren Sie nie ein Lachen, auch wenn Sie dazu zu unseren Tricks greifen müssen.",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V27.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 48
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "key": "bez-re-locken-reizen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_LuR_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Angstrengung nötig",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_LuR_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Grundprinzip",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_LuR_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Mensch als Haus",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_LuR_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "6ec9554bd9e34b7aaa0d72b46f945b00",
+      "title": "Ein kurze Frage zwischendurch: \nSind Sie ein Mann oder eine Frau?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Mann"
+          },
+          {
+            "key": 2,
+            "value": "Frau"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "6ec9554bd9e34b7aaa0d72b46f945b00 is 1"
+        },
+        {
+          "to": "n007",
+          "if": "6ec9554bd9e34b7aaa0d72b46f945b00 is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen wir ein Beispiel:\r\n\r\nSie können Ihre Ex-Partnerin necken, indem Sie folgendes sagen: \"Hast Du irgendwas mit Deinen Haaren gemacht? Die haben früher irgendwie mehr geglänzt...\"",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nehmen wir ein Beispiel\r\n\r\nFolgende Beispiele funktionieren eventuell super, weil sie die bisher erwähnten Punkte oben fördern.\r\n\r\n„Oh, deine Hose sitzt aber schlecht. Hast wohl zugenommen?“\r\n\r\n„Ich brauche Hilfe bei meiner Fahrradbremse, aber dich will ich nicht fragen, weil du davon ja keine Ahnung hast. Welcher Deiner Freunde könnte sich da auskennen?“",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Weitere Beispiele fürs Locken und Reizen:\r\n\r\nObwohl es im Kontakt mit dem Anderen gerade nett ist, sind Sie es, der/die\r\n\r\n- früher ein Treffen beenden will als der Andere\r\n- vor dem Anderen das Telefonat beendet\r\n- bei einem Treffen schneller den Ort wechseln will als der Andere\r\n- den Kontakt abbricht, weil Sie noch etwas vor haben",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn sich im Kontakt mit dem Ex-Partner etwas Nähe aufgebaut hat, können Sie schön mit dem Prinzip \"Locken und Reizen\" spielen, indem Sie derjenige sind, der Distanz aufbaut.\r\nHier bieten sich etwa folgende Sätze gut an:\r\n\r\n- Wir brauchen unseren Abstand (nachdem Sie einen angenehmen Kontakt hatten)\r\n- Das sollten wir nicht mehr tun (z.B. nach einem Kuss/einer Umarmung)\r\n- Du solltest jetzt gehen (wenn der Andere noch bleiben will)\r\n\r\nSo kommen Sie aus Ihrer unterlegenen Position raus und \"reizen\" den Anderen in einem guten Sinne.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was passiert bei Ihrem/r Ex-Partner/in, wenn Sie es richtig machen?\r\n\r\nGerade Ex-Partner, die denken, Sie können sich alles erlauben, macht dies stutzig und sie fragen sich: „Hoppla, was ist das denn? Findet der Andere mich nicht mehr so toll? Ich bin doch der Größte!“\r\n\r\nDieser Eindruck ist gut, der Ex-Partner fängt an, an der klaren Zuneigung zu zweifeln und wird wieder offener für mehr Kontakt, denn er sucht nach einem Beweis, dass er tatsächlich der Größte ist.\r\n\r\nEin Mensch ist wie ein Haus. Durch die verschiedenen Türen hat man Zugang zu seinen Emotionen. Bei einer Trennung geht die Vordertür des Partners zu. Wenn Sie den Anderen erreichen wollen, müssen Sie durch spezielle Seitentüren gelangen. Durch diese Seitentüren gelangen Sie nur mit speziellen Mitteln – Locken und Reizen hilft dabei.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtig:\r\n\r\nRegel Nr. 1: Je leichter und verspielter Sie locken und reizen, je mehr Sie dabei lächeln und immer ein Augenzwinkern dabei haben, desto besser. Das geht besonders am Anfang nicht einfach so, dafür müssen Sie üben (mehr dazu gleich).\r\n\r\nRegel Nr. 2: Finden Sie die richtige Mischung. Experimentieren Sie mit verschiedenen Formen des Locken und Reizens und halten Sie fest, auf welche Mittel Ihr Ex-Partner am besten reagiert. (auch dazu gleich mehr)",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Welche Reaktion kommt, wenn Sie es richtig machen\r\n\r\nSie haben das Locken und Reizen richtig gemacht, wenn Ihr Ex-Partner \r\n- verdutzt schaut\r\n- rot wird\r\n- beginnt, sich zu rechtfertigen\r\n- sich etwas ärgert\r\n- etwas beleidigt ist\r\n- ABER TROTZ all dieser Reaktionen das Gespräch nicht abbricht und verlässt, auch wenn er damit droht\r\n- so tut, als hätte er nichts gehört\r\n\r\nSie haben es richtig gemacht, wenn Sie \r\n- besser dastehen als vorher\r\n- in diesem Gespräch etwas mehr die Oberhand haben als zuvor",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Welche Reaktion kommt, wenn Sie es falsch machen\r\n\r\nSie haben das Locken und Reizen falsch gemacht, wenn Ihr Partner\r\n- Ihren Angriff ignoriert und abweisend wird\r\n- arrogant lächelt\r\n- das Gespräch abbricht\r\n- den Ball zurückschießt und Sie noch treffender beleidigt\r\n- gelangweilt ist",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "So reagieren Sie, wenn es falsch läuft\r\n\r\nWenn Sie merken, dass Sie mit Ihrer Locken-und-Reizen-Attacke komplett daneben gelegen haben und eine negative Reaktion erhalten, können Sie es wieder ausbügeln, indem Sie\r\n- sich mit einem Schmunzeln entschuldigen: „Wusste nicht, dass es dich so trifft.“\r\n- bei einer Retourkutsche: die Retourkutsche einfach annehmen, wortlos und mit einem Lächeln, egal was kommt (nicht einbrechen, nicht winseln!)\r\n- charmant lächeln und sagen „Ich dachte nur, du magst es, wenn ich ehrlich bin.“\r\n- zu beschwichtigen „Hey, ist doch nicht so schlimm! Dachte,  du kannst meine Ehrlichkeit locker wegstecken.“\r\n- das Thema wechseln",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was kann schief laufen?\r\n\r\n1) Dass Sie es zu ernst sagen oder dass Sie es zu abrupt sagen. Kommt es komisch an, fühlt sich der Andere vielleicht zu beleidigt. Es geht nur darum, dass Sie den Anderen ein bisschen herausfordern. \r\nAlso üben Sie es vorher: Sagen Sie es locker und mit einem breiten Lächeln auf den Lippen. \r\n\r\n2) Dass Sie nicht die Geduld haben, Ihre Früchte zu ernten. Diese Punkte brauchen Zeit um zu wirken. Manche Punkte müssen Sie sagen und dann ein paar Tage/Wochen vergehen lassen, bis der Partner sich mehr öffnet und wieder mehr für Sie interessiert.\r\n\r\n3) Dass Sie zu hart sind. Bestimmte Dinge sollten Sie nicht sagen und auch nicht durch den Kakao ziehen: z.B. die Familie. Genauso wenig alle anderen Dinge, von denen Sie wissen, dass der Andere dort einen wunden Punkt hat, oder die Sie während Ihrer Beziehung schon einmal kritisiert haben. Es gibt genug andere Beispiele, wie wir Ihnen hier jetzt zeigen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "So bauen Sie Ihre kleine Attacke auf\r\n\r\nEs gibt vier Basis-Arten, mit denen Sie den Anderen locken und reizen können:\r\n1) Positiv/Negativ\r\n2) Ironische Komplimente\r\n3) Auffällige Details\r\n4) Wegstoßen\r\nWie genau jede dieser Arten funktioniert, erfahren Sie, wenn Sie auf ‚Weiter‘ klicken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1) Positiv/Negativ\r\n\r\nBei dieser Art starten Sie mit etwas Positivem und wechseln Sie dann zum Negativen. \r\nDer Andere erzählt zum Beispiel vom Urlaub und Sie sagen \"Interessant! Und die haben dich wirklich in das Land rein gelassen?\" Wenn der Andere verdutzt schaut, frech grinsen.\r\nEs sind diese kleinen Hinterfrager, die den Anderen kurz aus dem Konzept bringen und Sie wieder spannender machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2) Ironische Komplimente\r\n\r\nSie hören dem Anderen zu und bei irgendwelchen Punkten, die Ihnen auffallen, haken Sie nach mit einem ironischen Kompliment. Zum Beispiel erzählt der Andere, dass er neulich für ein paar Freunde gekocht hat. Sie sagen \"Ich bin mir sicher, du hast etwas ganz Hervorragendes gekocht.\" Wichtig ist dabei: \r\n\r\n* Sie müssen kritisch schauen, \r\n* Sie müssen den Blickkontakt halten, damit die Person merkt, dass irgendwas an dem Kompliment nicht stimmt, und \r\n* Sie müssen danach eine Pause machen.\r\n\r\nEs kann sein, dass die Person sich angegriffen fühlt. Umso besser, denn so haben Sie Ihre Einladung zum Abendessen (\"Ich lasse mich gerne bei einem Abendessen vom Gegenteil überzeugen\").\r\n\r\nEs kann sein, dass die Person es nicht merkt. Dann können Sie entweder sagen \"Das war ironisch gemeint\" oder sogar noch einen draufsetzen und sagen \"Naja, deine Freunde müssen schon sehr mutig gewesen sein, sich von dir bekochen zu lassen.\" oder Sie lassen es einfach verstreichen und warten auf die nächste Gelegenheit für ein ironisches Kompliment. \r\n\r\nSo oder so ist so ein ironisches Kompliment eine gute Sache, mit der sie als Zuhörer den Anderen reizen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3) Auffällige Details\r\n\r\nReagieren Sie auf auffällige Details am Anderen. Eine gute Angriffsfläche bietet hier besonders das Äußere. Es ist dabei egal, ob die Person wirklich etwas zwischen den Zähnen hat. Es geht darum, den Anderen aus dem Flow zu reißen und dazu zu bringen, über sich selbst nachzudenken: \r\n\"Ganz kurz, sonst bin ich die ganze Zeit abgelenkt: Hast du gerade Spinat gegessen?\"\r\n\r\nHat der Andere zum Beispiel einen Fleck auf der Hose, weisen Sie ihn vorwurfsvoll darauf hin: \r\n„Was sind das für Flecken auf deiner Hose? Hattest du keine Zeit, dich richtig anzuziehen?“\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein weiteres Beispiel für einen kleinen Dialog:\r\n \r\nSie: \"Lass' mich raten, was du in der letzten Zeit gemacht hast: Du warst im Urlaub in der Karibik!\"\r\nEx: „Äh, nein!“\r\nSie: „Woher dann der Sonnenbrand?“\r\nEx: „Äh, welcher Sonnenbrand?“\r\nSie: „Warum bist Du sonst so rot im Gesicht?“ (BÄHM: Sie haben einen Dämpfer versetzt)\r\nEx: „Äh, ich bin nicht rot“\r\nSie, falls der Andere gar nicht verkraftet: „Vielleicht ist es das Licht.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "4) Wegstoßen\r\n\r\nDer vierte Typ des Locken und Reizens ist, den Anderen mit Worten regelrecht offen wegzustoßen:\r\n\r\nZeit: \r\n- „Lass uns schnell machen, ich hab nur wenig Zeit-„\r\n- „Ich hatte mir nur wenig Zeit gesetzt, weil ich nicht wusste, ob das Gespräch mit dir eine totale Katastrophe wird.“\r\n\r\nKleidung: \r\n-„Deine Jacke ist etwas out!“\r\n- „Der Pulli steht dir nicht, übrigens!“\r\n\r\nSticheleien beim Zuhören: \r\nWenn der Andere etwas positives erzählt, reagieren Sie ungläubig:\r\n- „Das hast du geschafft?“\r\n- „Die haben dich reingelassen?“\r\n- „Die feiern noch mit dir?“\r\n\r\nWenn der Andere etwas Negatives erzählt, reagieren Sie so, als würden Sie sich bestätigt fühlen: \r\n- „So kenn ich meine Julia!“\r\n- „Der Marco, das passt zu ihm!“",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Antworten, die kommen könnten\r\n\r\nNatürlich müssen Sie innerlich gewappnet sein für alle Antworten, die kommen können.\r\n\r\nEs gibt drei Reaktionen Ihres Ex-Partners, auf die Sie besonders gut vorbereitet sein müssen:\r\n\r\n1) Der Andere springt auf den Wagen mit auf. In diesem Fall müssen Sie natürlich mitgehen, schließlich haben Sie damit angefangen. Das ganze mit einem frechen Grinsen. Der Andere soll merken, dass Sie cool sind, obwohl Sie sich mit ihm treffen. Es ist wie das Häschenspiel: Wer sich zuerst duckt, hat verloren.\r\n\r\n2) Der Andere macht Ihnen Vorwürfe: \r\n- „Du bist ein arrogantes Arschloch“\r\n- „Warum sagst du das jetzt?“\r\n- „Das hätte ich von dir als allerletztes erwartet“\r\n- „Gut, dass wir nicht mehr zusammen sind“\r\n\r\nLassen Sie sich davon nicht irritieren! Solche Reaktionen sind nur ein Zeichen, dass das Locken und Reizen klappt. Ihre Reaktion: charmant lächeln und sagen „Ich dachte nur, du magst es, wenn ich ehrlich bin.“\r\n\r\n3) Der Andere bricht ab. In diesem Fall setzen Sie ein verständnisvolles Lächeln auf und lassen den Anderen gehen. Zwei Stunden später können Sie eine Sms schicken mit dem Text „Dumm gelaufen, wollte ich auch nicht. Wir beide können das doch besser, wär ja gelacht. Das holen wir nächste Woche nach.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Mit den Elementen des Locken und Reizens können Sie sich erst wohlfühlen, wenn Sie es geübt haben. \r\n\r\nÜben Sie deshalb, so oft Sie können, mit Bekannten und Fremden, ohne dass diese es wissen, Elemente des Locken und Reizens.\r\n\r\nHalten Sie in einem Notizbuch fest, wie gut Ihnen das gelingt, mit wem Sie es versucht haben, und wie gut Sie die Elemente unterbringen konnten.\r\n\r\nHalten Sie auch fest, was Sie beim nächsten Mal besser machen wollen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Weitere Formen des Locken und Reizen\r\n\r\nSie können nicht nur mit Worten locken und reizen, sondern auch mit Ihrem Körper: Setzen Sie Ihre Körperhaltung und Ihre Augen ein, um den Anderen aus der Reserve zu locken. \r\n\r\nAußerdem können Sie den Anderen auch ganz klassisch auf den Arm nehmen. Wie, das erfahren Sie, wenn Sie auf ‚Weiter‘ klicken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Körperhaltung\r\n\r\nDie Körperhaltung ist sehr wichtig. Damit signalisieren Sie, wo Sie sind. Sind Sie dem Anderen frontal zugewandt, bedeutet das \"Ich bin voll bei Dir\". Je mehr Sie sich abwenden, desto mehr zeigen Sie, dass Sie mit dem Anderen gar nicht mehr richtig reden. \r\n\r\nIndem Sie mit der Körperhaltung arbeiten und sich weg- und hindrehen, signalisieren Sie Interesse und Desinteresse. Die Körperhaltung ist ideal, um den Anderen ein wenig zu reizen, weil er meist gar nicht merkt, was ihn da an Ihnen stört und warum Sie gerade so interessant sind, aber das Gespräch wird intensiviert: Die Person ist Ihnen voll zugewandt und erzählt interessante Sachen, doch Sie sind ein wenig abgewandt. Bewusst oder unbewusst realisiert die andere Person, dass Sie noch nicht voll dabei sind, und setzt sich noch stärker ein, um Ihr Interesse zu wecken.\r\n\r\nNatürlich sollten Sie das nicht zu steif einsetzen. Bewegen Sie sich lässig ein wenig hin und her und schauen Sie, wie die Person darauf reagiert. Das Gespräch wird dadurch spannender.",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Augen\r\n\r\nEin weiteres wichtiges Element aus dem Bereich Körper sind Ihre Augen. Wie schauen Sie? Kritisch, interessiert, fragend? Wo schauen Sie hin? Schauen Sie woanders hin, weil Sie sich langweilen? Gelangweilt schauen wirkt so ähnlich, wie wenn Sie sich mit dem Körper rausdrehen.\r\n\r\nMit Ihren Augen können Sie den Anderen natürlich auch verunsichern. Wenn Sie zum Beispiel sehr ungläubig schauen, während der Andere etwas erzählt, sollten Sie ihn hinterher wieder etwas aufbauen: \"Ich fand die Geschichte super interessant, aber ich hab mich gefragt, ob das alles so stimmen kann.\"\r\n\r\nWas wir Ihnen sagen möchten: Körperhaltung, Blicke, was immer Ihnen einfällt all das können Sie einsetzen, um den Anderen etwas aus seiner Position zu locken und zu verunsichern. Und das ist ein wichtiges Ziel. Wir schauen uns gleich an, warum.",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auf den Arm nehmen\r\n\r\nSie können den Anderen auch ganz klassisch auf den Arm nehmen. Wir haben hier ein paar Beispiele: \r\n\r\nEin Klassiker ist, dem Anderen Ihr leeres Glas in die Hand zu drücken und es dann nicht mehr zurückzunehmen, sondern nur frech zu grinsen.\r\n\r\nOder: Sie sind auf einer Party, der Andere sitzt auf einem Stuhl, Sie sagen \"Kannst Du bitte ganz kurz aufstehen? Ich würde Dir gerne was zeigen.\" Sobald der Andere aufsteht, lassen Sie sich auf den Sitzplatz fallen und grinsen den Anderen verschmitzt an.\r\n\r\nEs geht darum, dass Sie der Person zeigen, dass Sie Mumm haben und nicht allzu viel Respekt. \r\n\r\nWichtig dabei: Zeigen Sie immer gute Laune! Der Andere muss merken, dass es nicht böse oder ernst gemeint ist, sondern dass Sie ihn nur ein wenig necken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "Wieder einfangen\r\n\r\nNachdem Sie Elemente des Locken und Reizens eingesetzt haben, sollten Sie wieder auf Friede und Freude umschalten, so lange bis der Andere sich wieder entspannt. Der Wechsel macht’s!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Warum funktionieren diese Sachen so gut?\r\n\r\nDa Sie derjenige sind, der diese Person zurückerobern möchte, sind Sie in der schwächeren Position. Der, der was will, ist immer in der schwächeren Position, denn der Andere kann sich entscheiden, ob er es geben will oder nicht. Indem Sie jetzt den Anderen necken, reizen und auf den Arm nehmen, signalisieren Sie \"Soviel Respekt habe ich auch nicht von Dir\" oder \"So toll, wie du vielleicht denkst, dass du für mich bist, bist du vielleicht doch nicht.\" \r\n\r\nSie kommen von einer schwächeren Position in eine stärkere Position. Wenn Sie es sehr gut machen, kommen Sie vielleicht sogar in die stärkere Position. Der Andere überlegt sich jetzt \"Vielleicht habe ich einen Fehler gemacht. Vielleicht ist der Andere doch spannender, als ich dachte.\" Wenn Sie den Anderen da haben, ist es wunderbar: Alles wird leichter gehen. \r\n\r\nABER: Machen Sie nicht den Fehler, jetzt Ihre Strategie fallen zu lassen und sich wieder überfreundlich anzubiedern. Denken Sie daran: Die Rückeroberung geht immer nur Schritt für Schritt vorwärts. Ein Sieg im Locken und Reizen bringt Sie nur ein Stück weiter, niemals gleich zum Ziel.",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vielleicht sagen Sie jetzt \"Sowas macht man nicht...\". \r\n\r\nDoch! Sowas macht man! Wenn Sie für den Anderen wieder attraktiv werden wollen, dann sollten Sie das unbedingt tun.\r\nZur Erinnerung:\r\n- vergessen Sie nicht zu lachen \r\n- vergessen Sie nicht zu schmunzeln\r\n- vergessen Sie nicht, hinterher dem Anderen die Hand auf die Schulter zu legen und zu sagen \"Nimm das nicht so ernst!“\r\nWenn Sie eine Seitentür gefunden haben, durch die Sie an den Anderen rankommen, dann trauen Sie sich ruhig, diese Tür immer wieder zu verwenden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit Sie wirklich üben:\r\n\r\nIn den nächsten 14 Tagen werden Sie das Locken und Reizen mindestens einmal pro Tag anwenden. Nehmen Sie sich Ihr Notizbuch, tragen Sie Tag und Datum der nächsten zwei Wochen ein und probieren Sie die verschiedenen Elemente aus. \r\nFamilie, Freunde, Bekannte und Kollegen eignen sich sehr gut. Noch besser wären fremde Leute, zum Beispiel die Bedienung im Kaffee. \r\n\r\nSchreiben Sie auf, wie es gelaufen ist. \r\n\r\nUnd wenn es nur der alte Klassiker ist: Sie hören zu und sagen \"Wow, spannend, was du da gerade erzählst, aber wo ist der Bus?\" \r\nEx: \"Welcher Bus?\" \r\nSie: \"Na, der Bus mit den Menschen, die das gerade interessiert\".\r\n\r\nMit den Elementen des Locken und Reizens können Sie sich erst wohlfühlen, wenn Sie es geübt haben. \r\n\r\nEs wegzulassen würde bedeuten, auf eine riesige Chance zu verzichten, den Partner sicheren zurückzuerobern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching 'Den Ex-Partner locken und reizen', mit dem Sie wunderbare Erfolge für Ihre Rückeroberung erreichen können. Hoffentlich haben Sie sich Notizen gemacht, damit Sie gleich heute mit dem Üben anfangen können.\r\n\r\nWir freuen uns immer über Feedback. Nichts ist schöner als Anekdoten aus dem Bereich 'Locken und Reizen'.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": "bez-re-bruecke2",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Abfrage Ausloggen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_ZwischenInfo_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das wichtigste für uns ist es, dass es Ihnen bald wieder besser geht. Daher leiten wir Sie nun zu allererst in unsere Liebeskummer-Coachings.\r\nHier haben wir viele praktische Tipps zusammengestellt, die Ihnen dabei helfen, Ihren Schmerz zu verringern und sich selber wieder aufzubauen.\r\nBitte beachten Sie: um unsere Strategie umzusetzen ist es äußerst wichtig, dass Sie ihren Liebeskummer zumindest ein Stück weit überwunden haben.\r\nNutzen Sie daher unbedingt die Zeit der Kontaktsperre um sich selber etwas Gutes zu tun und durchlaufen Sie die Liebeskummer-Coachings ruhig mehrmals. ",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

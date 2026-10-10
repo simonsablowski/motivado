@@ -1,0 +1,65 @@
+{
+  "key": "bez-pp-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Buy",
+      "key": null,
+      "title": "Ernten was wir säen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V3.flv"
+        },
+        "key": "bez-pp-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

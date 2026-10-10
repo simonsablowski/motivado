@@ -1,0 +1,822 @@
+{
+  "bez-affaere-beenden": {
+    "title": "Affäre beenden",
+    "subtitle": "Wie beendet man sauber eine Affäre?",
+    "description": "Sie haben eine Affäre und wollen Sie beenden? Aber Sie wollen dies möglichst anständig über die Bühne bringen? Wir zeigen Ihnen wie es am besten klappt."
+  },
+  "bez-affaere-beziehung-parallel": {
+    "title": "Affäre oder Beziehung?",
+    "subtitle": "Wenn Sie sich für entscheiden müssen",
+    "description": "Sie sind in einer Partnerschaft und haben trotzdem nebenher noch eine Affäre? Sie brauchen Unterstützung um eine Entscheidung zu treffen oder Klärung für sich haben in welche Richtung sie eigentlich gehen wollen? Sie wollen wissen wie es überhaupt dazu kommen konnte? In diesem Coaching finden Sie die passenden Antworten"
+  },
+  "bez-affaere-zu-beziehung": {
+    "title": "Von der Affäre zur Beziehung",
+    "subtitle": "Wie Sie mehr daraus machen",
+    "description": "Sie sind in einer Affäre und es gab bereits Zärtlichkeiten und Co.? Jetzt wollen Sie Nägel mit Köpfen machen? Hier lernen Sie, wie Sie dem Anderen Lust auf eine Beziehung mit Ihnen machen ohne ihn zu verschrecken."
+  },
+  "bez-angenehme-gespraeche": {
+    "title": "Angenehmere Gespräche führen",
+    "subtitle": "Indem Sie das Ziel vor Augen behalten",
+    "description": "Sie können sehr viel tun, um das Gespräch bei einem Flirt in die richtige Richtung zu lenken. Lassen Sie sich von uns inspirieren!"
+  },
+  "bez-balance-mehr1": {
+    "title": "Zu hohe Ansprüche",
+    "subtitle": "Erwartungen ins Lot bringen",
+    "description": "Sie erwarten von Ihrem Partner mehr als er geben kann oder will? Wichtig in einer Beziehung ist die Balance solcher Ansprüche. Erfahren Sie in diesem Coaching wie auch Sie Ihre Beziehung und deren Ansprüche wieder ins Gleichgewicht bringen können."
+  },
+  "bez-balance-mehr2": {
+    "title": "Ich will mehr als mein Partner",
+    "subtitle": "Wenn Sie zu viel verlangen",
+    "description": "Sie wollen mehr als der Andere? Und Sie leiden darunter? Wie gelingt es, dass der Andere gern mehr gibt? Oder sollte nicht lieber der Partner von alleine kommen? Erfahren Sie wie man das vorherrschende Ungleichgewicht wieder in ein Gleichgewicht wandeln kann."
+  },
+  "bez-balance-weniger": {
+    "title": "Ich will weniger als mein Partner",
+    "subtitle": "Wenn der Partner zuviel verlangt",
+    "description": "Ihre Beziehung fühlt sich völlig in Ordnung an aber der Andere erdrückt Sie mit Anforderungen? Wie so etwas ensteht und wie Sie wieder zu einer gesunden Balance kommen zeigen wir Ihnen in diesem Coaching"
+  },
+  "bez-betrogen": {
+    "title": "Umgang mit Betrug",
+    "subtitle": "Was tun, wenn der Andere betrogen hat?",
+    "description": "Herauszufinden, dass man betrogen wurde ist eine große Enttäuschung und Demütigung. Damit Sie einen Rest an Würde bewahren, haben wir dieses Coaching erstellt. Wir zeigen Ihnen, was Sie tun können, um nicht noch mehr verletzt zu werden."
+  },
+  "bez-betrogen-unsicher": {
+    "title": "Wurde ich betrogen?",
+    "subtitle": "Wenn Sie Klarheit suchen",
+    "description": "Nicht zu wissen, ob man betrogen wurde kann einen Menschen in den Wahnsinn treiben. Wir helfen Ihnen, Klarheit in Ihre Situation zu bringen."
+  },
+  "bez-bez-check": {
+    "title": "Beziehungs-Check",
+    "subtitle": "Wie gut ist Ihre Beziehung?",
+    "description": "Finden Sie mit uns heraus, was in Ihrer Beziehung gut funktioniert und woran Sie gegebenfalls noch arbeiten sollten."
+  },
+  "bez-bezstaerken-koerper": {
+    "title": "Beziehungskörper",
+    "subtitle": "Die Beziehung im Alltag 'fit' halten",
+    "description": "Viele Beziehungen werden vom Alltag zerstört. Damit Ihnen dies nicht passiert, braucht Ihre Partnerschaft Training. Was Sie tun können, um Ihre Beziehung zu schützen erfahren Sie hier im Coaching?"
+  },
+  "bez-bezstaerken-kommunizieren": {
+    "title": "Richtig kommunizieren",
+    "subtitle": "Mit Worten die Beziehung retten",
+    "description": "Psychologische Untersuchungen zeigen: Schlechte Kommunikation kann Ihre Beziehung stark gefährden! Mit den Kniffen aus diesem Coaching lernen Sie, wie Sie Ihre Paar-Gespräche erfüllender gestalten. Lernen Sie jetzt, wie Sie ihren Partner besser verstehen und kennenlernen!"
+  },
+  "bez-bezstaerken-partner-lesen": {
+    "title": "Sich \"lesen\" lernen",
+    "subtitle": "Den Partner deuten und einschätzen können",
+    "description": "Viele Partner leben aneinander vorbei, ohne dass sie es bemerken. Wissen Sie genau, wie Ihr Partner tickt? Finden Sie es heraus, indem Sie mit speziellen Übungen Ihr Feingefühl verbessern!"
+  },
+  "bez-bezstaerken-verhalten": {
+    "title": "Fehler im Verhalten",
+    "subtitle": "Durch kleine Gesten die Liebe aufleben lassen",
+    "description": "Haben Sie manchmal das Gefühl, Ihre Beziehung war früher stärker als heute? Im Laufe einer Beziehung werden beide Partner oft nachlässig. Erfahren Sie, wie Sie Ihre Partnerschaft durch wertschätzenderes Verhalten wieder aufpeppen können."
+  },
+  "bez-casual-check": {
+    "title": "Casual Partner Check",
+    "subtitle": "Der Check zu Ihrem potentiellen Partner",
+    "description": "Wie gut passt der potentielle Partner zu mir? Bin ich nur verknallt und sehe gar nicht, dass man auf Dauer nicht gut zueinander passt? Gehen Sie in diesem Coaching alle Punkte durch, die eine solche Entscheidung beeinflussen sollten."
+  },
+  "bez-date": {
+    "title": "Das Date",
+    "subtitle": "Entspannt den ersten Schritt meistern",
+    "description": "Stockende Gespräche oder Schweißausbrüche? Keine Panik! Wir sagen Ihnen genau, wie Ihr Date zu einem unvergesslichen Erlebnis wird."
+  },
+  "bez-eif-partner": {
+    "title": "Eifersüchtiger Partner",
+    "subtitle": "Veränderung Schritt für Schritt",
+    "description": "Beziehungs-Coach Emanuel Alber zeigt Ihnen, was Sie tun müssen, um mit einem eifersüchtigen Partner umzugehen. Dabei gilt es behutsam zu sein. Eifersucht ist sehr impulsiv. Eine falsche Aktion könnte dann alles noch schlimmer machen."
+  },
+  "bez-eif-selbst": {
+    "title": "Eigene Eifersucht",
+    "subtitle": "Selbstkontrolle als neue Chance",
+    "description": "Ihr Partner hat das Gefühl durch Sie eingeschränkt zu sein? Und keiner ist damit glücklich? Dann können Sie jetzt etwas ändern. Lernen Sie war Eifersucht ist und wie man damit umgeht. Dann sehen Sie beide in eine gemeinsame Zukunft."
+  },
+  "bez-einstellung-affaere": {
+    "title": "Die richtige Einstellung zur Affäre",
+    "subtitle": "Die richtige Haltung zu Affären entwickeln",
+    "description": "Sie möchten eine Affäre, haben aber Skrupel? Wir zeigen Ihnen, wie Sie sich selbstbewusst für oder gegen eine Affäre entscheiden und auch, wie Sie Ihren Affären-Partner für sich gewinnen."
+  },
+  "bez-einstellung-sex": {
+    "title": "Die richtige Einstellung zu Intimitäten",
+    "subtitle": "Zu mir oder zu dir?",
+    "description": "Auch in Sachen Verführung und Annäherung spielt Ihre Einstellung eine wesentliche Rolle. Wir erklären Ihnen, wie Sie mit einer entspannten Haltung für die richtige Stimmung sorgen."
+  },
+  "bez-eroberung-email": {
+    "title": "Eroberung per Email",
+    "subtitle": "Mit Worten begeistern",
+    "description": "In einer E-Mail ist es nicht immer leicht den richtigen Ton zu treffen. Wir bringen Ihnen bei, E-Mails so zu verfassen, dass sie lange in Erinnerung bleiben."
+  },
+  "bez-eroberung-tel": {
+    "title": "Eroberung am Telefon",
+    "subtitle": "Liebesgeflüster",
+    "description": "Telefonate mit dem neuen Schwarm machen Spaß. Doch Achtung, auch hier gilt es einige Punkte zu beachten."
+  },
+  "bez-eskalation": {
+    "title": "Eskalation zu Intimitäten",
+    "subtitle": "Die Kunst der Verführung",
+    "description": "Das Date lief super und nun soll es noch besser werden. Wir erklären Ihnen an praktischen Beispielen, wie Sie Ihr Date verführen."
+  },
+  "bez-ex-check": {
+    "title": "Ex-Partner-Check",
+    "subtitle": "Ist der Ex-Partner es auch wirklich wert?",
+    "description": "Prüfen Sie zusammen mit uns, ob ihr Ex-Partner WIRKLICH zu Ihnen gepasst hat. Oder wünschen Sie sich Ihren Ex-Partner aus falsche Beweggründe, wie z.B. der Angst vor dem Alleinsein, zurück."
+  },
+  "bez-exdenex": {
+    "title": "Ex den Ex",
+    "subtitle": "Wenn Sie jemandem nachtrauern",
+    "description": "Viele Singles scheitern daran, dass sie durch eine frühere Beziehung noch blockiert sind. Oft geschieht das ganz unbewusst. Schauen Sie sich dieses Coaching an, um auf Nummer sicher zu gehen, dass Ihnen das nicht passiert!"
+  },
+  "bez-fit-fuer-partner": {
+    "title": "Fit für den Partner",
+    "subtitle": "So macht Bewegung wieder Spaß",
+    "description": "Welcher Zeitpunkt wäre idealer um wieder in Form zu kommen als die Phase der Partnersuche? Wir geben Ihnen den nötigen Motivationsschub."
+  },
+  "bez-geruch": {
+    "title": "Geruch",
+    "subtitle": "Immer gut duften",
+    "description": "Viele Menschen stolpern an dieser Stelle, ohne es zu wissen. Denn selten erhält man Feedback, wenn man unangenehm riecht. Hier helfen wir Ihnen, solche Situationen zu vermeiden und immer ein dufter Partner zu sein."
+  },
+  "bez-haare": {
+    "title": "Haare und Frisur",
+    "subtitle": "Den richtigen Look finden",
+    "description": "Haare galten von je her als sinnlich und anziehend. Holen Sie sich hier Anregungen, wie Sie Ihre Haare vorteilhaft in Szene setzen."
+  },
+  "bez-intimhygiene": {
+    "title": "Intim-Hygiene",
+    "subtitle": "Damit es nicht peinlich wird",
+    "description": "Intim-Hygiene ist ein Thema, über das sich die wenigstens Menschen zu reden trauen. Wir verraten Ihnen, worauf Sie achten sollten, damit es nicht zu unangenehmen Überraschungen kommt."
+  },
+  "bez-kennenlernen-diaet": {
+    "title": "Ernährung und Diät leicht gemacht",
+    "subtitle": "Mit kleinen Kniffen zu einer tollen Figur",
+    "description": "Sie fühlen sich beim Date unsicher, weil sie mit ihrer Figur unzufrieden sind? Oder trauen sich deswegen gar nicht erst ein Date einzugehen? Mit grundlegenden Tipps für eine bessere Ernährung und somit auch für einer Wohlfühlfigur und einem gesünderen Körper zeigt Ihnen dieses Coaching wie Sie das ändern können."
+  },
+  "bez-kennenlernen-negativinfos": {
+    "title": "Mit Negativinformationen umgehen",
+    "subtitle": "Sich nicht mehr aus dem Konzept bringen lassen!",
+    "description": "Sie sind mit Ihrem Date zusammen und etwas läuft nicht so wie geplant? Wie Sie trotzdem souverän bleiben und die Situation cool abtun zeigen wir Ihnen in diesem Coaching."
+  },
+  "bez-kennenlernen-soz-netzwerke": {
+    "title": "Soziale Netzwerke und Communities",
+    "subtitle": "Näher kennenlernen im Internet",
+    "description": "Benutzen Sie Ihr Profil in einem Sozialen Netzwerk auch nur dafür, Ihre Verwandten, Kollegen und Freunde zu verwalten und organisieren? Dann entgeht Ihnen die Chance, dort einen potentiellen Partner kennenzulernen und ihm näher zu kommen. Mit unserem Coaching wird es für Sie ein leichtes sein, die Informationen, die Sie über andere herausfinden können, richtig zu nutzen und ein wirklich gutes Profil in einem Sozialen Netzwerk anzulegen und damit Ihre Chancen erhöhen einen interessanten Partner im Internet kennen zu lernen."
+  },
+  "bez-kleidung": {
+    "title": "Kleidung",
+    "subtitle": "Kleider machen Leute",
+    "description": "Über Ihre Kleidung senden Sie viele interessante Signale an einen potenziellen Partner. Lassen Sie sich von uns inspirieren und entdecken Sie den Spaß am richtigen Styling."
+  },
+  "bez-konstruktive-vision": {
+    "title": "Beziehungsvision",
+    "subtitle": "Eine tolle Beziehung anziehen",
+    "description": "Ziele erreichen wir leichter, wenn wir genau wissen, wo wir hin möchten. Das gilt für eine glückliche Beziehung genauso wie für berufliche Herausforderungen. Entwickeln Sie mit uns Ihre persönliche Beziehungsvision und erreichen Sie Ihr Ziel so schneller und leichter."
+  },
+  "bez-laecheln-haende-haut": {
+    "title": "Lächeln, Hände, Haut",
+    "subtitle": "Was man immer sieht",
+    "description": "An dieser Stelle können Sie ohne großen Aufwand viel bewirken. Finden Sie heraus, was Sie für eine noch bessere Ausstrahlung tun können."
+  },
+  "bez-lk-1": {
+    "title": "Was ist Liebeskummer?",
+    "subtitle": "Was in meinem Körper los ist",
+    "description": "Sie lernen die physischen uns psychischen Prozesse Ihres Gehirns zu vestehen. Was passiert mit Ihnen? Warum fühlen Sie sich so schlecht? Dieses Coaching liefert die Grundlagen"
+  },
+  "bez-lk-2": {
+    "title": "Die ersten Schritte",
+    "subtitle": "Mit Liebeskummer umgehen lernen",
+    "description": "Wir spinnen Ihr Unterstützungsnetz für die kommende Zeit. Mit Aktivitäten, Checklisten und Unterstützung von Freunden."
+  },
+  "bez-lk-3": {
+    "title": "Eine neue Aufgabe",
+    "subtitle": "Es gibt mehr als nur Liebeskummer",
+    "description": "Hier finden Sie Übungen, um über den Tellerrand hinaus zu sehen. Sie finden damit neue Ziele und auch wieder Spaß am Leben."
+  },
+  "bez-lk-4": {
+    "title": "Verfestigung",
+    "subtitle": "Neues Verhalten für neues Glück",
+    "description": "Nachdem Sie die ersten Schritte durchlaufen haben, gilt es jetzt wieder in die Normalität einzusteigen. Mit all den schönen Entdeckungen, die es zu machen gilt."
+  },
+  "bez-lk-letgo": {
+    "title": "Wie lasse ich richtig los?",
+    "subtitle": "Sich endlich lösen um bereit für Neues zu sein.",
+    "description": "Sie hängen noch an Ihrem Ex-Partner, ob sie wollen oder nicht? Und sie wissen nicht so richtig wie Sie den Anderen endlich aus dem Kopf bekommen können? Lassen Sie sich von diesem Coaching unterstützen endlich einen Schlussstrich zu ziehen um aufgeschlossen für alles in die Zukunft zu schauen!"
+  },
+  "bez-locken-reizen": {
+    "title": "Locken und Reizen im Gespräch",
+    "subtitle": "Den Anderen überraschen",
+    "description": "Locken und Reizen ist eine ganz spezielle Technik mit einem großen Effekt. Dabei spielen Sie gekonnt mit Nähe und Distanz. Probieren Sie es aus und seien Sie erstaunt, was sich auf einmal alles ergibt."
+  },
+  "bez-make-up": {
+    "title": "Make-up",
+    "subtitle": "Kleine Makel kaschieren",
+    "description": "Für die meisten Frauen gehört das Schminken zum Alltag. Allerdings weiß nicht jede, was gut zum eigenen Typ passt. Wir geben Ihnen die entscheidenden Hinweise."
+  },
+  "bez-naeherkommen-gruppen-feste": {
+    "title": "Näher kommen in Gruppen und auf Festen",
+    "subtitle": "Als wären Sie zu zweit",
+    "description": "In einer Gruppe zu flirten ist gar nicht so leicht. Schließlich möchte man nicht nur den Schwarm beeindrucken, sondern auch vor den Anderen gut rüberkommen. Wir zeigen Ihnen, wie es rund läuft."
+  },
+  "bez-nur-affaere": {
+    "title": "Nur eine Affäre",
+    "subtitle": "Wie sollte sich eine gute Affäre gestalten?",
+    "description": "Wie schaffen Sie die nötigen Voraussetzungen, um eine Affäre dauerhaft aufrecht erhalten zu können? Oder wie vermeiden Sie es, dass Ihre Affäre abbricht, weil Ihr Gegenüber mehr erwartet? Dieses Coaching zeigt Ihnen Wege die Affäre dauerhaft zu halten"
+  },
+  "bez-od-chatten": {
+    "title": "Richtig Chatten",
+    "subtitle": "Spannung statt Langeweile",
+    "description": "Das Chatten spielt beim Online-Dating ein große Rolle. Hier kann man zwanglos miteinander in Kontakt treten und ein Gefühl für die Persönlichkeit des Anderen bekommen. Wir erklären Ihnen, wie Sie dabei eine gute Figur machen."
+  },
+  "bez-od-kontakte": {
+    "title": "Erfolgreich Kontakte knüpfen",
+    "subtitle": "Der erste Schritt",
+    "description": "Sie haben jemanden entdeckt, der Sie interessiert und möchten nun Kontakt herstellen ohne sich aufzudrängen? Dieses Coaching erklärt Ihnen, was Sie jetzt tun sollten."
+  },
+  "bez-od-nachrichten": {
+    "title": "Die perfekte Antwortmail",
+    "subtitle": "Ein gutes virtuelles Gespräch",
+    "description": "Nachdem das Eis gebrochen ist, soll Ihr Gesprächspartner Lust auf mehr bekommen. Wie Sie das hinkriegen, zeigen wir Ihnen hier."
+  },
+  "bez-od-nachrichten-verfassen": {
+    "title": "Sehr gute Nachrichten verfassen",
+    "subtitle": "Mehr Antworten auf Ihre Nachrichten",
+    "description": "Gerade besonders spannende Menschen, die auf Dating-Plattformen aktiv sind, erhalten viele Nachrichten. Damit Ihre Nachricht nicht untergeht, sondern positiv auffällt, holen Sie sich hier Tipps und Tricks."
+  },
+  "bez-od-profil": {
+    "title": "Ein spannendes Profil",
+    "subtitle": "Der erste Eindruck zählt",
+    "description": "Ihr Profil ist das erste, das andere Nutzer von Ihnen sehen. Wir zeigen Ihnen, wie Sie einen bleibenden Eindruck hinterlassen."
+  },
+  "bez-od-telefon": {
+    "title": "Erfolg beim Telefonieren",
+    "subtitle": "Auf dem Weg zum ersten Treffen",
+    "description": "Das erste Telefonat ist immer besonders spannend. Wie klingt der Andere? Mag ich seine/ihre Stimme und die Art zu reden? Hier trennt sich die Spreu vom Weizen. Damit es gut läuft, bereiten Sie sich hier mit uns vor."
+  },
+  "bez-orgasmus": {
+    "title": "Orgasmus",
+    "subtitle": "So wird es ein echter Höhepunkt",
+    "description": "Viele Mythen ranken sich um den Orgasmus, so dass bei Frauen und Männern gleichermaßen Verunsicherung herscht. Hier finden Sie alles, was Sie wirklich wissen müssen."
+  },
+  "bez-partner-check": {
+    "title": "Partner-Check",
+    "subtitle": "Passt Ihr Partner zu Ihnen?",
+    "description": "Wie gut Sie und Ihr Partner passen, können nur Sie entscheiden. Dieser Testhilft Ihnen dabei, damit Sie am Schluss ein Bauchgefühl haben, ob es passt oder nicht."
+  },
+  "bez-power-einstellung": {
+    "title": "Die Power-Einstellung",
+    "subtitle": "Die Kraft der richtigen Gedanken",
+    "description": "Unsere Einstellungen prägen unser Verhalten und unsere Entscheidungen. Hier können Sie eine Einstellung entwickeln, mit der Sie leichter in eine glückliche Beziehung kommen."
+  },
+  "bez-rapid-left": {
+    "title": "Schnell verlassen werden",
+    "subtitle": "Was mache ich falsch?",
+    "description": "Gehen Ihre Beziehungen schnell wieder auseinander? Oder entwickelt sich erst gar nichts Ernsthaftes? Wenn das auf Sie zutrifft sollten Sie sich unbedingt dieses Coaching anschauen."
+  },
+  "bez-rapid-ruin": {
+    "title": "Der Beziehungskiller",
+    "subtitle": "Wie sich manche Menschen selbst blockieren",
+    "description": "Passiert es Ihnen oft, dass Sie in einer neuen Beziehung schnell das Interesse verlieren und das Bedürfnis haben auszubrechen? Dann ist dieses Coaching genau das richtige für Sie."
+  },
+  "bez-re-aktionen": {
+    "title": "Erfolgreiche Aktionen",
+    "subtitle": "So erreichen Sie Ihren Ex",
+    "description": "Die Motivado-Strategie besteht aus einem Wechsel von Kontaktsperren und gezielten Aktionen.\nWas eine gute Aktion von einer schlechten unterscheidet, lernen Sie hier."
+  },
+  "bez-re-bewegung": {
+    "title": "Bewegung und Sport",
+    "subtitle": "Machen Sie sich fit und attraktiv",
+    "description": "Wir erklären Ihnen, wie Ihnen Bewegung dabei hilft Ihren Liebeskummer zu bekämpfen. Sie werden sich wohler und attraktiver fühlen."
+  },
+  "bez-re-chancen": {
+    "title": "Chancen",
+    "subtitle": "Wie gut stehen Ihre Chancen?",
+    "description": "Wie lange ist Ihre Beziehung her? Wer hat Schluss gemacht?\nWir analysieren, wie leicht oder schwer es ist, Ihren Ex-Partner zurück zu gewinnen, und empfehen Ihnen eine für Ihren Fall passende Strategie."
+  },
+  "bez-re-donts": {
+    "title": "Dos & Don'ts",
+    "subtitle": "Was sollte ich tun und was lassen?",
+    "description": "Wir geben Ihnen die wichtigsten Punkte an die Hand, damit Sie nicht die klassischen Fehler begehen."
+  },
+  "bez-re-fallen": {
+    "title": "Typische Fallen",
+    "subtitle": "Fehler einfach vermeiden",
+    "description": "Es gibt ein paar ganz klassische Fallen, in die die meisten Menschen nach einer Trennung tappen.\nDamit Ihnen das nicht passiert, haben wir die wichtigsten Dinge hier zusammengetragen."
+  },
+  "bez-re-grundlagen": {
+    "title": "Grundlagen",
+    "subtitle": "Der wichtigste Schritt ist immer der erste",
+    "description": "Wir erläutern Ihnen, wie unser Rückeroberungs-Programm aufgebaut ist und was Sie unbedingt beachten sollten."
+  },
+  "bez-re-kontaktsperre": {
+    "title": "Kontaktsperre",
+    "subtitle": "Weniger ist mehr!",
+    "description": "Der häufigste Fehler in der Rückeroberung ist es, dem Anderen die Freiheit zu entsagen, die er eingefordert hat.\nWir drehen den Spieß um und sorgen dafür, dass Ihr Ex-Partner Sie vermisst."
+  },
+  "bez-re-locken-reizen": {
+    "title": "Locken und reizen",
+    "subtitle": "Die hohe Kunst der Verführung",
+    "description": "Um Ihren Partner zurückzugewinnen, ist die Richtung Mischung aus Nähe und Distanz besonders wichtig. Wir erklären Ihnen, wie Sie den Anderen aus der Reserve locken."
+  },
+  "bez-re-selbstbewusstsein": {
+    "title": "Selbstbewusstsein",
+    "subtitle": "Ihre beste Waffe im Arsenal",
+    "description": "Je mehr Selbstbewusstsein Sie ausstrahlen, umso attraktiver wirken Sie.\nWir zeigen Ihnen, wie Sie Ihr angeschlagenes Ego wieder aufbauen!"
+  },
+  "bez-re-sms": {
+    "title": "SMS und E-Mails",
+    "subtitle": "Kleine Texte mit großer Wirkung",
+    "description": "Ex-Partner kommunizieren häufig nicht von Angesicht zu Angesicht. Wir zeigen Ihnen, wie Sie auch hier eine gute Figur machen und der Andere wieder Lust auf mehr bekommt."
+  },
+  "bez-re-spannend": {
+    "title": "Wieder spannend werden",
+    "subtitle": "Neuer Zauber",
+    "description": "Am Anfang Ihrer Beziehung waren Sie für Ihren Partner das Spannendste auf der Welt.\nDa soll es wieder hingehen!"
+  },
+  "bez-re-strategie": {
+    "title": "Die Strategie",
+    "subtitle": "Wir nehmen Sie an die Hand!",
+    "description": "Unser Programm verfolgt eine ganz klare Strategie. Hier erklären wir Ihnen, wie sie funktioniert und warum sie so erfolgreich ist."
+  },
+  "bez-re-treffen": {
+    "title": "Treffen mit dem Ex-Partner",
+    "subtitle": "Die wichtigsten Regeln",
+    "description": "Ob zufällig oder geplant - wenn Sie den Ex-Partner treffen, wird es spannend. Wir zeigen Ihnen, wie Sie sich am besten verhalten."
+  },
+  "bez-re-vision": {
+    "title": "Vision",
+    "subtitle": "Mit einem Ziel vor Augen geht alles leichter",
+    "description": "Darum erarbeiten wir gemeinsam eine Vision dazu, wie Ihr Erfolgsfall aussehen würde. So können\nwir effektiver darauf hinarbeiten."
+  },
+  "bez-re-zeitlimit": {
+    "title": "Zeitlimit",
+    "subtitle": "Wie lange möchten Sie es versuchen?",
+    "description": "Damit Sie nicht unter die Räder geraten, sollten wir von Anfang an ein klares Zeitlimit festlegen.\nEs macht nämlich keinen Sinn, einer alten Beziehung zu lange hinterher zu rennen."
+  },
+  "bez-selbstbewusstsein-partner": {
+    "title": "Selbstbewusstsein für Ihren Partner",
+    "subtitle": "Bei sich selbst anfangen",
+    "description": "Nur wer sich selbst liebt, kann von anderen geliebt werden. Diesen Satz haben Sie sicher schon eimal gehört. Aber was steckt dahinter? Und warum ist das eigene Selbstbewusstsein für eine gesunde Beziehung so wichtig?"
+  },
+  "bez-sex-basics": {
+    "title": "Wichtiges in Sachen Sex",
+    "subtitle": "Was Sie auf jeden Fall wissen sollten",
+    "description": "Sex ist überall. Trotzdem sprechen wir nur sehr selten über das, was Sex wirklich ausmacht. Hier erfahren Sie es!"
+  },
+  "bez-smalltalk": {
+    "title": "Guter Small-Talk",
+    "subtitle": "Die Kunst des Smalltalks beherrschen",
+    "description": "Smalltalk ist eine hilfreiche Kunst die viele unterschätzen. Dabei kann gut beherrschter Smalltalk in vielen Situationen mehr als nützlich sein! Doch welche Themen sind gute Smalltalk Themen? Was macht guten Smalltalk aus? Erfahren Sie das in diesem Coaching!"
+  },
+  "bez-super-rueberk": {
+    "title": "Super rüberkommen",
+    "subtitle": "So verzaubern Sie potenzielle Partner",
+    "description": "Ist der erste Kontakt hergestellt, geht es darum, den Anderen für sich zu begeistern. Erlernen Sie mit uns ein paar einfache Techniken, die Ihnen einen entscheidenden Vorteil verschaffen."
+  },
+  "bez-tf-1a": {
+    "title": "Frauen richtig ansprechen",
+    "subtitle": "Der perfekte Satz zum Kennenlernen",
+    "description": "Sie haben Probleme Frauen anzusprechen? Oder irgendwie springen die Frauen beim Anprechen nicht auf ihr Gespräch an? Lernen und üben sie mit diesem Coaching die Kunst des Ansprechens!"
+  },
+  "bez-tf-1b": {
+    "title": "Der Frauenversteher",
+    "subtitle": "Was Frauen insgeheim erwarten",
+    "description": "Die inoffizillen Punkte die Frauen wichtig sind und Sie erfolgreich machen beim kennen lernen von Frauen."
+  },
+  "bez-tf-2": {
+    "title": "Verbal Punkte sammeln",
+    "subtitle": "Im Gespräch interessant bleiben",
+    "description": "Sie haben sich getraut eine Frau anzusprechen aber sie verliert schnell das Interesse an Ihnen? Wie gehts nach dem Ansprechen weiter, damit es nicht zu einem ungewolten Ende kommt. Dieses Coaching zeigt wie Sie sich im Gespräch noch interessanter machen und wie Sie die Konversation genau in die gewünschte Richtung steuern."
+  },
+  "bez-tf-3": {
+    "title": "Telefonnummer bekommen",
+    "subtitle": "Mit der Telefonnummer im Gepäck nach Hause",
+    "description": "Das Gespräch verlief super? Aber es neigt sich dem Ende zu? Wir zeigen Ihnen, wie Sie das Gespräch so beendet, dass Sie die Telefonnummer sicher bekommen."
+  },
+  "bez-tm-1": {
+    "title": "Männer und Mr. Perfect sein",
+    "subtitle": "Männer richtig anprechen",
+    "description": "Es fällt Ihnen schwer Männer anzusprechen? Oder Sie wissen nicht, wie Sie reagieren sollen, wenn ein Mann Sie anspricht? Wir geben Ihnen das Know-How, wie Sie sich die richtigen Männer angeln."
+  },
+  "bez-tm-2": {
+    "title": "Den Mann um den Finger wickeln",
+    "subtitle": "Wenn er erstmal angebissen hat...",
+    "description": "Das Gespräch weiter führen und es am laufen halten. Erwecken Sie den Jäger im Mann! Wie? Lernen sie das im zweiten Teil des Coachings."
+  },
+  "bez-traum-alptraum": {
+    "title": "Traumpartner / Alptraumpartner",
+    "subtitle": "Wer passt zu mir?",
+    "description": "Für die meisten von uns ist klar: Wir wünschen uns den Traumpartner. Genaue Vorstellungen, was das eigentlich bedeutet, haben wir aber meist nicht. Finden Sie mit uns heraus, was Ihnen bei Ihrem Partner wirklich wichtig ist, und erkennen Sie so schneller, bei wem es sich lohnt am Ball zu bleiben."
+  },
+  "bez-traumpart-verstehen": {
+    "title": "Verstehen wie Ihre Traumpartner ticken",
+    "subtitle": "Den richtigen Personen auffallen",
+    "description": "Um Ihren Traumpartner zu finden, müssen Sie wissen, wonach genau dieser auf der Suche ist. Wir erarbeiten gemeinsam einen Plan, wie Sie genau den richtigen Personen auffallen."
+  },
+  "bez-traumpartner-affaere": {
+    "title": "Traumpartner für die Affäre",
+    "subtitle": "Wie sollte der perfekte Affärenpartner sein?",
+    "description": "Um den richtigen Affärenpartner zu finden und unerwartete Schwierigkeiten in der Affäre zu vermeiden, braucht man klare Vorstellungen von seinen Erwartungen. Das Coaching hilft Ihnen dabei, eine Vision des perfekten Affäre-Partners zu entwickeln"
+  },
+  "bez-trennung": {
+    "title": "Sich vom Partner trennen",
+    "subtitle": "Einen sauberen und fairen Schlussstrich ziehen",
+    "description": "Eine Trennung ist für beide Betroffenen oft ein unbeschreibliches Drama. Dennoch ist eine Trennung manchmal die einzig sinnvolle Lösung. Um unnötiges Leid, unnötige Wut oder Trauer zu vermeiden, sollte die Trennung sauber und fair verlaufen. Was jedoch ist eine faire Trennung? Was ist wichtig und worauf sollten Sie achten? Dieses Coaching gibt Ihnen Hilfestellung um in einer solch emotionalen Situation richtig zu handeln."
+  },
+  "erz-mob-definition": {
+    "title": "Was ist Mobbing?",
+    "subtitle": "Definition und Ausprägungen",
+    "description": "Nicht alles Negative, was in der Schule passiert, ist auch sofort Mobbing. Hier gibt es klare Muster und Strukturen, die es zu wissen und zu erkennen gilt."
+  },
+  "erz-mob-eltern-kind": {
+    "title": "Eltern-Kind-Beziehung",
+    "subtitle": "Der erste Schritt",
+    "description": "Nur wenn Ihr Kind offen mit Ihnen redet und Ihnen voll vertraut, können Sie auch solch ein heikles Thema wie Mobbing angehen. Hier sehen Sie Tipps und Kniffe, wie Sie sich das richtige Fingerspitzen erarbeiten."
+  },
+  "erz-mob-schule": {
+    "title": "Umgang mit der Schule",
+    "subtitle": "gemeinsam und nicht gegeneinander",
+    "description": "Sie wollen Ihrem Kind schnell und langfristig helfen? Dann sollten Sie sich die Schule zum Verbündeten machen.\nHier findet das Mobbing statt und nur hier kann es auch wieder beendet werden. Wir zeigen Ihnen, wie Sie die Schule auf Ihre Seite bringen."
+  },
+  "erz-mob-selbstbewusstsein": {
+    "title": "Vorbeugung",
+    "subtitle": "Selbstbewusst gegen die Opferrolle",
+    "description": "Ein gesundes Selbstbewusstsein ist das A und O, um Mobbing aus dem Weg zu gehen. Wenn Ihr Kind einfach über den Hänseleien steht, gewinnt es nicht nur etwas in der Schule, sondern auch für das ganze Handeln"
+  },
+  "erz-mob-test": {
+    "title": "Mobbing-Test",
+    "subtitle": "Wird auch Ihr Kind gemobbt?",
+    "description": "Der Mobbing-Test von Thomas Sonnenburg fragt die wichtigsten Symptome des Mobbings ab. So erkennen Sie frühzeitig, ob ihr Kind bereits Opfer ist."
+  },
+  "erz-mob-toa": {
+    "title": "Täter-Opfer-Ausgleich",
+    "subtitle": "Mobbing effektiv stoppen",
+    "description": "Dazu müssen alle Beteiligten an einen Tisch mit dem Täter. Denn nur wenn er aufhört, ist auch wirklich Schluss. Und Sie müssen Ihr Kind dafür vorbereiten und unterstützen. Das ist nicht immer leicht."
+  },
+  "ges-abn-bew-aufraffen1": {
+    "title": "Aufraffen zum Sport",
+    "subtitle": "Die eigene Routine züchten",
+    "description": "Und Aufstehen wird zum Kinderspiel. Und schlechtes Wetter zum Ansporn."
+  },
+  "ges-abn-bew-aufraffen2": {
+    "title": "Aufraffen zum Sport 2",
+    "subtitle": "x",
+    "description": "x"
+  },
+  "ges-abn-bew-bewegung": {
+    "title": "In Bewegung kommen",
+    "subtitle": "Ein aktives Leben als Schlüssel",
+    "description": "Damit Sie auch beim Blick in den Spiegel \"bewegt\" sind."
+  },
+  "ges-abn-bew-krankheit": {
+    "title": "Krankheit und Sport",
+    "subtitle": "Sie sind eingeschränkt? Macht nichts!",
+    "description": "Denn auch für Sie gibt es passende Möglichkeiten."
+  },
+  "ges-abn-bew-lust": {
+    "title": "Keine Lust bei Frust",
+    "subtitle": "Wie und warum Frust entsteht",
+    "description": "Ein einfacher Schritteplan lässt sie mit Lust statt Frust abnehmen. Daran könnte man sich fast gewöhnen."
+  },
+  "ges-abn-bew-spass1": {
+    "title": "Sport macht keinen Spaß",
+    "subtitle": "\"Das ist nichts für mich!\"",
+    "description": "Lernen Sie einfach, sich mit Sport zu belohnen. Sie werden überrascht sein, was möglich ist."
+  },
+  "ges-abn-bew-spass2": {
+    "title": "Sport macht keinen Spaß 2",
+    "subtitle": "x",
+    "description": "x"
+  },
+  "ges-abn-ern-belohnung1": {
+    "title": "Essen als Belohnung",
+    "subtitle": "Gönnen Sie sich mal etwas anderes.",
+    "description": "Denn das haben Sie sich dann wirklich verdient!"
+  },
+  "ges-abn-ern-belohnung2": {
+    "title": "Essen als Belohnung 2",
+    "subtitle": "x",
+    "description": "x"
+  },
+  "ges-abn-ern-diaetfrust": {
+    "title": "Resignation",
+    "subtitle": "Abnehmen ist nicht mehr so wichtig? Unsinn!",
+    "description": "Wollen Sie es schaffen oder nicht? Wir lassen es nicht zu, dass Sie aufgeben."
+  },
+  "ges-abn-ern-emotio": {
+    "title": "Essverhalten",
+    "subtitle": "Essen aus Emotion statt aus Hunger",
+    "description": "Lust, Frust, Langeweile? Wir haben verlernt einfach nur zu essen, wenn es nötig ist."
+  },
+  "ges-abn-ern-falle": {
+    "title": "Abnehmfallen",
+    "subtitle": "Die größten Ernährungsirrtümer",
+    "description": "Alles was schmeckt ist schlecht? Und umgekehrt? Die Wahrheit sieht aber oft ganz anders aus."
+  },
+  "ges-abn-ern-heissh-abend1": {
+    "title": "Heißhunger am Abend",
+    "subtitle": "Neu: Der Kühlschrank ruft!",
+    "description": "Und auch abends muss man sich jetzt nicht mehr überlisten lassen."
+  },
+  "ges-abn-ern-heissh-abend2": {
+    "title": "Heißhunger am Abend 2",
+    "subtitle": "x",
+    "description": "x"
+  },
+  "ges-abn-ern-heisshunger": {
+    "title": "Heißhunger",
+    "subtitle": "Der Feind in meinem Kopf",
+    "description": "Lernen Sie sich und Ihren Körper besser zu steuern. Das ist nicht schwer."
+  },
+  "ges-abn-ern-langeweile": {
+    "title": "Essen aus Langeweile",
+    "subtitle": "Unnötig und leicht loszuwerden",
+    "description": "Wir trainieren Ihnen diesen Griff zum Essen einfach ab. Sie werden sehen."
+  },
+  "ges-abn-ern-satt-werden": {
+    "title": "Richtig satt werden",
+    "subtitle": "Einfach auch mal „Stopp“ sagen",
+    "description": "Wir zeigen Ihnen, wie Sie die Signale Ihres Körpers richtig einsetzen."
+  },
+  "ges-abn-ern-stress": {
+    "title": "Essen bei Stress",
+    "subtitle": "Bei Frust ruft die Schokolade?",
+    "description": "Das wird kein Problem mehr sein. Versprochen!"
+  },
+  "ges-abn-ern-trinken": {
+    "title": "Trinken",
+    "subtitle": "Das andere \"Essen\"",
+    "description": "Lernen Sie warum richtiges Trinken so wichtig ist auf Ihrem Weg zum Erfolg"
+  },
+  "ges-abn-ern-wut": {
+    "title": "Essen bei Wut",
+    "subtitle": "Einfach einmal neue Wege finden",
+    "description": "Wie kanalisiert man ein Verlangen in die richtige Richtung?"
+  },
+  "ges-abn-es-kickoff": {
+    "title": "Kick-Off",
+    "subtitle": "Der erste Schritt ist der schwerste? Falsch!",
+    "description": "Deshalb: Los, los, los! Worauf warten Sie noch? Wir geben Starthilfe."
+  },
+  "ges-abn-es-motivation": {
+    "title": "Motivation",
+    "subtitle": "Denn jede Veränderung beginnt im Kopf",
+    "description": "Wie schaffe ich es anzufangen? Und wichtger: Wie bleibe ich am Ball?"
+  },
+  "ges-abn-es-plaene": {
+    "title": "Trainings- und Ernährungsplan",
+    "subtitle": "Ihr Abnehm-Turbo",
+    "description": "Ihre Pläne werden auf Sie angepasst und bilden die Grundlage und das Gerüst Ihres Erfolgs."
+  },
+  "ges-abn-es-sozial": {
+    "title": "Soziales Umfeld",
+    "subtitle": "Ihr persönliches Sicherheitsnetz",
+    "description": "Gegen den Wind zu kämpfen ist immer schwer, aber möglich. Einfacher ist es jedoch mit Verbündeten."
+  },
+  "ges-abn-es-zieldefintion": {
+    "title": "Zieldefinition",
+    "subtitle": "Der wichtigste Schritt: Was ist Ihr Ziel?",
+    "description": "Und vor allem warum? Ein schlechtes Ziel ist in 90% der Fälle Schuld am Scheitern."
+  },
+  "ges-abn-mot-bauch": {
+    "title": "Dicker Bauch",
+    "subtitle": "Das hat erstmal Priorität",
+    "description": "Bauchfett ist nicht nur unschön, sondern auch ungesund!"
+  },
+  "ges-abn-mot-hunger": {
+    "title": "Hunger",
+    "subtitle": "Wie gehe ich damit richtig um?",
+    "description": "Wann habe ich überhaupt Hunger und nicht nur Appetit? Wir zeigen das 1x1 der Ernährung."
+  },
+  "ges-abn-mot-keine-mot": {
+    "title": "Motivationstiefs",
+    "subtitle": "Was tun, wenn man keine Lust hat?",
+    "description": "Der Schweinehund ist ein hartnäckiger Widersacher. Lassen Sie uns ihn überlisten."
+  },
+  "ges-abn-mot-kontrolle1": {
+    "title": "Mein Gewichtsverlauf",
+    "subtitle": "Kontrollieren Sie ihren Erfolg",
+    "description": "Schluss mit dem ständigen Auf und Ab. Kontrolle ist das A und O!"
+  },
+  "ges-abn-mot-kontrolle2": {
+    "title": "Kontrolle über Gewichtsverlauf 2",
+    "subtitle": "x",
+    "description": "x"
+  },
+  "ges-rau-alkohol": {
+    "title": "Falle Alkohol",
+    "subtitle": "Die Traumkombination zum Scheitern",
+    "description": "Sie kennen das bestimmt: Sie sind mit Freunden oder Kollegen einen Wein oder ein Bier trinken und Sie schaffen es nicht, der Versuchung zu widerstehen. Und am nächsten Tag ärgern Sie sich über sich selbst oder geben womöglich sogar Ihr Vorhaben entmutigt auf. In diesem Coaching lernen Sie, wie Sie in verlockenden Situationen standhaft und souverän bleiben."
+  },
+  "ges-rau-aufhoeren": {
+    "title": "Ich will mit dem Rauchen aufhören!",
+    "subtitle": "Weil das Aufhören im Kopf beginnt",
+    "description": "Es ist nicht das erste Mal, dass Sie versuchen mit dem Rauchen aufzuhören? Und anscheinend waren Sie damit bisher nicht erfolgreich. Was vielen Leuten nicht bewusst ist: die meisten gescheiterten Versuche mit dem Rauchen aufzuhören haben etwas mit Ihrer Einstellung zu tun! Lernen Sie in diesem Coaching eine gute Einstellung zum Aufhören, um diesmal rauchfrei zu sein - und zu bleiben!"
+  },
+  "ges-rau-bleiben": {
+    "title": "Nichtraucher bleiben",
+    "subtitle": "Genießen Sie Ihren neuen Lebensabschnitt!",
+    "description": "Endlich rauchfrei – und jetzt? Ganz einfach: Das neue Leben genießen, ohne in alte Verhaltensmuster zurückzufallen. Hier erfahren Sie wie!"
+  },
+  "ges-rau-erste-schritte": {
+    "title": "Erste Schritte",
+    "subtitle": "So kommen Sie Ihrem Ziel näher",
+    "description": "Sie haben sich das Ziel gesetzt, Nichtraucher zu werden. Und Sie wollen das wirklich. Das ist super! Zwangsläufig kommt dann die Frage: Wie fange ich denn nun an? Was Ihre ersten Schritte sein sollten, um erfolgreich in Ihrem Vorhaben zu sein, erklären wir Ihnen hier!"
+  },
+  "ges-rau-freunde": {
+    "title": "Falle Freunde und Kollegen",
+    "subtitle": "Standhafter sein als der Rest",
+    "description": "Die Kollegen gehen raus, um eine zu rauchen, und fragen Sie, ob sie mitkommen wollen. Oder Sie sitzen mit Freunden gemütlich beisammen und um Sie herum wird geraucht. Wie soll man da bloß nein sagen, fragen Sie? Wir sagen Ihnen wie!"
+  },
+  "ges-rau-gesund": {
+    "title": "Meinen Körper wieder gesünder machen",
+    "subtitle": "Damit Ihr Körper schnell wieder richtig in Schwung kommt.",
+    "description": "Sie würden ihrem Körper gerne gezielt helfen, sich vom Nikotin zu reinigen? Und somit schneller wieder mehr körperliches Wohlbefinden erreichen? Lernen Sie in diesem Coaching, wie Sie Ihrem Körper aktiv helfen können, z.B. mit Ihrer Ernährung."
+  },
+  "ges-rau-hilfsmittel": {
+    "title": "Hilfsmittel",
+    "subtitle": "Was für Unterstützung gibt es und welche ist wirklich hilfreich?",
+    "description": "Viele Raucher, die mit dem Rauchen aufhören möchten, wünschen sich etwas, das ihnen das Aufhören erleichtert. Kaugummis, Pflaster, E-Zigaretten, u.v.m. Was kann man ausprobieren und worauf sollte man lieber verzichten?"
+  },
+  "ges-rau-koerper": {
+    "title": "Was mit meinem Körper passiert",
+    "subtitle": "Weshalb ist das Aufhören so wichtig und warum trotzdem so schwer?",
+    "description": "Nichtraucher behaupten oft, dass es doch gar nicht so schwer sein kann, mit dem Rauchen aufzuhören. Doch jeder Raucher, der bereits mindestens einen gescheiterten Versuch hinter sich hat, weiß es besser. Warum geht es nicht so einfach von heute auf morgen aufzuhören?"
+  },
+  "ges-rau-partner": {
+    "title": "Falle rauchender Partner",
+    "subtitle": "Wenn der Andere nicht mitzieht",
+    "description": "Sie wollen dem Rauchen aufhören, aber Ihr Partner qualmt weiter? So kommen Sie mit der ständigen Herausforderung zurecht."
+  },
+  "ges-rau-rueckfall": {
+    "title": "Aus Rückfällen lernen",
+    "subtitle": "Schließlich läuft nicht immer alles reibungslos",
+    "description": "Rückfälle sind frustrierend und machen schnell zum Wiederholungstäter. Aber man kann auch aus ihnen lernen. Was Sie aus Ihrem Rückfall schließen können, damit Sie es nicht wieder tun, zeigen wir Ihnen hier."
+  },
+  "ges-rau-stress": {
+    "title": "Falle Stress",
+    "subtitle": "Trotz Stress Nichtraucher bleiben",
+    "description": "Die größte Gefahr, wieder mit dem Qualmen anzufangen, laufen Ex-Raucher in extremen Stresssituationen. Dabei hilft Ihnen das Rauchen auch nicht, die Situation besser zu meistern! Wie Sie standhaft bleiben - auch wenn es stressig wird - und was für gesündere Arten es gibt, Stress zu bewältigen, zeigt Ihnen dieses Coaching."
+  },
+  "ges-schlaf-aktivitaeten": {
+    "title": "Aktivitäten",
+    "subtitle": "Aktive Menschen schlafen besser",
+    "description": "Wissenschaftlich bewiesen: Wer aktiv ist, hat einen tieferen Schlaf. Doch nicht alle Aktivitäten eignen sich. Vor allem nicht zu jeder Uhrzeit."
+  },
+  "ges-schlaf-einschlafhilfen": {
+    "title": "Einschlafhilfen",
+    "subtitle": "Weil Schafe zählen nicht hilft",
+    "description": "Medikamente oder Hausrezepte? Hier erfahren Sie, was Ihnen wirklich hilft, um gezielt einschlafen zu können - basierend auf den neusten Erkenntnissen der Schlafforschung."
+  },
+  "ges-schlaf-jetlag": {
+    "title": "Jet-Lag",
+    "subtitle": "Zeitverschiebung ist kein Problem",
+    "description": "Der sog. Jet-Lag ist im Grunde ein Rhythmuswechsel und korrigiert sich von alleine. Doch wer hat schon Lust so viel Zeit zu verschwenden, wenn man sich auch vom einen auf den anderen Tag umstellen kann?"
+  },
+  "ges-schlaf-reduktion": {
+    "title": "Schlafreduktion",
+    "subtitle": "Wenn weniger einfach mehr ist",
+    "description": "Wir helfen ihren Schlafbedarf Schritt für Schritt zu reduzieren und so wertvolle Tageszeit zu sparen. Natürlich ohne auf Schlafqualität verzichten zu müssen. Garantiert!"
+  },
+  "ges-schlaf-schicht": {
+    "title": "Fit trotz Schicht-Arbeit",
+    "subtitle": "Mehr Flexibilität für den Tag",
+    "description": "Wir zeigen Ihnen, wie man mit gezielten Übungen trotz eines wechselhaften Schlafverhaltens einen erholten Schlaf und aktiven Tag haben kann."
+  },
+  "ges-schlaf-schlafumgebung": {
+    "title": "Schlafumgebung",
+    "subtitle": "Nicht nur das Wie, sondern auch das Wo ist wichtig",
+    "description": "Das Schlafzimmer selbst ist ein wichtiger Ort der Erholung. Doch viele machen ihn sich selbst kaputt, in dem sie mehr Störquellen aufstellen als nötig."
+  },
+  "ges-schlaf-schlafverhalten": {
+    "title": "Schlafverhalten",
+    "subtitle": "Sie können ihren Schlaf aktiv beeinflussen",
+    "description": "Erfahren Sie, wie man sich richtig verhält, um einen erholsamen, tiefen Schlaf zu erleben. Mit einfachen Tipps und Hilfestellungen führen wie Sie auf den richtigen Weg."
+  },
+  "ges-schlaf-ueberblick": {
+    "title": "Schlaf ABC",
+    "subtitle": "Denn auch schlafen will gelernt sein",
+    "description": "Warum müssen wir schlafen? Was passiert dabei mit meinem Körper? Was unterscheidet gutem von schlechtem Schlaf? Hier lernen Sie alles von A wie Aufwachen bis Z wie Zudecken."
+  },
+  "ges-schlaf-vorfreude": {
+    "title": "Fitter aufwachen",
+    "subtitle": "Unser Geheimtipp",
+    "description": "Das Beste zum Schluss: Hier erhalten Sie den absoluten Geheimtipp, wenn es darum geht fitter aufzuwachen. Lassen Sie sich überraschen, wie einfach und wirkungsvoll diese Methode ist."
+  },
+  "ges-schlaf-wasserlassen": {
+    "title": "Nächtliches Wasserlassen",
+    "subtitle": "Sie müssen jede Nacht mehrmals raus?",
+    "description": "Echte Blasenschwäche oder nur schlechte Angewohnheit? Für beide Szenarien gibt es Hilfe. Erfahren Sie, was den Harndrang auslöst und wie man ihn reduzieren und sogar vermeiden kann."
+  },
+  "ges-schlaf-wechseljahre": {
+    "title": "Wechseljahre",
+    "subtitle": "Für unsere weiblichen Kunden",
+    "description": "Die hormonelle Umstellung in den Wechseljahren löst bei vielen Frauen Schlafprobleme aus. Dr. Nicco Krezdorn zeigt Ihnen, wie sie mit dieser Veränderung umgehen, ohne auf hohen Schlafkomfort zu verzichten."
+  },
+  "kar-ac": {
+    "title": "Das Assessment-Center",
+    "subtitle": "Ihr souveräner Auftritt",
+    "description": "Was genau ist eigentlich ein Assessment-Center? Was erwartet mich dort genau und worauf sollte ich mich vorbereiten? Antworten auf diese und weitere Fragen finden Sie hier."
+  },
+  "kar-durchstarten": {
+    "title": "Durchstarten",
+    "subtitle": "Mit Vollgas zum neuen Job",
+    "description": "Gehen Sie mit uns in die Pole Position und starten Sie jetzt in Ihre Jobsuche."
+  },
+  "kar-erster-anruf": {
+    "title": "Den ersten Kontakt herstellen",
+    "subtitle": "Den ersten Eindruck machen",
+    "description": "Es macht einen guten Eindruck, wenn Sie sich vor Ihrer Bewerbung telefonisch bei dem Zielunternehmen melden. Hier erfahren Sie, wie dieses erste Gespräch gut läuft."
+  },
+  "kar-extra-aufregung": {
+    "title": "Das Bewerbungsgespräch III",
+    "subtitle": "Extra: Nervosität im Griff",
+    "description": "Manche Menschen sind im Bewerbungsgespräch so nervös, dass Sie wie blockiert sind. Auch hierfür gibt es Lösungen! Nutzen Sie dieses Coaching, um schon bald sehr viel entspannter und souveräner auftreten zu können."
+  },
+  "kar-gespraech-einstieg": {
+    "title": "Das Bewerbungsgespräch II",
+    "subtitle": "Nervosität und Smalltalk",
+    "description": "Wie Sie die Anfangsnervosität meistern und welche Small-Talk-Themen unverbindlich sind zeigen wir Ihnen hier. Damit Sie einen guten Einstieg in Ihr Gespräch finden."
+  },
+  "kar-gespraech-einwaende": {
+    "title": "Das Bewerbungsgespräch VI",
+    "subtitle": "Mit schwierigen Fragen und Einwänden umgehen",
+    "description": "In einem Vorstellungsgespräch werden Sie auf Herz und Nieren geprüft. Lücken im Lebenslauf oder unerwartete Fragen des potenziellen Chefs? Wir sagen Ihnen, wie Sie richtig reagieren."
+  },
+  "kar-gespraech-gehalt": {
+    "title": "Das Bewerbungsgespräch V",
+    "subtitle": "Gehaltsverhandlungen",
+    "description": "Den meisten Menschen ist es unangenehm über Geld zu sprechen. Wir zeigen Ihnen, wie Sie trotzdem das Beste für sich rausholen."
+  },
+  "kar-gespraech-nachbereitung": {
+    "title": "Nachbereitung des Gesprächs",
+    "subtitle": "Mit dem letzten Eindruck punkten",
+    "description": "Hier erfahren Sie, was nach einem Vorstellungsgespräch noch zu tun ist."
+  },
+  "kar-gespraech-selbstmarketing": {
+    "title": "Das Bewerbungsgespräch IV",
+    "subtitle": "Sich gut präsentieren",
+    "description": "Wann ist ein guter Zeitpunkt, um über frühere Erfolge zu sprechen? Was sollten Sie unbedingt von sich erzählen? In diesem Coaching zeigen wir Ihnen, wie Sie sich von Ihrer besten Seite zeigen."
+  },
+  "kar-gespraech-vorbereitung": {
+    "title": "Das Bewerbungsgespräch I",
+    "subtitle": "Vorbereitung und Anfahrt",
+    "description": "Vor einem Bewerbungsgespräch sind die meisten Menschen angespannt. Die richtige Vorbereitung entlastet Sie, damit Sie sich auf das wesentliche konzentrieren können."
+  },
+  "kar-initiativ": {
+    "title": "Initiativbewerbung und andere Alternativen",
+    "subtitle": "Abseits ausgetretener Pfade",
+    "description": "Ein großer Teil offener Stellen wird nicht auf dem klassischen Weg, sondern über Empfehlungen, Kontakte und Initiativbewerbungen vergeben. Nutzen Sie diese zusätzlichen Möglichkeiten!"
+  },
+  "kar-interessen": {
+    "title": "Ihre Interessen",
+    "subtitle": "Wo will ich hin?",
+    "description": "Bevor es mit der Jobsuche so richtig losgehen kann, sollten Sie ruhig nach den Sternen greifen. Wie sieht Ihr absoluter Traumjob aus? Was macht Ihnen Spaß und welche Unternehmen gefallen Ihnen?"
+  },
+  "kar-potenzial": {
+    "title": "Ihr Potential",
+    "subtitle": "Die eigenen Stärken erkennen",
+    "description": "Was kann ich eigentlich so richtig gut? Wann habe ich das in der Vergangenheit schon unter Beweis gestellt? Und wie überzeuge ich einen potenziellen Arbeitgeber davon? Mit unserem Coaching finden Sie es heraus!"
+  },
+  "kar-selbstmarketing": {
+    "title": "Verkaufsstrategien",
+    "subtitle": "Immer eine gute Figur machen",
+    "description": "Einen wesentlichen Vorteil bei der Jobsuche haben Sie, wenn Sie sich gut präsentieren und Ihre Vorzüge gut vermitteln können.\nEgal, ob Lebenslauf oder Bewerbungsgespräch: wir zeigen Ihnen, wie Sie in jeder Phase der Jobsuche einen positiven Eindruck hinterlassen."
+  },
+  "kar-situationsanalyse": {
+    "title": "Situationsanalyse",
+    "subtitle": "Wo kann Ihre Reise hingehen?",
+    "description": "Damit Sie Ihren Traumjob finden, geben wir Ihnen die passenden Fragen an die Hand"
+  },
+  "kar-start-job": {
+    "title": "Start in den Job",
+    "subtitle": "die ersten 100 Tage",
+    "description": "Wenn Sie Ihren neuen Arbeitsvertrag in der Tasche haben, gilt es einen besonders guten Einstieg hinzukriegen. Worauf Sie achten sollten und wie Sie Ihren neuen Chef beeindrucken lernen Sie hier!"
+  },
+  "kar-stellenauswahl": {
+    "title": "Wer sucht nach mir?",
+    "subtitle": "Für die richtige Stelle bewerben",
+    "description": "Wichtig ist, dass Sie herausfinden, für wen Sie als Bewerber interessant sind. Das klären wir in diesem Coaching."
+  },
+  "kar-telefoninterview": {
+    "title": "Das Telefoninterview",
+    "subtitle": "Mit Stimme und Inhalt überzeugen",
+    "description": "In unserer globalen Welt führen viele kar-telefoninterviewArbeitgeber die ersten Gespräche am Telefon. Wie Sie auch ohne Mimik und körperliche Präsenz im Gespräch überzeugen, zeigen wir Ihnen hier."
+  },
+  "kar-unterlagen": {
+    "title": "Bewerbungsunterlagen",
+    "subtitle": "Ihre Visitenkarte",
+    "description": "Bei der Flut an Bewerbungen, die Personaler täglich in der Hand halten, sollen Sie herausstechen. Wir zeigen Ihnen wie!"
+  },
+  "kar-vollgas": {
+    "title": "Vollgas geben",
+    "subtitle": "Ihr Motivationsschub",
+    "description": "Entscheidend bei der Jobsuche ist Ihre Motivation. Lernen Sie hier, wie Sie sich selbst immer wieder nach vorne bringen."
+  },
+  "kar-was-passt": {
+    "title": "Der richtige Job",
+    "subtitle": "Finden, was zu Ihnen passt",
+    "description": "Personaler achten bei der Auswahl der Bewerber genau darauf, ob Unternehmen und Bewerber gut zusammenpassen. Zu Recht, denn dann sind die Erfolgschancen am größten. Finden Sie heraus, in welchen Unternehmen Sie den größten Beitrag leisten können."
+  },
+  "kar-zielmarkt": {
+    "title": "Zielmarkt",
+    "subtitle": "die richtigen Angebote finden",
+    "description": "Es ist gar nicht so leicht bei dem großen Angebot an Online-Stellenbörsen, sozialen Netzwerken und der klassischen Zeitungsanzeige den Überblick zu behalten.\nWelche Suche ist für mich am besten und welche Unternehmen passen zu mir? Wie wähle ich die Stellenangebote aus, die mich wirklich interessieren?\nWir bringen für Sie Licht ins Dunkel!"
+  }
+}

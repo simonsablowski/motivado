@@ -1,0 +1,445 @@
+{
+  "key": "kar-gespraech-einstieg",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching \"Nervosität und Smalltalk\"\r\n\r\nIm Bewerbungsgespräch geht es darum, sich von Ihrer besten Seite zu präsentieren! Sie haben sich bereits intensiv über das Unternehmen informiert, Ihre persönliche Verkaufsstrategie entworfen und sich Fragen zur Position und dem Unternehmen zurechtgelegt. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Worauf kommt es im Gespräch an?\r\n\r\n1. Eine gute Vorbereitung ist die halbe Miete und wird Sie sicher und souverän ins Gespräch gehen lassen! Die meisten Fragen, die üblicherweise in einem Bewerbungsgespräch gestellt werden, sind bekannt. Wichtig ist, dass Sie sich vorher ausreichend Zeit nehmen, um sich Gedanken zu Ihren Antworten zu machen. Bis hierhin haben Sie bereits einige Coachings durchlaufen, die Ihnen ein gutes Handwerkszeug für kompetente und überzeugende Antworten liefern. Nutzen Sie dieses jetzt in der Vorbereitung!\r\n\r\nWir haben für Sie die gängigsten Fragen und Leitfaden zur Beantwortung für Sie zusammengestellt: schreiben Sie uns eine mail, dann schicken wir Ihnen die Unterlagen gerne zu (contact@simsab.net). Kontaktieren Sie gern auch unsere Experten, wenn Sie sich in Ihren Antworten unsicher sind.\r\n\r\n2. Wer im Gespräch fragt, der führt! Für Sie als Bewerber heißt das: stellen Sie bereits während der Schilderung Ihres beruflichen Werdegangs, also ganz zu Beginn des Gesprächs Fachfragen, kommt das Unternehmen „in Zugzwang“, sich nicht erst zum Schluss vorzustellen. Das ist ein großer Bonus. Hören Sie hier gut zu und überlegen Sie sich schon, welche Ihrer Kenntnisse und Stärken einen Mehrwert für die Firma bieten können. Werden Sie später zu Ihrer Motivation und Qualifikationen gefragt, können Sie besser herausstellen, weshalb Sie ein geeigneter Kandidat für das Unternehmen sind.\r\n\r\n3. Beim Vorstellungsgespräch sucht Ihr potentieller Arbeitgeber Sie als Lösung für sein Problem, nicht umgekehrt. Ihn interessiert vor allem: wie setzen Sie Ideen um? Liefern Sie Ergebnisse? Wie können Sie den Umsatz steigern, neue Produkte entwerfen oder Lösungen entwickeln? Ihre Fähigkeiten, Kenntnisse und Kompetenzen, die Sie bereits ausgearbeitet haben, sind hierfür der Schlüssel! Versuchen Sie also, wann immer es sich anbietet, Ihre Vorzüge zu benennen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "So kurz vor dem Gespräch ist Nervosität häufig ein permanenter Begleiter. Als aufgeregter Bewerber gehören Sie defintiv zur Mehrheit. Jeder ist ein wenig nervös vor dem Gespräch. Der Arbeitgeber erwartet sogar, dass Sie etwas aufgregt sind. Würden Sie völlig relaxt ins Gespräch kommen, würde das eher arrogant wirken. Und mit Arroganz im Gepäck landen Sie beim Gegenüber definitiv keine Sympathiepunkte.\r\n\r\nNervös zu sein ist also völlig ok. Mit Hilfe der folgenden Übung schaffen Sie es, insgesamt etwas ruhiger und gelassener zu werden, so dass Sie gut auf Fragen antworten können:\r\n\r\nAtmen Sie vor dem Gespräch 22 Mal tief durch. Spüren Sie, wie sich Ihre Lungen mit Luft füllen? Gelingt es Ihnen dabei vielleicht, Unterschiede zwischen einem Atemzug und dem Nächsten festzustellen? Konzentrieren Sie sich auf Ihren Atem und spüren Sie, wie Sie beim Atmen immer ruhiger werden.\r\n\r\nBringen Sie sich zudem in einen positiven Zustand, indem Sie sich vorstellen, Ihr Vorstellungsgespräch sei bereits vorüber und erfolgreich verlaufen. Stellen Sie sich vor, wie glücklich, froh und beschwingt Sie dann sind. Wenn Sie daran denken, dass Ihr Gespräch super verlaufen ist, bringen Sie all diese positive Energie direkt mit in Ihr Gespräch.\r\n\r\nVersuchen Sie beides nun einmal nacheinander aus:\r\nAtmen Sie 20 Mal ruhig durch und achten Sie darauf, wie Ihr Körper darauf reagiert, Ihr Puls ruhiger schlägt usw.\r\nDann stellen Sie sich vor, dass Ihr nächstes Vorstellungsgespräch großartig verläuft.\r\n \r\nLos geht's!\r\n\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie ist es Ihnen ergangen? Können Sie sich vorstellen, dass die richtige Atmung und positive Gedanken Ihnen beim nächsten Gespräch nützlich sein könnten?\r\n\r\nWir haben das Thema \"Nervosität\" noch einmal detaillierter für Sie aufbereitet. Entscheiden Sie bitte nun, ob Sie dieses Zusatz-Coaching nun durchlaufen möchten.\r\nAlternativ können Sie sich für Rückfragen jederzeit an uns wenden: contact@simsab.net. Wir helfen Ihnen gerne weiter.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "6d8734f6f2f6431b8c5561a33385ed15",
+      "title": "Möchten Sie sich unser Coaching \"Nervosität im Griff haben\" jetzt anschauen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter zum Coaching \"Die Nervosität im Griff haben!\""
+          },
+          {
+            "key": 2,
+            "value": "Weiter ohne Zusatzinformationen zu Nervosität"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "6d8734f6f2f6431b8c5561a33385ed15 is 1"
+        },
+        {
+          "to": "n007",
+          "if": "6d8734f6f2f6431b8c5561a33385ed15 is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching „Die Nervosität im Griff haben“\r\n\r\nSchön, dass Sie sich die Zeit nehmen, sich intensiver mit dem Thema Nervosität zu beschäftigen.\r\n\r\nNeben Nervosität können Empfindungen wie Aufregung, Anspannung und Angst im Verlauf Ihrer Bewerbungsphase vermehrt auftauchen. \r\n\r\nIn diesem Coaching möchten wir Ihnen Strategien und Übungen an die Hand geben, die Ihnen dabei helfen, konstruktiv mit diesen Empfindungen umzugehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bei Ihrer Ankunft treffen Sie je nach Unternehmensgröße auf einen Empfang oder die Sekretärin. Letztere wird gern vom Chef zu dem Eindruck befragt, den Sie bei ihr hinterlassen haben. \r\nAchten Sie also darauf, was Sie sagen. Wenn Sie sich ausschließlich über das Wetter, die Anfahrt oder Ähnliches beschweren, setzen Sie sich blitzschnell auf die Abschussliste. Sind Sie dagegen freundlich und haben gleich ein paar nette Worte miteinander gewechselt, wird das Urteil der Sekretärin eher positiv ausfallen. Auch zuzugeben, dass Sie etwas nervös sind, macht Sie nicht unsympathisch, im Gegenteil! Vielmehr wirken Sie so menschlich und dadurch sympathisch.  ",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Als Einstieg möchten wir Sie zu einem kleinen Experiment einladen:\r\n\r\nNehmen Sie sich vor, in den nächsten 2 Minuten NICHT an einen rosa Elefanten zu denken.  \r\nDas ist Ihr Ziel, bemühen Sie sich bitte unbedingt es auch zu erreichen!\r\nProbieren Sie es jetzt aus und klicken Sie danach auf weiter!",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den ersten Eindruck positiv gestalten\r\n\r\nDer erste Eindruck bildet sich innerhalb von nur wenigen Sekunden und lässt sich meist nur schwer wieder revidieren! Darüber hinaus entscheidet er, ob Sie nach dem Vorstellungsgespräch in die engere Wahl kommen. \r\n\r\nSammeln Sie also jetzt Sympathiepunkte, indem Sie sich vorstellen, wenn es noch nicht geschehen ist. Sprechen Sie dabei laut und deutlich Ihren Namen aus. Dadurch strahlen Sie Selbstvertrauen und Zuversicht aus! Üben wir das gleich mal, damit die Vorstellung sitzt. Sagen Sie 20 Mal auf, wer Sie sind. Nutzen Sie dazu unseren Aufnahme-Button, damit Sie sich gleich anhören können, wie souverän Ihre Vorstellung schon klingt.\r\n\r\nLos geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und? Wie ist es Ihnen ergangen?\r\n\r\nIn der Regel wird Ihnen trotz des Verbots der rosa Elefant immer wieder durch den Kopf gegangen sein. Das liegt daran, dass das Gehirn die Aufforderung etwas nicht zu tun nur schlecht verarbeiten kann. Stattdessen haben wir mit der Aufforderung: „Denken Sie NICHT an den rosa Elefant!“ ihr Gehirn erst auf die Idee gebracht, an einen Elefanten zu denken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Am Anfang des Gesprächs: Lächeln Sie!\r\n\r\nEin Lächeln sagt mehr als 1000 Worte und schafft Sympathie. Erinnern Sie sich an unser kleines Gedankenspiel, bei dem sich Bewerber A lächelnd vorstellte, während Bewerber B mit verkniffenem Gesichtsausdruck ins Vorstellungsgespräch kam? Wen hätten Sie nochmal eingestellt? \r\n\r\nLächeln kann man vor dem Spiegel gut üben. Stellen Sie sich jetzt davor und lächeln Sie sich mindestens 10mal an. Na klar ist das nichts, was Sie ständig tun und fühlt sich dadurch etwas komisch an. Probieren Sie es aus! Selbst ein \"erzwungenes\" Lächeln führt dazu, dass wir uns danach besser fühlen. Die beim Lächeln beteiligten Muskeln sagen unserem Gehirn, dass wir fröhlich sind, was dazu führt, dass Glückshormone ausgestoßen werden. Also einfach mal draufloslächeln!",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was zeigt uns dieses kleine Experiment? \r\n\r\nWenn wir versuchen, unliebsame Gedanken zu unterdrücken, führt das dazu, dass sie vermehrt auftreten. Das gleiche gilt auch für Gefühle. \r\nDaher möchten wir Sie dazu ermutigen, Ihre Gefühle und Gedanken zunächst einmal zuzulassen und zu akzeptieren. Geben Sie ihnen Raum und Zeit. Wenn Sie das tun, werden Sie feststellen, dass Sie sie viel schneller wieder loswerden als wenn Sie krampfhaft versuchen, sie wegzudrücken.\r\n\r\nWenn Sie also vor einem Vorstellungsgespräch aufgeregt sind, vermeiden Sie Gedanken wie: \r\n„Ich bin schon wieder so aufgeregt - das wird wieder schieflaufen“ \r\n„Hör jetzt auf, Dir Sorgen zu machen“ oder \r\n„Ich unterdrücke jetzt einfach meine Angst“\r\n\r\nDas wird in der Regel nur dazu führen, dass Sie sich mehr Sorgen machen und mehr Angst haben. \r\n\r\nSagen Sie sich stattdessen:\r\n\r\n„Ich bin aufgeregt, das ist normal und geht fast allen Mensch so vor einem wichtigen Gespräch. Ich nehme meine Anspannung wahr, lasse mich davon aber nicht verunsichern. Wenn ich Angst bekomme, ist das ok, denn sie wird auch wieder weggehen.“ \r\n\r\noder\r\n\r\n\"Wenn ich diesen Job nicht bekomme, ist das kein Weltuntergang. Jeder, der lange genug sucht und einen Job bekommen möchte, findet auch einen. Wenn ich also dieses Mal noch nicht perfekt bin, habe ich noch viele weitere Chancen mich zu beweisen.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Achten Sie bitte auch darauf, Blickkontakt mit Ihrem Gegenüber zu halten. \r\n\r\nManche Menschen neigen dazu, Ihrem Gesprächspartner entweder zu selten oder zu häufig direkt in die Augen zu schauen. Das kann dann schnell unsicher oder aufdringlich wirken. Um herauszufinden, wie es bei Ihnen ist, holen Sie sich als Aufgabe zwischen diesem und dem nächsten Coaching bitte unbedingt Feedback von einer vertrauten Person ein. \r\nSimulieren Sie in einem kurzen Rollenspiel von 5-10 Minuten die Gesprächssituation und fragen Sie Ihren Feedbackgeber, wie er Ihr Blickverhalten einschätzt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ich denke, also fühl' ich!\r\n\r\nWelche Dinge uns durch den Kopf gehen, beeinflussen in großem Maße, wie wir uns fühlen. \r\nStellen wir uns z.B. Herrn Müller vor, der sich auf dem Weg zu einem Vorstellungsgespräch befindet.  \r\nFolgende Gedanken gehen ihm durch den Kopf: \r\n\r\n„Oje, ich bin sicher nicht gut genug vorbereitet.  Naja, eigentlich glaube ich schon, ich bin der richtige Mann für den Job, aber wer weiß, was die Leute im Gespräch gleich denken.\r\nWenn Sie mir eine Frage stellen, die ich nicht beantworten kann, habe ich bestimmt direkt ein Blackout und werde das Gespräch in den Sand setzen.“\r\n\r\nDiese Gedanken führen dazu, dass Herr Müllers Anspannung wächst. Sein Körper macht sich bemerkbar, er fängt an zu schwitzen und sein Herz schlägt schneller. \r\nEr denkt: \r\n„Oh Gott, wenn ich jetzt schon Angst kriege, wie soll das gleich erst werden?  Vielleicht sollte ich das Gespräch lieber absagen?  Nein, ich gehe hin, aber ich denke nicht, dass das noch viel bringt. Ich werde sowieso keinen guten Eindruck hinterlassen.“\r\n\r\nDas Ergebnis ist, dass Herr Müller sich immer mehr in seine Angst hineinsteigert und aufgewühlt und unkonzentriert beim Termin eintrifft.  \r\n\r\nDiese Gedanken sind also nicht hilfreich!",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Achten Sie bei der Begrüßung auch darauf, dass Ihr Händedruck weder zu lasch noch zu fest ist. Üben Sie vorher bei Freunden, wie Ihr Händedruck ankommt. Vor allem Frauen sollten darauf achten, hier nicht zu \"schlapp\" rüberzukommen! Machen Sie also vorher den Test, indem Sie Ihre Freunde oder Bekannte unbedingt um deren Meinung bitten.\r\nHier noch ein Tipp von uns für alle, die dazu neigen, vor Aufregung sehr feuchte Hände zu haben: wischen Sie Ihre Hand in der Hosentasche ab, bevor Sie den Arbeitgeber begrüßen. Wenn auch das nicht weiterhilft, sagen Sie, Sie hätten sich die Hände gerade erst gewaschen. So ersparen Sie sich allzu peinliche Momente!",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein Gegenentwurf dazu könnte so aussehen:\r\n\r\n„Oje, ich bin sicher nicht genug vorbereitet. Moment, wie komme ich eigentlich auf diese Idee? Ich habe Zeit investiert, über die Firma recherchiert und meine Präsentation geübt. Warum sollte ich also keinen guten Eindruck machen? Ganz im Gegenteil, ich werde da jetzt reingehen und mein Bestes geben. Wenn mein Herz anfängt schneller zu schlagen oder meine Hände schwitzen, weiß ich, dass das wieder vorübergeht-also kein Grund zur Panik! So, jetzt gönne ich mir noch einen Moment Ruhe und dann geht’s los!“\r\n\r\nIn dieser Variante wird Herr Müller sich insgesamt besser fühlen. Er nimmt seine Gedanken und Körperreaktionen wahr, lässt sich davon aber nicht verunsichern. Zusätzlich stimmt er sich mit optimistischen Gedanken positiv auf das Gespräch ein.\r\nDas Ergebnis ist, dass er ausgeruht und mit klarem Kopf in das Gespräch geht.\r\n\r\nWir halten also fest: es ist sinnvoll, die eigenen hemmenden Gedanken wahrzunehmen und Sie dann in konstruktive, positive Gedanken umzuformulieren. \r\nNicht nur, weil Sie dadurch Stress und unangenehme Gefühle vermeiden, sondern auch, weil Sie letztlich leistungsfähiger sind, wenn Sie mit Ruhe und Konzentration in das Gespräch gehen.\r\n\r\nMachen Sie sich den engen Zusammenhang von Gedanken und Gefühlen also unbedingt zunutze!\r\n\r\nHaben sie hierzu noch Fragen? Dann wenden Sie sich an unsere Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Worauf gilt es noch zu achten bei der Begrüßung? Wichtig ist, dass Sie sich erst dann setzen, wenn man es Ihnen anbietet. Wenn Sie Platz nehmen, holen Sie Ihr Notizblatt, Ihren Stift und Ihre vorbereiteten Fragen heraus. Demonstrieren Sie so Ihr Engagement und Ihre gute Vorbereitung!\r\n\r\nDamit hätten wir alle wichtigen Punkte und schauen uns im nächsten Schritt an, wie Sie den Smalltalk zu Beginn meistern!",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Erwägen Sie, ein Entspannungsverfahren zu erlernen\r\n\r\nWenn Sie regelmäßig Anspannung empfinden, z.B. schlecht einschlafen können oder sich während des Schreibens Ihrer Bewerbungen viele Sorgen machen, empfehlen wir Ihnen ein Entspannungsverfahren zu erlernen. \r\nHier gibt es diverse Methoden, aus denen Sie das Richtige für sich auswählen können. \r\nEs ist nachgewiesen, dass Entspannungsverfahren die Konzentrationsfähigkeit erhöhen und das allgemeine Wohlbefinden verbessern.\r\n\r\nHier sind Beispiele für anerkannten Verfahren:\r\n\r\n- Progressive Muskelrelaxation (PMR)\r\n- Autogenes Training \r\n- Meditation\r\n\r\n\r\nKurse zu Entspannungsverfahren werden an Volkshochschulen (VHS) und von vielen privaten Anbietern angeboten. Informieren Sie sich bei Ihrer Krankenkasse, ob Sie für Ihren Kurs einen Zuschuss (von bis zu 80%) beantragen können.\r\n\r\nAlternativ können Sie sich Bücher oder Hörbücher besorgen. \r\nWenn Sie sich für diese Variante entscheiden, lassen Sie sich nicht verunsichern, wenn Ihnen die Entspannung die ersten Mal noch etwas schwer fällt.\r\nUnser Geist und unser Körper muss sich zunächst an die neue Herangehensweise gewöhnen. Übung macht auch hier den Meister.\r\n\r\nWenn Sie ein Entspannungsverfahren beherrschen, können Sie es flexibel und spontan einsetzen: abends vorm Schlafengehen, in der Bahn auf dem Weg zum Vorstellungsgespräch oder in der Mittagspause, wenn Sie Ihren neuen Job gefunden haben.\r\n\r\nWenn Sie kein Verfahren erlernen möchten, ist das kein Beinbruch. Auch so haben Sie mit unserem Coaching schon sehr viel mehr gemacht als die meisten Bewerber und können stolz auf sich sein!\r\nAlternativ können Sie bei Anspannung z.B. die Atemübung machen, die wir Ihnen bereits vorgestellt haben.\r\nZur Erinnerung: einfach 20 mal hintereinander aktiv ein- und ausatmen. Je mehr Sie sich auf Ihren Atem und Ihren Körper konzentrieren, desto mehr können Sie störende Gedanken loslassen und sich so entspannen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den Smalltalk gut meistern\r\n\r\nNach der Begrüßung durch den Arbeitgeber oder den Personalverantwortlichen folgt häufig ein kleiner Smalltalk. Viele von uns sind keine Meister darin. Darum geht es auch gar nicht. Im Grunde wollen beide Seiten die Atmosphäre mit ein paar unverfänglichen Bemerkungen über das Wetter oder die Anreise auflockern. Wenn Sie also nur ein paar Sätze darüber austauschen, sind Sie schon besser als der Durchschnitt. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Üben Sie im Rollenspiel!\r\n\r\nEgal wie viele Bücher Sie gelesen habe oder wie gut Sie sich in Gedanken vorbereitet haben-sie müssen die Dinge, die Ihnen schwerfallen üben, damit Sie Ihnen leichterfallen.\r\n\r\nVielleicht kennen Sie das aus anderen Situationen in Ihrem Leben. Wissen Sie noch, wie schwer es war, das erste Mal vor einer Gruppe zu sprechen oder alleine hinterm Steuer zu sitzen? Erinnern Sie sich daran, welche Ängste Sie dabei hatten? Je öfter Sie ein Verhalten jedoch umgesetzt haben, desto leichter fiel es ihnen. Beim Autofahren kann man besonders schön beobachten, wie eine Handlung plötzlich fast wie von selbst abläuft.\r\nGenauso ist es bei Vorstellungsgesprächen auch: je öfter Sie ein Gespräch geführt haben, desto schneller und spontaner können Sie auf Antworten reagieren und umso wohler fühlen Sie sich in Ihrer Haut.\r\nDarum: bitten Sie einen guten Freund/eine gute Freundin mit Ihnen die Gesprächssituation zu üben. Ihr Gegenüber stellt Ihnen dabei klassische Fragen, die wir Ihnen bereits zu einem früheren Zeitpunkt vorgestellt haben.  Je realistischer die Übungssituation ist, desto größer ist Ihre Lernerfahrung. Versuchen Sie also, in ihren „Rollen“ zu bleiben und die Umgebung so zu gestalten, dass Sie dem echten Gespräch möglichst ähnlich ist.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hier ein paar Tipps von uns, wie Sie bereits im Smalltalk punkten können:\r\n\r\nTipp 1: Bedanken Sie sich für die Einladung zum Vorstellungsgespräch und machen Sie dem Arbeitgeber ein Kompliment. Loben Sie beispielsweise die schönen Räumlichkeiten, die gute Lage, die gute Ausstattung oder finden Sie ein paar nette Worte zur guten Wegbeschreibung oder den freundlichen Empfang.",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ist im Gespräch zu beachten?\r\n\r\nWenn Sie während eines Gesprächs merken, wie die Nervosität Überhand gewinnt, überraschen Sie Ihr Gegenüber mit Ehrlichkeit:\r\nSprechen Sie ganz offen an, dass Sie grade sehr nervös sind und bitten um einen Moment, um dreimal tief durchzuatmen. \r\nIhr Gegenüber wird darauf in der Regel mit Verständnis reagieren. Und selbst, wenn Sie an jemanden geraten, der an dieser Stelle ungeduldig ist, ist es immer noch besser zu signalisieren, dass man aus Nervosität nicht antworten kann als einfach gar nichts mehr zu sagen!\r\n\r\nFragen Sie sich vor und während des Gesprächs auch: Was habe ich eigentlich zu verlieren?\r\nEins ist nämlich sicher: Sie können die Situation nicht verschlechtern, egal, wie das Gespräch verläuft. Im schlimmsten Fall sind Sie in der gleichen Situation wie vorher. \r\nEntscheidend ist, dass Sie zu Ihrem Gesprächstermin erschienen sind: so haben Sie sich selber die Chance auf einen neuen Job offengehalten und können die Erfahrung im Zweifel als wertvolle Übung verbuchen. Aus jedem Versuch werden Sie etwas lernen. Grade die negativen Erfahrungen bringen uns im Leben oft weiter, da man lernt, was man zukünftig lieber vermeiden sollte.\r\nSeien Sie also stolz auf sich, auch wenn es dieses Mal nicht geklappt hat!",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Tipp 2\r\nWenn Sie zu Ihrer Anreise gefragt werden, sollten Sie hier nicht ausholen und dem Arbeitgeber mit Ihren verpassten Anschlüssen oder dem Stau, in den Sie geraten sind, das Ohr abkauen. Selbstverständlich haben Sie sich gut vorbereitet und souverän hergefunden. Ihre Antwort lautet also: „Dankeschön, ich habe dank Ihrer Anfahrtsbeschreibung sehr gut hergefunden.“:",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching „Die Nervosität im Griff haben!“\r\n\r\nWir hoffen Ihnen, mit unseren Tipps weitergeholfen zu haben. Wenn Sie Fragen haben, wenden Sie sich gerne an unsere Experten!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Tipp 3\r\nWird Ihnen ein Getränk angeboten, nehmen Sie es an! So ein Vorstellungsgespräch kann manchmal bis zu zwei Stunden dauern und Sie werden mindestens die Hälfte der Zeit reden. Das macht einen trockenen Mund. Wasser, Tee und Kaffee sind ok. Nehmen Sie am besten stilles Wasser –  im Gespräch aufzustoßen wäre extrem peinlich! Verzichten Sie auf alles, was zuviel Aufwand bedeutet. Alkohol lehnen Sie natürlich ab, falls er Ihnen angeboten wird.",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Die Nervosität im Griff haben\"",
+      "text": "Als Aufgabe suchen Sie sich bitte einen Partner zum üben und führen Sie mindestens ein Rollenspiel gemeinsam durch. Viel Erfolg dabei!",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Tipp 4\r\nDer Plausch über das Wetter gehört zu fast jedem Vorstellungsgespräch. Der Trick hierbei: nutzen Sie die Chance und zeigen Sie sich von Ihrer persönlichen Seite. Reines Wiederholen („Ja, heute ist es wirklich sehr heiß.“) ist wenig spannend. Sagen Sie stattdessen: „Das schöne Wetter wollte ich am Wochenende gleich nutzen, um mit meiner Familie den ersten Badeausflug zu unternehmen.“ Vertiefen Sie das Thema nicht weiter, es geht immerhin nur ums erste Auftauen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "Weiter geht's mit dem Coaching \"Nervosität, ersten Eindruck und Smalltalk\".",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Tipp 5\r\nVielleicht erwähnt Ihr Gesprächspartner eine Gemeinsamkeit zu Ihnen, wie die Heimatstadt oder die gemeinsame Uni/ Ausbildungsstätte. Werden Namen von Dozenten eingeworfen, die Sie nicht kennen, geben Sie es ruhig zu und begründen Sie es mit einem anderen Studienfach. Blamieren Sie sich nicht, indem Sie so tun, als würden Sie die Person super kennen. Mancher Arbeitgeber überprüft mit solchen Fragen die Glaubwürdigkeit des Bewerbers und erfindet auch mal schnell einen Namen! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "Tipp 6\r\nRegen Sie den Smalltalk auch selbst an, indem Sie Rückfragen stellen. Wenn Ihr Gegenüber antwortet, nicken Sie freundlich und geben Sie ihm durch Laute wie \"hm\" oder \"ja\" ab und an zu verstehen, dass Sie ein aufmerksamer Zuhörer sind.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Nervosität und Smalltalk\". Beim nächsten Mal geht es weiter mit dem Coaching \"Sich gut präsentieren\".",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Nervosität und Smalltalk\"",
+      "text": "Denken Sie bitte bis zum nächsten Mal daran, sich Feedback einer vertrauten Person zu Ihrem Blickverhalten einzuholen!\nAußerdem führen Sie bitte bis zum nächsten Mal 3 Small-Talk-Gespräche mit Personen, die Ihnen noch nicht sehr vertraut sind. Sie können dazu auch Gespräche mit völlig Fremden führen. Hauptsache Sie üben, sich locker auszutauschen.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

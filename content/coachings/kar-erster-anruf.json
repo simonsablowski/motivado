@@ -1,0 +1,302 @@
+{
+  "key": "kar-erster-anruf",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen im Coaching \"Telefonische Kontaktaufnahme\"!\r\n\r\nWenn Sie eine Stellenanzeige gelesen haben, die Sie interessiert und auf die Sie sich bewerben wollen, können Sie gleich von Anfang an bei dem Unternehmen punkten, wenn Sie selbstbewusst zum Hörer greifen. Sie zeigen nicht nur echtes Interesse und Engagement, sondern auch, dass Sie ein kommunikativer Mensch sind, der sich ausdrücken kann. \r\nEin weiterer Vorteil ist: Sie können sich in Ihrem Anschreiben direkt auf das vorherige Telefonat beziehen, wodurch der erste Satz häufig leichter fällt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Wie können Sie für ein gutes Gespräch sorgen?",
+      "text": "Sammeln Sie Informationen über das Unternehmen! Wo? Nutzen Sie das Internet, lassen Sie sich Pressemappen zuschicken oder recherchieren Sie in Fachzeitschriften. Im Coaching „Wo kann ich mich bewerben?“ haben wir bereits zahlreiche Informationen zu Ihren Zielfirmen gesammelt. Greifen Sie darauf jetzt zurück!\n\nNachdem Sie Ihre Infos erneut gesichtet haben, suchen Sie Namen und Telefonnummer Ihres Ansprechpartners raus. Häufig finden Sie beide Angaben direkt in der Stellenanzeige. Sollten Sie nichts finden, hilft eine kurze Recherche auf den Firmenseiten im Internet, ein Blick in die Gelben Seiten oder ein Anruf bei der Auskunft.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Halten Sie Ihren Lebenslauf bereit und bereiten Sie zwei bis drei Fragen vor. ",
+      "text": "Welche Fragen kommen gut an?\n\n* Generell alle fachlichen Fragen, die Ihnen zu der Position einfallen, bspw. „In Ihrer Anzeige schreiben Sie... Was genau verstehen Sie darunter?“\n* Welche Erwartungen haben Sie an den Stelleninhaber - abgesehen von denen in der Stellenbeschreibung? Vor welchen Herausforderungen würde ich stehen?\n* Ist die Position neu geschaffen worden oder bereits Bestandteil in Ihrem Unternehmen?\n* Warum ist die Stelle frei geworden und wer hat die Aufgabe bisher übernommen?\n* Wie ist die Position in die derzeitige Unternehmensstruktur eingeordnet?\n* Mit welchen Personen oder Abteilungen würde ich zusammenarbeiten?\n* Haben Sie eine detaillierte Stellenbeschreibung, die Sie mir schicken können?\n\nIn unserem Handout \"Fragen des Bewerbers\" haben wir noch mehr Fragen für Sie vorbereitet, die Sie bei Ihrem Anruf stellen können. Diese können sie unter dem untenstehenden Link herunterladen.",
+      "props": {
+        "documents": [
+          {
+            "name": "Fragen des Bewerbers",
+            "file": "Fragen_Bewerber.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "kar_erster_anruf_fragentel",
+      "title": "Wählen Sie jetzt bitte zwei bis drei Fragen aus (mehr nicht, da die Zeit des Personalers meist knapp bemessen ist), die Sie später im Gespräch stellen wollen. Notieren Sie Ihre Fragen jetzt!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vielleicht sind Sie etwas aufgeregt vor Ihrem Anruf. Verständlich, immerhin geht es hier um einen Job für Sie! Um sich vor dem Gespräch in einen möglichst entspannt ruhigen Zustand zu versetzen, haben wir hier eine kleine Übung für Sie, die Ihnen hilft, gelassen an das Telefonat ranzugehen:\r\n\r\nStellen Sie sich vor, das Gespräch ist vorbei, gut gelaufen und Sie erzählen einem guten Freund oder jemandem aus Ihrer Familie davon. Sie hören, wie Ihr Freund oder Partner sagt: „Ich freue mich, dass es so gut gelaufen ist für Dich! Aber ich wundere mich auch nicht bei Deinen Fähigkeiten! Du hast das sicher super gemeistert, da bin ich absolut sicher!“ \r\n\r\nSich vorzustellen, wie überzeugt andere von Ihnen sind und Sie loben, wie hervorragend das Telefonat mit dem Personaler gelaufen ist, ist ein guter Schub für‘s eigene Selbstbewusstsein! Bringen Sie sich also in einen positiven und zuversichtlichen mentalen Zustand, kurz bevor Sie zum Hörer greifen! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Machen Sie sich außerdem klar: Wenn Sie anrufen, gehören Sie zu den wenigen, die sich das überhaupt trauen! Damit beeindrucken Sie Ihr Gegenüber. Wenn Sie jetzt noch ein paar Tipps für Ihr Telefonat beachten, ist das eine super Voraussetzung für eine mögliche Einladung zum Vorstellungsgespräch!",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie können Sie jetzt das Beste aus Ihrem Gespräch machen? Machen wir gleich weiter mit einigen hilfreichen Tipps!\r\n\r\nSorgen Sie vorher dafür, dass alle störenden Hintergrundgeräusche ausgeschaltet sind. Wenn Sie kein Wort verstehen, weil Sie im Café an einer stark befahrenen Straße sitzen, haben Sie keine Punkte gewonnen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vielleicht kommt es doch zu einem etwas längeren Gespräch. In dem Fall sollten Sie vorbereitet sein, ein bisschen mehr von sich zu erzählen!\r\n\r\nHaben Sie also Ihren Lebenslauf parat, damit Sie schnell das Wichtigste daraus wiedergeben können. Legen Sie auch die Stellenausschreibung vor sich hin, so dass Sie sich direkt auf die Punkte beziehen können. \r\n\r\nBereiten Sie auch unbedingt Ihre Einminutenpräsentation und Ihre Ende-Erklärung vor, falls Sie gleich danach gefragt werden, warum Sie derzeit auf Jobsuche sind. Beides sollten Sie bitte nicht ablesen! Arbeiten Sie sie stattdessen vorher in Stichpunkten aus.\r\n\r\nEs kann auch nicht schaden, Ihre Erfolgsgeschichten parat zu haben. Falls Sie gebeten werden, Beispiele für Ihre Fähigkeiten zu bringen, können Sie dann entspannt darauf zurückgreifen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Legen Sie sich Papier und einen Stift bereitet, um sich sofort Notizen machen zu können und denken Sie auch an Ihre Fragen für das Telefonat!\r\n\r\nIn einer ruhigen Umgebung und mit allem Wichtigen für Ihre Bewerbung ausgestattet, können Sie jetzt entspannt zum Hörer greifen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Gespräch:\r\n\r\nDenken Sie daran, dass Sie gerade am Anfang des Gesprächs lächeln. Ein Lächeln sieht man nicht nur, man hört es vor allem auch. Haben Sie deshalb einen Spiegel neben sich liegen. Mit einem Lächeln wirkt Ihre Stimme gleich viel sympathischer.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vielleicht kommt es doch zu einem etwas längeren Gespräch. In dem Fall sollten Sie vorbereitet sein, ein bisschen mehr von sich zu erzählen!\r\n\r\nHaben Sie also Ihren Lebenslauf parat, damit Sie schnell das Wichtigste daraus wiedergeben können. Legen Sie auch die Stellenausschreibung vor sich hin, so dass Sie sich direkt auf die Punkte beziehen können. \r\n\r\nBereiten Sie auch unbedingt Ihre Einminutenpräsentation und Ihre Ende-Erklärung vor, falls Sie gleich danach gefragt werden, warum Sie derzeit auf Jobsuche sind. Beides sollten Sie bitte nicht ablesen! Arbeiten Sie sie stattdessen vorher in Stichpunkten aus.\r\n\r\nEs kann auch nicht schaden, Ihre Erfolgsgeschichten parat zu haben. Falls Sie gebeten werden, Beispiele für Ihre Fähigkeiten zu bringen, können Sie dann entspannt darauf zurückgreifen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Ihr Gegenüber hat im Moment keine Zeit für Sie? Dann fragen Sie, wann es günstiger für ihn ist und greifen Sie pünktlich zum vereinbarten Termin erneut zum Hörer!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie zuerst an die Telefonzentrale oder die Sekretärin geraten: Nennen Sie auch hier kurz Ihr Anliegen und fragen Sie nach dem Ansprechpartner für die Position. Notieren Sie sich den Namen und bitten Sie, sich zu ihm durchstellen zu lassen.\r\n\r\nEin Beispiel:\r\n\r\n\"„Guten Tag! Mein Name ist Konstanze Klein. Im Zuge meiner Jobsuche bin ich auf Ihrer Firmenhomepage auf Ihr Stellengesuch vom 13.04.2009 aufmerksam geworden, in dem Sie eine Projektassistenz suchen. Beim Lesen der Stellenbeschreibung sind mir zwei Fragen gekommen, die ich sehr gern mit dem Personalverantwortlichen klären möchte. Vielleicht können Sie mir sagen, wie der Ansprechpartner dafür bei Ihnen im Haus heißt und mich möglicherweise zu ihm durchstellen?“\r\n\r\nWenn Ihr Gegenüber gerade nicht zu sprechen ist, fragen Sie auch hier wieder, wann es günstig ist, erneut anzurufen und halten Sie sich in jedem Fall an die vereinbarte Zeit!",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Stellen Sie sich jetzt in 40 Sekunden Maximum mit Hilfe Ihrer Einminutenpräsentation vor! \r\n\r\nBeispielsweise:\r\n„Ich hab seit Jahren im Bereich Team- und Projektassistenz gearbeitet. Ich kenn mich komplett mit den gesamten MS Office-Tools aus, bin gut in Fremdsprachen und mein Traum wäre einfach, die Projektassistenz in einem internationalen Umfeld zu übernehmen. Energiekonzerne finde ich superspannend, denn ohne die geht es nicht in der Zukunft.“\r\n\r\nBleiben Sie bei ihrer Kurzvorstellung auf jeden Fall in der Zeit. Nichts lässt Sie unprofessioneller wirken, als die totale Missachtung der (wertvollen) Zeit Ihres Gegenübers.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Stellen Sie gleich im Anhang Ihre Fragen, beispielsweise:\r\n\r\n„Als ich Ihre Anzeige gelesen habe, hat sich erstens für mich die Frage gestellt, welche Erwartungen Sie an den Stelleninhaber unabhängig von der Stellenbeschreibung haben.“\r\n\r\nLassen Sie Ihrem Gesprächspartner Zeit zu antworten. Hören Sie gut zu und machen Sie sich Notizen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Verabschiedung:\r\n\r\nZum Schluss kündigen Sie Ihre Bewerbung an und bringen zudem einen klaren Call-to-action. Hier erwähnen Sie, dass Sie sich über ein persönliches Gespräch sehr freuen würden. Bedanken Sie sich außerdem für die Zeit, die sich Ihr Gegenüber genommen hat und die Auskunft, die er Ihnen gegeben hat. Wünschen Sie ihm/ ihr einen erfolgreichen und schönen Tag.\r\n\r\nEin Beispiel: \r\n\r\n„Ich würde Ihnen meine Bewerbung dann gleich im Anschluss an unser Gespräch zukommen lassen. Da ich mir vorstellen kann, dass es mit meinen Fähigkeiten und Qualifikationen eine tolle Win-Win-Situation mit Ihnen, Unternehmen XYZ, und mir, Peter Müller, wäre, würde ich mich daher einfach freuen, wenn ich die Möglichkeit hätte, mich Ihnen in einem persönlichen Vorstellungsgespräch vorzustellen.\r\n\r\nIch danke Ihnen sehr für Ihre Zeit und Ihre hilfreiche Auskunft und wünsche Ihnen noch einen erfolgreichen Tag!“",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Die Tipps für Ihr Gespräch haben wir für Sie in einem kleinen telefonischen Leitfaden zusammengestellt, den sie sich jetzt herunterladen können.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Leifaden Anruf Firma",
+            "file": "Leitfaden_Anruf_Firma.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nach dem Telefonat:\r\n\r\nSchnappen Sie sich Ihr Anschreiben und nehmen Sie gleich im ersten Satz Bezug auf Ihr Gespräch, wie im Beispiel: \r\n\r\n(1) Sie haben direkt mit dem Entscheidungsträger gesprochen:\r\n\r\n„Sehr geehrte/r Herr/Frau XYZ,\r\n\r\nvielen Dank für das freundliche Telefonat vom 14.04.2009! ...“\r\n\r\n\r\n(2) Sie haben mit einem Mitarbeiter oder einem/r Sekretär/in des Entscheidungsträgers gesprochen:\r\n\r\n„Sehr geehrte/r Herr/Frau XYZ,\r\n\r\nnach meinem Telefonat mit Ihrem/Ihrer Sekretär/in (Ihrem/ Ihrer Mitarbeiter/in), Herr/ Frau XYZ...“",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "Sie haben sich durch Ihren Anruf bei dem Unternehmen jetzt definitiv interessanter gemacht und man hat Ihren Namen schon einmal gehört. Das ist ein nächster Schritt in Richtung Einladung zum Vorstellungsgespräch. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Telefonische Kontaktaufnahme\".\r\n\r\nIm nächsten Coaching erläutern wir Ihnen wie Sie sich online bewerben, Ihre Kontakte pflegen und sich initiativ bewerben.\r\nBis Bald!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "\rAufgabe zum Coaching \"Telefonische Kontaktaufnahme\"",
+      "text": "Führen Sie bis zum nächsten Mal bitte mindestens 3 Telefonate mit Unternehmen!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

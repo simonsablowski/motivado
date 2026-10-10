@@ -1,0 +1,195 @@
+{
+  "key": "bez-intimhygiene",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching zum Thema \"Intim-Hygiene\".",
+      "text": "Vielleicht haben Sie bisher ein eher angespanntes Verhältnis dazu gehabt, über Intim-Hygiene zu reden. Das ist verständlich, aber das Thema ist trotzdem notwendig, denn immerhin kann es zu peinlichen Situationen führen, wenn der Intimpartner unangenehm riechen sollte oder Ihre Intim-Hygiene in einer spontanen Situation nicht ausreicht. \nVielleicht haben Sie sich auch schon einmal gefragt, wie Menschen mit häufig wechselnden Sexpartnern mit diesem Thema umgehen, gerade auch wenn es darum geht, den Anderen mit dem Mund zu stimulieren oder zu befriedigen.\nWir wollen Ihnen mit diesem Coaching helfen, das Thema Hygiene als Selbstverständlichkeit anzusehen, über die man reden kann, ohne peinlich berührt zu sein. Außerdem haben wir Tipps für Sie, wie Sie Oralsex gemeinsam genießen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vielleicht haben Sie bisher ein eher angespanntes Verhältnis dazu gehabt, über Intim-Hygiene zu reden. Das ist verständlich, aber das Thema ist trotzdem notwendig, denn immerhin kann es zu peinlichen Situationen führen, wenn der Intimpartner unangenehm riechen sollte oder Ihre Intim-Hygiene in einer spontanen Situation nicht ausreicht. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Zur Vorbeugung",
+      "text": "Die Frage ist, wie Sie verhindern können, dass es zu einer unangenehmen Situation kommt.\nDa der eigene Körpergeruch für einen selbst schlechter wahrnehmbar ist, kann es durchaus vorkommen, dass das eigene Empfinden etwas fehl gelenkt sein könnte. Deshalb gilt grundsätzlich, dass Sie sich täglich gründlich waschen und Ihre Unterwäsche wechseln sollten. \n\nWenn Sie ein Date haben und es zu Sex kommen könnte, sollten Sie sich vor dem Date noch einmal frisch machen und das auch in Ihrem Intimbereich. Sorgen Sie dafür, dass Sie gut riechen, aber benutzen Sie auch nicht zu viel Parfüm etc. Näheres dazu haben wir in unserem Coaching \"Geruch\" bereits für Sie zusammengestellt. Näheres zum Thema Intimpflege finden Sie auch in unserem Coaching \"Haare\". Diese Coachings können Sie direkt im Anschluss starten.\n\nEs ist immer von Vorteil, wenn Sie beispielsweise feuchte Tücher, Kaugummi oder eine Zahnbürste dabei haben, um sich direkt vor Ort gegebenenfalls noch einmal frisch machen und Gerüchen vorbeugen zu können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Was ist, wenn...?\r\n\r\n",
+      "text": "Wie verhalten Sie sich, wenn Sie sich trotz aller vorbeugender Maßnahmen in der jeweiligen Situation nicht mehr frisch fühlen?\nAm besten verhalten Sie sich hier völlig unkompliziert. Sich frisch zu machen, kann ohne große Probleme auf jeder Restaurant-Toilette, in Clubs, in Bars, etc. geschehen. Wenn Sie keine feuchten Tücher dabei haben, seien Sie erfinderisch und benutzen Taschentücher, Servietten oder Toilettenpapier. Dazu gehört allerdings nicht nur die Intim-Hygiene, sondern auch das gründliche Waschen der Hände.\nHaben Sie kein Wasser zur Hand, helfen Sie sich mit Ihrem Speichel aus oder zur Not mit der Flasche Wasser auf dem Rücksitz Ihres Autos. Wenn Ihre Unterwäsche durch einen langen Tag zu sehr in Mitleidenschaft gezogen wurde, ziehen Sie sie zur Not komplett aus und tun Sie so, als ob Sie generell keine getragen hätten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie sich in dieser Beziehung völlig unkompliziert und entspannt verhalten, wird keine peinliche Situation entstehen und der Andere wird es Ihnen danken. Scheuen Sie sich nicht davor, Intimitäten zu unterbrechen und sich kurz zu entschuldigen, um sich frisch zu machen. Letztendlich tragen Sie dazu bei, dass Sie beide Sex in entspannter Atmosphäre genießen können und stellen ein angenehmes Erlebnis sicher.\r\n\r\nSollte Ihr Gegenüber durch unangenehmen Körpergeruch oder Flecken auffallen, sprechen Sie auch dies an. Sehen Sie Ihr Handeln als Selbstverständlichkeit an. Je weniger Sie selbst sich dabei denken oder peinlich berührt sind, umso entspannter wird auch der Andere mit dieser Situation umgehen.\r\n Grundsätzlich sollten Sie es zu jeder Zeit ansprechen, wenn Sie sich mit Ihrer Hygiene oder der des Anderen unwohl fühlen. Not macht erfinderisch, daher ist es in jeder Situation möglich, die hygienischen Umstände zu verbessern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Techniken und Kniffe",
+      "text": "Von Techniken in Bezug auf Sex zu sprechen, hört sich immer sehr mechanisch an, aber es gibt eben ein paar Dinge, die das Erleben von Sex für Sie noch schöner macht. Zuallererst sorgen Sie dafür, dass Sie sich beide immer in einer bequemen Stellung befinden. Wenn Sie sich beim Sex Hals, Arme, Beine oder sonst etwas verdrehen oder das Lenkrad im Rücken haben und sich daher nicht entspannen können, nehmen Sie sich die Zeit, Ihre Position zu ändern. Stellen Sie sicher, dass sich auch Ihr Gegenüber wohl fühlt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Witze oder Anekdoten sind beim Sex, besonders wenn es der erste Sex mit der jeweiligen Person ist, ein Tabu. Sätze wie \"Da stand aber mein/e Ex-Freund/in drauf.\" oder \"Die Anderen fanden das immer gut.\" sollten Sie sich verkneifen. Setzen Sie den Anderen niemals unter Druck, wenn sich Ihr Date mit bestimmten intimen Kontakten unwohl fühlt. \r\n\r\nAuf 'Dirty Talk' sollten insbesondere Frauen beim ersten Sex verzichten, denn es geht meistens in die Hose. Wenn es doch dazu kommt - und dies gilt auch für Männer - achten Sie genau auf die Reaktion Ihres Gegenübers. Nur weil der Andere Ihnen nicht verbal zu verstehen gibt, dass er das nicht möchte, bedeutet es nicht, dass 'Dirty Talk' auch willkommen ist. Im Zweifel fragen Sie nach, ob es gefällt, was Sie gerade tun.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Zu Frauen",
+      "text": "Bei sexuellen Intimitäten ist es wichtig, dass Sie unkompliziert mit möglichen Pannen umgehen. Das heißt, wenn die Frau nicht feucht genug wird, helfen Sie sich mit Speichel oder Gleitcreme aus. Viele Menschen denken, dass, wenn eine solche Situation entsteht, unausweichlich peinliche Momente folgen müssen. Dabei können Sie sich doch ganz einfach helfen. Denken Sie daran, dass sich Ihre eigene unkomplizierte und entspannte Umgangsweise mit diesen Situationen auf Ihr Gegenüber überträgt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie eine Frau mit dem Mund stimulieren, ist eins ganz wichtig, nämlich Zeit. Setzen Sie die Frau nicht unter Druck. Sorgen Sie nicht nur dafür, das die Frau bequem liegt, sondern auch Sie. Ihr Hals wird es Ihnen danken. Wir haben bereits in unserem Coaching zum Thema \"Wichtiges in Sachen Sex\" darauf hingewiesen, dass Sie sich unbedingt mit der Anatomie des jeweiligen Geschlechts auseinandersetzen sollten. Sie sollten wissen, wo sich die für die Frau relevanten Stellen wie Klitoris etc. befinden.\r\nEgal, was Sie tun - denn es gibt kein Universalrezept - achten Sie auf die Reaktion der Frau. Bewegt sich die Frau von Ihnen weg, haben Sie sich vielleicht auf die falsche Stelle konzentriert oder zu viel Druck ausgeübt. Das bedeutet für Sie, dass Sie - auch in Kommunikation mit der Frau - herausfinden sollten, wo ihr was am besten gefällt.\r\nVariieren Sie in der Geschwindigkeit und dem Druck Ihrer Bewegungen, bis Sie die richtige Stelle gefunden haben. Kombinieren Sie den Einsatz Ihrer Zunge und Ihres Mundes mit Ihren Fingern. Und immer noch ganz wichtig: die Reaktion der Frau. Wenn sich Ihre Atmung beschleunigt, sie Gänsehaut bekommt oder sich anspannt, ist dies meist ein gutes Zeichen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Zu Männern\r\n",
+      "text": "Was wir bereits über unkomplizierte Reaktionen in Bezug auf kleinere Pannen gesagt haben, gilt natürlich auch dafür, wenn der Mann beispielsweise keine Erektion bekommt. In diesem Fall sollten Sie dies unbedingt ansprechen. Dies kann direkt vom Mann selbst ausgehen \"Ich weiß auch nicht, was gerade los ist...\" \nGeben Sie der Frau in einer solchen Situation unbedingt das Gefühl, dass es nicht an Ihr liegt. Machen Sie deutlich, weiterhin an Sex  mit ihr interessiert zu sein. Verlieren Sie Ihre Vision nicht aus den Augen. \nDer Mann kann sich natürlich auch von der Frau unterstützen lassen. Entweder spricht er sie direkt darauf an \"Kannst Du mir hier vielleicht kurz helfen?\" \"Er braucht kurz Deine Hilfe...\" oder er übernimmt die Führung und führt, wenn es in die Situation passt, die Hand oder den Kopf der Frau in die gewünschte Richtung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auch die Frau kann die Situation ansprechen und entspannen. \"Ich finde es ganz gut, dass wir es langsam angehen lassen.\" \"Es ist nicht schlimm.\" \r\nAls Frau sollten Sie in dieser Situation auf jeden Fall ungezwungen reagieren. Natürlich kann sie die Sache auch einfach selbst in die Hand nehmen oder den Mann direkt darauf ansprechen \"Soll ich's Dir mit der Hand/mit dem Mund machen?\" \"Wie wäre es, wenn ich es Dir mit der Hand/mit dem Mund mache?\" Machen Sie auch hier deutlich, dass sie weiterhin an Sex interessiert sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Kommt es dazu, dass die Frau den Mann mit dem Mund befriedigt, gilt: Sie tun nur, womit Sie sich wohl fühlen. Sie sollten sich mit dem Körper des Mannes auskennen und wissen, dass die empfindlichste Stelle der Ring zwischen Eichel und Schaft ist. Nehmen Sie sich Zeit, Ihr Tempo zu finden und variieren Sie ab und zu Ihre Bewegungen, um herauszufinden, was der Andere am schönsten findet. \r\nGanz wichtig ist, dass Sie so gut wie möglich Ihre Zähne aus dem Spiel lassen.\r\nEbenso wie bei der Frau, können Sie den Mann zusätzlich zum Mund natürlich auch mit der Hand berühren. Wenn Sie beim Mann Hand anlegen, achten Sie auch darauf, dass Ihre Hand feucht ist. Wenn Sie kein Gleitgel da haben, helfen Sie sich auch hier mit Speichel weiter. \r\nWie schon bei der Frau erwähnt, sollten Sie auch hier auf die Reaktionen Ihres Intimpartners achten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie mit der betreffenden Person über einen längeren Zeitraum Sex haben und Sie bei einigen Reaktionen nicht genau wissen, ob z.B. die Anspannung ein gutes oder ein schlechtes Zeichen war, ist es hilfreich, hinterher darüber zu sprechen. Kommunikation während des Sex ist wichtig. Das heißt aber nicht, dass Sie nicht auch hinterher darüber sprechen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching \"Intimhygiene\" durchlaufen. Wir hoffen, Sie können ein entspannteres Verhältnis zu diesem Thema entwickeln. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "key": "ges-abn-es-sozial",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "85983908bafd48339f7d09bbb674e059",
+      "title": "Haben Sie eine Familie mit der Sie zusammen leben oder sind Sie alleinstehend?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V1.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich habe eine Familie"
+          },
+          {
+            "key": 2,
+            "value": "Ich bin alleinstehend"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "85983908bafd48339f7d09bbb674e059 is 1"
+        },
+        {
+          "to": "n003",
+          "if": "85983908bafd48339f7d09bbb674e059 is 2"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bauen Sie sich ein Unterstützungsnetzwerk.\n3 wichtige Punkte, die Sie beachten müssen:\n\n1. Legen Sie die Karten offen auf den Tisch!\n...",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V2A1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "TextArea",
+      "key": "DIC_SozUmfeldBuddyUndSupport",
+      "title": "Wen könnte die Veränderung in Ihrem Leben beeinflussen und wie werden diese Personen vermutlich reagieren?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V2B1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bauen Sie sich ein Unterstützungsnetzwerk. 3 wichtige Punkte, die Sie beachten müssen:\n\n2. Besprechen Sie, was sich in Zukunft ändern könnte und wie sie gemeinsam damit umgehen werden.\n...",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V2A2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Group",
+      "key": null,
+      "title": "Suchen Sie sich eine Person aus, die Sie besonders beim Abnehmen unterstützen soll.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V2B2.flv"
+        },
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bauen Sie sich ein Unterstützungsnetzwerk. 3 wichtige Punkte, die Sie beachten müssen:\n\n3. Scheuen Sie sich nicht Ihre Familie um Unterstützung beim Abnehmen zu bitten!\nÜberlegen Sie sich gemeinsam mit jedem einzelnen, wie er oder sie Sie unterstützen kann.",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V2A3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "TextInput",
+      "key": "DIC_NameBuddy",
+      "title": "Wie heißt Ihr Coaching-Buddy?",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Group",
+      "key": null,
+      "title": "Suchen Sie sich eine Person aus, die Sie besonders beim Abnehmen unterstützen soll.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V2B2.flv"
+        },
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "TextInput",
+      "key": "DIC_EMailBuddy",
+      "title": "Die E-Mail-Adresse vom Coaching-Buddy:",
+      "text": "",
+      "props": {
+        "type": "email"
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "TextInput",
+      "key": "DIC_NameBuddy",
+      "title": "Wie heißt Ihr Coaching-Buddy?",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "TextArea",
+      "key": "DIC_BuddySupport",
+      "title": "In welcher Form wünschen Sie sich Unterstützung von Ihrem Coaching-Buddy?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "TextInput",
+      "key": "DIC_EMailBuddy",
+      "title": "Die E-Mail-Adresse vom Coaching-Buddy:",
+      "text": "",
+      "props": {
+        "type": "email"
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "So haben sich Ihre Vorgänger erfolgreich beim Abnehmen unterstützen lassen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V2B3.flv"
+        },
+        "documents": [
+          {
+            "name": "AbnehmBuddies",
+            "file": "BeispAbnehmBuddies.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "TextArea",
+      "key": "DIC_BuddySupport",
+      "title": "In welcher Form wünschen Sie sich Unterstützung von Ihrem Coaching-Buddy?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "List",
+      "key": "DIC_PunktePosAbnehmenGrundlagen",
+      "title": "All dies erwartet Sie, wenn Sie Ihr Ziel erreicht haben!",
+      "text": "Und nichts und niemand kann Sie davon abbringen!",
+      "props": {
+        "video": {
+          "url": "DIC_SozUmfeld_V3.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "DIC_KickOffDone is 'y'"
+        },
+        {
+          "to": "n016",
+          "if": "DIC_KickOffDone not 'y'"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Coaching",
+      "key": null,
+      "title": "Kick Off",
+      "text": "",
+      "props": {
+        "key": "kick-off"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

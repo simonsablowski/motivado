@@ -1,0 +1,221 @@
+{
+  "key": "bez-kennenlernen-soz-netzwerke",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Benutzen Sie Ihr Profil in einem Sozialen Netzwerk auch nur dafür, Ihre Verwandten, Kollegen und Freunde zu verwalten und organisieren? Dann entgeht Ihnen die Chance, dort einen potentiellen Partner kennenzulernen und ihm näher zu kommen.\r\n\r\nOder manchmal stolpert man über ein sehr interessantes Profil einer Person, weiß aber nicht, ob und wenn ja, wie man zu demjenigen Kontakt aufnehmen soll. Wie intensivieren Sie den Kontakt zu jemandem, den Sie schon kennengelernt haben, aber nur über ein Soziales Netzwerk Kontakt haben?\r\n\r\nIn unserem Coaching \"Näher kommen im Internet\" zeigen wir Ihnen die Strategien, die Ihnen helfen, eine tolle Person im Internet kennenzulernen. Wenn Sie sich schon immer gefragt haben, warum niemand auf Ihre Nachricht in einem Sozialen Netzwerk reagiert, sind Sie bei uns genau richtig.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen in unserem Coaching \"Soziale Netzwerke und Communities\".\r\n\r\nViele Menschen nutzen zwar die Möglichkeit, andere Menschen im Internet zu suchen, aber Sie sind sich nicht darüber bewusst, wie Sie die gefundenen Informationen gekonnt nutzen können. \r\n\r\nMit unserem Coaching wird es für Sie ein leichtes sein, die Informationen, die Sie über andere herausfinden können, richtig zu nutzen und ein wirklich gutes Profil in einem Sozialen Netzwerk anzulegen. Wir helfen Ihnen, Ihre Chancen zu verbessern, eine tolle Person im Internet kennenzulernen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Soziale Netzwerke Teil I\r\nSich in einem Sozialen Netzwerk im Internet zu bewegen, um dort Anderen oder einer bestimmten Person näher zu kommen, stellt an Sie ganz andere Ansprüche als z.B. eine Dating-Plattform. Immerhin weiß jeder bei einer Dating-Plattform ganz genau, worum es geht - nämlich darum, einen potentiellen Partner kennenzulernen. Wir gehen daher im Folgenden davon aus, dass Sie die betreffende Person bereits kennen und im Internet mehr über Sie erfahren bzw. näher kennenlernen möchten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Soziale Netzwerke Teil II\r\nWenn Sie online gezielt spannende und tolle Menschen treffen möchten, die Sie noch nicht kennen empfehlen wir Ihnen, sich bei Dating- und Matching-Seiten anzumelden und unsere entsprechenden Coachings zu diesem Thema zu durchlaufen.\r\n\r\nIn einem Sozialen Netzwerk tauschen sich die meisten Menschen mit ihren Freunden aus, verwalten Ihre Kontakte und geben oft sehr ausführlich über ihr Leben Auskunft. Allerdings sind dort wenige Menschen aktiv auf der Suche nach einem potentiellen Partner. Daher sind Soziale Netzwerke super, um einer Person, die Sie bereits kennengelernt haben, näher zu kommen, den Kontakt zu halten und zu intensivieren. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Soziale Netzwerke Teil III\r\nIhr Profil in einem Sozialen Netzwerk muss also ganz anderen Anforderungen Stand halten, als es ein Profil auf einer Dating-Seite müsste. Bevor wir Ihnen wichtige Tipps geben, wie Sie Ihr Profil ansprechend gestalten, haben wir eine kurze Liste mit den wichtigsten Sozialen Netzwerken, die zum Teil unterschiedliche Zielgruppen und Fokussierungen haben, zusammengestellt:\r\n\r\nFacebook.de\r\nXing.de\r\nLokalisten.de\r\nStudiVZ.de, SchülerVZ.de, MeinVZ.de\r\nWerkenntWen.de\r\nMyspace.com",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Profil\r\nWie Sie ein ansprechendes, unterhaltsames und lustiges Profil anlegen, haben wir in unserem Coaching \"EDate-Profil\" für Sie zusammengestellt, das wir Ihnen hier ganz besonders ans Herz legen möchten. Allerdings gibt es natürlich Unterschiede zu Profilen auf Dating-Seiten, die wir Ihnen hier aufzeigen werden, empfehlen Ihnen aber zusätzlich das Coaching zu Profilen und Nachrichten schreiben auf Dating-Seiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Foto\r\nIhr Profilfoto ist besonders wichtig, da es den ersten Eindruck bestimmt, wenn Jemand auf Ihr Profil klickt. Und da Sie natürlich einen guten ersten Eindruck machen wollen, müssen Sie unbedingt ein tolles Profilfoto auswählen. Das heißt, dass Sie lächeln sollten, idealer Weise zeigen Sie dabei Zähne. Vermeiden Sie ablehnende Körperhaltungen. Verzichten Sie außerdem auch auf Fotos, auf denen Sie sich lächerlich machen oder betrunken sind. Am besten lassen Sie es von einem Profi machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Fotoalben\r\nIm Profil einiger Sozialen Netzwerke haben Sie außerdem die viel genutzte Möglichkeit, neben Ihrem eigentlich Profilfoto auch noch Foto-Alben zu erstellen und Fotos von Freunden zu verlinken. Da Sie durch die Verlinkungen zu Ihren Freunden zeigen können, dass Sie außerhalb der Welt des Internets aktiv sind und Interessen haben und verfolgen.\r\n\r\nEinen weiteren wichtigen Tipp haben wir aber noch für Sie: Achten Sie darauf, welche Fotos Sie in Ihren Alben haben und von Ihnen verlinkt werden. Wenn Sie sich auf Ihren Fotos immer lächerlich machen oder immer betrunken zusehen sind, wirft das kein gutes Licht auf Sie. Das gilt besonders für Frauen.\r\n\r\nEs wirkt ansprechend, wenn Sie auf Ihren Fotos fröhlich sind und viel lachen. Männer können sich auf ein, zwei Fotos ruhig auch mal zum Clown machen - Frauen sollten dies aber nicht tun. Zeigen Sie sich mit Ihren Freunden, zeigen Sie, dass Sie soziale Kontakte haben und pflegen. Seien Sie aber auch darauf bedacht, nicht auf jedem Foto von fünf Ihrer besser aussehenden Freunden/innen umringt zu sein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Kontakte pflegen\r\nZusätzlich zu diesem Coaching sollten Sie in Sozialen Netzwerken immer zeigen, dass Sie eben genau das auch haben: ein Soziales Netzwerk. In Ihrer Freundesliste sollten daher mindestens 80-100 Leute zu finden sein, die einen interessanten Eindruck hinterlassen sollten. Seien Sie aktiv auf dieser Plattform, interagieren Sie mit Ihren Freunden und zeigen Sie damit dem Anderen, dass Sie Freunde haben und Zeit mit Ihnen verbringen.\r\n\r\nNutzen Sie die Möglichkeiten der Interaktion auf Sozialen Netzwerken. Stellen Sie Fotos ein, zeigen Sie Ihre Interessen, welche Musik Sie mögen, wohin Sie als nächstes Reisen etc. Ein Profil in einem Sozialen Netzwerk lässt sehr viel Persönlichkeit zu. Nutzen Sie dies zu Ihrem Vorteil, indem Sie Dinge über sich preis geben die andere neugierig machen. Aber vermeiden Sie, peinlich, langweilig oder uninteressant zu wirken. Sie wissen jetzt worauf es ankommt!\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Halten Sie die Waage\r\nSeien Sie allerdings auch nicht zu oft in einem Sozialen Netzwerk online, denn immerhin haben Sie ja noch ein spannendes, soziales Leben außerhalb des Internets. Wenn sich Ihr Leben allerdings immer nur im Internet abzuspielen scheint, wirken Sie nicht gerade wie eine interessante und spannende Person.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Personensuchmaschinen\r\nDa ein Profile in einem Sozialen Netzwerk so viel über Sie verrät, nutzen Sie das auch aus, wenn Sie sich das Profil der anderen Person ansehen! Wenn Sie jemanden kennengelernt haben, können Sie ganz einfach im Internet nach dieser Person zu suchen. Diverse Suchmaschinen finden Profile, Adressen, Business-Profile und vieles mehr. Die wichtigsten Personensuchmaschinen haben wir für Sie aufgelistet:\r\n\r\n123people.com\r\nyasni.de\r\npipl.com",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein Gefühl für den Anderen kriegen\r\nWenn Sie die andere Person im Internet gefunden haben, nutzen Sie die Ergebnisse dafür, ein Gefühl für denjenigen zu bekommen. Es geht hier nicht darum, dass Sie alle privaten Nummern etc. herausfinden. Haben Sie die Frage im Kopf, was für Interessen der Andere hat (z.B. ist der Betreffende ein Familienmensch, naturverbunden oder ein Stadtkind, hat er Humor etc.), wie er tickt und was eventuelle Fettnäpfchen sein könnten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Kontakt aufnehmen\r\nEgal, ob Sie den Anderen bereits kennen und im Internet gesucht haben, um mehr über diese Person zu erfahren oder ob Sie über ein Profil gestolpert sind, dass Sie sehr interessant finden, die allererste Kontaktaufnahme im Internet entscheidet über Ihren Erfolg und Mißerfolg.\r\n\r\nDaher nehmen Sie sich Zeit für Ihre erste Nachricht. Nehmen Sie sich auch Zeit für unser Coaching \"Erfolgreich Nachrichten schreiben auf E-Dating-Seiten\". Wir haben dort alle wichtigen Punkte und Strategien, die Sie beim Verfassen der ersten Nachricht kennen sollten, für Sie zusammengestellt.\r\n\r\nAus dem Profil des Anderen können Sie sehr viele Informationen ziehen, die Ihnen eine große Hilfe beim Verfassen der ersten Nachricht und dem anschließenden Nachrichten bzw. E-Mail-Kontakt sind. In diesem Punkt ähnelt sich das Näherkommen auf Sozialen Netzwerken sehr stark dem der Dating-Seiten. Wenn Sie diese Coachings durchlaufen, denken Sie aber daran, dass Menschen in Sozialen Netzwerken nicht vorrangig an Dates interessiert sind, weswegen Sie die Eskalation zum Date oder Telefonat sanfter vorantreiben müssen. Überfallen Sie den Anderen also nicht gleich mit tausend Einladungen ins Kino, zum Essen, ins Café etc.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nicht an einer Person hängen bleiben\r\nWenn Sie interessante Leute über Soziale Netzwerke kennenlernen wollen und daher Menschen mit interessanten Profilen anschreiben, machen Sie nicht den Fehler, an einer bestimmten Person hängen zu bleiben. Schreiben Sie mehrere Personen an und warten Sie ab, wer wie reagiert. Indem Sie sich auf eine bestimmte Person festlegen, die vielleicht gar nicht reagiert, blockieren Sie sich für andere tolle Menschen. Lassen Sie sich keine Chance entgehen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Trainieren Sie, Informationen aus Profilen auf Sozialen Netzwerken und den Ergebnisse der Personensuchmaschienen zu ziehen, indem Sie sich selbst und drei Ihrer Freunde suchen. Welche Informationen können Sie gewinnen und wie würde Ihre Nachricht aussehen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching \"Näher kommen im Internet\" durchlaufen. Wir hoffen, Sie haben nun einige Strategien dafür, wie Sie einer Person aus Ihrem Freundes- oder Bekanntenkreis näher kommen können. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

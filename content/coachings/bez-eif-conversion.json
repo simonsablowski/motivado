@@ -1,0 +1,107 @@
+{
+  "key": "bez-eif-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "rel_wceifer1",
+      "title": "Welcher Fall von Eifersucht liegt bei Ihnen vor?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_TeaserEifersuchtFrage_V1.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich bin eifersüchtig mit konkretem Grund"
+          },
+          {
+            "key": 2,
+            "value": "Ich bin eifersüchtig ohne konkreten Grund"
+          },
+          {
+            "key": 3,
+            "value": "Mein Partner ist eifersüchtig"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "rel_wceifer1 is 1"
+        },
+        {
+          "to": "n003",
+          "if": "rel_wceifer1 is 2"
+        },
+        {
+          "to": "n004",
+          "if": "rel_wceifer1 is 3"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "key": "bez-eif-paket",
+        "video": {
+          "url": "REL_Eifersucht_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "key": "bez-eif-paket",
+        "video": {
+          "url": "REL_Eifersucht_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "key": "bez-eif-paket",
+        "video": {
+          "url": "REL_Eifersucht_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

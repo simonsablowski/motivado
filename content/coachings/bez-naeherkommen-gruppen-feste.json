@@ -1,0 +1,208 @@
+{
+  "key": "bez-naeherkommen-gruppen-feste",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching \"Näher kommen in Gruppen und auf Festen\".",
+      "text": "Viele Menschen tun sich schwer, wenn es darum geht, einer interessanten Person auf einem großen Fest oder in einer Gruppe näherzukommen. Sie lassen sich von der Anwesenheit Anderer leicht einschüchtern und rechnen sich im Vergleich zu der direkten Konkurrenz kaum Chancen aus.\n\nDas ist eine ganz natürliche Reaktion, allerdings wissen wir aus Erfahrung, dass das nicht so bleiben muss. Sie können das ändern!\n\nIn unserem Coaching geht es darum, Ihre Unsicherheiten in Bezug auf Ihre Konkurrenz abzubauen und souverän die Aufmerksamkeit des Anderen fesseln zu können, ohne dass Sie sich vor den Augen der anderen lächerlich machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Ein Hinweis vorweg\r",
+      "text": "Falls Sie mit der betreffenden Person schon länger befreundet sind, empfehlen wir Ihnen nach diesem Coaching unser Coaching zum Thema \"Aus Freundschaft wird mehr\", da in dieser besonderen Situation viele gefährliche Fallen auf Sie lauern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Mit Selbstbewusstsein in die fremde Gruppe",
+      "text": "Wenn der Andere in einer fremden Gruppe unterwegs ist, z.B. auf einem großen Fest oder dem Rummel, können wir Ihnen aus Erfahrung sagen, dass zwei Dinge ganz besonders wichtig sind:\n\n1. Ein gutes Gefühl für die Strukturen der Gruppe\nDas heißt, dass Sie herausfinden müssen, welche Person der \"Anführer\" dieser Gruppe ist. Wenn Sie es schaffen, den Leitwolf auf Ihre Seite zu ziehen, sich also mit ihm zu sozialisieren, haben Sie schon gewonnen. Lachen Sie über dessen Witze und zeigen Sie Anerkennung.\nMachen Sie selbst Witze, suchen Sie gezielt das Gespräch mit ihm und hören Sie aktiv zu. Die Integration in die Gruppe wird so wesentlich leichter. Der Weg zum Anderen führt oft über den „Anführer“.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "2. Selbstbewusstsein ausstrahlen, egal wie viel Sie tatsächlich haben",
+      "text": "Wenn Sie auf die Gruppe zugehen, zu der die entsprechende Person gehört, seien Sie selbstbewusst. Hören Sie zuerst der Unterhaltung zu, halten Sie sich dabei aber körperlich sehr aufrecht. Um von der Gruppe integriert zu werden, stellen Sie klare, laute Fragen oder Kommentare. \n\nGehen Sie direkt in die Kommunikation ein. Zeigen Sie Interesse für die Gespräche der gesamten Gruppe. Wenn die Gruppe merkt, dass Sie da sind und es tatsächlich ernst meinen, wird man Sie integrieren. Wenn Sie aber leise sind, werden Sie untergehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Den Anderen ins Visier nehmen\r\n",
+      "text": "Verbünden Sie sich mit der Gruppe gegen den Anderen und klopfen Sie leicht respektlose Sprüche, wie \"Wie haltet ihr ihn/sie denn nur aus?\" oder \"Ist er/sie immer so?\" oder (auf den Anderen bezogen) \"Hat gerade jemand etwas gesagt?\" oder \"Habt ihr gerade was gehört?\", aber beleidigen Sie den Anderen nicht.\n\nSie sollten es unbedingt zeigen, dass Sie Ihre Bemerkung charmant oder aufgesetzt empört gemeint haben. Blinzeln Sie dem Anderen beispielsweise zu, während Sie eine scherzhafte Bemerkung machen.\n\nWenn Sie merken, dass Sie zu weit gegangen sind, ignorieren Sie den Anderen erst einmal für mindestens fünf Minuten. Sich in dieser Situation zu entschuldigen, macht die Sache oft noch schlimmer und könnte Sie schwach dastehen lassen. Ihr Ziel ist es, eine Zweier-Situation mit der betreffenden Person herzustellen. Behalten Sie dieses Ziel auch bei Rückschlägen im Auge! Hier geben viele Menschen auf, was der Hauptfehler ist.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Zweier-Situationen herbeiführen",
+      "text": "Auf jedem größeren Event gibt es die Möglichkeit, Situationen herbeizuführen, in denen Sie mit dem Anderen allein sein können. Gehen Sie gemeinsam zum Buffet, an die frischen Luft, eine Zigarette rauchen oder tanzen sie miteinander. Fragen Sie dabei um die Hilfe der Traumperson. Wenn Sie sich in einer solchen Situation befinden, machen Sie Ihre Intentionen klar, indem Sie Körperkontakt aufbauen (z.B. nehmen Sie die Hand des Anderen, wenn Sie zum Buffet gehen).\n\nWichtige Punkte zum Thema Intensivierung von Körperkontakt haben wir in unserem Coaching \"Eskalation zu Intimitäten\" für Sie zusammengestellt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Mit Enttäuschungen umgehen",
+      "text": "Es wichtig, dass Sie sich von Rückschlägen, nicht entmutigen lassen. Wenn z.B. die betreffende Person Sie erstmal stehen lässt, sprechen Sie mit jemand Anderem. Aber bleiben Sie mental dran! Behalten Sie den Glauben daran, dass es klappen kann. Nach ein paar (etwa 15-30) Minuten machen Sie wieder völlig normal weiter.\n\nAuch wenn zwischendurch andere Leute im Spiel sein sollten, lassen Sie sich nicht irritieren. Sie können zwischendurch natürlich auch mit anderen Leuten tanzen, aber kommen Sie immer wieder zur betreffenden Person zurück. Solange sie gut gelaunt ist und Ihnen nicht überdeutlich zu verstehen gibt, dass Sie kein Interesse hat, kommunizieren Sie, dass Sie Interesse haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Nicht warten, sondern handeln\r\n",
+      "text": "Wenn Sie Jemanden in einer Gruppe oder auf einem Event interessant finden, wäre es ein großer  und sogar ziemlich dummer Irrtum, wenn Sie sich in dieser Situation einfach nur zurücklehnen und darauf warten, dass etwas passiert. Sie müssen aktiv werden und auf den Anderen zugehen. Nehmen Sie in Kauf, dass Sie beim ersten Versuch vielleicht keinen Erfolg haben werden, denn was haben Sie zu verlieren? - Nichts! Auf der anderen Seite aber könnten Sie eine tolle Person kennenlernen. Was ist Ihnen lieber? Die Entscheidung liegt bei Ihnen.\nHandeln Sie!",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Betriebsfeier\r\n",
+      "text": "Wenn Sie gerne jemandem auf einer Betriebsfeier näher kommen möchten, stellt das eine etwas andere Situation dar, denn oft haben die Leute keine Lust das Gesprächsthema des gesamten Büros zu sein. Seien Sie daher in Ihrer Annäherung nicht zu offensichtlich. \n\nSie können mit der betreffenden Person einen Spaziergang machen oder ein Glas Wein \"woanders\" vorschlagen. Oder Sie nehmen die Hand des Anderen unter dem Tisch oder tanzen Sie mit der Person und flüstern ihr heimlich etwas süßes ins Ohr.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Ein zusätzlicher, wertvoller Tipp",
+      "text": "Gerade auf Betriebsfeiern sollten Sie damit rechnen, dass der Andere sich zieren wird. Machen Sie jetzt nicht den gefährlichen Fehler, die Ängste oder Bedenken des Anderen zu ignorieren. Statt dessen, sprechen Sie diese direkt an und zeigen Sie so, dass Sie den Anderen verstehen. \"Ich weiß, mir ist es genauso unangenehm, aber ich kann nicht anders.\" oder \"Es wird keiner mitbekommen.\" oder \"Niemand sieht uns gerade.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Die schlimmsten Fallen",
+      "text": "Oft geht der Versuch jemanden in einer Gruppe oder auf einem Event näher zu kommen deswegen in die Hose, weil viele Leute immer wieder die selben Fehler machen.\n\n1. Zu früh aufgeben\nGeben Sie nicht schon auf, bevor Sie Ihre Chance wirklich genutzt haben, weil sich beispielsweise die passende Situation nicht bietet. Führen Sie eine Zweier-Situation selbst herbei oder kommen Sie immer wieder auf diejenige Person zu.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Die schlimmsten Fallen Teil II",
+      "text": "2. Sich von Anderen abschrecken lassen\nNicht zu früh aufgegen, meint auch, dass Sie sich nicht gleich davon abschrecken lassen, wenn eine andere Person auftaucht und ebenfalls Interesse zeigt. Jetzt sofort den Rückzug anzutreten, wird nur dazu führen, dass Sie sich hinterher Vorwürfe machen werden. Wollen Sie sich wirklich einfach durch Konkurrenz abschrecken lassen und hinterher bereuen, dass Sie es nicht weiter versucht haben? Wollen Sie wirklich alleine zurückbleiben, während ein Anderer mit Ihrer Traumperson im Arm nach Hause geht?",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Die schlimmsten Fallen Teil III\r\n",
+      "text": "3. Zu viel Alkohol trinken\nAlkohol lässt bekanntlich die Hemmungen sinken, aber es wird Ihnen nicht gelingen, die betreffende Person näher kennenzulernen, wenn Sie nicht mehr Herr Ihrer Sinne sind. Daher nehmen Sie sich beim Alkoholkonsum etwas zurück!\n\n4. Nicht frech genug sein\nSeien Sie frech und fordernd. Es mag zwar ein Klischee sein, aber es ist durchaus etwas Wahres daran, dass nette Leute immer in der Freundschaftsfalle landen und da heraus zu kommen, ist eine ganz besonders schwierige Aufgabe. Seien Sie also frech, machen Sie klar, was Sie wollen und spielen Sie nicht den treuen Dackel.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Die schlimmsten Fallen Teil IV",
+      "text": "5. Keine klare Vision haben\nScheitern Sie nicht daran, dass Sie gar nicht genau wissen, was Sie eigentlich wollen. Nehmen Sie sich Zeit, darüber klar zu werden, wie der Abend für Sie enden soll. Mit einer Telefonnummer? Mit einem Kuss? Setzen Sie Ihr Ziel tief in Ihren Gedanken fest und handeln Sie dementsprechend. EGAL, wie es zunächst für Sie zu laufen scheint oder wie viele Chancen Sie sich ausrechnen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching \"Näher kommen in Gruppen und auf Festen\" durchlaufen. Wir hoffen, Sie haben nun einige Strategien dafür, wie Sie einer Person aus Ihrem Freundes- oder Bekanntenkreis näher kommen können. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

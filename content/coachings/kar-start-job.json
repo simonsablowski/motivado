@@ -1,0 +1,557 @@
+{
+  "key": "kar-start-job",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im abschließenden Coaching \"Frischer Start in den Job\"\r\n\r\nIhr Vorstellungsgespräch verlief erfolgreich, der Arbeitsvertrag ist unterschrieben und der Berufseinstieg kann beginnen! Herzlichen Glückwunsch zum erreichten Ziel! \r\n\r\nSchauen wir uns jetzt an, wie Sie einen möglichst überzeugenden und reibungslosen Start im neuen Job hinlegen können!\r\n\r\nDie folgenden Punkte bieten Ihnen dafür ein ideales Handwerkszeug:\r\n\r\n1. Ihre Kontakte informieren\r\n2. Einen reinen Schreibtisch machen\r\n3. Sich gut vorbereiten\r\n4. Durchstarten und dranbleiben\r\n\r\nStarten wir damit, dass Sie sich erstmal bei Ihrem Netzwerk für dessen Unterstützung und Hilfe bedanken. Auf geht’s!",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Ihre Kontakte informieren\n\nVielleicht haben Sie aktiv Ihr Netzwerk während der Jobsuche angezapft, vielleicht haben Sie den ein oder anderen wertvollen Tipp durch Bekannte, Freunde oder Kollegen bekommen. Informieren Sie Ihr Netzwerk in jedem Fall über Ihren aktuellen Status und bedanken Sie sich für die Unterstützung, die Sie erfahren haben. \n\nGehen Sie durch Ihre Liste an Kontakten. Rufen Sie die Personen an, die Sie um Informationen und Tipps gebeten haben und drücken Sie Ihren Dank aus. So bleiben Sie als zuverlässige und höfliche Person in Erinnerung und man wird Ihnen auch in Zukunft gern wieder helfen wollen. \n\nEinen Leitfaden für diese Gespräche finden Sie unten.",
+      "props": {
+        "documents": [
+          {
+            "name": "Leitfaden Dankesanruf Netzwerk",
+            "file": "Leitfaden_Anruf_Dank_Netzwerk.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie vorher eher in schriftlichem Kontakt mit Ihren Kontakten standen und den Weg der Email-Kommunikation weiterhin bevorzugen, haben wir auch hierfür unten einen Leitfaden zur Verfügung gestellt.",
+      "props": {
+        "documents": [
+          {
+            "name": "Leitfaden Dankesmail Netzwerk",
+            "file": "Leitfaden_Email_Dank_Netzwerk.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Intakte Kontakte sind auch in Zukunft für Sie essentiell, sei es für eine zukünftige berufliche Neuorientierung, für fachlichen Austausch auf Ihrem Gebiet oder für gegenseitige Hilfe in jobfremden Bereichen. Pflegen Sie sie demzufolge auch, nachdem Sie erfolgreich im neuen Job gestartet sind!",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Entscheiden Sie daher, mit wem Sie weiterhin aktiv in Kontakt bleiben wollen.  Mit einigen Pesonen haben Sie vielleicht intensiveren Austausch gepflegt oder wertvolle Informationen ausgetauscht. Mit anderen nur flüchtige Gespräche geführt oder sich kurz abgestimmt. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gehen bitte jetzt Ihre Kontaktliste durch und notieren Sie zehn bis fünfzehn Personen, mit denen Sie auch zukünftig im Austausch bleiben wollen. Schreiben Sie bei jeder Person auch in Klammern dahinter, wie Sie mit der jeweiligen Person in Kontakt bleiben möchten (Telefonate, Mittagessen, soziale Netzwerke etc.)!",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Einen reinen Schreibtisch machen\r\n\r\nNun ist es wichtig, einen klaren Schlussstrich unter Ihre alte Tätigkeit zu ziehen, um mit voller Energie in Ihren neuen Job starten zu können.\r\n\r\nRäumen Sie deshalb Ihren alten Schreibtisch auf, sortieren Sie Ihre Unterlagen und schmeißen Sie weg, was Sie nicht mehr benötigen. \"Schreibtisch\" ist hier symbolisch gemeint - es kann natürlich auch sein, dass Sie alle Unterlagen digital abgespeichert haben. Dann sorgen Sie bitte dafür, dass Ihr \"Desktop\" gut strukturiert und aufgeräumt ist, bevor Sie Ihren neuen Job antreten.\r\n\r\nSchauen Sie, dass Sie E-mail- und Telefonadressen Ihrer früheren Kollegen in Ihrem Adressbuch abgelegt haben, falls Sie auch zukünftig für Privates oder den beruflichen Austausch im Gespräch bleiben wollen.\r\n\r\nWenn Sie bestimmte erstellte Inhalte und Dateien auch noch in Ihrem nächsten Job benötigen, speichern Sie sie sich ab. Wichtig ist hier, dass Sie natürlich keine vertraulichen Daten mitnehmen, sondern vielmehr von Ihnen verfasster Inhalt wie Projektoutlines, Rechercheergebnisse etc.\r\nWenn Sie sich wertvolle Lesezeichen während Ihrer Arbeit gesetzt haben, exportieren Sie sie bzw. laden Sie sich eine Software zum Abgleich mit Ihren privaten Lesezeichen herunter.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die erste Zeit im neuen Job ist meistens recht aufregend. Um von Anfang an souverän aufzutreten, empfiehlt es sich, sich vorher über die Firma gut zu informieren. \r\n\r\nWelche Quellen eignen sich dafür am besten?\r\n\r\nNutzen Sie dafür Mitarbeiterzeitschriften, lesen Sie Firmenbroschüren und Wirtschaftzeitschriften, sprechen Sie mit Mitarbeitern, nutzen Sie das Internet und schauen Sie sich auf der Firmenhomepage um. Auch Berichte aus Lokalzeitungen bieten interessante Informationen. Dort geht es weniger um Aktienkurse und Bilanzen, sondern um lokalpolitische Zusammenhänge.\r\n\r\nMit einigen ersten Hintergrundinformationen sind Sie gut gewappnet für den neuen Job!",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Start in einen neuen Job bringt auch immer etwas Aufregung mit sich. Immerhin begegnen Ihnen neue Kollegen, ein neues Arbeitsumfeld und man wird Sie aufmerksam beobachten.\r\n\r\nUm Ihre Aufregung vor dem ersten Tag zu reduzieren, haben wir folgende kleine mentale Übung für Sie:\r\n\r\nStellen Sie sich vor, die ersten 100 Tage im neuen Job wären erfolgreich gelaufen. Stellen Sie sich vor, Sie hätten einen guten Draht zu Ihren Kollegen gefunden, Ihr Chef ist mit Ihren ersten Ergebnissen zufrieden und Sie haben einen guten Überblick über Prozesse, Schnittstellen, Strukturen und die internen Abläufe gewonnen. Sprich: Sie haben sich produktiv eingelebt!\r\n\r\nWie fühlen Sie sich bei diesem Gedankenspiel? Gut, oder? Machen Sie diese mentale Übung, wenn Sie aufgeregt sind und stellen Sie sich vor, wie positiv Ihnen Ihr Einstieg gelingen wird.\r\n\r\nMit Hilfe dieser Übung bringen Sie sich in einen Zustand, der Ihnen mehr Zuversicht und Sicherheit verschafft. Sie bringen sich selbst auch mental dahin, eine positive Ausstrahlung nach außen zu haben, die Ihnen wiederum die Dinge reibungsloser von der Hand gehen lässt. Sie „trimmen“ sich sozusagen auf Erfolg! Also probieren Sie es aus!",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorbereitung auf den ersten Tag\r\n\r\nDer erste Tag prägt die Stimmung und die Geschwindigkeit, in der Sie sich in die Firma und in Ihr Team integrieren. Neue Mitarbeiter werden natürlich besonders genau beobachtet und der erste Eindruck prägt sich ein. \r\n\r\nNutzen Sie also die Chance, Ihre Fachkenntnis zu demonstrieren und Sympathiepunkte zu sammeln. Seien Sie aufmerksam, gesprächsbereit und halten Sie sich mit Kritik zunächst zurück. \r\n\r\nUnsere nun folgende Übung soll Ihnen dabei helfen, sich gut auf den ersten Arbeitstag vorzubereiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es lohnt sich, sich im Voraus Gedanken darüber zu machen, welchen Eindruck Sie bei Ihren neuen Kollegen und Ihrer Führungskraft hinterlassen möchten. \r\nSoll ihr Chef Sie als engagiert und kontaktfreudig erleben? Oder passt es besser zu Ihrem neuen Job ein ruhiges Wesen zu haben und sich im Hintergrund zu halten?",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "kar_start_job_wahrnehmunganderer",
+      "title": "Notieren Sie jetzt bitte alles, was Ihnen dazu einfällt. Folgende Frage kann Ihnen dabei helfen: Wie sollten meine neuen Kollegen / mein neuer Chef mich anderen Menschen gegenüber idealerweise beschreiben?",
+      "text": "",
+      "props": {
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Genauso sollten Sie sich Gedanken darüber machen, was Sie von sich preisgeben möchte und was eben auch nicht. \r\nZ.B. möchten Sie vielleicht nicht von Ihrer schwierigen Scheidung im letzten Jahr berichten. Dann bereiten Sie sich auf die Frage nach Ihrem Familienstand vor und antworten Sie z.B. unverbindlich: Ich bin ledig.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "List",
+      "key": "kar_start_job_preisgeben",
+      "title": "Geben Sie nun bitte an, was Sie von sich erzählen möchten (z.B. beim Smalltalk in der Mittagspause):",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "List",
+      "key": "kar_start_job_nichtpreisgeben",
+      "title": "Jetzt notieren Sie bitte, was Sie nicht von sich preisgeben möchten (Was soll Ihnen nicht aus Versehen rausrutschen?):",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "List",
+      "key": "kar_start_job_nichtpreisgeben",
+      "title": "Nun gehen Sie Ihre Antworten auf die Frage \"Was möchte ich nicht preisgeben?\" bitte einzeln durch und schreiben Sie auf, was Sie antworten möchten, wenn Sie genau danach gefragt werden.",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön! Nun sind Sie ideal auf die Gespräche mit Ihren neuen Kollegen und Ihrem Chef vorbereitet.\r\n\r\nWas ist in den ersten Tagen noch wichtig?\r\n\r\nSie werden in ein Umfeld kommen, indem an Sie als Neuling gewisse Erwartungen gerichtet werden, gleichzeitig die Rollen, Aufgaben und Strukturen aber noch unklar sein können. Daher ist es wichtig sich selbst besonders gut zu strukturieren.\r\n\r\nGehen Sie also nicht gedankenlos vor, sondern legen Sie von Beginn an Ziele für sich fest. \r\n\r\nÜberlegen Sie sich dazu vor Ihrem ersten Arbeitstag:\r\n\r\n- Was konkret will ich in meinem neuen Job erreichen? \r\n\r\n- Welche Schritte werde ich unternehmen, um diese Ziele auch zu erreichen?\r\n\r\nSeien Sie hier bitte so konkret wie möglich. \r\nDas SMART-Prinzip gibt Ihnen hier eine gute Hilfestellung: SMART steht dabei für \r\n\r\nS = Spezifisch \r\nM = Messbar\r\nA = Attraktiv\r\nR = Realistisch und\r\nT = Terminiert. \r\n\r\nD.h.: Wenn Sie ein Ziel formulieren, achten Sie darauf, dass sie \r\n- genau beschreiben, was Sie erreichen möchten\r\n- dass Sie klar erkennen können, wann Sie Ihr Ziel erreicht haben \r\n- dass das Ziel für Sie attraktiv ist \r\n- dass die Umsetzung im Bereich des Möglichen liegt und \r\n- dass Sie Sich eine Deadline für Ihre Zielerreichung setzen.\r\n\r\nZum Beispiel:\r\n \r\n„Bis zum Ende der ersten Woche habe ich das Manual für unsere interne Verwaltungssoftware gelesen.“\r\n\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "List",
+      "key": "kar_start_job_zieleneuerjob",
+      "title": "Notieren Sie sich nun mindestens drei Ziele für Ihren neuen Job!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "TextArea",
+      "key": "kar_start_job_akzeptanzkollegen",
+      "title": "",
+      "text": "Schließlich sollten Sie sich Gedanken dazu machen, ob Sie in Ihrer neuen Funktion von allen Kollegen akzeptiert werden.\nNotieren Sie daher bitte jetzt, was Ihnen zu den folgenden Fragen einfällt: \n\n* Wessen Job habe ich? (Wer hatte den Job vor mir?) und\n* Wer hätte ihn ggf. sonst? (Wer könnte sich durch mich bedroht fühlen?)",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie an dieser Stelle mit Schwierigkeiten rechnen, legen Sie sich schon jetzt eine Strategie zurecht, wie Sie mit der Situation umgehen möchten. \r\nWenn Sie hier nicht weiterkommen, wenden Sie sich an unsere Experten, die Ihnen gerne weiter helfen. Unter \"Kontakt\" finden Sie unsere Telefonnummer und ein Kontaktformular.",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Premiere: Der erste Tag\r\n\r\nZunächst einmal ist Pünktlichkeit hier mehr als nur eine Zier. Sie sagt etwas darüber aus, wie zuverlässig Sie sind. Daher: testen Sie, wie lange die Fahrt per PKW oder öffentliche Verkehrsmittel dauert. Angenommen die Fahrt zur Arbeit per Bahn dauert 60 Minuten, per PKW, je nach Verkehrssituation, zwischen 30 und 40 Minuten. Hier könnte es ratsam sein, die Bahn zu nehmen. Während der Fahrt lassen sich Unterlagen durchlesen und Sie kommen entspannter an.  ",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Du oder Sie?\r\n\r\nWenn sich alle duzen, ist das Arbeitsklima meist offener und wirkt weniger distanziert. Firmen, in denen sich alle siezen, haben jedoch auch Vorteile. Durch die persönliche Distanz entstehen weniger Missverständnisse. In vielen Betrieben herrscht eine Mischform. Falls sich alle duzen, sollte man selbst den anderen das Du anbieten, allerdings nur gleichrangigen oder Kollegen auf niederer Firmenhierarchie.",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was erwartet man von Ihnen als Neuling?\r\n\r\nSie als neuer Mitarbeiter erwarten von Ihren neuen Kollegen, dass sie Sie gründlich einarbeiten, informieren und akzeptieren. Doch diese gehen im Allgemeinen von folgender Situation aus: Sie haben kaum Kenntnis über betriebliche Besonderheiten, wenig aufgabenspezifisches Wissen, keine Insiderkenntnisse über Mitarbeiter, sind dafür jedoch anpassungsbereit, hoch motiviert und haben einen frischen Blick auf die Dinge.\r\n\r\nDaher ist es Ihnen als neuem Mitarbeiter in der Einarbeitungszeit in der Regel 'gestattet' Fehler zu machen.\r\nEs wird von Ihnen meist nicht erwartet, gleich am Anfang alles perfekt machen. Wenn Sie Ihre Unsicherheit auch mal einräumen, machen Sie sich dadurch viel eher sympathisch und gewinnen zudem an Sicherheit. Überspielen Sie Ihre Unsicherheit dagegen, wirkt das schnell mal arrogant. \r\n\r\nNoch wichtiger als das, was die anderen von Ihnen erwarten, ist allerdings die Frage, was Sie selbst von sich erwarten. Der Maßstab, den sie dabei anlegen, sollte ehrgeizig, aber realistisch sein. Stecken Sie sich ruhig hohe Ziele-machen Sie sich aber auch klar, dass sie Dinge, die Ihnen neu sind, erst lernen müssen und Ziele im Laufe der Zeit auch angepasst werden können. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Machtspiele und Rollenkonflikte\r\n\r\nNicht jedes Unternehmen nimmt jedoch Rücksicht auf neue Mitarbeiter. Viele lassen einen ins kalte Wasser springen. Oft haben die Kolleginnen und Kollegen keine Zeit zu helfen, oder sie nutzen die Gelegenheit und versuchen, Ihnen als dem/der Neuen unliebsame Arbeiten aufzudrängen. Das mag zwar Ihr Selbstwertgefühl anfangs stärken,  aber Sie laufen so auch Gefahr, sich zu viel Arbeit aufzulasten. Hier gilt es stark zu sein. Haben Sie auch den Mut, mal Nein zu sagen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "So wie man auftritt, wirkt man\r\n\r\nSie als „Neue/r“ werden besonders kritisch beäugt. Ihr ganzes Wesen sendet Signale aus, sei es über Kleidung, Gang, Körperhaltung, Blick, Geruch, Tonlage, Tonhöhe, Stimme, Sprache und Handlungen. Dies ist zwar bei allen Menschen der Fall, bei Neulingen wird jedoch besonders stark darauf geachtet. Ein gepflegtes äußeres Erscheinungsbild gilt als Selbstverständlichkeit. Was Ihre Kleidung betrifft: kommen Sie lieber ein wenig overdressed ins Büro. \r\n\r\nWenn Sie neu anfangen, sollten Sie zudem Ironie und flapsigem Humor eher sparsam einsetzen, solange Sie nicht wissen, wie es ankommt. \r\n\r\nZu einem guten Start gehört es in der Regel auch dazu, einen Einstand zu geben. Fragen Sie hier Ihre Kollegen, wie es in der Firma gehandhabt wird. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorbereitung auf die erste Woche \r\n\r\nHier haben wir Tipps für einen reibungslosen Ablauf in Ihrem Job in Ihrer ersten Arbeitswoche: \r\n\r\nVersuchen Sie sich schnell in Ihre neue Arbeit einzuarbeiten. Hören Sie dazu am Anfang in allererster Linie zu! Fragen Sie nach, zeigen Sie echtes Interesse, machen Sie sich Notizen. Und versuchen Sie nicht, gleich zu Beginn die ganze Firma umkrempeln zu wollen. Dadurch fühlen sich andere Mitarbeiter vor den Kopf gestoßen. Selbst wenn man Recht hat. \r\nLassen Sie sich Aufgaben zeigen, machen Sie sie gleich selbst und lassen Sie sich darauf sofort Feedback geben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Am besten, Sie setzen sich jede Woche mindestens ein neues Ziel und halten Sie es in Ihrem Planer fest. Schriftliche Ziele wirken verbindlicher und Sie haben außerdem eine gute Übersicht über bereits Erreichtes. Sie können Ihrem Chef in Gesprächen so einen viel genaueren Überblick darüber geben, was Sie bereits getan haben und er wird Sie zudem als strukturierten Mitarbeiter schätzen. \r\nInformieren Sie Ihren Vorgesetzten am besten anfangs zweimal wöchentlich, indem Sie ihm einen kurzen Statusreport geben und darin erste, kleine Wochenerfolge festhalten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Um kleinere Erfolge zu erreichen, sollten Sie nicht davor zurückschrecken und sich selbst Arbeiten suchen. Bleiben Sie nicht passiv, sondern packen Sie von der ersten Minute tatkräftig mit an! Dabei können auch anfangs Aufgaben anfallen, die eigentlich nicht zu Ihrem Aufgabenbereich gehören. Wenn Sie damit aber schneller in die Abläufe einsteigen und zusätzlich Ihre Kollegen etwas entlasten, sollten Sie unbedingt Initiative zeigen und die Arbeiten übernehmen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "Legen Sie auch von Anfang an viel Wert auf Transparenz in Ihrer Arbeit! Sprechen Sie über Ihre Aufgaben und holen Sie sich Rat, wenn Sie nicht mehr weiterkommen. Gerade am Anfang hat man einen „Neulingsbonus“, das heißt Fehler sind erlaubt!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bereiten Sie sich außerdem auf Meetings und Einzelgespräche mit den Kollegen oder dem Chef vor und machen Sie sich währenddessen Notizen. Zeigen Sie echtes Interesse und fragen Sie konkret nach, wie die Abläufe und Gepflogenheiten im Unternehmen sind. Zeigen Sie sich lernwillig! \r\nVermeiden Sie es außerdem, bereits mit Vorschlägen und Kritik zu kommen. In der ersten Woche erzeugt das eher Abwehr und Missmut bei den Kollegen. Niemand will sich gern von jemandem in seine Arbeit reden lassen, der noch keinen konkreten Einblick in die internen Vorgänge gewonnen hat.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Einige Tipps, wie Sie mit Ihrem persönlichen Verhalten schnell Sympathien gewinnen: \r\n\r\nRichten Sie Ihren Schreibtisch dezent ein. Eine Tischpflanze, eigene Stifte und etwas Notizpapier gehen für den Anfang in Ordnung. Übertreiben Sie nicht gleich mit einem Dutzend eingerahmter Familienportraits.\r\n\r\nPassen Sie sich an die Gepflogenheiten der Firma an. Merken Sie sich die Namen der Kollegen. Scheuen Sie sich nicht, ggf. nachzufragen, wenn Sie sie nicht gleich verstanden haben – vor allem am Anfang wird man mit neuen Informationen überladen, da kann es schon mal passieren, wenn Ihnen der ein oder andere Name nicht gleich im Gedächtnis bleibt.\r\n\r\nLassen Sie sich auf Gespräche ein, lassen Sie sich nicht alles aus der Nase ziehen, sondern seien Sie offen. Das heißt nicht, dass Sie gleich Ihre komplette Lebensgeschichte von sich geben müssen. Wir haben daher zu Anfang auch gesagt, dass Sie für sich klären sollten, was Sie zu Beginn über sich preisgeben wollen.\r\n\r\nZeigen Sie Interesse an der Arbeit Ihrer Kollegen und machen Sie sich mit Ihnen bekannt, indem Sie sich von sich aus vorstellen.  Achten Sie dabei darauf, dass Sie nicht nur mit anderen neuen Kollegen sprechen, sondern auch mit den „alten Hasen“.",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorbereitung auf den ersten Monat\r\n\r\nIm ersten Monat ist es wichtig, dass Sie sich kurzfristige Ziele setzen, damit man Ihre Erfolge frühzeitig registriert und Ihren Wert anerkennt. Konzentrieren Sie sich dafür auf Projekte mit schnellen Ergebnissen, um rasch erkennbare Ergebnisse liefern zu können. Kommunizieren Sie die Ergebnisse ein- bis zweimal die Woche an Ihren Chef. So ist er im Bilde, spürt Ihr Engagement und Sie bekommen relativ schnell ein Gespür dafür, worauf er Wert bei Ihrer Arbeit legt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bauen Sie außerdem stabile Beziehungen zu Kollegen und Mitarbeitern auf.  Dazu eignet sich das gemeinsame Mittagessen, der gemeinsame Kaffee am Morgen, der kurze Plausch auf dem Flur oder Betriebsfeiern.\r\n\r\nKommen Sie dabei nicht besserwisserisch daher, seien Sie vielmehr bescheiden beim Nennen Ihrer eigenen Leistungen. Dazu gehört auch: übertreiben Sie es nicht mit Fach- und Fremdwörtern, sonst stehen Sie bald alleine im Pausenraum.\r\n\r\nUm sich zudem nicht gleich von Anfang an in die Nesseln zu setzen, nehmen Sie Gerüchte kommentarlos entgegen und  beteiligen Sie sich nicht an Klatschrunden. Bleiben Sie loyal und halten Sie sich zurück mit jeglichen Äußerungen. Sie stehen sonst schnell als Tratschbase da und man wird sich hüten, mit Ihnen Dinge zu teilen, die außerhalb des Beruflichen liegen. So vergeben Sie sich die Chance, Ihre Kollegen auch als Privatpersonen kennenzulernen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Legen Sie sich dazu von Anfang an dazu ein Notizbuch oder ein Dokument an, in dem Sie Ihre Ziele, Ihre Erfolge, Ihre Erlebnisse, Eindrücke und was Sie gelernt haben, eintragen. Es sollte außerdem für Aufgaben, die Ihnen angetragen werden genauso wie Aufgaben, die zwischen den Zeilen gesagt werden, genutzt werden. \r\nPflegen Sie es regelmäßig, am besten einmal die Woche, denn es bietet Ihnen eine Möglichkeit, ein persönliches Fazit innerhalb Ihrer Einarbeitungszeit zu ziehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Transparenz und kleine Erfolge\r\n\r\nDamit Sie von Anfang an als kompetent und produktiv wahrgenommen werden, sollten Sie regelmäßig kleine Erfolge aufweisen können. Stellen Sie dazu regelmäßig für Ihren Chef zusammen, was Sie in der letzten Woche getan und erreicht haben. \r\nUm diesen wichtigen Punkt nicht zu vergessen, setzen Sie gleich jetzt einen festen Termin für Ihren wöchentlichen Report fest und tragen Sie ihn in Ihren Kalender ein!",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Persönliche Bilanz ziehen\r\n\r\nSo wie Politiker offizielle Pressespiegel à la \"Die ersten 100 Tage des Bundestagskanzlers“ herausgeben, sollten Sie für sich selbst nach 100 Tagen oder auch nach Ihrer Probezeit Bilanz ziehen. \r\nDieser Rückblick hilft Ihnen dabei, Ihre Zielerreichung zu überprüfen und Ihre zukünftigen Ziele zu planen.\r\n\r\nBeantworten Sie dafür für sich bitte folgende Fragen:\r\n\r\n* Wie habe ich mich bislang eingelebt?\r\n* Welche meiner Ziele habe ich bis jetzt erreicht?\r\n* Was habe ich bisher an (kleinen) Erfolgen erreicht? \r\n* Wie sah die Kommunikation zwischen mir und meinem Vorgesetzten aus?\r\n* Ist meine Leistung für meinen Vorgesetzten sichtbar? Weiß er/sie, was ich kann und welchen Mehrwert ich dem Unternehmen bringe?\r\n* Ist es mir gelungen, Allianzen aufzubauen?\r\n* Wie lautet mein erstes Fazit?\r\n\r\nNachdem Sie Ihre erste Bilanz gezogen haben, sollten Sie sich unbedingt wieder neue Ziele für einen definierten Zeitraum setzen. \r\n\r\nWenn Sie mit Ihrem Fazit unzufrieden sind oder Schwierigkeiten bei der Zielformulierung haben, wenden Sie sich bitte an unsere Experten! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Um sich langfristig gut zu positionieren, sollten Sie nicht nur zu Ihren \"Freunden\", sondern auch zu Ihren \"Feinden\" Nähe suchen. Gehen Sie also regelmäßig zusammen mittagessen und führen Sie Gespräche zwischendurch. So erhöhen Sie die Chance, dass die einen Sie fördern und die anderen Ihnen nicht schaden. Halten Sie aber in der Anfangsphase, also ca. in den ersten drei Monaten, alle privaten Informationen, die heikel sein könnten, aus den Gesprächen raus, bis Sie gut einschätzen können, wem Sie vertrauen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bauen Sie auch weiterhin Ihre Kontakte stärker aus, indem Sie nicht nur den fachlichen, sondern auch den zwischenmenschlichen Draht zu ihren Kollegen suchen. Vereinbaren Sie dafür regelmäßige Termine zum gemeinsamen Mittagessen oder suchen Sie das Gespräch in den Pausen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Frischer Start im neuen Job\". ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "\r\nAufgabe zum Coaching \"Frischer Start in den neuen Job\"",
+      "text": "Als letzte Aufgabe in unserem Bewerbungs-Coach räumen Sie bitte Ihren Schreibtisch für einen frischen Start auf und informieren Sie alle wichtigen Kontakte über Ihren neuen Job.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

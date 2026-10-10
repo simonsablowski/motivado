@@ -1,0 +1,179 @@
+{
+  "key": "bez-re-aktionen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Aktionen_V1A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Emotionen ansprechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Aktionen_V2A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "5f57a59f1adb417499f72977ef86c3d4",
+      "title": "Wie soll es weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Aktionen_V3A.flv",
+          "delay": 308
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Gleich weiter mit dem Coaching"
+          },
+          {
+            "key": 2,
+            "value": "Vorher zwei weitere Beispiele ansehen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "5f57a59f1adb417499f72977ef86c3d4 is 1"
+        },
+        {
+          "to": "n005",
+          "if": "5f57a59f1adb417499f72977ef86c3d4 is 2"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Kontaktsperre vor Aktion",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Aktionen_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Beispiel 2",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Aktionen_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "List",
+      "key": "rel_rueckAktion_ideen",
+      "title": "Was mochte Ihr Partner / was mochte er nicht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Aktionen_V7.flv"
+        },
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Beispiel 3",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Aktionen_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Was wollen Sie erreichen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Aktionen_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Es ist ganz wichtig, die Inhalte auf Sie persönlich abzustimmen. Bitte vereinbaren Sie  ein Telefoncoaching oder senden Sie uns eine Sms, um eine passende Aktion für Ihre Rückeroberung zu finden. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

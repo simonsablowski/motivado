@@ -1,0 +1,11 @@
+{
+  "_comment": "Catalogue coaching key -> model key, where the model was filed under a different name (sleep coach 'slc-*'). Inferred from titles and clip names; confirm.",
+  "ges-schlaf-ueberblick": "slc-abc",
+  "ges-schlaf-aktivitaeten": "slc-fitter",
+  "ges-schlaf-einschlafhilfen": "slc-hilfsmittel",
+  "ges-schlaf-wasserlassen": "slc-nykturie",
+  "ges-schlaf-reduktion": "slc-reduktion",
+  "ges-schlaf-schicht": "slc-schicht",
+  "ges-schlaf-schlafumgebung": "slc-umgebung",
+  "ges-schlaf-schlafverhalten": "slc-verhalten"
+}

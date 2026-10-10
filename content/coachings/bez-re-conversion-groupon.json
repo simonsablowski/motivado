@@ -1,0 +1,432 @@
+{
+  "key": "bez-re-conversion-groupon",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "ListView",
+      "key": null,
+      "title": "Womit wir Ihnen helfen:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V5F.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 14
+          }
+        ],
+        "elements": [
+          {
+            "element": "Do's und Don'ts",
+            "second": 16
+          },
+          {
+            "element": "Richtiges Timing",
+            "second": 19
+          },
+          {
+            "element": "E-Mails und Sms an den/die Ex schreiben",
+            "second": 20
+          },
+          {
+            "element": "Richtiges Verhalten beim Treffen",
+            "second": 23
+          },
+          {
+            "element": "Mit Funkstille umgehen",
+            "second": 25
+          },
+          {
+            "element": "Eine bessere Beziehung aufbauen",
+            "second": 32
+          },
+          {
+            "element": "Liebeskummer überwinden",
+            "second": 35
+          },
+          {
+            "element": "Persönliche E-Mail-Betreuung",
+            "second": 43
+          },
+          {
+            "element": "Persönliche Telefonberatung",
+            "second": 46
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Group",
+      "key": "rel_RueckFragebogen1",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V1.flv"
+        },
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "schluss",
+      "title": "Wer hat die Beziehung beendet?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "Beide",
+            "value": "Beide"
+          },
+          {
+            "key": "Ex",
+            "value": "Mein/e Partner/in"
+          },
+          {
+            "key": "Ich",
+            "value": "Ich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "schluss is 'Ex'"
+        },
+        {
+          "to": "n004",
+          "if": "schluss is 'Beide'"
+        },
+        {
+          "to": "n004",
+          "if": "schluss is 'Ich'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "TextInput",
+      "key": "rel_vorname",
+      "title": "Wie heißen Sie mit Vornamen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "TextInput",
+      "key": "rel_exvorname",
+      "title": "Wie heißt Ihr/e Ex-Partner/in mit Vornamen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "LaengeBeziehung",
+      "title": "Wie lange waren Sie mit #rel_exvorname|'Ihrem/r Ex-Partner/in' zusammen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V21_kurz.flv"
+        },
+        "options": [
+          {
+            "key": "bis2J",
+            "value": "bis 2 Jahre"
+          },
+          {
+            "key": "bis9M",
+            "value": "bis 9 Monate"
+          },
+          {
+            "key": "ueber2J",
+            "value": "über 2 Jahre"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "LaengeBeziehung is 'ueber2J'"
+        },
+        {
+          "to": "n007",
+          "if": "LaengeBeziehung is 'bis2J'"
+        },
+        {
+          "to": "n007",
+          "if": "LaengeBeziehung is 'bis9M'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "cfe74bcf36ab4f3bae20bb65b04d5aa6",
+      "title": "Wie lange ist die Trennung her?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V66.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Weniger als 4 Wochen"
+          },
+          {
+            "key": "2",
+            "value": "1-5 Monate"
+          },
+          {
+            "key": "3",
+            "value": "über 6 Monate"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "cfe74bcf36ab4f3bae20bb65b04d5aa6 is '2'"
+        },
+        {
+          "to": "n008",
+          "if": "cfe74bcf36ab4f3bae20bb65b04d5aa6 is '1'"
+        },
+        {
+          "to": "n008",
+          "if": "cfe74bcf36ab4f3bae20bb65b04d5aa6 is '3'"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "0ed1b3e2539d48519200525544fef79c",
+      "title": "Haben Sie im Moment noch Kontakt zu #rel_exvorname|'Ihrem/r Ex-Partner/in'?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V2.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja / Ja, relativ regelmäßig"
+          },
+          {
+            "key": 2,
+            "value": "Ab und zu"
+          },
+          {
+            "key": 3,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "0ed1b3e2539d48519200525544fef79c is 1"
+        },
+        {
+          "to": "n010",
+          "if": "0ed1b3e2539d48519200525544fef79c is 2"
+        },
+        {
+          "to": "n011",
+          "if": "0ed1b3e2539d48519200525544fef79c is 3"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Im Ex-Zurück-Paket erwartet Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V25A.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 21,
+            "url": ""
+          }
+        ],
+        "elements": [
+          {
+            "element": "21 Video-Coachings",
+            "second": 0
+          },
+          {
+            "element": "Über 300 Videos",
+            "second": 0
+          },
+          {
+            "element": "Sms-Vorlagen",
+            "second": 0
+          },
+          {
+            "element": "Rückeroberungsplan als Download",
+            "second": 0
+          },
+          {
+            "element": "Gratis: 10 Min. Telefonberatung",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Im Ex-Zurück-Paket erwartet Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V26A.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 23,
+            "url": ""
+          }
+        ],
+        "elements": [
+          {
+            "element": "21 Video-Coachings",
+            "second": 0
+          },
+          {
+            "element": "Über 300 Videos",
+            "second": 0
+          },
+          {
+            "element": "Sms-Vorlagen",
+            "second": 0
+          },
+          {
+            "element": "Rückeroberungsplan als Download",
+            "second": 0
+          },
+          {
+            "element": "Gratis: 10 Min. Telefonberatung",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Im Ex-Zurück-Paket erwartet Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Chancen_V27A.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 32,
+            "url": ""
+          }
+        ],
+        "elements": [
+          {
+            "element": "21 Video-Coachings",
+            "second": 0
+          },
+          {
+            "element": "Über 300 Videos",
+            "second": 0
+          },
+          {
+            "element": "Sms-Vorlagen",
+            "second": 0
+          },
+          {
+            "element": "Rückeroberungsplan als Download",
+            "second": 0
+          },
+          {
+            "element": "Gratis: 10 Min. Telefonberatung",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

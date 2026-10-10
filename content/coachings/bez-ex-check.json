@@ -1,0 +1,383 @@
+{
+  "key": "bez-ex-check",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich willkommen beim Coaching 'Ex-Partner-Check'! Dieses Coaching ist nicht nur sehr wichtig, um zu helfen, dass Sie nicht ewig und drei Tage an einen Ex-Partner denken, ohne zu wissen, ob er oder sie überhaupt gepasst hat. Dieses Coaching so gut wie möglich zu machen, tut gut, weil Sie etwas tiefer in Ihre Partnerwünsche blicken.\r\n\r\nNehmen Sie sich jetzt etwas zu schreiben mit genügend Platz, zum Beispiel ein Heft oder Ihr Coaching-Logbuch. Wir brauchen circa 4, 5 Seiten Papier.\r\nBitte heben Sie diese Unterlagen auf, wir werden Sie später im Coaching nochmals brauchen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unabhängig davon, ob frisch oder länger getrennt, wir empfehlen Ihnen zur eigenen Klarheit den Partner-Check und den Beziehungs-Check für diesen Partner zu machen. Vor allem, wenn dieser Partner Sie noch beschäftigt. Diese Checks machen am meisten Sinn, wenn Sie sie sehr kritisch und genau machen. Bitte geraten Sie nicht in die Falle, in der plötzlich alles toll und gut mit dem Ex-Partner war, weil Ihre Erinnerungen verschwommen sind. Wichtig ist, ganz ehrlich und nüchtern und mit dem nötigen Abstand durch die Punkte zu gehen! Viele Leute nehmen hier einen guten ehrlichen Freund zuhilfe.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zunächst: Es ist unglaublich schade von einer Person getrennt zu sein, die im Grunde ein guter Partner wäre. Aber es ist auch katastrophal bei einem Partner zu bleiben, der Ihnen schadet. Machen Sie die folgenden Punkte gewissenhaft, um zu sehen, wie gut Sie aus Ihrer Sicht wirklich passen. Vielleicht stellen Sie fest, dass es Sinn macht, um diese Person oder die Beziehung zu ihr zu kämpfen, wenn es die Umstände erlauben. Oder es macht Sinn, endlich wirklich eine klare Entscheidung contra dieser Person zu fällen, um mental freier zu werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vergessen Sie kurz die Person, über die Sie gerade nachdenken, so gut wie möglich. - Vielleicht atmen Sie zwei- dreimal tief durch. - Unabhängig davon, wie stellen Sie sich Ihren echten, absoluten Traumpartner vor?\r\n\r\nFalls Sie keine konkrete Vorstellung haben, was müsste ein Partner von Ihnen haben, wie müsste ein Partner von Ihnen sein, den Sie ganz toll fänden? Angenommen der Weihnachtsmann säße vor Ihnen und würde gern die Bestellung für Ihren Traumpartner aufnehmen, was würde Ihnen alles einfallen?\r\n\r\nBerücksichtigen Sie Dinge wie Charakter, Äußeres, Verhalten, Punkte, die Ihnen wichtig sind, etc. Dazu gehören auch Dinge, die Sie bei Anderen mochten oder vermissten, die Sie bei anderen Menschen toll finden. Nehmen Sie sich ein paar Minuten.\r\n\r\nWenn Sie Oberbegriffe wie 'gut aussehend', 'aufmerksam' haben, dröseln Sie diese auf und schreiben Sie genauer, was 'gut aussehend' oder 'aufmerksam' für Sie konkret bedeutet, falls Ihnen das möglich ist.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie die Person, über die Sie gerade nachdenken, kurz los.\n \r\n- Atmen Sie zwei- dreimal tief durch. -\n \r\nWie stellen Sie sich Ihren echten, absoluten Traumpartner vor? Angenommen der Weihnachtsmann säße vor Ihnen und würde gern die Bestellung für Ihren Traumpartner aufnehmen, was würde Ihnen alles einfallen? Schreiben Sie der Reihe nach, von oben nach unten, alle Punkte auf, die Ihnen einfallen.\r\nDazu gehört Charakter, Äußeres, Verhalten, wichtige Rahmenkonditionen, etc. Nehmen Sie sich ein paar Minuten Zeit.\r\nFühlen Sie sich noch freier und schreiben Sie jetzt alles, was Ihnen einfällt ... Vorlieben, was Sie bisher bei Anderen mochten oder vermissten, was Sie bei anderen Menschen toll finden, etc.\r\nWenn Sie Oberbegriffe haben wie 'gut aussehend', 'aufmerksam', dröseln Sie diese auf und schreiben Sie genauer, was 'gut aussehend' oder 'aufmerksam' für Sie konkret bedeutet. Falls Ihnen das möglich ist.\r\nÜbrigens werden Ihnen wahrscheinlich noch einige Punkte in den nächsten Tagen einfallen. Am besten wäre, Sie hätten Ihre Liste irgendwo gut griffbereit, um sie dann zu erweitern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Bewerten Sie nun Ihre Auflistung: \nEin sehr wichtiger Punkt ist 3 Zähler Wert, ein \"normaler\" Punkt noch 2 Zähler und ein eingeklammerter noch  1 Zähler. Schreiben Sie die Zahl rechts neben jeden Punkt.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vergleichen wir es mit dem getrennten Partner, über den Sie gerade nachdenken.\r\n\r\nGehen Sie jeden Punkt Ihrer Traumpartnerliste durch und schreiben Sie daneben, wie es in Wirklichkeit bei diesem Ex-Partner aussieht. Am besten ist dafür eine andere Farbe oder ein Bleistift geeignet. \r\n\r\nNehmen Sie die hingeschriebenen Zähler mal 2, wenn der Ex es voll und großartig erfüllt;\r\nmal 1, wenn der Ex es ziemlich gut erfüllt; \r\nstreichen Sie den Zähler und schreiben eine Null hin, wenn der Ex-Partner es ok erfüllt;\r\nmal -1, wenn der Ex dies selten oder negativ erfüllt, d.h. Sie sich an diesem Punkt gestört fühlten; \r\nmal -2, wenn der Ex-Partner es überhaupt nicht erfüllte, bzw. Sie sich stärker gestört fühlten in diesem Punkt.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vergleichen wir es mit dem aktuellen Partner:\r\n\r\nNun gehen Sie jeden Punkt durch und schreiben daneben, wie es in Wirklichkeit bei Ihrem Partner aussieht. Nehmen Sie den hingeschriebenen Zähler \r\nmal 2, wenn der Partner es voll erfüllt\r\nmal 1, wenn der Partner es recht gut erfüllt\r\nschreiben Sie eine Null hin, wenn der Partner es mal erfüllt und mal nicht\r\nmal -1, wenn der Partner dies negativ erfüllt, d.h. Sie sich an diesem Punkt gestört fühlen durch den Partner\r\nmal -2, wenn der Partner es überhaupt nicht erfüllt, bzw. Sie sich stark gestört fühlen in diesem Punkt.\r\n\r\nZuletzt: Zählen Sie jetzt die positiven und negativen Zahlen zusammen. Das Ergebnis davon ist Ihr Vorergebnis.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Dies war nur eine Seite der Medaille. Betrachten Sie sich selbst: Bieten Sie, was Sie fordern? Erfüllen Sie, was Sie sich wünschen? Gehen Sie jeden Punkt Ihrer Liste der Reihe nach durch und beurteilen Sie, wann immer sinnvoll: Erfüllen Sie selbst diesen Punkt? Wenn 'Nein', bieten Sie dafür andere Punkte, die der Ex-Partner auch schätzte?",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "fbe63450d72344e19e8bf21f1e924e52",
+      "title": "Gehen wir einen Schritt weiter: Wissen Sie, was sich Ihr Ex-Partner von Ihnen gewünscht hatte, bzw. worauf er oder sie Wert legte? Kennen Sie diese Wunschliste?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Eher nein"
+          },
+          {
+            "key": 2,
+            "value": "Eher ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "fbe63450d72344e19e8bf21f1e924e52 is 1"
+        },
+        {
+          "to": "n011",
+          "if": "fbe63450d72344e19e8bf21f1e924e52 is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen Sie eine 2. Liste: \nVersuchen Sie, die Punkte zu sammeln, die Ihrem Partner wichtig waren (wieder von oben nach unten).",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Bewerten Sie nun diese neue Auflistung: \nEin sehr wichtiger Punkt ist 3 Zähler Wert, ein \"normaler\" Punkt noch 2 Zähler und ein unwichtiger (eingeklammerter) Wert noch 1 Zähler. Schreiben Sie die Zahl rechts neben jeden Punkt.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Welche davon erfüllten Sie Ihrer Meinung nach gut, dazu gehört auch, welches Feedback Sie von Ihrem Ex-Partner oder Außenstehenden dazu erhalten haben? Auch hier gilt \r\n\r\n'Erfüllten Sie voll': mal 2 nehmen \r\n'Erfüllten Sie gut' mal 1 nehmen\r\n'Erfüllten Sie mal so mal so': mal 0 nehmen, d.h. auf 0 setzen\r\n'Erfüllten Sie eher negativ': mal -1 nehmen \r\n'Erfüllten Sie nie oder total schlecht, also negativ': mal -2 nehmen",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ähnlich der Auswertungstabelle von eben sprechen positive Werte über 3 für Sie. Kleine Werte, also zwischen 0 und 3, sind schwächer. Negative Werte sprechen nicht für Sie und Sie haben Ihren Ex wahrscheinlich nicht so überzeugt. In jedem Fall sollten Sie unsere Coachings, die später folgen, dann noch viel ernster nehmen. Es bedarf dann guter Arbeit und eines sehr hohen Einsatzes, denn nichts ist unmöglich!",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "3. Seite: \nGibt es irgendetwas, das Sie gar nicht mögen, ja schon fast hassen? Punkte, die Ihr Traumpartner auf keinen Fall haben dürfte? Halten Sie diese jetzt kurz fest. Dann schauen Sie ebenfalls, ob Ihr Partner diese hatte oder nicht.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Übrigens ist Folgendes ganz interessant: \nManchmal ziehen wir durch unser eigenes Verhalten genau solche Menschen an, die Eigenschaften haben, die wir nicht mögen. Oder unser Verhalten vertreibt genau die Leute, die unsere Wunsch-Eigenschaften haben.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "4. Seite:\r\nEine weitere Frage, die bei einigen Menschen sehr gut funktioniert, um Rückschlüsse über Passen oder Nicht-Passen festzustellen, ist die folgende: Was waren Ihre Gedanken über Ihren Ex-Partner ganz am Anfang, beim Kennenlernen? Waren Sie begeistert, oder hatten Sie auch gleich Zweifel? ",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Wenn Sie Zweifel hatten, welche waren das?\nHäufig ist unser Gehirn gerade beim Kennenlernen sehr ehrlich und sagt uns gleich zu Beginn, woran wir sind. \r\n\r\nHalten Sie diese ersten Gedanken kurz fest, falls Sie sie noch erinnern.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "5. Seite: \nWelche Ziele verfolgen Sie in Ihrem Leben? Was ist Ihnen ganz wichtig? Was erleben Sie gern? \r\n\r\nSchreiben Sie das kurz auf. Und von Ihren Antworten, was ist Ihnen da am wichtigsten? Bringen Sie die Punkte in eine ungefähre Reihenfolge. Der wichtigste ist Nummer 1 (Topwert) usw. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Zweite Frage: Was ist Ihrem Ex-Partner wichtig und welche Ziele, welche Emotionen werden da verfolgt? Schreiben Sie diese ebenfalls auf. \r\n\r\nBringen Sie diese ebenfalls, so gut Sie können, in eine Reihenfolge. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und nun vergleichen Sie die Listen. Wie ähnlich sind sich die Listen? \r\n\r\nEs wäre ein sehr gutes Zeichen, wenn Sie bei den wichtigen Punkten etwas gemeinsam hätten. Sehr gut wären wenigstens zwei der wichtigen Punkte. Je weniger Sie aber gemeinsam haben, desto schlechter.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls Sie wollen, nehmen Sie eine Extraseite und führen kurz auf, was Ihre besten Freunde und Ihre Verwandten über diesen Expartner zu sagen hatten. Hierbei ist wichtig, dass diese Freunde oder Verwandten es auch gut mit Ihnen meinen. Uns interessieren keine Lästereien, sondern ehrliche, gut gemeinte Worte.",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gehen Sie über Ihre verschiedenen Seiten und fassen Sie für sich zusammen: Wie sieht das Gesamtresultat aus? Hat vieles toll gepasst, oder war es eher gemischt oder sogar katastrophal? Wenn vieles nicht passt, bilden sich manche Menschen trotzdem ein, den Ex-Partner zurück zu wollen, allerdings eher aus Angst vor dem Alleinsein, oder sich eine Blöße geben zu müssen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Options",
+      "key": "74b1139173fa4453a2f6494bb1d3f019",
+      "title": "Zeichnet sich ein Trend ab bezüglich Ihres Expartners, bzw. des Partners von dem Sie getrennt sind?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja, ich habe (mehr) Klarheit ob wir gepasst haben."
+          },
+          {
+            "key": 2,
+            "value": "Nein, ich habe immer noch nicht Klarheit."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n025",
+          "if": "74b1139173fa4453a2f6494bb1d3f019 is 1"
+        },
+        {
+          "to": "n026",
+          "if": "74b1139173fa4453a2f6494bb1d3f019 is 2"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "Klarheit über Ex!\n\nUnentschlossenheit über den Expartner ist etwas ganz Schlechtes. Es ruiniert eventuell alle neuen Beziehungen oder Chancen. Treffen Sie eine Entscheidung und erinnern sich daran!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bei Ihrer Betrachtung können folgende Punkte helfen: \r\n\na) Was raten guten Freunde, die gut über das Ganze Bescheid wissen?\n \r\nb) Hat Ihnen Ihr Expartner geschadet (körperlich, seelisch, sonstwie) oder die Beziehung war sehr anstrengend? Haben Sie sich immer ein wenig die Realität zurecht gebogen, und Ihr Expartner hat eigentlich gar nicht toll gepasst? Fragen wie diese, ehrlich beantwortet, können auch helfen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    }
+  }
+}

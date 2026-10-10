@@ -1,0 +1,816 @@
+{
+  "key": "erz-mob-conversion4",
+  "domain": "erz",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_1",
+      "title": "Symptome von Mobbing (1/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V1.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Mein Kind wirkt in letzter Zeit traurig und lustlos",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind ist in letzter Zeit grundlos aggressiv",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind hat Angst in die Schule zu gehen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Die Stimmung meines Kindes ändert sich in letzter Zeit sehr plötzlich",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_2",
+      "title": "Symtome von Mobbing (2/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V3.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Mein Kind hat häufig Magenschmerzen oder Kopfschmerzen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind hat weniger Appetit als sonst",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind schläft häufig schlecht",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_3",
+      "title": "Symptome von Mobbing (3/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V4.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Ich habe gemerkt dass mein Kind in der Schule beschimpft oder beleidigt wird",
+            "weightFactor": 1
+          },
+          {
+            "name": "Meinem Kind fehlen plötzlich Gegenstände wie Schulmaterialien oder Wertsachen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Die Schulleistungen meines Kindes haben sich deutlich verschlechtert",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind unternimmt weniger mit Freunden als früher",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "AddValue",
+      "key": "edu_mobbingtest_summe",
+      "title": "",
+      "text": "",
+      "props": {
+        "values": [
+          "#edu_mobbingtest_1",
+          "#edu_mobbingtest_2",
+          "#edu_mobbingtest_3"
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "edu_mobbingtest_summe gt '2'"
+        },
+        {
+          "to": "n006",
+          "if": "edu_mobbingtest_summe gt '0'"
+        },
+        {
+          "to": "n007",
+          "if": "edu_mobbingtest_summe is '0'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "d2b771a82eb24c13be2081502432b4b5",
+      "title": "Welches Coaching möchten Sie starten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V3.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 52
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Was ist Mobbing?"
+          },
+          {
+            "key": "2",
+            "value": "Umgang mit meinem Kind"
+          },
+          {
+            "key": "3",
+            "value": "Vorgehen in der Schule"
+          },
+          {
+            "key": "4",
+            "value": "Täter-Opfer-Ausgleich"
+          },
+          {
+            "key": "5",
+            "value": "Zeit nach Mobbing / Selbstbewusstsein stärken"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "d2b771a82eb24c13be2081502432b4b5 is '2'"
+        },
+        {
+          "to": "n009",
+          "if": "d2b771a82eb24c13be2081502432b4b5 is '3'"
+        },
+        {
+          "to": "n010",
+          "if": "d2b771a82eb24c13be2081502432b4b5 is '1'"
+        },
+        {
+          "to": "n011",
+          "if": "d2b771a82eb24c13be2081502432b4b5 is '5'"
+        },
+        {
+          "to": "n012",
+          "if": "d2b771a82eb24c13be2081502432b4b5 is '4'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "bf2a5b42f323451ca909713326fa3325",
+      "title": "Welches Coaching möchten Sie starten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V2.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 53
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Was ist Mobbing?"
+          },
+          {
+            "key": "2",
+            "value": "Umgang mit meinem Kind"
+          },
+          {
+            "key": "3",
+            "value": "Vorgehen in der Schule"
+          },
+          {
+            "key": "4",
+            "value": "Täter-Opfer-Ausgleich"
+          },
+          {
+            "key": "5",
+            "value": "Zeit nach Mobbing / Selbstbewusstsein stärken"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "bf2a5b42f323451ca909713326fa3325 is '2'"
+        },
+        {
+          "to": "n010",
+          "if": "bf2a5b42f323451ca909713326fa3325 is '1'"
+        },
+        {
+          "to": "n012",
+          "if": "bf2a5b42f323451ca909713326fa3325 is '4'"
+        },
+        {
+          "to": "n009",
+          "if": "bf2a5b42f323451ca909713326fa3325 is '3'"
+        },
+        {
+          "to": "n011",
+          "if": "bf2a5b42f323451ca909713326fa3325 is '5'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "a96f50e49f1b4428bb384b84b0d8bdc5",
+      "title": "Welches Coaching möchten Sie starten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V1.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 51
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Was ist Mobbing?"
+          },
+          {
+            "key": "2",
+            "value": "Umgang mit meinem Kind"
+          },
+          {
+            "key": "3",
+            "value": "Vorgehen in der Schule"
+          },
+          {
+            "key": "4",
+            "value": "Täter-Opfer-Ausgleich"
+          },
+          {
+            "key": "5",
+            "value": "Zeit nach Mobbing / Selbstbewusstsein stärken"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "a96f50e49f1b4428bb384b84b0d8bdc5 is '1'"
+        },
+        {
+          "to": "n008",
+          "if": "a96f50e49f1b4428bb384b84b0d8bdc5 is '2'"
+        },
+        {
+          "to": "n009",
+          "if": "a96f50e49f1b4428bb384b84b0d8bdc5 is '3'"
+        },
+        {
+          "to": "n012",
+          "if": "a96f50e49f1b4428bb384b84b0d8bdc5 is '4'"
+        },
+        {
+          "to": "n011",
+          "if": "a96f50e49f1b4428bb384b84b0d8bdc5 is '5'"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Wir zeigen Ihnen in diesem Coaching, wie Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V4.flv"
+        },
+        "elements": [
+          {
+            "element": "mit Ihrem Kind umgehen",
+            "second": 7
+          },
+          {
+            "element": "miteinander reden",
+            "second": 9
+          },
+          {
+            "element": "souverän bleiben",
+            "second": 16
+          },
+          {
+            "element": "sich selbst stärken",
+            "second": 20
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "In diesem Coaching erwartet Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "die richtige Kommunikation",
+            "second": 11
+          },
+          {
+            "element": "die richtigen Ansprechpartner",
+            "second": 15
+          },
+          {
+            "element": "Praxisbeispiele",
+            "second": 30
+          },
+          {
+            "element": "praktische Tipps",
+            "second": 43
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "In diesem Coaching erwartet Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "Was ist Mobbing?",
+            "second": 2
+          },
+          {
+            "element": "Was ist kein Mobbing?",
+            "second": 3
+          },
+          {
+            "element": "Anschauliche Beispiele",
+            "second": 7
+          },
+          {
+            "element": "Folgen von Mobbing",
+            "second": 13
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ZeitnachMobbing_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Was erklären wir Ihnen in diesem Coaching:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_TeaterOpfer_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "was ein Täter-Opfer-Gespräch ist",
+            "second": 12
+          },
+          {
+            "element": "wie Sie sich darauf vorbereiten",
+            "second": 22
+          },
+          {
+            "element": "wie das Gespräch abläuft",
+            "second": 36
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Gut, dass Sie da sind",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Verständnis für Eltern",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Buy",
+      "key": null,
+      "title": "SignIn V6 & Buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V6.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 38
+          }
+        ],
+        "key": "erz-mob-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Was braucht Ihr Kind jetzt?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Ihr Verständnis",
+            "second": 13
+          },
+          {
+            "element": "2. gut informierte Eltern",
+            "second": 17
+          },
+          {
+            "element": "3. gemeinsame Zeit",
+            "second": 22
+          },
+          {
+            "element": "= einen sicheren Hafen",
+            "second": 28
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V2.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp1.jpg",
+            "second": 5
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp2.jpg",
+            "second": 16
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp3.jpg",
+            "second": 25
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp4.jpg",
+            "second": 31
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp5.jpg",
+            "second": 41
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp1.jpg",
+            "second": 49
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Options",
+      "key": "7d63ef66f10f448582ef1cb39e4a5f1f",
+      "title": "Haben Sie jeden Tag Zeit, sich ausgiebig mit Ihrem Kind zu beschäftigen, oder ist diese Zeit nur am Wochenende vorhanden?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n020",
+          "if": "7d63ef66f10f448582ef1cb39e4a5f1f is '1'"
+        },
+        {
+          "to": "n021",
+          "if": "7d63ef66f10f448582ef1cb39e4a5f1f is '2'"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Bitte beachten Sie die folgenden Punkte:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V4.flv"
+        },
+        "elements": [
+          {
+            "element": "nicht sofort zum Direktor",
+            "second": 7
+          },
+          {
+            "element": "nicht zuerst zu Behörden/Ministerien",
+            "second": 15
+          },
+          {
+            "element": "Eltern des Täters raushalten",
+            "second": 30
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V32.flv"
+        },
+        "elements": [
+          {
+            "element": "Zeit bewusst nutzen",
+            "second": 6
+          },
+          {
+            "element": "Termine einhalten",
+            "second": 14
+          },
+          {
+            "element": "Ihr Kind braucht jetzt Verlässlichkeit!",
+            "second": 28
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Zeit schaffen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V33.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Das sollten Sie tun:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "Verbündete finden",
+            "second": 7
+          },
+          {
+            "element": "Zeit einplanen",
+            "second": 19
+          },
+          {
+            "element": "alle Schritte gut planen",
+            "second": 24
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Ziel sollte sein, dass Sie jeden Tag mindestens 15-30 Minuten ungestört Zeit mit Ihrem Kind verbringen. In dieser Zeit sollten Sie sich voll und ganz Ihrem Kind widmen und z.B. nicht durch den Fernseher oder Anrufe abgelenkt werden.\r\nDurch dieses tägliche Ritual wird sich die Beziehung mit Ihrem Kind festigen und weiterentwickeln. Das ist dann die Grundlage dafür, dass sich Ihr Kind öffnet und alle Informationen über das Mobbing mit Ihnen teilt.\r\nBei der Terminwahl ist es wichtig, dass Sie Ihr Kind in die Planung miteinbeziehen. Stimmen Sie sich mit Ihrem Kind ab und finden Sie Termine, die für Sie beide gut passen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "TextArea",
+      "key": "IdeenGemeinsameZeit",
+      "title": "",
+      "text": "Für Ihr Kind ist es momentan besonders wichtig, in Ihnen einen verlässlichen Ansprechpartner zu haben. Überlegen Sie daher bitte jetzt, welchen Weg es gibt, dass Sie täglich ca. 15 Minuten mit Ihrem Kind ohne Störungen sprechen können.\r\nVielleicht können Sie Ihre Pause auf der Arbeit so legen, dass Ihr Kind zu Hause erreichbar ist? Vielleicht können Sie morgens 15 Minuten früher aufstehen, um gemeinsam in Ruhe zu frühstücken?\r\nSeien Sie kreativ und tragen Sie Ihre Ideen hier ein. Wenn Sie stocken, holen Sie sich gerne Unterstützung von unseren Experten!\r\nBitte beachten Sie hierbei, dass Sie Ihr Kind in die Planung miteinbeziehen. Stimmen Sie sich mit Ihrem Kind ab und finden Sie Termine, die für Sie beide gut passen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "key": "bez-trennung",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro: einen klaren Schnitt machen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "d268e0e0f8d84041abf1afd391abff25",
+      "title": "Wie stehen Sie zu der anstehenden Trennung?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V4.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich bin entschlossen, mich zu trennen."
+          },
+          {
+            "key": 2,
+            "value": "Ich bin noch unentschlossen."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "d268e0e0f8d84041abf1afd391abff25 is 1"
+        },
+        {
+          "to": "n004",
+          "if": "d268e0e0f8d84041abf1afd391abff25 is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung entschlossen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung unentschlossen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Falle Unachtsamkeit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "678af738d70a450c9a50bdd4967ed50e",
+      "title": "Wie lange dauert Ihre Beziehung bereits?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V8.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Zwischen 1 und 1,5 Jahre"
+          },
+          {
+            "key": 2,
+            "value": "Unter 1 Jahr"
+          },
+          {
+            "key": 3,
+            "value": "Über 1,5 Jahre"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "678af738d70a450c9a50bdd4967ed50e is 1"
+        },
+        {
+          "to": "n007",
+          "if": "678af738d70a450c9a50bdd4967ed50e is 2"
+        },
+        {
+          "to": "n008",
+          "if": "678af738d70a450c9a50bdd4967ed50e is 3"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung kurz",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung lang",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte schreiben Sie alle Punkte auf,  die für die Trennung sprechen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung Gruende Trennung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "247eb5be63a44e7d92a14f61c140dcd5",
+      "title": "Wollen Sie sich trennen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V13.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "247eb5be63a44e7d92a14f61c140dcd5 is 1"
+        },
+        {
+          "to": "n013",
+          "if": "247eb5be63a44e7d92a14f61c140dcd5 is 2"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Argumente",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Sie haben angegeben, dass Sie sich doch nicht trennen möchten. Entscheiden Sie sich gleich zu Coachings weiter zu gehen, um an Ihrer Beziehung zu arbeiten. Viel Erfolg dabei!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Schluss machen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Options",
+      "key": "6400f7ecbc9b4a31996dc8e7029f2588",
+      "title": "Gibt es bereits einen neuen Menschen in Ihrem Herzen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V16.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "6400f7ecbc9b4a31996dc8e7029f2588 is 1"
+        },
+        {
+          "to": "n017",
+          "if": "6400f7ecbc9b4a31996dc8e7029f2588 is 2"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung ja",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gerade wenn es noch keinen neuen Menschen in Ihrem Leben gibt, ist eine Trennung herausfordernder, denn der Partner wird wahrscheinlich versuchen, Sie zu halten. Doch gleichzeitig ist das auch eine hervorragende Situation für Sie erst einmal zu sich zu finden und sich auf eine neue, sehr  gute Beziehung vorzubereiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Wann wollen Sie sich trennen? Notieren Sie bitte den konkreten Zeitpunkt!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Options",
+      "key": "db8b5c24569541128994b89b7f59051e",
+      "title": "Wohnen Sie mit Ihrem Partner zusammen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V19.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n020",
+          "if": "db8b5c24569541128994b89b7f59051e is 1"
+        },
+        {
+          "to": "n021",
+          "if": "db8b5c24569541128994b89b7f59051e is 2"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Trennungsgespräch zusammenlebend",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Trennungsgespräch zusammenlebend",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "Freiheit danach",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Erstmal kein Kontakt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Beschwerde-Gespräch anbieten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Video",
+      "key": null,
+      "title": "Gemeinsame Läden meiden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Video",
+      "key": null,
+      "title": "No-Goes",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Video",
+      "key": null,
+      "title": "Abschiedsritual",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Video",
+      "key": null,
+      "title": "Zeit für Sie",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgaben",
+      "text": "Bitte notieren Sie jetzt:\n\n1. Wann Sie sich trennen\n2. Wie lange das Gespräch dauern soll\n3. Welcher Freund/welche Freundin Sie nach dem Gespräch unterstützen wird\n4. Welche Argumente für die Trennung Sie im Gespräch nennen werden",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Options",
+      "key": "d267bca85193418d8fb51a60d4127606",
+      "title": "Haben  Sie das Trennungsgespräch innerhalb der nächsten 7 Tage vereinbart?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V30.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031",
+          "if": "d267bca85193418d8fb51a60d4127606 is 1"
+        },
+        {
+          "to": "n031",
+          "if": "d267bca85193418d8fb51a60d4127606 is 2"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Video",
+      "key": null,
+      "title": "Abschlussappell",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LeichterTrennen_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,786 @@
+{
+  "key": "bez-partner-check-extern",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "List",
+      "key": "REL_PartCheck_posPunkte",
+      "title": "Wie sieht Ihr Traumpartner aus?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V15.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 70
+          }
+        ],
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "REL_PartCheck_posPunkte gt 4 "
+        },
+        {
+          "to": "n003",
+          "if": "REL_PartCheck_posPunkte le 4 "
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Evaluation",
+      "key": "REL_PartCheck_Evaluation1",
+      "title": "Evaluation",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V17.flv"
+        },
+        "criteria": "#REL_PartCheck_posPunkte",
+        "type": "check",
+        "steps": 5,
+        "titleWeight": "Wie wichtig sind Ihnen die einzelnen Punkte?",
+        "titleRate": "Wie sehr erfüllt Ihr Partner die einzelnen Punkte?"
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "REL_PartCheck_Evaluation1 le '-1'"
+        },
+        {
+          "to": "n005",
+          "if": "REL_PartCheck_Evaluation1 le '1' and REL_PartCheck_Evaluation1 gt '-1'"
+        },
+        {
+          "to": "n006",
+          "if": "REL_PartCheck_Evaluation1 le '3.5' and REL_PartCheck_Evaluation1 gt '1'"
+        },
+        {
+          "to": "n007",
+          "if": "REL_PartCheck_Evaluation1 gt '3.5'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "REL_PartCheck_posPunkte",
+      "title": "Ein paar Punkte fallen Ihnen noch ein",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V16.flv"
+        },
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": "REL_PartCheck_Auswertung1_1",
+      "title": "-6 bis -1",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": "REL_PartCheck_Auswertung1_1",
+      "title": "-1 bis 1",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": "REL_PartCheck_Auswertung1_1",
+      "title": "1 bis 3.5",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": "REL_PartCheck_Auswertung1_1",
+      "title": "3.5 bis 6",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "List",
+      "key": "REL_PartCheck_PartWunsch",
+      "title": "Was wünscht sich Ihr Partner?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V22.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "REL_PartCheck_PartWunsch gt 4"
+        },
+        {
+          "to": "n010",
+          "if": "REL_PartCheck_PartWunsch le 4"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Evaluation",
+      "key": "REL_PartCheck_Evaluation2",
+      "title": "Evaluation Partnerwunsch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V24.flv"
+        },
+        "criteria": "#REL_PartCheck_PartWunsch",
+        "type": "check",
+        "steps": 5,
+        "titleWeight": "Wie wichtig sind Ihrem Partner die einzelnen Punkte?",
+        "titleRate": "Wie sehr erfüllen Sie die einzelnen Punkte?"
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "REL_PartCheck_Evaluation2 le 3.5 and REL_PartCheck_Evaluation2 gt 1"
+        },
+        {
+          "to": "n012",
+          "if": "REL_PartCheck_Evaluation2 le -1"
+        },
+        {
+          "to": "n013",
+          "if": "REL_PartCheck_Evaluation2 gt 3.5"
+        },
+        {
+          "to": "n014",
+          "if": "REL_PartCheck_Evaluation2 le 1 and REL_PartCheck_Evaluation2 gt -1"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "List",
+      "key": "REL_PartCheck_PartWunsch",
+      "title": "Ein paar Punkte fallen Ihnen noch ein.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V23.flv"
+        },
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": "REL_PartCheck_Auswertung1_1",
+      "title": "1 bis 3.5",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": "REL_PartCheck_Auswertung1_1",
+      "title": "-6 bis -1",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": "REL_PartCheck_Auswertung1_1",
+      "title": "3.5 bis 6",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": "REL_PartCheck_Auswertung1_1",
+      "title": "-1 bis 1",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "List",
+      "key": "REL_PartCheck_negPunkte",
+      "title": "Was stört Sie?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V29.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "REL_PartCheck_negPunkte gt 2"
+        },
+        {
+          "to": "n017",
+          "if": "REL_PartCheck_negPunkte le 2"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Evaluation",
+      "key": "REL_PartCheck_Evaluation3",
+      "title": "Evaluation negative Punkte",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V31.flv"
+        },
+        "criteria": "#REL_PartCheck_negPunkte",
+        "type": "negativecheck",
+        "steps": 5,
+        "titleWeight": "Wie sehr stören Sie die einzelnen Punkte?",
+        "titleRate": "Wie sehr erfüllt Ihr Partner die einzelnen Punkte?"
+      },
+      "next": [
+        {
+          "to": "n018",
+          "if": "REL_PartCheck_Evaluation3 le -2"
+        },
+        {
+          "to": "n019",
+          "if": "REL_PartCheck_Evaluation3 gt 4"
+        },
+        {
+          "to": "n020",
+          "if": "REL_PartCheck_Evaluation3 le 2 and REL_PartCheck_Evaluation3 gt -2"
+        },
+        {
+          "to": "n021",
+          "if": "REL_PartCheck_Evaluation3 le 4 and REL_PartCheck_Evaluation3 gt 2"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "List",
+      "key": "REL_PartCheck_negPunkte",
+      "title": "Ein paar Punkte sollten Ihnen schon einfallen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V30.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": "REL_PartCheck_Auswertung3_1",
+      "title": "Für zwei kurze Extra-Übungen und die Endauswertung klicken Sie auf Weiter.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V35.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 74,
+            "url": ""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": "REL_PartCheck_Auswertung3_4",
+      "title": "Für zwei kurze Extra-Übungen und die Endauswertung klicken Sie auf Weiter.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V32.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 60,
+            "url": ""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": "REL_PartCheck_Auswertung3_2",
+      "title": "Für zwei kurze Extra-Übungen und die Endauswertung klicken Sie auf Weiter.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V34.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 45,
+            "url": ""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": "REL_PartCheck_Auswertung3_3",
+      "title": "Für zwei kurze Extra-Übungen und die Endauswertung klicken Sie auf Weiter.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V33.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 44,
+            "url": ""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": "REL_PartCheck_Sabotage",
+      "title": "Sabotieren Sie sich selbst?\r\n\r\n",
+      "text": "Schreiben Sie uns an contact@simsab.net und vereinbaren Sie ein persönliches Coaching, um Ihre Situation zu besprechen. Oder schreiben Sie uns eine E-Mail an contact@simsab.net. Unsere Experten helfen Ihnen gerne weiter.\n\nUm zu den letzten Coaching-Schritten zu gelangen, klicken Sie auf Weiter.",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V36.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "TextArea",
+      "key": "REL_PartCheck_Gedanken",
+      "title": "Was waren Ihre ersten Gedanken?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V37.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Options",
+      "key": "REL_PartCheck_WieWeiter",
+      "title": "Wie soll es weitergehen? Haben Sie schon ein Bauchgefühl, ob der Partner passt oder nicht? Wir haben noch eine kleine Extra-Übung zum Thema gemeinsame Ziele. Bitte wählen Sie aus.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V38.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Gleich weiter zum Ergebnis"
+          },
+          {
+            "key": 2,
+            "value": "Vorher einen weiteren Punkt anschauen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n025",
+          "if": "REL_PartCheck_WieWeiter is 1"
+        },
+        {
+          "to": "n026",
+          "if": "REL_PartCheck_WieWeiter is 2"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Options",
+      "key": "REL_PartCheck_PasstPartner",
+      "title": "Hören Sie auf Ihr Bauchgefühl. Wie gut passt Ihr Partner zu Ihnen? ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V45.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Mein Partner passt gut zu mir"
+          },
+          {
+            "key": "2",
+            "value": "Mein Partner passt nicht so gut zu mir"
+          },
+          {
+            "key": "3",
+            "value": "Ich bin mir nicht sicher"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n027",
+          "if": "REL_PartCheck_PasstPartner is '1'"
+        },
+        {
+          "to": "n028",
+          "if": "REL_PartCheck_PasstPartner is '2'"
+        },
+        {
+          "to": "n029",
+          "if": "REL_PartCheck_PasstPartner is '3'"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "List",
+      "key": "REL_PartCheck_Ziele",
+      "title": "Was sind Ihre großen Ziele?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V39.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "ListView",
+      "key": "REL_PartCheck_PartnerPasstGut",
+      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Coachings: ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V48.flv"
+        },
+        "elements": [
+          {
+            "element": "Flirten, Verführung",
+            "second": 0
+          },
+          {
+            "element": "Augeglichene Beziehung",
+            "second": 0
+          },
+          {
+            "element": "Beziehung stärken",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "ListView",
+      "key": "REL_PartCheck_PartnerPasstNicht",
+      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Coachings: ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V46.flv"
+        },
+        "elements": [
+          {
+            "element": "Beziehung stärken (für bessere Kommunikation, etc)",
+            "second": 0
+          },
+          {
+            "element": "Sich trennen (für einen passenderen Partner",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "ListView",
+      "key": "REL_PartCheck_PartnerPasstUnsicher",
+      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Coachings: ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V47.flv"
+        },
+        "elements": [
+          {
+            "element": "Beziehung stärken (für bessere Kommunikation, etc)",
+            "second": 0
+          },
+          {
+            "element": "Sich trennen (für einen passenderen Partner)",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Evaluation",
+      "key": "REL_PartCheck_Evaluation4",
+      "title": "Evaluation große Ziele",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V40.flv"
+        },
+        "criteria": "#REL_PartCheck_Ziele",
+        "type": "check",
+        "steps": 5,
+        "titleWeight": "Wie wichtig sind Ihnen diese Ziele?",
+        "titleRate": "Wie sehr teilt Ihr Partner diese Ziele?"
+      },
+      "next": [
+        {
+          "to": "n032",
+          "if": "REL_PartCheck_Evaluation4 gt 1"
+        },
+        {
+          "to": "n033",
+          "if": "REL_PartCheck_Evaluation4 le 1"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": "REL_PartCheck_Outro",
+      "title": "Dies war ein Auszug aus unserem Coaching-Programm. ",
+      "text": "Wenn Sie mehr Coachings zu den Themen \n\n* Beziehung\n* Karriere\n* Gesundheit\n* Erziehung \n\nmöchten, kommen Sie zu uns auf \n\nwww. motivado.de\n\nUnsere Experten sind gerne für Sie da!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Video",
+      "key": "REL_PartCheck_AuswertungZiele2",
+      "title": "1 bis 6",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V42.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Video",
+      "key": "REL_PartCheck_AuswertungZiele1",
+      "title": "-6 bis 1",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V41.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    }
+  }
+}

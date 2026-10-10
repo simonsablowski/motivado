@@ -1,0 +1,16 @@
+{
+  "_comment": "Products published on the first release. Their coachings (via model-map.json) and media are what gets built and uploaded.",
+  "products": [
+    "liebeskummer",
+    "traummann",
+    "balance-in-der-beziehung",
+    "besser-aussehen",
+    "bewegung",
+    "schlafen-bei-schichtarbeit",
+    "schlafstoerungen",
+    "motiviert-in-die-jobsuche-starten",
+    "sich-gut-verkaufen",
+    "das-eigene-potential-ausschopfen",
+    "mobbing-schule"
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "key": "bez-tf-1b",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Willkommen zur Fortsetzung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V30A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Dies war das letzte Video des vorherigen Coachings",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V30.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Ähnlichkeit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Männer müssen wissen was sie wollen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V32.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Klare Ansagen - Dinge ansprechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V33.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "beschützen können",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V34.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "nicht jammern",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V35.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Frau auch ein Jäger - wenig Komplimente",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V36.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Wissen Sie diese Punkte sehr gut",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V37.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Berühren Riechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V38.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Lust bekommen auf Ansprechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V39.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Ende - machen Sie es",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V40.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Nach der Uhrzeit fragen.",
+      "text": "1. Übung: 10 Menschen nach Uhrzeit fragen.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V41.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Nach dem Weg fragen.",
+      "text": "2. Übung: 10 Menschen nach Weg fragen.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V42.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Nach einem gutem Lokal/einer Bar fragen.",
+      "text": "3. Übung: 10 Menschen nach Lokal oder Bar oder Restaurant fragen. Fragen Sie vielleicht schon nur interessantere, bzw. attraktivere Menschen.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V43.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Nach der Uhrzeit fragen II.",
+      "text": "1'. Übung: 10 Frauen in einem für Sie interessanten Alter nach der Uhrzeit fragen.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V44.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "Nach dem Weg fragen II.",
+      "text": "2'. Übung: 10 Frauen in einem für Sie interessanten Alter nach dem Weg fragen.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V45.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Nach einem Lokal/einer Bar fragen II.",
+      "text": "3'. Übung: 10 attraktive Frauen in einem für Sie interessanten Alter nach einem Lokal, Club, Bar, etc. fragen.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechen_V46.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hut ab! Sie haben das zweite Coaching zu \"Frauen ansprechen und kennenlernen\" durchlaufen. Machen Sie die Übungen. Fangen Sie mit den Übungen an und wie weit Sie da auch gekommen sind, es ist ganz wichtig, auch den dritten Teil dieses Coachings zu sehen, damit es gut weiter geht, wenn Sie schon im Gespräch sind!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

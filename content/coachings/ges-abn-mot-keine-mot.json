@@ -1,0 +1,228 @@
+{
+  "key": "ges-abn-mot-keine-mot",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Willkommen im Coaching \"Ich habe plötzlich keine Motivation zum Abnehmen mehr\"!",
+      "text": "In diesem Coaching wollen wir gemeinsam herausfinden, warum Sie eigentlich abnehmen wollen, sich aber nicht motivieren können.\nAußerdem zeigen wir Ihnen, wie Sie es in Zukunft schaffen, sich zu motivieren.\n\nNehmen Sie sich für dieses Coaching ca. 20 Minuten Zeit.",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationII-II_V1.flv",
+          "delay": 24
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben das Gefühl manchmal einfach die Motivation zum Abnehmen zu verlieren?\nNichts hilft besser, als sich noch einmal bildlich vor Augen zu rufen, was genau denn dafür und dagegen spricht abzunehmen.\nErstellen Sie darum bitte insgesamt zwei Listen:",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "DIC_ContraAbnehmen",
+      "title": "Zunächst: was spricht denn alles dagegen abzunehmen? Was demotiviert Sie momentan so sehr?",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "DIC_ProAbnehmen",
+      "title": "Was spricht alles dafür abzunehmen? Warum sitzen Sie denn hier und beschäftigen sich mit dem Abnehm-coach? ",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "DIC_ErgebnisPOSNEG",
+      "title": "Was war das Ergebnis?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationII-II_V4.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich habe mehr Punkte gefunden, die für das Abnehmen sprechen"
+          },
+          {
+            "key": 2,
+            "value": "Ich habe mehr Punkte gefunden, die gegen das Abnehmen sprechen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "DIC_ErgebnisPOSNEG is 1"
+        },
+        {
+          "to": "n007",
+          "if": "DIC_ErgebnisPOSNEG is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationII-IIA_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationII-IIB_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Ihre Aufgabe zu dem Coaching \"Ich habe plötzlich keine Motivation zum Abnehmen mehr\":",
+      "text": "Laden Sie sich die beiden Dokumente herunter und nehmen Sie sich die Tipps in der kommenden Woche zu Herzen.\nSie werden merken, mit diesen Tipps ist das Abnehmen so leicht in Ihren Alltag zu integrieren, dass es Sie keine große zusätzliche Energie kosten wird.\nViel Erfolg!",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationII-IIA_V2.flv"
+        },
+        "documents": [
+          {
+            "name": "Sporttipps für den Alltag",
+            "file": "Sporttipps_Alltag"
+          },
+          {
+            "name": "Ernährungstipps für den Alltag",
+            "file": "Ernaehrungstipps_Alltag.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationII-IIB_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationII-II_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Ihre Aufgabe zu dem Coaching \"Ich habe plötzlich keine Motivation zum Abnehmen mehr\":",
+      "text": "Versuchen Sie erstmal nur eine Woche sich an gesunde Ernährung und ausreichend Bewegung zu halten. \nDanach sehen wir weiter.\n\nSollten Sie noch Tipps und Tricks brauchen, wie man Ernährung und Bewegung einfach in den Alltag integrieren kann, können Sie diese hier herunter laden.\nViel Erfolg!",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationII-IIB_V3.flv"
+        },
+        "documents": [
+          {
+            "name": "Sporttipps für den Alltag",
+            "file": "Sporttipps_Alltag"
+          },
+          {
+            "name": "Ernährungstipps für den Alltag",
+            "file": "Ernaehrungstipps_Alltag.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    }
+  }
+}

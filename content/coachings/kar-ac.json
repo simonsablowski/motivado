@@ -1,0 +1,345 @@
+{
+  "key": "kar-ac",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen im Coaching \"Das Assessment-Center\"(AC)!\r\n\r\nAssessment-Center (von englisch \"to assess\" = beurteilen) sind eine Methode der Personalauswahl, bei der eine oder mehrere Personen über einen längeren Zeitraum (von ca. 2 Stunden bis zu 2 Tagen) aufmerksam beobachtet werden. Hier können Sie z.B. auf Persönlichkeits- und Intelligenztests treffen. Meistens werden außerdem Übungen oder Rollenspiele eingesetzt, die das konkrete Verhalten einer Person in verschiedenen Situationen sichtbar machen sollen.\r\nAssessment-Center werden selten durchgeführt, wenn die jeweiligen zu besetzenden Stellen nicht sehr gefragt wären oder das Urteil der Beobachter nicht sehr wichtig wäre. \r\nWenn Sie eine Einladung zu einem AC erhalten haben, haben Sie schon mal den wichtigsten Schritt geschafft! Herzlichen Glückwunsch!",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie vorher Nervenflattern haben sollten, können Sie sich sicher sein, dass es allen anderen Kandidaten ganz genauso geht! \r\n\r\nTrotzdem ist es schön, wenn man vorher relativ souverän und ruhig ist. Hier können Sie wieder auf eine mentale Übung zurückgreifen, die Ihnen bereits aus anderen Coachings bekannt ist:\r\nStellen Sie sich vor, Ihre Präsentation verläuft glatt, in den Diskussionen machen Sie sich gut und gestalten sie aktiv mit, indem Sie sie kommentieren oder moderieren. Stellen Sie sich außerdem vor, wie Sie Punkte am Flipchart zusammentragen und so die Diskussion strukturieren. Visualisieren Sie für sich, dass es hervorragend läuft und stellen Sie Ihren Geist auf Gewinn ein! Man hat Sie eingeladen, damit gehören Sie schon zu den interessanten Kandidaten!\r\n\r\nFühren Sie diese Übung bitte jetzt durch! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Worauf es vorher noch ankommt, ist das richtige Outfit. Hier gelten alle Regeln zur Kleidung wie im eigentlichen Vorstellungsgespräch. Lesen Sie sich daher noch einmal unsere Checkliste zum passenden Outfit durch und halten Sie sich an unsere Tipps!",
+      "props": {
+        "documents": [
+          {
+            "name": "Checkliste Outfit",
+            "file": "Checkliste_Outfit.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "In einem Assessment-Center können Sie in jedem Fall damit rechnen, dass Sie aufgefordert werden, sich der Gruppe vorzustellen.\r\n\r\nBereiten Sie daher eine kurze und knackige Präsentation vor, die Sie im Vorfeld ausreichend (!) üben! Hierzu können Sie auf Ihre Erfolgsgeschichten, Ihre Stärken, Kompetenzen und Fähigkeiten, Ihre Einminutenpräsentation, Ihre berufliche Zielsetzung und Ihre berufliche Vision zurückgreifen. \r\n\r\nZusätzlich können Sie sich an folgenden Leifragen orientieren:\r\n- Wer bin ich? (Alter, Wohnort, Familienstand etc.)\r\n- Was mach ich? (beruflicher Hintergrund, Ausbildung, Erfahrung etc.)\r\n- Warum bin ich hier? (positive Aspekte der Firma etc.)\r\n\r\nSie können hier ruhig kleine Kärtchen zu Hilfe nehmen. Wenn Thomas Gottschalk vor Millionenpublikum mit Karten in der Hand reden darf, dann dürfen Sie das auch!\r\nEs ist wichtiger, dass Ihr Vortrag flüssig und angenehm daherkommt, Sie an all Ihre wichtigen Punkte denken und auf Ihre Zeit achten, statt die Hälfte zu vergessen oder in einen ellenlangen Monolog zu verfallen, bei dem Sie sich ständig wiederholen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Werfen Sie vor dem AC zusätzlich auch noch einen Blick in unsere Checkliste „24h vor dem Vorstellungsgespräch“, damit Sie an alles Wichtige denken und entspannt den Weg zum AC antreten können.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Kurz vor dem AC - Sie kommen an...\r\n\r\nDas Wichtigste am Anfang: gehen Sie auf die Leute zu! Haben Sie dabei einen guten Händedruck. Alle sind dort neu, haben Angst und stehen auf dem Präsentierteller.\r\n\r\nWenn Sie angekommen sind, treffen Sie vielleicht schon auf kleinere Grüppchen, die bereits miteinander im Gespräch sind. Klar denken Sie sich dann vielleicht: ,Die kennen sich ja alle schon!‘ In Wahrheit waren die anderen einfach nur zwei Minuten eher da und haben deswegen schon miteinander gesprochen. Seien sie deswegen unbedingt rechtzeitig da und schauen Sie, dass Sie gleich am Anfang ein paar Leute kennenlernen, so dass Sie sich relativ schnell in dem Umfeld wohl fühlen. Dazu müssen Sie sich vielleicht ein Stück weit überwinden, aber wenn Sie es machen, haben Sie absolut einen Vorteil!",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Assessment-Center\r\n\r\nWorauf es wirklich im Assessment-Center ankommt...\r\n\r\nBei ACs geht es nicht darum, dass Sie am stärksten rüberkommen, sondern vielmehr, dass Sie Ihre Einminutenpräsentation im Griff haben, dass Sie sehr schnell auf die Übungen anspringen, schnell die geforderten Sachen umsetzen, Fairness zeigen und Ihre Mitstreiter auch mal unterstützen oder verteidigen. Beispielsweise: „Ich finde es sehr schade, dass der Punkt von dem Herrn Meier grade untergegangen ist. Der hat mir sehr gut gefallen, wobei natürlich das Argument von Frau XYZ auch gut ist und ich verstehe, was Herr Meier mit seinem Einwand meint. Dennoch sind es beides gute Argumente.“ \r\nGenauso ist es eine Fähigkeit, anderen Leuten positive Kritik zu geben. Zeigen sie, dass Sie diplomatisch sind und auch andere Leute neben sich glänzen lassen können. Im AC ist im Allgemeinen weniger die Ellenbogenmentalität gefragt!",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auch ganz wichtig ist: machen Sie immer voll mit! Zum Beispiel gibt es Übungen wie: „Ziehen Sie das linke Hosenbein komplett hoch, machen Sie drei Knöpfe auf, ziehen Sie die Krawatte schief oder tragen Sie die Bluse verkehrt herum.“ Am besten ist es hier: Sie stehen einfach auf, schauen völlig sachlich-nüchtern, als ob nichts wäre und folgen souverän den Anweisungen. Machen also die drei Knöpfe auf, ziehen das linke Hosenbein hoch usw. Anschließend können Sie Ihre Kleidung auch einfach so lassen, selbst wenn die Übung schon vorbei ist. So etwas kommt immer gut an, denn es ist ein Zeichen von Flexibilität und auch ein Zeichen, Anweisungen ohne zu diskutieren entgegenzunehmen, die im Grunde keine Relevanz haben. Sie beweisen so, dass Sie praktisch sein können und einfach mal machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Man wird Sie im AC ständig beobachten. Sie sollten also möglichst positiv auffallen und nicht etwa untergehen oder gar einen negativen Eindruck hinterlassen.\r\n\r\nWie schaffen Sie das? Schauen wir uns dazu die einzelnen Elemente eines ACs an.  ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Gruppendiskussion\r\n\r\nGruppendiskussionen sind sehr beliebt und werden daher sehr häufig eingesetzt. Hier macht es sich nicht gut, wenn Sie mit breiten Ellenbogen alle anderen zur Seite schieben, nach dem Motto: „Ich hab die Idee!“ oder „Ich übernehme die Gesprächsleitung!“ Bleiben Sie auf dem Teppich, hören Sie vielmehr aktiv zu und konzentrieren Sie sich auf das, was die Anderen sagen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Ziel einer Gruppendiskussion ist es zu sehen, welcher Kandidat Kommunikationsstärke, Initiative, Begeisterungsfähigkeit und Überzeugungsstärke zeigt. Je nach zu besetzender Position wird der Schwerpunkt auf andere Bereiche gelegt.\r\nWenn es beispielsweise darum geht, die Top-Verkäufer auszusuchen, müssen Sie für alles einen Vorteil finden und zwar relativ schnell. \r\nBei einem AC für hausinterne Trainees, sollten Sie zeigen, dass Sie für viele Positionen offen sind und dass Sie sich über alles, was Sie dazuzulernen können, freuen.\r\nWird das AC für die Besetzung einer gehobenen Führungsposition durchgeführt, erwartet man von Ihnen, dass Sie die Fähigkeit beweisen, leicht lenken und führen zu können. Hier können Sie beispielsweise innerhalb der Gruppendiskussion punkten, indem Sie einfach einen Stift nehmen, sich ans Flipchart stellen und sagen: „Ich denke, wir sollten ein paar Punkte am Flipchart festhalten. Auf diese Art und Weise können wir noch besser die Pros und Contras in unserer Diskussion abwägen.“ Suchen Sie im AC grundsätzlich solche Lücken!",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Meist dauert so eine Diskussion 30-60 Minuten. Wichtig hierbei ist auch, dass Sie jeweils Blickkontakt zu dem Sprechenden halten und selbst alle Teilnehmer ansprechen, wenn Sie einen Punkt anbringen. Greifen Sie außerdem die Ideen der anderen auf und entwickeln Sie sie weiter. \r\nSollte sich die Diskussion im Kreis drehen, machen Sie darauf aufmerksam, fassen Sie das bisher Gesagte zusammen und setzen Sie neue Impulse. Wenn Sie von einem der anderen Mitstreiter unterbrochen werden, können Sie das direkt ansprechen, indem Sie sagen: „Sie haben mich gerade in meinem Punkt unterbrochen. Ich würde diesen gern noch zum Ende bringen.“ Bleiben Sie dabei ganz sachlich und schauen Sie dem anderen in die Augen. Sollten Sie weiterhin in Ihrer Argumentation unterbrochen werden, können Sie durch Schilderung Ihrer Gefühle dem anderen eine Rückmeldung geben, was sein Verhalten anrichtet, beispielsweise: „Ich finde es schade, dass Sie mich jetzt zum dritten Mal unterbrochen haben. Ich habe das Gefühl, dass Ihnen nicht viel an meiner Meinung liegt.“ So spielen Sie den Ball wieder an den anderen zurück, ohne ihn anzugreifen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie in der Diskussion keine eigenen guten Argumente haben, fangen Sie an, die Beiträge der anderen zu kommentieren und die Diskussion insgesamt zu moderieren. Stellen wir uns vor, es gibt eine Gesprächsrunde zum Thema „Diskutieren Sie, ob mehr Geld für erneuerbare Energien bereit gestellt werden sollte und ob Firmen extra Fonds dafür einrichten sollten.“ Ihnen fällt dazu im Moment nichts ein? Das stimmt nicht, Sie haben dazu natürlich eine Meinung! \r\nNehmen Sie sich am besten sofort Papier und einen Stift und fangen Sie an zu schreiben. Beispielsweise: ,Rücklagen bilden heißt, dass der Liquiditätsfluss runtergeht, es heißt auch, dass man in dem Unternehmen eine ganze Abteilung dafür abstellen kann, die in dem Bereich entsprechend Know-how aufbaut usw.‘\r\nFangen Sie einfach an aufzuschreiben, was immer Ihnen gerade durch den Kopf geht und bringen Sie es zu Papier. Den anderen geht es meist genauso wie Ihnen und sie denken sich wahrscheinlich auch: ,Ach, du meine Güte, dazu kann ich ja gar nichts sagen!‘",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jetzt wird man die Gruppe in zwei Lager einteilen, nämlich in eine Pro- und eine Contra-Seite. In diesem Fall sollten Sie auf alle Fälle fair argumentieren! Man erwartet von Ihnen nicht, dass Sie gewinnen, sondern, dass Sie Ihre Punkte gut unterbringen, nicht gleich aufgeben und auch mal nachsetzen. Gleichzeitig sollten Sie den Konsens suchen, indem Sie bspw. sagen: „Ich muss sagen, das Kontra-Argument von Herrn Meier ist berechtigt, dass der Liquiditätseinschnitt zu groß sei und dadurch die Gefahr steigt, dass unsere Mitarbeiter zu stark eingeschränkt werden, selbst wenn wir dabei Marktführer in diesem Bereich wären. Das klingt in der Tat sehr riskant und ich würde in diesem Fall eine Probezeit von einem Jahr empfehlen, in dem wir das Projekt mal aufsetzen.“ \r\nHieran sieht man: sind Sie jemand, der Kompromisse ermöglicht. Sind sie jemand, der Menschen und unterschiedliche Meinungen zusammenbringt. Und überhaupt: Sie passen zu der Stelle.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn es zudem in der Gruppendiskussion einen Sprecher A und einen Sprecher B geben soll, dann melden Sie sich für eine der beiden Rollen. Oder sagen Sie: „Ich würde den Herrn Müller zum Sprecher A vorschlagen, der hat so eine etwas dominante Stimme.“ Das ist einerseits ein Kompliment und gleichzeitig eine Kritik. Zudem haben Sie Ihre sozialen Fähigkeiten bewiesen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Präsentation\r\n\r\nDie Präsentation dauert inklusive Vorbereitungszeit meist zwischen fünf und 30 Minuten. Hier will man sehen: verfügen Sie über didaktische Fähigkeiten, können Sie strukturiert über ein Thema reden, es innerhalb der vorgegebenen Zeit ausarbeiten, wie ist Ihre Auffassungsgabe und sind Sie vor allem stressresistent?",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein typisches Beispiel für eine Präsentationsaufgabe kann lauten: „Stellen Sie sich vor!“ Hier haben Sie sich schon super vorbereitet, wenn Sie vorher Ihre Einminutenpräsentation  formuliert und geübt haben! Sie können sich also leicht an den drei Punkten orientieren:\r\n\r\n1.Wo komme ich her (Vergangenheit)?\r\n2.Wo stehe ich im Moment (Gegenwart)?\r\n3.Wo will ich hin (Zukunft)?\r\n\r\nAusgestattet mit Stiften und Flipchart haben Sie meist zwischen 15 und 20 Minuten Zeit, sich darauf vorzubereiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "In einigen ACs wird bei der Präsentationsaufgabe ein kleiner Trick angewandt: nehmen wir an, in der zu besetzenden Position geht es um Dienstleistung und Service. Hier will man also sehen, ob Sie ein hilfsbereiter Mensch sind. Das bedeutet im AC natürlich: Sie sollten auch ihren Mitstreitern helfen! \r\n\r\nAm Beispiel Kurzvortrag sähe das so aus: wenn die Vorbereitungszeit um ist und einer Ihrer Mitstreiter anfängt, seine Präsentation zu halten, sollten sie aufhören, weiter an Ihrem eigenem Vortrag zu arbeiten, denn so würden Sie signalisieren: ich bin kein Helfer, sondern ein Egoist.\r\nTeilweise gibt es ACs, wo der Vortrag überhaupt nicht angehört wird, sondern die Psychologen nur geschaut haben: was machen die Zuhörer eigentlich? Arbeiten sie noch an ihren eigenen Sachen oder machen sie in der Gruppe mit?",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Stellen Sie sich auch darauf ein, dass während Ihres Vortrages Zwischenfragen gestellt werden können. Dann geht es meist nicht darum, dass Sie alles in der vorgegebenen Zeit erzählen, sondern darum zu schauen, wie Sie den zusätzlichen Stress durch die Fragen aushalten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Psychologische Tests\r\n\r\nIn Assessment-Centern werden auch gerne psychologische Tests eingesetzt. Hier in der Regel Intelligenztests oder Persönlichkeitstests zum Einsatz. \r\nInsbesondere bei Intelligenztests lohnt sich eine genaue Vorbereitung. Die Aufgaben sind in der Regel ähnlich aufgebaut und je öfter Sie die Aufgaben geübt haben, desto leichter fallen sie Ihnen. \r\nBesorgen Sie sich entsprechende Bücher und erkundigen Sie sich bei früheren Teilnehmern. Im Internet gibt es beispielsweise Foren, in denen darüber berichtet wird, was Bestandteil des ACs einer bestimmten Firma war.\r\nAnsonsten kreuzen Sie bei Multiple-Choice-Fragen immer eine Antwortalternative an: so bleibt Ihnen zumindest die Chance auf ein paar Glückstreffer. Wenn Sie diese Strategie fahren, sollten Sie immer den gleichen Buchstaben ankreuzen. So ist die Wahrscheinlichkeit statistisch am höchsten, einige Punkte zu einzusammeln.",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Postkorbübung\r\n\r\nDie so genannte Postkorbübung ist eine klassische Einzelaufgabe, die circa 60 Minuten dauern kann.\r\nHierbei sitzt jeder Bewerber an einem virtuellen Arbeitsplatz und muss in vorgegebener Zeit Nachrichten bzw. E-mails bearbeiten. Beispielsweise wird man gebeten, alle Termine in den Kalender des Chefs einzutragen, ohne, dass sie sich überschneiden. \r\n\r\nHier ist das Ziel einzuschätzen, wie stressresistent Sie wiederum sind, wie Ihre Arbeitsorganisation aussieht und wie Ihre Entscheidungsfähigkeit, Ihr analytisches Denken und Ihre Konzentration ausgeprägt sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie gehen Sie also vor?\r\n\r\nTrennen Sie Wichtiges von Unwichtigem und sortieren Sie dann nach Dringlichkeit. \r\n\r\nAlle wichtigen und dringlichen Aufgaben bzw. Termine sollten Sie sofort und persönlich erledigen. Wichtige und nicht so dringliche Dinge können Sie verschieben, während Sie alles Unwichtige, aber Dringliche an andere delegieren sollten. Alles Unwichtige und nicht Dringliche landet im Papierkorb.\r\n\r\nSomit haben Sie ein gutes System der Priorisierung, was Sie hier erfolgreich zum Einsatz bringen können. \r\n\r\nWenn Sie zu den beschriebenen Aufgaben und Übungen Fragen haben, rufen Sie unsere Experten an, die Sie hier gern beraten und Ihnen weitere Tipps zum Assessment-Center geben!",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Worauf gilt es am Tag des AC noch zu achten?\r\n\r\nNehmen Sie sich mit unangenehmen Gewohnheiten zurück, das heißt: rauchen Sie den Tag über wenig bis gar nicht, wenn Sie Raucher sind. \r\nAchten Sie beim Essen darauf, dass Sie sich nicht zu große Portionen nehmen, damit nicht alle auf Sie warten müssen. Nehmen Sie sich Gerichte, die leicht zu essen sind und möglichst keine Flecken auf Ihrer Kleidung verursachen. Also: keine Spaghetti, keinen Rucola-Salat und keinen Salat mit einer Balsamico-Sauce, die dunkle Flecken auf der Bluse oder dem Hemd hinterlassen könnte. Nehmen Sie stattdessen lieber die Joghurt-Soße oder Öl oder lassen Sie den Salat gleich ganz weg. Stattdessen können Sie eine Suppe wählen. Die ist in der Regel leicht zu essen. Sie sollten erst dann anfangen zu essen, wenn auch der Gastgeber beginnt.\r\nAchten Sie außerdem auf Ihre Tischmanieren und sprechen Sie z.B.nicht mit vollem Mund! \r\n\r\nUnd nun viel Glück für Ihr AC!",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching  \"Das Assessment Center\".",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Das Assessment Center\"",
+      "text": "Bis zu unserem nächsten Coaching bereiten Sie bitte Ihre Kurzpräsenation im Rahmen eines ACs vor. \nOrientieren Sie sich an den Leitfragen:\n\n- Wer bin ich? (Alter, Wohnort, Familienstand etc.)\n- Was mach ich? (beruflicher Hintergrund, Ausbildung, Erfahrung etc.)\n- Warum bin ich hier? (positive Aspekte der Firma etc.)\n\nund üben Sie Ihre Präsentation mindestens dreimal.\n \nHolen Sie sich außerdem Feedback von einer vertrauten Person und versuchen Sie die Veränderungsvorschläge in Ihre Präsentation zu integrieren.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

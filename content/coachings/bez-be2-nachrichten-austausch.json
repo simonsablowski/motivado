@@ -1,0 +1,307 @@
+{
+  "key": "bez-be2-nachrichten-austausch",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro mit Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateMessgExchBe2_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "89fa60be87ce41178b2e99573c564415",
+      "title": "Welches Thema der Auswahl möchten Sie sich nun ansehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateMessageBe2_V5.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Wie am besten Antworten?"
+          },
+          {
+            "key": 2,
+            "value": "Wie mit Ablehnung umgehen?"
+          },
+          {
+            "key": 3,
+            "value": "Wie mit Komplimenten umgehen?"
+          },
+          {
+            "key": 4,
+            "value": "Wie vom Mailen zum Date?"
+          },
+          {
+            "key": 5,
+            "value": "Abschließende Übung"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "89fa60be87ce41178b2e99573c564415 is 1"
+        },
+        {
+          "to": "n004",
+          "if": "89fa60be87ce41178b2e99573c564415 is 2"
+        },
+        {
+          "to": "n005",
+          "if": "89fa60be87ce41178b2e99573c564415 is 3"
+        },
+        {
+          "to": "n006",
+          "if": "89fa60be87ce41178b2e99573c564415 is 4"
+        },
+        {
+          "to": "n007",
+          "if": "89fa60be87ce41178b2e99573c564415 is 5"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Im Mailverkehr",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Umgang mit Ablehnung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Umgang mit Komplimenten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Ihr Ziel",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Übung 20 Profile und Nachrichten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Sich gut darstellen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Kommen Sie zum Telefonat",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Outro: Gutes Mailen auch sonst",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V32.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Timing",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Kniff vor Treffen mit Foto",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Klassische Fragen auf Dating-Plattformen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Gutes Finden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Nach-Haker",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    }
+  }
+}

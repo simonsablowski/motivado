@@ -1,0 +1,81 @@
+{
+  "key": "bez-bet-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "00a7f8e105f544889e35b47f367c06cb",
+      "title": "Sind Sie sich wirklich sicher, dass Sie betrogen werden/wurden?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_TeaserBetrogenUnsicher_V1.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich vermute es nur"
+          },
+          {
+            "key": 2,
+            "value": "Ich bin mir sicher"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "00a7f8e105f544889e35b47f367c06cb is 1"
+        },
+        {
+          "to": "n003",
+          "if": "00a7f8e105f544889e35b47f367c06cb is 2"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BetrogenUnsicher_V1.flv"
+        },
+        "key": "bez-betr-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_TeaserBetrogenSicher_V1.flv"
+        },
+        "key": "bez-betr-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

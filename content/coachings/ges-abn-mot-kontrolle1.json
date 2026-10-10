@@ -1,0 +1,123 @@
+{
+  "key": "ges-abn-mot-kontrolle1",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Sie haben das Gefühl gar nicht kontrollieren zu können, ob Sie zu oder abnehmen?",
+      "text": "Das Gefühl das Abnehmen \"im Griff\" zu haben, ist das wichtigste!\nUnd darum wollen wir uns in diesem Coaching gemeinsam überlegen, wie Sie dieses Gefühl zurück bekommen können.\n\nNehmen Sie sich bitte ca. 15 Minuten dafür Zeit.",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationIII-I_V1.flv",
+          "delay": 38
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Abnehmen ist eine einfache Rechnung:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationIII-I_V2.flv"
+        },
+        "elements": [
+          {
+            "element": "Mehr Energie verbrennen, als Sie zu sich nehmen!",
+            "second": 19
+          },
+          {
+            "element": "Wichtig ist: Kleine Erfolge messbar machen!",
+            "second": 77
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Welche Methoden gibt es?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationIII-I_V3.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Der Klassiker: die Personenwaage",
+            "second": 19
+          },
+          {
+            "element": "2. Bauchumfang messen, Hüfte und Oberschenkel",
+            "second": 88
+          },
+          {
+            "element": "3. Fotografieren Sie sich wöchentlich",
+            "second": 127
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zu dem Coaching \"Keine Kontrolle über das Abnehmen.\"",
+      "text": "Setzen Sie eine neue Methode ein, wie Sie Ihren Fortschritt einfacher messbar machen können. Versuchen Sie es mit Waage, Maßband, Fotos, etc.. oder werden Sie kreativ und denken Sie sich selbst etwas aus.\nViel Erfolg!",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationIII-I_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_MotivationIII-I_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

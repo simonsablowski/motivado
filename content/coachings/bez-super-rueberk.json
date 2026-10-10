@@ -1,0 +1,378 @@
+{
+  "key": "bez-super-rueberk",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "TextArea",
+      "key": "rel_rueberk_ziel",
+      "title": "Was ist Ihr Ziel? Wie wollen Sie wirken? Schreiben Sie es hier auf:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V6.flv",
+          "delay": 28
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen Sie sich vor, dass Sie in Zukunft so rüberkommen: #rel_rueberk_ziel|'Sie haben kein Ziel angegeben - Bitte gehen Sie zurück und holen Sie es nach!'",
+      "text": "Hier von uns jetzt das Coaching, das Sie dabei unterstützen sollte.",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "rel_rueberk_vorbilder",
+      "title": "Wen kennen Sie, dem Sie stundenlang zuhören können?",
+      "text": "",
+      "props": {
+        "items": 3,
+        "video": {
+          "url": "REL_BesserRueb_V8.flv",
+          "delay": 44
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "TextArea",
+      "key": null,
+      "title": "Jeder kann es lernen, d.h. auch Sie. Sie können es! Mit Übung und Lust auf das Ergebnis macht es Spaß!",
+      "text": "Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch den Kopf gehen.",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V9.flv",
+          "delay": 28
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Streichen Sie die gefundenen Glaubenssätze auf Ihrem Papier dick durch! Und schreiben Sie positive, wie zum Beispiel in dem Video, jeweils daneben!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Was sind Ihre Stärken, Hobbies?",
+      "text": "Sammeln Sie in einer Liste:\n 1.) Was können Sie besonders gut?\n 2.) Was sind Ihre Hobbies?\n 3.) Was haben Sie Besonderes erlebt (schönster Urlaub etc.)\n 4.) Ihre schlimmsten Feste und Parties \n 5.) Besondere Erkenntnisse\n 6.) Sonstiges, dass Ihnen einfällt.",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Unterstreichen Sie Ihre Top-3 Stärken, bzw. Hobbies",
+      "text": "Markieren Sie davon Ihre stärksten, sympathischsten Punkte. Jetzt machen wir sie nach der Regel auf dem Video spannend:\nZ.B. : Was waren Hindernisse, was war schwierig, selten, ungewöhnlich?\nWie haben Sie diese Herausforderungen gelöst?\nWas hätte niemand erwartet?\nWie haben Sie sich dabei gefühlt, was haben Sie dabei gelernt?",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Welchen Freunden oder Familienmitgliedern haben Sie dadurch geholfen? Oder mit wem Ihrer Freunde oder Familie haben Sie das erlebt?\n\nSchreiben Sie jeweils eine Anekdote in Stichworten dazu.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Was war herausfordernd, schwierig bei dieser Anekdote?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Wie haben Sie die Schwierigkeit gelöst?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Bauen Sie Freunde, Kollegen, Bekannte in der Geschichte ein.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Bauen Sie Dinge ein, über die Sie sich wundern.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Aktives Zuhören",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Einleitungs sätze",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Framing",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Fragen und Zuhören",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "1. Aufgabe zum Coaching \"Besser rüber kommen\": Feedback von Bekannten",
+      "text": "Erzählen Sie die aufgepeppte Variante einem Freund oder Bekannten und Fragen nach Feedback, was gut kommt oder schlecht. Idealerweise natürlich jemand, der das gleiche Geschlecht wie Ihr Traumpartner hat.\nFragen Sie dabei auch nach, ob es unterhaltsam ist, oder ob Sie das Gegenüber langweilen (weil zu lang, zu detailliert, zu kompliziert).\nSind Ihre Emotionen rübergekommen?",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "2. Aufgabe zum Coaching \"Besser rüberkommen\": mit egal wem üben.",
+      "text": "Üben, üben, üben und zwar mit Jedem! Mit Nachbar, mit Kollegem, mit Männern und Frauen. Die Prinzipien sind immer dieselben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Options",
+      "key": "6020a2e114c54066877c9a5840819eb4",
+      "title": "Haben Sie das Gefühl, sich besser und selbstbewusster zu präsentieren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein."
+          },
+          {
+            "key": 2,
+            "value": "Ja."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n020",
+          "if": "6020a2e114c54066877c9a5840819eb4 is 1"
+        },
+        {
+          "to": "n021",
+          "if": "6020a2e114c54066877c9a5840819eb4 is 2"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Mehr Selbstbewusstsein kommt nicht über Nacht. Wiederholen Sie das Coaching und die Übungen regelmäßig und Sie werden schon bald mit mehr Selbstbewusstsein auftreten.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "Gratulation, ,Sie haben das Coaching \"Besser rüberkommen\" durchlaufen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BesserRueb_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

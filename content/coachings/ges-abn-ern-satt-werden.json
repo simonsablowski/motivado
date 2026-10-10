@@ -1,0 +1,154 @@
+{
+  "key": "ges-abn-ern-satt-werden",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Wie werde ich richtig satt?",
+      "text": "Sie halten sich an Ihre Mahlzeiten und haben immer noch Hunger? \nWillkommen im Coaching \"Wie werde ich richtig satt?\"",
+      "props": {
+        "video": {
+          "url": "DIC_IntroRichtigSattWerden_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Die 5 Grundregeln",
+      "text": "Hier also die fünf Grundregeln für eine gesunde, schlanke Ernährung:\n\n1. Halten Sie sich an drei Mahlzeiten mit maximal zwei gesunden Zwischenmahlzeiten am Tag, besser nur eine oder keine Zwischenmahlzeit. Essen Sie zu häufig zwischen den Hauptmahlzeiten, wird es schwierig genug Zeit zwischen Snack und Hauptmahlzeit verstreichen zu lassen, sodass Ihr Stoffwechsel in den Fettverbrennungsmodus geht. \n\n2. Das bedeutet: Lassen Sie immer genug Zeit zwischen den Hauptmahlzeiten, um Ihrem Darm eine Chance zu geben, mit der Verdauung hinterher zu kommen (ca. 4 Stunden).\n3. Trinken Sie immer ausreichend. Mindestens zwei Liter pro Tag (Wasser, ungesüßten Tee, stark verdünnte Fruchtschorlen).\n\n4. Genießen Sie Ihr Essen. Richten Sie es sich appetitlich an, kauen Sie langsam und essen Sie nie abgelenkt.\n\n5. Ernähren Sie sich ausgewogen. Was genau das bedeutet, erfahren Sie, wenn Sie auf \"Weiter\" klicken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Was bedeutet es ausgewogen zu essen?",
+      "text": "Ausgewogene Ernährung - das haben Sie bestimmt schon oft gehört. Aber was bedeutet „ausgewogen“ eigentlich? \n\nEine ausgewogene Ernährung ist die Basis für ein gesundes Leben, denn nur wer sich ausgewogen ernährt, bleibt langfristig gesund, schlank und somit beweglich und geistig fit.\n\nEine ausgewogene Ernährung umfasst \n- ausreichend Eiweiße\n- ausreichend Kohlenhydrate \n- Fette nur in Maßen \n\nMehr zu den einzelnen Punkten, wenn Sie auf \"Weiter\" klicken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Eiweiß",
+      "text": "Eiweiß ist sehr wichtig und macht satt:\nUngefähr 20% Ihrer täglichen Energiezufuhr sollte über Proteine abgedeckt werden. Vor allem wenn Sie abnehmen möchten, sollten Sie darauf achten, dass Sie immer genügend Proteine zu sich nehmen. So entgehen Sie der Gefahr, nicht nur Fett, sondern auch Muskeln abzubauen. Und Muskeln brauchen Sie, um Ihren Abnehmprozess zu beschleunigen und Ihr Gewicht auf lange Sicht stabil zu halten. Eiweiß liegt relativ lange im Magen und hält aus diesem Grund lange satt. \n\nWas sind also gute Eiweißlieferanten? \nHier sollten Sie sich an magere Milchprodukte halten. Magerquark und Joghurt mit einem geringen Fettgehalt machen satt und haben einen relativ hohen Proteingehalt. Gute Eiweißlieferanten sind auch magerer Fisch und mageres Fleisch (mit Geflügel liegen Sie immer richtig). Halten Sie sich hingegen fern von Salami, Mortadella, Teewurst und Leberwurst, besser geeignet ist Aufschnitt, der aus einem Stück besteht, wie Putenbrustaufschnitt, Kassler, Bratenaufschnitt und Schinken ohne Fettrand.  Hülsenfrüchte sind ebenfalls ein guter Eiweißlieferant und sind sehr sättigend. Je fettärmer ein Lebensmittel ist, desto mehr Eiweiß ist enthalten. \n\nWer es würzig mag, darf zum Beispiel ruhig beim Harzer Käse zuschlagen. Auf 100 Gramm kommen nur ca. 125Kalorien, 0,7 Gramm Fett und ganze 30 Gramm Eiweiß!",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Fette",
+      "text": "Fette nur in Maßen genießen!\n\nDer Fettanteil Ihrer täglichen Energiezufuhr sollte nur bei ca. 25% liegen. Immerhin hat Fett mehr als doppelt soviele Kilokalorien wie Kohlenhydrate oder Eiweiß.\nZu empfehlen sind hier nur die mehrfach ungesättigten Fettsäuren. Diese braucht unser Körper tatsächlich. Beispiele sind hier Fischfette (z.B. in Lachs, Tunfisch oder Makrele) und einige Pflanzenöle, wie Oliven- oder Rapsöl.\nAuch ein Esslöffel voll Nüsse im Müsli oder Salat kann mehr als ausreichend für die tägliche Fettzufuhr sein.\nMehrfach gesättigte Fettsäuren, wie sie in Butter, aber vor allem auch im Fleisch enthalten sind, braucht der Körper nicht. Greifen Sie daher nur beschränkt auf tierische Produkte als Eiweißquelle zurück. Geflügel besteht immerhin zu großen Teilen aus ungesättigten Fettsäuren. Versuchen Sie trotzdem, wenn Sie es täglich verzehren, dies nur in kleinen Mengen zu tun.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Kohlenhydrate",
+      "text": "50% Ihrer täglichen Kalorienzufuhr sollten aus Kohlenhydraten bestehen. \nAber Achtung! \n\nKohlenhydrate bedeuten nicht Zucker oder Weißmehl, sondern Obst, Hülsenfrüchte und Gemüse und ein kleiner Teil Vollkornprodukte! \nMöchten Sie zum Beispiel einen Teil Ihres täglichen Kohlenhydratbedarfs über Müsli decken, sollten Sie immer darauf achten, dass der Kohlenhydratanteil nur zu einem sehr geringen Teil aus Zucker besteht (Immer Nährwertangaben auf der Packung lesen)! Darüber hinaus ist hier das richtige Verhältnis für ein gutes Frühstück: Obst und magerer Joghurt/Magerquark/fettarme Milch zu gleichen Anteilen. Dazu ein kleinerer Anteil (Vollkorn-) Müsli. \n\nVollwertiges Getreide liefert darüber hinaus Vitamin B1 und B6, Magnesium, Eisen und noch viel mehr.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Obst und Gemüse",
+      "text": "Obst und Gemüse zählen ebenfalls zu den Kohlenhydraten.\nAllerdings sind dies die Kohlenhydrate, an denen Sie sich satt essen dürfen!\nDenn pflanzliche Lebensmittel sind Alleskönner! Sie liefern nicht nur wenige Kalorien sondern füllen auch noch den Magen und machen also satt ohne zu viel Kalorien auf die Waage zu bringen. \nNoch dazu liefern sie auch noch viele Vitamine, Kohlenhydrate, Ballaststoffe, Mineralstoffe und sekundäre Pflanzenstoffe. Gemüse und Obst sollten ein Hauptbestandteil Ihrer Ernährung sein und mehrmals täglich verzehrt werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Zucker",
+      "text": "Zucker gehört auch zu den Kohlenhydraten und hier ist besondere Vorsicht geboten!\nZucker hat bei gesunder Ernährung eigentlich keine Daseinsberechtigung!\n\nZucker braucht der Körper nicht. Im Gegenteil, Zucker richtet im Körper an unzähligen Stellen Schaden an. \n\nZucker :\n- unterstützt und verstärkt Mangelerscheinungen (Haarausfall, graue Haare, kann sogar zu Depressionen führen)\n- beeinträchtigt die Verdauung\n- zerstört die Darmflora\n- beeinträchtigt die Vitamin C Aufnahme (Anfälligkeit für Erkältungen ist die Folge)\n- beeinträchtigt die Kalziumaufnahme\n- greift den Zahnschmelz an\n- beeinträchtigt das Konzentrationsvermögen. \n\nUnd wenn Sie diese Folgen noch nicht überzeugen, völlig auf Zucker zu verzichten, dann schränken Sie Ihren Konsum wenigstens so stark wie möglich ein. Zucker darf maximal 10% der täglichen Energiezufuhr ausmachen. Denken Sie hier immer daran: die 10% gelten nicht nur für Industriezucker, sondern auch für Honig, für den Zucker im Kaffee, für den Zucker in Fertigprodukten, aber auch für den Zucker im Obst oder im Müsli. Zucker ist in sehr vielen Lebensmitteln, darum noch einmal: Lesen Sie immer die Nährwertangaben auf der Verpackung!",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Übersicht im E-Book",
+      "text": "Diese wenigen Regeln sind alles, was Sie brauchen, um erfolgreich abzunehmen.\n\nHier noch einmal die Kurzform zur Erinnerung: \n* 3+max. 2 Mahlzeiten\n* 4 Std. Pause\n* 2 Liter Trinken\n* Genießen\n* Ausgewogen essen\n\nEine Übersicht mit „empfehlenswerten“ und „weniger empfehlenswerten“ Lebensmitteln finden Sie in dem E-Book \"Gute und Böse Lebensmittel\". Sie finden es in Ihrem persönlichen Bereich, nachdem Sie sich auf der Motivado-Seite eingeloggt haben. In dem E-Book finden Sie auch ein Rezept-Beispiel, wie eine gesunde Mahlzeit aussehen kann.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Sie sorgen sich nicht satt zu werden?",
+      "text": "Dann laden Sie jetzt hier unsere Sattmachertricks herunten!\n\nSatt werden und trotzdem abnehmen kann ganz einfach sein, wenn Sie die Regeln aus diesem Coaching beachten.\nGehen Sie am besten direkt im Anschluss an dieses Coaching mit Hilfe unserer Tipps einkaufen und bereiten Sie Ihren Kühlschrank auf eine schlanke, genussvolle Woche vor!\nViel Erfolg!",
+      "props": {
+        "documents": [
+          {
+            "name": "Sattmachertricks",
+            "file": "Sattmachertricks.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

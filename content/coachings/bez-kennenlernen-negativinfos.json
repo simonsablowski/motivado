@@ -1,0 +1,319 @@
+{
+  "key": "bez-kennenlernen-negativinfos",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Negativinformationen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "keine offene Reaktion zeigen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Welchen Freund können Sie wann fragen, ob Sie Emotionen leicht zeigen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "MS halten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "kein vorschnelles beurteilen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "einkalkulieren dass etwas schief geht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Gute Sätze",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Während dem Treffen die Visionen halten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Darüber positiv sprechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Besinnen auf die Stärken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Übung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Nachschieben",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Alternativen entwickeln, Zeit schinden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Kritisiert werden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Übung Biergarten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V23_1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_UmgangNegInfo_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

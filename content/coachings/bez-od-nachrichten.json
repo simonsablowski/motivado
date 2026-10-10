@@ -1,0 +1,234 @@
+{
+  "key": "bez-od-nachrichten",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Nach-Hacker",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Im Mailverkehr",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Sich gut darstellen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Timimg",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Klassische Fragen auf Dating-Plattformen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Gutes Finden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Umgang mit Komplimenten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Umgang mit Ablehnung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Ihr Ziel",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Kommen Sie zu Chat oder Telefon",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Kniff vor Treffen mit Foto",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Übung 20 Profile und Nachrichten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Outro: Gute Mailen auch sonst",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V32.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

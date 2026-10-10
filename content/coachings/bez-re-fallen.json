@@ -1,0 +1,166 @@
+{
+  "key": "bez-re-fallen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Kontaktsperre brechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Strategie fallen lassen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Gemeinsame Freunde einschalten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Schlechte Mails und SMS",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Nicht auf Bauch hören",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Grübeln und isolieren",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "In Andacht erstarren",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Diskussion und Argumente",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Fallen_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

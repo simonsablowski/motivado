@@ -1,0 +1,246 @@
+{
+  "key": "kar-stellenauswahl",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Kapitel Passende Angebote finden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_PassAngebo_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching \"Wie suche ich nach einer Stelle?\"\r\n\r\nStarten wir gleich mit der klassischen Suche über Google. Gehen wir das Ganze wieder Stück für Stück gemeinsam an einem Beispiel durch, so dass Sie dann zu Hause in Ruhe für die anderen Unternehmen nach passenden Stellen suchen können.\r\n\r\nFangen Sie dabei idealerweise mit der Firma an, die auf Ihrer Liste an Platz 1 steht. Sollten Sie Ihre Liste mit den Unternehmen noch nicht priorisiert haben, tun Sie es jetzt und entscheiden Sie, bei welcher Firma Sie zuerst auf Stellensuche gehen möchten.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Geben Sie jetzt einfach mal den Namen Ihres Unternehmens zusammen mit dem Begriff \"Stellenanzeigen\" oder „Stellenangebote“ in die Suchmaschine ein. Nehmen wir uns wieder Siemens als Beispiel. Wenn ich „Siemens“ und „Stellenanzeigen“ in Google eintippe, gelange ich direkt auf die Jobseiten der Firma. Meist finden Sie die firmeninternen Stellenangebote unter den Links „Jobs“, „Karriere“ oder in Englisch „Career“ auf den jeweiligen Firmenseiten.\r\nDie Seite können Sie sofort bookmarken, so dass Sie sie später schnell wieder finden. Die Stellenanzeige brauchen wir nachher unbedingt für das Anpassen Ihrer Bewerbungsunterlagen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Am besten wäre es, Sie legen sich für Ihre Stellensuche auch gleich eine schön strukturierte Datei an. Das spart Ihnen später ungemein Zeit, wenn es an das Bewerben geht. Sie haben bereits für ihre Firmenliste eine Excel-Datei bzw. ein Blatt Papier. Arbeiten Sie am besten einfach weiter mit dem Dokument und legen Sie sich jetzt eine zusätzliche Spalte an. \r\n\r\nHier tragen Sie alles ein, was für Ihre Bewerbung später wichtig ist: wie die Position, auf die Sie sich bewerben, heißt, wann Sie sich beworben haben, mit wem Sie gesprochen haben usw..",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bei Firmen, wo Sie keine offenen Stellen auf den Firmenseiten finden: schauen sie auf Xing nach und suchen Sie nach Kontakten innerhalb des Unternehmens. Wenn Sie bei Xing noch keinen Premium-Account haben, überlegen Sie sich, ob Sie die fünf Euro im Monat doch investieren wollen oder bitten Sie einen Freund, für Sie zu recherchieren. \r\nNeben Xing können Sie auch bei LinkedIn nach Stellen der Firmen suchen. LinkedIn ist etwas globaler als Xing und Sie können dort auch ohne zu zahlen Nachrichten an Kontakte verschicken. Wenn Sie jemanden aus Ihrem Zielunternehmen auf einer der beiden Plattformen gefunden haben, schreiben Sie ihn an!",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie eine Stellenanzeige bei ihrer Zielfirma gefunden haben: wunderbar! \n\nSchauen Sie sich die Stellenanzeige gut an, um zu entscheiden, wie gut Sie die Anforderungen erfüllen.\n* Lassen sich schon erste Anforderungen aus der Unternehmensbeschreibung herauslesen (Fremdsprachenkenntnisse, Mobilität, besondere branchenspezifische Kenntnisse etc.)? \n* Welche Aufgaben sind mit der zukünftigen Stelle verbunden und wie können Sie belegen, dass Sie ihnen gewachsen sind? \n* Gibt es Vorgaben für die Bewerbung (Eintrittstermin, Angaben zu Gehaltsvorstellungen, etc.)? \n* Welche Muss- und Kann-Anforderungen sind in der Stellenanzeige formuliert? \n\nIm nächsten Schritt gibt es gleich einen kleinen Exkurs zu den so genannten Muss- und Kann-Kriterien:",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Muss-Kriterien sind typischerweise erkennbar an Formulierungen wie \"Sie haben\", \"Sie sind...\", \"Sie bringen mit...\" und sollten zu 80% erfüllt werden. Kann-Kriterien erkennt man an solchen Formulierungen: \"idealerweise\", \"von Vorteil wäre...\" oder \"wünschenswert ist...\".\n\nSchauen Sie gleich, welche Muss-Kriterien Sie in Ihrer Stellenanzeige finden und klären Sie danach für sich: welche davon erfüllen Sie, welche nicht?\n\nWie gesagt: ideal ist es, wenn Sie 80% der Muss-Kriterien erfüllen. Aber selbst wenn das nicht der Fall ist, sollten Sie dennoch keine Scheu davor haben, sich zu bewerben.\n\nRufen Sie außerdem bei der Personalabteilung an und sagen Sie, worin Sie stark und weniger stark sind. Wenn Sie Glück haben, erhalten Sie eine klare Aussage vom Personaler, der Ihnen sagt, worauf das Unternehmen bei der Stellenbesetzung Wert legt.\n\nWir haben Ihnen einen Leitfaden erstellt, mit dem Sie sicher und sympathisch bei Ihrem Anruf rüberkommen. Diesen können Sie sich mit dem untenstehenden Link herunterladen.",
+      "props": {
+        "documents": [
+          {
+            "name": "Leifaden Anruf Firma",
+            "file": "Leitfaden_Anruf_Firma.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie sich auch ein Stück weit von Ihren Gefühlen lenken:\r\n* Welche Gedanken und Gefühle kommen bei Ihnen auf, wenn Sie die Stellenanzeige lesen? \r\n* Ist die Stellenanzeige eher aufwendig oder schlicht gestaltet? Handelt es sich demnach eher um ein traditionelles oder modernes Unternehmen? Passen meine Qualifikationen zu diesem Unternehmen? Kann ich mir vorstellen, gerne bei diesem Unternehmen zu arbeiten?\r\n ",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jetzt geht es darum, Ihr Anschreiben so anzupassen, dass es zu den Anforderungen der Annonce passt. Das Gleiche machen Sie mit Ihrem Lebenslauf, so dass die für die Position relevanten Fähigkeiten und Erfahrungen deutlich rauskommen und oben stehen. \r\nUnser Coaching \"Meine Bewerbungsunterlagen\" hilft Ihnen mit konkreten Tipps weiter, wie Ihre Bewerbungsunterlagen aussehen sollten. Kontaktieren Sie auch gern unsere Experten. \r\nSchnappen Sie sich jetzt Ihre Unterlagen und los geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Rufen Sie jetzt bei der Personalabteilung an und erfragen Sie, an wen Sie die Bewerbung richten sollen. So ist schon mal ein Kontakt zur Firma da und man hat bereits Ihren Namen gehört. Wo finden Sie die Telefonnummer? Entweder Sie rufen die Auskunft an oder schauen im Internet unter dem Link 'Kontakt'. Meist gelangen Sie vor allem bei großen Firmen erst an die Telefonzentrale. Lassen Sie sich zur Personalabteilung durchstellen und notieren Sie sich den Namen Ihres Ansprechpartners.\r\nLos geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Passen Sie Ihr Anschreiben nach Ihrem Telefonat an und beziehen Sie sich direkt auf Ihren Ansprechpartner – so ist Ihr Bewerbungsschreiben gleich viel persönlicher.\r\n\r\nJetzt können Sie die Bewerbung auch schon verschicken.\nLos geht’s!\n\r\nRufen Sie nach 2 Tagen unbedingt bei der Firma an und erkundigen Sie sich, ob Ihre Bewerbung eingetroffen ist.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Als Tipp: Schaffen Sie sich Routinen! \r\n\r\nMit Hilfe unseres Bewerbungsfahrplans, können Sie effizienter und schneller Ihre Bewerbungen versenden.\r\n\r\nWie? Das erfahren Sie im nächsten Schritt.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Wie sieht unser Bewerbungsfahrplan für Sie aus?\n\n1. Sie haben eine Zielfirma gefunden\n2. Sie recherchieren mit Hilfe unserer Leitfragen für eine gute Stunde bis anderthalb Stunden. Jetzt wissen Sie, was das Unternehmen tut, was es brauchen könnte, haben Punkte gefunden, die Sie an dem Unternehmen mögen und sich kritische Fragen überlegt.\n3. Sie starten Ihre Suche nach Stellenanzeigen und wissen, welche Jobs die Firma anbietet und was Sie für diesen Job Passendes mitbringen könnten.\n4. Sie schnappen sich Ihre Bewerbungsunterlagen. Formulieren Sie Ihr Anschreiben und passen Sie es auf die Anforderungen der Annonce an. Das Gleiche machen Sie mit Ihrem Lebenslauf, so dass die relevanten Fähigkeiten und Erfahrungen deutlich rauskommen.\n5. Sie rufen bei der Personalabteilung an und fragen, an wen Sie Ihre Unterlagen schicken sollen.\n6. Gegebenfalls passen Sie Ihr Anschreiben nach dem Gespräch mit dem Personaler noch mal an und beziehen sich direkt auf Ihren Gesprächspartner.\n7. Sie schicken Ihre Bewerbungsunterlagen los! \n8. Nach zwei Tagen rufen Sie erneut bei der Firma an und fragen, ob Ihre Unterlagen bereits angekommen sind.\n\nWenn Sie den Bewerbungszyklus mit Ihrer ersten Firma durchlaufen sind, starten Sie direkt mit dem 2. Unternehmen und gehen Stück für Stück erneut durch unseren Bewerbungsfahrplan durch!\nSo bekommen Sie Sicherheit und Routine im Bewerben und schaffen es, ein bis zwei und vielleicht sogar drei Bewerbungen pro Tag zu verschicken.\n\nWir unterstützen Sie auch hier bei jedem Ihrer Schritte: Schreiben Sie uns einfach an contact@simsab.net.\n\nDen Bewerbungsfahrplan können sie unter dem untenstehenden Link herunterladen.",
+      "props": {
+        "documents": [
+          {
+            "name": "Bewerbungsfahrplan",
+            "file": "Bewerbungsfahrplan.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Wo können Sie noch nach Stellen suchen?\n\nWir haben Ihnen eine ausführliche Liste mit zahlreichen Kontaktadressen und Jobbörsen zusammengestellt.",
+      "props": {
+        "documents": [
+          {
+            "name": "Quellen für Stellensuche",
+            "file": "Quellen_Stellensuche.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Dies war unser erstes Coaching im Kapitel \"Sich erfolgreich bewerben\". \r\n\r\nIm zweiten Coaching des Kapitels decken wir den Bereich telefonische Kontaktaufnahme ab. Im dritten Teil des Kapitels  geht es dann um die Themen Onlinebewerbung, Kontakte nutzen und Intitiativbewerbung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "\rAufgabe zum Coaching \"Wo suche ich nach einer Stelle?\"\n\n\nBis zu unserem nächsten Coaching, schreiben Sie bitte weiter Bewerbungen mit Hilfe unseres Bewerbungsfahrplans. Sie sollten pro halben Tag, den Sie sich Zeit nehmen, eine Bewerbung geschrieben und verschickt haben. \r\nBei Fragen wenden Sie sich an unsere Experten.\r\n\r\nBis zum nächsten Mal!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

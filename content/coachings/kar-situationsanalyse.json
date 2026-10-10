@@ -1,0 +1,836 @@
+{
+  "key": "kar-situationsanalyse",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Überblick und Einleitung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_SituAna_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "position is '(Fach)-Hochschulabsolvent/in'"
+        },
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlichen Glückwunsch zum erreichten Studienabschluss! \r\nAls Hochschulabsolvent steht Ihnen nun eine spannende Arbeitswelt offen. Wir möchten Sie dabei unterstützen, sich möglichst schnell auf dem Arbeitsmarkt zu etablieren und haben daher auf der kommenden Seite einige Informationen speziell für Sie als Absolvent bereitgestellt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "TextInput",
+      "key": "kar_situationsanalyse_arbeitsjahre_total",
+      "title": "Bitte geben Sie an, wieviele Jahre Sie bisher insgesamt beschäftigt waren (alle Beschäftigungen nach der Ausbildungszeit zusammengerechnet).",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Spezielle Informationen für Hochschulabsolventen\n\nAls Absolvent/in befinden Sie sich mitten in einer aufregenden und vielleicht auch emotionalen Phase Ihres Lebens: Ein neuer Lebensabschnitt beginnt, die Zukunft ist ungewiss und die Freude über Ihren Erfolg kann durch Zweifel über die eigene Kompetenz getrübt werden.\r\nHabe ich alles gelernt, was ich jetzt brauche? \r\nWie sieht die Praxis im Vergleich zur Theorie aus? \r\nDiese Fragen stellen sich die meisten Absolventen. Fest steht: Als Berufseinsteiger ist es normal, dass Sie noch nicht alles wissen und jeder gute Arbeitgeber ist sich dessen bewusst. \r\nAlso keine Panik - Sie können auf Ihre Lernfähigkeit und Ihre Kompetenzen vertrauen, denn diese haben Sie letztlich zu Ihrem Studienabschluss befähigt.\r\n \r\nWenn der Erfolg bei Ihrer Bewerbung zunächst ausbleibt, lassen Sie sich nicht entmutigen. Es ist normal, dass es einige Wochen bis Monate dauert bis Sie einen geeigneten Arbeitsplatz gefunden haben. Der Großteil der Hochschulabsolventen befindet sich aber ein Jahr nach dem Abschluss in einem Beschäftigungsverhältnis. \r\nSie haben mit Ihrem Studium also sehr gute Chancen auf dem Arbeitsmarkt!\r\n\r\nEine Herausforderung kann die nun fehlende Struktur in Ihrem Tagesablauf darstellen. \r\nNach einer stressigen Phase weiß man erstmal gar nicht, was man mit all der freien Zeit nun anfangen soll. Viele Absolventen berichten davon, nach der letzten Prüfung \"in ein Loch zu fallen\". \r\n\r\nWir raten Ihnen daher sich Routinen zu schaffen, nachdem Sie sich Raum und Zeit genommen haben, Ihren Erfolg zu genießen und sich von den Anstrengungen der letzten Zeit auszuruhen. \r\nEine Struktur können Sie Ihrem Tag zum Beispiel mit dem Wochenplan geben, den wir Ihnen bereits vorgestellt haben. Zusätzlich können aber auch kleine Rituale für Routine sorgen, z.B. der allmorgendliche Sparziergang oder die festen Sporttermine zweimal wöchentlich. Wichtig für eine gute Stimmung ist es, aktiv zu bleiben. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "kar_situationsanalyse_bildungshintergrund",
+      "title": "Welchen Bildungshintergrund haben Sie?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "kein Abschluss"
+          },
+          {
+            "key": "2",
+            "value": "Hauptschulabschluss"
+          },
+          {
+            "key": "3",
+            "value": "(erweiterter) Realschulabschluss"
+          },
+          {
+            "key": "4",
+            "value": "(Fach-) Abitur"
+          },
+          {
+            "key": "5",
+            "value": "Ausbildung"
+          },
+          {
+            "key": "6",
+            "value": "(Fach-)Hochschule / Bachelor / Master"
+          },
+          {
+            "key": "7",
+            "value": "Promotion"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "kar_situationsanalyse_bildungshintergrund is '5'"
+        },
+        {
+          "to": "n007",
+          "if": "kar_situationsanalyse_bildungshintergrund is '1'"
+        },
+        {
+          "to": "n007",
+          "if": "kar_situationsanalyse_bildungshintergrund is '7'"
+        },
+        {
+          "to": "n007",
+          "if": "kar_situationsanalyse_bildungshintergrund is '2'"
+        },
+        {
+          "to": "n007",
+          "if": "kar_situationsanalyse_bildungshintergrund is '4'"
+        },
+        {
+          "to": "n007",
+          "if": "kar_situationsanalyse_bildungshintergrund is '3'"
+        },
+        {
+          "to": "n007",
+          "if": "kar_situationsanalyse_bildungshintergrund is '6'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das liebe Geld\r\n\r\nIn der Regel haben Sie als Absolvent/in noch keine Erfahrungswerte, welches Gehalt für jemanden mit Ihrer \r\nAusbildung \"normal\" ist. \r\nWir raten Ihnen daher sich gut zu informieren bevor Sie in Ihre Vorstellungsgespräche gehen.\r\nDie folgenden Links sollen Ihnen als Ausgangspunkt für Ihre Recherche dienen:\r\nHier finden sich Übersichten zum Thema Einstiegsgehälter für Absolventen. \r\n\r\nhttp://www.lohnspiegel.de/main\r\n\r\nhttp://www.hobsons.de/de/ratgeber-service/gehalt/\r\n\r\nhttp://www.staufenbiel.de/ratgeber-service/gehalt/gehaltstabellen/gehalt-bwl-absolventen.html\r\n\r\nhttp://www.absolventa.de/blog/category/gehalt-und-einstiegsgehalt\r\n\r\nErkundigen Sie sich auch in Ihrem Bekanntenkreis. Da Geld oft noch ein Tabuthema ist, fragen Sie aber lieber nicht direkt nach dem Gehalt Ihres Gesprächspartners, sondern z.B.: \r\n\"Was denkst Du, könnte ich im Bewerbungsgespräch als Gehaltsvorstellung angeben?\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "kar_situationsanalyse_berufsstatus",
+      "title": "Und wie ist Ihre derzeitige berufliche Situation ?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ich bin derzeit arbeitssuchend"
+          },
+          {
+            "key": "2",
+            "value": "Ich werde in absehbarer Zeit arbeitssuchend sein"
+          },
+          {
+            "key": "3",
+            "value": "Ich habe einen Job, möchte mich aber beruflich neu orientieren"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "kar_situationsanalyse_berufsstatus is '2'"
+        },
+        {
+          "to": "n009",
+          "if": "kar_situationsanalyse_berufsstatus is '1'"
+        },
+        {
+          "to": "n009",
+          "if": "kar_situationsanalyse_berufsstatus is '3'"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ist für Absolventen noch wichtig?\r\n\r\nGrundsätzlich möchten wir Ihnen raten, soviele Bewerbungsgespräche wie möglich zu führen. Als Berufseinsteiger haben Sie an dieser Stelle noch nicht sehr viel Übung. Insofern nutzen Sie die Zeit, um hier aufzuholen.\r\n\r\nWenn Sie bisher noch keinerlei Berufserfahrung gesammelt haben, steht natürlich immer noch das Praktium als Übergang zur Wahl. Wenn Sie dabei finanziell über die Runden kommen, ist dagegen grundsätzlich nichts einzuwenden: Sie sollten sich hierfür aber unbedingt ein Zeitlimit setzen. Wir empfehlen maximal fünf bis sechs Monate.\r\n\r\nÜberprüfen Sie auch in regelmäßigen Abständen, ob Ihnen das Praktikum etwas bringt. Lernen Sie neues hinzu? Können Sie mit einer guten Referenz rechnen? Wenn Sie nur vorm Kopierer oder an der Kaffeemaschine stehen, investieren Sie Ihre wertvolle Zeit lieber in eine intensive Bewerbungsphase.\r\n\r\nAls Absolvent stehen Ihnen noch einige Suchkanäle zur Verfügung, auf die andere Bewerber nicht zurückgreifen können. Gehen Sie z.B. auf spezielle Absolventenmesse, auf denen sich potenzielle Arbeitgeber vorstellen und erstellen Sie ein Profil auf www.absolventa.de. Wie genau das geht, erklären wir Ihnen im Coaching \"Initiativbewerbung und andere Alternativen\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "fb6ec36a75dd4d148c62c9b21e79290c",
+      "title": "Wenn Sie Ihre insgesamte berufliche Laufbahn betrachten, wie zufrieden sind Sie damit? ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Sehr zufrieden"
+          },
+          {
+            "key": "2",
+            "value": "Zufrieden"
+          },
+          {
+            "key": "3",
+            "value": "Neutral"
+          },
+          {
+            "key": "4",
+            "value": "Unzufrieden"
+          },
+          {
+            "key": "5",
+            "value": "Sehr unzufrieden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "fb6ec36a75dd4d148c62c9b21e79290c is '3'"
+        },
+        {
+          "to": "n012",
+          "if": "fb6ec36a75dd4d148c62c9b21e79290c is '1'"
+        },
+        {
+          "to": "n012",
+          "if": "fb6ec36a75dd4d148c62c9b21e79290c is '2'"
+        },
+        {
+          "to": "n013",
+          "if": "fb6ec36a75dd4d148c62c9b21e79290c is '5'"
+        },
+        {
+          "to": "n013",
+          "if": "fb6ec36a75dd4d148c62c9b21e79290c is '4'"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie noch Fragen zum Thema \"Bewerben für Hochschulabsolventen\" haben, wenden Sie sich bitte an contact@simsab.net.\r\n\r\nWir wünschen Ihnen für den Moment, dass Sie sich auf das Kommende freuen können, denn \"jedem Anfang wohnt ein kleiner Zauber inne\"(Hesse).\r\n\r\nWeiter gehts mit den Fragen zu Ihrer aktuellen Situation.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "List",
+      "key": "kar_situationsanalyse_GruendeJob",
+      "title": "Weiterhin interessiert uns, aus welchem Grund Sie diese berufliche Laufbahn eingeschlagen haben. Bitte notieren Sie alles, was Ihnen einfällt!",
+      "text": "",
+      "props": {
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "kar_situationsanalyse_Zufriedenheit",
+      "title": "Welche Gründe gibt es für Ihre Zufriedenheit? Bitte notieren Sie bis zu fünf.",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "cf1ddbf76cbb4486a3f6c50137f2fdb1",
+      "title": "Hängt Ihre Unzufriedenheit mit dem Arbeitsumfeld zusammen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015",
+          "if": "cf1ddbf76cbb4486a3f6c50137f2fdb1 is 1"
+        },
+        {
+          "to": "n016",
+          "if": "cf1ddbf76cbb4486a3f6c50137f2fdb1 is 2"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben sich sicher schon viele Gedanken zum Ende Ihrer letzten/aktuellen Anstellung beziehungsweise zu Ihrer beruflichen Neuorientierung gemacht. Damit wir Sie besonders gut bei Ihrer Jobsuche unterstützen können, lassen Sie uns bitte auf den folgenden Seiten an Ihren Gedanken teilhaben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Hier ist es wichtig, dass Sie sich im Rahmen Ihrer Jobsuche intensiv Gedanken über Ihr zukünftiges Arbeitsumfeld machen, um hier größere Zufriedenheit zu erreichen!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Options",
+      "key": "a4ef458f4a5942e081b5d3bdef4d6049",
+      "title": "Hängt Ihre Unzufriedenheit mit der Tätigkeit an sich zusammen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018",
+          "if": "a4ef458f4a5942e081b5d3bdef4d6049 is 1"
+        },
+        {
+          "to": "n011",
+          "if": "a4ef458f4a5942e081b5d3bdef4d6049 is 2"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "List",
+      "key": "kar_situationsanalyse_SchwerSituation",
+      "title": "Was finden Sie an Ihrer aktuellen Situation besonders schwierig oder belastend? Bitte notieren Sie hierzu kurz Ihre Gedanken.",
+      "text": "",
+      "props": {
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das deutet daraufhin, dass Sie sich beruflich völlig neu orientieren wollen. Hierbei hängt Ihr Erfolg maßgeblich von Ihrer Qualifikation ab. Wenn Sie beispielsweise vorher als Friseur/in gearbeitet haben, stellt es eine große Herausforderung dar, wenn Ihr neues Ziel Apotheker/in ist. Wir empfehlen Ihnen daher: kontaktieren Sie unsere Experten, die Ihnen konkrete Tipps zu Ihrer beruflichen Neuorientierung geben können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "List",
+      "key": "kar_situationsanalyse_PositivSituation",
+      "title": "Vielleicht gibt es auch positive Dinge, die Sie Ihrer Situation abgewinnen können (evtl. waren Sie in Ihrem letzten Job unzufrieden, freuen sich auf einen Neuanfang oder ähnliches)? Notieren Sie bitte auch hierzu, was Ihnen einfällt!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Erklärung persönliche Fragen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_SituAna_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Options",
+      "key": "kar_situationsanalyse_geschlecht",
+      "title": "Sind Sie männlich oder weiblich?\r",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "weiblich"
+          },
+          {
+            "key": 2,
+            "value": "männlich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022",
+          "if": "kar_situationsanalyse_geschlecht is 1"
+        },
+        {
+          "to": "n022",
+          "if": "kar_situationsanalyse_geschlecht is 2"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "TextInput",
+      "key": "kar_situationsanalyse_alter",
+      "title": "Bitte nennen Sie uns Ihr Alter!",
+      "text": "",
+      "props": {
+        "type": "userage"
+      },
+      "next": [
+        {
+          "to": "n023",
+          "if": "kar_situationsanalyse_alter lt '50'"
+        },
+        {
+          "to": "n024",
+          "if": "kar_situationsanalyse_alter gt '49'"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Options",
+      "key": "e2c9978db2854e599467f6e9ecb07563",
+      "title": "Wie ist Ihr derzeitiger Familienstand?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "ledig"
+          },
+          {
+            "key": "2",
+            "value": "in Partnerschaft lebend"
+          },
+          {
+            "key": "3",
+            "value": "verheiratet"
+          },
+          {
+            "key": "4",
+            "value": "geschieden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n025",
+          "if": "e2c9978db2854e599467f6e9ecb07563 is '4'"
+        },
+        {
+          "to": "n025",
+          "if": "e2c9978db2854e599467f6e9ecb07563 is '1'"
+        },
+        {
+          "to": "n026",
+          "if": "e2c9978db2854e599467f6e9ecb07563 is '2'"
+        },
+        {
+          "to": "n026",
+          "if": "e2c9978db2854e599467f6e9ecb07563 is '3'"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "Sie haben angegeben, älter als 50 Jahre zu sein. Speziell für Arbeitnehmer im besten Alter haben wir hier einige zusätzliche Hinweise zusammengestellt. Klicken Sie dafür bitte auf weiter.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Options",
+      "key": "48b2d453a91b429db805207cc8802c03",
+      "title": "Für Eltern haben wir an dieser Stelle noch einige zusätzliche Hinweise zusammengestellt. \r\nBitte wählen Sie aus, ob Sie sich diese Informationen anschauen möchten.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter ohne Zusatzinformationen"
+          },
+          {
+            "key": 2,
+            "value": "Informationen für Eltern"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n028",
+          "if": "48b2d453a91b429db805207cc8802c03 is 1"
+        },
+        {
+          "to": "n029",
+          "if": "48b2d453a91b429db805207cc8802c03 is 2"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für Menschen in einer festen Beziehung ist es wichtig, auch während der intensiven Arbeitssuche ausreichend Zeit für die Partnerschaft zu haben. Wir raten Ihnen dennoch ausreichend Zeit für die Jobsuche einzuplanen, damit Sie möglichst schnell die ersten Erfolge verbuchen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtig ist vor allem Ihre Selbstwahrnehmung:\r\nWie sehen Sie sich? Zählen Sie sich zum „alten Eisen“ oder sind Sie jemand, der noch mitmischen kann?\r\nDer feine Unterschied beginnt in Ihrer Einstellung, d.h. Sie müssen sich selber als „starke Unterstützung“, als „hervorragender Mitarbeiter“, als „Chance für das Unternehmen“ sehen. Immerhin haben Sie mehr Erfahrung als die meisten Anderen und schon viel mehr gesehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Options",
+      "key": "89c8dd58859344c99ac4044a606c5ec9",
+      "title": "Für Menschen, die eine zusätzliche finanzielle Belastung durch abhängige Angehörige tragen (z.B. pflegebedürftige Eltern), gibt es hier weitere Hinweise. ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter ohne Zusatzinformationen"
+          },
+          {
+            "key": 2,
+            "value": "Informationen für Personen mit finanziell abhängigen Angehörigen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032",
+          "if": "89c8dd58859344c99ac4044a606c5ec9 is 1"
+        },
+        {
+          "to": "n033",
+          "if": "89c8dd58859344c99ac4044a606c5ec9 is 2"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zeit für Ihre Kinder\r\n\r\nViele Eltern nutzen die Bewerbungsphase, um sich endlich einmal die Zeit für Ihre Kinder zu nehmen, die sie bisher nicht hatten. Dies ist für Kinder und Eltern eine großartige und bereichernde Erfahrung: genießen Sie diese neu gewonnene Freiheit.\r\nWir raten Ihnen in diesem Fall sich einen Zeitplan aufzustellen, wielange die Phase der Kinderbetreuung dauern wird und ab wann Sie spätestens wieder eine Beschäftigung haben möchten. Dieser Zeitpunkt sollte nicht weiter als 5 Monate in der Zukunft liegen, da sonst die Berufstätigkeit gefühlt in weite Ferne rückt. Das macht die Jobsuche dann insgesamt aufwendiger.\r\nWährend die Kinderbetreuung im Fokus steht, können Sie Ihren Zeitplan dem Rhythmus Ihrer Kinder anpassen. Natürlich werden Sie nicht 8 Stunden am Tag in die Jobsuche investieren können. 2 Stunden während die Kinder schlafen, im Kindergarten oder in der Schule sind oder Hausaufgaben machen, sollten dagegen möglich sein.\r\nAuch Ihre Kinder werden sich freuen, wenn Sie als Vorbild Ihre angestrebte Routine einhalten und Erfolge feiern können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Options",
+      "key": "484aac058b274f5ca3b6f00c103c0781",
+      "title": "Ist Ihr Partner erwerbstätig?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n034",
+          "if": "484aac058b274f5ca3b6f00c103c0781 is 1"
+        },
+        {
+          "to": "n025",
+          "if": "484aac058b274f5ca3b6f00c103c0781 is 2"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie sich also dabei erwischen zu denken: „Ich bin zu alt“ – unterbrechen Sie diese Gedanken sofort mit konstruktiven Gedanken wie \"Ich bin durch meine jahrelange Erfahrung Experte auf meinem Gebiet\". Auch wenn Ihnen das etwas schwer fällt: probieren Sie es aus, denn was Sie denken strahlen Sie auch aus!\r\n\r\nWenn Sie diese innere Haltung von „erhaltener Frische, Jugendlichkeit, Schlagkraft“ in sich tragen, steigen Ihre Chancen enorm.",
+      "props": {},
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "Vielen Dank für Ihre Angaben! Auf Basis dieser Daten werden wir die passenden Coachingelemente für Sie auswählen. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie die Verantwortung für finanziell abhängige Angehörige tragen, ist das eine ganz besondere Situation. \r\nSie stehen mehr als andere unter Druck, möglichst schnell wieder einen Job zu finden. Grade in solch einer Situation können Sie besonders von unserem Jobcoaching profitieren, indem Sie Ihre Bewerbungsaktivitäten gut strukturieren und an Geschwindigkeit zulegen. Insofern hat Ihre Situation auch einen sehr positiven Aspekt: Sie werden in der Regel besonders schnell eine neue berufliche Aufgabe finden.\r\n\r\nWenn Sie weitergehende Fragen haben, rufen Sie unsere Experten an: wir können Ihnen oft in wenigen Minuten effizient und gezielt weiterhelfen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ist nur einer der beiden Partner erwerbstätig, erhöht dies häufig den Druck, schnell wieder in Arbeit zu kommen. In diesem Fall empfehlen wir Ihnen, sich möglichst genau an den vorgeschlagenen Zeitplan zu halten oder sogar noch ein bisschen mehr zu machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die zweite wichtige Einstellung ist:\r\n\r\nSchreiben Sie sich nicht ab, sondern wünschen Sie sich von ganzem Herzen einen Job. Das heißt gehen Sie mit dem selben Elan auf Positionen, Ausschreibungen und Möglichkeiten zu, wie Sie es mit 40 getan haben oder hätten. Erwarten Sie zudem mit der gleichen Selbstverständlichkeit wie mit 40, dass es mit dem neuen Job klappen wird.",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Diese beiden Einstellungen werden Ihre Ausstrahlung deutlich verbessern, denn Menschen spüren häufig, was der Andere so denkt und erwartet. Wenn Sie die gleiche Ausstrahlung wie ein 40 oder sogar 35-Jähriger haben, werden die Menschen von Ihnen verblüfft sein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Besonderes Engagement\r\n\r\nRechnen Sie von Anfang an damit, dass Sie mehr Bewerbungsschreiben rausschicken müssen als Ihre jüngeren Kollegen. Auch, wenn das nicht korrekt ist, werden Bewerbungsschreiben häufig nach Alter gefiltert. \r\nEs hilft Ihnen nicht, wenn wir diese Information verschweigen. Dennoch ist es wie so oft im Leben: Wenn man um ein Hindernis weiß, kann man sich viel besser darauf einstellen und Gegenmaßnahmen treffen.\r\n\r\nWir empfehlen Ihnen folgendes:\r\n\r\n1.Finden Sie mehr Firmen, lesen Sie mehr Stellenangebote und versenden Sie mehr Bewerbungen als Ihre jüngeren Kollegen. Wenn wir empfehlen, das Menschen idealerweise 50 Zielfirmen suchen und finden sollten, dann sollten Sie über 100 finden. Es ist möglich.\r\n\r\n2.Um nicht im Pool anderer Bewerber unter zu gehen, schreiben Sie unbedingt auch viele Initiativbewerbungen mit dem besonderen Hinweis auf Ihre Stärken. Schließlich haben Sie Erfahrung und somit etwas vorzuweisen.\r\n\r\n3.Wenn wir Sie bitten täglich zwei, drei Kontakte durchzugehen und anzurufen um zu sehen, was das Netzwerk hergibt, sollten sie sechs, sieben oder mehr Bekannte und Kontakte anrufen. Durch Job-Hinweise, die Sie direkt über Bekannte bekommen, gelangen Sie viel wahrscheinlicher an Einladungen zu Bewerbungsgesprächen, da hier weniger gefiltert wird.\r\n\r\n4.Als letztes Informieren Sie sich, welche Firmen dafür bekannt sind auch ältere Jahrgänge einzustellen. \r\n\r\n\r\nIm Folgenden finden Sie weitere Tipps, wie Sie überzeugend und souverän rüberkommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zeigen Sie, dass Sie mitten im Leben stehen\r\n\r\nIn Ihren Unterlagen wählen Sie z.B. ein entsprechendes Foto aus. Bei Ihren Hobbies geben Sie an, dass Sie sportlich sehr aktiv sind.\r\n \r\nIm persönlichen Gespräch können Sie besonderes Engagement zeigen, indem Sie sich etwa Notizen machen oder interessierte Nachfragen stellen.\r\nWenn Themengebiete angesprochen werden, in denen Sie sich auskennen, gehen Sie unbedingt darauf ein und glänzen Sie mit Ihren Erfahrungen. In solchen Momenten können Sie beweisen, dass Sie mehr drauf haben als Mitbewerber.\r\nWenn Sie sich in einem Thema nicht so gut auskennen, wirken Sie interessiert und offen und lassen Sie Ihr Gegenüber mehr kommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihr Ziel muss in jedem Fall sein, Ihre Vorzüge herauszustellen!\r\n\r\nMit Ihrer langjährigen Erfahrung bringen Sie für einen Arbeitgeber viele Schätze mit: Sie haben enorm viel Wissen auf Ihrem Gebiet angesammelt, Sie haben Lebenserfahrung und somit auch eine gewisse Gelassenheit entwickelt und können zwischen den wichtigen und den weniger wichtigen Dingen zielsicher unterscheiden.\r\nWir raten Ihnen, sich dem Arbeitgeber nicht als Generalist, sondern als Spezialist zu präsentieren. Haben Sie hier Mut zur Lücke und überzeugen Sie Ihr Gegenüber davon, dass Sie mit Ihrer geballten Erfahrung genau der Richtige für eine spezielle Tätigkeit sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was sollten Sie lieber nicht sagen?\r\n\r\nGeben Sie dem Arbeitgeber nicht das Gefühl, Sie hätten den Anschluss an die moderne Arbeitswelt verpasst. Auch, wenn Sie vielleicht kein Profi am PC sind, sagen Sie nicht: \"Meine Kinder können das viel besser.\" \r\nWenn Sie wirklich wenig Ahnung haben, weichen Sie lieber konstruktiv aus mit einer Aussage wie: Stimmt, meine Computerkenntnisse muss ich noch etwas aufpolieren. Ich habe Lust, da noch einmal so richtig durchzustarten! \r\nIdeal wäre, Sie würden privat soviel mit Computern machen, dass Sie völlig leicht und selbstverständlich mit dem PC umgehen können. Sie vermitteln sonst ganz schnell den Eindruck des „alten Eisens“. \r\nDa Sie ja aber auch gerade dieses Coaching über einen Computer erhalten, sind Sie wahrscheinlich gar nicht so weit weg von diesem Ideal.",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ist sonst noch wichtig?\r\n\r\nIm Coaching \"Sich gut präsentieren\" werden Sie Ihre sogenannte \"Ende-Erklärung\" kennenlernen. Hierbei geht es darum, das Ende Ihres letzten Arbeitsverhältnisses möglichst positiv darzustellen. Diese Erklärung hat für Sie eine besondere Relevanz, bereiten Sie sie daher vor Gesprächen bitte besonders gut vor.",
+      "props": {},
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "Text",
+      "key": null,
+      "title": "Das waren unsere Zusatzinformationen zum Thema \"Bewerben mit 50 +“. \r\nWeiter geht es mit den restlichen Fragen zu Ihrer persönlichen Situation.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    }
+  }
+}

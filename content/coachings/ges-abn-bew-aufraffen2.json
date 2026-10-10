@@ -1,0 +1,104 @@
+{
+  "key": "ges-abn-bew-aufraffen2",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Willkommen im Coaching \"Ich kann mich zum Sport nicht aufraffen\"",
+      "text": "Am Ende dieses Coachings werden Sie sich auf Ihre nächste Sporteinheit freuen!\nDas erreichen wir mit der Hilfe eines Belohnungssystems.\nMehr dazu im Folgenden.\n\nNehmen Sie sich für dieses Coaching ca. 15 Minuten Zeit.",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport2_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport2_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport2_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Aufgabe zu dem Coaching \"Kann mich zum Sport nicht aufraffen\"",
+      "text": "Denken Sie sich ein Belohnungssystem aus, das zu Ihnen passt. Planen Sie eine komplette Woche inklusive aller Trainingseinheiten und Belohnung am Ende der Woche.\n\nSie Können sich hier eine Vorlage mit Beispielen für ein solches Belohnungssystem herunter laden.",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport2_V4.flv"
+        },
+        "documents": [
+          {
+            "name": "Belohnungssystem",
+            "file": "Belohnungssystem.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport2_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

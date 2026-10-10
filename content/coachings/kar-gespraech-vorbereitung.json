@@ -1,0 +1,356 @@
+{
+  "key": "kar-gespraech-vorbereitung",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen im Coaching \"Vorbereitung und Anfahrt zum Vorstellungsgespräch\"\r\n\r\nDer Tag Ihres Vorstellungsgespräch ist gekommen. In diesem Coaching zeigen wir Ihnen, wie Sie sich ideal darauf vorbereiten im Gespräch eine Glanzleistung aufs Parkett zu legen. Wir kümmern uns um Ihre Anfahrt und Ihre mentale Vorbereitung und unterstützen Sie bei der Auswahl des richtigen Outfits.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "An alles gedacht haben – sich richtig vorbereiten!\r\n\r\nWie schnell Sie in einem Vorstellungsgespräch zum Erfolg kommen, hängt vor allem von Ihrer Vorbereitung ab. Überlassen Sie nichts dem Zufall, wenn es um Ihren zukünftigen Job geht!\r\n\r\nDiese drei Module machen Sie fit für Ihr erfolgreiches Gespräch:\r\n1. Den ersten Eindruck nicht vermasseln – professionell rüberkommen\r\n2. Gelassen ankommen\r\n3. Die Firma und Position kennen\r\n4. Was erwartet mich im Gespräch? Keine Angst vor schwierigen Fragen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bevor wir mit unseren Tipps für das angemessene Outfit starten, noch ein Tipp von uns:\r\n\r\nViele Einladungen zu einem Bewerbungsgespräch erfolgen heute per E-mail, in der Sie darum gebeten werden, den Termin zu bestätigen. Machen Sie das noch am gleichen Tag und demonstrieren Sie so Ihr Interesse! Wenn Sie sich besonders vom Rest der Bewerber abheben wollen, greifen Sie zum Hörer! Nur wenige gehen soweit und zeigen soviel Engagement. Rufen Sie also direkt beim Personalverantwortlichen an. Die Nummer finden Sie direkt in der E-mail oder haben Sie im Zuge Ihrer Firmenrecherche bereits rausgefunden.  \r\n\r\nWir haben hier für Sie einige schöne Sätze vorbereitet, die Sie für Ihren Anruf gleich verwenden können:\r\n\r\nSie geraten an die Sekretärin? Dann hinterlassen Sie eine Nachricht anstatt auf eine Weiterleitung zu bestehen. Zum Beispiel: \"Frau Klein, bitte richten Sie Herrn Schuster aus, dass ich mich sehr über die Einladung zum Vorstellungsgespräch gefreut habe. Ich werde, wie vorgeschlagen, am 22.3. um 16Uhr bei Ihnen sein.\"\r\n\r\nHaben Sie den Personalverantwortlichen oder Arbeitgeber selbst am Apparat, sagen Sie: „Herr Schuster, ich freue mich sehr über die Einladung zum Vorstellungsgespräch und werde, wie vorgeschlagen, am 22.3. um 16Uhr bei Ihnen sein.“ \r\n\r\nDer Arbeitgeber hat so gleich einen ersten persönlichen Eindruck von Ihnen erhalten und Sie als motivierten und höflichen Bewerber erlebt! \r\n\r\nWeitere Gewinne können Sie über ein professionelles Erscheinungsbild einfahren! Wie? \r\n\r\nDas erfahren Sie im nächsten Schritt!",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ziehe ich an?\r\n\r\nWer kennt das nicht? Sie sind auf einer Feier und werden einer Ihnen unbekannten Person vorgestellt. Sie wechseln ein paar Sätze und wissen schon nach den ersten Sekunden, ob Sie die Person interessant finden oder ob Sie lieber den Rückzug antreten möchten.\r\nDer berühmte erste Eindruck entsteht bereits in den ersten Augeblicken und bleibt besonders hartnäckig hängen.\r\nStellen Sie sich beispielsweise vor, jemand mit ungewaschenem, fettigen Haar, Flecken auf dem Anzug und einer Alkoholfahne kommt auf Sie zu. Er stellt sich Ihnen als ein hoch bezahlter, äußerst kompetenter Rechtsanwalt vor. Würden Sie ihm ohne zu zögern glauben? \r\nFür Sie und Ihr Gespräch bedeutet das: Ihre Fähigkeiten und Qualifikationen können noch so überragend sein: wenn Sie ungepflegt und Kaugummi kauend im Vorstellungsgespräch erscheinen, haben Sie sich eindeutig ins Aus gespielt. Der erste Eindruck spielt eine besondere Rolle, wenn es darum geht, sich überzeugend und professionell im Vorstellungsgespräch zu präsentieren. Er kann das Zünglein an der Waage sein. \r\n\r\nIm nächsten Schritt zeigen wir Ihnen, was es in Bezug auf Ihr Erscheinungsbild zu beachten gibt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "5a3e2cbe582345d588240f89f2b00a7d",
+      "title": "Sind Sie männlich oder weiblich?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "weiblich"
+          },
+          {
+            "key": 2,
+            "value": "männlich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "5a3e2cbe582345d588240f89f2b00a7d is 1"
+        },
+        {
+          "to": "n007",
+          "if": "5a3e2cbe582345d588240f89f2b00a7d is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es ist ein bisschen wie bei der Partnerwahl: das erste, was der andere von Ihnen wahrnimmt, ist Ihr äußeres Erscheinungsbild.\r\n\r\nIn den klassischen Branchen wie Versicherungen, Banken, öffentliche Verwaltung u.ä. machen Sie als Frau alles richtig, wenn Sie...\r\n\r\n...sich dezent und eher ein wenig „overdressed“ kleiden. Das bedeutet: verzichten Sie auf zu weibliche Reize, eine dezente Bluse und ein dezenter Ausschnitt entsprechen dem Anlass. Das Kostüm ist hier immer noch der Klassiker.\r\n...keine knalligen Farben tragen. Pastelltöne oder gedeckte Farben wie grau oder blau sind eher für ein Vorstellungsgespräch geeignet.\r\n...saubere Kleidung tragen. Flecken und Knitterfalten sind also Tabu.\r\n...auf Stilfehler achten: Ihre Accessoires sollten zu Ihrem Outfit passen. Die knallgelbe Handtasche zum schwarzen Kostüm ist sicher ein schöner Kontrast, zieht jedoch alle Blicke auf sich. Und da sich nicht Ihre Handtasche bewirbt, sondern Sie, sollten Sie sie lieber gegen die schwarze austauschen.\r\n...geputzte Schuhe tragen. Die Absätze sollten nicht zu hoch und außerdem geschlossen sein.\r\n...schlichten Schmuck wählen. Achten Sie darauf, dass er nicht klimpert und so Ihren Gesprächspartner irgendwann nervt. Eheringe sind auf alle Fälle erlaubt.\r\n...keine Piercings tragen-Ohrringe hingegen sind unkritisch.\r\n...kurze, gepflegte Nägel haben. Sie sollten entweder unlackiert oder in gedeckten Farben lackiert sein. Der Trend derzeit sind pastellfarbene, matte Nagellacke.\r\n...Ihre Haare gewaschen sind und Sie bestenfalls eine geschlossene Frisur tragen. Tragen Sie zudem keinen zu auffälligen Haarschmuck.\r\n...bei Schuppen ein spezielles Shampoo benutzt haben. Dies ist in der Apotheke erhältlich.\r\n...Sie frisch geduscht sind.\r\n...einen gut riechenden Atem haben. Knoblauch-, Kaffee- oder Zigarettengeruch sollten Sie mit Mundwasser bekämpfen – der Kaugummi muss im schlimmsten Fall vor den Augen des Arbeitgebers ausgespuckt werden.\r\n...ein dezentes, zu Ihrem Typ passendes Make-up, ein unaufdringliches Parfum und ein Deodorant tragen.\r\n\r\nWenn Sie sich in einer Branche bewerben, in der ein eher lockerer Dresscode herrscht wie beispielsweise die gesamte Medienbranche, die Gastronomie oder die Modebranche können Sie sich ruhig den Gepflogenheiten anpassen und z.B.\r\n\r\n...die Anzughose durch eine gepflegte Jeans ersetzen\r\n...etwas auffälligere Farben tragen\r\netc.\r\n\r\nWenn Sie an dieser Stelle unsicher sind, fragen Sie in Ihrem Bekanntenkreis jemanden, der in der entsprechenden Branche arbeitet oder rufen Sie unsere Experten an!\r\n\r\n\r\nSchauen Sie sich außerdem typische Berufsvertreter an, um zu sehen, welche Garderobe sie tragen (z.B. über die Google Bildersuche). \r\n\r\nBitte probieren Sie Ihr Outfit mindestens einmal vorher an, um zu sehen, ob es passt, nichtkneift oder drückt. So haben Sie auch noch genügend Zeit es umzutauschen oder ein anderes Outfit zu wählen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es ist ein bisschen wie bei der Partnerwahl: das erste, was der andere von Ihnen wahrnimmt, ist Ihr äußeres Erscheinungsbild.\r\n\r\nIn den klassischen Branchen wie Versicherungen, Banken, öffentliche Verwaltung u.ä. machen Sie als Mann alles richtig, wenn Sie...\r\n\r\n...sich dezent und eher ein wenig „overdressed“ kleiden. Das bedeutet: Sie tragen ein Hemd mit Krawatte, eine Anzughose, ein Sakko und schlichtes Schuhwerk.\r\n..ihr Hemd strahlend weiß ist. Verfärbte Ränder an Hemdkragen und Handgelenken sowie ein grau - oder gelbstichiges Weiß sind ein absolutes No Go!\r\n...für Ihr Sakko gedeckte Farben wählen. Grau melierte oder schlicht gemusterte Sakkos sind optimal.\r\n...ein frisch gebügeltes Hemd und eine frisch gebügelte Hose tragen. \r\n...auf wilde Muster und Comics auf Ihrer Krawatte verzichten und sie hinten unter dem Kragen sitzt.\r\n...Socken tragen, die dunkler sind als Ihr Hosenbund.\r\n...alle Piercings und Ohrringe entfernen. Erlaubt sind dagegen Ehe- und Siegelringe. Bei höheren Positionen sollten Sie zudem Manschettenknöpfe tragen.\r\n...kurze, saubere Nägel haben\r\n...frisch geduscht und rasiert sind.\r\n...Ihre Haare gewaschen und gekämmt sind.\r\n...bei Schuppen ein spezielles Shampoo benutzt haben. Dies ist in der Apotheke erhältlich.\r\n...Ihre Nasen- und Ohrenhaare gestutzt und Ihre Augenbrauen gekürzt sind.\r\n...einen gut riechenden Atem haben. Knoblauch-, Kaffee- oder Zigarettengeruch sollten Sie mit Mundwasser bekämpfen – der Kaugummi muss im schlimmsten Fall vor den Augen des Arbeitgebers ausgespuckt werden.\r\n...ein Deo verwenden.\r\n...auf Parfum verzichten. Stattdessen können Sie klassisches Rasierwasser verwenden.\r\n\r\nWenn Sie sich in einer Branche bewerben, in der ein eher lockerer Dresscode herrscht wie beispielsweise die gesamte Medienbranche, die Gastronomie oder die Modebranche können Sie sich ruhig den Gepflogenheiten anpassen und z.B.\r\n\r\n...die Anzughose durch eine gepflegte Jeans ersetzen\r\n...auf die Krawatte verzichten und den ersten Hemdknop offen tragen\r\netc.\r\n\r\nWenn Sie sich nicht sicher sind, was Sie anziehen sollen, gucken Sie sich typische Berufsvertreter an, um zu sehen, welche Garderobe sie tragen (z.B. über die Google Bildersuche).\r\nFragen Sie auch Personen in Ihrem Bekanntenkreis, die in dieser Branche arbeiten oder fragen Sie unsere Experten.\r\n\r\nBitte probieren Sie Ihr Outfit unbedingt mindestens einmal vor Ihrem Gespräch an, um zu sehen, ob es passt, nicht kneift oder drückt. So haben Sie auch noch genügend Zeit es umzutauschen oder ein anderes Outfit zu wählen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Die Checkliste für Ihr perfektes Outfit können Sie unten herunterladen!\n\nNehmen Sie sich bitte jetzt ein paar Minuten Zeit und machen Sie sich Gedanken, welches Outfit Sie zu Ihrem nächsten Vorstellungsgespräch tragen könnten. Gleichen Sie Ihre Ideen mit unserer Checkliste ab und notieren Sie sich, welche Punkte noch zu erledigen sind, bis Ihr perfektes Outfit steht.\nLos geht's!",
+      "props": {
+        "documents": [
+          {
+            "name": "Checkliste Outfit",
+            "file": "Checkliste_Outfit.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Bevor es mit dem Gespräch losgehen kann, laden Sie sich noch unsere Checkliste \"Die 24h vor dem Gespräch\" herunter und drucken Sie sie sich gleich aus, damit Sie kurz vor Ihrem Termin nochmal einen Blick darauf werfen können. So gehen Sie sicher, dass Sie an alles Wichtige auch wirklich gedacht haben!",
+      "props": {
+        "documents": [
+          {
+            "name": "Checkliste 24h vorm Gespräch",
+            "file": "Checkliste_24h_Gespraech.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gelassen ankommen\r\n\r\nAuch wenn es fast banal klingt, seien Sie pünktlich! Egal, wie gut Ihre Entschuldigung ist: wenn Sie es nicht pünktlich zum Gespräch schaffen, hinterlässt das einen negativen Beigeschmack. \r\nSeien Sie idealerweise ca. 15 Minuten vor Ihrem Gespräch anwesend – so haben Sie einen kleinen Zeitpuffer, können sich im Gebäude orientieren, sich noch kurz frisch machen und mental auf das anstehende Gespräch einstellen.\r\n\r\nWenn Sie zu der unpünktlicheren Sorte gehören, empfehlen wir Ihnen, schon 20 Minuten vor Ihrem Termin anzukommen. \r\n\r\nEs sind schon Leute vor dem Bewerbungsgespräch nach Hause geschickt worden, weil Sie zu spät kamen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "edc1af327b164b189194766eb55b8ae0",
+      "title": "Machen Sie sich vorher Gedanken, wie Sie zu Ihrem Termin kommen. Mit dem Fern - oder Nahverkehr, dem Auto, dem Fahrrad oder zu Fuß? ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Fernverkehr"
+          },
+          {
+            "key": "2",
+            "value": "Auto"
+          },
+          {
+            "key": "3",
+            "value": "Öffentlicher Nahverkehr"
+          },
+          {
+            "key": "4",
+            "value": "Fahrrad"
+          },
+          {
+            "key": "5",
+            "value": "zu Fuß"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "edc1af327b164b189194766eb55b8ae0 is '1'"
+        },
+        {
+          "to": "n013",
+          "if": "edc1af327b164b189194766eb55b8ae0 is '3'"
+        },
+        {
+          "to": "n014",
+          "if": "edc1af327b164b189194766eb55b8ae0 is '4'"
+        },
+        {
+          "to": "n015",
+          "if": "edc1af327b164b189194766eb55b8ae0 is '5'"
+        },
+        {
+          "to": "n016",
+          "if": "edc1af327b164b189194766eb55b8ae0 is '2'"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unser Tipp für alle Weitreisenden:                        \r\nWenn Sie weiter reisen müssen, fahren Sie idealerweise einen Tag vorher zu Ihrem Bestimmungsort. So sind Sie am Tag des Gesprächs ausgeruht und fit. Mobile Geräte wie Handys oder Smartphones bieten mittlerweile Applikationen an, mit denen Sie auch unterwegs Ihre Bahnverbindungen checken können.         ",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Unser Tipp:\r\nFahren Sie den Weg vorher einmal ab: Sie wissen dann schon, wie lang Ihre Anfahrt ungefähr dauern wird, wo die Haltestelle ist und wo es vielleicht zu Verzögerungen kommen kann. Wenn dafür keine Zeit ist, planen Sie genügend Puffer ein.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unsere Tipps für Fahrradfahrer:\r\n1. Fahren Sie den Weg vorher einmal ab: Sie wissen dann schon, wie lang Ihre Anfahrt ungefähr dauern wird, wo Sie Ihr Fahrrad abstellen können und wo es vielleicht zu Verzögerungen kommen kann. Wenn dafür keine Zeit ist, planen Sie genügend Puffer ein.\r\n\r\n2. Fahren Sie in gemütlichem Tempo zu Ihrem Termin, so dass Sie nicht völlig verschwitzt ankommen. Wenn Sie sonst ein schnelleres Fahrtempo an den Tag legen, planen Sie also unbedingt mehr Zeit ein!",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unser Tipp für Fußgänger:\r\nLaufen Sie den Weg vorher einmal ab. Sie wissen dann schon, wie lang Sie ungefähr brauchen und wo es vielleicht zu Verzögerungen kommen kann. Wenn dafür keine Zeit ist, planen Sie genügend Puffer ein. Im schlimmsten Fall haben Sie sich für die Strecke verschätzt, müssen zum Schluss zu Ihrem Termin hetzen und kommen völlig verschwitzt an. Ein ausreichender Zeitpuffer ist daher extrem wichtig!",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unsere Tipps für Autofahrer:\r\n1. Machen Sie sich vorher im Internet unter www.adac.de, www.googlemaps.com oder anderen Routenrechnern schlau, wie viel Ihre Fahrzeit betragen wird. Optional können Sie den Weg auch einmal vorher abfahren: Sie wissen dann auch, wo Sie parken können und wo es vielleicht zu Staus oder Verzögerungen kommen kann. Planen Sie auf jeden Fall genug Puffer ein! Prüfen Sie außerdem, ob Ihr Navigationsgerät funktioniert, falls Sie eins besitzen. \r\n\r\n2. Auch das Auto verrät viel über seine Besitzer! Markige Sprüche am Heck à la „Ich bremse auch für Kinder“ oder die Klorolle im selbstgehäkelten Püppchen lassen Rückschlüsse auf Ihre Person zu und können von zukünftigen Chefs und Kollegen skeptisch registriert werden. Parken Sie daher am besten nicht direkt vor dem Firmeneingang, sondern in der Seitenstraße nebenan.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Als zusätzlicher Tipp:\r\n\r\nPlanen Sie auch für das Finden des richtigen Zimmers entsprechend Zeit ein! Manchmal kommt es vor, dass Sie sich noch durchfragen oder über unzählige Flure und verwinkelte Höfe laufen müssen. Mindestens fünf Minuten extra sollten Sie dafür einplanen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Sollten Sie wirklich krank sein, sagen Sie Ihren Termin ab! Bei einer schweren Erkältung ist eine optimale Präsentation eh nicht drin.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Als Tipp: \r\nAuch wenn man den Job nicht bekommt, kann man sich die Kosten vom Arbeitgeber erstatten lassen. Seien Sie dabei jedoch nicht zu pingelig! Den Fahrschein für die Kurzstrecke einzureichen, entlarvt Sie schnell als überaus knausrigen Zeitgenossen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Vorbereitung und Anfahrt zum Vorstellungsgespräch\".\r\nWeiter geht's beim nächsten Mal mit den Themen Nervosität, erster Eindruck und Smalltalk.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Vorbereitung und Anfahrt zum Vorstellungsgespräch\"",
+      "text": "Als Aufgabe bis zum nächsten Coaching wählen Sie bitte 1-2 Outfits aus, die Sie bei Ihren anstehenden Bewerbungsgesprächen tragen möchten. Wenn Sie sich in unterschiedlichen Branchen bewerben, können Sie zum Beispiel ein möglichst formales und ein etwas lockeres Outfit zusammenstellen. Besorgen Sie sich alles, was Ihnen für Ihr Outfit noch fehlt und holen Sie sich auch unbedingt Feedback zu Ihren Outfits von mindestens einer Person.\nZusätzlich notieren Sie sich bitte bei Ihren alltäglichen Terminen wie pünktlich Sie sind und üben Sie pünktlich zu vereinbarten Terminen zu erscheinen. So minimieren Sie auch bei einem Vorstellungsgespräch die Gefahr, zu spät zu kommen.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

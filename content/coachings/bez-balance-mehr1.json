@@ -1,0 +1,359 @@
+{
+  "key": "bez-balance-mehr1",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Weisheit vom Hund",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Klassische Mutter",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Was ist eine Beziehung?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Beziehung ist ein Körper der gepflegt werden muss",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Welche Dinge lassen Ihren Beziehungskörper verfetten? Oder, wenn Sie sich mit dem Bild einer Pflanze wohler fühlen: Welche Handlungen lassen die Pflanze in zuviel Wasser ersaufen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Ich kenne beides - Beziehungsschiff unter Gier",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Ja zum Schmerz sagen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Übung: Kümmern Sie sich um Ihren Schmerz! Wenn das Gefühl, dass Sie sich nicht so geliebt oder unzufrieden fühlen, etwas stärker wird, greifen Sie nicht nach dem Anderen, sondern bleiben Sie bei sich!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Vertrauen Sie Ihrem Partner",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Vertrauen Sie - Sonst Schluss ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Dankbarkeit:\n\nViele Menschen vergessen, dass Sie überhaupt in einer Beziehung sind.\n\nSchreiben Sie auf, was Sie bis jetzt Schönes mit Ihrem Partner erlebt haben.",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V10.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 100
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Selbstverständlichkeiten nicht übersehen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Was Menschen häufig übersehen: * Dass der Andere sich mit Ihnen trifft. * Dass der Andere reagiert, wenn auch nicht immer gleich und nicht immer so, wie Sie es gern hätten,. * Dass es überhaupt Sex, Zärtlichkeiten gab und womöglich noch gibt.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Entscheidung anregen Strategien",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Unterschiede sind natürlich, Frage zu Sex Knutschen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Options",
+      "key": "efc46303ac164996bfdbaae8ba78dccb",
+      "title": "Wollen Sie die Strategie zu unterschiedlichen Bedürfnissen nach Intimitäten, Schmusen, Sex, etc. sehen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n019",
+          "if": "efc46303ac164996bfdbaae8ba78dccb is 1"
+        },
+        {
+          "to": "n020",
+          "if": "efc46303ac164996bfdbaae8ba78dccb is 2"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hier endet der erste Teil des Coachings: \"Ich will mehr von der Beziehung\" (oder \"Der Andere will nicht so viel wie ich\"). Weitere wichtige Punkte finden Sie im zweiten Teil dieses Coachings. Dazu gehört unter anderem der Umgang mit Komplimenten, mit Freunden und Kollegen, dem Wunsch nach mehr Aktivitäten oder der Aussage \"Ich liebe Dich.\"",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Strategie Unterschied Schmusen, Sex, etc.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceMehr_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    }
+  }
+}

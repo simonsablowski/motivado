@@ -1,0 +1,149 @@
+{
+  "key": "bez-re-strategie",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Strategie_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Wichtigkeit Kontaktsperre",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Strategie_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Kaktus-Bild",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Strategie_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Ausnahme?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Strategie_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Zeit nutzen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Strategie_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Länge Kontaktsperre",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Strategie_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Notizbuch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Strategie_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Strategie_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

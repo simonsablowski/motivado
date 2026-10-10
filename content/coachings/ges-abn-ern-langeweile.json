@@ -1,0 +1,149 @@
+{
+  "key": "ges-abn-ern-langeweile",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Essen aus Langeweile",
+      "text": "Es gibt verschiedene emotionale Zustände, in denen man zum Essen greift\n\nLangeweile gehört zu den häufigsten. \n\nNehmen Sie sich für diesen Coaching ca. 20 Minuten Zeit!",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Drei Fragen, die Sie sich stellen sollten:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2C_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "Ist mir in bestimmten Situationen langweilig?",
+            "second": 48
+          },
+          {
+            "element": "Reagiere ich immer mit Essen auf die Langeweile?",
+            "second": 51
+          },
+          {
+            "element": "Wenn ja, habe ich tatsächlich Hunger oder Appetit?",
+            "second": 60
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Physiologischer Hunger oder Appetit?",
+      "text": "Das echte, physiologische Hungergefühl kennen wir gar nicht mehr.\nIn den meisten Fällen haben wir bloß Appetit, weil wir uns angewöhnt haben in einer bestimmten Situation oder zu einer bestimmten Uhrzeit zu essen.\nDas gleiche gilt für das Essen aus Langeweile!",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2C_V2.flv",
+          "delay": 51
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2C_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Drei Strategien gegen das Essen aus Langeweile:",
+      "text": "1. Erstellen Sie sich eine Liste mit Dingen, die Sie schon immer einmal erledingen wollten.\nWird Ihnen langweilig, schnappen Sie sich die Liste und haken Sie eine Aufgabe ab.\n\n2. Erstellen Sie sich eine Wohlfühlliste mit lauter schönen Dingen, die Sie tun können, wenn Sie die Langeweile überkommt.\n\n3. Schaffen Sie sich Rituale! Ist Ihnen immer an bestimmten Tagen langweilig, dann überlegen Sie sich, was Sie an diesem Tag regelmäßig machen können. Zum Beispiel jeden Sonntag mit einer Freundin/einem Freund spazieren gehen, sich zum Kaffee verabreden, etc..",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2C_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Nie wieder Langeweile! Wir beschäftigen Sie!",
+      "text": "Laden Sie sich hier die Vorlagen für Ihre To-Do Liste und Ihre Wohlfühlliste runter.\nDrucken Sie sie aus, füllen Sie sie aus und arbeiten Sie Ihre Listen nach und nach ab, jedes Mal, wenn die Langeweile droht.",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2C_V5.flv"
+        },
+        "documents": [
+          {
+            "name": "To-Do Liste",
+            "file": "to-do-liste.pdf"
+          },
+          {
+            "name": "Wohlfühlliste",
+            "file": "wohlfuehlliste.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Hat Ihnen dieses Coaching geholfen? ",
+      "text": "Sollte Ihnen dieses Coaching nicht geholfen haben, rufen Sie uns an und vereinbaren Sie einen Termin für ein Telefoncoaching. Wir werden versuchen Ihnen alle Fragen zu beantworten",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

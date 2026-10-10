@@ -1,0 +1,451 @@
+{
+  "key": "slc-reduktion",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Tatsächliche Reduktion Einleitung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Zielzeit und Istzeit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "530411610430481799f486eab5f34122",
+      "title": "Vergleichen Sie die beiden Zahlen bzw. Zeiten miteinander und wählen Sie aus untenstehenden Möglichkeiten, die Variante \r\r\naus, die am ehesten auf Sie zutrifft.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V7.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": ">3 Stunden"
+          },
+          {
+            "key": "2",
+            "value": "1 - 3 Stunden"
+          },
+          {
+            "key": "3",
+            "value": "< 1 Stunde"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "530411610430481799f486eab5f34122 is '1'"
+        },
+        {
+          "to": "n005",
+          "if": "530411610430481799f486eab5f34122 is '2'"
+        },
+        {
+          "to": "n006",
+          "if": "530411610430481799f486eab5f34122 is '3'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Reduzieren Sie Ihre Schlafzeit um 1 h und das bitte für die nächsten 14 Tage!",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V8.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 57
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Reduzieren Sie für die nächsten 14 Tage Ihre Schlafmenge um eine ganze Stunde.",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V11.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 45
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Reduzieren Sie in den nächsten 7-14 Tagen Ihre Schlafmenge um 30 Minuten.",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V13.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 24
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte setzen Sie diese Übung ab jetzt die nächsten 14 Tage um. Schlafen Sie die nächsten 2 Wochen mit Ihrer neuen reduzierten Schlafmenge.\r\n\r\nKommen Sie dann wieder hierher zurück und setzen das Coaching fort. Viel Erfolg!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte setzen Sie diese Übung ab jetzt die nächsten 14 Tage um. Schlafen Sie die nächsten 2 Wochen mit Ihrer neuen reduzierten Schlafmenge.\r\n\r\nKommen Sie dann wieder hierher zurück und setzen das Coaching fort. Viel Erfolg!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Power Nap Intro und Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_PowerNap_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Reduzieren Sie erneut um 1 Stunde für die nächsten 14 Tage!",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V9.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 24
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Reduzieren Sie in den nächsten 14 Tagen JEDE Woche Ihre Schlafmenge um eine halbe Stunde.",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V12.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 18
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Mein Power-Nap",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_PowerNap_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Reduzieren Sie in den nächsten 14 Tage JEDE Woche um eine weitere halbe Stunde.",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V10.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 57
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Power Nap Zusammenfassung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_PowerNap_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Options",
+      "key": "e59606f05e1246d39abaa95268c4cf1c",
+      "title": "Nach 5-6 Wochen. Fühlen Sie sich nach dem Aufstehen fit, kommen Sie problemlos aus dem Bett?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V14.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "e59606f05e1246d39abaa95268c4cf1c is 1"
+        },
+        {
+          "to": "n016",
+          "if": "e59606f05e1246d39abaa95268c4cf1c is 2"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Vorfreude Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_GeheimtippVF_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Überlegen Sie sich 1-3 Dinge auf die Sie sich am nächsten Tag freuen!",
+      "props": {
+        "video": {
+          "url": "SLC_GeheimtippVF_V2.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 109
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Vorfreude Zusammenfassung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_GeheimtippVF_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Options",
+      "key": "e5caf47d600244278abab9e053a5fd23",
+      "title": "Fühlen Sie sich nach dem Aufstehen fit, kommen Sie problemlos aus dem Bett?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafRed_V14.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "e5caf47d600244278abab9e053a5fd23 is 1"
+        },
+        {
+          "to": null,
+          "if": "e5caf47d600244278abab9e053a5fd23 is 2"
+        }
+      ]
+    }
+  }
+}

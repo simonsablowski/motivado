@@ -1,0 +1,300 @@
+{
+  "key": "bez-make-up",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen zum Coaching \"Wie schminke ich mich richtig?\". ",
+      "text": "In diesem Coaching möchten wir Sie dabei unterstützen, einen Schmink-Stil zu finden, mit dem Sie sich wohlfühlen und den Ihr Partner / Ihr potenzieller Partner attraktiv findet.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "9629457593284a8c94a5f4acef58b217",
+      "title": "Was trifft eher auf Sie zu?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich schminke mich selten oder nie"
+          },
+          {
+            "key": 2,
+            "value": "Ich schminke mich regelmäßig"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "9629457593284a8c94a5f4acef58b217 is 1"
+        },
+        {
+          "to": "n004",
+          "if": "9629457593284a8c94a5f4acef58b217 is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "529f6c3ff9b349c7833bc78cd94d02e1",
+      "title": "Sie gehören zu den Menschen, die sich (fast) nie schminken. Uns interessiert, warum. Verraten Sie uns bitte, in welcher der folgenden Aussagen Sie sich am besten wiederfinden können.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "\"Ich möchte, dass (m)ein Partner mich so akzeptiert wie ich bin - auch ungeschminkt.\""
+          },
+          {
+            "key": 2,
+            "value": "\"Ich kann mich nicht gut schminken/mir gefällt das Ergebnis nicht.\""
+          },
+          {
+            "key": 3,
+            "value": "\"Ich bleibe gerne im Hintergrund. Wenn ich mich schminke, ziehe ich Blicke auf mich, die mich verunsichern.\""
+          },
+          {
+            "key": 4,
+            "value": "\"Schminken erscheint mir oberflächlich. Einen Partner sollte man aufgrund anderer Dinge auswählen.\""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "529f6c3ff9b349c7833bc78cd94d02e1 is 1"
+        },
+        {
+          "to": "n006",
+          "if": "529f6c3ff9b349c7833bc78cd94d02e1 is 2"
+        },
+        {
+          "to": "n007",
+          "if": "529f6c3ff9b349c7833bc78cd94d02e1 is 3"
+        },
+        {
+          "to": "n008",
+          "if": "529f6c3ff9b349c7833bc78cd94d02e1 is 4"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie schminken sich regelmäßig und haben sich mit dem Thema daher vermutlich schon intensiver beschäftigt. Vermutlich haben Sie Ihre Lieblingsprodukte, vielleicht haben Sie Lust mal etwas Neues auszuprobieren. Für diese Fälle haben wir im Folgenden einige Tipps und Hinweise für Sie zusammengestellt. Wie immer freuen wir uns auch über Ihr Feedback, wie Ihnen unsere Anregungen gefallen haben bzw. ob Ihnen noch ein Themenbereich fehlt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie möchten, dass Ihr Partner Sie so liebt, wie Sie sind - das ist ein verständlicher und berechtigter Wunsch. Schließlich kann kein Mensch auf Dauer eine Rolle spielen, sich für jemand Anderen verbiegen oder eben eine \"Maske\" tragen. \r\nEs bleibt aber die Frage, ob wir uns zu Beginn einer Beziehung oder auf der Partnersuche tatsächlich so verhalten, wie wir eigentlich sind. Hören wir z.B. immer noch interessiert und aufmerksam zu, obwohl unser Schwarm schon seit einer halben Stunde über ein Thema doziert, das uns eigentlich langweilt? Kaufen wir uns für die erste Verabredung wirklich nur ein neues Outfit, um uns selber zu gefallen? Hätten wir uns das Buch über Metallica wirklich zugelegt, wenn wir nicht gewusst hätten, dass unser Partner ein Fan dieser Band ist?\r\n \r\nWenn wir uns also sowieso schon in vielen Bereichen zunächst so präsentieren, dass wir dem Anderen möglichst gut gefallen, warum sollten wir dann nicht auch kleinere Hautunreinheiten mit Make-up abdecken oder unsere Augen durch Wimperntusche größer wirken lassen?\r\n\r\nKein Mann wird sich verlieben, weil eine Frau \"so schön geschminkt\" war und kein Mann wird sich nicht in eine Frau verlieben, nur weil Sie sich nicht schminkt war.\r\n\r\nDennoch: wenn Sie sich für einen Mann schminken, geben Sie ihm das Gefühl, dass er es Ihnen wert ist, Aufwand zu betreiben, dass seine Gegenwart für Sie etwas Besonderes ist und dass Sie ihm gefallen möchten. Das wird ihn freuen. Und Sie dürfen sich dann über seine Komplimente freuen. \r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Auch Schminken will gelernt sein. Daher haben wir für Sie nützliche Tipps und Hinweise zum Thema \"Schminken\" zusammengestellt.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine alte Weisheit besagt: Wenn man sein gewohntes Verhalten ändert, ergeben sich im Leben neue Möglichkeiten. Insofern lohnt es sich immer mal etwas Neues auszuprobieren.\r\nDaher möchten wir Sie dazu ermutigen es mal mit einem (etwas stärkeren) Make-up zu probieren. Jede Veränderung kostest natürlich erstmal Überwindung und vielleicht werden Sie sich zunächst beobachtet und eher unwohl fühlen. Vielleicht tritt aber nach einer Weile auch der Effekt ein, dass Sie die neue Aufmerksamkeit schmeichelnd finden. Wenn Sie jemand etwas länger anschaut, ist das ein Kompliment: Genießen Sie es!",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sind in einer Beziehung nicht ganz andere Dinge wichtig als die Optik? Geht es nicht vielmehr um gemeinsame Werte, emotionale Zuneigung und ähnliche Zukunftsträume?\r\nJa, da geben wir Ihnen recht und ja:\r\nKein Mann wird sich in Sie verlieben, weil Sie \"so schön geschminkt\" waren, und kein Mann wird sich nicht in Sie verlieben, nur weil Sie nicht geschminkt waren.\r\n\r\nDennoch: Jede Art von Aufwand, den Sie betreiben, um jemand Anderem zu gefallen, zeigt der Person, dass sie für Sie wichtig ist, dass Sie ihm oder ihr gefalllen möchten und dass Sie sich wünschen ihr/ihm auch zu gefallen. Ein schönes Make-up ist also vergleichbar mit dem Buch, das Sie lesen, weil es dem Anderen gefällt, oder mit Ihrem Interesse an den Freunden und der Familie des Anderen.\r\nDiese Aufmerksamkeit wird die Person freuen. Und Sie dürfen sich dann über die netten Komplimente freuen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "e3f2415c4edf47f6b4932948436537ed",
+      "title": "Wie möchten Sie weitermachen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Tipps anschauen"
+          },
+          {
+            "key": 2,
+            "value": "Direkt zum nächsten Coaching gehen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "e3f2415c4edf47f6b4932948436537ed is 1"
+        },
+        {
+          "to": null,
+          "if": "e3f2415c4edf47f6b4932948436537ed is 2"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zuächst lohnt es sich immer, sich eine professionelle Meinung zu Ihrem Hauttyp und Ihrer Gesichtsform einzuholen. Hierzu wenden Sie sich im Idealfall an eine Kosmetikerin, die Sie auch dazu berät, welche Produkte für Sie besonders geeignet sind und welche Farben Ihnen besonders gut stehen. Alternativ können Sie sich auch in Parfümerien oder in der Kosmetikabteilung von großen Kaufhäusern beraten lassen. Hier kann man sich beispielsweise oft gratis zur Probe schminken lassen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die richtige Pflege\r\n\r\nBeachten Sie bitte, dass sich mit einem Make-up auch der Pflegeaufwand für Ihre Haut erhöht. Grundsätzlich gilt:\r\n* Waschen Sie sich vor jedem Schminken gründlich das Gesicht mit einer Waschcreme (Wasser alleine reicht hier nicht aus)\r\n* Schminken Sie sich vor dem Schlafengehen stets gründlich ab, sonst entstehen grade bei empfindlicher Haut schnell kleine Pickel und Ihre Haut wirkt ungepflegt\r\n* Benutzen Sie regelmäßig eine Tagescreme, die zu Ihrem Hauttyp passt, um der Haut genug Feuchtigkeit zuzuführen",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unterscheidung Tages- oder Abend-Make-up\r\n\r\nUnterscheiden Sie bitte bei der Farbwahl und der Stärke Ihres Make-ups, ob Sie es tagsüber oder abends auftragen:\r\nTagsüber sollten Sie eher dezentere Farben wählen und Ihre natürlichen Vorzüge betonen. \r\nAbends können Sie ruhig kräftigere Farben auswählen und stärkere Akzente setzen.\r\nHierbei gilt: dunklere Töne lassen Dinge verschwinden (so kann Ihr Gesicht durch die richtige Akzentuierung schmaler wirken) und helle Töne betonen (z.B. hebt ein heller Lippenstift Ihre vollen Lippen hervor).\r\nAuch abends sollten Sie aber darauf achten, nur entweder im oberen ODER im unteren Gesichtsbereich stark geschminkt zu sein. Ansonsten wirken Sie schnell \"überschminkt\". Wenn Sie also einen dunkelroten Lippenstift tragen, benutzen Sie für Ihre Augen dezente Farben. Wenn Sie dagegen Ihre Augen durch einen starken Lidstrich betonen, verzichten Sie lieber auf einen knalligen Lippenstift.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Augenbrauen: Kleine Veränderung mit großer Wirkung\r\n\r\nErstaunlicherweise kann die Wuchsrichtung und Ausprägung der Augenbrauen eine enorme Wirkung auf den Ausdruck Ihres Gesichtes haben:\r\nViele oder recht breit gewachsene Brauen sowie solche, die über der Nase zusammenwachsen, können dem Gesicht einen strengen oder ernsten Ausdruck geben. Sehr wenige oder schmale Brauen dagegen wirken meist eher kühl und geben dem Gesicht eine gewisse Härte.\r\nDurch kleine Anpassungen können Sie hier große Veränderungen erzielen. \r\nDamit das Zupfen der Brauen möglichst schmerzfrei verläuft, spannen Sie die Haut mit Ihren Finger und ziehen die Haare dann (stets in der Wuchsrichtung) mit einer Pinzette heraus.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hier ein kleiner Überblick über die Bereiche beim Schminken und worauf Sie dabei achten sollten:\r\n\r\nMake Up/Grundierung\r\n* Bevor Sie ein flüssiges Make Up auftragen, benutzen Sie eine Tagescreme als Grundlage. So verteilt sich das Make Up gleichmäßiger\r\n* Lassen Sie das Make-up am Hals und am Haaransatz unaufällig auslaufen, damit der Kontrast zu Ihrer natürlichen Hautfarbe nicht zu groß ist\r\n* Damit Ihr Make Up länger hält, benutzen Sie zur Fixierung ein Puder in demselben Farbton\r\n* Als Alternative zu einem kompletten Gesichts-Make Up können Sie einzelne Stellen (z.B. Pickel oder Feuermale) auch mit einem Abdeckstift kaschieren\r\n\r\nAugen\r\n* Da die Wimpernspitzen oft heller sind als der Rest der Wimpern, wirken die Wimpern insgesamt länger, wenn Sie Wimperntusche auftragen\r\n* Die Wimpern sollten nicht aneinanderkleben: Um herauszufinden, welche Wimperntusche bei Ihnen am besten aussieht, probieren Sie verschiedene Typen und Marken in einer Parfümerie aus\r\n* Neben Mascara können Sie einen Lidstrich auftragen oder Lidschatten benutzen\r\n\r\nLippen\r\n* Ob Lippenstift, Lipgloss oder reine Feuchtigkeitspflege: die Betonung dieses Bereiches erhöht Ihre sinnliche Ausstrahlung\r\n\r\nWangen \r\n* Rouge gibt Ihrem Gesicht eine rosigen, gesunden Teint\r\n* Achten Sie hier bitte darauf, das Rouge dezent aufzutragen, sonst wirkt das Gesicht schnell zu \"bunt\"\r\n* Falls Sie grade kein Rouge zur Hand haben, tut es auch ein roter Lippenstift: Tragen Sie dazu ein bisschen Lippenstift auf Ihren Finger auf und verteilen Sie die Farbe gleichmäßig auf Ihren Wangen",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie immer gilt auch beim Schminken: Feedback ist Gold wert!\r\nWenn Sie sich unsicher sind, welche Art des Make Ups den Menschen gefällt, die Sie für sich gewinnen möchten, fragen Sie z.B. deren Partner oder Freunde danach.\r\nHolen Sie sich zu Ihrem Make Up dann unbedingt Feedback von Leuten ein, die sich in diesem Gebiet auskennen oder die Ihnen wichtig sind. Weniger gut geeignet sind hier Eltern oder sehr enge Freunde, für die Sie natürlich sowieso immer super aussehen. Fragen Sie stattdessen eher jemanden, von dem Sie ein realistsiches und ehrliches Feedback erwarten können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Dann kann es jetzt losgehen!\r\nLassen Sie sich beraten, kaufen Sie sich entsprechend Produkte und entwerfen Sie dann für sich ihr individuelles \r\n\r\n1. Weggeh-Make Up\r\n2. Arbeits-Make Up und\r\n3. Freizeit-Make Up\r\n\r\nWir wünschen Ihnen viel Spaß dabei und viele Komplimente zu Ihrem neuen Look! Wenn Sie Anregungen oder Fragen zu diesem Coaching haben, klicken Sie auf Feedback oder kontaktieren Sie uns per Email oder Telefon. Unsere Kontaktdaten finden Sie unter \"Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Options",
+      "key": "37969380545f4575bfa28c3d169e8654",
+      "title": "Das war das Coaching \"Wie schminke ich mich richtig?\". Viel Erfolg bei den folgenden Coachings oder bis zum nächsten Mal!",
+      "text": "",
+      "props": {
+        "options": []
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

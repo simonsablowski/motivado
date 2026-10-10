@@ -1,0 +1,795 @@
+{
+  "key": "bez-od-telefon",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro und Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Gutes Gespräch vorstellen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Der Einstieg in ein Gespräch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Timing",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Wenn es nicht passt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Smalltalk",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Komplimente",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Aufmerksam zuhören",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Gemeinsamkeiten und Unterschiede",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Indirekte Gemeinsamkeiten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Ähnlichkeiten im Sprachstil",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Erklärung Sprachübung Speed",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Erste Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V20_1A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Erste Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V20_1B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Zweiter Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V20_2A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Zweite Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V20_2B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Dritte Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V20_3A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Dritte Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V20_3B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Vierte Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V20_5A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Vierte Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V20_5B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Zusammenfassung Sprachübung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "Zweite Sprachübung Wording",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Erklärung Sprachübung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Erste Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_1A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Video",
+      "key": null,
+      "title": "Erste Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_1B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Video",
+      "key": null,
+      "title": "Zweite Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_2A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Video",
+      "key": null,
+      "title": "Zweite Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_2B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Video",
+      "key": null,
+      "title": "Dritte Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_3A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Video",
+      "key": null,
+      "title": "Dritte Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_3B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Video",
+      "key": null,
+      "title": "Vierte Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_4A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Video",
+      "key": null,
+      "title": "Vierte Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_4B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Video",
+      "key": null,
+      "title": "Fünfte Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_5A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Video",
+      "key": null,
+      "title": "Fünfte Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_5B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Video",
+      "key": null,
+      "title": "Sechste Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_6A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Video",
+      "key": null,
+      "title": "Sechste Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_6B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Video",
+      "key": null,
+      "title": "Siebte Vorgabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_7A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Video",
+      "key": null,
+      "title": "Siebte Musterantwort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V24_7B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Video",
+      "key": null,
+      "title": "Zusammenfassung Sprachübung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Video",
+      "key": null,
+      "title": "Schwierige Momente im Gespräch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Video",
+      "key": null,
+      "title": "Übung (Themen und Fragen)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Video",
+      "key": null,
+      "title": "Bremsen des Anderen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "Video",
+      "key": null,
+      "title": "Frech sein",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n043"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "Video",
+      "key": null,
+      "title": "Guter Abschluss",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V30.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n044"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "Video",
+      "key": null,
+      "title": "Mann oder Frau aktiv?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n045"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "Video",
+      "key": null,
+      "title": "Leichtigkeit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V33.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Video",
+      "key": null,
+      "title": "Abschluss",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V34.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

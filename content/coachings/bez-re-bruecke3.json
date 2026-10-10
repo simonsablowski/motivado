@@ -1,0 +1,26 @@
+{
+  "key": "bez-re-bruecke3",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bitte beachten Sie noch einmal unsere Empfehlung:\r\n\r\nSie sollten mindestens eine zweiwöchige Kontaktsperre eingehalten haben, in der Sie sich mit unseren Basis-Coachings und dem Liebeskummer-Coaching beschäftigen können.\r\nWenn Sie das geschafft haben, können Sie langsam wieder die ersten Schritte auf Ihren Partner zumachen.\r\nDazu sollten Sie sich jede Woche ein Coaching aussuchen, dass Sie intensiv (und mehrmals) bearbeiten. Wichtig ist vor allem, dass Sie die Übungen auch im Alltag anwenden und vertiefen.\r\nWenn Sie das Gefühl haben, dass unsere vorgeschlagene Reihenfolge nicht zu Ihrer Situation passt, wählen Sie einfach bequem Ihr Wochenthema aus unserer Übersicht aus.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

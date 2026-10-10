@@ -1,0 +1,52 @@
+{
+  "key": "bez-kleidung",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auch wenn Geschmäcker sehr unterschiedlich sind, manche Dinge sollte man nicht tun und andere sind sehr empfehlenswert.\n\nWillkommen im Coaching \"Kleidung\"\n\nWie immer brauchen Sie etwas zu schreiben, Ihren Terminkalender und eine Kamera.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie immer wollen wir zunächst wissen, ob es nicht dieser Punkt ist, an dem Sie bisher scheiterten. Dazu gehört, dass Ihnen 3 Leute bestätigen, dass Sie einen guten Style haben. Außerdem ist ein Zeichen dafür, dass Sie hier richtig sind, dass Sie eventuell das eine oder andere Kompliment bekommen haben von Leuten, die für Sie potentielle Partner sind, bzw. diesen ähnlich sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bevor Sie mit diesem  Coaching fortfahren, lassen Sie sich Ihren Termin für das Telefoncoaching geben, das in Ihrem Paket enthalten ist. Gemeinsam mit dem Coach besprechen Sie Ihre individuelle Situation und planen die nächsten Schritte. \r\nSie erreichen uns unter contact@simsab.net.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

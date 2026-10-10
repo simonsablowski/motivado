@@ -1,0 +1,234 @@
+{
+  "key": "bez-lk-4",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen im vierten Liebeskummer-Coaching! \r\n\r\nWie fühlen Sie sich, wenn wir Ihnen sagen: \"'Ihr Liebeskummer wird vorbeigehen!\"? \r\nVielleicht sind Sie genervt, verärgert oder gereizt. Schließlich bringt Ihnen das jetzt erstmal gar nichts. Vielleicht denken Sie: \"Sie haben leicht reden. Sie wissen ja nicht, wie es mir geht.\" \r\n\r\nAll diese Reaktionen sind verständlich. \r\nDer Schmerz ist manchmal so groß, dass man sich gar nicht vorstellen kann, dass es auch wieder besser wird. \r\nUnd schließlich kann kein Mensch \"wirklich\" wissen, wie Sie sich grade fühlen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie uns trotzdem noch einmal ganz bewusst machen, dass Sie selber einen sehr großen Einfluss auf Ihre Gefühle haben. Auch wenn es sich nicht so anfühlt: Sie sind Ihren Gefühlen nicht hilflos ausgesetzt. Sie können aktiv gegensteuern, indem Sie sich bewegen, Ihre Gedanken lenken, sich Unterstützung holen und vieles mehr. So kommen Sie zwar nicht drumherum, dass es schwer ist, aber Sie beschleunigen Ihren Heilunsprozess! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Deshalb: auch wenn es sich komisch anfühlt oder Sie selber nicht so recht daran glauben: Sammeln Sie jetzt noch einmal alle Energie und sagen Sie  laut: Es wird mir wieder bessergehen!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Haben Sie den Satz ausgesprochen? Sehr schön! Lassen Sie es uns gleich nochmal probieren! Um den Effekt zu unterstützen, schreiben Sie den Satz dieses Mal zusätzlich auf ein Blatt Papier, das Sie dann jederzeit betrachten können: Es wird mir wieder bessergehen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie uns nun wieder ein Übung machen! Dazu suchen Sie sich gleich bitte einen bequemen Ort und schließen die Augen. Stellen Sie sich vor, dass einige Zeit ins Land gezogen ist und Sie Ihren Liebeskummer überwunden haben. Sie fühlen sich wohl und sind stolz auf sich. Nun lassen Sie Ihrer Fantasie freien Lauf: Wo sind Sie? Wer ist bei Ihnen? Was tun Sie? Wenn Ihnen ein negativer Gedanke einschießt, z.B. die Vorstellung, dass es Ihnen auch zu diesem Zeitpunkt kein bisschen besser gehen wird, lassen Sie sich nicht aus der Ruhe bringen. Lassen Sie den Gedanken kommen und gehen und konzentrieren Sie sich dann wieder auf positive Gedanken, z.B.:\r\n\r\n- ich werde noch viele spannende Erfahrungen in meinem Leben machen\r\n- jede Veränderung bringt auch Gutes mit sich\r\n- wenn ich eine Tür schließe, öffnen sich automatisch andere Türen\r\n- ich bin ein liebenswerter Mensch\r\n\r\nBitte nehmen Sie sich jetzt 10 Minuten Zeit und gehen Sie auf diese kleine Fantasiereise!",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Haben Sie die Übung gemacht? Auch hier gilt: Je öfter Sie die Übung durchführen, desto mehr gewöhnt sich Ihr Gehirn an den Gedanken eines guten Ausgangs und desto besser werden Sie sich fühlen. Führen Sie die Übung also möglichst oft durch. Vielleicht wäre kurz vorm Schlafengehen ein guter Zeitpunkt, um die Übung in Ihren Alltag zu integrieren?",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Super. Dann kommen wir jetzt nochmal auf Ihren Aktivitätenplan zurück. Eine solche Strukturierung Ihres Alltags kommt Ihnen vielleicht etwas künstlich oder übertrieben vor. Genau das kann Ihnen aber derzeit viel Aufschwung geben!  ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es geht Ihnen schlecht und da würden Sie sich manchmal bestimmt gerne einfach die Bettdecke über den Kopf ziehen anstatt raus zu gehen und aktiv am Leben teilzunehmen. Das ist normal und verständlich. Das Problem ist nur: je länger Sie liegenbleiben, je mehr Zeit Sie alleine verbringen, desto mehr grübeln Sie über Ihre Situation nach. Zusätzlich fehlen Ihnen die Glückshormone, die durch Tageslicht, Bewegung, Kontakte mit anderen etc. ausgeschüttet werden. Insgesamt verschlechtern Sie dadurch also Ihren Zustand.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Deshalb ist es so wichtig einen Plan zu haben: er hilft, sich in solchen Momenten aufzuraffen. Besonders gut ist es Verabredungen mit anderen einzuplanen. Schließlich ist die Überwindung viel größer einem guten Freund abzusagen als auf einen Spaziergang zu verzichten, den man alleine machen wollte. Wenn Sie also merken, dass Sie Ihre guten Vorsätze öfter doch nicht einhalten, tricksen Sie sich selber ein bisschen aus und nehmen Sie sich Dinge vor, die nicht so leicht abzusagen sind. Wenn Sie z.B. schon Geld für eine Konzertkarte ausgegeben haben, überlegen Sie es sich bestimmt zweimal, ob Sie das Konzert sausen lassen wollen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie Schwierigkeiten haben, Ihren Plan einzuhalten, holen Sie sich Unterstützung von Ihren Freunden oder der Familie. Treffen Sie sich, planen Sie den Plan mit einer vertrauten Person zusammen, lassen Sie sich an Ihren Plan erinnern. Was immer Ihnen hilft, probieren Sie es aus! Die Menschen, die Sie mögen sind jetzt besonders wichtig für Sie. Nutzen Sie die Möglichkeit hier aufzutanken. Viele Menschen sorgen sich, den Anderen zur Last zu fallen: vertrauen Sie hier bitte darauf, dass Ihr Gegenüber Ihnen signalisieren wird, wenn Sie zuviel von ihm/ihr fordern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn der Liebeskummer schon eine Weile andauert, macht man sich auch manchmal Sorgen, die anderen mit den eigenen Sorgen zu belasten oder zu nerven. Um dies zu umgehen, ist es hilfreich, Ihre engsten Vertrauten darauf vorzubereiten, dass es Ihnen noch eine Weile schlecht gehen kann. Wenn Sie dieses Gespräch suchen, sollten Sie möglichst offen und ehrlich sein.  So kann Ihnen Ihr Umfeld viel mehr Unterstützung und Verständnis entgegenbringen. \r\n\r\nDamit Sie eine genauere Vorstellung bekommen, wie so ein Gespräch aussehen könnte, haben wir hier zwei Beispieltexte für Sie formuliert.\r\n\r\nEhrlich und offen kommunizieren:\r\n\r\n„Hallo Tom, mir geht es leider grade gar nicht gut. Ich hätte selber nicht gedacht, dass mir das so den Boden unter den Füßen wegzieht, aber seit Nina Schluss gemacht hat, weiß ich gar nicht mehr so richtig, wohin mit mir. Du bist jemand, der mich gut kennt und dem ich vertraue, und deshalb wäre es schön, wenn ich mich an Dich wenden könnte, wenn mal wieder gar nichts mehr geht.“\r\n\r\nDen Anderen vorbereiten:\r\n\r\n„Ich fürchte, die nächste Zeit wird ganz schön hart für mich sein. Ich wollte Dich daher jetzt schon mal vorwarnen. Ich werde bestimmt öfters über die gleichen Dinge reden wollen und mich im Kreis drehen. Vielleicht kann ich auch nicht gleich alles annehmen, was Du mir rätst. Vielleicht brauch ich auch manchmal gar keine Tipps oder Ratschläge, sondern einfach jemanden, mit dem ich sprechen kann. Ich hoffe, das ist ok für Dich. Ich bin einfach im Moment ganz schön fertig und brauche Dich als meinen Freund. Wenn es Dir mal so schlecht gehen sollte, bin ich natürlich auch für Dich da!“",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was sollten Sie in dieser Phase auf keinen Fall tun?\r\n\r\nGrundsätzlich sollten Sie alles vermeiden, was sich nach blindem Aktionismus anfühlt. \r\nDerzeit beherrschen Ihre Gefühle Ihre Wahrnehmung, Ihr Verstand ist dagegen eher im Stand-By-Modus. Das ist keine gute Grundlage, um Entscheidungen zu treffen. Folgende Dinge sollten Sie vermeiden:\r\n\r\n•\tWeitreichende Entscheidungen treffen wie Umzug, den Job kündigen etc.\r\n•\tÜbermäßiger Drogenkonsum (Alkohol, Beruhigungsmittel)\r\n•\tIn Gedanken ständig in vergangenem Glück schwelgen (stattdessen: Ablenken)\r\n•\tRachepläne schmieden\r\n•\tDen anderen mit Anrufen etc. terrorisieren\r\n•\tSich isolieren\r\n•\tSehr viel Zeit alleine und zu Hause verbringen",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bevor wir zum Abschluss dieses Coachings noch einmal unsere Atemübung durchführen, sehen Sie hier nochmal alle wichtigen Punkte, mit denen Sie Ihr Wohlbefinden steigern können:\r\n\r\n•\tDen Schmerz rauslassen (weinen, Tagebuch schreiben etc.)\r\n•\tSich etwas schönes gönnen (siehe Ihre Aktivitätenliste)\r\n•\tUnterstützung von Freunden und Familie organisieren (sich verabreden, telefonieren etc.)\r\n•\tSich aktiv bewegen (Sport machen, ein Spaziergang etc.)\r\n•\tAn die frische Luft gehen (jeden Tag mindestens eine halbe Stunde)\r\n•\tEtwas Neues ausprobieren (ein neues Hobby suchen etc.)\r\n•\tIhre Liste, was Sie und andere an sich mögen, erweitern\r\n•\tUnsere Atemübung durchführen oder ein Entspannungsverfahren erlernen/einsetzen\r\n•\tIhre negativen Gedanken aktiv durch positive ersetzen",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auch wenn es Ihnen schwer fällt, versuchen Sie immer wieder wenigstens einen dieser Punkte pro Tag durchzuführen. Bleiben Sie außerdem in jedem Fall in Ihrer gewohnten Routine! Gehen Sie zur Arbeit, zu Ihren wöchentlichen Hobbys usw.. Isolieren Sie sich nicht und pflegen Sie Ihre sozialen Kontakte! Und machen Sie sich immer wieder bewusst, dass es Ihnen in Zukunft wieder besser gehen wird! Wir wünschen Ihnen viel Erfolg bei der Umsetzung!",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zum Abschluss möchten wir noch einmal unsere Atemübung mit Ihnen üben:\r\nBitte nehmen Sie sich jetzt ca. 10-15 Minuten Zeit und sorgen Sie dafür, dass Sie in dieser Zeit nicht gestört werden. Nehmen Sie eine bequeme Haltung im Sitzen oder liegen ein. Dann erspüren Sie bitte, wo im Körper Sie Ihren Kummer am besten spüren können. Oft ist das im Bauch- oder Brustbereich. Es kann aber auch eine andere Stelle Ihres Körpers sein. Nun legen Sie auf  eben diese Stelle Ihre Hand und atmen Sie ruhig und regelmäßig ein und aus. Stellen Sie sich dabei vor, Ihr Atem fließt genau an die schmerzhafte Stelle und bringt einen lösenden Vorgang ins Rollen. Z.B. können Sie sich vorstellen, dass warmes Licht in Ihre „Wunde“ strömt, während Sie einatmen. Beim Ausatmen verlässt Ihr Kummer dann wie grauer Staub durch Ihren Mund Ihren Körper. Gehen Sie bitte jetzt in Ihre bequeme Position und machen Sie die Übung 10 Minuten lang. Dann drücken Sie bitte auf weiter.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Haben Sie die Übung gemacht? Wie ist es Ihnen dabei ergangen? Es kann sein, dass Sie diese Übung erst ein paar Mal üben müssen, bevor Sie einen Effekt spüren. Machen Sie sie deshalb ab jetzt einmal täglich.\r\nSie können sie nun regelmäßig einsetzen, um eine kurze Verschnaufpause von Ihren Sorgen zu haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nun haben Sie bereits vier Liebeskummer-Coachings bearbeitet. Seien Sie stolz aus sich! Dass Sie aktiv an Ihrem Kummer arbeiten, ist keine Selbstverständlichkeit. \r\nAuch wenn sich der Schmerz nicht ganz vermeiden lässt, hoffen wir Ihnen hilfreiche Tipps mit auf den Weg gegeben zu haben. Nutzen Sie unbedingt unseren E-Mail-Service, um sich weiter von uns betreuen zu lassen!\r\n\r\nBevor wir dieses Coaching abschließen möchten wir Ihnen noch folgenden Gedanken mit auf den Weg geben:\r\n\r\nIn wenigen Momenten Ihres Lebens haben Sie so geballte emotionale Schmerzen wie in einer Phase von Liebeskummer. Aus der Sicht eines Coaches ist das vor allem ein riesiger Haufen ungerichteter negativer Energie. Was die Menschen, besser: was Sie daraus machen, ist nur leider meist selbst-schädigend. Sie empfinden die Trauer, den Druck, die Verzweiflung. \r\nVergessen Sie aber bitte darüber nicht, dass Sie gleichzeitig genau jetzt in einem ganz anderen Maße fähig und motiviert, Dinge zu ändern und zu verbessern. \r\nNutzen Sie diese Chance und packen Sie es an!\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

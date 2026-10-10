@@ -1,0 +1,354 @@
+{
+  "key": "bez-rapid-left",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Rohes Ei",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Omas Freiheit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Zeichen Lücke und Nähe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Nicht schwach werden und Lücke füllen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Mangelndes Selbstbewusstsein",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Zuhören auf Abstandswünsche",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Friss oder Stirb",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Erwartungen geschickt ansprechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Schwester im Park ist zuviel",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Beschäftigen Sie Ihren Partner vielfältig",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Wenige Geschenke ohne Erwartungen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Unausgeglichenheit bei Intimitäten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Schnell aus Down-Momenten kommen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "No Go I love you / early sex",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Abschließend möchten wir Ihnen noch einige Punkte mit auf den Weg geben:\r\n\r\n* Wenn man schon öfter die Erfahrung gemacht hat, dass der Andere schnell geht, verstärkt das die Sorge, dass das auch beim nächsten Mal passieren wird. Das ist zwar verständlich, macht aber leider alles noch komplizierter. Gerade wenn einer sich wesentlich unsicherer in der Beziehung fühlt als der Andere, kann das zu Spannungen führen, die die Beziehung schwächen. Falls dieser Punkt also auf Sie zutrifft: umso besser, dass Sie jetzt hier sind und unser Beziehungscoaching machen. Gemeinsam werden wir Ihr 'Beziehungs-Selbstbewusstsein' wieder auf Vordermann bringen.\r\n\r\n* Wenn Sie dazu neigen, sehr schnell und intensiv in eine Beziehung einzusteigen, bedenken Sie bitte folgendes: dadurch verlegen Sie wichtige Fragen und Entscheidungen in eine Phase, in der sich Ihre Beziehung noch nicht festigen konnte. Wenn Ihr Partner zu so einem frühen Zeitpunkt z.B. feststellt, dass sie sehr unterschiedliche Erwartungen haben, wird er sich schnell zurückziehen. Wäre diese Frage erst nach ein paar Monaten aufgetaucht, wäre die Motivation größer gewesen, gemeinsam an einer Lösung zu arbeiten. \r\n\r\n* Auch wenn man sich am Anfang einer Beziehung stets von seiner Schokoladenseite zeigen möchten: bleiben Sie Sie selbst! Wenn Sie sich beim Kennenlernen übertrieben positiv dargestellen, kann auch das zum vorzeitigen Ende führen, da Sie ein falsches Bild von sich zeichnen, das Sie dauerhaft nicht durchhalten können. Daher sprechen Sie ruhig schon in der Phase des Kennenlernens vorsichtig Punkte an, die an Ihnen nicht perfekt sind (so wie kein Mensch perfekt ist).",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Natürlich gibt es noch weitere Ansätze. Vielleicht stoßen Sie selbst ja anhand unserer Ausführungen auf den ein oder anderen Punkt. Geben Sie uns dazu gerne Feedback, wir freuen uns über Ihre Anregungen! ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "Um den Effekt dieses Coachings zu steigern, führen Sie bitte die folgenden Übungen durch, die wir auf den nächsten Seiten noch einmal detailliert erläutern:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapidLeft_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sprechen Sie mit 3 guten Freunden darüber, was diese dazu denken. Welche Punkte könnten Ihre Expartner aufgeregt haben? Womit haben Sie sich eventuell ins Aus geschossen? Wichtig ist, diese Freunde sollten das gleiche Geschlecht wie Ihre Expartner haben! Wir wollen schließlich die Wahrheit herausfinden. Ansonsten können Sie sich auch gern an unsere Experten (contact@simsab.net) wenden, um die Muster zu finden, die andere Partner abschrecken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "List",
+      "key": "rel_feedback_past",
+      "title": "Von welchen drei Freunden möchten Sie sich Feedback einholen? Bitte notieren Sie ihre Namen hier!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Manchmal ist es wichtig, die gute Laune zu bewahren, auch wenn Sie vom Verhalten des Anderen enttäuscht sind. Wenn Ihr (potenzieller) Partner z.B. etwas länger braucht, um seine Gefühle auszudrücken, hilft es nichts Ihre Enttäuschung darüber auszudrücken. Dadurch schlagen Sie ihn oder sie eher in die Flucht und er wird sich noch mehr verschließen.\r\nDamit Sie auch bei kleineren Rückschlägen die gute Laune behalten können, überlegen Sie sich bitte jetzt an wen oder was Sie denken können, wenn etwas Kleines schlecht läuft. \r\nDas kann ein geliebter Mensch sein oder eine lustige Situation, die Sie immer wieder zum schmunzeln bringt. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "TextInput",
+      "key": "rel_keep_the_spirit",
+      "title": "Notieren Sie bitte jetzt, woran Sie denken möchten, wenn etwas schiefläuft und probieren Sie es gleich bei der nächsten Gelegenheit aus!",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1296 @@
+{
+  "key": "kar-initiativ",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "a7290efa1b174583abe5ce478e4eb6dc",
+      "title": "Willkommen im Coaching! Sie haben jetzt die Möglichkeit selbst das Thema mit dem sie fortfahren wollen zu wählen. Da die Coachings thematisch aufeinander aufgebaut sind, empfehlen wir Ihnen die Coachings von oben nach unten zu durchlaufen.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Initiativbewerbung und andere Alternativen"
+          },
+          {
+            "key": "2",
+            "value": "Kontakte nutzen"
+          },
+          {
+            "key": "3",
+            "value": "Die Initiativbewerbung"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "a7290efa1b174583abe5ce478e4eb6dc is '2'"
+        },
+        {
+          "to": "n003",
+          "if": "a7290efa1b174583abe5ce478e4eb6dc is '3'"
+        },
+        {
+          "to": "n004",
+          "if": "a7290efa1b174583abe5ce478e4eb6dc is '1'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nun geht es darum, mit Leuten in Kontakt zu kommen, die Ihnen Hinweise, Tipps oder Informationen zu Jobs geben können. Z.B. könnten Ihre Kontakte Ihnen sagen, welche Firmen derzeit suchen oder einen Kontakt zu einem Personaler herstellen. \r\nJe mehr Kontakte Sie haben, desto höher die Wahrscheinlichkeit, dass Sie interessante Informationen erhalten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Initiativbewerbung\r\n\r\nExperten gehen davon aus, dass ca. 20-30% aller Stellen über eine Initiativbewerbung vergeben werden. Lassen Sie sich also diese Chance auf einen neuen Job nicht entgehen und verschaffen Sie sich so Vorsprung vor anderen Bewerbern! Häufig existieren nämlich bereits Pläne für Neueinstellungen in den Köpfen der Personalverantwortlichen, bevor die Stellen ausgeschrieben werden.\r\n\r\nSie demonstrieren außerdem Engagement und zeigen, dass Sie motiviert sind. Ein weiterer entscheidender Vorteil ist: Sie können Ihre Qualitäten in den Vordergrund rücken und müssen nicht Rücksicht auf die Anforderungen einer Stellenanzeige nehmen. Gegebenenfalls behält man sogar Ihre Unterlagen, bis eine entsprechende Stelle frei wird.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen im Coaching \"Initiativbewerbung und andere Alternativen\"\r\n\r\nDie folgenden Inhalte erwarten Sie nun:\r\n\r\n- Sich erfolgreich online bewerben\r\n- Kontakte richtig nutzen\r\n- Die Initiativbewerbung\r\n\r\nViel Erfolg!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Weshalb ist die Kommunikation mit Kontakten (Netzwerken) von so großer Bedeutung?\r\n\r\n1. Die meisten Jobs werden über den so genannten „verdeckten Stellenmarkt“ besetzt, über die Sie erst durch entsprechende Kontakte erfahren. Daher ist Netzwerken eine wichtige Möglichkeit, eine neue Tätigkeit zu finden.\r\n\r\n2. Sie verbreiten Ihre Botschaft. Je mehr Menschen wissen, dass Sie eine Stelle suchen und qualifiziert sind, desto größer ist die Chance, dass Ihre Botschaft auf die richtigen Ohren trifft. Wenn Sie zudem häufiger über Ihre beruflichen Ziele sprechen, bringen Sie sich selber in einen Zustand, indem Sie ausstrahlen, dass Sie wissen, was Sie wollen. Sprechen Sie nur einmal im Monat mit jemandem über Ihre beruflichen Pläne, klingt das häufig noch unsicher. Erzählen Sie jedoch jeden Tag ein bis zwei Leuten davon, klingt es rund und glatt und Sie bringen sich in einen ganz anderen mentalen Zustand. \r\n\r\n3. Sie werden durch regelmäßige Netzwerkgespräche viel schneller an die gewünschten Informationen kommen. Sie erhalten Informationen über Ihren Zielmarkt, über Netzwerkkontakte oder Ihre Freunde und darüber hinaus Einblicke in Firmen und Jobs. Ihre gesamte Jobsuche wird insgesamt transparenter für Sie und Sie kommen an zusätzliche Tipps und Ratschläge für Ihre erfolgreiche Bewerbung.\r\n\r\nAuf geht’s!",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Initiativbewerbungen eignen sich in der Regel für jedes Unternehmen, sowohl für kleine als auch für große. Große Unternehmen freuen sich über Bewerber, die Engagement zeigen. Und die kleineren Unternehmen schreiben meist nicht alle Stellen aus, kalkulieren also Initiativbewerbungen mit ein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Onlinebewerbungen\r\n\r\nWenn Sie Stellenanzeigen im Internet gefunden haben, bieten viele Firmen mittlerweile die Möglichkeit, sich direkt online zu bewerben. Manchmal geht das nur über ein firmeneigenes Formular, häufig aber direkt über den Weg der E-Mail. \r\nIn welcher Form auch immer, wir schauen uns jetzt gemeinsam beide Wege an und helfen Ihnen bei Ihrer Online-Bewerbung. Bevor wir das tun, sei noch soviel gesagt: Nehmen Sie die Online-Bewerbung auf jeden Fall genauso ernst wie die schriftliche Bewerbung! Das Internet steht zwar für Schnelligkeit, trotzdem haben Online-Bewerbungen nur dann Erfolg, wenn sie mit der gleichen Sorgfalt erstellt werden, wie die klassische Variante.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ist Ihnen eigentlich bewusst, wie viele Menschen Sie persönlich kennen? \r\nLassen Sie uns alle Kontakte sammeln, die Ihnen einfallen. Machen Sie dazu gleich eine Excel-Datei auf!\r\nFalls Ihnen zu den jeweiligen Kategorien, die wir gleich durchgehen werden, niemand einfällt, machen Sie einfach mit der nächsten weiter.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was gibt es bei der Initiativbewerbung zu beachten?\r\n\r\nWecken Sie das Bedürfnis beim Arbeitgeber, Sie einzustellen! Zeigen Sie ihm, dass Sie für sein Unternehmen von Wert sind! Das schaffen Sie, indem Sie bei Ihrer Recherche potentielle Herausforderungen aufdecken, vor denen das Unternehmen steht, und sich überlegen, was Sie dazu beitragen können, diese zu lösen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Logischerweise macht eine Online-Bewerbung nur dann Sinn, wenn sie auch tatsächlich erwünscht ist. Prüfen Sie das also immer vorher und sparen Sie so Zeit. \nWir haben eine Checkliste für die Onlinebewerbung erstellt, die alle Punkte umfasst, die Sie bei Ihrer Bewerbung beachten sollten. Diese können Sie sich unten herunterladen.\n\nWir möchten nun gemeinsam mit Ihnen Ihre erste professionelle Online-Bewerbung erstellen und versenden.\nWenn Sie also schon eine Stellenanzeige gefunden haben, bei der die Online-Bewerbung möglich ist, legen Sie sich diese nun bitte parat.\n\nLos geht's!",
+      "props": {
+        "documents": [
+          {
+            "name": "Leitfaden Onlinebewerbung",
+            "file": "Checkliste_Online_Bewerbung.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "List",
+      "key": "kar_kontakte_freundefamilie",
+      "title": "Fangen wir an mit Ihren Freunden und Verwandten. Schreiben Sie alle auf, die Ihnen einfallen.",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bevor Sie Ihre Initiativbewerbung losschicken: fragen Sie vorher telefonisch an, inwieweit Bedarf an einer qualifizierten Fachkraft wie Ihnen besteht.\r\nRecherchieren Sie dafür auf den Seiten der Firma den Namen eines Ansprechpartners. Am besten ist es, wenn Sie Namen und Telefonnummer eines Mitarbeiters aus der Personalabteilung finden. Sollten Sie nur eine zentrale Hotline finden, können Sie sich dann immer noch zum Personalverantwortlichen durchstellen lassen.\r\n\r\nWoher wissen Sie, wen Sie kontaktieren müssen? Wie kriegen Sie das raus? \r\nGeben Sie zum Beispiel in Ihrer Google-Suche direkt den Namen der Firma und Begriffe wie „Personalabteilung“, „Personal“, „Personalbeauftragter“, „Personalleiter“ etc. eingeben.\r\n\r\nSo finden Sie in der Regel Ihren Ansprechpartner, den Sie dann direkt kontaktieren können. \r\n\r\nRufen Sie auch bei der in Frage kommenden Fachabteilung an. Dort weiß man zuallererst, ob bzw. wann es eine Vakanz gibt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Gehen wir zunächst auf die klassische Email-Bewerbung ein (das Online-Formular folgt später):\n\nZuerst: greifen Sie zum Hörer und rufen Sie beim Unternehmen an! So hat man Ihren Namen schon mal gehört und Sie haben Interesse und Motivation demonstriert. Sie können z.B. nach einem Ansprechpartner fragen oder ob die Stelle noch frei ist. Lassen Sie sich die Adresse notfalls buchstabieren, damit Ihre Email richtig ankommt. Es scheitert häufig an kleinen Dingen wie einem fehlenden Punkt zwischen Vor- und Nachnamen. Sie zeigen außerdem, wie bei der schriftlichen Bewerbung auch, Ihre Sorgfalt und Ihr Bemühen um Individualität!\n\nUnd einen weiteren Pluspunkt hat das Ganze noch: wenn Sie Ihre Bewerbung an eine allgemeine Adresse wie info@firma.de schicken, irrt Ihre E-Mail nur zeitraubend durch sämtliche Abteilungen und kommt unter Umständen nie an ihrem Bestimmungsort an!\n\nFragen Sie in Ihrem Telefonat auch nach dem gewünschten Dateiformat. Exotische oder virenanfällige Formate wie z.B. HTML werden entweder von den Firewalls der Firmen aussortiert oder kosten bei der Bearbeitung wertvolle Zeit. Erkundigen Sie sich bei dieser Gelegenheit also danach. \n\nHier finden Sie einen kleinen Leitfaden für Ihre Telefonate, an dem Sie sich orientieren können:\n\nLeitfaden für Ihren Anruf\n\n1. Begrüßung und Einstieg\nStellen Sie sich namentlich vor und erwähnen Sie Ihr Anliegen.\nWenn Sie bei der Zentrale oder der Sekretärin landen:\n\n„Guten Tag, mein Name ist Vorname Nachname. Ich habe im Rahmen meiner Jobsuche Ihre Stellenanzeige in der FAZ gesehen, in der Sie einen Projektmanager suchen. Da ich mich gern auf die Stelle bewerben möchte, würde ich gern in Erfahrung bringen, an wen in Ihrem Unternehmen ich meine Bewerbung richten kann.“\n\n2. Den Namen notieren\nWenn Ihnen der Ansprechpartner genannt wird, notieren Sie den Namen und fragen Sie ggf. nach der genauen Schreibweise, beispielsweise:\n\n„Meier – also M, E, I, E, R? Ich möchte in jedem Fall sicher gehen, dass ich den Namen richtig geschrieben habe.“ \n\n3. Frage nach dem Dateiformat \n\n„Welches Dateiformat ist für Sie ideal – Word, PDF oder ein anderes? Dann lasse ich Ihnen die Bewerbung natürlich in dem entsprechenden Format zukommen.“\n\n4. Dank und Verabschiedung\nVerabschieden Sie sich freundlich und wünschen Sie dem anderen einen schönen Tag!\n„Vielen Dank für Ihre Zeit und Hilfe. Ich wünsche Ihnen einen schönen verbleibenden Tag.“",
+      "props": {
+        "documents": [
+          {
+            "name": "Leitfaden Anruf Onlinebewerbung",
+            "file": "Leitfaden_Anruf_Firma_Online.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "List",
+      "key": "kar_kontakte_freundefamilie",
+      "title": "Weiter geht’s mit Leuten aus der Ausbildung, aus der Schule oder der Uni. Notieren Sie auch hier alle, die Ihnen einfallen. Sie können unten den Listen beliebig viele Punkte hinzufügen.",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie sind vielleicht etwas nervös vor dem Anruf. Das ist nur verständlich! Ein bisschen Nervosität ist sogar von Vorteil, da es Ihre Sinne schärft. \r\n\r\nSie können sich jedoch mental positiv auf Ihr Gespräch einstellen, indem Sie sich vorstellen, die Person, die Sie jetzt anrufen, könnte in Zukunft ein guter Freund oder Bekannter werden. Später sprechen Sie mit ihm über Ihr Telefonat und sagen: „Weiß Du noch, wie ich Dich damals angerufen habe, als es um die Stelle XYZ ging? Wie aufgeregt ich war und wie locker unser Gespräch dann verlief. Und zum Schluss habe ich die Stelle tatsächlich bekommen!“\r\nDas ist eine effektive, kleine Übung, die Ihnen hilft, mit mehr Zuversicht und Ruhe in das Gespräch zu gehen!\r\n\r\nUnd noch eins: Wenn Sie anrufen, gehören Sie zu den wenigen, die sich das überhaupt trauen! Beeindrucken Sie also Ihr Gegenüber, indem Sie zum Hörer greifen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Starten Sie jetzt Ihr Email-Programm und bereiten Sie Ihre Online-Bewerbung an das Unternehmen vor.  \r\n\r\nPunkten Sie dabei schon beim Betreff! Erwähnen Sie darin unbedingt den Anlass Ihrer E-Mail – die Bewerbung. Sonst kann es Ihnen passieren, dass die Mail ungeöffnet im Papierkorb verschwindet. Beziehen Sie sich auch auf die Stellenanzeige der Firma mit Datum und Kennziffer der Anzeige, z.B.: \r\n\r\n'Bewerbung als Vertriebsassistent bei Monster.de vom 10.5.2010'.\r\n\r\nIn der Anrede Ihres Anschreibens sollten Sie sich dann auf Ihren Ansprechpartner beziehen, den Sie vorher bereits im Telefonat ausfindig gemacht haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "List",
+      "key": "kar_kontakte_kollegen_kunden_lieferanten",
+      "title": "Welche Ihrer ehemaligen Kollegen oder Kunden, Lieferanten fallen Ihnen ein?",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bevor Sie zum Hörer greifen:\r\n\r\nSorgen Sie vorher dafür, dass alle störenden Hintergrundgeräusche ausgeschaltet sind. Wenn Sie kein Wort verstehen, weil Sie im Café an einer stark befahrenen Straße sitzen, haben Sie keine Punkte gewonnen.\r\n\r\nWeitere Tipps gibt's im nächsten Schritt!\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Textfeld Ihrer E-Mail brauchen Sie nur kurz auf Ihre Bewerbung und die Anlage eingehen z.B.:\r\n\r\n\"Sehr geehrte Frau Müller,\r\n\r\nanbei finden Sie meine Bewerbung für die ausgeschriebene Stelle als Vertriebsassistentin.\r\nFür Rückfragen stehe ich Ihnen natürlich jederzeit gerne zur Verfügung.\r\nMit freundlichen Grüßen,\r\n\r\nAnna Bauer\"\r\n\r\nBitte vermeiden Sie komplizierte Formatierungen oder Sonderzeichen wie Smileys.\r\n\r\nBeginnen Sie Ihr Anschreiben mit einer persönlichen Ansprache und verwenden Sie die \"Sie\"-Form. Formulieren Sie präzise, aber möglichst kurz. Beziehen Sie sich auch hier nochmals auf die Stellenanzeige. \r\nPersonaler nehmen sich oft nur wenige Minuten Zeit für die erste Durchsicht Ihrer Online-Bewerbung. \r\nMöchte die Firma nicht ausdrücklich die Zusendung Ihrer kompletten Unterlagen, genügt für Ihre Bewerbung neben dem Anschreiben der Lebenslauf und die relevantesten Zeugnisse. Erwähnen Sie aber unbedingt, dass Sie auf Nachfrage weitere Zeugnisse oder Referenzen gerne nachreichen. Sollten Zeugnisse gefordert sein, ordnen Sie diese chronologisch (mit dem jüngsten Zeugnis an erster Stelle).\r\n\r\nMehr Tipps dazu, wie Sie ein aussagekräftiges Anschreiben formulieren, geben wir Ihnen im Coaching \"Meine Bewerbungsunterlagen\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "List",
+      "key": "kar_kontakte_socialnetworks",
+      "title": "Mit wem sind Sie zusätzlich über Xing, LinkedIn, Facebook, StudiVZ, meinVZ, stayfriends oder ähnlichen Online-Portalen verlinkt?",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Halten Sie Ihre Unterlagen parat! Vielleicht kommt es zu einem etwas längeren Gespräch mit dem Personalverantwortlichen. In dem Fall sollten Sie vorbereitet sein, ein bisschen mehr von sich zu erzählen!\r\n\r\nHaben Sie also Ihren Lebenslauf parat, damit Sie schnell das Wichtigste daraus wiedergeben können. Bereiten Sie auch unbedingt Ihre Einminutenpräsentation und Ihre Ende-Erklärung vor, falls Sie danach gefragt werden, warum Sie derzeit auf Jobsuche sind. Beides sollten Sie bitte nicht ablesen! Arbeiten Sie sie stattdessen vorher in Stichpunkten aus.\r\n\r\nEs kann auch nicht schaden, Ihre Erfolgsgeschichten parat zu haben. Falls Sie gebeten werden, Beispiele für Ihre Fähigkeiten zu bringen, können Sie dann entspannt darauf zurückgreifen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Noch ein Tipp:\r\n\r\nErwähnen Sie Ihre vollständigen Kontaktdaten im Briefkopf Ihres Anschreibens, in Ihrem Lebenslauf und auch am Ende Ihrer Email. So gewährleisten Sie, dass Ihr potentieller Arbeitgeber sich auf Wunsch bei Ihnen melden und Ihre Daten schnell finden kann.",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "List",
+      "key": "kar_kontakte_freizeit",
+      "title": "Falls Sie Sport betreiben oder ein Hobby haben, wen kennen Sie aus Ihrem Sportverein, aus dem Fitnessstudio, mit wem verbringen Sie Ihre Freizeit? ",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Überlegen Sie sich außerdem einen passenden Aufhänger! Beispielsweise haben Sie herausgefunden, dass sich das Unternehmen zukünftig mehr in dem Bereich etablieren will, in dem Sie zuletzt gearbeitet haben. Dann können Sie das gleich am Anfang einbauen und machen so deutlich, dass es ein Gewinn sein könnte, Sie einzustellen. \r\n\r\nWeitere Anregungen sind:\r\n\r\n„Ich habe im Wiesbadener Kurier gelesen, dass Sie Ihre Vertriebsmannschaft ausbauen wollen. Deshalb würde ich mich Ihnen gern kurz als Nachwuchskraft im Vertrieb vorstellen.“\r\n\r\n„Ihrer Homepage habe ich entnommen, dass Sie Ihre Vertriebsaktivitäten in Skandinavien verstärken. Da ich als ausgebildeter Groß- und Außenhandelskaufmann sehr gut Schwedisch spreche, nehme ich dies zum Anlass, einmal telefonisch anzufragen, ob...“  \r\n\r\nWie könnte der Aufhänger für Ihr Telefonat lauten? Schreiben Sie auf, was Ihnen im Zuge Ihrer Firmenrecherche aufgefallen ist: wo bestehen Parallelen zu Ihnen und dem Unternehmen, was bringen Sie an Qualifikationen mit, die für das Unternehmen von Nutzen sein könnten?",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Betreffzeile und Anrede sowie Anschreiben stehen! Jetzt wandeln Sie Ihren angepassten Lebenslauf und wenn gefordert, Ihre beigefügten Anhänge wie Zeugnisse oder Qualifikationsbescheinigungen ins PDF-Format um. Wählen Sie einen aussagekräftigen Namen und vergessen Sie nicht das aktuelle Datum! \r\n\r\nEin Beispiel:\r\n\r\n„Lebenslauf_Max_Mustermann_20100506“",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "List",
+      "key": "kar_kontakte_nachbarn",
+      "title": "Überlegen Sie sich, wen von Ihren Nachbarn Sie fragen könnten. Auch Nachbarn haben Jobs oder kennen Menschen, die Ihnen vielleicht nützliche Infos bieten können.",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und zuletzt: legen Sie sich Papier und einen Stift bereitet, um sich sofort Notizen machen zu können und denken Sie auch an Ihre Fragen für das Telefonat!\r\n\r\nIn einer ruhigen Umgebung und mit allem Wichtigen für Ihre Bewerbung ausgestattet, können Sie jetzt entspannt zum Hörer greifen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie sollten möglichst nur einen Anhang an Ihre E-Mail hängen. Ihre Bewerbung sollten Sie unbedingt im PDF-Format verschicken.\r\nPDFs sind leicht zu erstellen, laden Sie sich dazu eines der kostenlose Programme aus dem Internet runter.\r\nWenn Sie mehrere PDFs haben, können Sie diese mit wenigen Klicks zu einer einzigen Datei vereinigen. Dazu gibt es verschiedene Programme, die das schnell und unkompliziert erledigen, wie zum Beispiel Adobe Acrobat. Sie können auch zu Internetseite www.dinbrief.de gehen, auf der Sie PDFs sowohl zerlegen als auch zusammenführen können.\r\nPrüfen Sie, ob die Datei nicht größer als 1MB ist. Zu große Dateien werden in der Regel vom firmeninternen Filter aussortiert. Außerdem provozieren Sie höchstens Ärger statt Freude über Ihre Bewerbung, wenn Sie das Postfach des Personalers verstopfen. Da eingescannte Bilder besonders viel Speicherplatz benötigen, sollten Sie die Bilder vor dem Einfügen mit einem Bildbearbeitungsprogramm (z.B. Picasa) verkleinern. So sollten Sie locker unter der 1MB-Grenze bleiben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "List",
+      "key": "kar_kontakte_verein_etc",
+      "title": "Falls Sie in einer Gemeinde, in einem Verein, einer Partei, einem Berufsverband tätig sind, wen kennen Sie dort?",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Telefonat:\r\n\r\nDenken Sie daran, dass Sie gerade am Anfang des Gesprächs lächeln. Ein Lächeln sieht man nicht nur, man hört es vor allem auch. Haben Sie deshalb einen Spiegel neben sich liegen. Mit einem Lächeln wirkt Ihre Stimme gleich viel sympathischer.\r\nStellen Sie sich außerdem mit einer lauten, starken Stimme vor! Eine laute Stimme verstrahlt Zuversicht und Selbstbewusstsein!",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bevor Sie die Online-Bewerbung raussenden, machen Sie den ultimativen Test und schicken Sie die Email testweise an Ihr eigenes E-mail-Konto. Wenn das reibungslos geklappt hat und Sie die Anhänge problemlos öffnen konnten, können Sie Ihre Online-Bewerbung senden. Achten Sie übrigens darauf, dass Ihre Email nicht eingerahmt von diversen Werbebannern beim Empfänger ankommt, wie das bei einigen kostenlosen Anbietern der Fall ist. Das wirkt extrem unseriös. Richten Sie sich dafür eine E-Mail-Adresse bei einem Anbieter ein, der darauf verzichtet wie z.B. MS Outlook, Mozilla Thunderbird, GoogleMail oder auch Anbieter wie GMX, WEB.de, Arcor uvm., solange POP3/SMTP unterstützt wird. Wählen Sie bitte auch einen seriösen Namen für Ihre Email-Adresse, der idealerweise Ihren Nachnamen enthält.",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "List",
+      "key": "kar_kontakte_freundesfreunde",
+      "title": "Zuletzt: welche Freunde von Freunden fallen Ihnen ein?",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für den Fall, dass Sie keine direkten Ansprechpartner ausfindig machen konnten und somit an die Telefonzentrale oder die Sekretärin geraten: Stellen Sie sich vor und bitten Sie darum, mit der Personalabteilung verbunden zu werden. Hier werden Sie in der Regel gefragt: worum geht es? Hierfür brauchen wir Futter, denn Sie fliegen entweder hier direkt raus, was auch legitim ist oder Sie werden durchgestellt. Wenn Sie Ihren Anrufgrund an dieser Stelle herauszögern, muss dieser Absatz wirklich knackig sein, da Sie sonst die Geduld des Anderen strapaziere.",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jetzt fehlt nur noch die E-Mail-Adresse Ihres Ansprechpartners. Kopieren Sie sie in das An-Feld und prüfen Sie sicherheitshalber noch einmal die Schreibweise.\r\n\r\nAn dieser Stelle empfiehlt sich ein letzter Check, ob Sie auch an alles gedacht haben. Nehmen Sie dazu wieder unsere Checkliste zu Hilfe! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie alle aufgelistet haben, schauen Sie, welche Kontakte für Sie interessant sein könnten. Wer arbeitet im gleichen Bereich wie Sie, wer kennt vielleicht Firmen oder mögliche Ansprechpartner bei Firmen? Gehen Sie Ihre Liste durch und priorisieren Sie Ihre Kontakte nach Relevanz. \n\nFür die Personen, die ganz oben auf Ihrer Liste stehen, legen wir nun nochmal eine Extra-Tabelle mit den folgenden Spalten an:\n\n- Name\n- Was ist spannend an der Person?\t\n- Wann kontaktiert?\t\n- Wann Wiedervorlage?\t\n- Was kann ich dieser Person bieten? \n\nNun möchten wir Sie ermutigen mit Hilfe unseres Telefonleitfadens die wichtigsten Personen telefonisch zu kontaktieren. Oder per Mail, falls Ihnen das Telefonieren so gar nicht liegt. Wir empfehlen Ihnen auf jeden Fall den telefonischen Kontakt, da er einfach direkter ist und vor allem schneller, was für Ihre Jobsuche ja ganz entscheidend ist.\n\n\nDadurch, dass Sie sich auch Gedanken dazu gemacht haben, was Sie für die andere Person tun können, wird die Kontaktaufnahme zur echten Win-Win-Situation und das ist es, was gutes Netzwerken bietet: Vorteile für beide Seiten!\n\nSowohl einen Leitfaden für das Telefonat als auch für die Email an Ihre Kontakte können Sie sich jetzt unten herunterladen.",
+      "props": {
+        "documents": [
+          {
+            "name": "Leifaden Netzwerkanruf",
+            "file": "Telefonischer_Leitfaden_Netzwerk.pdf"
+          },
+          {
+            "name": "Leitfaden Netzwerkmail",
+            "file": "Leitfaden_netzwerken_Email.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie direkt einen konkreten Ansprechpartner aus der Personalabteilung kontaktieren, stellen Sie sich mit einer lauten, starken Stimme vor! Eine laute Stimme verstrahlt Zuversicht und Selbstbewusstsein! Sprechen Sie Ihr Gegenüber mit Namen an und nennen Sie kurz Ihren Aufhänger, beispielsweise:\r\n\r\n\"Guten Tag, Herr Schneider. Mein Name ist Bettina Bauer. Einem Artikel im Tagesspiegel habe ich entnommen, dass Sie zukünftig stärker in erneuerbare Energien investieren wollen. Da ich als studierte Landschaftsplanerin kürzlich ein Großprojekt für Solaranlagen abgeschlossen habe, indem es darum ging, ... , nehme ich dies zum Anlass, einmal telefonisch anzufragen, ob Sie an meiner Expertise in dem Bereich interessiert sind.“\r\n\r\nEin Verweis auf einen Zeitungsartikel über das Unternehmen, eine Fachmesse oder bestehende Kontakte zu Angehörigen der Firma ist an dieser Stelle ideal.",
+      "props": {},
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Online-Bewerbung ist rausgegangen, herzlichen Glückwunsch! Vermerken Sie sich gleich in Ihrer Excel-Datei das heutige Datum in der Spalte „Wann beworben“ und haken Sie unbedingt in spätestens zwei Tagen nach, ob Ihre E-Mail auch angekommen ist. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auch unser Gesprächsleitfaden, den wir hier gleich gemeinsam aufbauen werden, wird sich um die Frage drehen: was kann ich der Person bieten?\r\nFür den Fall, dass Sie Ihrem Freund oder Bekannten bereits in der Vergangenheit mal geholfen haben, kann es manchmal klappen, sich darauf zu beziehen. Es birgt jedoch eine gewisse Gefahr, da der andere das Gefühl haben könnte, dass Sie jetzt eine Gegenleistung einfordern. Dennoch: trauen Sie sich, gehen Sie auf ihn zu und sagen Sie: „Du, jetzt brauch ich mal deine Hilfe!“",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihr Gegenüber kann von Anfang an harsch sein und damit müssen Sie rechnen. Idealerweise sollte man in diesem Fall sehr freundlich gegenüber dem Anderen sein. „Entschuldigung, das hab ich Ihnen noch nicht mitgeteilt.“ Strapazieren Sie hier nicht die Geduld des Anderen, denn seine Zeit ist wertvoll. Man zeigt auf jeden Fall durch solch einen Initiativanruf Mut, Stärke, Engagement.",
+      "props": {},
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nachdem wir Ihre Online-Bewerbung verschickt haben, wollen wir jetzt gemeinsam ein Online-Stellengesuch aufgeben. Vor allem Personalvermittlungsfirmen und Headhunter werfen häufiger einen Blick in Stellengesuche. Zudem sparen Sie im Gegensatz zu den Print-Gesuchen Geld!",
+      "props": {},
+      "next": [
+        {
+          "to": "n043"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Gesprächsleitfaden ist somit der nächste Schritt auf dem Weg zum erfolgreichen Netzwerken. \r\nAls Erstes sei gesagt: man kann jeden anrufen! Es spielt keine Rolle, ob für einen Job oder anderweitige Hilfe: es gibt keinen Grund, jemanden, den man 10 Jahre nicht mehr gesprochen hat, nicht anzurufen. Haben Sie an dieser Stelle keine Scheu!\r\n\r\nBei jemandem, bei dem man sich lang nicht mehr gemeldet hat: melden Sie sich lieber jetzt als nie wieder, denn jetzt brauchen Sie es! Bei Personen, bei denen man sich hätte melden sollen, es aber nie getan hat: nutzen Sie die Chance und sagen Sie gleich nach der Begrüßung: „Ich bin nie dazu gekommen, aber jetzt habe ich ein konkretes Anliegen und da dachte ich: „Hey, da rufe ich dich gleich als Erstes an!“ \r\nSie können selbst Leute anrufen, die Sie nicht kennen, solange Sie freundlich auf sie zugehen und um Hilfe bitten. Menschen helfen Menschen und Menschen helfen gerne!\r\nWir werden uns gleich zusammen anschauen, wie man so fragt, dass Ihr Gesprächspartner Ihnen auch gerne hilft, denn wir wollen den anderen natürlich nicht verschrecken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n044"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Ihr Gegenüber Zeit für Sie hat, geht es jetzt darum, sich in maximal anderthalb Minuten kurz und überzeugend vorzustellen! Beweisen Sie dem Unternehmen, dass Sie mit Ihren Fähigkeiten einen echten Mehrwert für die Firma darstellen! Erwähnen Sie also neben Ihren Qualifikationen und Stärken auch, wie beides dem Unternehmen helfen kann.",
+      "props": {},
+      "next": [
+        {
+          "to": "n045"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Klassischerweise bieten vor allem große Jobbörsen wie die Jobbörse der Arbeitsagentur, Monster, Stepstone oder auch die Businessplattformen Xing und LinkedIn die Möglichkeit, ein Online-Stellengesuch aufzugeben. Nutzen Sie die Möglichkeit auf jeden Fall, um Ihre Botschaft möglichst weit zu streuen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der passende Einstieg\r\n\r\nWie man am besten beginnt hängt davon ab, ob man die Person kennt. \r\n\r\nBei Freunden und guten Bekannten reicht ein „Hallo, wie geht’s dir?“\r\n\r\nIst es jemand, den Sie gut kennen, sich bei ihm oder ihr seit Jahren nicht mehr gemeldet haben, dann wählen Sie folgende Einleitung: \r\n„Mensch, ich hab mich seit Ewigkeiten nicht mehr gemeldet und hab jetzt ein echtes Anliegen. Da dachte ich, ich melde mich lieber jetzt, als dass wieder 10 Jahre vergehen. Und ich hab mich gefreut über die Gelegenheit, dich mal wieder zu hören!“ \r\nDiese Begrüßung kommt immer gut an und ganz unabhängig davon können Sie die Chance zu echter Beziehungspflege nutzen und gleich fragen: ‚ Wann treffen wir uns denn mal wieder auf ein Bier oder zum Kino?“\r\nSollten Sie sich daraufhin verabreden, kann es sein, dass die Person bei Ihrem Treffen gleich weitere Informationen oder Kontaktmöglichkeiten für Sie hat. Immerhin hatte sie 1-2 Wochen Gelegenheit, über Ihr Anliegen nachzudenken.\r\n\r\nKennt man die Person nicht, erwähnt man als Allererstes, über wen man die Nummer hat, also \r\n„Hallo, ich bin Michaela Hort und ich habe ihre Nummer von der Frau Schneider. Sie hat mir empfohlen, Sie anzurufen und gemeint, Sie können mir vielleicht helfen.“ \r\n\r\nDas ist der erste zielführende Satz, um an für Sie wichtige Informationen zu kommen. Warum? Wichtig ist hierbei einerseits das Wort ‚vielleicht’, gefolgt von ‚helfen’. ‚Helfen’ ist ein Signalwort. Wie schon gesagt: Menschen helfen gerne. Deshalb sollte das Wort gleich zu Beginn des Gesprächs fallen. Das Wörtchen ‚vielleicht’ setzt den Anderen nicht unnötig unter Druck und sollte deshalb unbedingt mit eingebaut werden.\r\n\r\nFür Anrufe bei Freunden oder alten Bekannten gilt das Gleiche: nach der Begrüßung kommt idealerweise erstmal der Satz: „Ich weiß nicht, ob Du mir vielleicht helfen kannst.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n047"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein gelungener Abschluss: Raum für eigene Fragen\r\n\r\nRunden Sie das Gespräch mit eigenen Fragen ab. So erhalten Sie nicht nur wertvolle Informationen für den weiteren Bewerbungsprozess, sondern signalisieren vor allem Interesse an dem Unternehmen. Arbeiten Sie stets mit offenen Fragen wie beispielsweise „Welche Soft Skills wünschen Sie sich von einem Bewerber?“ anstatt „Zählen bei Ihnen Soft Skills?“.",
+      "props": {},
+      "next": [
+        {
+          "to": "n048"
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was Ihr Online-Gesuch zuerst erfordert, ist in der Regel eine Anmeldung auf der jeweiligen Jobbörse. Das hat den Vorteil, dass Sie Ihre Angaben jederzeit einsehen, verändern und vor allem so lange online lassen können, bis Sie erfolgreich in den Job gekommen sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n049"
+        }
+      ]
+    },
+    "n047": {
+      "id": "n047",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jetzt kommt eine ganz wichtige Information, um den Anderen „bereit“ für die Weitergabe von Informationen zu machen. Wie das Sprichwort sagt: „Man muss den Boden zuerst pflügen, um säen zu können.“ Was jetzt folgt, ist Ihre Situation! \r\n\r\nNachdem Sie sich vorgestellt und erwähnt haben, woher Sie diese Nummer haben, sollten Sie sagen:„Ich weiß jetzt nicht, ob Sie gerade 3-5 Minuten Zeit für mich haben...“ \r\nIndem Sie es so sagen, kann der andere entweder reagieren mit: „Ja, doch, ein paar Minuten hab ich grad Zeit.“ Oder er kann sagen: „ Eigentlich nicht, aber ja, gut.“ Wenn er es so sagt, „eigentlich nicht“, nehmen Sie es trotzdem wahr! Alternativ kann er auch antworten mit: „Ich hab grad tatsächlich keine Zeit, aber ruf mich doch heut Abend halb 9 nach Feierabend an.“  Schöner ist es natürlich, wenn das Gespräch nicht vertagt werden muss, denn erneutes Anrufen ist umständlich. \r\n\r\nFalls Ihr Gesprächspartner Ihnen signalisiert, dass er Zeit für Sie hat, kommt der nächste „Pflug des Bodens“: Sie wissen, dass Sie ein paar Minuten haben. Schauen Sie jetzt unbedingt auf die Uhr! Seien Sie ein hoch aufmerksamer Gesprächspartner! \r\nDer andere als helfender Mensch wird Sie wahrscheinlich nicht darauf hinweisen, dass die 5 Minuten vorbei sind. In diesem Moment dürfen Sie nicht denken: ‚Schön, der merkt gar nicht, dass die 5 Minuten längst um sind. Dann kann ich ja noch weitere 5 rausholen. Denn immerhin ist mein Job das Wichtigste auf der Welt.’\r\nZeigen Sie stattdessen Stil! Wenn Sie wirklich wollen, dass der andere Ihnen hilft und darüber hinaus eine hohe Meinung von Ihnen hat, sollten Sie auf die Uhrzeit achten! Die Wahrscheinlichkeit, dass er Sie weiterempfiehlt oder Ihnen Jobtipps gibt,  ist größer, je höher seine Meinung von Ihnen ist.\r\nWenn die Zeit um ist, sprechen Sie es an: „Übrigens, die 3-5 Minuten sind vorbei. Soll ich noch mal wann anders anrufen?“ So bekommt der andere ein Gefühl von Service vermittelt und merkt, dass Sie ein verlässlicher und aufmerksamer Mensch sind. Seine Reaktion wird dann wahrscheinlich so ausfallen: „Nein, das geht schon in Ordnung.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n050"
+        }
+      ]
+    },
+    "n048": {
+      "id": "n048",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Fragen Sie zum Schluss freundlich nach, ob das Unternehmen derzeit freie Vakanzen in Ihrem angestrebten Bereich hat.\r\n\r\nWenn Ihr Gesprächspartner bejaht, fragen Sie ihn, ob Sie zu einem persönlichen Gespräch erscheinen können. \r\n\r\nBeispielsweise:\r\n„Darf ich Ihnen mich in einem persönlichen Gespräch einmal vorstellen? Wann passt es Ihnen in den nächsten Tagen?“\r\n\r\nWenn der Personaler hier abwiegelt, fragen Sie ihn, ob Sie ihm Ihre Bewerbungsunterlagen zukommen lassen können. \r\n\r\nEs kann in solchen Momenten immer sein, dass es zu einer leichten Verhandlungssituation kommt. In unserem Leitfaden haben wir Ihnen verschiedene Möglichkeiten aufgezeigt und wie Sie jeweils am besten darauf reagieren können.\r\n\r\nBedanken Sie sich zum Schluss für seine Zeit und verabschieden Sie sich höflich, indem Sie ihm noch einen erfolgreichen Tag wünschen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n049": {
+      "id": "n049",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie Sie ein überzeugendes Stellengesuch erstellen, lernen Sie mit unserer Unterstützung in drei Schritten:\r\n\r\nWie das geht? Indem Sie Antworten auf die folgenden drei Fragen liefern: \r\n\r\n1. Wie lautet Ihre Schlagzeile?\r\n2. Was will ich?\r\n3. Was kann ich?\r\n\r\nStarten wir mit Ihrer Schlagzeile im nächsten Schritt!",
+      "props": {},
+      "next": [
+        {
+          "to": "n052"
+        }
+      ]
+    },
+    "n050": {
+      "id": "n050",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir haben eine Einleitung für Menschen, die wir seit langem nicht mehr kontaktiert haben, wir haben eine für Personen, die wir nicht kennen und die uns von Freunden oder Bekannten empfohlen wurden und wir haben eine Einleitung für Freunde, bei denen wir uns normalerweise melden.\r\nAls Zweites haben wir jedem, auch dem Freund gesagt: „Ich brauche 3-5 Minuten. Vielleicht hast du grad keine Zeit.“ Durch das ‚vielleicht’ konnte er sagen: Geht in Ordnung, ich hab Zeit oder Sie haben einen neuen Telefontermin ausgemacht. Wichtig: zu dem vereinbarten Termin müssen Sie genau pünktlich anrufen: nicht 3 Minuten vorher oder 1 Minute später. Seien Sie zuverlässig, man wird das an Ihnen schätzen! \r\n\r\nWie geht es weiter?",
+      "props": {},
+      "next": [
+        {
+          "to": "n053"
+        }
+      ]
+    },
+    "n051": {
+      "id": "n051",
+      "type": "Text",
+      "key": null,
+      "title": "Sie können bei der Initiativbewerbung um all das kämpfen. Wenn Sie sich nicht trauen und keine Initiative zeigen, verschenken Sie sich eine wertvolle Chance auf einen neuen Job. Wer nicht wagt, der nicht gewinnt.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n054"
+        }
+      ]
+    },
+    "n052": {
+      "id": "n052",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Schlagzeile\r\n\r\nAls erstes kommt eine knackige Schlagzeile. Wecken Sie Aufmerksamkeit beim Leser! Er sollte so richtig Lust auf's Weiterlesen bekommen! Die Schlagzeile kann dabei auch Ihre Berufsbezeichnung und Ihren Abschluss enthalten.\r\n\r\nBeispielsweise: \r\nProjektmanager mit vielfältigem Hintergrund und Kreativität im Gepäck stellt sich neuen Herausforderungen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n055"
+        }
+      ]
+    },
+    "n053": {
+      "id": "n053",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie sagen jetzt: „Ich brauche Hilfe, weiß aber nicht, ob Sie mir überhaupt helfen können.“ Diese Formulierung ist ganz wichtig! Menschen, die man um Hilfe bittet, helfen gerne mit einfachen Sachen wie dem Leihen von etwas Mehl oder Salz. Dafür muss man nicht lange nachdenken, geht zum Schrank und greift nach dem Mehl. \r\nAnders sieht das bei der Frage nach Kontakten, Namen von Firmen, Jobinterna oder Informationen über Stellenanzeigen aus. Häufig fällt Menschen in solchen Momenten erstmal gar nichts dazu ein. Aus diesem Grund ist es wichtig, dass Sie dem Unterbewusstsein des anderen sagen: ‚Du darfst JETZT blockieren.’\r\n\r\nDie erste Stufe davon ist die Formulierung: „Ich weiß gar nicht, ob du mir helfen kannst. Vielleicht kannst du mir da auch nicht helfen.“ Meist erwidert Ihr Gesprächspartner daraufhin: „Erzähl mal.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n056"
+        }
+      ]
+    },
+    "n054": {
+      "id": "n054",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Folgende Unterlagen haben wir für Sie zusammengstellt, die Sie sich unten herunterladen können:\r\n\r\n- Leifaden für ein erfolgreiches Initiativtelefonat\r\n- Checkliste Initiativtelefonat\r\n- Beispielanrufe\r\n\r",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": " Leifaden für ein erfolgreiches Initiativtelefonat",
+            "file": "Leitfaden_Anruf_Firma_Initiativ.pdf"
+          },
+          {
+            "name": "Checkliste Initiativtelefonat",
+            "file": "Checkliste_Initiativanruf.pdf"
+          },
+          {
+            "name": "Beispielanrufe",
+            "file": "Beispiele_Initiativanrufe.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n057"
+        }
+      ]
+    },
+    "n055": {
+      "id": "n055",
+      "type": "TextArea",
+      "key": "kar_initiativen_alternativen_online_schlagzeile",
+      "title": "Wie könnte Ihre Schlagzeile lauten? Schreiben Sie sie hier auf!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n058"
+        }
+      ]
+    },
+    "n056": {
+      "id": "n056",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hier bauen Sie jetzt Ihre Einminutenpräsentation ein und zwar mit folgendem Satz vorneweg: \r\n„Ich suche derzeit einen Job bzw. Firmen, die Jobs anbieten. Mir reichen auch schon Kontakte zu Menschen, die in den Jobs tätig sind, die mich interessieren, da sie häufig Tipps geben können oder Zugang zu relevanten Unternehmen haben.“ \r\n\r\nIhre Einminutenpräsentation folgt dem auf dem Fuß. Schauen Sie parallel auf die Uhr, denn diese darf nicht länger als 40 Sekunden sein. Sie wollen dem anderen weder das Ohr abkauen, noch sollten Sie ihm erzählen, unter welch (dramatischen) Umständen Sie Ihren Job verloren haben. \r\n\r\nAlso, los geht’s: \r\n„Ganz kurz, damit Sie wissen, woher ich komme: Ich habe seit 5 Jahren in dem Unternehmen XYZ hinter Erlangen gearbeitet. Ich war dort Projektassistenz und zuständig für die Pflege der internationalen Kontakte und der Projektpläne. Leider wurde die gesamte Abteilung geschlossen, so dass ich mich derzeit auf Jobsuche befinde. Idealerweise würde ich gerne in Marketing und PR-Firmen arbeiten, die international ausgerichtet sind und am besten über 50 Mitarbeiter beschäftigen. Ich würde auch in Personalunternehmen arbeiten, bei denen wiederum Projektassistenz vorkommt und der internationale Aspekt vorhanden ist.“ ",
+      "props": {},
+      "next": [
+        {
+          "to": "n059"
+        }
+      ]
+    },
+    "n057": {
+      "id": "n057",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Initiativ-Anschreiben\r\n\r\nWenn Sie bei Ihrem potentiellen Arbeitgeber das Bedürfnis geweckt haben, Sie näher kennenzulernen, verfassen Sie ein starkes Anschreiben! \r\n\r\nNehmen Sie sich für das Anschreiben besonders viel Zeit. Es soll den Leser dazu bringen, Sie entweder direkt zu einem persönlichen Gespräch einzuladen oder Ihre Bewerbung für eine spätere Vakanz zurückzulegen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n060"
+        }
+      ]
+    },
+    "n058": {
+      "id": "n058",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was will ich und was kann ich?\r\n\r\nGreifen Sie dabei auf Ihre Einminutenpräsentation zurück! Hier tauchen bereits Ihre Stärken, Ihre berufliche Erfahrung und die Unternehmensbranchen, in denen Sie gearbeitet haben sowie Ihre berufliche Zielsetzung auf. Die können wir jetzt schön für Ihr Stellengesuch verwenden.\r\n\r\nBleiben Sie unbedingt kurz und informativ in Ihren Formulierungen. Verzichten Sie auf Fachbegriffe, negative Informationen und unbekannte Abkürzungen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n061"
+        }
+      ]
+    },
+    "n059": {
+      "id": "n059",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jetzt geht es darum, Blockaden Ihres Gegenübers zu lösen!\r\n\r\nNach Ihrer Kurzpräsentation macht Ihr Gegenüber, wie schon erwähnt, in der Regel dicht und denkt sich: ‚Ich kenne eigentlich niemanden aus solchen Firmen und mir fällt auch kein passendes Unternehmen ein.’\r\nGenau das ist der Zeitpunkt, zu dem Sie sagen: „Wahrscheinlich kennen Sie niemanden oder gar eine passende Firma.“ So sprechen Sie direkt aus, was der andere gerade denkt, was dazu führt, dass er sich entspannt. Es ist in etwa so, als wenn zu Ihnen jemand sagt: „Lassen Sie sich Zeit.“ Plötzlich gehen Sie langsamer und sind wieder viel ruhiger. \r\nDaher müssen Sie auch Ihren Gesprächspartner entspannen, indem Sie seine Gedanken vorwegnehmen: „Wahrscheinlich wissen Sie eh nichts. 2-3 Leute oder Unternehmen kennt man zwar in der Regel, aber vielleicht wissen Sie gar nicht, ob die Firmen mit Marketing und PR zu tun haben oder ob es Personalfirmen sind. Ich schau jetzt halt grad einfach für mich, dass ich Leute anspreche und so Kontakte und Informationen für meine Jobsuche sammle. Und bestimmt ist auch jemand dabei, der 2-3 Firmen oder Leute in entsprechenden Unternehmen kennt. Deswegen frage ich auch Sie, ob Sie vielleicht jemanden in Ihrem Bekanntenkreis kennen, der in einem PR-, Marketing- oder Personalunternehmen oder derzeit im Ausland arbeitet.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n062"
+        }
+      ]
+    },
+    "n060": {
+      "id": "n060",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nennen Sie die zwei bis drei wichtigsten Argumente, warum Sie sich bei diesem Unternehmen bewerben. Gehen Sie auf die Branche ein oder Ihr Interesse an den Produkten / den Dienstleistungen, die von dem Unternehmen angeboten werden. Damit zeigen Sie dem Personalentscheider, dass Sie sich mit dem Unternehmen beschäftigt haben und sich nicht nur einfach \"ins Blaue herein\" bewerben.\r\n\r\nPacken Sie nicht Details aus dem Lebenslauf in das Anschreiben. Hier können Sie herausstellen, was Sie besonders interessant macht und was Sie von anderen Bewerbern unterscheidet. Auch ein persönliches Interesse, das sich mit dem Job gut verbinden lässt, kann für Sie sprechen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n063"
+        }
+      ]
+    },
+    "n061": {
+      "id": "n061",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schreiben Sie zuerst Ihr berufliches Ziel auf. Das haben Sie bereits formuliert und brauchen Sie hier nur zu kopieren.\r\nSchreiben Sie danach, was Sie zu bieten haben: welche berufliche Erfahrungen, Qualifikationen und Fähigkeiten bringen Sie mit?  Bleiben Sie dabei bei Ihren Kernkompetenzen! Wenn Sie flexibel sind, was den Arbeitsort betrifft, erwähnen Sie es unbedingt! Sie machen sich damit unweit attraktiver! Ein weiterer Tipp: wenn Sie ungekündigt sind, schreiben Sie auch das dazu. Wenn Sie dagegen im Moment arbeitslos sind, sollten Sie das lieber unerwähnt lassen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n064"
+        }
+      ]
+    },
+    "n062": {
+      "id": "n062",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir haben Ihren Gesprächspartner jetzt entspannt und ihm gesagt, dass jeder zwei, drei Firmen oder Leute aus Firmen kennt. Nachdem wir seine Blockade im Kopf gelöst haben, ist die Wahrscheinlichkeit viel größer, dass er sich jetzt erinnert: „Stimmt, ich kenne auch zwei, drei Leute!“ Vielleicht fällt ihm dann sogar ein, dass er jemanden bei einem großen, internationalen Unternehmen kennt. Gerade bei größeren Firmen reicht es häufig sogar, wenn man nur eine dort tätige Person kennt. Das Netzwerk dieser Person ist in der Regel so groß, dass es leicht ist, über sie an Menschen zu kommen, die bspw. in der Marketing- und PR-Abteilung arbeiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n065"
+        }
+      ]
+    },
+    "n063": {
+      "id": "n063",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nennen Sie zudem den möglichen Eintrittstermin und verzichten Sie auf die Angabe von Gehaltswünschen (dies ist eine gute Frage im Vorstellungsgespräch).\r\n\r\nZum Schluss kündigen Sie an, dass Sie sich telefonisch bei Ihrem Gesprächspartner melden werden und rufen Sie pünktlich zu dem Termin an! Sie verbauen sich sonst jede Chance auf eine mögliche Anstellung! Schreiben Sie beispielsweise: „Ich werde Sie am Dienstag, den 14.3., um 15 Uhr anrufen, um meine Unterlagen näher mit Ihnen zu besprechen.“\r\n\r\nErzeugen Sie noch einmal erhöhte Aufmerksamkeit, wenn Sie in einer freundlichen Anmerkung (PS) einen zusätzlichen Aspekt aufgreifen, der für Sie spricht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n066"
+        }
+      ]
+    },
+    "n064": {
+      "id": "n064",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Versetzen Sie sich beim Formulieren Ihres Gesuchs in die Lage des Personalleiters: wird Ihre Wortwahl dazu führen, dass er Sie kontaktiert? Fragen Sie Freunde und Bekannte, wie überzeugend Ihr Stellengesuch ist. Vielleicht haben Sie auch jemanden im Freundeskreis, der häufiger mit Bewerbungen zu tun hat und Ihnen Feedback geben kann. \r\nRufen Sie auch unsere Experten an und lassen Sie sich Tipps und Unterstützung geben!",
+      "props": {},
+      "next": [
+        {
+          "to": "n067"
+        }
+      ]
+    },
+    "n065": {
+      "id": "n065",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jetzt motiviert man den anderen: man hat ihm zuerst gesagt, was man will und zwar mit Respekt. Man hat einen zeitlichen Rahmen gesteckt und ihn darauf hingewiesen, dass dieser ausgeschöpft ist und so das Vertrauen vertieft. Man hat ihm gesagt: ‚Du musst mir gar nichts geben’, damit er sich entspannen konnte und dann seinem Gehirn gesagt: ‚Du kennst ja auch 2-3 Kontakte’. Daraufhin fällt ihm ein: ‚Ja, stimmt.’ und er fängt jetzt an zu überlegen, wen er alles kennt. \r\nEs kann sein, dass Ihr Gesprächspartner sofort jemanden nennt, der genau das bietet, wonach Sie suchen. Wenn ihm jedoch spontan niemand einfällt, ist es jetzt wichtig, dass die Person ein möglichst gutes Gefühl dabei hat, einen Kontakt zu nennen. \r\nDafür ist das nächste Element von Bedeutung: Sie bieten der Person etwas an. Sie sagen also: \r\n„Ganz kurz vorneweg, was mir ganz wichtig ist: ich bin jetzt in der Situation, in der ich einen Job suche.  Und wie wir wissen, kann man sich in unserer verrückten Zeit heute auf vieles nicht mehr verlassen. Sollten Sie mal irgendwann in derselben Situation wie ich stecken, was ich Ihnen um Gottes willen nicht wünsche, können Sie jederzeit auf mich zurückkommen. Ich finde es sehr aufmerksam von Ihnen, dass Sie sich die Zeit nehmen und möchte betonen: ich baue mir im Moment eine richtig umfassende Excel-Datei mit allen möglichen Informationen zu Kontakten, Firmen usw. auf und kann Ihnen damit vielleicht zukünftig auch mal ein paar gute Tipps geben.“ \r\n\r\nIn dem Moment wird aus dem Gespräch eine echte Win-Win-Situation für die Person! Und wenn sie dieses Gefühl hat, erhöht sich die Chance, das sie Ihnen einige Kontakte zu Menschen oder Firmen nennen wird. \r\n\r\nWichtig ist jetzt: schreiben Sie alles mit und hören Sie gut zu! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n068"
+        }
+      ]
+    },
+    "n066": {
+      "id": "n066",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Weitere Tipps für Ihr überzeugendes Anschreiben:\r\n\r\nVerwenden Sie Superlative bei Ihren Formulierungen, beispielsweise: \r\n\r\n„Ich besitze umfassende Erfahrung im Bereich XYZ.“\r\n„Mit mir stellen Sie eine sehr zielstrebige und verlässliche Mitarbeiterin ein.“\r\n„Ich bin sehr stark im Projektmanagement.“\r\n\r\n\r\nSammeln wir direkt einige Superlative für Ihr Initiativanschreiben! \r\n\r\nNehmen Sie Ihr Anschreiben zur Hand und gucken Sie, wo Sie mit den Formulierungen noch etwas „auftrumpfen“ können.\r\n\r\nLos geht‘s!\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n069"
+        }
+      ]
+    },
+    "n067": {
+      "id": "n067",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie sollten auf jeden Fall Ihre Telefon- oder Faxnummer angeben, um es dem Personaler leicht zu machen Sie zu erreichen! Meist sind diese Felder in den Formularen eh Pflichtfelder. Umso besser! Bereiten Sie sich darauf vor, dass einige Arbeitgeber tatsächlich zum Hörer greifen werden, um sich ein erstes Bild von Ihnen zu machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n070"
+        }
+      ]
+    },
+    "n068": {
+      "id": "n068",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie jetzt danach fragen, ob Sie die Nummer der Kontaktpersonen bekommen, zögern viele hier. Setzen Sie direkt ein und sagen Sie: \r\n„Ich verstehe, dass Sie Ihre Kontakte zuerst anrufen und fragen wollen. Da ich mich gerade von Morgens bis Abends mit der Jobsuche und Recherche befasse, vergehen so vielleicht wieder 4-5 Tage und Sie haben zusätzlich ein weiteres To-do auf Ihrer Liste. Daher würde ich Ihnen anbieten, dass Sie es nicht mit auf Ihre Agenda setzen müssen und würde ganz freundlich und vorsichtig anrufen. Natürlich erwähne ich auch gleich, dass ich die Nummer von Ihnen habe. Gern kann ich auch vorher per E-Mail anfragen und Sie auf CC setzen. Ich werde in jedem Fall sehr vorsichtig und höflich sein.“\r\n\r\nViele werden Ihnen jetzt die Kontaktadressen geben, wenn Sie es vorher noch nicht getan haben. Es wird immer noch einige geben, die Ihre Kontakte zuerst anrufen wollen. Dann ist es wichtig, dass Sie fragen: \r\n„Wann darf ich Sie daran erinnern, Ihren Bekannten zu kontaktieren?“ \r\nNotieren Sie sich den Termin in Ihrer Excel-Datei in der Spalte ‚Wiedervorlage’. Rufen Sie zum vereinbarten Termin an und haken Sie nach, ob Ihr Gesprächspartner seinen Kontakt bereits gefragt hat. Falls nicht, sagen Sie: \r\n„Es würde mir wirklich viel daran liegen, wenn Sie Ihren Kontakt fragen könnten, ob ich mich bei ihm melden kann. Falls Sie ihn noch nicht erreicht haben, versuche ich es gern selbst und werde dabei selbstverständlich ganz höflich und vorsichtig sein.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n071"
+        }
+      ]
+    },
+    "n069": {
+      "id": "n069",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und die Form des Anschreibens?\r\n\r\nVon der Form her sieht das Anschreiben für die Initiativbewerbung aus wie das für die „normale“ Bewerbung. Statt der gewohnten Einleitung beziehen Sie sich allerdings auf einen konkreten Anlass, zum Beispiel das vorausgegangene Telefonat, die Internetseite der Firma, eine interessante Pressemitteilung oder eine Empfehlung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n072"
+        }
+      ]
+    },
+    "n070": {
+      "id": "n070",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein ganz wichtiger Tipp: \r\n\r\nWenn Sie einen Anrufbeantworter geschaltet haben, sollten Sie sich einen seriösen Ansagetext überlegen. Nennen Sie dabei Ihren vollen Namen und dass Sie zurückrufen, wenn Ihr Gesprächspartner Namen und Telefonnummer sowie eine günstige Zeit für einen Rückruf hinterlässt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n073"
+        }
+      ]
+    },
+    "n071": {
+      "id": "n071",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Beweisen Sie zum Schluss noch einmal Ihren Servicegedanken, indem Sie sagen: „Unser Gespräch hat jetzt 6 Minuten gedauert, also 2-3 länger als geplant. Das tut mir leid.“ Ihr Gesprächspartner sieht auf diese Weise nochmals, dass Sie bemüht und aufmerksam sind. \r\nAm Ende folgt die freundliche Verabschiedung und Ihr Dank für seine Zeit und Unterstützung, also: „Vielen Dank für Ihre Zeit und Hilfe und einen schönen verbleibenden Tag.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n074"
+        }
+      ]
+    },
+    "n072": {
+      "id": "n072",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was fehlt noch?\r\n\r\nIhr Lebenslauf, ein Bewerbungsfoto (wobei das weniger zwingend als bei der Bewerbung auf eine ausgeschriebene Stelle ist) und der Hinweis, dass bei Interesse alle Unterlagen zur Verfügung gestellt werden.\r\n\r\nFalls Sie keine komplette Bewerbungsmappe erstellen wollen, sollte die Abschlussformulierung den Zusatz enthalten, auf Wunsch die komplette Bewerbung nachzureichen. Fügen Sie in diesem Fall aber mindestens Ihren Lebenslauf bei.\r\n\r\nSchicken Sie Ihre Unterlagen per E-Mail ab, da die meisten Firmen diese oft nicht zurückschicken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n075"
+        }
+      ]
+    },
+    "n073": {
+      "id": "n073",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das firmeneigene Bewerbungsformular\r\n\r\nEinige Firmen verwenden mittlerweile eigene Standardformulare, die es auszufüllen gilt. Es erspart den Firmen viel Verwaltungsaufwand und Papierfluten. Außerdem kann der Fragenkatalog der Unternehmen den jeweiligen Anforderungen des gesuchten Stellenprofils angepasst werden. So erhalten die Firmen alle Informationen, die sie brauchen und das Onlineformular wird zum perfekten \"Filter\" bei der Auswahl der passenden Bewerber. \r\nStoßen Sie also auf ein Onlineformular, nutzen Sie es! Ignorieren Sie es nämlich, machen Sie dem Personalchef nur unnötige Arbeit und müssen außerdem damit rechnen, dass er Ihre Bewerbung ignoriert.\r\n\r\nBevor Sie ein solches Formular ausfüllen, sollten Sie sich alle notwendigen Unterlagen bereitlegen. Oft werden Sie nämlich nach einer Weile der Inaktivität wieder ausgeloggt und müssen mit Ihren Angaben dann von vorne anfangen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n076"
+        }
+      ]
+    },
+    "n074": {
+      "id": "n074",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Mit dem Telefonleitfaden, den Sie vorhin herunterladen konnten, wird es Ihnen leicht fallen, selbst bei Ihnen unbekannten Menschen oder Leuten, mit denen Sie seit Ewigkeiten nicht mehr gesprochen haben, Kontakt aufzunehmen. Sie werden mit jedem Gespräch selbstbewusster und sicherer.\r\n\r\nSchreiben Sie uns gleich nach unserem Coaching eine Eamil und probieren Sie, wie leicht Sie mit dem Leitfaden an Kontakte und Informationen für Ihre Jobsuche kommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n075": {
+      "id": "n075",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nach Ihrer Initiativbewerbung\r\n\r\nGreifen Sie erneut zum Hörer und demonstrieren Sie Engagement und echtes Interesse!\r\n\r\nStarten Sie wiederum stark: sprechen Sie laut und deutlich, stellen Sie sich vor und nennen Sie kurz Ihren Anrufrund: \r\n\r\n„Guten Tag, Frau/ Herr XYZ! Mein Name ist Konstanze Klein und ich habe Ihnen vor zwei Tagen meine Bewerbungsunterlagen zukommen lassen. Wenn Sie schon die Möglichkeit hatten, einen Blick darauf zu werfen, würde ich gern mit Ihnen darüber sprechen. Vielleicht haben Sie gerade fünf Minuten Zeit?“\r\n\r\nHierfür sind wiederum Ihre Einminutenpräsentation, Ihre Ende-Erklärung, Ihre berufliche Zielsetzung und Ihre Erfolgsgeschichten gefragt - je nachdem, was davon Sie im ersten Telefonat noch nicht eingebracht haben.\r\n\r\nBedanken Sie sich zum Schluss für das freundliche Gespräch und verabschieden Sie sich. Nennen Sie an dieser Stelle noch einmal den Namen Ihres Ansprechpartners, um so eine letzte persönliche Note in das Gespräch einzubauen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n078"
+        }
+      ]
+    },
+    "n076": {
+      "id": "n076",
+      "type": "Text",
+      "key": null,
+      "title": "Für weitere Tipps rund um Ihre Online-Bewerbung fragen Sie unsere Experten am Telefon! Wir drücken Ihnen an dieser Stelle erstmal die Daumen und wünschen viel Erfolg beim Bewerben!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n079"
+        }
+      ]
+    },
+    "n077": {
+      "id": "n077",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die richtige Nachbereitung\r\n\r\nNach Ihrem Gespräch gehört es zu einem guten Stil, wenn man den Kontakt, der einem genannt wurde, möglichst bald anruft bzw. anschreibt. Melden Sie sich anschließend bei der Person, die Ihnen den Kontakt vermittelt hat. Informieren Sie sie über den aktuellen Stand: „Ich habe Person XYZ angerufen. Sie will sich mit mir in den nächsten Tagen treffen.“\r\nSo hat Ihr Gesprächspartner nicht das Gefühl, seine Zeit verschwendet zu haben, sondern dass daraus etwas gemacht wurde. Man schenkt gerne Samen, wenn man sieht, dass daraus ein schöner Baum im Garten wurde. Dagegen gibt man ungern Samen her, wenn man sieht, dass dieser ungenutzt in der Speisekammer verschimmelt. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n080"
+        }
+      ]
+    },
+    "n078": {
+      "id": "n078",
+      "type": "Text",
+      "key": null,
+      "title": "Damit Sie nun schnell die ersten Erfolge sehen, haben wir eine kleine Hausaufgabe für Sie:",
+      "text": "Sammeln Sie zehn Wunschfirmen, die derzeit nicht inserieren. Identifizieren Sie Kontaktpersonen, die Sie vorab kontaktieren und zum Zielunternehmen befragen können; Es besteht die Chance, dass Sie den ein oder anderen finden, der relevante Informationen für Sie hat!\n\nMachen Sie bis zu unserer nächsten Coaching-Einheit drei Anrufe! Wenn Sie gut sind, schaffen Sie fünf! Sie werden sehen, wie viel leichter es bei jedem Anruf wird und wie souverän Sie im Laufe der Gespräche werden. \n\nDie Gespräche sind zusätzlich eine hervorragende Übung für spätere Vorstellungsgespräche, in denen Sie sich mit Ihren Präsentationen ebenso „verkaufen“ müssen. Sie können dadurch nur gewinnen, wenn Sie einfach mal zum Hörer greifen und die Firmen direkt kontaktieren. Man wird Ihren Mut zu schätzen wissen!\n\nAlso viel Erfolg!",
+      "props": {},
+      "next": [
+        {
+          "to": "n081"
+        }
+      ]
+    },
+    "n079": {
+      "id": "n079",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Initiativbewerbung und andere Alternativen\"",
+      "text": "Zum Schluss unseres Coachings haben wir eine kleine Hausaufgabe für Sie: Sammeln Sie zehn Wunschfirmen, die derzeit nicht inserieren. Identifizieren Sie Kontaktpersonen, die Sie vorab kontaktieren und zum Zielunternehmen befragen können; Es besteht die Chance, dass Sie den ein oder anderen finden, der relevante Informationen für Sie hat!\n\nMachen Sie bis zu unserem nächsten Coaching drei Anrufe! Wenn Sie gut sind, schaffen Sie fünf! Sie werden sehen, wie viel leichter es bei jedem Anruf wird und wie souverän Sie im Laufe der Gespräche werden. \n\nDie Gespräche sind zusätzlich eine hervorragende Übung für spätere Vorstellungsgespräche, in denen Sie sich mit Ihren Präsentationen ebenso „verkaufen“ müssen. Sie können dadurch nur gewinnen, wenn Sie einfach mal zum Hörer greifen und die Firmen direkt kontaktieren. Man wird Ihren Mut sehr schätzen!\n\nAlso viel Erfolg!",
+      "props": {},
+      "next": [
+        {
+          "to": "n082"
+        }
+      ]
+    },
+    "n080": {
+      "id": "n080",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was Sie in dieser Lektion gelernt haben, ist wirklich gutes Netzwerken! Sie sind vielleicht in das Coaching gekommen, um zu lernen, wie man über Netzwerkgespräche an Kontakte zu Firmen oder an geeignete Stellen kommt. Aber in Wirklichkeit haben Sie gelernt, wie man richtig gutes Netzwerken betreibt! \r\nWenn Sie den guten Stil in der Kommunikation, die Aufbereitung des Gesprächs und auch die Tricks, die wir Ihnen beigebracht haben, beibehalten, sind Sie jetzt schon ein besserer Netzwerker! Egal für welche Situation: ob es um einen neuen Job geht, um Kommunikation im Vertrieb oder um andere Anfragen jeder Art. Wenn Sie dieses Wissen zukünftig einsetzen, haben Sie einen klaren Kommunikationsvorteil anderen Menschen gegenüber. Das alleine macht Sie souveräner und erfolgreicher in Ihrem Job!",
+      "props": {},
+      "next": [
+        {
+          "to": "n083"
+        }
+      ]
+    },
+    "n081": {
+      "id": "n081",
+      "type": "Options",
+      "key": "4a75e29f757b41fd9d20b7b7d8a3946d",
+      "title": "Willkommen im Coaching! Sie haben jetzt die Möglichkeit selbst das Thema mit dem sie fortfahren wollen zu wählen. Da die Coachings thematisch aufeinander aufgebaut sind, empfehlen wir Ihnen die Coachings von oben nach unten zu durchlaufen.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Initiativbewerbung und andere Alternativen"
+          },
+          {
+            "key": "2",
+            "value": "Kontakte nutzen"
+          },
+          {
+            "key": "3",
+            "value": "Coaching beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "4a75e29f757b41fd9d20b7b7d8a3946d is '1'"
+        },
+        {
+          "to": "n002",
+          "if": "4a75e29f757b41fd9d20b7b7d8a3946d is '2'"
+        },
+        {
+          "to": null,
+          "if": "4a75e29f757b41fd9d20b7b7d8a3946d is '3'"
+        }
+      ]
+    },
+    "n082": {
+      "id": "n082",
+      "type": "Options",
+      "key": "b6b45314e4954d18a0ac7303bac839ce",
+      "title": "Willkommen im Coaching! Sie haben jetzt die Möglichkeit selbst das Thema mit dem sie fortfahren wollen zu wählen. Da die Coachings thematisch aufeinander aufgebaut sind, empfehlen wir Ihnen die Coachings von oben nach unten zu durchlaufen.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Kontakte nutzen"
+          },
+          {
+            "key": "2",
+            "value": "Die Initiativbewerbung"
+          },
+          {
+            "key": "3",
+            "value": "Coaching beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "b6b45314e4954d18a0ac7303bac839ce is '1'"
+        },
+        {
+          "to": "n006",
+          "if": "b6b45314e4954d18a0ac7303bac839ce is '2'"
+        },
+        {
+          "to": null,
+          "if": "b6b45314e4954d18a0ac7303bac839ce is '3'"
+        }
+      ]
+    },
+    "n083": {
+      "id": "n083",
+      "type": "Text",
+      "key": null,
+      "title": "Erfolgreich Kontakte per E-Mail pflegen\r\n\r\nFür den Fall, dass Ihnen das Telefonieren so gar nicht liegt, können Sie den Mailleitfaden, den Sie bereits einige Schritte zuvor heruntergeladen haben, nutzen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n084"
+        }
+      ]
+    },
+    "n084": {
+      "id": "n084",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie kann ein Leitfaden für Ihre schriftliche Kommunikation aussehen?\r\n\r\n1. Begrüßung und Einstieg:\r\nHallo, mein Name ist Frau Tina Krüger. Ich habe Ihre E-Mail- Adresse von dem Herrn Riegel, der mir empfohlen hat, Sie zu kontaktieren. Ich hoffe, es kommt derzeit nicht ungelegen. \r\n\r\n2. Zielführende Begriffe integrieren \r\nIch weiß nicht, ob Sie mir vielleicht helfen können. \r\n\r\n3. Das zeitliche ‚Ok’ einholen\r\nFalls Sie gerade 3-5 Minuten Zeit haben:\r\n\r\n4. Ihre Einminutenpräsentation \r\nIch bin derzeit auf Jobsuche bzw. suche Firmen, die Stellen anbieten. Mir reichen auch schon Kontakte zu Menschen, die in dem entsprechenden Bereich tätig sind, der mich interessiert.\r\nPLUS Ihre Einminutenpräsentation!\r\n\r\n5. Blockaden lösen\r\nIch weiß, direkt gefragt, fällt einem häufig nichts ein, aber jeder Mensch kennt ja häufig 2, 3 Leute oder Firmen. \r\nFalls Ihnen also jemand einfällt, würde ich mich sehr freuen. \r\n\r\n6. Den anderen motivieren\r\nSelbstverständlich können Sie jederzeit auf mich zukommen, wenn Sie selbst mal in einer ähnlichen Situation sind, wie ich derzeit. Ich würde mich freuen, Ihnen dann mit Informationen zu Kontakten oder Firmen weiterzuhelfen.\r\n\r\n7. Verabschiedung und Dank\r\nIch danke Ihnen sehr für Ihre Zeit und Unterstützung und wünsche Ihnen einen schönen verbleibenden Tag!\r\n\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n085"
+        }
+      ]
+    },
+    "n085": {
+      "id": "n085",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Online erfolgreich netzwerken\r\n\r\nNeben der E-mail- Kommunikation können Sie mittlerweile auch über zahlreiche Plattformen im Internet Kontakte zu Geschäftspartner, Kollegen und Kunden knüpfen oder alte Schulkameraden wiederfinden. Spannende Adressen für Sie können sein:\r\n\r\n* Xing – hier gibt es den Unterschied zwischen einer Basis- und Premiummitgliedschaft. Für Letztere zahlen Sie derzeit 4,95 € pro Monat und können mit dieser auch Kontakte direkt anschreiben. Wenn Sie selber die 4,95 € nicht investieren wollen, fragen Sie einen Freund, ob er Ihnen die Kontaktadressen gibt.\r\n\r\n* LinkedIn – Auch hier haben Sie die Wahl zwischen einem Standard- und verschiedenen Businessaccounts. Nachrichten an Mitglieder können Sie hier kostenlos empfangen und senden.\r\n\r\n* Webgrrls (www.webgrrls.de) - Netzwerk für weibliche Fach- und Führungskräfte im Bereich Neue Medien in Deutschland, die Mitgliedschaft pro Jahr beträgt 60€.  \r\n\r\n* Friendster (www.friendster.com) - Mehr als 24 Millionen Kontakte weltweit, kostenlose Mitgliedschaft.\r\n\r\n* StayFriends (http://www.stayfriends.de) - Das Portal erlaubt es Ihnen, kostenlos ehemalige Klassenkameraden und Schulfreunde wiederzufinden.\r\n\r\n* Facebook (www.facebook.com) - Hier können Sie mir mittlerweile mehr als 400 Millionen Mitglieder weltweit in Kontakt treten! Aber Achtung: Arbeitgeber verschaffen sich mittlerweile auch über soziale Netzwerke gern ein erstes Bild von ihren Bewerbungskandidaten. Also achten Sie darauf, wie Sie sich hier präsentieren! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n086"
+        }
+      ]
+    },
+    "n086": {
+      "id": "n086",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Kontakte wollen gepflegt werden!\r\n\r\nNehmen Sie also regelmäßig Kontakt auf und informieren Sie über Ihren aktuellen Stand in der Jobsuche. Ihr Kontakt wird Sie einmal mehr für zuverlässig und bemüht halten!\r\n\r\nZu wissen, wie ein gutes Gespräch aussieht, ist das eine. Es selbst probieren das andere! Durch eigene Gespräche und mit Hilfe unseres Leitfadens gewinnen Sie mehr und mehr an Sicherheit und Souveränität!\r\n\r\nDaher erledigen Sie bitte bis zu unserem nächsten Coaching folgende Aufgabe: \r\n\r\nKontaktieren Sie fünf bis acht Ihrer Kontakte und fragen Sie sie nach Firmen, zu besetzenden Stellen und nach Menschen in Unternehmen, die Ihnen Jobs vermitteln können. Werden Sie aktiv und treiben Sie Ihre Jobsuche voran!\r\n\r\nWenn Sie Hilfe benötigen, sind unsere Experten für Sie telefonisch da! Viel Erfolg und gutes Gelingen beim Üben!",
+      "props": {},
+      "next": [
+        {
+          "to": "n087"
+        }
+      ]
+    },
+    "n087": {
+      "id": "n087",
+      "type": "Options",
+      "key": "7ac5e8fef77640a3ad6bea57c3931e18",
+      "title": "Willkommen im Coaching! Sie haben jetzt die Möglichkeit selbst das Thema mit dem sie fortfahren wollen zu wählen. Da die Coachings thematisch aufeinander aufgebaut sind, empfehlen wir Ihnen die Coachings von oben nach unten zu durchlaufen.",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Initiativbewerbung und andere Alternativen"
+          },
+          {
+            "key": "2",
+            "value": "Die Initiativbewerbung"
+          },
+          {
+            "key": "3",
+            "value": "Coaching beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "7ac5e8fef77640a3ad6bea57c3931e18 is '2'"
+        },
+        {
+          "to": null,
+          "if": "7ac5e8fef77640a3ad6bea57c3931e18 is '3'"
+        },
+        {
+          "to": "n004",
+          "if": "7ac5e8fef77640a3ad6bea57c3931e18 is '1'"
+        }
+      ]
+    }
+  }
+}

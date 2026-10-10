@@ -1,0 +1,221 @@
+{
+  "key": "slc-hilfsmittel",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Hilfsmittel_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "0060ff70a00c4bf298d34d0b88eeaace",
+      "title": "Hier finden Sie die pflanzlichen Produkte, für die die meisten positiven Erfahrungen und nachgewiesenen Wirksamkeiten vorliegen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Hilfsmittel_V2.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Hopfen"
+          },
+          {
+            "key": "2",
+            "value": "Baldrian"
+          },
+          {
+            "key": "3",
+            "value": "Passionsblume"
+          },
+          {
+            "key": "4",
+            "value": "Melisse"
+          },
+          {
+            "key": "5",
+            "value": "Kawain"
+          },
+          {
+            "key": "6",
+            "value": "Omas Rezept"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "0060ff70a00c4bf298d34d0b88eeaace is '1'"
+        },
+        {
+          "to": "n004",
+          "if": "0060ff70a00c4bf298d34d0b88eeaace is '2'"
+        },
+        {
+          "to": "n005",
+          "if": "0060ff70a00c4bf298d34d0b88eeaace is '3'"
+        },
+        {
+          "to": "n006",
+          "if": "0060ff70a00c4bf298d34d0b88eeaace is '6'"
+        },
+        {
+          "to": "n007",
+          "if": "0060ff70a00c4bf298d34d0b88eeaace is '4'"
+        },
+        {
+          "to": "n008",
+          "if": "0060ff70a00c4bf298d34d0b88eeaace is '5'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Naturheilkundliche Hilfsmittel - Hopfen\n\nEmpfehlung\nHopfen (Humulus lupulus). Was steckt dahinter?\nHopfen ist eine der ältesten menschlichen Kulturpflanzen und wird neben der Bierherstellung für eine Vielzahl an medizinischen Indikationen verwendet.\n\nDie sogenannten Hopfendolden haben verschiedene wirksame Inhaltsstoffen, von denen uns jedoch nur die Harze mit den Hopfenbittersäuren Humulon und Lupulon interessieren, da diesen die beruhigende und schlaffördernde Wirkung zugeschrieben wird.\n\nEinnahme\nHopfen wird als Tee-Aufguss ca. 30 Minuten vor dem Schlafengehen genossen. 5 Minuten ziehen lassen.\n\nP.S.:\nHopfen können Sie selbst anbauen oder in Apotheken und Reformhäusern kaufen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Naturheilkundliche Hilfsmittel - Baldrian\n\nEmpfehlung\nBaldrian (Valeriana officinalis).Was steckt dahinter?\nSchon seit der griechischen Antike werden Baldraintropfen zur Beruhigung und vor allen Dingen Schlafförderung gegeben.\nInzwischen konnte wissenschaftlich nachgewiesen werden, dass das sogenannte Lignan, ein Inhaltsstoff des Baldrian im Gehirn als Gegenspieler des Koffeins wirkt, was seine schlaffördernde Wirkung erklärt.\n\nEinnahme\nUm eine spürbaren Effekt zu bekommen, wird eine Tagesdosis von 2-3g empfohlen.\nDazu gibt es frei verkäuflich Dragees, Badezusätze und Tees.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Naturheilkundliche Hilfsmittel - Passionsblume\n\nEmpfehlung\nPassionsblume (Passiflora).Was steckt dahinter?\nEine ebenfalls seit Jahrhunderten bekannte Heilpflanze. \n\nEinnahme\nAls Tee oder Tinktur 30 Minuten vor dem zu Bett gehen getrunken, wirkt auch sie schlaffördernd.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Naturheilkundliche Hilfsmittel - Omas Rezept\n\nEmpfehlung\nNeben warmem Bier(!), warmer Milch mit Honig, hat sich besonders folgende Rezeptur bewährt: \n\nTeemischung gegen Schlaflosigkeit: \n\n    * Angelikawurzel 20,0 g\n    * Rosmarinblätter 10,0 g\n    * Melissenblätter 30,0 g\n    * Lavendelblüten 10,0 g\n    * Hopfendolden 20,0 g\n    * Schafgarbenkraut 10,0 \n",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Naturheilkundliche Hilfsmittel - Melisse\n\nEmpfehlung\nMelisse (Mellissa officinalis).Was steckt dahinter?\nMelisse wird in Deutschland auch als Zitronenmelisse bezeichnet.\nDiese Pflanze wird seit der Antike als Beruhigungsmittel und Schlafmedikament verwendet. Melisse gibt es bereits als fertige Teemischungen im Supermarkt, meistens ist der tatsächliche Gehalt an Melisse dort eher gering.\nBesser ist es daher Sie kaufen sich frische Melisse.\n\nEinnahme\n5 Minuten Tee-Aufguss, den Sie 30 Minuten vor dem zu Bett gehen trinken sollten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Naturheilkundliche Hilfsmittel - Kawain\n\nEmpfehlung\nKawain (Extractum Kava) und Kamille. Was steckt dahinter?\nKawain und Kamille sind weitere Pflanzen, denen, zwar geringere, aber trotz allem schlaffördernde Wirkungen zugeschrieben werden.\n",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "3a64c2305a8f44099c8aa820c7f1ba75",
+      "title": "Zurück zur Auswahl oder weiter?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Hilfsmittel_V3.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Zurück"
+          },
+          {
+            "key": "2",
+            "value": "Weiter"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "3a64c2305a8f44099c8aa820c7f1ba75 is '2'"
+        },
+        {
+          "to": "n002",
+          "if": "3a64c2305a8f44099c8aa820c7f1ba75 is '1'"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Hilfsmittel_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

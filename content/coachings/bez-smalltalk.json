@@ -1,0 +1,358 @@
+{
+  "key": "bez-smalltalk",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Welche Themen sind denn gute Small-Talk-Themen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung - Klassiker ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Klassiker Zusatz und Wetter",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Klassiker Ort",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Spannendes, Filme",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Nicht günstig",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "No-Go Liste",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "No-Goes",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Referenz auf Locken und Reizen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Welche Emotionen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es gibt viele gute Emotionen:\n\n* Sich freuen, Dinge mögen, genießen\n* Wertschätzung, Dankbarkeit\n* Sich über Dinge ärgern. Auch das finden andere interessant\n* Sich wundern\n\nNicht so gut sind Emotionen, die man ungern mit Fremden teilt, weil man überfordert wird. Z.B. Krankheiten, Armut, komplexere Familien- oder Eheprobleme, depressive Themen, Probleme mit dem Arbeitsplatz.. Dinge zu denen der Andere nicht mit zwei Sätzen etwas Passendes sagenkann.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Offene Fragen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Punkte unterbringen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Übungen: Urlaub --> Abend, Spaziergang",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Aufgabe war:\n\nWie könnten Sie im Gespräch von dem Thema Urlaub überleiten zu einem Geburtstagsfest, einem gemeinsamen (Abend-)Essen und einem Spaziergang.\n\nMachen Sie sich, falls noch nicht geschehen, eine Minute Gedanken und klicken dann auf weiter.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Übungen Auflösungen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Schwierigkeiten - Aus dem Gespräch gehen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SmallTalk_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Noch ein Tipp zum plötzlichen Abbruch eines Gesprächs:\n\nGeben Sie dem Anderen weniger Signale wie Blickkontakt.\n\nWenn der Andere nach einem Folgetreffen, der Nummer oder Email-Adresse fragt, dies ablehnen. Gern mit einer Ausrede: \"Derzeit zu sehr mit Beruflichem beschäftigt.\", \"Gebe nie auf Anhieb meine Daten.\"",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

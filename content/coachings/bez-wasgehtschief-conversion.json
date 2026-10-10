@@ -1,0 +1,48 @@
+{
+  "key": "bez-wasgehtschief-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Buy",
+      "key": null,
+      "title": "Oma Reiszleine & buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V2.flv"
+        },
+        "key": "bez-wasgehtschief-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

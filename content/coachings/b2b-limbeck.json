@@ -1,0 +1,513 @@
+{
+  "key": "b2b-limbeck",
+  "domain": "b2b",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "BulletPoints",
+      "key": "b2b_limbeck_name",
+      "title": "Willkommen im Coaching Hardselling mit Martin Limbeck.  Sie möchten gerne ein Hardseller werden? In diesem Coaching verbessern Sie:",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "Ihre Einstellung",
+            "second": 3
+          },
+          {
+            "element": "Ihre Weiterbildung",
+            "second": 5
+          },
+          {
+            "element": "Ihre Begrüßung ",
+            "second": 7
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "TextInput",
+      "key": "b2b_limbeck_name",
+      "title": "Mich kennen Sie vielleicht schon, ich bin Martin Limbeck: Martin Limbeck vom Martin Limbeck Trainings Team. Und Sie sind?",
+      "text": "",
+      "props": {
+        "type": "char"
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "ImageStack",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "title1_einstellung.png",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "b2b_limbeck_beschwerden",
+      "title": "Über was beschweren Sie sich bei Ihren Kollegen?",
+      "text": "Schreiben Sie mindestens 5 Punkte auf, über die Sie sich heute oder sogar regelmäßig beschweren.",
+      "props": {
+        "video": {
+          "url": "B2B_Limbeck_V1.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 64,
+            "url": ""
+          }
+        ],
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n005"
+        },
+        {
+          "to": "n006",
+          "if": "b2b_limbeck_beschwerden lt 5"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "List",
+      "key": "b2b_limbeck_beschwerden",
+      "title": "Was für Erfolge können Sie berichten?",
+      "text": "Löschen Sie Ihre negativen Aussagen in der Liste und überschreiben Sie sie mit Ihren Erfolgen.",
+      "props": {
+        "video": {
+          "url": "B2B_Limbeck_V2.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 47,
+            "url": ""
+          }
+        ],
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "List",
+      "key": "b2b_limbeck_beschwerden",
+      "title": "Na, ein paar mehr Punkte fallen Ihnen sicherlich noch ein. Was könnte gerade besser laufen bei Ihnen?",
+      "text": "Schreiben Sie mindestens 5 Punkte auf, über die Sie sich heute oder sogar regelmäßig beschweren.",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "List",
+      "key": "b2b_limbeck_beschwerden",
+      "title": "Was sagen Ihre Freunde?",
+      "text": "Es muss ja nicht gleich die Financial Times sein. Wenn ich Ihre Familie, Ihre Freunde, Ihre Kollegen frage, welche Erfolge Sie verzeichnen können, was würden sie antworten? Wofür haben Sie schon Auszeichnungen bekommen? Wann waren Sie besser als andere? Ergänzen Sie Ihre Liste:",
+      "props": {
+        "video": {
+          "url": "B2B_Limbeck_V3.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 36,
+            "url": ""
+          }
+        ],
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Group",
+      "key": null,
+      "title": "Jetzt haben Sie #b2b_limbeck_beschwerden|'einige' Punkte gesammelt. ",
+      "text": "",
+      "props": {
+        "count": 2
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "ListView",
+      "key": "b2b_limbeck_beschwerden2",
+      "title": "",
+      "text": "Schreiben Sie zu Ihrem ersten Punkt eine kurze Erfolgsgeschichte. Sie werden sehen: Je klarer Sie Ihre Erfolge vortragen können, umso positiver kommen Sie rüber.",
+      "props": {
+        "elements": "#b2b_limbeck_beschwerden",
+        "startIndex": 1,
+        "endIndex": 1
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "TextArea",
+      "key": "b2b_limbeck_storiezu1",
+      "title": "",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "ImageStack",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "title2_begruessung.png",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "b2b_limbeck_weiterbildung",
+      "title": "Was tun Sie, um sich beruflich auf dem Laufenden zu halten?",
+      "text": "Bitte tragen Sie ein, womit Sie sich regelmäßig weiterbilden.",
+      "props": {
+        "video": {
+          "url": "B2B_Limbeck_V6.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 33,
+            "url": ""
+          }
+        ],
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "b2b_limbeck_weiterbildung lt 5 and b2b_limbeck_weiterbildung gt 2"
+        },
+        {
+          "to": "n014",
+          "if": "b2b_limbeck_weiterbildung lt 3"
+        },
+        {
+          "to": "n015",
+          "if": "b2b_limbeck_weiterbildung gt 4"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "List",
+      "key": "b2b_limbeck_weiterbildung2",
+      "title": "#b2b_limbeck_weiterbildung|'Das' ist schon eine ganz gute Zahl.",
+      "text": "Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Es gibt so viele Möglichkeiten, sich weiterzubilden: \n* Seminare, Workshops, Fortbildungen\n* Bücher, Zeitschriften, Fachliteratur\n* Digitale Lernprogramme\n* Austausch über Kollegen und Experten-Netzwerke\n* Konkurrenz beobachten\n* ...\n\nWas könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie eine Liste:",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "b2b_limbeck_weiterbildung2 lt 2"
+        },
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "List",
+      "key": "b2b_limbeck_weiterbildung2",
+      "title": "#b2b_limbeck_weiterbildung|'Das' ist zuwenig!",
+      "text": "Es gibt so viele Möglichkeiten, sich weiterzubilden: \n* Seminare, Workshops, Fortbildungen\n* Bücher, Zeitschriften, Fachliteratur\n* Digitale Lernprogramme\n* Austausch über Kollegen und Experten-Netzwerke\n* Konkurrenz beobachten\n* ...\nWas können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "b2b_limbeck_weiterbildung2 lt 3"
+        },
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "List",
+      "key": "b2b_limbeck_weiterbildung2",
+      "title": "#b2b_limbeck_weiterbildung|'Das' ist sehr gut. Sie arbeiten offensichtlich kontinuierlich an sich.",
+      "text": "Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken? Es gibt so viele Möglichkeiten, sich weiterzubilden: \n* Seminare, Workshops, Fortbildungen\n* Bücher, Zeitschriften, Fachliteratur\n* Digitale Lernprogramme\n* Austausch über Kollegen und Experten-Netzwerke\n* Konkurrenz beobachten\n* ...\n\nSchreiben Sie eine Liste:",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n017"
+        },
+        {
+          "to": "n016",
+          "if": "b2b_limbeck_weiterbildung2 lt 1"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "List",
+      "key": "b2b_limbeck_weiterbildung2",
+      "title": "Es fallen Ihnen bestimmt noch ein paar Sachen ein.",
+      "text": "Was können Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "List",
+      "key": "b2b_limbeck_weiterbildung2",
+      "title": "Schön, Sie haben also #b2b_limbeck_weiterbildung2|'einige' Punkte gefunden, mit denen Sie sich weiterbilden können.",
+      "text": "Tragen Sie hinter jedem Punkt ein, wann Sie ihn konkret umsetzen möchten. Markieren Sie sich auch Ihren Kalender bzw. Ihre To-Do-Liste.",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "ImageStack",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "title3_begruessung.png",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "TextArea",
+      "key": "b2b_limbeck_vorstellung",
+      "title": "Wie begrüßen Sie einen neuen Kunden?",
+      "text": "Stellen Sie sich vor, Sie begegnen gerade einem neuen Kunden. Was sagen Sie? Sprechen Sie es laut aus und schreiben Sie dann den Wortlaut in das Textfeld.",
+      "props": {
+        "video": {
+          "url": "B2B_Limbeck_V4.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 39,
+            "url": ""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "TextArea",
+      "key": "b2b_limbeck_vorstellung",
+      "title": "Ihre neue Begrüßung",
+      "text": "Löschen Sie Ihre bisherige Begrüßung und formulieren Sie einen neuen Satz, mit dem Sie und Ihr Name Ihren Kunden in Erinnerung bleiben.",
+      "props": {
+        "video": {
+          "url": "B2B_Limbeck_V5.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0,
+            "url": ""
+          },
+          {
+            "type": "show",
+            "second": 37,
+            "url": ""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "ImageStack",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "title4_uebungen.png",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "TextArea",
+      "key": "b2b_limbeck_storiezu1",
+      "title": "Übung 1",
+      "text": "Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Wenn Sie also das nächste Mal gefragt werden \"Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?\", dann antworten Sie:",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "TextArea",
+      "key": "b2b_limbeck_vorstellung",
+      "title": "Übung 2",
+      "text": "Wenn Sie in den nächsten 7 Tagen einen neuen Kunden treffen, stellen Sie sich vor mit:",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlichen Glückwunsch!",
+      "text": "Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie sich in 7 Tagen wieder an und berichten Sie, wie es mit den Übungen gelaufen ist.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

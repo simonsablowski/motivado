@@ -1,0 +1,630 @@
+{
+  "key": "bez-affaere-beziehung-parallel",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Zweigleisig_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine Affäre neben einer festen Partnerschaft zu haben, ist natürlich immer ein Spiel mit dem Feuer. Meist ist nämlich nicht abzuschätzen, was passieren würde, wenn das Ganze durch einen dummen Zufall auffliegen würde. \r\nAls Experte für Beziehung kann ich Ihnen nicht dazu raten. Es gilt das Motto, was Sie nicht selbst erleben wollen, sollten Sie auch niemand anderem zumuten, speziell Ihrem Partner.\r\nLetztlich müssen Sie natürlich selbst entscheiden, wo es für Sie hingehen soll. Wir geben Ihnen in diesem Coaching Fragen und Übungen an die Hand, die Ihnen dabei helfen, sich darüber klar zu werden, was Sie wollen.\r\nUm Sie bei dieser Entscheidungsfindung zu unterstützen, werden wir in diesem Coaching einen Partner-Check für Ihre Beziehung und für Ihre (potenzielle) Affäre durchführen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Aus unserer Sicht ist es zunächst wichtig zu klären, wie es dazu kam, dass Sie eine Affäre eingegangen sind oder darüber nachdenken.\r\nAls Einstieg nehmen Sie sich deshalb nun bitte etwas Zeit und überlegen Sie ganz in Ruhe, worauf Ihr Wunsch nach einer Affäre zurückzuführen sein könnte. Vielleicht sind Sie mit Ihrer aktuellen Beziehung unzufrieden (emotionale Entfernung, sexuelle Frustration, o.a.)? Oder Sie sind eigentlich glücklich mit Ihrem Partner, haben aber jemanden kennengelernt, der Sie so fasziniert, dass Sie nicht von ihm/ihr lassen können? Was immer Ihnen jetzt durch den Kopf geht, schreiben Sie es hier auf! Oft kommt man schon alleine durch das Ausformulieren der eigenen Gedanken und Ideen zu neuen Erkenntnissen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es ist wichtig, dem Partner stets auf Augenhöhe zu begegnen. Nicht nur in der alltäglichen Kommunikation, sondern auch in dem, was man fordert und bietet. \r\nDeshalb stellen Sie sich jetzt bitte auch die Frage: Würde ich meinem Partner auch eine Affäre zugestehen? Und: Würde ich meiner Affäre auch eine Beziehung zugestehen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben sich wahrscheinlich schon Gedanken dazu gemacht, was passieren würde, wenn Ihr Partner von Ihrer Affäre erfahren würde. Vielleicht haben Sie diese Frage auch eher von sich weggeschoben, da das in der Regel keine schöne Vorstellung ist. Aus unserer Sicht ist es wichtig, dass Sie sich der Frage stellen, damit Ihnen klar ist, was für Sie auf dem Spiel steht. Welche Konsequenzen würde es also haben, wenn das geschehen würde? \r\nBitte notieren Sie jetzt dazu alle wichtigen Punkte. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schauen Sie sich Ihre Liste nun bitte in Ruhe an und überlegen Sie zu jedem Punkt: Wie würde ich mich fühlen, wenn diese Konsequenz eintreten würde? Überlegen Sie sich bitte auch: Was wäre meine Back-up Strategie, also wie würde ich reagieren, wenn es tatsächlich dazu kommt? Wer könnte Sie in diesem Moment z.B. unterstützen?\r\nWenn Sie das getan haben, klicken Sie bitte auf “weiter”.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nun schauen wir uns die zwei entsprechenden Personen einmal genauer im Partner-Check an. Um herauszufinden, wie gut Ihr Partner bzw. Ihre Affäre zu Ihnen passt, leiten wir Sie nun zu unserem normalen Partner-Check weiter. Verwenden Sie hier bitte einfach mehrere Farben für die verschiedenen Personen. Lassen Sie sich außerdem nicht davon irritieren, dass wir immer nur von einem Partner, oder 'dem Partner' sprechen. Machen Sie jeweils alles mehrfach für die einzelnen Personen in verschiedenen Farben. Zuletzt können Sie dann die Ergebnisse miteinander vergleichen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Intro-Video PartnerCheck",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Papier-Übung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schritt 1: Wie wichtig ist jeder Punkt?\nBitte notieren Sie links von jedem Punkt Ihre Wertung!\n\n\"Sehr wichtiger Punkt\" = 3 \n\"Wichtiger Punkt\" = 2\n\"Nicht so wichtiger Punkt\" = 1\n\nSchritt 2: Wie gut erfüllt Ihr aktueller Partner diese einzelnen Punkte?\nBitte notieren Sie diese Wertung jeweils rechts von jedem Punkt!\n\n 2 für \"voll erfüllt\"\n 1 für \"recht gut erfüllt\"\n 0 für \"mittelmäßig erfüllt\"\n-1 für \"etwas negativ erfüllt\" oder \"etwas störend\"\n-2 für \"total negativ erfüllt\" oder \"stark störend\"",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schritt 1: Multiplizieren Sie die Werte!\n\nSchritt 2: Teilen Sie die Zahl durch die Anzahl Ihrer Kriterien!",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Options",
+      "key": "d5eb6e0a070e4ddc9ec698393e1f4952",
+      "title": "Auf welchen Wert sind Sie gekommen? Ih r Wert sollte zwischen -6 und 6 liegen",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "0-2"
+          },
+          {
+            "key": 2,
+            "value": "2-4"
+          },
+          {
+            "key": 3,
+            "value": "4-6"
+          },
+          {
+            "key": 4,
+            "value": "-6 bis -1"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "d5eb6e0a070e4ddc9ec698393e1f4952 is 1"
+        },
+        {
+          "to": "n014",
+          "if": "d5eb6e0a070e4ddc9ec698393e1f4952 is 2"
+        },
+        {
+          "to": "n015",
+          "if": "d5eb6e0a070e4ddc9ec698393e1f4952 is 3"
+        },
+        {
+          "to": "n016",
+          "if": "d5eb6e0a070e4ddc9ec698393e1f4952 is 4"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V5B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V5C.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V5D.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V5A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Mit unserem Test haben Sie nun bereits einen Anhaltspunkt wie gut oder schlecht Ihr Partner zu Ihnen passt. Wir raten Ihnen, auch die folgenden Punkte des Partner-Checks zu bearbeiten. Je mehr Aspekte wir einbeziehen können, desto besser können wir Sie beraten. Sie haben aber auch die Möglichkeit direkt zum Coaching 'Beziehung und Affäre' zurückzukehren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Options",
+      "key": "3970875843f64a279a7d75dbbd202b24",
+      "title": "Wie soll es weitergehen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Partner-Check fortführen"
+          },
+          {
+            "key": 2,
+            "value": "Rest des Partner-Checks überspringen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n019",
+          "if": "3970875843f64a279a7d75dbbd202b24 is 1"
+        },
+        {
+          "to": "n020",
+          "if": "3970875843f64a279a7d75dbbd202b24 is 2"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Bitte bewerten Sie sich nun selbst. Erfüllen Sie diese Punkte?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Nachdem Sie jetzt für beide Personen den Partner-Check durchlaufen und sich einigen schwierigen Fragen gestellt haben, fällt es Ihnen vielleicht leichter die Fragen zu beantworten: \r\nWas will ich? \r\nWo soll es zukünftig hingehen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Options",
+      "key": "e0b7a00ed06a4aa0b3e103e6eb8f3c67",
+      "title": "Wissen Sie, was sich Ihr Partner wünscht, kurz, was die Wunschliste Ihres Partners ist?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Eher ja"
+          },
+          {
+            "key": 2,
+            "value": "Eher nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n023",
+          "if": "e0b7a00ed06a4aa0b3e103e6eb8f3c67 is 1"
+        },
+        {
+          "to": "n023",
+          "if": "e0b7a00ed06a4aa0b3e103e6eb8f3c67 is 2"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": " Falls Sie sich noch nicht entscheiden können, ist das verständlich. Schließlich geht es hier um eine weitreichende Entscheidung, die nicht nur Sie selbst betrifft. Für den Moment ist es ausreichend, dass Sie den Entscheidungsprozess mit diesem Coaching begonnen haben.\r\nWiederholen Sie die Übungen daher ruhig einige Male und durchlaufen Sie dieses Coaching ggfs. erneut. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Papier-Übung Gegenseite",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Als nächstes stellen Sie sich bitte vor, Sie säßen am Ende Ihres Lebens in einem Schaukelstuhl und schauen auf Ihr Leben zurück. Welche der Ihnen offen stehenden Möglichkeiten erscheint Ihnen aus dieser Perspektive am erstrebenswertesten? Schreiben Sie auf, was Sie jetzt tun müssten, um als alter Mensch sagen zu können: “Ich habe die richtige Entscheidung getroffen.” Wer z.B. sollte idealerweise neben Ihnen sitzen? Ihr jetziger Partner? Ihre Affäre, die dann Ihr Partner ist? Niemand? Notieren Sie Ihre Gedanken!",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Versuchen Sie, jeden Punkt zu bewerten (links):\n\n3 für \"sehr wichtig\"\n2 für \"wichtig\"\n1 für \"wäre nett\"\n\nWie gut erfüllen Sie es (rechts)?\n\n 2 für \"voll erfüllt\"\n 1 für \"recht gut erfüllt\"\n 0 für \"mittelmäßig erfüllt\"\n-1 für \"etwas negativ erfüllt\" oder \"etwas störend\"\n-2 für \"total negativ erfüllt\" oder \"stark störend\"",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie zu einer Entscheidung gekommen sind, ist es wichtig, dass Sie ins Handeln kommen, damit es nicht nur bei “schönen Plänen” bleibt.\r\n\r\nJe nachdem wie Sie sich letztlich entscheiden, können wir Ihnen diverse Coachings anbieten, die Sie nach Ihrer Entscheidung unterstützen.\r\nFalls Sie an Ihrer Partnerschaft arbeiten möchten, haben wir eine Reihe von Coachings für Sie, die Sie dabei unterstüzten, Ihre Beziehung zu verbessern und auszubauen. Es gibt viele Alternativen zu einer Affäre. \r\nFalls Sie sich für Ihre Affäre und gegen Ihre Beziehung entscheiden, empfehlen wir Ihnen unsere Coachings zu den Themenbereichen “Beziehung beenden” und “Neue Beziehung gut starten”.\r\nFalls Sie beide Partner behalten möchten, wünschen wir Ihnen auch dafür alles Gute.\r\nAuch falls Sie sich entscheiden, sich von beiden Personen zu trennen, unterstützen wir Sie mit unseren Coachings im Bereich für Singles.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching zum Thema \"Beziehung und Affäre parallel?\". \r\nWir hoffen, Ihnen einige hilfreiche Anregungen mitgegeben zu haben. \r\nNehmen Sie sich die Zeit, die Sie brauchen, um dieses Coaching auf sich wirken zu lassen, und trauen Sie sich dann, eine Entscheidung zu treffen.\r\nÜberlegen Sie dazu, was Ihnen bei der Entscheidungsfindung noch helfen könnte. Vielleicht ist es ein Tag für sich ganz alleine, vielleicht möchten Sie noch einige unserer Coachings durchlaufen. Alles, was Ihnen hilfreich erscheint, sollten Sie auch ausprobieren. \r\nBevor es dann an die Umsetzung geht, raten wir Ihnen, Ihre Entscheidung mit einem guten Freund/einer guten Freundin durchzusprechen und die weiteren Schritte zu planen. \r\nAuch unsere Experten helfen Ihnen gerne per Telefon oder Email. Nehmen Sie dazu bitte Kontakt zu uns auf! Vielleicht haben Sie sogar den Mut, uns die Kontaktdaten eines Freundes zu geben. Wir werden die Person dann per Email anleiten, wie sie Sie am besten unterstützen kann.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "Gibt es irgendetwas, das Sie gar nicht mögen, ja schon fast hassen? Punkte, die Ihr Traumpartner auf keinen Fall haben dürfte? Halten Sie auch diese Aspekte fest und schauen Sie, ob sie bei Ihrem Partner auftreten.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine kurze Anmerkung zwischendurch:\n\nManchmal ziehen wir durch unser eigenes Verhalten genau solche Menschen an, die Eigenschaften haben, die wir gar nicht mögen. Oder unser Verhalten vertreibt genau die Leute, die unsere Wunsch-Eigenschaften haben.\n\nAuch zu diesen Themen finden Sie bei Motivado passende Coachings.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Video",
+      "key": null,
+      "title": "Vorletzte Seite - Die ersten Gedanken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Letzte Seite - Ihre großen Ziele\n\n\n\nUnterstreichen Sie die wichtigen.\n\n\n\nVergleichen Sie.",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Video",
+      "key": null,
+      "title": "Bauchgefühl?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1.) Bei Unklarheit: Freunde fragen\n\nBei unklarem Ergebnis: Fragen Sie Freunde, Bekannte und nehmen das in Ihre Entscheidung hinein.\n\nDie weiteren Aufgaben auf den nächsten Seiten.",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "2.) Aufzeichnung durchlesen: Die Seiten \"Was Sie sich wünschen\" und die Seite \"Was der andere sich wünscht\" in der nächsten Woche täglich einmal durchlesen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "3.) Planen und Termine dazu festlegen: Machen Sie einen Plan und tragen Sie Termine in den Kalender, um als Partner noch besser und attraktiver zu werden.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    }
+  }
+}

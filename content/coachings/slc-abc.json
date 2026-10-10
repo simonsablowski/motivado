@@ -1,0 +1,179 @@
+{
+  "key": "slc-abc",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Einleitung Überblick",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUeberbl_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "slc_ABC_geschlecht",
+      "title": "Sind Sie männlich oder weiblich?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUeberbl_V2.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Männlich"
+          },
+          {
+            "key": "2",
+            "value": "Weiblich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "slc_ABC_geschlecht is '2'"
+        },
+        {
+          "to": "n003",
+          "if": "slc_ABC_geschlecht is '1'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "TextInput",
+      "key": "slc_ABC_alter",
+      "title": "Wie alt sind Sie? ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUeberbl_V3.flv"
+        },
+        "type": "userage"
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Was ist Schlaf",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUeberbl_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Wie funktioniert Schlaf",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUeberbl_V5.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "temperatur_rhythmus.jpg",
+            "second": 163
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Schlafphasen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUeberbl_V6.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "schlaf_rhythmus.jpg",
+            "second": 64
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Das Schlaftagebuch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUeberbl_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Überleitung zu Schlafverhalten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafUeberbl_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

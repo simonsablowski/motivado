@@ -1,0 +1,116 @@
+{
+  "key": "ges-abn-ern-emotio",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser3_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Schritt 1: Snacks wegschmeißen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser3_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Schritt 2: Sorgen Sie dafür, dass Sie gesunde Alternativen im Haus haben.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser3_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Schritt 3: Stop! Stehen Sie auf, gehen Sie raus aus dieser Situation!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser3_V4.flv",
+          "delay": 64
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Schritt 4: Stop-Zeichen setzen üben",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser3_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser3_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

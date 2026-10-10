@@ -1,0 +1,31 @@
+{
+  "key": "bez-od-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_KapitelEDating_V1.flv"
+        },
+        "key": "bez-od-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "key": "bez-re-donts",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Nicht anbiedern!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Nicht jammern!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Vorwürfe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie Ihrem Ex-Partner also nicht ohne Wut im Bauch begegnen können, machen Sie sich einmal gezielt Luft (so wie eben beschrieben).\r\n\r\nAnsonsten gilt für die gesamte Zeit der Rückeroberung:\r\n\r\n1. Nehmen Sie das Wort \"Beziehung\" niemals in Bezug auf Sie beide in den Mund!\r\n2. Sprechen Sie niemals eine Dritte Person an, auf die Sie eifersüchtig sind (z.B. \"mit Deinem neuen Kollegen verstehst Du Dich aber auch ziemlich gut\" oder \"Deine neue Freundin ist eine totale Zicke\")!\r\n3. Reden Sie niemals über den Moment des Schlussmachens und wie sehr Sie darunter leiden!\r\n\r\nWarum?\r\n\r\nIhr Ex-Partner hat momentan ein starkes Bedürfnis nach Freiheit (sonst hätte er sich nicht getrennt). Wenn Sie sich nicht an diese Regeln halten, erinnern Sie ihn daran, wie unfrei man in einer Beziehung sein kann.\r\nEs wäre also fatal dem Anderen das Gefühl zu geben, seine neue Freiheit nicht genießen zu dürfen. Dadurch schieben Sie ihn eher weiter von sich weg.\r\n\r\nWenn Sie hierzu noch Fragen haben, wenden Sie sich gerne an unsere Experten: Schreiben Sie uns dazu eine E-Mail oder buchen Sie ein Telefoncoaching.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Gefühl von Freiheit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Aufheben nicht kommunizieren",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Ausnahmen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Gemeinsame Freunde",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Loslassen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Video kaputt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Viele Menschen, die eine Rückeroberung durchlaufen, finden sich in sogenannten \"Gedankenkreisen\". Damit sind Momente gemeint, in denen man lange nachgrübelt und immer wieder auf die gleichen Punkte zurückkommt. \r\nDie Gedanken kreisen dann oft um folgende Fragen:\r\n\r\n- woran ist die Beziehung gescheitert?\r\n- was habe ich falsch gemacht?\r\n- was kann ich jetzt machen?\r\n\r\nIn den folgenden Coachings werden wir noch detaillierter auf solche Gedankenspiralen eingehen.\r\n\r\nAn dieser Stelle schonmal soviel:\r\nWir können sehr gut nachfühlen, dass Sie sich in solchen Grübeleien wiederfinden. Es geht Ihnen schlecht und da versucht man krampfhaft eine schnelle und einfache Lösung zu finden.\r\n\r\nAber: \r\nAlles Denken wird Ihnen im Moment nicht helfen. Was Sie jetzt brauchen ist Zeit und eine klare Strategie. Dabei begleiten wir Sie. \r\nVersuchen Sie sich also selbst zu sagen:\r\n\r\n\"Jetzt ist nicht der richtige Zeitpunkt, um über diese Punkte nachzudenken. Es bringt mich im Moment nicht weiter und führt nur dazu, dass es mir noch schlechter geht. In der Zukunft wird es noch genug Möglichkeiten geben, diese Themen für mich zu klären.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Geschenke",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Dos_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Cut",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_ZwischenInfo_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Abfrage Ausloggen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_ZwischenInfo_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das wichtigste für uns ist es, dass es Ihnen bald wieder besser geht. Deswegen raten wir Ihnen nun zu allererst unsere Liebeskummer-Coachings zu bearbeiten.\r\nHier haben wir viele praktische Tipps zusammengestellt, die Ihnen dabei helfen, Ihren Schmerz zu verringern und sich selber wieder aufzubauen.\r\nBitte beachten Sie: um unsere Strategie umzusetzen ist es äußerst wichtig, dass Sie ihren Liebeskummer zumindest ein Stück weit überwunden haben.\r\nNutzen Sie daher unbedingt die Zeit der Kontaktsperre um sich selber etwas Gutes zu tun und durchlaufen Sie die Liebeskummer-Coachings ruhig mehrmals. ",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "key": "bez-tm-1",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Ready to go?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Klassisch?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Mit MS attraktiv wirken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "angesprochen werden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Überlegen Sie sich 10 Situationen, in denen Sie Hilfe benötigen könnten.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "allein sein",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Hilfe über Buddy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Tricks",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "weiteres zur Hilfe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Sag irgendwas",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Motivation",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Chancen verbessern: bisherige Coachings",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Attraktiver anziehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Aufbrezeln lohnt sich",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Holen  Sie sich Tipps",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1a.) Welche Varianten fallen Ihnen noch ein, um angesprochen zu werden?\n\n1b.) Wie könnten Sie einen Mann noch ansprechen?",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2.) Probieren Sie in den nächsten 7 Tagen aus, mindestens 10 Männer anzusprechen.",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3.) Wen können Sie zu diesem Thema aus Ihrem Bekanntenkreis mal interviewen / fragen, weil sie oder er sich echt gut auskennen müsste?",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "Üben Sie!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser Ansprechen II",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

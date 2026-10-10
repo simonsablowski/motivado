@@ -1,0 +1,251 @@
+{
+  "key": "bez-bezstaerken-kommunizieren",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Willkommen im Coaching 'Richtig kommunizieren'",
+      "text": "Kommunikation hat in jeder Beziehung eine zentrale Bedeutung. \nIhr Partner kann der aufmerksamste Mensch der Welt sein, hellsehen kann er nicht. \nWie wir uns fühlen und was wir uns wünschen ist zu einem Großteil aber leider nicht von außen sichtbar.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein schöner Vergleich ist hier der Eisberg: nur die Spitze liegt über der Wasseroberfläche, der Großteil des Berges liegt dagegen im Wasser verborgen.\r\nGenauso verhält es sich mit Gefühlen, Bedürfnissen und Wünschen. Je mehr Sie mit Ihrem Partner darüber sprechen, umso mehr „sinkt der Meeresspiegel“ und umso besser können Sie verstehen, was im Anderen vor sich geht.\r\nSo ersparen Sie sich viele aufreibende Diskussionen und Konflikte, die aus Missverständnissen entstehen oder auf falschen Annahmen beruhen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Ready to go?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Wirklich miteinander reden\r\n",
+      "text": "Natürlich sind auch die täglichen SMS oder kurzen Anrufe in der Mittagspause wertvoll und machen Spaß. Wenn wir von Kommunikation sprechen, meinen wir aber, dass Sie sich Zeit füreinander nehmen und über Dinge sprechen, die Sie bewegen. Wie gehts es dem Anderen, wie war sein Tag, was hat er erlebt? Wie steht es um Ihre Bedürfnisse und Wünsche? Um all dies auszutauschen, sollte regelmäßig Zeit eingeplant werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Oft trauen sich Menschen aus Angst vor Zurückweisung nicht, Ihre Bedürfnisse und Wünsche anzusprechen. Das führt aber in der Regel zu Enttäuschung, Frustration und Entfremdung, im schlimmsten Fall sogar zur Trennung. Damit hat man dann ironischerweise genau die Zurückweisung selber provoziert, die man ursprünglich vermeiden wollte.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen Sie sich also Zeit für den regelmäßigen Austausch mit Ihrem Partner, auch wenn alles soweit gut läuft.\r\nSo stellen Sie Ihre Beziehung dauerhaft auf feste Beine!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zur Kommunikation innerhalb einer Partnerschaft gehört auch, dass Sie sich immer wieder darüber austauschen, wie Ihr zukünftiger Lebensweg aussehen soll. Was möchten Sie und Ihr Partner erreichen? Welche Träume haben Sie? Möchten Sie eine Familie gründen? \r\nEs ist von großer Bedeutung, dass Sie sich in Ihrer Partnerschaft sicher sein können, das gleiche Ziel zu verfolgen oder die gleichen Träume zu haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Deswegen ist es auch wichtig, sich gegenseitig auf dem Laufenden zu halten. Wenn sich Ihre persönlichen Ziele ändern, z.B. durch eine berufliche Aufstiegsmöglichkeit oder durch einen aufkeimenden Kinderwunsch, lassen Sie Ihren Partner an Ihren Gedanken teilhaben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bei der Kommunikation mit Ihrem Partner geht es nicht nur um das wann und wie oft, sondern vor allem das Wie. Die psychologische Forschung konnte inzwischen gut belegen, dass die Art und Weise der Kommunikation die Zufriedenheit mit der Beziehung stark beeinflusst. Und je unzufriedener Paare sind, desto eher trennen Sie sich. Die gute Nachricht: die richtige Kommunikation können Sie lernen! Es gibt typische Fallen, in die man nur allzu schnell tappt. Um dies zu vermeiden, haben wir hier für Sie einige \"goldene Regeln\" der Kommunikation zusammengestellt, auf die Sie stets achten sollten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1. Ganz grundsätzlich empfehlen wir Ihnen stets das Gespräch mit Ihrem Partner zu suchen, wenn Sie mit Ihrer Beziehung unzufrieden sind oder sich verletzt oder gekränkt fühlen. Wenn Sie Ihrem Partner nämlich nicht mitteilen,  wo der Schuh drückt, kann er auch nicht darauf reagieren (z.B. in dem er sein Verhalten verändert).",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unausgesprochene Konflikte stauen sich innerlich oft so lange an, bis sie plötzlich in einem großen Streit eskalieren, der für den Partner völlig überraschend kommt. Um eine solche Situation zu vermeiden und Ihrem Partner die Möglichkeit zu geben, auf Ihre Wünsche einzugehen, sollten Konflikte immer sofort angesprochen werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Versuchen Sie so viel wie möglich über Ihre Bedürfnisse, Ihre Gefühle, Ihre Wünsche zu sprechen, anstatt den Anderen mit Vorwürfen zu bombardieren (Anstatt: „Du verstehst mich nicht, du bist ein schlechter Partner“ lieber: „Ich fühle mich nicht verstanden. Das macht mich traurig.“). Sie werden sehen, dass es Ihrem Partner dann sehr viel leichter fällt einen Schritt auf Sie zuzumachen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3. Auch wenn Sie die Ansichten oder Gefühle Ihres Partners mal nicht nachvollziehen können, akzeptieren Sie sie als gleichberechtigt neben Ihren eigenen. Menschen sind schließlich unterschiedlich. Und dass Ihr Partner anders \"tickt\" als Sie, können Sie auch als Bereicherung sehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "4. Achten Sie darauf, die richtige Balance zwischen Lob und Kritik zu finden. Wenn Sie ein kritisches Thema ansprechen, sagen Sie Ihrem Partner auch, was Sie an ihm schätzen und lieben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "5. Hören Sie aufmerksam zu, was Ihr Partner zu sagen hat und versuchen Sie sich in seine Perspektive hinein zu versetzen. Wenn Sie etwas nicht verstehen, fragen Sie nach. Ganz gefährlich ist es, das Verhalten des Partners oder das was er sagt, zu interpretieren ohne sich zu vergewissern, dass man richtig liegt. Wenn Sie sich also das nächste Mal bei dem Gedanken ertappen: \"das muss ich gar nicht fragen, ich weiß sowieso, was da los ist..\" überwinden Sie sich doch einmal. Gerade in solchen Moment bekommt man oft die überraschendsten Informationen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "6. Achten Sie als Zuhörer darauf, Ihrem Partner offene Fragen zu stellen, also Fragen, die der Andere nicht mit \"Ja\" oder \"Nein\" beantworten kann. So erfahren Sie sehr viel mehr von dem, was in ihm vorgeht. Statt also zu fragen: \"Gehen wir heute abend ins Kino?\" fragen Sie lieber: \"Worauf hättest Du heute abend Lust?\" ",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "7. Behandeln Sie den Anderen mit Respekt und Wertschätzung\r\nGerade im Streitfall fällt es manchmal schwer, nichts zu sagen, was man später bereut. Egal wie erregt Sie sind, Sie sollten Ihren Partner nicht grundsätzlich abwerten (z.B. \"Du bist ein schlechter Partner\"). Versuchen Sie stattdessen, sich auf das konkrete Verhalten des Anderen zu beziehen und sagen Sie, was das in Ihnen auslöst. Also z.B.: \"Ich habe mich sehr auf unseren gemeinsamen Abend gefreut und bin jetzt total wütend, dass Du zu spät gekommen bist.\" ",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Das war unser Coaching \"Richtig Kommunizieren\". Wenn Sie Fragen oder Anregungen haben, wenden Sie sich bitte an unsere Experten.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

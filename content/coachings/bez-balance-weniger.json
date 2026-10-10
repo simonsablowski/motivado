@@ -1,0 +1,328 @@
+{
+  "key": "bez-balance-weniger",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Ready to go?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Übung: \nWie sind Ihre Visionen für Ihre Beziehung in einem Jahr?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V3.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 148
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Beziehung = Die schönen Momente, nicht Hollywood",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Beiehungskörper",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Risiko dieses Bez-Wohlstands (like)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Angst vor Erfüllung der Wünsche des Anderen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Übung:\nWie hätten Sie gerne Ihre Beziehung und was machen Sie jetzt schon gut, bzw. was ist an Ihrer Beziehung gut?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "No-Gos: Sicherheit u Arroganz",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Darüber sprechen, dass Vieles gut ist und was fehlt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Sprachmuster von Mühe und Sorge, Fragen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Übung:\n\n 1.) Überlegen Sie jetzt WANN Sie mit Ihrem Partner über die schönen Dinge Ihrer Beziehung sprechen wollen und tragen Sie den Termin ein.\n \n \n 2.) Sammeln Sie die schönen Erinnerungen und guten oder besonderen Dinge, die Ihnen spontan einfallen (Dauer 1 Minute)\n \n Dann klicken Sie auf weiter.\n",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V11.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 4
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Rachkonto nicht auffüllen durch falsche Versprechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Beziehung liegt in Ihrer Hand: kurze SMS, Anruf",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Drei Aufmerksamkeiten für Ihren Partner planen",
+      "text": "Aufgabe: Überlegen Sie drei Minuten welche kleine Aufmerksamkeit Sie Ihrem Partner jetzt machen könnten. Planen Sie diese mit Ihrem Kalender ein. Und setzen Sie einen Punkt jetzt schon um.",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V14.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 13
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Glückwünsche - Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BalanceWen_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

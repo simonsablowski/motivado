@@ -1,0 +1,182 @@
+{
+  "key": "bez-haare",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Auch wenn es um Frisur und Haare geht, halten Freunde und Bekannte oft mit ihrer wahren Meinung hinterm Berg, um unsere Gefühle nicht zu verletzen. Das ist im Grunde natürlich gut gemeint. Allerdings wäre es schade, wenn es mit Ihrem Date schlecht läuft, nur weil Sie nicht wissen, dass Sie Schuppen haben und dass Ihr Gegenüber sich dadurch gestört fühlt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "No-Go: Ungepflegtheit\nHier gehen die Meinungen auseinander. Während Männer vielleicht nur sehen, dass Haare nicht frisch gewaschen sind, sehen viele Frauen auch, dass die Spitzen nicht geschnitten sind oder die Haare aufgrund von Färben und Co. kaputt sind. \nDas Praktische für die Frauen: Männer sehen gar nicht so viele Details.\nDas Praktische für die Männer:  Dadurch, dass die Haare meist kurz sind, bieten ihre Haare weniger Oberfläche für Angriffe. \nAls Faustregel gilt, sich alle zwei Tage die Haare zu waschen und auf jeden Fall an dem Tag eines Dates. Hin und wieder sollten Sie Ihren Haaren auch eine Kur gönnen, damit Sie wieder schön glänzen.\nBei gefärbten Haaren sollten Sie darauf achten, dass Sie keine breiten Ansätze haben, falls Ihre Naturfarbe sich stark von der künstlichen Farbe unterscheidet. Hier sollte ein regelmäßiger Friseurtermin zum Ansatzfärben also eingeplant sein.\nAußerdem empfiehlt es sich bei langen Haaren, stets eine Bürste dabei zu haben, um z.B. vom Wind verwuscheltes Haar wieder in Form zu bringen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Feedback von anderen ist ein wichtiger Aspekt, um sich selbst besser einschätzen zu lernen. Daher fragen Sie bitte 5 Personen aus Ihrem Bekanntenkreis, vor allem solche, die Sie attraktiv finden, was sie von Ihren Haaren und Ihrer Frisur halten und zwar in Bezug auf: \r\n1.) Gepflegtheit\r\n2.) Style\r\nFragen Sie auch, wie die Person frühere Frisuren von Ihnen fand und ob Sie vielleicht Ideen oder Anregungen für Sie hat, was Sie noch mit Ihren Haaren machen könnten.\r\nAuch wenn es Sie etwas Überwindung kostet, trauen Sie sich ruhig: Es könnte die Basis für ein angenehmes, lustiges Gespräch werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "No-Go Haare aus Nase und Ohren (eher bei Männern)\r\nSchon seit Jahrhunderten werden  Haare in diesen Bereichen als unattraktiv wahrgenommen. Und daran hat sich bis heute nichts geändert. \r\nSowohl Friseure als auch spezielle Geräte können hier Abhilfe schaffen. Bei Haaren aus den Ohren lassen Sie sich bitte von jemand anderem helfen, damit Sie sich nicht verletzen. Haare in den Ohren werden aber meist auch als weniger schlimm als Nasenhaare empfunden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für viele Leute ein weiteres No-Go: Körperhaare an Achseln, Beinen und im Schambereich\r\n\r\nIn Abhängigkeit von Kultur und Alter gilt zumindest in westlich/modernen Ländern (Vor allem bei dunkleren Haarfarben) meist Folgendes:\r\n\r\nFrau: keine Behaarung der Beine, der Oberlippe und der Achseln. Für den Schambereich gelten verschiedene Varianten, wobei allerdings mindestens die Bikini-Zone rasiert sein sollte (d.h. bei Tragen eines Bikini-Höschen sind keinerlei Schamhaare zu sehen).\r\nManche Frauen rasieren sich auch die Arme. Hier greifen dunklere Typen allerdings auch gerne zur Färbemitteln, da blonde Härchen weniger auffallen. \r\nEntscheidend ist letztlich, womit Sie sich wohlfühlen und was Ihr Partner gerne mag. Fragen Sie ihn!\r\n\r\n\r\nMann: Hier sind Haarkürzungen im Intimbereich und unter den Achseln stark im Kommen. Manche rasieren sich auch komplett. Wichtig ist hier, auch die Partnerin zu fragen. Allerdings merken mehr und mehr Frauen an, dass Sie mindestens eine Kürzung der Schamhaare bevorzugen und den klassischen \"Busch\" ablehnen. Je nach Geschmack der Frau wird eine blanke oder eine behaarte Brust präferiert. \r\n\r\nAlle offenen Fragen lassen sich durch beiläufige Gespräche klären, wie z.B. \"Ich habe neulich wieder einen Artikel über die Diskussion behaarte oder unbehaarte Brust gelesen. Was denkst Du eigentlich darüber? Falls ich das so fragen darf?\" Es kann gut sein, dass die Antwort lautet \"Ach das ist alles nicht so wichtig, Hauptsache gepflegt... und nicht völlig behaart. Das mag ich gar nicht!\" Es kann aber auch eine ganz andere Antwort kommen. Das Wichtigste ist: Jetzt wissen Sie es und können sich drauf einstellen. Schön, nicht wahr? Und wieder ein Fettnäpfchen gespart!",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1. Tip: Intim-Rasur:\r\nHier hat sich die Mode weiterentwickelt. Je jünger die Person, desto mehr gilt: Trimmen und Bikini-Streifen ist absolutes Minimum (unter 30). Viele Menschen bis ins mittlere Alter (unter 50) beiden Geschlechts empfinden heute als unangenehm, was in den 80er Jahren  noch gängig war.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Für Ihre Orientierung: \n\nFragen Sie fünf attraktive Personen, bzw. solche die es wissen müssten, wie deren Einstellung ist, bzw. was diese Personen sich wünschen würden.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein weiteres No-Go: Schuppen, speziell auf dunkler Kleidung. Lassen Sie sich hier fachmännisch beraten. Und finden Sie eine Lösung. Kontrollieren Sie auch die Kleidung mehrmals pro Tag. Es ist für manche Menschen sehr unangenehm, so etwas zu sehen. Aber keiner wird etwas sagen. Am besten mellierte Farben tragen, die nicht knallschwarz oder sehr dunkel sind, sondern eher grau. Dann sieht man es nicht so leicht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Tip Haare:\n\nSchon immer ein guter Trick, falls wirklich Haar-Alarm besteht, ist das Käppie oder eine leichte Mütze, die Sie auch drinnen anlassen sollten. Schließlich soll man Ihre Haare nicht sehen. So lässt sich zumindest ein wenig kaschieren, dass die Haare nicht frisch gewaschen oder frisiert sind. Auch ein Pferdeschwanz oder besser noch ein Zopf, kann hier etwas helfen. Es ist keine echte Lösung, aber als kurzer Trick kann es funktionieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3. Tip Frisur:\r\n\r\nEs gibt soviele Vorlieben und Stilrichtungen, dass wir hier sicher keine Frisur empfehlen können. Auch was gerade aktuell ist, kann in einem halben Jahr schon wieder vorbei sein. Daher empfehlen wir gerade für Personen, die beim Friseur gerne sparen: Gehen Sie einmal alle ein bis zwei Jahre zu einem teureren Frisör, wo Sie auch stilistisch beraten werden. Dort sind Fachleute, die wissen, was aktuell modisch ist und zu Ihnen passt, und sie kommen wieder zu einer neuen schicken Frisur. Ideal für ein Date. Und beim nächsten Mal lassen Sie die Frisur wieder von einem günstigen Frisör nachschneiden. So haben Sie zeitgemäße, gute Frisuren und gleichzeitig Ihr Portemonnaie geschont.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Tip von entsprechenden Profis: beraten lassen! Übrigens: Spezielle, teure Pflegeprodukte sind meist nicht nötig, sondern Marketing-Tricks. Hier nicht den Friseuren glauben, die Ihnen noch alles Mögliche extra verkaufen wollen. Wenn der Friseur-Termin ein Erfolg war, machen Sie ein paar Fotos um die Haare, wie erwähnt, günstiger nachschneiden zu lassen. Und denken Sie an regelmäßige Termine in der Zukunft. Sie haben die Chance, einfach konstant sehr gut aufzutreten, wenn Sie wollen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls dies neu für Sie war oder ist, gewöhnen Sie sich gleich daran, hier neue Standards für sich zu setzen. Sie werden wesentlich selbstbewusster mit anderen umgehen!\nUnd übrigens: Von Herzen eine Gratulation, dass Sie sich dem Thema stellen. Wenn Sie wüssten wieviele Horrorstories sich da im Laufe der Zeit allein in unserem persönlichen Bekanntenkreis gesammelt haben!",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Das waren unsere Coaching-Inhalte zum Thema \"Haare\". Wir hoffen, Sie konnten einige nützliche Informationen für Sich mitnehmen.  Viel Spaß mit den weiteren Coachings!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

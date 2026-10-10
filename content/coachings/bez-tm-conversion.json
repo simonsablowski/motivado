@@ -1,0 +1,127 @@
+{
+  "key": "bez-tm-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "e05685106edd4046a024f16fbaf26887",
+      "title": "Der süße Typ hat Sie nicht angesprochen, aber sein kleiner hässlicher Freund?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V23.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "e05685106edd4046a024f16fbaf26887 is '2'"
+        },
+        {
+          "to": "n002",
+          "if": "e05685106edd4046a024f16fbaf26887 is '1'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "fac0324394d54071835e8b9b6d0a2ac9",
+      "title": "Männer machen es genau verkehrt. Wenn man seine Ruhe will, wird man von allen angequatscht. Wenn man sie braucht oder gern da hätte, rufen Sie nicht an. Stimmen Sie dem zu?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V24.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "fac0324394d54071835e8b9b6d0a2ac9 is '2'"
+        },
+        {
+          "to": "n003",
+          "if": "fac0324394d54071835e8b9b6d0a2ac9 is '1'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "470785ca86724835821f9602584cc342",
+      "title": "Reicht ein tiefer Ausschnitt und das passende Lächeln, um einen guten Mann kennenzulernen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V25.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "470785ca86724835821f9602584cc342 is '1'"
+        },
+        {
+          "to": "n004",
+          "if": "470785ca86724835821f9602584cc342 is '2'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech1_V2.flv"
+        },
+        "key": "bez-tm-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

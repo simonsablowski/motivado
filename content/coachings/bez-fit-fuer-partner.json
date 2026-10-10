@@ -1,0 +1,196 @@
+{
+  "key": "bez-fit-fuer-partner",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Warum würden Sie gerne fit für Ihren Partner sein?",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was verpassen Sie alles, wenn Sie keinen Sport machen, sich nicht um Ihre Figur bemühen?",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sportlichkeit, Fitness ist kein Muss-Kriterium, um einen tollen Partner zu treffen, zu erobern oder in einer glücklichen Beziehung zu sein.\nNur geht alles etwas leichter, wegen der verschiedenen Punkte, die Sport-Machen mit sich bringt.\n\n* Ausstrahlung* Attraktivität* Die Ausdauer wird nebenbei gestärkt, und zwar mental wie körperlich\n* Ein Thema, das verbindet und spannend ist\n* Die Möglichkeit, anderen zu helfen\n* Bessere Gesundheit\n* Mehr Selbstbewusstsein gegenüber dem Wunschpartner\n* Mehr Spaß im Bett möglich",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die wichtigsten Punkte zum Fitwerden.\n\nAn dieser Stelle möchten wir Sie gerne an unseren Diät-Coach verweisen, der viele nützliche Inhalte zu diesem Thema bereithält. Wählen Sie dazu bitte auf unserer Startseite den Bereich \"Diät\" aus.",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es bleibt nur Geschwafel, bis Sie es tatsächlich umsetzen.\n\n Das Geheimnis: Planen Sie es (Trick 1)\n\n(Vorher sollten Sie gar nicht \"weiter\" klicken ;)",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Trick 2: Fragen Sie Freunde oder Partner, ob sie mitmachen. Falls niemand mitmacht, dann nicht warten, bis jemand kommt, sondern allein starten.",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Trick 3: Nutzen Sie die Zeit beim Ausdauer-Sport für Ihre Übungen, die wir Ihnen im Beziehungs-Coach geben. Z.B. dass Sie sich positiv auf einen tollen Partner programmieren.\n \nBeispielsatz: \"Ich erlaube mir, einen wunderbaren Parrtner zu treffen und für mich zu gewinnen.\" ...",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Warum nochmal Sport?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Klare Entscheidung treffen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Was werden Sie in einem Jahr rückblickend denken, falls Sie mit dem Sport begonnen haben?\n\nWas werden Sie denken, wenn Sie zurückblicken und nicht mit dem Sport angefangen haben?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war \"Leichter fit für Ihren Partner\" Viel Erfolg bei der Umsetzung",
+      "props": {
+        "video": {
+          "url": "REL_FitPart_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

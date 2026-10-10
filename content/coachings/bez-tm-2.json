@@ -1,0 +1,249 @@
+{
+  "key": "bez-tm-2",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Signale",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Achtung nicht verscherzen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Tricks Locken & Reizen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Mann mag cool",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Was war Ziel: Ihn faszinieren: Jäger wecken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "4446572590e94d06bbe8dc02cfa3b77a",
+      "title": "Fühlen Sie sich eher wohl mit diesen Elementen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V10.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Fühle mich eher unwohl (das macht frau nicht)."
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "4446572590e94d06bbe8dc02cfa3b77a is 1"
+        },
+        {
+          "to": "n010",
+          "if": "4446572590e94d06bbe8dc02cfa3b77a is 2"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "fühlen sich nicht wohl",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Sie sind souverän",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Ursachen für das Unwohlfühlen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Gesprächselemente üben",
+      "text": "Bitte sprechen Sie in den nächsten zehn Tagen mindestens 3 - 4 Mal mit einem Mann und probieren Sie die Gesprächselemente aus!",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_MannAnsprech2_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

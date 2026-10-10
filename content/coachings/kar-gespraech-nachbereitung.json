@@ -1,0 +1,699 @@
+{
+  "key": "kar-gespraech-nachbereitung",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Nachbereitung des Vorstellungsgesprächs\r\n\r\nIhr Vorstellungsgespräch liegt hinter Ihnen - was nun? \r\n\r\nSie fühlen sich vielleicht erleichtert oder an Ihnen nagt das Gefühl, nicht Ihr Bestes gegeben zu haben. Ob zuversichtlich oder niedergeschlagen: setzen Sie sich nach Ihrem Gespräch hin und nehmen Sie sich Zeit, Ihre Eindrücke festzuhalten. \r\n\r\nEine gute Nachbereitung des ersten Jobinterviews wird Ihnen helfen...\r\n* sich in einem möglichen zweiten Gespräch gut darzustellen, da Sie wissen, worauf es dem Arbeitgeber ankommt\r\n* sich darüber im Klaren zu sein, wie sehr Sie die Position reizt \r\n* sich eine Verhandlungsstrategie für die Gehaltsverhandlung zurechtlegen und so besser zu argumentieren und\r\n* für zukünftige Vorstellungsgespräche noch besser vorbereitet zu sein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Starten wir gleich, indem Sie Ihre Excel-Datei mit Ihrer Bewerbungsübersicht öffnen. Hier tragen Sie erst einmal alle Namen Ihrer Gesprächspartner, deren Position und Kontaktdaten (Telefonnummer, E-Mail- Adresse) in die entsprechenden Spalten ein. Wenn Sie später nachfassen und sich für das angenehme Bewerbungsgespräch bedanken, haben Sie so einen schnellen Zugriff auf die Kontaktinformationen.\r\n\r\nLassen Sie uns jetzt das Gespräch reflektieren und gucken, was richtig gut im Gespräch lief, ob Sie das Gefühl haben, dass dieser Job der Richtige für Sie ist und welche Punkte es gibt, auf die Sie sich beim nächsten Gespräch evt. noch besser vorbereiten können.\r\n\r\nSchreiben Sie dafür Ihre Antworten unbedingt auf! Nutzen Sie entweder wieder Ihre Excel-Tabelle oder machen Sie ein separates Dokument in Ihrem Textprogramm auf. Speichern Sie es und geben Sie der Datei zum schnellen Wiederfinden folgenden Namen „Datum_Firma_Vorstellungsgespräch“.\r\n\r\nLos geht‘s!",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Gucken wir uns im ersten Schritt an, was gut oder vielleicht auch weniger optimal im Gespräch lief. Dazu dienen die folgenden Fragen, die wir jetzt gemeinsam Stück für Stück durchgehen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "fa354a52d973407fb1b97e59f7dd5614",
+      "title": "Wie haben Sie sich gefühlt?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Sehr gut"
+          },
+          {
+            "key": "2",
+            "value": "Gut"
+          },
+          {
+            "key": "3",
+            "value": "Neutral"
+          },
+          {
+            "key": "4",
+            "value": "Weniger gut"
+          },
+          {
+            "key": "5",
+            "value": "Schlecht"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "fa354a52d973407fb1b97e59f7dd5614 is '1'"
+        },
+        {
+          "to": "n005",
+          "if": "fa354a52d973407fb1b97e59f7dd5614 is '2'"
+        },
+        {
+          "to": "n005",
+          "if": "fa354a52d973407fb1b97e59f7dd5614 is '3'"
+        },
+        {
+          "to": "n005",
+          "if": "fa354a52d973407fb1b97e59f7dd5614 is '4'"
+        },
+        {
+          "to": "n005",
+          "if": "fa354a52d973407fb1b97e59f7dd5614 is '5'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_GespraechGut",
+      "title": "Was waren Ihrer Meinung nach die Gründe dafür, dass Sie sich so gefühlt haben? Notieren Sie hier ein bis drei Punkte.",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_GespraechLiefGut",
+      "title": "Was genau lief Ihrer Meinung nach gut im Gespräch? Sammeln Sie hier mindestens drei Punkte!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_LiefGutWarum",
+      "title": "Woran lag es Ihrer Ansicht nach, dass es gut lief? Sammeln Sie wiederum drei Punkte!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_GespraechNochBesser",
+      "title": "Welche Dinge wollen Sie in einem zweiten Gespräch ggf. noch stärker betonen (besondere Erfahrungen, Stärken etc.)?",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "7639a9e1f23343fb86e002fc19274ad1",
+      "title": "Haben Sie das Gefühl, alles Wichtige gesagt zu haben?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "7639a9e1f23343fb86e002fc19274ad1 is 1"
+        },
+        {
+          "to": "n011",
+          "if": "7639a9e1f23343fb86e002fc19274ad1 is 2"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "292f071fe36a4d29929b1445a7151bfd",
+      "title": "Gab es Fragen, die Sie verunsichert haben?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "292f071fe36a4d29929b1445a7151bfd is 1"
+        },
+        {
+          "to": "n013",
+          "if": "292f071fe36a4d29929b1445a7151bfd is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_ErgaenzungenGespraech",
+      "title": "Was wollten Sie noch ergänzen?",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_NachGespraechFragen",
+      "title": "Welche Fragen waren das? Notieren Sie sie hier!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "21003a77227e486499bfbf2349d7d7d2",
+      "title": "Haben Sie das Gefühl, sich selbst treu geblieben zu sein?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "21003a77227e486499bfbf2349d7d7d2 is 1"
+        },
+        {
+          "to": "n015",
+          "if": "21003a77227e486499bfbf2349d7d7d2 is 2"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Options",
+      "key": "692c648078d0451b8e5aaa1e009f9cb2",
+      "title": "Im 2. Schritt geht es um Ihren Eindruck vom Unternehmen und der Position. Starten wir mit folgender Frage: \r\nHaben Sie alles Wesentliche über die Stelle erfahren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "692c648078d0451b8e5aaa1e009f9cb2 is 1"
+        },
+        {
+          "to": "n017",
+          "if": "692c648078d0451b8e5aaa1e009f9cb2 is 2"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_SelberTreu",
+      "title": "Aus welchem Grund haben Sie das Gefühl, sich nicht treu geblieben zu sein?",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_WasNochOffen",
+      "title": "Welche Dinge sind noch offen?",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Options",
+      "key": "59c6643837f948b69a05cd96e93e03c3",
+      "title": "Glauben Sie, dass Sie in diese Firma passen und dass Sie dort Ihr berufliches Ziel erreichen werden?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          },
+          {
+            "key": 3,
+            "value": "Ich bin nicht sicher."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018",
+          "if": "59c6643837f948b69a05cd96e93e03c3 is 1"
+        },
+        {
+          "to": "n019",
+          "if": "59c6643837f948b69a05cd96e93e03c3 is 2"
+        },
+        {
+          "to": "n020",
+          "if": "59c6643837f948b69a05cd96e93e03c3 is 3"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Aus welchem Grund glauben Sie, dass Sie ins Unternehmen passen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "Aus welchem Grund glauben Sie, dass Sie nicht ins Unternehmen passen?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Aus welchem Grund sind Sie unsicher?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "Wie war Ihr Eindruck von der Arbeitsweise, den Kollegen, dem Betriebsklima? Haben Sie einen durchweg positiven ersten Eindruck gewonnen oder melden sich leichte Bedenken? Schreiben Sie auf, was Ihnen gefallen bzw. weniger zugesagt hat.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "List",
+      "key": "kar_gespraech_nachbereitung_FragenZweitesGespraech",
+      "title": "Welche Fragen möchten Sie in einem zweiten Gespräch noch klären? Notieren Sie sie hier. ",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nach unserer Reflektion, stellt sich vielleicht für Sie die Frage, ob Sie sich bei dem Unternehmen noch einmal melden sollen, um sich für das Gespräch zu bedanken. Die Antwort ist einfach: fassen Sie in jedem Fall nach! Immer! Wer nicht wagt, der nicht gewinnt!\r\n\r\nIn der Regel kommen Sie damit gut an. Sie bringen sich zudem in frische Erinnerung. Und manche Firmen warten sogar darauf, dass Bewerber nach dem Gespräch noch einmal selbst aktiv werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wann empfiehlt es sich, noch einmal nachzufassen? \r\n\r\nMöglichst zeitnah, das heißt, Sie sollten gleich am nächsten Tag zum Hörer greifen. Auch wenn Ihnen die schriftliche Kommunikation mehr liegt: probieren Sie es zuerst mit einem Anruf! Sie heben sich dadurch wirklich von den übrigen Bewerbern ab. Außerdem sieht so der Arbeitgeber, dass Sie engagiert und mutig sind und denkt sich mitunter: \"Mensch, der/die Kandidat/in wird auch später bei uns als Mitarbeiter hinterher sein.\"\r\n\r\nWir empfehlen also in jedem Fall den Anruf!",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie zum Hörer greifen, stellen Sie sich mit Ihrem vollen Namen vor und beziehen Sie sich auf Ihr Gespräch, damit Ihr Gesprächspartner nicht lange in seinen Erinnerungen kramen muss, wie er Sie einzuordnen hat.\r\nBedanken Sie sich für die Zeit, die sich Ihr Gegenüber für Sie genommen hat. War es ein für beide Seiten angenehmes Gespräch, können Sie auch dafür Ihren Dank aussprechen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Wir haben hierfür einen Telefonleitfaden für Sie bereitgestellt, den Sie sich unten herunterladen können! Darin ist auch ein E-Mail-Leitfaden enthalten, falls Sie sich doch dafür entscheiden, den Weg der schriftlichen Kommunikation zu gehen.",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Leitfaden Nachfassen",
+            "file": "Leitfaden_Nachfassen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "Halten wir nochmal fest:\r\n\r\nEine gute Nachbereitung ist fast genauso wichtig wie die Vorbereitung auf Ihr Bewerbungsgespräch! Zeigen Sie also, dass Sie wissen, wie man professionell auftritt und fassen Sie nach Ihrem Gespräch unbedingt nach!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gut mit Absagen umgehen \r\n\r\nSie wurden nicht zum Vorstellungsgespräch eingeladen oder haben danach eine Absage erhalten?\r\n\r\nBleiben Sie zuversichtlich und stecken Sie nicht gleich den Kopf in den Sand! Immerhin verschrotten Sie Ihr Auto auch nicht gleich, wenn Sie damit mal eine kleine Autopanne haben, richtig? Also: Kopf hoch und positiv denken! Klar, das ist leichter gesagt, als getan. Daher geben wir Ihnen hier einige Tipps, mit denen Sie neuen Mut schöpfen und statt zu resignieren, sich Ihre Niederlage gleich für Ihre nächste Bewerbung zunutze machen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unmittelbar nach einer Absage\r\n\r\nAbsagen sind enttäuschend, besonders dann, wenn Sie einen Job besonders gerne gehabt hätten. Um weiterhin motiviert zu bleiben ist es wichtig, sich aktiv mit der Situation auseinanderzusetzen anstatt Ablenkung oder Zerstreuung zu suchen.\r\n  \r\nAchten Sie darauf, wie Ihr Körper auf die Enttäuschung reagiert. Klassischerweise sinken die Schulter nach unten, der Blick geht zu Boden, der Oberkörper sackt in sich zusammen. An dieser Stelle können Sie Ihrer Psyche durch einen Trick signalisieren, dass Sie nach wie vor stark und hoffnungsfroh sind. Stellen Sie sich aufrecht hin, Schultern nach hinten, Blick nach vorne und sagen Sie sich: \"Ich werde solange weitermachen, bis ich meinen Traumjob gefunden habe. Tausende Menschen haben vor mir schon einen neuen Job gefunden und auch ich werde es schaffen.\" Den Satz können Sie beliebig so für sich anpassen, dass es sich gut anfühlt ihn zu sagen. Versuchen Sie für einen Moment Ihre Gefühle, z.B. Wut, Angst, Traurigkeit wahrzunehmen und zuzulassen, um Sie dann auch wieder ziehen lassen zu können.\r\n\r\nUnd das üben wir jetzt: auf geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön! Nun haben Sie also bereits eine Technik parat, die Sie anwenden können, um möglichen Motivationstiefs entgegenzuwirken. \r\nFalls Sie noch Fragen zu dieser Technik haben, wenden Sie sich an unsere Experten. Wir helfen Ihnen gerne!\r\nAuf den nächsten Seiten finden Sie weitere Tipps zum Umgang mit Absagen oder Motivationstiefs.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie sich trösten!\r\n\r\nTauschen Sie sich mit anderen Menschen aus: mit Personen, die zurzeit ebenfalls auf Stellensuche sind, aber auch mit Freunden oder Ihrem Partner/ Ihrer Partnerin. Diese haben meist ein offenes Ohr für Sie und wissen, wie Sie sie aufmuntern können.\r\nPlanen Sie vielleicht gleich einen gemeinsamen Ausflug mit der Familie oder einen schönen Abend mit Ihren Freunden, währenddessen Sie abschalten und auf andere Gedanken kommen können.\r\n\r\nMit wem werden Sie über Ihre Absage sprechen? Arrangieren Sie gleich ein Treffen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Glauben Sie an sich selbst!\r\n\r\nMenschen, die an Ihren eigenen Erfolg glauben, sind erfolgreicher bei der Jobsuche!\r\n \r\nHierfür gibt es eine einfache Erklärung: wenn Sie Ihren eigenen Fähigkeiten vertrauen, lassen Sie sich von kleineren Misserfolgen nicht aus der Bahn werfen. Anstatt zu denken: \"Schon wieder einen Job nicht bekommen, das muss an mir liegen\" sagen Sie sich \"Schade, es hat bei diesem Arbeitgeber nicht geklappt, das kann viele Gründe haben - sicher finde ich bald meinen Traumjob\". \r\nDiese positive Denkart hat automatisch zur Folge, dass die Stimmung gut und viel Energie für die kommenden Bewerbungen übrig bleibt. Dadurch schicken Sie mehr Bewerbungen raus, rufen mehr Unternehmen an und pflegen Ihr Netzwerk intensiver als jemand, der nicht an seinen Erfolg glaubt und daher in Passivität verfällt. Und je mehr Sie tun, desto schneller erreichen Sie Ihr Ziel.\r\n\r\nAuch im Bewerbungsgespräch wird man es Ihnen anmerken, wenn Sie an sich und Ihre Zukunft glauben. \r\nMit dieser mentalen Denkhaltung haben Sie eine positive Ausstrahlung und verschaffen sich dadurch Vorteile gegenüber anderen Bewerbern!\r\n\r\nAls Übung machen Sie sich noch einmal bewusst, was Sie alles können: Warum sind sie ein guter Mitarbeiter? Was schätzen Ihre Freunde an Ihnen? Was mögen Sie an sich selber (Hier können Sie auch Ihre \"Erfolgsgeschichten\" zur Hilfe nehmen)?\r\n\r\nSchreiben Sie alles auf einen Zettel und platzieren Sie ihn gut sichtbar in Ihrer Wohnung. Am besten dort, wo Sie auch arbeiten, z.B. neben Ihrem PC.",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Holen Sie sich Feedback!\r\n\r\nWenn Sie eine Absage erhalten haben, greifen Sie zum Hörer und versuchen Sie, gezieltes Feedback zu Ihrer Person und Ihren Fähigkeiten zu bekommen.\r\n\r\nDen größten Fehler, den Sie hierbei jedoch machen können, ist sich noch mit ordentlich Wut im Bauch beim Arbeitgeber zu melden. Rufen Sie daher nicht sofort nach der Absage bei dem Unternehmen an! Die Gefahr ist groß, dass Ihrer Stimme Wut, Frust und Enttäuschung anzuhören sind.\r\nSorgen Sie statt dessen zu zuallererst dafür, dass Sie Ihre Aggressionen loswerden. Je nach Persönlichkeit empfiehlt sich ein ausgedehnter Spaziergang, eine Runde Joggen oder eine Tasse Tee mit Ihrem Partner. Oder Sie schreiben einen Brief an den Personaler, in dem wirklich alles steht, was Sie über ihn denken. Zerreißen Sie den Brief danach und werfen Sie ihn zum Altpapier. Auf diese Weise gelingt es Ihnen, die Zurückweisung nicht persönlich zu nehmen. Und Sie sind frei genug, Ihre Lage mit kühlem Kopf zu analysieren.\r\n\r\nWenn Sie dann zum Hörer greifen, halten Sie sich dabei nicht lange an der Frage auf, warum Sie nicht genommen worden sind. Stattdessen ist es geschickter, zu fragen, wo der Gesprächspartner die Potenziale des Bewerbers sieht. Fragen Sie den Abteilungsleiter auch, über welche fachlichen und persönlichen Qualifikationen die besten Mitarbeiter der Abteilung verfügen und worauf er persönlich besonders Wert legt. So wird Ihr Telefongespräch gleich zu einem weiteren Mini-Karriere-Coaching!\r\n\r\nUnd noch ein Hinweis: manchmal gibt es einfach klare Kriterien für einen Job, z.B. \"mindestens 5 Jahre Berufserfahrung\" oder \"mindestens einen Realschulabschluss\". Es kann also immer sein, dass Sie aufgrund eines solchen Kriteriums die Stelle nicht bekommen haben. Versuchen Sie das nicht persönlich zu nehmen und nutzen Sie Ihre Energie lieber, um mit Schwung an die nächste Bewerbung zu gehen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schaffen Sie sich andere Erfolgserlebnisse!\r\n\r\nWenn der Erfolg nicht zu Ihnen kommt, kommen Sie eben zu ihm: schaffen Sie sich aktiv Erfolgserlebnisse in anderen Bereichen wie Familie, Sport, Hobby etc. Joggen oder schwimmen Sie 15min länger als sonst. Entrümpeln Sie Ihren Keller, beenden Sie Ihre Steuererklärung oder packen Sie endlich die Gartenarbeit an! Jedes Erfolgserlebnis führt dazu, dass wir uns gut fühlen und mit neuem Elan an Dinge gehen können!",
+      "props": {},
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schaffen Sie sich andere Erfolgserlebnisse!\r\n\r\nWenn der Erfolg nicht zu Ihnen kommt, kommen Sie eben zu ihm: schaffen Sie sich aktiv Erfolgserlebnisse in anderen Bereichen wie Familie, Sport, Hobby etc. Joggen oder schwimmen Sie 15min länger als sonst. Entrümpeln Sie Ihren Keller, beenden Sie Ihre Steuererklärung oder packen Sie endlich die Gartenarbeit an! Jedes Erfolgserlebnis führt dazu, dass wir uns gut fühlen und mit neuem Elan an Dinge gehen können!\r\n\r\nÜberlegen Sie daher bitte jetzt, welches Erfolgserlebnis Sie für sich schaffen können und notieren Sie es!",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Reagieren Sie sich beim Sport ab!\r\n\r\nGehen Sie vielleicht laufen, besuchen Sie ein Fitnessstudio oder gehen Sie einer anderen Sportart nach? Dann haben Sie damit eine ideale Möglichkeit, Ihrem Frust und Ärger so richtig Luft zu machen! Nach dem Sport produziert der Körper eine Reihe an Glückshormonen. Sie fühlen sich beschwingt und haben sich zudem bewiesen, dass Sie einen kleinen Erfolg, nämlich die Überwindung sich aufzuraffen, erreicht haben! Mit neuer Energie fällt es Ihnen wieder leicht, sich die nächste Bewerbung vorzunehmen und Ihr Glück auf ein Neues zu probieren! \r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gönnen Sie sich etwas!\r\n\r\nFreizeit und Entspannung sind wichtig, um wieder aufzutanken und neue Kraft zu schöpfen! Gönnen Sie sich daher etwas: vom gemeinsamen Restaurantbesuch mit dem Partner/ der Partnerin bis hin zu kleinen Dingen wie dem Kauf des Buchs, welches Sie schon so lange lesen wollten.\r\n\r\nVielleicht kommt es Ihnen seltsam vor, sich zu belohnen, obwohl Sie Ihr Ziel ja noch nicht erreicht haben. Wir sagen: Belohnen Sie sich dennoch, nämlich für die Anstrengung, die Sie in Ihre Bewerbung investiert haben. So werden Sie letztlich länger motiviert am Ball bleiben können.\r\nAußerdem spricht auch nichts dagegen, sich nach einem Rückschlag einmal selbst die Seele zu streicheln. \r\nSeien Sie hier milde zu sich selbst und behandeln Sie sich selbst, wie Sie einen Freund behandeln würden (z.B. mit tröstenden Worten). Sie haben es verdient.",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "Seien Sie stolz auf sich! Sie machen jetzt schon sehr viel mehr als die meisten anderen in Ihrer Position. Versuchen Sie sich also darauf zu konzentrieren, was Sie alles schon geleistet haben, anstatt auf das, was noch nicht geklappt hat!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sprechen Sie mit einem Coach!\r\n\r\nNutzen Sie den Kontakt zu unseren Experten und sprechen Sie mit einem unserer Coachs! Wir analysieren mit Ihnen, woran es gelegen haben könnte, dass Sie eine Absage eingefahren haben und arbeiten gemeinsam mit Ihnen gezielt daran, Ihre Erfolgschancen für das nächste Bewerbungsgespräch zu steigern!\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Aktive Nachbereitung und Umgang mit Absagen\".",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Aktive Nachbereitung und Umgang mit Absagen\"",
+      "text": "Bis zum nächsten Mal überlegen Sie bitte, welche Erfolgserlebnisse Sie sich schaffen können, wenn der Erfolg zunächst ausbleibt. Wählen Sie mindestens 1 Aspekt aus (z.B. jede Woche einmal mehr zum Sport gehen, ein neues Hobby erlernen o.ä.) und machen Sie sich einen Plan zur Umsetzung.\nJe früher Sie damit anfangen, umso leichter können Sie mit Misserfolgen umgehen und trotzdem motiviert bleiben. \nBis bald!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

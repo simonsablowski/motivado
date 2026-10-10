@@ -1,0 +1,237 @@
+{
+  "key": "bez-orgasmus",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching \"Orgasmus\".",
+      "text": "Über dieses Thema offen zu reden, fällt vielen Menschen schwer, obwohl oder auch gerade weil man heutzutage von den Medien mit dem Thema Sex geradezu reizüberflutet wird. Wir möchten Ihnen zeigen, wie man mit Situationen umgeht, wenn beim Sex etwas schief läuft oder wie Sie mit gesellschaftlichem Druck und Erwartungshaltungen umgehen. Ihr eigenes Körpergefühl spielt eine ebenso große Rolle wie die Entspannung Ihres Gegenübers.\n\nIn diesem Coaching geht es auch um eher unangenehme Themen über die viele nicht sprechen. Wenn Sie sich über Orgasmusstörungen etc. informieren wollen, möchten wir Sie bitten einen Arzt aufzusuchen oder sich zusätzliche Unterstützung aus entsprechender Literatur holen, da wir Ihnen keine Sexualtherapie anbieten können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Mit Entspannung zum Orgasmus\r",
+      "text": "Das Thema Orgasmus verfolgt uns heutzutage schon, wenn wir um vier Uhr Mittags den Fernseher anschalten. Der Rummel um das Thema Sex wird immer größer und es scheint, als ob Jeder zu jeder Zeit bereits wäre, Sex zu haben. Aber nicht nur Sex, sondern großartigen Sex. Kein Wunder also, dass sich Erwartungshaltungen aufbauen, denen kaum zu entsprechen ist. Denn besonders dann, wenn es genau jetzt unbedingt klappen soll, wenn die Frau unbedingt kommen will, klappt es meist nicht. \nWir haben einige hilfreiche Tipps für Sie, wie Sie es einfacher haben werden, zum Orgasmus zu kommen:",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "c6f6b187ea3640f5a57ba6b0b4e3e0cf",
+      "title": "Bekommen Sie Orgasmen eher zu langsam oder gar nicht?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "c6f6b187ea3640f5a57ba6b0b4e3e0cf is 1"
+        },
+        {
+          "to": "n005",
+          "if": "c6f6b187ea3640f5a57ba6b0b4e3e0cf is 2"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Auch wenn Sie beim Sex entspannt genug sind und sich fallen lassen können, haben wir einige Tipps für Sie, wie Sie dafür sorgen können, dass sich Ihr Intimpartner wohl fühlt und Sex für Sie beide zu einem traumhaften Erlebnis wird.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir haben einige hilfreiche Tipps für Sie, wie Sie es einfacher haben werden, zum Orgasmus zu kommen:\r\n\r\n1. Rennen Sie Ihrem Orgasmus nicht hinterher.\r\nWenn Sie versuchen, einen Orgasmus zu erzwingen, werden Sie mit ziemlicher Sicherheit nicht erleben. Wenn überhaupt, lassen Sie ihn eher auf sich zukommen. Und eben das fängt bereits im Kopf an. Deshalb gilt:\r\n\r\n2. Entspannen Sie sich, so gut Ihnen möglich.\r\nMachen Sie sich frei von allen Erwartungshaltungen und genießen Sie die Situation.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wohlfühlen und Kommunikation\r\n\r\n1. Für besseren Sex, hilft Ihnen, wenn Sie sich in Ihrem Körper wohl fühlen und ihn gut kennen. Wir haben schon in früheren Coachings darauf hingewiesen, dass Sie sowohl über Ihren eigenen, als auch den Körper Ihres Gegenübers Bescheid wissen sollten. \r\n\r\n2. Kenntnisse der Anatomie Ihres und des Körpers Ihres Gegenübers können Sie sich durch entsprechende Fachliteratur aneignen. In unserem Coaching „Wichtiges in Sachen Sex“ aus diesem Kapitel empfehlen wir den dtv-Atlas „Sexualität“.\r\n\r\n3. Des weiteren können sowohl Männer als auch Frauen durch Masturbation nicht nur Ihren eigenen Körper kennenlernen, sondern auch erfahren, wie Sie Ihren Orgasmus verzögern oder auch beschleunigen. Wichtig ist eben, dass Sie überhaupt wissen, dass Sie so etwas lernen und verbessern können. Denn uns begegnen immer wieder Menschen, die sich gern im Bett verbessern würden, aber nicht wissen wie.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "4. Wenn Sie sich kennen und wissen, was Sie brauchen, um einen Orgasmus zu haben, können Sie das Ihrem Gegenüber kommunizieren oder auch selbst dafür sorgen, dass Sie zum Orgasmus kommen. Wenn Sie dem Anderen zeigen, was Sie brauchen, verbessert dies natürlich auch den Sex beim nächsten Mal. Ihr Spaß beim Sex, wird sich auch auf Ihr Gegenüber übertragen und gegebenen Fall Druck und Spannung aus der Situation nehmen.\r\n\r\n5. Auch ein gutes Körpergefühl verbessert im Übrigen den Sex, da man in Gedanken, nicht mit seinem Aussehen beschäftigt ist und die Situation besser genießen kann.\r\n\r\nEs ist wichtig, dass Sie sich trauen, Ihrem Intimpartner zu sagen oder zu zeigen, was Sie wollen und brauchen. Das beginnt bereits, wenn Sie dem Anderen zu verstehen geben, wenn Sie gerade unbequem liegen. Zögern Sie nicht, Ihrem Gegenüber Ihre Bedürfnisse mitzuteilen. In unseren vorhergehenden Coachings dieses Kapitels haben wir bereits über die Bedeutung von Kommunikation in Bezug auf Sex gesprochen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Denken\r\n\r\nSex, erotische Gefühle und auch der Orgasmus werden stark durch Ihre Gedanken beeinflusst. Wenn Sie beim Sex an erotische Erfahrungen oder Phantasien denken, kann dies die Lust unterstützen.\r\nWenn Sie wiederum an Dinge denken, die Sie in irgendeiner Weise als negativ oder störend empfinden, wirkt dies bremsend auf Ihre Lust.\r\nHauptdarsteller Ihrer erotischen Gedanken muss im Übrigens auch nicht unbedingt der jeweilige Intimpartner sein. Es geht hier darum, dass Sie Ihren Gedanken entsprechend Ihrer Wünsche freien Lauf lassen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Oft spielt auch die unbewusste Angst, sich fallen zu lassen und die Kontrolle zu verlieren, eine Rolle, wenn Frauen nicht zum Orgasmus kommen. Das ist ganz normal und geht vielen Frauen so. Gelöstheit ist daher wichtig, wenn es um Sex geht. Natürlich ist dies leichter gesagt als getan und wird sich nicht von heute auf morgen ändern. Sich fallen zu lassen hat viel mit Vertrauen zu tun, weshalb es oft vielen Frauen in längeren Partnerschaften leichter fällt, zum Orgasmus zu kommen.\r\n\r\nAuf der einen Seite, sollten Sie also nicht versuchen den Orgasmus zu erzwingen, andererseits müssen Sie aber auch bereits sein, ihn zuzulassen. Seien Sie offen und experimentierfreudig ohne dabei eine ganz bestimmte Erwartung an die Situation zu haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zeit und Sinnlichkeit\r\n\r\nFrauen brauchen oft länger als Männer, um zum Orgasmus zu kommen. Das heißt, dass Sie sich beim Sex Zeit lassen sollten. Schalten Sie ruhig zwischendurch einen Gang runter und geben Sie der Frau das Gefühl, dass Sie alle Zeit der Welt hat. \r\n1. Nehmen Sie sich Zeit für das Vorspiel.\r\n2. Sorgen Sie für Romantik und Sinnlichkeit. Machen Sie der Frau Komplimente, sagen Sie Ihr dass sich ihre Haut toll anfühlt etc. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den Jäger wecken\r\n\r\nUmgekehrt kitzeln Sie als Frau den Jäger und Eroberer im Mann heraus. Spielen Sie mit dem Wechsel von Nähe und Distanz, Vertrautheit und Necken.\r\nWenn es um Sex im Allgemeinen und um den Orgasmus im Besonderen geht, ist keinem geholfen, wenn einer der Beteiligten dem Anderen oder sich selbst in irgendeiner Form Druck macht. \r\nFrauen sollten sich der Situation hingeben und sich selbst in der Erfahrung mit dem Intimpartner spüren ohne den Anspruch zu haben, unbedingt einen Orgasmus haben zu wollen oder zu müssen.\r\n\r\nBei Männern ist es wichtig, dass sie, gerade beim ersten Sex mit einem neuen Intimpartner, darauf achten nicht zu früh zu kommen. Geben Sie Ihrer Intimpartnerin Zeit. Bei der Masturbation haben Sie Erfahrungen gesammelt, wie Sie Ihren Orgasmus verzögern können. Wenden Sie diese Strategien an und nehmen Sie notfalls etwas Geschwindigkeit oder Druck aus der Situation heraus. Ihr Gegenüber sollte eben nicht das Gefühl haben, dass Sie den Orgasmus des Anderen jetzt unbedingt wollen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Synchrone Orgasmen\r\n\r\nIm Übrigen sind synchrone Orgasmen eher ein Mythos und gerade hier sind Enttäuschungen nahezu vorprogrammiert, wenn Sie sich ein solches Ziel setzen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sex ohne Orgasmus \r\n\r\nFrauen haben es ohnehin schwerer als Männer zum Orgasmus zu kommen. Das heißt, dass es sehr wahrscheinlich ist, dass beim ersten Mal mit einem neuen Intimpartner die Frau keinen Orgasmus hat. Das anders zu wollen ist zwar löblich, baut aber Stress und Druck auf.\r\nGenau das ist aber der Killer für jede Erotik, Ungezwungenheit und vor allem einen Orgasmus.\r\n\r\nWas viele Männer nicht wissen: Frauen empfinden Sex an sich als etwas sehr Schönes, Intimes und Genussvolles, auch ohne Orgasmus.\r\n\r\nDas bedeutet natürlich nicht, dass es Männern langfristig egal sein sollte, ob die Frau zum Orgasmus kommt oder nicht. \r\nMit der Zeit kann sich die Orgasmusfähigkeit der Frau auf Grund von Vertrautheit verbessern. Aber dafür ist es eventuell nötig, dass Sie miteinander sprechen, Neues ausprobieren und/oder sich selbst durch Masturbation kennenlernen. \r\n\r\nWenn bei der Frau langfristig der Orgasmus ausbleibt, birgt diese Situation durchaus Potential zu einem Problem zu werden. In diesem Fall ist es ratsam darüber zu sprechen und neue Dinge auszuprobieren, denn interessanterweise können sich sowohl beim Mann als auch bei der Frau Versagensängste oder Gleichgültigkeit aufbauen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorgetäuschter Orgasmus\r\n\r\nOb man dem Anderen - egal ob Mann oder Frau - den Orgasmus vortäuschen sollte, ist eine Frage, die nicht so einfach beantwortet werden kann. Ein Gespräch über bereits vorgetäuschte Orgasmen wird das Sex-Leben mit diesem Partner auf jeden Fall beeinflussen und zwar sehr wahrscheinlich negativ.\r\n\r\nDas Wissen um vorgetäuschte Orgasmen wird den Mann in seinem Männlichkeitsgefühl angreifen. Wenn Sie sich in der Situation befinden, in der Sie mit Ihrem neuen Intimpartner keinen Orgasmus erleben können, sprechen Sie die positiven Seiten an: „Ich habe es total genossen Dich zu spüren. Ein Orgasmus ist mir, vor allem am Anfang, nicht so wichtig.“\r\n\r\nWenn Sie länger mit Ihrem Intimpartner zusammen sind und Sie beim Sex keinen Orgasmus erleben, konzentrieren Sie sich darauf, wie Sie Ihr Sex-Leben in der Zukunft gestalten können. Es gibt zum Beispiel Workshops für Paare oder Singles. Schlagen Sie vor, etwas Neues auszuprobieren, aber vermeiden Sie das direkte Ansprechen von bereits vorgetäuschten Orgasmen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Orgasmus-Störungen\r\n\r\nEin ebenfalls wichtiges Thema sind Orgasmus-Störungen. Diese können sowohl beim Mann als auch bei der Frau auftreten und lösen bei den Betroffenen natürlich große Versagensängste aus. Sie äußern sich zum Beispiel durch Orgamushemmung, Orgasmusverzögerung oder gänzliches Ausbleiben eines Orgasmus. Erektionsstörungen, frühzeitige Ejakulation, Fehlen des Lustempfindens oder auch Schmerzempfinden beim Sex gelten als sexuelle Funktionsstörung. Diese Störungen können sowohl physische als auch psychische Ursachen haben.\r\n\r\nSollten Sie an Orgasmus- oder einer sexuellen Funktionsstörung leiden, ist es ratsam, dass Sie professionelle Hilfe in Anspruch nehmen, statt zu hoffen, dass sich das Problem von selbst wieder lösen wird. Die erste Anlaufstelle für Frauen kann der Frauenarzt sein, während sich Männer an ihren Hausarzt oder einen Urologen wenden können. \r\n\r\nImmer wieder begegnen uns Menschen, die unnötig leiden, weil Sie lieber auf Besserung hoffen, statt zum Arzt zu gehen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching zum Thema \"Orgasmus\" durchlaufen.  Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

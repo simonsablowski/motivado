@@ -1,0 +1,519 @@
+{
+  "key": "slc-verhalten",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Schlafverhalten Einleitung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "c313fa8c4a60452f8ee7379a7409fbfd",
+      "title": "Wie viele Stunden schlafen Sie zur Zeit pro Nacht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V2.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "< 6 Stunden"
+          },
+          {
+            "key": "2",
+            "value": "6-8 Stunden"
+          },
+          {
+            "key": "3",
+            "value": "> 8 Stunden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "c313fa8c4a60452f8ee7379a7409fbfd is '1'"
+        },
+        {
+          "to": "n003",
+          "if": "c313fa8c4a60452f8ee7379a7409fbfd is '2'"
+        },
+        {
+          "to": "n003",
+          "if": "c313fa8c4a60452f8ee7379a7409fbfd is '3'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "afd1215b45c74d7bb1c3793da1513a7d",
+      "title": "Fühlen Sie sich danach ausgeruht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V3.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "afd1215b45c74d7bb1c3793da1513a7d is '2'"
+        },
+        {
+          "to": "n004",
+          "if": "afd1215b45c74d7bb1c3793da1513a7d is '1'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "b777d3e1a3a0476887826fcdae1b230c",
+      "title": "Wann gehen Sie Abends unter der Woche ins Bett?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_v4.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "vor 23 Uhr"
+          },
+          {
+            "key": "2",
+            "value": "zwischen 23 Uhr und 1 Uhr"
+          },
+          {
+            "key": "3",
+            "value": "Nach 1 Uhr"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "b777d3e1a3a0476887826fcdae1b230c is '1'"
+        },
+        {
+          "to": "n005",
+          "if": "b777d3e1a3a0476887826fcdae1b230c is '3'"
+        },
+        {
+          "to": "n005",
+          "if": "b777d3e1a3a0476887826fcdae1b230c is '2'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "6db847fbd2184b2ba233a260849c0d2b",
+      "title": "Gehen Sie unter der Woche jeden Abend zur gleichen Zeit ins Bett?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V5.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "6db847fbd2184b2ba233a260849c0d2b is '2'"
+        },
+        {
+          "to": "n006",
+          "if": "6db847fbd2184b2ba233a260849c0d2b is '1'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "d2279dd68e2a4859a6e8f95d6182b601",
+      "title": "Wann stehen Sie unter der Woche morgens auf?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_v6.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "vor 6 Uhr"
+          },
+          {
+            "key": "2",
+            "value": "zwischen 6 und 8 Uhr"
+          },
+          {
+            "key": "3",
+            "value": "nach 8 Uhr"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "d2279dd68e2a4859a6e8f95d6182b601 is '3'"
+        },
+        {
+          "to": "n007",
+          "if": "d2279dd68e2a4859a6e8f95d6182b601 is '2'"
+        },
+        {
+          "to": "n007",
+          "if": "d2279dd68e2a4859a6e8f95d6182b601 is '1'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "48b68aeef6ab4bf0a231bd487eca0e46",
+      "title": "Fällt Ihnen das Aufstehen schwer?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_v7.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "48b68aeef6ab4bf0a231bd487eca0e46 is '1'"
+        },
+        {
+          "to": "n008",
+          "if": "48b68aeef6ab4bf0a231bd487eca0e46 is '2'"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "dee6d3ce39074a4da40c278d14b29ef2",
+      "title": "Gehen Sie am Wochenende ungefähr zur gleichen Zeit zu Bett wie unter der Woche?\r\n",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_v8.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "dee6d3ce39074a4da40c278d14b29ef2 is '2'"
+        },
+        {
+          "to": "n009",
+          "if": "dee6d3ce39074a4da40c278d14b29ef2 is '1'"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "2a3eeaf4f3cd4a28851e402a053f65fa",
+      "title": "Schlafen Sie am Wochenende aus?\r\n",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V9.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "2a3eeaf4f3cd4a28851e402a053f65fa is '2'"
+        },
+        {
+          "to": "n010",
+          "if": "2a3eeaf4f3cd4a28851e402a053f65fa is '1'"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "7822fdf0ca3248a98f0c899a80f694dc",
+      "title": "Wie lange Schlafen Sie wenn Sie Urlaub bzw. frei haben?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_v10.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "< 6 Stunden"
+          },
+          {
+            "key": "2",
+            "value": "6-8 Stunden"
+          },
+          {
+            "key": "3",
+            "value": "> 8 Stunden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "7822fdf0ca3248a98f0c899a80f694dc is '1'"
+        },
+        {
+          "to": "n011",
+          "if": "7822fdf0ca3248a98f0c899a80f694dc is '2'"
+        },
+        {
+          "to": "n011",
+          "if": "7822fdf0ca3248a98f0c899a80f694dc is '3'"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "01541d91055d411aaa032987a308d5bb",
+      "title": "Fühlen Sie sich danach ausgeruht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_v11.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "01541d91055d411aaa032987a308d5bb is '2'"
+        },
+        {
+          "to": "n012",
+          "if": "01541d91055d411aaa032987a308d5bb is '1'"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Options",
+      "key": "66a57ca4f35f4adeb6f8f817fe3075b7",
+      "title": "Sind Sie eher ein... ?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V12.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Morgentyp"
+          },
+          {
+            "key": "2",
+            "value": "Abendtyp"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "66a57ca4f35f4adeb6f8f817fe3075b7 is '2'"
+        },
+        {
+          "to": "n013",
+          "if": "66a57ca4f35f4adeb6f8f817fe3075b7 is '1'"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Regelmäßigkeit Überleitung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Regelmäßigkeit Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Um Ihren idealen Schlafrhythmus zu bestimmen, gehen Sie folgendermaßen vor:",
+      "text": "- Nehmen Sie die Uhrzeit zu der Sie das Haus verlassen müssen bzw. Sie Ihrer regulären täglichen Beschäftigung nachgehen.\n- Ziehen Sie von dieser Uhrzeit die Zeit ab, die Sie zum Waschen, Anziehen und Frühstücken ohne Eile benötigen. Das ist Ihre neue Aufsteh-Zeit.\n- Rechnen Sie von dieser Zeit nun Ihre Urlaubsschlaf-Menge zurück, um Ihre Zu Bett Geh Zeit herauszufinden\n- Zubettgeh-Zeit = Aufstehzeit - Urlaubsschlafmenge",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_v16.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 10
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Setzen Sie Ihren neuen Schlaf-Rhythmus in den nächsten 14 Tagen jeden Tag um!\n\nJeden Tag.\n\nDas ist nicht leicht - aber Sie schaffen das!",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V17.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 10
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Outro Schlafverhalten, Überleitung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_SchlafVerh_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

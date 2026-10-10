@@ -1,0 +1,217 @@
+{
+  "key": "bez-datezubez-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_GCTelefon_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "GClsCall1",
+      "title": "Fühlen Sie sich wohl am Telefon? Telefonieren Sie gerne?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V2.flv"
+        },
+        "options": [
+          {
+            "key": "j",
+            "value": "Ja"
+          },
+          {
+            "key": "n",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "GClsCall1 is 'n'"
+        },
+        {
+          "to": "n003",
+          "if": "GClsCall1 is 'j'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "GClsCall2",
+      "title": "Fühlen Sie sich am Telefon mit einer fremden Person sicher?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V3.flv"
+        },
+        "options": [
+          {
+            "key": "j",
+            "value": "Eher sicher"
+          },
+          {
+            "key": "n",
+            "value": "Eher unsicher"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "GClsCall2 is 'j'"
+        },
+        {
+          "to": "n004",
+          "if": "GClsCall2 is 'n'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "GClsCall3",
+      "title": "Waren Sie schon einmal mit einer neuen Bekanntschaft am Telefon und wollten ein Date ausmachen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V4.flv"
+        },
+        "options": [
+          {
+            "key": "j",
+            "value": "Ja"
+          },
+          {
+            "key": "n",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "GClsCall1 is 'j' and GClsCall2 is 'j' and GClsCall3 is 'j'"
+        },
+        {
+          "to": "n006",
+          "if": "GClsCall3 is 'j'"
+        },
+        {
+          "to": "n006",
+          "if": "GClsCall3 is 'n'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "ccd846418c4441db84eeb9047677cfdf",
+      "title": "Möchten Sie dieses Coaching auch mit Ihren Vorkenntnissen machen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V6.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 20
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja, dieses Coaching starten"
+          },
+          {
+            "key": 2,
+            "value": "Nein, weiter zu anderen Themen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "ccd846418c4441db84eeb9047677cfdf is 1"
+        },
+        {
+          "to": null,
+          "if": "ccd846418c4441db84eeb9047677cfdf is 2"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateTelefon_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Buy",
+      "key": null,
+      "title": "Intro & buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_GCTelefon_V7.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 42
+          }
+        ],
+        "key": "bez-datezubez-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

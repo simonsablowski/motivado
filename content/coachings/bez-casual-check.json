@@ -1,0 +1,551 @@
+{
+  "key": "bez-casual-check",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Traumpartner?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Weitere Punkte finden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtigkeit Ihrer Punkte bestimmen:\n\nSehr wichtig: 3\n\nWichtig: 2\n\nNicht so wichtig: 1",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Erfüllungsgrad dieser tatsächlichen Person:\n\n\n\nErfüllt sehr gut: +2\n\n\n\nErfüllt gut: +1\n\n\n\nErfüllt nicht, ist neutral: 0\n\n\n\nPasst da nicht: -1\n\n\nPasst da gar nicht: -2",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1.) Gehen Sie jeden Punkt von Ihnen durch und nehmen Sie die Wichtigkeit mit der Erfüllung mal. So erhält jeder Punkt ein Teilergebnis.\n\n2.) Zählen Sie all diese Teilergebnisse zu einem Ergebnis zusammen.\n\n3.) Teilen Sie dieses Ergebnis durch die Anzahl der Punkte. Sie erhalten Ihr Gesamtergebnis.",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "0708b3a176014c8bbd7e5fa2ef3652f2",
+      "title": "In welche Bereich liegt Ihr Ergebnis?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V8.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Zwischen -1 und +1"
+          },
+          {
+            "key": 2,
+            "value": "Ergebnis  ab +4 und größer"
+          },
+          {
+            "key": 3,
+            "value": "Zwischen -6 und -1"
+          },
+          {
+            "key": 4,
+            "value": "Zwischen +1 und +4"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "0708b3a176014c8bbd7e5fa2ef3652f2 is 1"
+        },
+        {
+          "to": "n009",
+          "if": "0708b3a176014c8bbd7e5fa2ef3652f2 is 2"
+        },
+        {
+          "to": "n010",
+          "if": "0708b3a176014c8bbd7e5fa2ef3652f2 is 3"
+        },
+        {
+          "to": "n011",
+          "if": "0708b3a176014c8bbd7e5fa2ef3652f2 is 4"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Erinnern Sie meine Worte",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Negativliste",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Options",
+      "key": "2e46160d38ed42938b5b068b4bdaa81c",
+      "title": "In welchem Bereich lag das Ergebnis?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V16.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Zwischen +1 und +6"
+          },
+          {
+            "key": 2,
+            "value": "Zwischen -1 und +1"
+          },
+          {
+            "key": 3,
+            "value": "Zwischen -6 und -4"
+          },
+          {
+            "key": 4,
+            "value": "Zwischen -4 und -1"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015",
+          "if": "2e46160d38ed42938b5b068b4bdaa81c is 1"
+        },
+        {
+          "to": "n016",
+          "if": "2e46160d38ed42938b5b068b4bdaa81c is 2"
+        },
+        {
+          "to": "n017",
+          "if": "2e46160d38ed42938b5b068b4bdaa81c is 3"
+        },
+        {
+          "to": "n018",
+          "if": "2e46160d38ed42938b5b068b4bdaa81c is 4"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Bieten was man sucht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Was mag diese Person?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Wie gut erfüllen Sie das?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "An welchen Punkten  war es nicht so gut?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Sprechen Sie mit einem Bekannten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Haben Sie ähnliche Ziele",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "Was war Ihr erster Eindruck?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Video",
+      "key": null,
+      "title": "Sum-up",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "Besprechen Ihrer Ergebnisse mit Bekanntem über diese Person und Ihre Erkenntnisse. ",
+      "text": "Wann soll dieser Termin sein?",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V30.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

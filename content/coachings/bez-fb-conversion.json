@@ -1,0 +1,532 @@
+{
+  "key": "bez-fb-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "f239fa0ea60e4cba8119ff8825568ba0",
+      "title": "Welche Beschreibung trifft am ehesten auf Sie zu?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Fernbez_V1.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Meine Beziehung droht zu einer Fernbeziehung zu werden"
+          },
+          {
+            "key": "2",
+            "value": "Ich bin bereits in einer Fernbeziehung"
+          },
+          {
+            "key": "3",
+            "value": "Ich beginne eine neue Beziehung als Fernbeziehung"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "f239fa0ea60e4cba8119ff8825568ba0 is '1'"
+        },
+        {
+          "to": "n003",
+          "if": "f239fa0ea60e4cba8119ff8825568ba0 is '2'"
+        },
+        {
+          "to": "n004",
+          "if": "f239fa0ea60e4cba8119ff8825568ba0 is '3'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Group",
+      "key": "REL_fernbez_langweit",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Fernbez_V5.flv"
+        },
+        "count": 2
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "f6e1e9ceb1d7439982f90a11ed23fa15",
+      "title": "War es von Anfang an eine Fernbeziehung oder waren Sie vorher bereits zusammen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Fernbez_V2.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Es war von Anfang an eine Fernbeziehung"
+          },
+          {
+            "key": "2",
+            "value": "Wir waren vorher bereits zusammen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "f6e1e9ceb1d7439982f90a11ed23fa15 is '2'"
+        },
+        {
+          "to": "n007",
+          "if": "f6e1e9ceb1d7439982f90a11ed23fa15 is '1'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "d03a78e3df00453492968d1163033dcf",
+      "title": "Wie weit entfernt wird der Andere sein? Wie lange fährt man?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Fernbez_V4.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "0-2 Std"
+          },
+          {
+            "key": "2",
+            "value": "2-4 Std"
+          },
+          {
+            "key": "3",
+            "value": "4-6 Std"
+          },
+          {
+            "key": "4",
+            "value": "> 6 Std"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "d03a78e3df00453492968d1163033dcf is '4'"
+        },
+        {
+          "to": "n008",
+          "if": "d03a78e3df00453492968d1163033dcf is '2'"
+        },
+        {
+          "to": "n008",
+          "if": "d03a78e3df00453492968d1163033dcf is '3'"
+        },
+        {
+          "to": "n008",
+          "if": "d03a78e3df00453492968d1163033dcf is '1'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "45d9d75e3de940198da0e0eb3118ce02",
+      "title": "Wie lange sind Sie bereits zusammen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Unter 1 Jahr"
+          },
+          {
+            "key": "2",
+            "value": "1-3 Jahre"
+          },
+          {
+            "key": "3",
+            "value": "über 3 Jahre"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "45d9d75e3de940198da0e0eb3118ce02 is '2'"
+        },
+        {
+          "to": "n009",
+          "if": "45d9d75e3de940198da0e0eb3118ce02 is '1'"
+        },
+        {
+          "to": "n009",
+          "if": "45d9d75e3de940198da0e0eb3118ce02 is '3'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Group",
+      "key": "REL_fernbez_wielang",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Fernbez_V6.flv"
+        },
+        "count": 4
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Group",
+      "key": "REL_fernbez_weitsehen",
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Fernbez_V3.flv"
+        },
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "key": "bez-fb-paket",
+        "video": {
+          "url": "REL_Fernbez_FernRett_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "9544a7ba1dab48739d420d2ad69ddff6",
+      "title": "Wie weit entfernt wird der Andere sein? Wie lange fährt man?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "0-2 Std"
+          },
+          {
+            "key": "2",
+            "value": "2-4 Std"
+          },
+          {
+            "key": "3",
+            "value": "4-6 Std"
+          },
+          {
+            "key": "4",
+            "value": "> 6 Std"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "9544a7ba1dab48739d420d2ad69ddff6 is '1'"
+        },
+        {
+          "to": "n012",
+          "if": "9544a7ba1dab48739d420d2ad69ddff6 is '3'"
+        },
+        {
+          "to": "n012",
+          "if": "9544a7ba1dab48739d420d2ad69ddff6 is '2'"
+        },
+        {
+          "to": "n012",
+          "if": "9544a7ba1dab48739d420d2ad69ddff6 is '4'"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "1c077d3071af4416a3870bc78e5cfae0",
+      "title": "Wie lange waren Sie in der Vor-Ort-Beziehung zusammen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "< 1 Jahr"
+          },
+          {
+            "key": "2",
+            "value": "1-3 Jahre"
+          },
+          {
+            "key": "3",
+            "value": "> 3 Jahre"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "1c077d3071af4416a3870bc78e5cfae0 is '1'"
+        },
+        {
+          "to": "n013",
+          "if": "1c077d3071af4416a3870bc78e5cfae0 is '2'"
+        },
+        {
+          "to": "n013",
+          "if": "1c077d3071af4416a3870bc78e5cfae0 is '3'"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "5e328bb549ab4883afcf108c95facde0",
+      "title": "Wie lange sind Sie bereits zusammen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "1-3 Jahre"
+          },
+          {
+            "key": "2",
+            "value": "Unter 1 Jahr"
+          },
+          {
+            "key": "3",
+            "value": "über 3 Jahre"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "5e328bb549ab4883afcf108c95facde0 is '2'"
+        },
+        {
+          "to": "n014",
+          "if": "5e328bb549ab4883afcf108c95facde0 is '3'"
+        },
+        {
+          "to": "n014",
+          "if": "5e328bb549ab4883afcf108c95facde0 is '1'"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "key": "bez-fb-paket",
+        "video": {
+          "url": "REL_Fernbez_Bez2Fern_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "7dee197c67674b479099eeca32b73106",
+      "title": "Wie lange sind Sie in der Fernbeziehung zusammen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "< 1 Jahr"
+          },
+          {
+            "key": "2",
+            "value": "1-3 Jahre"
+          },
+          {
+            "key": "3",
+            "value": "> 3 Jahre"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "7dee197c67674b479099eeca32b73106 is '3'"
+        },
+        {
+          "to": "n014",
+          "if": "7dee197c67674b479099eeca32b73106 is '2'"
+        },
+        {
+          "to": "n014",
+          "if": "7dee197c67674b479099eeca32b73106 is '1'"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Options",
+      "key": "2498bcc1292348859098d392f2b265c7",
+      "title": "Wie weit entfernt ist der Andere? Wie lange fährt man?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "0-2 Std"
+          },
+          {
+            "key": "2",
+            "value": "2-4 Std"
+          },
+          {
+            "key": "3",
+            "value": "4-6 Std"
+          },
+          {
+            "key": "4",
+            "value": "> 6 Std"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015",
+          "if": "2498bcc1292348859098d392f2b265c7 is '1'"
+        },
+        {
+          "to": "n015",
+          "if": "2498bcc1292348859098d392f2b265c7 is '2'"
+        },
+        {
+          "to": "n015",
+          "if": "2498bcc1292348859098d392f2b265c7 is '4'"
+        },
+        {
+          "to": "n015",
+          "if": "2498bcc1292348859098d392f2b265c7 is '3'"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Options",
+      "key": "765f08944bec4bb48b114398f1ddf81e",
+      "title": "Wie häufig sehen Sie sich im Durchschnitt?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "1x/Woche"
+          },
+          {
+            "key": "2",
+            "value": "2x/Monat"
+          },
+          {
+            "key": "3",
+            "value": "1x/Monat"
+          },
+          {
+            "key": "4",
+            "value": "1x/Quartal"
+          },
+          {
+            "key": "5",
+            "value": "seltener"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "765f08944bec4bb48b114398f1ddf81e is '2'"
+        },
+        {
+          "to": "n016",
+          "if": "765f08944bec4bb48b114398f1ddf81e is '1'"
+        },
+        {
+          "to": "n016",
+          "if": "765f08944bec4bb48b114398f1ddf81e is '3'"
+        },
+        {
+          "to": "n016",
+          "if": "765f08944bec4bb48b114398f1ddf81e is '5'"
+        },
+        {
+          "to": "n016",
+          "if": "765f08944bec4bb48b114398f1ddf81e is '4'"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "key": "bez-fb-paket",
+        "video": {
+          "url": "REL_Fernbez_Bez2Fern_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "key": "bez-br-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "d2dbb2a23045440e83a7f8065c6d5d80",
+      "title": "Seit wann sind Sie in dieser Beziehung?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezRetten_V1.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "0-4 Wochen"
+          },
+          {
+            "key": "2",
+            "value": "1-6 Monate"
+          },
+          {
+            "key": "3",
+            "value": "über 6 Monate"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "d2dbb2a23045440e83a7f8065c6d5d80 is '1'"
+        },
+        {
+          "to": "n003",
+          "if": "d2dbb2a23045440e83a7f8065c6d5d80 is '3'"
+        },
+        {
+          "to": "n002",
+          "if": "d2dbb2a23045440e83a7f8065c6d5d80 is '2'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "9ecf0d7b1a4d4cbdb07a22fbe669d07f",
+      "title": "Seit wann haben Sie das Gefühl, dass etwas nicht stimmt?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezRetten_V3.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "0-4 Wochen"
+          },
+          {
+            "key": "2",
+            "value": "1-6 Monate"
+          },
+          {
+            "key": "3",
+            "value": "über 6 Monate"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "9ecf0d7b1a4d4cbdb07a22fbe669d07f is '1'"
+        },
+        {
+          "to": "n004",
+          "if": "9ecf0d7b1a4d4cbdb07a22fbe669d07f is '2'"
+        },
+        {
+          "to": "n004",
+          "if": "9ecf0d7b1a4d4cbdb07a22fbe669d07f is '3'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "358ccaff05274bb9b8e8bf9ae1a123b1",
+      "title": "Seit wann haben Sie das Gefühl, dass etwas nicht stimmt?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezRetten_V2.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "0-4 Wochen"
+          },
+          {
+            "key": "2",
+            "value": "1-6 Monate"
+          },
+          {
+            "key": "3",
+            "value": "über 6 Monate"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "358ccaff05274bb9b8e8bf9ae1a123b1 is '1'"
+        },
+        {
+          "to": "n004",
+          "if": "358ccaff05274bb9b8e8bf9ae1a123b1 is '3'"
+        },
+        {
+          "to": "n004",
+          "if": "358ccaff05274bb9b8e8bf9ae1a123b1 is '2'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezRetten_V4.flv"
+        },
+        "key": "bez-br-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

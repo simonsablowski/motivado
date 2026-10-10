@@ -1,0 +1,585 @@
+{
+  "key": "bez-be2-erste-nachricht",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "20d472257beb4e9e97ec51fb4c0e7b9e",
+      "title": "Welches Thema der Auswahl möchten Sie sich nun ansehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateMessageBe2_V4.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 22
+          },
+          {
+            "type": "slide",
+            "url": "title_erster-kontakt_bg.png",
+            "second": 0
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Vor der ersten Nachricht: Profil ansehen"
+          },
+          {
+            "key": "2",
+            "value": "Die perfekte Anrede"
+          },
+          {
+            "key": "3",
+            "value": "Hauptteil der Nachricht"
+          },
+          {
+            "key": "4",
+            "value": "Die Verabschiedung"
+          },
+          {
+            "key": "5",
+            "value": "Fazit und Übung"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "20d472257beb4e9e97ec51fb4c0e7b9e is '3'"
+        },
+        {
+          "to": "n003",
+          "if": "20d472257beb4e9e97ec51fb4c0e7b9e is '5'"
+        },
+        {
+          "to": "n004",
+          "if": "20d472257beb4e9e97ec51fb4c0e7b9e is '2'"
+        },
+        {
+          "to": "n005",
+          "if": "20d472257beb4e9e97ec51fb4c0e7b9e is '1'"
+        },
+        {
+          "to": "n006",
+          "if": "20d472257beb4e9e97ec51fb4c0e7b9e is '4'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "In Ihrem Word-Dokument:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V12.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 5
+          }
+        ],
+        "elements": [
+          {
+            "element": "Mails sortieren",
+            "second": 15
+          },
+          {
+            "element": "Rechtschreibkorrektur nutzen",
+            "second": 42
+          },
+          {
+            "element": "5-6 Zeilen schreiben",
+            "second": 64
+          },
+          {
+            "element": "Fragen zum Anderen einfügen",
+            "second": 101
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "20 Profile ansehen und anmailen",
+      "text": "Bitte sehen Sie sich 20 Profile an und suchen Sie ein, zwei Besonderheiten heraus. Dann schreiben Sie an diese 20 Personen jeweils eine E-Mail!",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V30.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Wichtig bei der Begrüßung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V13.flv"
+        },
+        "elements": [
+          {
+            "element": "Persönlich ansprechen",
+            "second": 10
+          },
+          {
+            "element": "keine Zahlen",
+            "second": 18
+          },
+          {
+            "element": "keine Sonderzeichen",
+            "second": 31
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Vor der Nachricht:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V10.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "profilkopf.png",
+            "second": 0
+          },
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 8
+          },
+          {
+            "type": "clearslide",
+            "second": 8
+          }
+        ],
+        "elements": [
+          {
+            "element": "Foto ansehen",
+            "second": 8
+          },
+          {
+            "element": "Attraktiv? Mühe geben!",
+            "second": 29
+          },
+          {
+            "element": "Nickname googlen",
+            "second": 55
+          },
+          {
+            "element": "Profilinformationen lesen",
+            "second": 68
+          },
+          {
+            "element": "Worauf Bezug nehmen?",
+            "second": 82
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Das Ende",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Gehen Sie auf den Anderen ein",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V14.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 77
+          },
+          {
+            "type": "clearslide",
+            "second": 77
+          },
+          {
+            "type": "slide",
+            "url": "profilkopf.png",
+            "second": 6
+          },
+          {
+            "type": "slide",
+            "url": "besucher-bg.png",
+            "second": 16
+          },
+          {
+            "type": "slide",
+            "url": "ski-bg.jpg",
+            "second": 57
+          },
+          {
+            "type": "slide",
+            "url": "kochen-bg.jpg",
+            "second": 67
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "14 Tage lang jeden Tag 1 E-Mail",
+      "text": "Mailen Sie in den nächsten 14 Tagen täglich an neue Kontakte auf der Plattform!",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "a59739705675419f85974124760624dc",
+      "title": "Welches Thema der Auswahl möchten Sie sich nun ansehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateMessageBe2_V5.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Vor der ersten Nachricht: Profil ansehen"
+          },
+          {
+            "key": "2",
+            "value": "Die perfekte Anrede"
+          },
+          {
+            "key": "3",
+            "value": "Hauptteil der Nachricht"
+          },
+          {
+            "key": "4",
+            "value": "Die Verabschiedung"
+          },
+          {
+            "key": "5",
+            "value": "Fazit und Übung"
+          },
+          {
+            "key": "6",
+            "value": "Zum Ende des Coachings"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "a59739705675419f85974124760624dc is '1'"
+        },
+        {
+          "to": "n013",
+          "if": "a59739705675419f85974124760624dc is '6'"
+        },
+        {
+          "to": "n003",
+          "if": "a59739705675419f85974124760624dc is '5'"
+        },
+        {
+          "to": "n006",
+          "if": "a59739705675419f85974124760624dc is '4'"
+        },
+        {
+          "to": "n002",
+          "if": "a59739705675419f85974124760624dc is '3'"
+        },
+        {
+          "to": "n004",
+          "if": "a59739705675419f85974124760624dc is '2'"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Power-Kniff",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateMessageBe2_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Salz und Pfeffer",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V17.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 13
+          }
+        ],
+        "elements": [
+          {
+            "element": "Anknüpfungspunkte suchen",
+            "second": 24
+          },
+          {
+            "element": "Locken Sie den Anderen",
+            "second": 61
+          },
+          {
+            "element": "Ein kleiner Seitenhieb langt",
+            "second": 84
+          },
+          {
+            "element": "Nicht krampfhaft versuchen",
+            "second": 153
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Im nächsten Teil",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V15.flv"
+        },
+        "elements": [
+          {
+            "element": "Erzählen Sie von sich selbst",
+            "second": 8
+          },
+          {
+            "element": "Immer \"per Du\"",
+            "second": 43
+          },
+          {
+            "element": "1-2 Sätze",
+            "second": 54
+          },
+          {
+            "element": "Warum haben Sie diese Frage?",
+            "second": 66
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Keywords",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateMessageBe2_V9.flv"
+        },
+        "elements": [
+          {
+            "element": "Raus in die Praxis",
+            "second": 7
+          },
+          {
+            "element": "Jetzt umsetzen",
+            "second": 17
+          },
+          {
+            "element": "Üben, üben, üben",
+            "second": 37
+          },
+          {
+            "element": "Immer weiter machen",
+            "second": 49
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Politur vor dem Abschicken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "No-Go's",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateMessageBe2_V7.flv"
+        },
+        "elements": [
+          {
+            "element": "Abkürzungen",
+            "second": 5
+          },
+          {
+            "element": "Slang/Dialekt",
+            "second": 19
+          },
+          {
+            "element": "zu viele Smileys",
+            "second": 35
+          },
+          {
+            "element": "an den Anderen anpassen",
+            "second": 56
+          },
+          {
+            "element": "keine Ein-Sätzer",
+            "second": 64
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Vorgedruckter Mail-Text",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateMessageBe2_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    }
+  }
+}

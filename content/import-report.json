@@ -1,0 +1,3446 @@
+[
+  {
+    "key": "b2b-limbeck",
+    "file": "b2b/xpdl/b2b-limbeck.xpdl",
+    "ok": true,
+    "nodes": 24,
+    "edges": 31,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n012",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "b2b-simyo",
+    "file": "b2b/xpdl/b2b-simyo.xpdl",
+    "ok": true,
+    "nodes": 67,
+    "edges": 84,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n016",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n019",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n020",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n024",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n044",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n045",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n048",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n051",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n053",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n054",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "b2b-zeitmanagement",
+    "file": "b2b/xpdl/b2b-zeitmanagement.xpdl",
+    "ok": true,
+    "nodes": 51,
+    "edges": 79,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n035",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n040",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n041",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n042",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "unknown-reference",
+        "node": "n050",
+        "message": "Text references #Prioritaet_Methoden, which no node in this coaching sets"
+      }
+    ]
+  },
+  {
+    "key": "bez-affaere-beenden",
+    "file": "bez/xpdl/bez-affaere-beenden.xpdl",
+    "ok": true,
+    "nodes": 13,
+    "edges": 14,
+    "issues": []
+  },
+  {
+    "key": "bez-affaere-beziehung-parallel",
+    "file": "bez/xpdl/bez-affaere-beziehung-parallel.xpdl",
+    "ok": true,
+    "nodes": 37,
+    "edges": 43,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n012",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n018",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-affaere-zu-beziehung",
+    "file": "bez/xpdl/bez-affaere-zu-beziehung.xpdl",
+    "ok": true,
+    "nodes": 22,
+    "edges": 29,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-affaeren-conversion",
+    "file": "bez/xpdl/bez-affaeren-conversion.xpdl",
+    "ok": true,
+    "nodes": 1,
+    "edges": 2,
+    "issues": []
+  },
+  {
+    "key": "bez-angenehme-gespraeche",
+    "file": "bez/xpdl/bez-angenehme-gespraeche.xpdl",
+    "ok": true,
+    "nodes": 14,
+    "edges": 15,
+    "issues": []
+  },
+  {
+    "key": "bez-asexuell",
+    "file": "bez/xpdl/bez-asexuell.xpdl",
+    "ok": true,
+    "nodes": 9,
+    "edges": 10,
+    "issues": []
+  },
+  {
+    "key": "bez-aussehen-conversion",
+    "file": "bez/xpdl/bez-aussehen-conversion.xpdl",
+    "ok": true,
+    "nodes": 5,
+    "edges": 10,
+    "issues": []
+  },
+  {
+    "key": "bez-balance-conversion",
+    "file": "bez/xpdl/bez-balance-conversion.xpdl",
+    "ok": true,
+    "nodes": 3,
+    "edges": 4,
+    "issues": []
+  },
+  {
+    "key": "bez-balance-mehr1",
+    "file": "bez/xpdl/bez-balance-mehr1.xpdl",
+    "ok": true,
+    "nodes": 20,
+    "edges": 22,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n018",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-balance-mehr2",
+    "file": "bez/xpdl/bez-balance-mehr2.xpdl",
+    "ok": true,
+    "nodes": 21,
+    "edges": 25,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-balance-weniger",
+    "file": "bez/xpdl/bez-balance-weniger.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 18,
+    "issues": []
+  },
+  {
+    "key": "bez-be2-erste-nachricht",
+    "file": "bez/xpdl/bez-be2-erste-nachricht.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 26,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-be2-kontakte",
+    "file": "bez/xpdl/bez-be2-kontakte.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 21,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-be2-nachrichten-austausch",
+    "file": "bez/xpdl/bez-be2-nachrichten-austausch.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 20,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-be2-profil",
+    "file": "bez/xpdl/bez-be2-profil.xpdl",
+    "ok": true,
+    "nodes": 37,
+    "edges": 47,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n022",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n027",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-be2-telefon",
+    "file": "bez/xpdl/bez-be2-telefon.xpdl",
+    "ok": true,
+    "nodes": 48,
+    "edges": 55,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-bet-conversion",
+    "file": "bez/xpdl/bez-bet-conversion.xpdl",
+    "ok": true,
+    "nodes": 3,
+    "edges": 5,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-betrogen-unsicher",
+    "file": "bez/xpdl/bez-betrogen-unsicher.xpdl",
+    "ok": true,
+    "nodes": 9,
+    "edges": 10,
+    "issues": []
+  },
+  {
+    "key": "bez-betrogen",
+    "file": "bez/xpdl/bez-betrogen.xpdl",
+    "ok": true,
+    "nodes": 41,
+    "edges": 45,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-bez-check",
+    "file": "bez/xpdl/bez-bez-check.xpdl",
+    "ok": true,
+    "nodes": 27,
+    "edges": 33,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n023",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-bezstaerken-koerper",
+    "file": "bez/xpdl/bez-bezstaerken-koerper.xpdl",
+    "ok": true,
+    "nodes": 41,
+    "edges": 42,
+    "issues": []
+  },
+  {
+    "key": "bez-bezstaerken-kommunizieren",
+    "file": "bez/xpdl/bez-bezstaerken-kommunizieren.xpdl",
+    "ok": true,
+    "nodes": 18,
+    "edges": 19,
+    "issues": []
+  },
+  {
+    "key": "bez-bezstaerken-partner-lesen",
+    "file": "bez/xpdl/bez-bezstaerken-partner-lesen.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 9,
+    "issues": []
+  },
+  {
+    "key": "bez-bezstaerken-verhalten",
+    "file": "bez/xpdl/bez-bezstaerken-verhalten.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 9,
+    "issues": []
+  },
+  {
+    "key": "bez-br-conversion",
+    "file": "bez/xpdl/bez-br-conversion.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 11,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-casual-check",
+    "file": "bez/xpdl/bez-casual-check.xpdl",
+    "ok": true,
+    "nodes": 28,
+    "edges": 35,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n014",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-coaching",
+    "file": "bez/xpdl/bez-coaching.xpdl",
+    "ok": true,
+    "nodes": 1,
+    "edges": 2,
+    "issues": []
+  },
+  {
+    "key": "bez-date-raum",
+    "file": "bez/xpdl/bez-date-raum.xpdl",
+    "ok": true,
+    "nodes": 13,
+    "edges": 14,
+    "issues": []
+  },
+  {
+    "key": "bez-date-versetzt",
+    "file": "bez/xpdl/bez-date-versetzt.xpdl",
+    "ok": true,
+    "nodes": 10,
+    "edges": 11,
+    "issues": []
+  },
+  {
+    "key": "bez-date",
+    "file": "bez/xpdl/bez-date.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 16,
+    "issues": []
+  },
+  {
+    "key": "bez-datezubez-conversion",
+    "file": "bez/xpdl/bez-datezubez-conversion.xpdl",
+    "ok": true,
+    "nodes": 7,
+    "edges": 13,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-eif-conversion",
+    "file": "bez/xpdl/bez-eif-conversion.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 7,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-eif-partner",
+    "file": "bez/xpdl/bez-eif-partner.xpdl",
+    "ok": true,
+    "nodes": 21,
+    "edges": 31,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n018",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-eif-selbst",
+    "file": "bez/xpdl/bez-eif-selbst.xpdl",
+    "ok": true,
+    "nodes": 42,
+    "edges": 55,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n017",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n022",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-einstellung-affaere",
+    "file": "bez/xpdl/bez-einstellung-affaere.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 20,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-einstellung-kennenlernen",
+    "file": "bez/xpdl/bez-einstellung-kennenlernen.xpdl",
+    "ok": true,
+    "nodes": 12,
+    "edges": 13,
+    "issues": []
+  },
+  {
+    "key": "bez-einstellung-naeherkennen",
+    "file": "bez/xpdl/bez-einstellung-naeherkennen.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 12,
+    "issues": []
+  },
+  {
+    "key": "bez-einstellung-sex",
+    "file": "bez/xpdl/bez-einstellung-sex.xpdl",
+    "ok": true,
+    "nodes": 18,
+    "edges": 19,
+    "issues": []
+  },
+  {
+    "key": "bez-eroberung-email",
+    "file": "bez/xpdl/bez-eroberung-email.xpdl",
+    "ok": true,
+    "nodes": 12,
+    "edges": 13,
+    "issues": []
+  },
+  {
+    "key": "bez-eroberung-tel",
+    "file": "bez/xpdl/bez-eroberung-tel.xpdl",
+    "ok": true,
+    "nodes": 50,
+    "edges": 51,
+    "issues": []
+  },
+  {
+    "key": "bez-eskalation",
+    "file": "bez/xpdl/bez-eskalation.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 17,
+    "issues": []
+  },
+  {
+    "key": "bez-ex-check",
+    "file": "bez/xpdl/bez-ex-check.xpdl",
+    "ok": true,
+    "nodes": 26,
+    "edges": 29,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n024",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-exdenex",
+    "file": "bez/xpdl/bez-exdenex.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 22,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n012",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n015",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-fb-conversion",
+    "file": "bez/xpdl/bez-fb-conversion.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 41,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-fit-fuer-partner",
+    "file": "bez/xpdl/bez-fit-fuer-partner.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 12,
+    "issues": []
+  },
+  {
+    "key": "bez-flirttech-conversion",
+    "file": "bez/xpdl/bez-flirttech-conversion.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 8,
+    "issues": []
+  },
+  {
+    "key": "bez-flirttech-groupon-conversion",
+    "file": "bez/xpdl/bez-flirttech-groupon-conversion.xpdl",
+    "ok": true,
+    "nodes": 9,
+    "edges": 15,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-freundschaft-mehr",
+    "file": "bez/xpdl/bez-freundschaft-mehr.xpdl",
+    "ok": true,
+    "nodes": 18,
+    "edges": 20,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-geruch",
+    "file": "bez/xpdl/bez-geruch.xpdl",
+    "ok": true,
+    "nodes": 13,
+    "edges": 16,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-haare",
+    "file": "bez/xpdl/bez-haare.xpdl",
+    "ok": true,
+    "nodes": 13,
+    "edges": 14,
+    "issues": []
+  },
+  {
+    "key": "bez-intimhygiene",
+    "file": "bez/xpdl/bez-intimhygiene.xpdl",
+    "ok": true,
+    "nodes": 14,
+    "edges": 15,
+    "issues": []
+  },
+  {
+    "key": "bez-kennenlernen-diaet",
+    "file": "bez/xpdl/bez-kennenlernen-diaet.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 18,
+    "issues": []
+  },
+  {
+    "key": "bez-kennenlernen-negativinfos",
+    "file": "bez/xpdl/bez-kennenlernen-negativinfos.xpdl",
+    "ok": true,
+    "nodes": 18,
+    "edges": 19,
+    "issues": []
+  },
+  {
+    "key": "bez-kennenlernen-restmoeglichkeiten",
+    "file": "bez/xpdl/bez-kennenlernen-restmoeglichkeiten.xpdl",
+    "ok": true,
+    "nodes": 1,
+    "edges": 2,
+    "issues": []
+  },
+  {
+    "key": "bez-kennenlernen-soz-netzwerke",
+    "file": "bez/xpdl/bez-kennenlernen-soz-netzwerke.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 17,
+    "issues": []
+  },
+  {
+    "key": "bez-kleidung",
+    "file": "bez/xpdl/bez-kleidung.xpdl",
+    "ok": true,
+    "nodes": 3,
+    "edges": 4,
+    "issues": []
+  },
+  {
+    "key": "bez-konstruktive-vision",
+    "file": "bez/xpdl/bez-konstruktive-vision.xpdl",
+    "ok": true,
+    "nodes": 10,
+    "edges": 11,
+    "issues": []
+  },
+  {
+    "key": "bez-laecheln-haende-haut",
+    "file": "bez/xpdl/bez-laecheln-haende-haut.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 9,
+    "issues": []
+  },
+  {
+    "key": "bez-lk-1",
+    "file": "bez/xpdl/bez-lk-1.xpdl",
+    "ok": true,
+    "nodes": 26,
+    "edges": 27,
+    "issues": []
+  },
+  {
+    "key": "bez-lk-2",
+    "file": "bez/xpdl/bez-lk-2.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 16,
+    "issues": []
+  },
+  {
+    "key": "bez-lk-3",
+    "file": "bez/xpdl/bez-lk-3.xpdl",
+    "ok": true,
+    "nodes": 25,
+    "edges": 33,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n017",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n022",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-lk-4",
+    "file": "bez/xpdl/bez-lk-4.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 18,
+    "issues": []
+  },
+  {
+    "key": "bez-lk-conversion",
+    "file": "bez/xpdl/bez-lk-conversion.xpdl",
+    "ok": true,
+    "nodes": 7,
+    "edges": 16,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-lk-letgo",
+    "file": "bez/xpdl/bez-lk-letgo.xpdl",
+    "ok": true,
+    "nodes": 18,
+    "edges": 19,
+    "issues": []
+  },
+  {
+    "key": "bez-locken-reizen",
+    "file": "bez/xpdl/bez-locken-reizen.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 17,
+    "issues": []
+  },
+  {
+    "key": "bez-make-up",
+    "file": "bez/xpdl/bez-make-up.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 23,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-naeherkommen-gruppen-feste",
+    "file": "bez/xpdl/bez-naeherkommen-gruppen-feste.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 16,
+    "issues": []
+  },
+  {
+    "key": "bez-nur-affaere",
+    "file": "bez/xpdl/bez-nur-affaere.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 9,
+    "issues": []
+  },
+  {
+    "key": "bez-od-chatten",
+    "file": "bez/xpdl/bez-od-chatten.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 17,
+    "issues": []
+  },
+  {
+    "key": "bez-od-conversion",
+    "file": "bez/xpdl/bez-od-conversion.xpdl",
+    "ok": true,
+    "nodes": 1,
+    "edges": 2,
+    "issues": []
+  },
+  {
+    "key": "bez-od-kontakte",
+    "file": "bez/xpdl/bez-od-kontakte.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 16,
+    "issues": []
+  },
+  {
+    "key": "bez-od-nachrichten-verfassen",
+    "file": "bez/xpdl/bez-od-nachrichten-verfassen.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 18,
+    "issues": []
+  },
+  {
+    "key": "bez-od-nachrichten",
+    "file": "bez/xpdl/bez-od-nachrichten.xpdl",
+    "ok": true,
+    "nodes": 13,
+    "edges": 14,
+    "issues": []
+  },
+  {
+    "key": "bez-od-profil",
+    "file": "bez/xpdl/bez-od-profil.xpdl",
+    "ok": true,
+    "nodes": 31,
+    "edges": 33,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-od-telefon",
+    "file": "bez/xpdl/bez-od-telefon.xpdl",
+    "ok": true,
+    "nodes": 46,
+    "edges": 47,
+    "issues": []
+  },
+  {
+    "key": "bez-orgasmus",
+    "file": "bez/xpdl/bez-orgasmus.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 18,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-partner-check-extern",
+    "file": "bez/xpdl/bez-partner-check-extern.xpdl",
+    "ok": true,
+    "nodes": 33,
+    "edges": 50,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n015",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n016",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n024",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n025",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n030",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-partner-check",
+    "file": "bez/xpdl/bez-partner-check.xpdl",
+    "ok": true,
+    "nodes": 33,
+    "edges": 63,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n019",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n020",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n021",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n022",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n025",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n027",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n028",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-power-einstellung",
+    "file": "bez/xpdl/bez-power-einstellung.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 21,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n012",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-pp-conversion",
+    "file": "bez/xpdl/bez-pp-conversion.xpdl",
+    "ok": true,
+    "nodes": 3,
+    "edges": 4,
+    "issues": []
+  },
+  {
+    "key": "bez-pp-intro",
+    "file": "bez/xpdl/bez-pp-intro.xpdl",
+    "ok": true,
+    "nodes": 10,
+    "edges": 16,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-rapid-left",
+    "file": "bez/xpdl/bez-rapid-left.xpdl",
+    "ok": true,
+    "nodes": 21,
+    "edges": 22,
+    "issues": []
+  },
+  {
+    "key": "bez-rapid-ruin",
+    "file": "bez/xpdl/bez-rapid-ruin.xpdl",
+    "ok": true,
+    "nodes": 19,
+    "edges": 20,
+    "issues": []
+  },
+  {
+    "key": "bez-re-aktionen",
+    "file": "bez/xpdl/bez-re-aktionen.xpdl",
+    "ok": true,
+    "nodes": 9,
+    "edges": 11,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-bewegung",
+    "file": "bez/xpdl/bez-re-bewegung.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 5,
+    "issues": []
+  },
+  {
+    "key": "bez-re-bruecke1",
+    "file": "bez/xpdl/bez-re-bruecke1.xpdl",
+    "ok": true,
+    "nodes": 1,
+    "edges": 2,
+    "issues": []
+  },
+  {
+    "key": "bez-re-bruecke2",
+    "file": "bez/xpdl/bez-re-bruecke2.xpdl",
+    "ok": true,
+    "nodes": 2,
+    "edges": 3,
+    "issues": []
+  },
+  {
+    "key": "bez-re-bruecke3",
+    "file": "bez/xpdl/bez-re-bruecke3.xpdl",
+    "ok": true,
+    "nodes": 1,
+    "edges": 2,
+    "issues": []
+  },
+  {
+    "key": "bez-re-chancen",
+    "file": "bez/xpdl/bez-re-chancen.xpdl",
+    "ok": true,
+    "nodes": 52,
+    "edges": 80,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n031",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n037",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n042",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n043",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n046",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-conversion-auswertungen",
+    "file": "bez/xpdl/bez-re-conversion-auswertungen.xpdl",
+    "ok": true,
+    "nodes": 14,
+    "edges": 28,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-conversion-groupon",
+    "file": "bez/xpdl/bez-re-conversion-groupon.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 20,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-conversion2",
+    "file": "bez/xpdl/bez-re-conversion2.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 34,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n012",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n014",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-donts",
+    "file": "bez/xpdl/bez-re-donts.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 18,
+    "issues": []
+  },
+  {
+    "key": "bez-re-fallen",
+    "file": "bez/xpdl/bez-re-fallen.xpdl",
+    "ok": true,
+    "nodes": 9,
+    "edges": 10,
+    "issues": []
+  },
+  {
+    "key": "bez-re-faq",
+    "file": "bez/xpdl/bez-re-faq.xpdl",
+    "ok": true,
+    "nodes": 28,
+    "edges": 56,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-grundlagen",
+    "file": "bez/xpdl/bez-re-grundlagen.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 13,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-kontaktsperre",
+    "file": "bez/xpdl/bez-re-kontaktsperre.xpdl",
+    "ok": true,
+    "nodes": 6,
+    "edges": 7,
+    "issues": []
+  },
+  {
+    "key": "bez-re-locken-reizen",
+    "file": "bez/xpdl/bez-re-locken-reizen.xpdl",
+    "ok": true,
+    "nodes": 32,
+    "edges": 34,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-selbstbewusstsein",
+    "file": "bez/xpdl/bez-re-selbstbewusstsein.xpdl",
+    "ok": true,
+    "nodes": 24,
+    "edges": 25,
+    "issues": []
+  },
+  {
+    "key": "bez-re-sms",
+    "file": "bez/xpdl/bez-re-sms.xpdl",
+    "ok": true,
+    "nodes": 19,
+    "edges": 21,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-re-spannend",
+    "file": "bez/xpdl/bez-re-spannend.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 16,
+    "issues": []
+  },
+  {
+    "key": "bez-re-strategie",
+    "file": "bez/xpdl/bez-re-strategie.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 9,
+    "issues": []
+  },
+  {
+    "key": "bez-re-treffen",
+    "file": "bez/xpdl/bez-re-treffen.xpdl",
+    "ok": true,
+    "nodes": 14,
+    "edges": 15,
+    "issues": []
+  },
+  {
+    "key": "bez-re-vision",
+    "file": "bez/xpdl/bez-re-vision.xpdl",
+    "ok": true,
+    "nodes": 5,
+    "edges": 6,
+    "issues": []
+  },
+  {
+    "key": "bez-re-zeitlimit",
+    "file": "bez/xpdl/bez-re-zeitlimit.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 5,
+    "issues": []
+  },
+  {
+    "key": "bez-selbstbewusstein-allgemein",
+    "file": "bez/xpdl/bez-selbstbewusstein-allgemein.xpdl",
+    "ok": true,
+    "nodes": 20,
+    "edges": 21,
+    "issues": []
+  },
+  {
+    "key": "bez-selbstbewusstsein-partner",
+    "file": "bez/xpdl/bez-selbstbewusstsein-partner.xpdl",
+    "ok": true,
+    "nodes": 14,
+    "edges": 16,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-sex-basics",
+    "file": "bez/xpdl/bez-sex-basics.xpdl",
+    "ok": true,
+    "nodes": 15,
+    "edges": 16,
+    "issues": []
+  },
+  {
+    "key": "bez-smalltalk",
+    "file": "bez/xpdl/bez-smalltalk.xpdl",
+    "ok": true,
+    "nodes": 21,
+    "edges": 22,
+    "issues": []
+  },
+  {
+    "key": "bez-super-rueberk",
+    "file": "bez/xpdl/bez-super-rueberk.xpdl",
+    "ok": true,
+    "nodes": 21,
+    "edges": 23,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n019",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-testpath",
+    "file": "bez/xpdl/bez-testpath.xpdl",
+    "ok": true,
+    "nodes": 2,
+    "edges": 4,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-tf-1a",
+    "file": "bez/xpdl/bez-tf-1a.xpdl",
+    "ok": true,
+    "nodes": 24,
+    "edges": 25,
+    "issues": []
+  },
+  {
+    "key": "bez-tf-1b",
+    "file": "bez/xpdl/bez-tf-1b.xpdl",
+    "ok": true,
+    "nodes": 19,
+    "edges": 20,
+    "issues": []
+  },
+  {
+    "key": "bez-tf-2",
+    "file": "bez/xpdl/bez-tf-2.xpdl",
+    "ok": true,
+    "nodes": 14,
+    "edges": 15,
+    "issues": []
+  },
+  {
+    "key": "bez-tf-3",
+    "file": "bez/xpdl/bez-tf-3.xpdl",
+    "ok": true,
+    "nodes": 28,
+    "edges": 29,
+    "issues": []
+  },
+  {
+    "key": "bez-tf-conversion",
+    "file": "bez/xpdl/bez-tf-conversion.xpdl",
+    "ok": true,
+    "nodes": 9,
+    "edges": 22,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-tm-1",
+    "file": "bez/xpdl/bez-tm-1.xpdl",
+    "ok": true,
+    "nodes": 23,
+    "edges": 24,
+    "issues": []
+  },
+  {
+    "key": "bez-tm-2",
+    "file": "bez/xpdl/bez-tm-2.xpdl",
+    "ok": true,
+    "nodes": 13,
+    "edges": 15,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-tm-conversion",
+    "file": "bez/xpdl/bez-tm-conversion.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 8,
+    "issues": []
+  },
+  {
+    "key": "bez-traum-alptraum",
+    "file": "bez/xpdl/bez-traum-alptraum.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 19,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-traumpart-verstehen",
+    "file": "bez/xpdl/bez-traumpart-verstehen.xpdl",
+    "ok": true,
+    "nodes": 13,
+    "edges": 15,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-traumpartner-affaere",
+    "file": "bez/xpdl/bez-traumpartner-affaere.xpdl",
+    "ok": true,
+    "nodes": 10,
+    "edges": 12,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-trennung-conversion",
+    "file": "bez/xpdl/bez-trennung-conversion.xpdl",
+    "ok": true,
+    "nodes": 3,
+    "edges": 6,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-trennung",
+    "file": "bez/xpdl/bez-trennung.xpdl",
+    "ok": true,
+    "nodes": 31,
+    "edges": 39,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n015",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n019",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "bez-wasgehtschief-conversion",
+    "file": "bez/xpdl/bez-wasgehtschief-conversion.xpdl",
+    "ok": true,
+    "nodes": 2,
+    "edges": 3,
+    "issues": []
+  },
+  {
+    "key": "erz-mob-conversion1",
+    "file": "erz/xpdl/erz-mob-conversion1.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 5,
+    "issues": []
+  },
+  {
+    "key": "erz-mob-conversion2",
+    "file": "erz/xpdl/erz-mob-conversion2.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 14,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "erz-mob-conversion3",
+    "file": "erz/xpdl/erz-mob-conversion3.xpdl",
+    "ok": true,
+    "nodes": 24,
+    "edges": 33,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n021",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "erz-mob-conversion4",
+    "file": "erz/xpdl/erz-mob-conversion4.xpdl",
+    "ok": true,
+    "nodes": 24,
+    "edges": 40,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n018",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "erz-mob-definition",
+    "file": "erz/xpdl/erz-mob-definition.xpdl",
+    "ok": true,
+    "nodes": 12,
+    "edges": 18,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "erz-mob-eltern-kind",
+    "file": "erz/xpdl/erz-mob-eltern-kind.xpdl",
+    "ok": true,
+    "nodes": 40,
+    "edges": 55,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n025",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n026",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n035",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "erz-mob-schule",
+    "file": "erz/xpdl/erz-mob-schule.xpdl",
+    "ok": true,
+    "nodes": 28,
+    "edges": 34,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n019",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n022",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n023",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "erz-mob-selbstbewusstsein",
+    "file": "erz/xpdl/erz-mob-selbstbewusstsein.xpdl",
+    "ok": true,
+    "nodes": 22,
+    "edges": 25,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "erz-mob-test",
+    "file": "erz/xpdl/erz-mob-test.xpdl",
+    "ok": true,
+    "nodes": 7,
+    "edges": 10,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "erz-mob-toa",
+    "file": "erz/xpdl/erz-mob-toa.xpdl",
+    "ok": true,
+    "nodes": 25,
+    "edges": 26,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-bew-aufraffen1",
+    "file": "ges/xpdl/ges-abn-bew-aufraffen1.xpdl",
+    "ok": true,
+    "nodes": 12,
+    "edges": 14,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-bew-aufraffen2",
+    "file": "ges/xpdl/ges-abn-bew-aufraffen2.xpdl",
+    "ok": true,
+    "nodes": 5,
+    "edges": 6,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-bew-bewegung",
+    "file": "ges/xpdl/ges-abn-bew-bewegung.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 17,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-bew-krankheit",
+    "file": "ges/xpdl/ges-abn-bew-krankheit.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 5,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-bew-lust",
+    "file": "ges/xpdl/ges-abn-bew-lust.xpdl",
+    "ok": true,
+    "nodes": 6,
+    "edges": 7,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-bew-spass2",
+    "file": "ges/xpdl/ges-abn-bew-spass2.xpdl",
+    "ok": true,
+    "nodes": 10,
+    "edges": 13,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-conversion-bmikat",
+    "file": "ges/xpdl/ges-abn-conversion-bmikat.xpdl",
+    "ok": true,
+    "nodes": 9,
+    "edges": 17,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-ern-belohnung1",
+    "file": "ges/xpdl/ges-abn-ern-belohnung1.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 9,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-belohnung2",
+    "file": "ges/xpdl/ges-abn-ern-belohnung2.xpdl",
+    "ok": true,
+    "nodes": 6,
+    "edges": 7,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-diaetfrust",
+    "file": "ges/xpdl/ges-abn-ern-diaetfrust.xpdl",
+    "ok": true,
+    "nodes": 6,
+    "edges": 7,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-emotio",
+    "file": "ges/xpdl/ges-abn-ern-emotio.xpdl",
+    "ok": true,
+    "nodes": 6,
+    "edges": 7,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-falle",
+    "file": "ges/xpdl/ges-abn-ern-falle.xpdl",
+    "ok": true,
+    "nodes": 5,
+    "edges": 6,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-heissh-abend1",
+    "file": "ges/xpdl/ges-abn-ern-heissh-abend1.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 9,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-heissh-abend2",
+    "file": "ges/xpdl/ges-abn-ern-heissh-abend2.xpdl",
+    "ok": true,
+    "nodes": 6,
+    "edges": 7,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-heisshunger",
+    "file": "ges/xpdl/ges-abn-ern-heisshunger.xpdl",
+    "ok": true,
+    "nodes": 12,
+    "edges": 15,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-ern-langeweile",
+    "file": "ges/xpdl/ges-abn-ern-langeweile.xpdl",
+    "ok": true,
+    "nodes": 7,
+    "edges": 8,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-satt-werden",
+    "file": "ges/xpdl/ges-abn-ern-satt-werden.xpdl",
+    "ok": true,
+    "nodes": 10,
+    "edges": 11,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-stress",
+    "file": "ges/xpdl/ges-abn-ern-stress.xpdl",
+    "ok": true,
+    "nodes": 5,
+    "edges": 6,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-trinken",
+    "file": "ges/xpdl/ges-abn-ern-trinken.xpdl",
+    "ok": true,
+    "nodes": 5,
+    "edges": 6,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-ern-wut",
+    "file": "ges/xpdl/ges-abn-ern-wut.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 9,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-es-kickoff",
+    "file": "ges/xpdl/ges-abn-es-kickoff.xpdl",
+    "ok": true,
+    "nodes": 6,
+    "edges": 8,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-es-motivation",
+    "file": "ges/xpdl/ges-abn-es-motivation.xpdl",
+    "ok": true,
+    "nodes": 19,
+    "edges": 24,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n016",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-es-plaene",
+    "file": "ges/xpdl/ges-abn-es-plaene.xpdl",
+    "ok": true,
+    "nodes": 58,
+    "edges": 88,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n031",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n032",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n046",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-es-sozial",
+    "file": "ges/xpdl/ges-abn-es-sozial.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 19,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n015",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-es-zieldefintion",
+    "file": "ges/xpdl/ges-abn-es-zieldefintion.xpdl",
+    "ok": true,
+    "nodes": 22,
+    "edges": 27,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n014",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n021",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-mot-bauch",
+    "file": "ges/xpdl/ges-abn-mot-bauch.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 18,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-mot-hunger",
+    "file": "ges/xpdl/ges-abn-mot-hunger.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 12,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-mot-keine-mot",
+    "file": "ges/xpdl/ges-abn-mot-keine-mot.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 13,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "ges-abn-mot-kontrolle1",
+    "file": "ges/xpdl/ges-abn-mot-kontrolle1.xpdl",
+    "ok": true,
+    "nodes": 5,
+    "edges": 6,
+    "issues": []
+  },
+  {
+    "key": "ges-abn-mot-kontrolle2",
+    "file": "ges/xpdl/ges-abn-mot-kontrolle2.xpdl",
+    "ok": true,
+    "nodes": 4,
+    "edges": 5,
+    "issues": []
+  },
+  {
+    "key": "ges-coaching",
+    "file": "ges/xpdl/ges-coaching.xpdl",
+    "ok": true,
+    "nodes": 1,
+    "edges": 2,
+    "issues": []
+  },
+  {
+    "key": "ges-patienten-service",
+    "file": "ges/xpdl/ges-patienten-service.xpdl",
+    "ok": true,
+    "nodes": 177,
+    "edges": 346,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n021",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n024",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n027",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n029",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n031",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n037",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n042",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n046",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n050",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n053",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n058",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n063",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n070",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n077",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n121",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n132",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n142",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n144",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n145",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n146",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n163",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n168",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n174",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-ac",
+    "file": "kar/xpdl/kar-ac.xpdl",
+    "ok": true,
+    "nodes": 25,
+    "edges": 26,
+    "issues": []
+  },
+  {
+    "key": "kar-durchstarten",
+    "file": "kar/xpdl/kar-durchstarten.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 20,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-erster-anruf",
+    "file": "kar/xpdl/kar-erster-anruf.xpdl",
+    "ok": true,
+    "nodes": 21,
+    "edges": 22,
+    "issues": []
+  },
+  {
+    "key": "kar-extra-aufregung",
+    "file": "kar/xpdl/kar-extra-aufregung.xpdl",
+    "ok": true,
+    "nodes": 12,
+    "edges": 13,
+    "issues": []
+  },
+  {
+    "key": "kar-gespraech-einstieg",
+    "file": "kar/xpdl/kar-gespraech-einstieg.xpdl",
+    "ok": true,
+    "nodes": 32,
+    "edges": 34,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-gespraech-einwaende",
+    "file": "kar/xpdl/kar-gespraech-einwaende.xpdl",
+    "ok": true,
+    "nodes": 20,
+    "edges": 21,
+    "issues": []
+  },
+  {
+    "key": "kar-gespraech-gehalt",
+    "file": "kar/xpdl/kar-gespraech-gehalt.xpdl",
+    "ok": true,
+    "nodes": 34,
+    "edges": 35,
+    "issues": []
+  },
+  {
+    "key": "kar-gespraech-nachbereitung",
+    "file": "kar/xpdl/kar-gespraech-nachbereitung.xpdl",
+    "ok": true,
+    "nodes": 41,
+    "edges": 52,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n014",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n017",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-gespraech-selbstmarketing",
+    "file": "kar/xpdl/kar-gespraech-selbstmarketing.xpdl",
+    "ok": true,
+    "nodes": 21,
+    "edges": 22,
+    "issues": []
+  },
+  {
+    "key": "kar-gespraech-vorbereitung",
+    "file": "kar/xpdl/kar-gespraech-vorbereitung.xpdl",
+    "ok": true,
+    "nodes": 21,
+    "edges": 27,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-initiativ",
+    "file": "kar/xpdl/kar-initiativ.xpdl",
+    "ok": true,
+    "nodes": 87,
+    "edges": 96,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n081",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n082",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n087",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-interessen",
+    "file": "kar/xpdl/kar-interessen.xpdl",
+    "ok": true,
+    "nodes": 13,
+    "edges": 14,
+    "issues": []
+  },
+  {
+    "key": "kar-potenzial",
+    "file": "kar/xpdl/kar-potenzial.xpdl",
+    "ok": true,
+    "nodes": 36,
+    "edges": 37,
+    "issues": []
+  },
+  {
+    "key": "kar-selbstmarketing",
+    "file": "kar/xpdl/kar-selbstmarketing.xpdl",
+    "ok": true,
+    "nodes": 19,
+    "edges": 20,
+    "issues": []
+  },
+  {
+    "key": "kar-situationsanalyse",
+    "file": "kar/xpdl/kar-situationsanalyse.xpdl",
+    "ok": true,
+    "nodes": 42,
+    "edges": 66,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n016",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n022",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n023",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n025",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n028",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n030",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-start-job",
+    "file": "kar/xpdl/kar-start-job.xpdl",
+    "ok": true,
+    "nodes": 40,
+    "edges": 41,
+    "issues": []
+  },
+  {
+    "key": "kar-stellenauswahl",
+    "file": "kar/xpdl/kar-stellenauswahl.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 17,
+    "issues": []
+  },
+  {
+    "key": "kar-telefoninterview",
+    "file": "kar/xpdl/kar-telefoninterview.xpdl",
+    "ok": true,
+    "nodes": 16,
+    "edges": 17,
+    "issues": []
+  },
+  {
+    "key": "kar-unterlagen",
+    "file": "kar/xpdl/kar-unterlagen.xpdl",
+    "ok": true,
+    "nodes": 73,
+    "edges": 83,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n001",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n034",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n058",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n073",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-vollgas",
+    "file": "kar/xpdl/kar-vollgas.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 38,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n005",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "kar-was-passt",
+    "file": "kar/xpdl/kar-was-passt.xpdl",
+    "ok": true,
+    "nodes": 12,
+    "edges": 13,
+    "issues": []
+  },
+  {
+    "key": "kar-zielmarkt",
+    "file": "kar/xpdl/kar-zielmarkt.xpdl",
+    "ok": true,
+    "nodes": 29,
+    "edges": 30,
+    "issues": []
+  },
+  {
+    "key": "slc-abc",
+    "file": "slc/xpdl/slc-abc.xpdl",
+    "ok": true,
+    "nodes": 8,
+    "edges": 10,
+    "issues": []
+  },
+  {
+    "key": "slc-fitter",
+    "file": "slc/xpdl/slc-fitter.xpdl",
+    "ok": true,
+    "nodes": 56,
+    "edges": 85,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n007",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n010",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n011",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n012",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n013",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n025",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n026",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n029",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n035",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n037",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n038",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n046",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n051",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "slc-hilfsmittel",
+    "file": "slc/xpdl/slc-hilfsmittel.xpdl",
+    "ok": true,
+    "nodes": 10,
+    "edges": 17,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n009",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "slc-lifystyle",
+    "file": "slc/xpdl/slc-lifystyle.xpdl",
+    "ok": true,
+    "nodes": 11,
+    "edges": 17,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n002",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n006",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n008",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "slc-nykturie",
+    "file": "slc/xpdl/slc-nykturie.xpdl",
+    "ok": true,
+    "nodes": 3,
+    "edges": 5,
+    "issues": []
+  },
+  {
+    "key": "slc-reduktion",
+    "file": "slc/xpdl/slc-reduktion.xpdl",
+    "ok": true,
+    "nodes": 19,
+    "edges": 24,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n015",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n019",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "slc-schicht",
+    "file": "slc/xpdl/slc-schicht.xpdl",
+    "ok": true,
+    "nodes": 6,
+    "edges": 7,
+    "issues": []
+  },
+  {
+    "key": "slc-umgebung",
+    "file": "slc/xpdl/slc-umgebung.xpdl",
+    "ok": true,
+    "nodes": 26,
+    "edges": 41,
+    "issues": [
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n003",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n004",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n017",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n020",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      },
+      {
+        "level": "warning",
+        "code": "no-default",
+        "node": "n026",
+        "message": "All outgoing edges are conditional; the coaching stops if none matches"
+      }
+    ]
+  },
+  {
+    "key": "slc-verhalten",
+    "file": "slc/xpdl/slc-verhalten.xpdl",
+    "ok": true,
+    "nodes": 17,
+    "edges": 33,
+    "issues": []
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "key": "bez-einstellung-naeherkennen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching \"Die richtige Einstellung zum Näherkommen\".\r",
+      "text": "1. Ein gutes Gefühl für die Strukturen der Gruppe\nDas heißt, dass Sie herausfinden müssen, welche Person der \"Anführer\" dieser Gruppe ist. Wenn Sie es schaffen, den Leitwolf auf Ihre Seite zu ziehen, sich also mit ihm zu sozialisieren, haben Sie schon gewonnen. Lachen Sie über dessen Witze und zeigen Sie Anerkennung.\nMachen Sie selbst Witze, suchen Sie gezielt das Gespräch mit ihm und hören Sie aktiv zu. Die Integration in die Gruppe wird so wesentlich leichter. Der Weg zum Anderen führt oft über den „Anführer“.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Das Unterbewusstsein ausrichten\r",
+      "text": "Was Sie denken, strahlen Sie auch aus, daher sollten Sie die folgenden drei Schritte ganz bewusst ausführen, damit sie in Ihrem Unterbewusstsein ankommen und es Ihre Handlungen in die richtige Richtung lenken kann.\n\nUm Ihrer inneren Einstellung die richtige Richtung zu geben, ist es besonders wichtig, dass Sie ein bestimmtes Ziel vor Augen haben. Egal, ob Sie sich zu einem Date verabreden vollen, der Abend mit einem Kuss enden soll oder Sie unbedingt die Telefonnummer der betreffenden Person bekommen möchten, wichtig ist, dass Sie sich ein Ziel setzen. Dieser Kniff stammt aus dem Business-Coaching, um besondere Ziele zu erreichen, weshalb es für das Näherkommen erst recht verwendet werden kann!",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Die Möglichkeit zulassen",
+      "text": "Der erste Schritt besteht darin, dass Sie zunächst einmal gedanklich die Möglichkeit zulassen, dass Sie es schaffen, jemandem näher zu kommen. Und dass der Andere sich freut, Sie kennenzulernen und Ihnen näher zu kommen. Wenn Ihr Unterbewusstsein grundsätzlich eine positive Einstellung zu der Möglichkeit aufbaut, andere Menschen kennenzulernen, wird sich dies auch auf Ihr Handeln auswirken. Lassen Sie also jetzt ganz bewusst diese Möglichkeit in Betracht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit mögliche Zweifel Sie in der entsprechenden Situation nicht wieder verunsichern oder blockieren lassen, nehmen Sie sich genug Zeit und wiederholen Sie diese Übung mehrmals nacheinander. Setzen Sie sich selbst nicht zu sehr unter Druck, es kann durchaus etwas dauern, bis sich Ihr Unterbewusstsein dem öffnet, aber je öfter Sie diese Übung machen, um so größer sind Ihre Erfolgsaussichten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Die Entscheidung treffen",
+      "text": "Nachdem Sie nun den ersten Schritt in Richtung richtige Einstellung für das Kennenlernen und Näherkommen gemacht haben, treffen Sie jetzt die Entscheidung, dass Sie jemanden kennenlernen werden. Treffen Sie die bewusste Entscheidung, dass es Ihnen passieren wird.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie sich nicht davon verwirren, dass sich die beiden Übungen auf den ersten Blick ähneln, denn in dieser Übung geht es um die aktive Handlung eine Entscheidung zu treffen, statt passiv Möglichkeiten zuzulassen. Diese Übung dient der Festigung Ihrer Gedanken und inneren Ausrichtung, führen Sie sie daher auch besonders gewissenhaft aus.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Visualisieren, dass es passiert ist",
+      "text": "Kommen wir jetzt zum dritten und letzten Schritt auf dem Weg zur richtigen Einstellung. Stellen Sie sich vor, dass Sie bereits jemanden kennengelernt haben und nun dieser Person erfolgreich näher gekommen sind. Visualisieren Sie, dass Sie einem Freund oder Bekannten erzählen, dass es erfolgreich passiert ist. Es geht hier nicht darum, dass Sie erotische Phantasien von der betreffenden Person entwickeln, sondern darum, dass Sie sich erlauben, sich nüchtern vorzustellen, dass es Ihnen passiert ist.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Indem Sie diese drei Übungen mehrmals durchführen, haben Sie die Möglichkeit, Ihr Unterbewusstsein auszurichten. Viele Menschen unterschätzen, wie stark die eigenen Gedanken das Handeln und die Ausstrahlung bestimmen. Lassen Sie sich also nicht die Gelegenheit entgehen, Ihre Gedanken und Handlungen von Ihrem Unterbewusstsein positiv beeinflussen zu lassen. Sie werden so eine selbstbewusstere Ausstrahlung haben, intuitiv Ihre Chancen nutzen, sich gegen Andere durchsetzen oder klarer Kommunizieren, was Sie eigentlich wollen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Die schlimmsten Fallen",
+      "text": "Wenn Sie diese Übungen durchgeführt haben, ist die richtige Einstellung zwar nicht mehr das Problem, wenn es darum geht, jemandem näher zu kommen. Aber es gibt trotzdem noch einige Fallen, in die Sie tappen könnten:\n\n1. Zu früh aufgeben\nNur weil Ihre Annäherungsversuche nicht gleich beim ersten Versuch einschlagen, heißt das nicht, dass es nicht beim zweiten oder dritten Mal der Fall sein könnte. Beweisen Sie einen langen Atem und versuchen Sie wiederholt, sich dem Anderen zu nähern. Als Frau können Sie auch immer wieder Verführungsversuche starten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Die schlimmsten Fallen Teil II\r\n",
+      "text": "2. Sich zu doof vorkommen\nSo lange der Andere Ihnen nicht deutlich zu verstehen gibt, dass er keine Annäherung wünscht, sollten Sie sich auch nicht zu doof vorkommen, bei dem Anderen immer wieder verschiedene Anläufe zu unternehmen und zu versuchen, ihm näher zu kommen. Dabei ist natürlich von Vorteil die Ansätze zu variieren - mal lieb, mal frech, mal unverschämt, mal heimlich etc.\n\n3. Sich auf den Kram des Anderen einlassen\nSobald der Andere versucht, sich in Ausflüchten zu retten oder nur zu seinen Bedingungen zustimmt, sollten Sie sich genau überlegen, ob Sie wirklich darauf eingehen wollen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching \"Die richtige Einstellung zum Näherkommen\" durchlaufen. Wir hoffen, Sie haben nun einige Strategien dafür , wie Sie am besten eine E-Mail schreiben. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

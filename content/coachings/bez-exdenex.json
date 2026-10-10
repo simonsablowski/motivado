@@ -1,0 +1,339 @@
+{
+  "key": "bez-exdenex",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Schreiben Sie bitte auf, wie lange Sie dieser Person schon nachhängen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte schreiben Sie jetzt auf, ob und welche Beziehungen darunter gelitten haben, dass Sie einem Ex-Partner noch nachhängen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Was ist in 10 Jahren?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Liste negative Konsequenzen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Liste positive Konsequenzen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "\r\nHalten Sie Ihre Entscheidung bitte jetzt schriftlich fest!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Mentale Maßnahmen, um Erinnerungen zu unterbrechen:",
+      "text": "1.) Atemübung wie auf Video: Stellen Sie sich vor, Sie atmen sich selbst ein und den Anderen bewusst aus, wie alten Staub.\n2.) Augenbewegungen, aufstehen, aufrecht setzen\n3.) Unterbrechen Sie Träumereien durch egal welche Bewegungen",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Übungsvarianten Teil 1",
+      "text": "1.) Sollte Ihr Ex-Partner in Ihren Gedanken auftauchen, steuern Sie sofort dagegen. Auch unterwegs oder in der Öffentlichkeit funktioniert es gut, wenn Sie denken: \"Lass mich endlich los. Du hast mich lange genug besetzt. Verschwinde!\" Je intensiver Sie das tun, desto besser.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Übungsvarianten Teil 2\r\n\r\n",
+      "text": "2.) Lesen Sie sich selbst einen Zettel mit entkräftigenden Aussagen laut vor.\n\n3.) Weg von möglicher Rache: Wünschen Sie ihm kurz in Gedanken viel Glück, verzeihen Sie kurz. Und unterbrechen Sie dann den Gedanken durch eine der genannten Übungen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Wichtige Maßnahmen",
+      "text": "*Alles Alte wegschmeißen oder verbannen, auch die liebgewonnenen Geschenke.\n  \n*Wann immer Sie auf diese Person angesprochen werden, blocken Sie direkt ab: \"Bitte Thema wechseln, diese Person hat mich bereits genug gekostet! Danke!\"",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Options",
+      "key": "c7c7737f59b54fec9f14ec58f9e70b9c",
+      "title": "Ist unsere Botschaft angekommen, was es bedeutet einem Ex nachzuhängen? Geht es Ihnen schon ein wenig besser?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V12.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          },
+          {
+            "key": 3,
+            "value": "Ein wenig"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "c7c7737f59b54fec9f14ec58f9e70b9c is 1"
+        },
+        {
+          "to": "n014",
+          "if": "c7c7737f59b54fec9f14ec58f9e70b9c is 2"
+        },
+        {
+          "to": "n015",
+          "if": "c7c7737f59b54fec9f14ec58f9e70b9c is 3"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "188dc97f598841e0816ed62ac6821a92",
+      "title": "Bedenken Sie, dass Liebeskummer oft viele Monate andauert. Gerade bei intensiven Beziehungen ist oft keine schnelle \"Heilung\" in Sicht.  Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V13.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Zu weiteren Übungen"
+          },
+          {
+            "key": 2,
+            "value": "Zum nächsten Schritt"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "188dc97f598841e0816ed62ac6821a92 is 1"
+        },
+        {
+          "to": "n014",
+          "if": "188dc97f598841e0816ed62ac6821a92 is 2"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Ex den Ex\"",
+      "text": "Es ist wichtig, diese Inhalte auch in den nächsten Tagen weiter zu vertiefen.\n- Löschen vor Lesen\n- Löschen vor Anhören\n- Wegdrücken vor Sprechen\n- Freiräumen\n- Klare Aussagen \n\nUnterbrechen Sie sofort Gedanken an den Anderen, Träumereien vom Anderen:\n- Augen bewegen\n- Atmen (Ausatmen der alten Suchtstruktur, frisches Einatmen)\n- Aufstehen \n- Bewegen \n\nHaben Sie einen \"Abblock-Satz\" für nachfragende Bekannte zur Hand: \n\"Die Person hat mir nicht gut getan, ich würde gern das Thema ändern.\"",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Options",
+      "key": "4e1b6b0587b64eb19ce71b8b4de9dd15",
+      "title": "Das ist ein wichtiger Anfang. Bitte wenden Sie täglich die Übungen zum Abblocken und Loslassen an, bis es eindeutig besser wird. Und zwar auch während Sie andere Coachings durchlaufen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExDenEx_V14.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Zum nächsten Schritt"
+          },
+          {
+            "key": 2,
+            "value": "Zu weiteren Übungen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "4e1b6b0587b64eb19ce71b8b4de9dd15 is 1"
+        },
+        {
+          "to": "n016",
+          "if": "4e1b6b0587b64eb19ce71b8b4de9dd15 is 2"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Für weitere Übungen wenden Sie sich bitte an unsere Experten. Sie erreichen uns unter contact@simsab.net.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching Ex den Ex!",
+      "text": "Viel Glück beim weiteren Loslassen dieser Person, Sie werden sich viel freier fühlen, soviel mehr Chance haben, Jemand neues in Ihr Herz zu lassen und aus einem vielleicht schon viel zu langen Teufelskreis auszusteigen.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

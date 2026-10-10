@@ -1,0 +1,205 @@
+{
+  "key": "erz-mob-test",
+  "domain": "erz",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_1",
+      "title": "Symptome von Mobbing (1/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V1.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Mein Kind wirkt in letzter Zeit traurig und lustlos",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind ist in letzter Zeit grundlos aggressiv",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind hat Angst in die Schule zu gehen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Die Stimmung meines Kindes ändert sich in letzter Zeit sehr plötzlich",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_2",
+      "title": "Symtome von Mobbing (2/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V3.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Mein Kind hat häufig Magenschmerzen oder Kopfschmerzen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind hat weniger Appetit als sonst",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind schläft häufig schlecht",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_3",
+      "title": "Symptome von Mobbing (3/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V4.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Ich habe gemerkt dass mein Kind in der Schule beschimpft oder beleidigt wird",
+            "weightFactor": 1
+          },
+          {
+            "name": "Meinem Kind fehlen plötzlich Gegenstände wie Schulmaterialien oder Wertsachen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Die Schulleistungen meines Kindes haben sich deutlich verschlechtert",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind unternimmt weniger mit Freunden als früher",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "AddValue",
+      "key": "edu_mobbingtest_summe",
+      "title": "",
+      "text": "",
+      "props": {
+        "values": [
+          "#edu_mobbingtest_1",
+          "#edu_mobbingtest_2",
+          "#edu_mobbingtest_3"
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "edu_mobbingtest_summe is '0'"
+        },
+        {
+          "to": "n006",
+          "if": "edu_mobbingtest_summe gt '0'"
+        },
+        {
+          "to": "n007",
+          "if": "edu_mobbingtest_summe gt '2'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Keine Symptome",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Wenige Symptome",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Viele Symptome",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "key": "bez-re-zeitlimit",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Berg besteigen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Zeitlimit_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "TextInput",
+      "key": "rel_rueckLimit",
+      "title": "Notieren Sie hier bitte Ihre ganz persönliche Deadline für die Rückeroberung!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Zeitlimit_V2.flv"
+        },
+        "type": "date"
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön! \r\nSie haben ein klares Ziel vor Augen und haben sich ein Zeitlimit gesetzt. Damit haben Sie wichtige Rahmenbedingungen geschaffen, damit Ihre Rückeroberung erfolgreich verlaufen kann.\r\nWenn man sich ein Ziel gesetzt hat, ist es für den Erfolg ebenso wichtig, sich vorzunehmen, motiviert bei der Sache zu bleiben und mit vollem Herzen dabeizubleiben.\r\nDeshalb möchten wir Sie im nächsten Schritt bitten, selber einen Text zu formulieren, der Ihnen dabei hilft, in frustrierenden Momenten bei der Stange zu bleiben.\r\nHier sehen Sie unseren Beispielvorschlag:\r\n\r\n\"Jetzt ist genau der richtige Zeitpunkt, alles zu geben, um meinen Ex-Partner zurückzugewinnen. Bis zu meiner persönlichen Deadline werde ich mein Ziel konsequent und effizient verfolgen!\" ",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "TextInput",
+      "key": "rel_rueckZielerreichung",
+      "title": "Bitte notieren Sie jetzt Ihren eigenen Text zur Zielerreichung:",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

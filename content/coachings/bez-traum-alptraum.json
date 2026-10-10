@@ -1,0 +1,313 @@
+{
+  "key": "bez-traum-alptraum",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Ernten was wir säen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "TraumpListe auswerten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "3 entscheidende Punkte",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "AlbtraumListe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "AlbtraumListe auswerten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "REL_AlbTraumP_V.flv",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Kompensation_nicht_Bieten_was_fordert",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Konflikte pos neg",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Warum funktioniert es",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "2235390f57be4a38a025eccc31938748",
+      "title": "Ist ein klareres Bild entstanden?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V12.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein / eher nicht"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "2235390f57be4a38a025eccc31938748 is 1"
+        },
+        {
+          "to": "n015",
+          "if": "2235390f57be4a38a025eccc31938748 is 2"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Gratulation! Sie haben jetzt eine genauere Vorstellung von den Eigenschaften, die Ihr Traumpartner haben bzw. nicht haben sollte. In der nächsten und letzten Übung in diesem Coaching können Sie Ihre Traumpartner-Vision noch weiter vertiefen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Häufig entsteht das Gefühl für den optimalen Partner und auch die Punkte, die Sie nach vorne bringen könnten, erst mit der Zeit. In der folgenden Übung können Sie Ihre Vision eines Traumpartners weiter vertiefen. ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Vertiefung Ihrer Traumpartner-Vision",
+      "text": "Gehen Sie in den nächsten 7 Tagen bitte morgens 5 Minuten lang die positiven und negativen Punkte zu Ihrem Traumpartner durch.\nErweitern Sie die Liste, wann immer Ihnen etwas Weiteres einfällt. Danach gehen Sie bitte die Liste mit den Punkten durch, in denen Sie sich verbessern müssen, um Ihren Traumpartner noch mehr anzuziehen. Diese Übung hat eine sehr machtvolle Auswirkung auf Ihr Unterbewusstsein und vor allem auf die Klarheit Ihres Verhaltens sowie Ihre Anziehungskraft.",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Outro Albtraum",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AlbTraumP_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

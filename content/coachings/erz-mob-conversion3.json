@@ -1,0 +1,683 @@
+{
+  "key": "erz-mob-conversion3",
+  "domain": "erz",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_Allgemein_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "In diesem Coaching erwartet Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "Was ist Mobbing?",
+            "second": 2
+          },
+          {
+            "element": "Was ist kein Mobbing?",
+            "second": 3
+          },
+          {
+            "element": "Anschauliche Beispiele",
+            "second": 7
+          },
+          {
+            "element": "Folgen von Mobbing",
+            "second": 13
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "geschlecht",
+      "title": "Ist Ihr Kind, um das es geht, ein Mädchen oder ein Junge?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V15.flv"
+        },
+        "options": [
+          {
+            "key": "f",
+            "value": "Mädchen"
+          },
+          {
+            "key": "m",
+            "value": "Junge"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "geschlecht is 'm'"
+        },
+        {
+          "to": "n005",
+          "if": "geschlecht is 'f'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "ListView",
+      "key": null,
+      "title": "Wann spricht man von Mobbing?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "Ein oder mehrere Täter",
+            "second": 6
+          },
+          {
+            "element": "Angriffe über einen längeren Zeitraum",
+            "second": 7
+          },
+          {
+            "element": "Wiederholte Angriffe",
+            "second": 9
+          },
+          {
+            "element": "psychische Angriffe z.B. drohen und beschimpfen",
+            "second": 16
+          },
+          {
+            "element": "körperliche Angriffe z.B. schlagen und kneifen",
+            "second": 27
+          },
+          {
+            "element": "nonverbale Angriffe z.B. ingnorieren",
+            "second": 34
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "ListView",
+      "key": null,
+      "title": "Kinder, die Opfer von Mobbing sind, haben oft...",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V13.flv"
+        },
+        "elements": [
+          {
+            "element": "ein Gefühl von Ohnmacht",
+            "second": 6
+          },
+          {
+            "element": "das Gefühl handlungsunfähig zu sein",
+            "second": 8
+          },
+          {
+            "element": "Schwierigkeiten Alltägliches zu meistern",
+            "second": 12
+          },
+          {
+            "element": "stetige Angst vor weiteren Angriffen",
+            "second": 26
+          },
+          {
+            "element": "starkes Misstrauen",
+            "second": 32
+          },
+          {
+            "element": "psychosomatische Symptome z.B. Schlafstörungen und Bauchschmerzen",
+            "second": 54
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "ListView",
+      "key": null,
+      "title": "Wichtig ist, dass nicht alle Angriffe auf Ihr Kind oder nicht alle Ärgernisse, die Ihr Kind durchlebt, ein Zeichen für Mobbing sind. Bitte denken Sie daher daran:",
+      "text": "",
+      "props": {
+        "elements": [
+          {
+            "element": "Normale Konflikte zwischen gleich starken Parteien sind kein Mobbing (Ein Mobbingopfer ist meist schwächer als der oder die Täter)",
+            "second": 0
+          },
+          {
+            "element": "Einmalige Belastungen und Konflikte sind noch kein Mobbing.",
+            "second": 0
+          },
+          {
+            "element": "Einmaliges Ausgrenzen oder Nichtinformieren ist noch kein Mobbing.",
+            "second": 0
+          },
+          {
+            "element": "Erst wenn die Angriffe über eine längere Zeit und wiederholt auftreten kann Mobbing im Spiel sein",
+            "second": 0
+          },
+          {
+            "element": "Ein Mobbing entwickelt oft eine starke Dynamik in der immer mehr Täter über einen langen Zeitraum hinweg Angriffe gegen das Opfer vollführen.",
+            "second": 0
+          },
+          {
+            "element": "Ein abhanden gekommener Gegenstand (Turnbeutel o.ä.) kann auch verloren worden sein",
+            "second": 0
+          },
+          {
+            "element": "Kopf- oder Bauchschmerzen können auch andere Ursachen haben.",
+            "second": 0
+          },
+          {
+            "element": "Schwache Schulleistungen können auch anderen Ursachen haben.",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "4efb66c2211e43e485a434306b9d56c5",
+      "title": "Haben Sie verstanden, was Mobbing ist?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V6.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          },
+          {
+            "key": 3,
+            "value": "Ich bin mir unsicher"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "geschlecht is 'm' and 4efb66c2211e43e485a434306b9d56c5 is 1"
+        },
+        {
+          "to": "n012",
+          "if": "geschlecht is 'f' and 4efb66c2211e43e485a434306b9d56c5 is 1"
+        },
+        {
+          "to": "n013",
+          "if": "4efb66c2211e43e485a434306b9d56c5 is 2"
+        },
+        {
+          "to": "n011",
+          "if": "geschlecht is 'm' and 4efb66c2211e43e485a434306b9d56c5 is 3"
+        },
+        {
+          "to": "n012",
+          "if": "geschlecht is 'f' and 4efb66c2211e43e485a434306b9d56c5 is 3"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "weiteres Bspl. Junge",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "weiteres Bspl. Mädchen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "15e8cae84b7f4cc586b1dec6aeb355dd",
+      "title": "Wie möchten Sie nun weitermachen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Testen, ob mein Kind gemobbt wird"
+          },
+          {
+            "key": 2,
+            "value": "Coaching starten"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015",
+          "if": "15e8cae84b7f4cc586b1dec6aeb355dd is 1"
+        },
+        {
+          "to": "n016",
+          "if": "15e8cae84b7f4cc586b1dec6aeb355dd is 2"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "ListView",
+      "key": null,
+      "title": "Mobbing-Merkmale aus dem Beispiel:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingDef_V10.flv"
+        },
+        "elements": [
+          {
+            "element": "Der Konflikt hat sich verfestigt",
+            "second": 8
+          },
+          {
+            "element": "Es gibt ein einzelnes unterlegenes Opfer",
+            "second": 13
+          },
+          {
+            "element": "Es gibt einen oder mehrere Täter",
+            "second": 17
+          },
+          {
+            "element": "Das Opfer kann sich nicht allein aus dem Mobbing befreien",
+            "second": 22
+          },
+          {
+            "element": "Es handelt sich um fortlaufende Angriffe über einen langen Zeitraum",
+            "second": 35
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_1",
+      "title": "Symptome von Mobbing (1/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V1.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Mein Kind wirkt in letzter Zeit traurig und lustlos",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind ist in letzter Zeit grundlos aggressiv",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind hat Angst in die Schule zu gehen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Die Stimmung meines Kindes ändert sich in letzter Zeit sehr plötzlich",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "ListView",
+      "key": null,
+      "title": "In unseren Coachings lernen Sie, wie Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_Allgemein_V7.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Ihr Kind emotional stärken",
+            "second": 8
+          },
+          {
+            "element": "2. gemeinsam mit der Schule eine Lösung finden",
+            "second": 15
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_2",
+      "title": "Symtome von Mobbing (2/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V3.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Mein Kind hat häufig Magenschmerzen oder Kopfschmerzen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind hat weniger Appetit als sonst",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind schläft häufig schlecht",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Sign-In",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Evaluation",
+      "key": "edu_mobbingtest_3",
+      "title": "Symptome von Mobbing (3/3)",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_MobbingTest_V4.flv"
+        },
+        "weightedcriteria": [
+          {
+            "name": "Ich habe gemerkt dass mein Kind in der Schule beschimpft oder beleidigt wird",
+            "weightFactor": 1
+          },
+          {
+            "name": "Meinem Kind fehlen plötzlich Gegenstände wie Schulmaterialien oder Wertsachen",
+            "weightFactor": 1
+          },
+          {
+            "name": "Die Schulleistungen meines Kindes haben sich deutlich verschlechtert",
+            "weightFactor": 1
+          },
+          {
+            "name": "Mein Kind unternimmt weniger mit Freunden als früher",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 2,
+        "titleWeight": "h",
+        "titleRate": "h"
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "key": "erz-mob-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "AddValue",
+      "key": "edu_mobbingtest_summe",
+      "title": "",
+      "text": "",
+      "props": {
+        "values": [
+          "#edu_mobbingtest_1",
+          "#edu_mobbingtest_2",
+          "#edu_mobbingtest_3"
+        ]
+      },
+      "next": [
+        {
+          "to": "n022",
+          "if": "edu_mobbingtest_summe gt '2'"
+        },
+        {
+          "to": "n023",
+          "if": "edu_mobbingtest_summe gt '0'"
+        },
+        {
+          "to": "n024",
+          "if": "edu_mobbingtest_summe is '0'"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "Viele Symptome",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Wenige Symptome",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Keine Symptome",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_SignIn_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    }
+  }
+}

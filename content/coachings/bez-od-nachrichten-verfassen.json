@@ -1,0 +1,298 @@
+{
+  "key": "bez-od-nachrichten-verfassen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "No-Go's",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Email-Beginn Profil-Check",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Power-Kniff",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Die Email schreiben",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Begrüßung in der Mail",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Hauptteil",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Hauptteil stellen Sie sich selber da",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Vorgedruckter Mailtext",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V33.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Das Ende",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Salz und Pfeffer",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Politur vor dem Abschicken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "20 Profile ansehen und anmailen",
+      "text": "Sehen Sie sich 20 Profile an, suchen sich ein, zwei Besonderheiten heraus und schreiben Sie entsprechend diesem Coaching 20 gute Nachrichten.",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V30.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "14 Tage lang täglich mailen",
+      "text": "Mailen Sie in den nächsten 14 Tagen täglich an neue Kontakte auf der Plattform.",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Outro: Mail-Coaching auch für Alltag gut",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEmail_V32.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "Hier endet das erste Coaching zum Thema \"Erfolgreicher Mailen auf Partner-Plattformen\"\n\nDie Fortsetzung beinhaltet, wie Sie erfolgreich reagieren, wenn Jemand antwortet, bzw. wie Sie einen guten Mail-Verkehr aufbauen und in Richtung Date kommen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

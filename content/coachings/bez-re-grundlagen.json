@@ -1,0 +1,211 @@
+{
+  "key": "bez-re-grundlagen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "59e7d8bdf3df4fa0ac45cf6adc8a68cc",
+      "title": "Wie wichtig ist es Ihnen, Ihren Partner zurückzugewinnen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V2.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich möchte den Anderen unbedingt zurückhaben."
+          },
+          {
+            "key": 2,
+            "value": "Es wäre ganz schön, den Anderen wieder zu haben."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "59e7d8bdf3df4fa0ac45cf6adc8a68cc is 1"
+        },
+        {
+          "to": "n004",
+          "if": "59e7d8bdf3df4fa0ac45cf6adc8a68cc is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung richtig",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung schlecht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Liebe als Grundlage",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Falls es klappt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Zwischenfazit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Glaube versetzt Berge",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Gedankenreise stoppen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Basic_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Noch ein Hinweis am Ende dieses Coachings:\r\n\r\nnach unserer Erfahrung funktioniert eine Rückeroberung dann am Besten, wenn Sie sie-genau wie einen Zug-auf 2 Schienen fahren lassen:\r\n\r\nDie erste Schiene ist unsere Strategie, die sich aus einem Mix von Kontaktsperren und gezielten Aktionen zusammensetzt (siehe dazu auch die Coachings \"Kontaktsperre\" und \"Strategie\").\r\nDie zweite Schiene ist Ihre persönliche Stärkung. Dazu finden Sie im Verlauf des Programms eine Reihe von Coachings zu den Punkten: Wie baue ich mich mein Selbstbewusstsein wieder auf? Wie werde ich wieder spannend für meinen Partner etc.)\r\n\r\nBeide Schienen sind gleich wichtig und sollten parallel umgesetzt werden!\r\nFür Rückfragen wenden Sie sich bitte an unser Rückeroberungsteam. ",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

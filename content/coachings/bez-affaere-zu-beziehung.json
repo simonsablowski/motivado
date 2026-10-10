@@ -1,0 +1,385 @@
+{
+  "key": "bez-affaere-zu-beziehung",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Sie sind mit ihrer Affäre glücklich und haben vielleicht auch schon unseren Partner-Check für Affären gemacht? ",
+      "text": "Dann wäre es doch schade, wenn sich Ihre Affäre jetzt nicht in die gewünschte Richtung bewegen würde.\nDeshalb Herzlich Willkommen zum Coaching \"Von der Affäre zur Beziehung\".\nWir werden nun gemeinsam herausfinden, wie Sie Ihrem Ziel einer festen Partnerschaft näherkommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "262c340d7d1747019ad09868e818e85a",
+      "title": "Wie lang treffen Sie sich schon mit Ihrer Affäre?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Unter einem Monat"
+          },
+          {
+            "key": "2",
+            "value": "Über einen Monat"
+          },
+          {
+            "key": "3",
+            "value": "Bis jetzt gab es nur ein oder zweimal Intimitäten"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "262c340d7d1747019ad09868e818e85a is '3'"
+        },
+        {
+          "to": "n003",
+          "if": "262c340d7d1747019ad09868e818e85a is '1'"
+        },
+        {
+          "to": "n003",
+          "if": "262c340d7d1747019ad09868e818e85a is '2'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "ffbe18b95c0d493ab9a24ffc43296ac8",
+      "title": "Was denken Sie, wie Ihre Affäre zu Ihrem Verhältnis steht?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Der Andere genießt Ihre gemeinsame Zeit und scheint offen für mehr zu sein."
+          },
+          {
+            "key": "2",
+            "value": "Der Andere ist eher spröde, d.h. er ist zwar da, ziert sich aber und kommt einfach nicht näher."
+          },
+          {
+            "key": "3",
+            "value": "Der Andere hat mir klar kommuniziert, dass er derzeit nur eine Affäre möchte."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "ffbe18b95c0d493ab9a24ffc43296ac8 is '1'"
+        },
+        {
+          "to": "n005",
+          "if": "ffbe18b95c0d493ab9a24ffc43296ac8 is '2'"
+        },
+        {
+          "to": "n006",
+          "if": "ffbe18b95c0d493ab9a24ffc43296ac8 is '3'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Großartig, dann haben Sie sehr gute Chancen, dass sich daraus eine tolle Partnerschaft entwickelt. Wie? Das zeigen wir Ihnen, sobald Sie auf \"weiter\" klicken.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Wenn man sich schon so nahe kommt wie bei Intimitäten, wäre es doch gelacht, wenn es nicht möglich wäre, daraus mehr zu machen. Tausenden anderen ist das auch schon gelungen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das ist ein eher schlechtes Zeichen. Der Andere scheint den klaren Standpunkt zu vertreten, dass er im Moment keine Partnerschaft mit Ihnen führen möchte oder kann. In diesem Fall haben Sie aus unserer Sicht drei Alternativen: \r\n\r\n1. Sie begnügen sich damit, eine Affäre mit dieser Person zu führen und zwar wirklich nur eine Affäre. Achtung: Falls Sie ernsthafte Gefühle für den Anderen haben, können Sie hier schnell verletzt werden. \r\n\r\n2. Sie beenden die Affäre und gehen auf die Suche nach einer Person, mit der Sie eine Partnerschaft leben können. In diesem Fall empfehlen wir Ihnen unser Coaching “Affäre beenden”. \r\n\r\n3. Sie versuchen trotz schlechter Aussichten den Anderen von einer Beziehung zu überzeugen. Hier besteht die Gefahr, dass Sie auf verlorenem Posten kämpfen und Zeit sowie Energie verschwenden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Als allerersten Schritt stellen Sie sich die Frage:\r\n",
+      "text": "Halte ich den Gedanken überhaupt für möglich, dass mein Partner eine Beziehung möchte?\nWenn Sie selbst nicht an die Möglichkeit glauben, wie sollen Sie dann Ihren Partner in diese Richtung bringen?\nKlären Sie diesen Punkt erst einmal für sich selbst, überfallen Sie noch nicht den anderen mit der konkreten Frage nach Beziehung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "082aceb6f1c744b39cd9d523b999a054",
+      "title": "Wie möchten Sie fortfahren?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V62.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Das Coaching fortsetzen"
+          },
+          {
+            "key": 2,
+            "value": "Das Coaching verlassen und ein anderes Coaching bearbeiten"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "082aceb6f1c744b39cd9d523b999a054 is 1"
+        },
+        {
+          "to": null,
+          "if": "082aceb6f1c744b39cd9d523b999a054 is 2"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Sind Sie zu einer Entscheidung gekommen? Und wie sieht sie aus?\r\n",
+      "text": "Wenn Sie sich eine Beziehung mit Ihrer Affäre wünschen klicken Sie bitte auf \"Coaching fortführen\". Wenn Sie Unterstützung bei der Entscheidungsfindung brauchen, wenden Sie sich gerne an unsere Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "12e87abece9648a884836245eab23a91",
+      "title": "Bitte wählen Sie jetzt!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V62.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Coaching fortführen"
+          },
+          {
+            "key": 2,
+            "value": "Coaching verlassen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "12e87abece9648a884836245eab23a91 is 1"
+        },
+        {
+          "to": null,
+          "if": "12e87abece9648a884836245eab23a91 is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nicht jeder definiert \"Beziehung\" mit den gleichen Kriterien. Der eine hat sein Ziel erreicht, wenn er regelmäßig Kontakt hat. Der andere will es ganz konkret besprochen haben.\r\nWenn Sie vorhaben, Ihre Affäre in eine Beziehung zu verwandeln, legen Sie für sich fest: Wann habe ich das erreicht, was ich suche?\r\nNur weil das Wort \"Beziehung\" nicht verwendet wird, bedeutet das nicht, dass man nicht in einer Beziehung ist.\r\nManchmal besteht der Trick schon allein darin, den anderen dahin bringen, in einer Beziehung zu sein, ohne dass er es merkt. Halten Sie also bitte jetzt fest, wann Sie mit der Situation zufrieden wären und woran Sie das festmachen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Goldgräber\r\n\r\nWie schaffen Sie es, aus der lockeren Zweisamkeit Ihrer Affäre eine Partnerschaft zu machen? Wir raten Ihnen, in die Rolle eines Goldgräbers zu schlüpfen, der nach zwei \"Schätzen\" Ausschau hält. Ihre erste Mission ist es herauszufinden, was der Andere mag und welches Verhalten Ihrerseits eine positive Reaktion beim ihm/ihr hervorruft.\r\nIhre zweite Mission ist es, herauszufinden, wie Sie beim Anderen den Wunsch nach mehr wecken können.\r\n\r\nSchauen wir uns zunächst also an, was Sie tun können, um herauszufinden, was der Andere mag.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Spielen Sie Detektiv!\r\n\r\nVielleicht gibt es schon einige Dinge, von denen Sie wissen, dass Ihre Affäre sie gut oder schlecht findet.\r\nReagiert Ihre Affäre z.B. allergisch darauf, wenn Sie dreimal am Tag anrufen? Dann unterlassen Sie das. Auch wenn es schwerfällt. Es ist wichtig, dass der Andere sich nicht erdrückt fühlt, sonst wird er schnell die Flucht ergreifen. Als Belohnung für Sie werden Sie womöglich überrascht sein, was passiert, wenn Sie mal die Person sind, die schwer zu erreichen ist. \r\nFreut sich Ihre Affäre dagegen beispielsweise, wenn man sie spontan zum Essen einlädt oder auf einen Sprung vorbeikommt? Dann intensivieren Sie genau solche spontanen Aktivitäten.\r\nExperimentieren Sie ruhig ein bisschen herum, um ein Gefühl dafür zu bekommen, was beim Anderen gut ankommt und was nicht. Ein gute Übungsmöglichkeit sind Emails und SMS, die Sie je nach Bedarf knapper oder ausgedehnter, frecher oder zurückhaltender formulieren können.\r\nDamit er/sie reagiert, können Sie z.B. versuchen, seine Eifersucht anzuregen. Vielleicht treffen Sie sich heute Abend mit einer Ex-Beziehung?\r\nOder Sie locken ihn mit konkreten genussvollen Unternehmungen wie einem gemeinsamen Spa-Wochenende oder einem Abend, an dem Sie das Lieblingsessen des Anderen kochen.\r\nWas auch immer Sie ausprobieren, wichtig ist, dass Sie zwischen Nähe und Entfernung abwechseln und beobachten, an welcher Stelle Sie einen Fuß in die Tür bekommen. \r\n\r\nWenn Sie z.B. sofort eine Reaktion auf eine SMS/Email kriegen, dann wissen Sie, dass es funktioniert hat. Merken Sie sich gut, was es war, das so gute Wirkung erzielt hat, und setzen Sie es zukünftig öfter ein. \r\nReagiert er/sie sofort auf einen Vorschlag? Oder auf Komplimente? Dann mehr davon!",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Erforschen Sie die Beziehungsvergangenheit des Anderen!\r\n\r\nJeder Mensch hat seine eigenen, ganz individuellen Bedürfnisse in einer Beziehung. Was man in einer Beziehung mag und wovor man eher zurückschreckt, hängt oft mit früheren Erfahrungen zusammen. Daher sind die früheren Beziehungen/Affären Ihres Gegenüber ein guter Hinweis dafür, warum er/sie blockiert.\r\nSuchen Sie daher behutsam das Gespräch und finden Sie heraus, was für Ihre Affäre schwierig war: \r\nWoran ist die letzte Beziehung gescheitert? Hat er/sie sich vielleicht zu kontrolliert gefühlt? Ist er vielleicht verlassen oder betrogen worden?\r\n\r\nWenn Sie merken, wo der wunde Punkt Ihres Partners liegt, greifen Sie diesen ganz gezielt auf und signalisieren Sie ihm/ihr, dass er in diesen Punkten von Ihnen nichts Negatives zu befürchten hat.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie uns nun schauen, was Sie tun können, um beim Anderen den Wunsch nach mehr Nähe hervorzurufen:\r\n\r\nEs gibt eine Reihe von kleinen Dingen, die Sie tun können, um mehr emotionale Nähe zu Ihrer Affäre aufzubauen. In Kombination können diese Kleinigkeiten eine enorme Auswirkung haben. Auch ein reißender Fluss besteht schließlich aus einzelnen Tropfen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Passen Sie Ihr Tempo an den Anderen an!\r\n\r\nDie meisten Menschen sehnen sich nach Nähe und Geborgenheit. Wieviel Nähe und wieviel Distanz jemand als ideal für sich empfindet, ist allerdings sehr unterschiedlich. Gerade wenn der Andere noch etwas zögerlich ist, ist es wichtig sich auf das Tempo des Anderen einzustellen. Es würde überhaupt nichts bringen, ihn/sie zu irgendetwas zu zwingen. Zwang kann leichte Verliebheitsgefühle schnell im Keim ersticken. \r\nWenn der Andere also ein paar Tage für sich braucht: kein Problem! Dann nutzen Sie die Zeit, um sich mit Ihren Freunden zu treffen. \r\nDas heißt allerdings nicht, dass Sie auf ewig Kompromisse machen müssen. \r\nGanz im Gegenteil: Wenn Sie es schaffen, dem Anderen das Gefühl zu geben, bei Ihnen er/sie selbst sein zu dürfen, können die Gefühle wachsen. Und dann wird der Andere sich wahrscheinlich Ihrem Tempo annähern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Durchhalten\r\n\r\nSie fragen sich vielleicht, wie Sie es schaffen können, sich an das Tempo des Anderen anzupassen bzw. wie Sie es durchhalten, wenn der Wunsch den Anderen anzurufen, zu sehen, etc., Überhand gewinnt.\r\nGrundsätzlich raten wir Ihnen, sich in solchen Momenten Beschäftigungen zu suchen, die Ihnen Freude machen und wichtig sind. Fragen Sie sich nicht: \"Wie halte ich den Abend heute ohne den Anderen aus?\" sondern \"Wie kann ich den Abend für mich alleine so gestalten, dass es mir gut geht?\". Gehen Sie zum Sport, treffen Sie sich mit Freunden, schauen Sie einen guten Film - was auch immer Ihnen gut tut: Tun Sie es!\r\nHilfreich kann es auch sein, einen guten Freund/eine gute Freundin mit ins Boot zu holen. Die Person weiß dann Bescheid und Sie können sie anrufen, wenn Sie gerade das Gefühl haben, nicht mehr durchzuhalten. Entweder die Person verstärkt Sie in dem, was Sie sich eigentlich vorgenommen haben (nämlich dem Anderen den Freiraum zu geben, den er braucht) oder Sie lenken sich gemeinsam ab, indem Sie über andere Dinge sprechen/etwas anderes unternehmen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein gutes Kompliment im richtigen Moment\r\n\r\nWenn Sie das Gefühl haben, dass der Andere Sie gerade sehr mag oder sich ein Stück weit öffnet, ist das ein guter Zeitpunkt für ein besonderes Kompliment. Da gerade körperliche Nähe dazu führen kann, dass man besonders empfänglich für den Anderen ist, bietet sich hier der Moment nach dem Sex oder nach Intimitäten an. \r\nÜberlegen Sie sich daher bitte jetzt, welches schöne, nicht-alltägliche Kompliment Sie dem Anderen machen könnten. Ein guter Ansatz ist dabei über ihre Gefühle zu reden, also z.B. \"Wenn Du bei mir bist, fühle ich mich ...\". Da es sich aber \"noch\" um eine Affäre handelt, in der es ja eigentlich nicht um diese Art Gefühle geht, sollten Sie Ihr Kompliment etwas abpuffern, z.B. indem Sie sagen: \"Ich weiß auch nicht, warum das so ist, aber wenn Du bei mir bist, dann fühle ich mich...\".\r\n\r\nDenken Sie daran, dass Ihr Ziel ist, dass der Andere Lust auf mehr bekommt. Das erreichen Sie, indem Sie mit Nähe und Distanz spielen. Der Andere sollte Lust auf mehr bekommen und dann aber auch eine Weile darauf warten müssen. So wächst seine Lust auf Sie und die Gefühle können wachsen. Probieren Sie es aus und schauen Sie, was passiert! \r\n\r\nBei der Wahl Ihrer Komplimente seien Sie bitte sensibel dafür, was der Andere annehmen kann und was ihm/ihr vielleicht zu viel sein könnte. Zum jetzigen Zeitpunkt wäre es sicherlich verfrüht, dem Anderen zu sagen, dass er/sie bestimmt eine gute Mutter/ein guter Vater wäre. Dass Sie sich beim Anderen geborgen fühlen oder ihn/sie für eine besondere Person halten, können Sie dagegen ruhig anbringen.\r\n\r\nAuch das Timing ist hier ganz wichtig. Vermeiden Sie, Komplimente zu verteilen, wenn der Andere grade eher im Rückzug begriffen ist. Dadurch rutschen Sie eher in eine unterlegene Position. Der Andere hat Ihnen nämlich durch seine Distanz signalisiert, dass ihm Ihre Nähe im Moment zu viel ist. Dies gilt es zu akzeptieren, auch wenn es schwer fällt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gemeinsame Rituale\r\n\r\nGemeinsame Gewohnheiten wie jeden Donnerstag ins Kino zu gehen oder jeden Sonntag gemeinam Kaffee zu trinken wirken stabilisierend auf jede Beziehung. Der Andere wird zum Teil des Alltags und würde daher schmerzlich fehlen, wenn er auf einmal weg wäre. Fördern Sie daher solche regelmäßigen Treffen und schlagen Sie ruhig proaktiv etwas vor. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vermeiden sollten Sie es, den Anderen stark unter Druck zu setzen, z.B. indem Sie ihm drohen, sich jemand Anderen zu suchen, wenn er/sie nicht sofort auf Ihre SMS reagiert. Es gibt viele Menschen, die aufgrund von schlechten Erfahrungen in der Vergangenheit Vorbehalte haben, sich auf eine feste Beziehung einzulassen und daher mehr Zeit brauchen. Indem Sie Druck ausüben, würden Sie so eine Person schnell in die Flucht schlagen. Versuchen Sie daher eher Verständnis für die Gefühlswelt des Anderen aufzubringen und beziehen Sie seine Zurückhaltung nicht gleich auf sich. Es kann gut sein, dass der Andere sich sehr ähnliche Dinge wie Sie wünscht, aber eben etwas mehr Zeit und Gewöhnung braucht, bis er sich darauf einlassen kann.",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zeitlimit\r\n\r\nDamit Ihre eigenen Bedürfnisse dabei nicht zu kurz kommen, raten wir Ihnen, sich in jedem Fall ein Zeitlimit zu setzen. Wie wir Ihnen in diesem Coaching gezeigt haben, gibt es vieles, was Sie ausprobieren können. Dennoch ist und bleibt es ein Experiment mit offenem Ausgang. Es gibt z.B. Menschen mit ausgeprägten Bindungsängsten, die Sie trotz Anwendung unserer Tipps nicht überzeugen werden können. Überlegen Sie sich daher bitte jetzt, wieviel Zeit Sie bereit sind zu investieren. Nach unserer Erfahrung brauchen Sie schon ein bisschen Geduld. Ein paar Monate kann es durchaus dauern. Sie haben eine Chance und es lohnt sich, Anstrengung auf sich zu nehmen. Wenn Ihre Bemühungen allerdings nicht von Erfolg gekrönt sein sollten, ist es ebenso wichtig, zu erkennen, dass Sie mit dieser Person nicht weiterkommen. Ab einem gewissen Punkt schaden Sie sich selber und verhindern sogar eine Partnerschaft, indem Sie sich an jemanden binden, der Ihnen nicht geben kann, was Sie sich wünschen.\r\nBitte gehen Sie jetzt ein paar Minuten in sich und notieren Sie, wann Ihre persönliche Deadline ausläuft. Für Rückfragen wenden Sie sich gerne an unsere Experten! Die Telefonnummer und ein Kontaktformular finden Sie unter \"Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching \"Von der Affäre zur Beziehung\". Wir hoffen, dass Sie hilfreiche Anregungen mitgenommen haben, wie Sie mit Ihrer aktuellen Situation umgehen können. Sie haben nun die Wahl, das nächste Coaching zu besuchen, dieses Coaching noch einmal zu durchlaufen oder sich mit unseren Experten in Verbindung zu setzen. ",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

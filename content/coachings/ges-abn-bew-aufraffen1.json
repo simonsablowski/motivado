@@ -1,0 +1,224 @@
+{
+  "key": "ges-abn-bew-aufraffen1",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Willkommen im Coaching \"Wie raffe ich mich zum Sport auf\"",
+      "text": "In diesem Coaching zeigen wir Ihnen Tricks, wie Sie Ihren inneren Schweinehund in Bewegung bringen!\nNehmen Sie sich für dieses Coaching ungefähr 20 Minuten Zeit.\nViel Spaß!",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport1_V1.flv",
+          "delay": 45
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "342c08f959504f22b92bdce7c346e6b1",
+      "title": "In welcher der beiden Situationen haben Sie die größten Schwierigkeiten, sich aufzuraffen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich mache Outdoorsport und kann mich manchmal einfach nicht überwinden."
+          },
+          {
+            "key": 2,
+            "value": "Ich trainiere im Fitnessstudio und habe manchmal einfach keine Lust, hin zu gehen."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "342c08f959504f22b92bdce7c346e6b1 is 1"
+        },
+        {
+          "to": "n004",
+          "if": "342c08f959504f22b92bdce7c346e6b1 is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Bereiten Sie sich vor!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Suchen Sie sich einen Trainingspartner!",
+      "text": "Motivationstricks für Sie und Ihren Trainingspartner:\n\n1. Nehmen Sie die Turnschuhe des Anderen mit nach Hause. So müssen Sie zur nächsten Trainingseinheit, denn Sie wollen Ihren Trainingspartner doch nicht ohne Schuhe dastehen lassen oder? \n2. Wollen Sie wirklich Kalorien zählen müssen? Mit einer Sporteinheit müssen Sie es an dem Tag nicht so ganz genau nehmen!",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport1B_V1.flv",
+          "delay": 20
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Sie gehören zu den Wenigen, die bereit sind Sport zu machen, sehr gut!",
+      "text": "Sport genießen - das geht nicht?\nDoch, das geht sehrwohl!\nDie ersten Trainingseinheiten sind immer erst anstrengend und kosten Überwindung, aber nach und nach wird es leichter!\nSpätestens in der dritten Woche wird es Ihnen das erste Mal richtig Spaß machen und werden Sie das Körpergefühl nach dem Sport so richtig genießen können! (sek 45)",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport1_V7.flv",
+          "delay": 45
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Sie gehören zu den Wenigen, die bereit sind Sport zu machen, sehr gut!",
+      "text": "Sport genießen - das geht nicht?\nDoch, das geht sehrwohl!\nDie ersten Trainingseinheiten sind immer erst anstrengend und kosten Überwindung, aber nach und nach wird es leichter!\nSpätestens in der dritten Woche wird es Ihnen das erste Mal richtig Spaß machen und werden Sie das Körpergefühl nach dem Sport so richtig genießen können!",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport1_V7.flv",
+          "delay": 45
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Was kann meine Trainingseinheit für mich sein:",
+      "text": "- ein guter Start in den Tag \n- sie unterstützt beim Abnehmen \n- es ist Zeit, die Sie für sich und Ihre Gesundheit nehmen \n- Sie macht mich fit und attraktiv für Aktivitäten mit Freunden oder Familie \n\nDie Gründe reichen Ihnen nicht in jeder Situation? Dann schaffen Sie sich zusätzliche Belohnungen. \n\nSuchen Sie sich einen Trainingspartner! \n\nTragen Sie Ihre Trainingseinheiten wie einen wichtigen Termin rot in Ihren Kalender ein!",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport1_V8.flv",
+          "delay": 6
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Was kann meine Trainingseinheit für mich sein:",
+      "text": "- ein guter Start in den Tag \n- sie unterstützt beim Abnehmen \n- es ist Zeit, die Sie für sich und Ihre Gesundheit nehmen \n- Sie macht mich fit und attraktiv für Aktivitäten mit Freunden oder Familie \n\nDie Gründe reichen Ihnen nicht in jeder Situation? Dann schaffen Sie sich zusätzliche Belohnungen. \n\nSuchen Sie sich einen Trainingspartner! \n\nTragen Sie Ihre Trainingseinheiten wie einen wichtigen Termin rot in Ihren Kalender ein!",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport1_V8.flv",
+          "delay": 6
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Sport muss Spaß machen!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Sport muss Spaß machen!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Aufraffen zum Sport 1\"",
+      "text": "Stellen Sie Ihre persönliche Top 5 der besten Motivationstricks auf.\nWelche helfen Ihnen am besten. sich zum Sport aufzuraffen?",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport1_V4.flv",
+          "delay": 36
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_AufraffenSport1_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

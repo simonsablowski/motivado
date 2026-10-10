@@ -1,0 +1,304 @@
+{
+  "key": "slc-lifystyle",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Lifestyle",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "slc_lifestyle_Koffein",
+      "title": "Trinken Sie Kaffee, Cola oder andere Koffeinhaltige Getränke, um wach zu werden oder wach zu bleiben?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V30.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "slc_lifestyle_Koffein is '2'"
+        },
+        {
+          "to": "n004",
+          "if": "slc_lifestyle_Koffein is '1'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "slc_lifestyle_Nikotin",
+      "title": "Rauchen Sie?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V32.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "slc_lifestyle_Nikotin is '1'"
+        },
+        {
+          "to": "n006",
+          "if": "slc_lifestyle_Nikotin is '2'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Weniger Kaffee trinken",
+      "text": "Dafür mit mehr Genuß.\n\nUnd nach 17 Uhr verzichten Sie am besten ganz darauf!",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V38.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 34
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Rauchen hindert Sie am Schlafen",
+      "text": "Wenigstens 2 Stunden vor dem Schlafen gehen sollten Sie nicht mehr rauchen.",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V33.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 48
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "slc_lifestyle_Alkohol",
+      "title": "Trinken Sie Alkohol (auch Bier und Wein)?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V34.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "slc_lifestyle_Alkohol is '1'"
+        },
+        {
+          "to": "n008",
+          "if": "slc_lifestyle_Alkohol is '2'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Alkohol raubt Ihren Tiefschlaf",
+      "text": "Wenn Sie Probleme mit dem Schlafen haben oder besser Schlafen möchten, dann müssen Sie sich von alkoholischen Getränken verabschieden.",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V35.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 106
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "slc_lifestyle_Drogen",
+      "title": "Nehmen Sie Drogen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V36.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "slc_lifestyle_Koffein is 2 and slc_lifestyle_Drogen  is 2 and slc_lifestyle_Nikotin is 2 and slc_lifestyle_Drogen is '2'"
+        },
+        {
+          "to": "n010",
+          "if": "slc_lifestyle_Drogen is '2'"
+        },
+        {
+          "to": "n011",
+          "if": "slc_lifestyle_Drogen is '1'"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Lob II",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Zusammenfassung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V39.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Überlassen Sie den Drogen nicht auch noch Ihren Schlaf",
+      "text": "Wenn Sie schlecht schlafen und Drogen nehmen, dann sind dafür garantiert die Drogen verantwortlich.\n\nVersuchen Sie deshalb diesen Bereich unter Kontrolle zu bekommen. Wenn Sie dazu Hilfe brauchen, wenden Sie sich an uns!",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V37.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 19
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    }
+  }
+}

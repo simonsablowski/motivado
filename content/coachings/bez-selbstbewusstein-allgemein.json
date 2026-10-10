@@ -1,0 +1,273 @@
+{
+  "key": "bez-selbstbewusstein-allgemein",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen in unserem Coaching zum Thema \"Selbstbewusstsein\".\r\n\r\nWer sich selbst nicht zutraut, eine glückliche Beziehung führen oder den einen bestimmten Job kriegen zu können, hat tatsächlich oft Schwierigkeiten sein Ziel zu erreichen. Und jede negative Entwicklung wirkt sich wieder negativ auf das Selbstbewusstsein aus, was wiederum einen schlechteren Start für den nächsten Versuch darstellt.\r\n\r\nDas Ergebnis davon ist ein Kreislauf aus Schwierigkeiten und Problemen, der schwer selbst zu durchbrechen ist. Aber Vertrauen in die eigenen Fähigkeiten zu haben, ist von grundlegender Wichtigkeit für den eigenen Erfolg, sowohl im Beruf als auch im Privatleben. Denn nur, wenn Sie selbst an Ihre Fähigkeiten glauben, können Sie auch andere Personen damit beeindrucken und begeistern.\r\n\r\nMit unserem Coaching helfen wir Ihnen dabei, Ihr Selbstbewusstsein für Ihre Ziel - sei es beruflicher oder privater Natur - aufzubauen und Ihre Zweifel über Ihre Fähigkeiten und Liebenswürdigkeit abzubauen. Wir zeigen Ihnen auf Grundlage unserer jahrelangen Erfahrung und Kompetenz, wie Sie sich auf Ihre Qualitäten konzentrieren und mit welchen Strategien Sie dem Teufelskreis des niedrigem Selbstbewusstseins entkommen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Privates und berufliches Selbstbewusstsein\r\n\r\nDas Selbstbewusstsein im privaten Bereich ist vom Selbstbewusstsein im Job nur schwer zu trennen. Wer privat glücklich und selbstbewusst ist, wird auch im Job mehr Erfolg haben und wer beruflich alles im Griff hat, ist auch privat erfolgreicher. Selbstbewusstsein ist in beiden Bereichen sehr wichtig und eng miteinander verknüpft.\r\n\r\nDas eigene Selbstbewusstsein aufzubauen, ist ein Vorhaben, dass einige Zeit in Anspruch nehmen wird. Aber überlegen Sie jetzt, ob Sie sich dafür entscheiden, jetzt abzubrechen und auch in 6 Monaten kein Selbstbewusstsein zu haben oder ob Sie jetzt anfangen wollen, etwas zu ändern und über die nächsten Monate langsam mehr Selbstbewusstsein aufzubauen. Die Entscheidung darüber, privat und beruflich erfolgreicher, weil selbstbewusster zu sein, liegt ganz bei Ihnen.\r\n\r\nNehmen Sie sich einen Zettel und einen Stift zur Hand, damit Sie im folgenden bei unseren Übungen bestmöglich mitarbeiten können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sammeln Sie Komplimente\r\n\r\nUm Ihr Selbstbewusstsein im Allgemeinen zu stärken, ist es sehr hilfreich, wenn Sie zunächst alle Komplimente sammeln, die Sie in Bezug auf Ihren Charakter und Ihre Fähigkeiten je bekommen haben. Unterscheiden Sie dabei in berufliche, sportliche und private Fähigkeiten (wie z.B. Hobbys, Alltag etc.).\r\n\r\nVieles wird Ihnen jetzt wahrscheinlich nicht einfallen, Ihnen unwichtig erscheinen oder vielleicht wollen Sie auch ein Kompliment von einer für Sie unwichtigen Person nicht aufschreiben, aber alle diese Dinge zählen. Jedes Kompliment, dass Sie je bekommen haben, zählt.\r\n\r\nGehen Sie in Gedanken durch Ihre Kindheit, Ihre Jugend, Ihre Schulzeit, Ihr Studium ect. und überlegen Sie genau, wann Sie ein Kompliment bekommen haben und schreiben Sie das jetzt auf Ihren Zettel. Nehmen Sie sich Zeit für diese Liste, die Sie natürlich jederzeit erweitern und verändern können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was haben Sie schon geschafft?\r\n\r\nNachdem Sie eine Liste mit allen Komplimenten, die Ihnen gemacht worden sind, angefertigt haben, denken Sie nun darüber nach, was Sie bereits alles erreicht haben. Unterscheiden Sie auch hier in berufliche und private Leistungen. Welche Dinge haben Sie geschafft von denen Sie nicht gedacht hätten, dass Sie sie erreichen könnten? Welche Dinge haben Sie besser gemacht als andere?\r\n\r\nMachen Sie jetzt eine Liste mit allen Dingen, die Sie geschafft haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für wen sind Sie wichtig?\r\n\r\nNehmen Sie sich außerdem die Zeit, eine Liste der Personen zu erstellen, für die es wichtig ist, dass Sie existieren. Denken Sie an Ihre Familie - vielleicht haben Sie Kinder -, Ihre Freunde, Kollegen, Bekannten oder vielleicht auch Kunden und schreiben Sie eine Liste mit allen Menschen, für die es von Bedeutung ist, dass es Sie gibt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Diese Listen haben keinen abgeschlossenen Charakter und Sie können Sie jederzeit erweitern und verändern. Da es generell empfehlenswert ist, dieses Coaching mehrmals zu wiederholen, können Sie bei dieser Gelegenheit natürlich Ihre Listen gegebenenfalls anpassen.\r\n\r\nBewahren Sie diese Listen als Erinnerung und Unterstützung möglichst sichtbar auf. Hängen Sie sie an Ihren Spiegel oder legen Sie sie bunt markiert auf Ihren Nachttisch und lesen Sie sie sich regelmäßig durch.\r\n\r\nNehmen Sie Ihre Listen ebenfalls zur Hand, wenn Sie sich wieder einmal mit negativen Gedanken herumquälen. Sie sind genauso toll und liebenswert wie jeder Andere auch! Wenn Sie sich für weniger Wert halten, haben Sie weder im Job noch privat gute Chancen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es gibt natürlich noch verschiedene anderen Handlungen, die Sie aktiv ausführen können und die Ihnen helfen werden, Ihr Selbstbewusstsein zu stärken. Wichtig dabei ist, dass Sie sich darüber bewusst sein müssen, dass Übungen zum Aufbau und zur Unterstützung des Selbstbewusstseins wie schon gesagt regelmäßig über einen langen Zeitraum hinweg angewendet werden sollten, damit sie Wirkung zeigen können:",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ersetzen Sie negative Gedanken\r\n\r\nEgal wofür Sie Selbstbewusstsein brauchen - für einen neuen Job, für eine Beziehung, die Rückeroberung des Ex-Partners, das Erreichen eines bestimmten Vorhabens - es ist wichtig, dass Sie Ihre negative Gedanken, die Sie an Ihren Fähigkeiten zweifeln lassen, ganz bewusst durch positive Gedanken ersetzen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wozu brauchen Sie Selbstbewusstsein?\r\n\r\nDenken Sie darüber nach, wofür genau Sie Ihr Selbstbewusstsein stärken wollen und legen Sie sich extra für dieses Ziel passende Sätze zurecht, die bestätigen, dass Sie Ihr Ziel erreichen können und werden.\r\n\r\nWenn Sie eine Beziehung suchen, ersetzen Sie negative Gedanken wie \"Ich bin nicht gut genug.\" oder \"Ich bin nicht liebenswert.\" durch Sätze wie \"Ich bin großartig, genauso wie ich bin.\", \"Ich bin liebenswert, genauso wie ich bin.\", \"Ich bin genug, genauso wie ich bin.\" oder \"Nicht jeder muss mich mögen, aber es gibt jemanden, der mich toll finden wird.\".\r\n\r\nWenn Sie einen neuen Job suchen, ersetzen Sie negative Gedanken wie \"Ich kann das nicht.\" durch Sätze wie \"Ich habe die nötigen Qualifikationen für diesen Job.\" oder \"Ich bin gut genug für diesen Job.\" \r\n\r\nImmer, wenn Sie sich selbst durch solche negative Gedanken blockieren, unterbrechen Sie diese Gedanken sofort und sprechen sich statt dessen Ihre positiven, selbstbewussten Sätze vor. Hören Sie nicht auf Ihre inneren Lügner und unterbrechen Sie sofort, wenn sich negative Gedanken einschleichen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Treiben Sie Sport!!!!\r\n\r\nZu den weiteren Dingen, die Ihr Selbstbewusstsein fördern, zählt auch Sport. Regelmäßige Bewegung tut Ihrem Körper in mehrfacher Hinsicht gut:\r\n\r\n1. Körperliche Bewegung baut Stresshormone im Körper ab. Da Selbstzweifel für den Kröper Stress bedeuten, ist Sport eine gute Lösung, die sich ansammelnden Stresshormone wieder loszuwerden. Der Körper sendet zudem die Botschaft an Ihr Gehirn, dass Sie sich stark fühlen, dass Sie fit sind und dass es Ihnen gut geht.\r\n\r\n2. Regelmäßiges Training sorgt natürlich auch dafür, dass Sie besser aussehen. Sie fühlen sich attraktiver und auch das hat positive Auswirkungen auf Ihr Selbstbewusstsein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3. Sportliche Betätigung sorgt auch dafür, dass Sie beschäftigt sind. In der Zeit, in der Ihnen Ihr Körper Botschaften senden wird, dass Sie stark und fit sind, denken Sie jetzt immer nur darüber nach, was Sie alles nicht erreicht haben. Machen Sie jetzt damit Schluss und raffen Sie sich dazu auf, zum Sport zu gehen. Sie werden sich hinterher sofort besser fühlen.\r\n\r\nStehen Sie jetzt auf und gehen Sie zum Sport oder nehmen Sie sich zumindest jetzt Ihren Kalender und tragen Sie sich ein, wann Sie zum Sport gehen wollen. Natürlich können Sie sich auch mit Freunden dazu verabreden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Achten Sie auf Ihre Körperhaltung\r\n\r\nMenschen, die über wenig Selbstbewusstsein verfügen, haben sehr oft auch eine schlechte Körperhaltung. Achten Sie deshalb darauf, dass Sie sich gerade halten. Egal, ob Sie dünn oder dick sind, sitzen und stehen Sie gerade, strecken Sie Ihre Brust raus. Auch wenn sich das für Sie im ersten Moment komisch anfühlt, nach ein paar Minuten, in denen Sie ganz bewusst gerade gesessen oder gestanden haben, sendet Ihr Körper Signale an Ihr Gehirn, dass Sie stark sind.\r\n\r\nNehmen Sie sich also jeden Tag mindestens ein paar Minuten Zeit und achten Sie in diesen Minuten darauf, dass Sie eine möglichst gerade Körperhaltung einnehmen. Viele Menschen leiden unnötig unter Ihrem mangelnden Selbstbewusstsein, aber schon ein paar Minuten täglich können Ihnen helfen, das zu ändern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Weitere Dinge, die das Selbstbewusstsein fördern\r\n\r\nAußer Sport gibt es aber natürlich auch noch andere Dinge und Handlungen, die Ihr Selbstbewusstsein steigern. Was Sie ab jetzt also regelmäßig machen müssen, um Ihr Selbstbewusstsein zu stärken, sind folgende Dinge:\r\n\r\n1. Anderen Menschen helfen\r\nIn der Lage zu sein, jemandem mit den eigenen Fähigkeiten, dem eigenen Wissen etc. zu helfen, wirkt sich sehr positiv auf Ihr Selbstbewusstsein aus. Das Gefühl, wichtig für Andere zu sein und deren Dankbarkeit zu spüren, ist ein sehr guter Antrieb für Ihr Selbstbewusstsein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Ausdauer beweisen\r\nEgal, was Sie sich vornehmen, es ist sehr positiv für Ihr Selbstbewusstsein, wenn Sie Dinge auch zu Ende bringen. Durchhänger hat jeder mal und die sind verständlich und erlaubt, aber wichtig ist, dass Sie letztendlich durchhalten und Ihr Projekt etc. beenden. Sie werden sich hinterher besser fühlen. \r\n\r\nNicht nur, dass Sie es sich positiv auf Ihr Selbstbewusstsein auswirken wird, wenn Sie etwas beenden, vielleicht schaffen Sie auch einiges von den Dingen weg, die Sie sich schon lange vorgenommen haben. Gehen Sie es also an und ziehen Sie durch, was Sie sich vorgenommen haben. \r\n\r\nWir empfehlen Ihnen hier auch unser Coaching zum Thema \"Ausdauer\", in dem wir Ihnen helfen, Vorsätze bis zum Ende durchzuhalten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3. Wissen\r\nWenn man sich in einem bestimmten Bereich besonders gut auskennt und über ein breites Wissen verfügt, ist dies ebenfalls gut für Ihr Selbstbewusstsein. Nehmen Sie sich also Zeit für Dinge, die Sie wirklich interessieren. Den eigenen Interessen nachzukommen, wirkt sich gut auf Ihr Selbstbewusstsein aus.\r\n\r\n4. Großzügigkeit zeigen\r\nSeien Sie sich selbst gegenüber großzügig - und zwar bezogen auf die Zeit, die Sie investieren wollen, um an Ihrem Selbstbewusstsein zu arbeiten. Sie müssen sich bewusst sein, dass Sie viel Zeit brauchen werden und sich daher diese Zeit auch zugestehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Holen Sie sich Sponsoren\r\n\r\nFalls es Ihnen schwer fällt, sich an Ihre Stärken zu erinnern, wenden Sie sich an Freunde, die Sie dabei unterstützen, Ihr Selbstbewusstsein zu stärken.\r\n\r\nWenn Sie sich Unterstützung in Ihrem Freundeskreis holen möchten, sollten Sie die entsprechende Person darauf vorbereiten, welche Art von Hilfe Sie von ihr brauchen. Ganz gleich, wie gut Ihre Freundschaft zu dieser Person auch ist - Sie dauerhaft zu unterstützen, kann sehr anstrengend werden und die beste Freundschaft belasten.\r\n\r\nMit der richtigen Vorbereitung wird es den meisten Menschen leichter fallen, Sie zu unterstützen. Schicken Sie daher die E-Mail-Adresse oder Telefonnummer Ihrer Vertrauensperson auch an uns, damit wir mit dieser Person Kontakt aufnehmen und ihr helfen können, Sie in Ihrer Situation zu unterstützen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Holen Sie sich Unterstützung von uns\r\n\r\nWenn Sie in Ihrem persönlichen Umkreis keinen Sponsor finden oder Sie sich gerne von unseren Experten unterstützen lassen möchten, schicken Sie uns eine E-Mail, in der Sie uns erlauben, Sie per E-Mail-Kontakt nach Ihrem Fortschritt zu fragen. Wir werden Sie an Aufgaben erinnern und Sie dabei unterstützen, falls es einmal nicht so gut für Sie laufen sollte.\r\n\r\nDenken Sie daran, dass jeder einmal einen Durchhänger hat, dass es aber besonders wichtig ist, dass Sie einfach weiter machen. Lassen Sie sich dabei helfen und fordern Sie unsere Unterstützung dafür ein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Fragen Sie sich, was Sie noch tun können\r\n\r\nImmer dann, wenn negative Gedanken Sie blockieren, unterbrechen Sie diese auch mit der Frage, was Sie noch tun können, um festzustellen, wie großartig und attraktiv Sie sind. Fragen Sie sich das mindestens 5 bis 10 Minuten am Tag - sei es auf dem Weg zur Arbeit - und denken Sie ernsthaft darüber nach, was Sie noch alles tun können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "An dieser Stelle sagen wir Ihnen nochmal, wie wichtig es für Sie jetzt ist, dass Sie zum Sport gehen. Wenn Sie unser Coaching gleich beenden werden, stehen Sie auf und gehen Sie zum Sport. Verabreden Sie sich mit Freunden zum Training oder gehen Sie mit Ihrem Hund spazieren - aber tun Sie es jetzt!",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching zum Thema \"Selbstbewusstsein\" durchlaufen. Wir hoffen, Sie haben nun einige Strategien dafür, wie Sie Ihr Selbstbewusstsein langer aber stetig steigern können. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

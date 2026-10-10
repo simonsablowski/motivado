@@ -1,0 +1,111 @@
+[
+  {
+    "slug": "getrennt",
+    "path": "beziehung/getrennt",
+    "group": "beziehung",
+    "title": "Trennung",
+    "description": "Ihr Coaching für Beziehung, Dating und Liebesfragen\nDen richtigen Partner zu finden ist schwer. Und selbst wenn man jemanden gefunden hat, ist es oft nicht leicht. Motivado bietet viele Lösungen für:\n• Singles auf der Suche nach dem Traumpartner oder mehr Sex\n• Menschen, die ihren Liebeskummer loswerden möchten\n• Paare auf der Suche nach mehr Schwung in der Beziehung\n• ... und viele viele mehr!",
+    "experts": [
+      4,
+      26
+    ]
+  },
+  {
+    "slug": "paare",
+    "path": "beziehung/paare",
+    "group": "beziehung",
+    "title": "Paare",
+    "description": "Ihr Coaching für Beziehung, Dating und Liebesfragen\nDen richtigen Partner zu finden ist schwer. Und selbst wenn man jemanden gefunden hat, ist es oft nicht leicht. Motivado bietet viele Lösungen für:\n• Singles auf der Suche nach dem Traumpartner oder mehr Sex\n• Menschen, die ihren Liebeskummer loswerden möchten\n• Paare auf der Suche nach mehr Schwung in der Beziehung\n• ... und viele viele mehr!",
+    "experts": [
+      4,
+      26
+    ]
+  },
+  {
+    "slug": "sex-und-erotik",
+    "path": "beziehung/sex-und-erotik",
+    "group": "beziehung",
+    "title": "Sex und Erotik",
+    "description": "Ihr Coaching für Beziehung, Dating und Liebesfragen\nDen richtigen Partner zu finden ist schwer. Und selbst wenn man jemanden gefunden hat, ist es oft nicht leicht. Motivado bietet viele Lösungen für:\n• Singles auf der Suche nach dem Traumpartner oder mehr Sex\n• Menschen, die ihren Liebeskummer loswerden möchten\n• Paare auf der Suche nach mehr Schwung in der Beziehung\n• ... und viele viele mehr!",
+    "experts": [
+      4,
+      26
+    ]
+  },
+  {
+    "slug": "singles",
+    "path": "beziehung/singles",
+    "group": "beziehung",
+    "title": "Singles",
+    "description": "Ihr Coaching für Beziehung, Dating und Liebesfragen\nDen richtigen Partner zu finden ist schwer. Und selbst wenn man jemanden gefunden hat, ist es oft nicht leicht. Motivado bietet viele Lösungen für:\n• Singles auf der Suche nach dem Traumpartner oder mehr Sex\n• Menschen, die ihren Liebeskummer loswerden möchten\n• Paare auf der Suche nach mehr Schwung in der Beziehung\n• ... und viele viele mehr!",
+    "experts": [
+      4,
+      26
+    ]
+  },
+  {
+    "slug": "gewaltpravention",
+    "path": "erziehung/gewaltpravention",
+    "group": "erziehung",
+    "title": "Gewaltprävention",
+    "description": "Mobbing in der Schule\nMobbing in Schulen geht uns alle an. Das Problem muss in den Schulen gelöst werden, doch wir Eltern stehen zuerst in der Verantwortung. Lernen Sie:\n• Wie ich herausfinde, ob mein Kind gemobbt wird\n• Wie ich das Thema richtig mit den Lehrern anspreche\n• Wie man mit dem Täter umgeht\n• Was bei Cyber-Mobbing im Internet zu tun ist\n• ... und vieles mehr!",
+    "experts": [
+      13
+    ]
+  },
+  {
+    "slug": "gesundheit",
+    "path": "gesundheit",
+    "group": "gesundheit",
+    "title": "Gesundheit",
+    "description": "",
+    "experts": [
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "slug": "abnehmen-diaet-und-fitness",
+    "path": "gesundheit/abnehmen-diaet-und-fitness",
+    "group": "gesundheit",
+    "title": "Abnehmen und Fitness",
+    "description": "Natürlich fit, gesund und schlank\nWer wäre denn nicht gern näher am eigenen Wohlfühlgewicht? Und wem fällt der Weg dahin schwer? Motivado hilft Ihnen bei:\n• Gewichtsproblemen und Problemzonen\n• Gesundem Gewichtsverlust durch Ernährungsberatung\n• Dem \"Jojo-Effekt\" nach einer Diät zu vermeiden\n• Der Suche nach dem richtigen Sportprogramm für Sie\n• ... und bei vielem mehr rund um Abnehmen und Fitness",
+    "experts": [
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "slug": "rauchen",
+    "path": "gesundheit/rauchen",
+    "group": "gesundheit",
+    "title": "Rauchen",
+    "description": "",
+    "experts": [
+      6
+    ]
+  },
+  {
+    "slug": "schlafen",
+    "path": "gesundheit/schlafen",
+    "group": "gesundheit",
+    "title": "Schlafen",
+    "description": "",
+    "experts": [
+      6
+    ]
+  },
+  {
+    "slug": "jobsuche-bewerbung",
+    "path": "karriere/jobsuche-bewerbung",
+    "group": "karriere",
+    "title": "Jobsuche und Bewerbung",
+    "description": "Jetzt erfolgreich auf Jobsuche\nDie Suche nach einem Job kann zu einer langen und frustrierenden Angelegenheit werden. Deshalb unterstützen wir Sie dabei:\n• Den passenden Job zu finden, auch aus der Arbeitslosigkeit heraus\n• Mit neuem Selbstvertrauen in Bewerbungsgespräche zu gehen\n• Sich der eigenen Stärken bewusst zu werden und zu überzeugen\n• Mit Absagen besser umzugehen und daraus zu lernen\n• ... und bei vielem vielem mehr!",
+    "experts": [
+      4,
+      7
+    ]
+  }
+]

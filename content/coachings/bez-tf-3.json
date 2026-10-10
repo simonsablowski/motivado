@@ -1,0 +1,489 @@
+{
+  "key": "bez-tf-3",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Richtige Mischung - zu hohe Erwartung, locker, Zeit nehmen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Loslassen, ein Schritt zurück",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Störenfried",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Störenfriede - Frau nur halb raus",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "eigene Störenfriede",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Entscheidung meine Frau",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Übung Frau geht auf Freunde voll ein",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung Großzügig, integrieren oder gehen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Übung: eigene Störenfriede",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung: gegen eigene",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Übung: gute Bekannte stört etwas",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Übung: Charmanter Störer",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Yin & Yang: Knappheit und Verbundenheit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Untersuchung Nervenkitzel",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Was wollen sie eigentlich? Anknüpfer",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Erfahrung und Auflösung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "Kontakt über Plattformen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Welchen Kontakt hätten Sie gern?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V30.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Probieren Sie, Sie sind vor Konkurrenz eintüten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "Warum nochmal machen Sie das alles? Was erhoffen, wünschen Sie sich?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V32.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V33.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Video",
+      "key": null,
+      "title": "Schlussmotivation",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V34.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechClose_V35.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

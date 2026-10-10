@@ -1,0 +1,91 @@
+{
+  "key": "slc-schicht",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen zu dem Kapitel \"Schichtarbeit\"\r\n\r\nIn diesem Kapitel beschäftigen wir uns mit den Problemen der Schichtarbeit für Ihren Körper und ihren Schlaf und vor allem mit den Dingen die Sie abgesehen von unseren vorherigen Kapiteln noch ändern können, um mit diesem Problem besser umzugehen.\r\n\r\nAuf geht es!",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Einfluss von Schichtarbeit auf Ihren Schlaf\n\nSchichtarbeit ist gesundheitlich ein unterschätztes und viel zu wenig betrachtestes Thema. Mehrere Millionen Menschen in Deutschland arbeiten in Schichtarbeit. Als Krankenschwestern, in der Produktion und Überwachung, als Fahrer und so weiter. Es gibt dementsprechend auch eine Unmenge von verschiedenen Schichtarbeitsmodellen, was das ganze Thema sehr kompliziert macht. Aus diesem Grund ist eine einheitliche Empfehlung, was die ideale Lösung für Ihr Schichtmodell und Ihr Schlafverhalten angeht, äußerst schwer. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie wir bereits in der Einführung zum Thema Schlaf gelernt haben, ist der Mensch von Natur aus ein Nachtschläfer. Natürlich gibt es Spätaktive und Frühaktive Typen, und zu einem gewissen Grad kann auch Schlaf tagsüber fehlenden Schlaf in der Nacht kompensieren - aber alles in allem ist der Schlaf nachts der gesündeste und erholsamste. Bei Schlaf, den Sie tagsüber haben/Nachholen verkürzt sich die Dauer von alleine um 30-120 Minuten, auf Kosten der Erholung bringenden Tiefschlafphasen.\nWas bedeutet das jetzt alles für Sie als Schichtarbeitenden. Zunächst einmal ist es sinnvoll, wenn Sie im Wechselschicht-System arbeiten, dass die Schlafphasen im 'Uhrzeigersinn' verschoben werden. Das heißt auf die Frühschicht sollte die Spätschicht und darauf die Nachtschicht folgen. Nicht in andersherum. Warum? Dadurch hat Ihr Körper zumindest begrenzt die Möglichkeit sich auf die nach 'hinten' verschiebenden Schlafensgehnzeiten zu reagieren und sich besser anzupassen. Die meisten Betriebe nehmen in Deutschland heutzutage darauf Rücksicht. Sollte das bei Ihnen noch nicht der Fall sein, bemühen Sie sich auf jeden Fall um die Durchsetzung dieses Prinzips.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein weiterer wichtiger Baustein sind regelmäßige Pausen. Das heißt immer wieder kehrend kleine Pausen, in denen Sie sich köperlich regenerieren können. Das erhöht auch Ihre Konzetration und damit Produktivität. Auch Rufbereitschaften in denen Sie erreichbar aber nicht konstant geistig anspruchsvolle Aufgaben erledigen müssen, helfen ausreichend Schlaf zu bekommen. Es ist auch möglich, durch unregelmäßige kleine Nickerchen dem Körper eine ausreichende Menge an Schlaf zuzuführen. Das ist nicht ideal aber möglich. Dabei ist nur darauf zu achten, dass Sie in den 15-30 Minuten nach dem Aufwachen nicht extrem konzentrationsintensive Aufgaben erledigen, da Studien gezeigt haben, dass Ihr Gehirn erst eine gewisse Zeit braucht, um nach diesen Nickerchen wieder auf die volle Leistung zu kommen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sofern möglich oder bei einer gewissen Periodik der Schichtdienste, gewöhnen Sie es sich an feste Schlaf- und Aufwachzeiten für sich einzurichten. Gerade für Sie und Ihren Körper ist jede Möglichkeit Regelmäßigkeit in den Rhythmus zu bekommen elementar wichtig. Um Schlaf-Wach-Ryhthmen für Ihren Körper erkennbarer zu machen, sind auch für unsere Tipps zur Schlafhygiene sehr hilfreich. Auch ein Schlaftagebuch ist bei Ihnen mehr als empfehlenswert. Auch die Hell-Dunkel-Regulation sollten Sie gezielt für sich einsetzen lernen. Also beim Schlafen Augenmaske tragen bzw. in völlig abgedunkelten Räumen tagsüber schlafen, beim Aufstehen nachts idealerweise sofort High-Lux-Lampen anschalten. Der in der Einleitung angesprochene Botenstoff Melatonin gilt für Schichtarbeiter auch als mögliches Therapeutikum, da er - künstlich hergestellt - regelmäßig eingenommen dem Körper einen neuen Schlaf-Wach-Rhythmus vorgaukelt, ähnliches wie die eben erwähnte Hell-Dunkel-Methode. Auch neue Forschungen zu Medikamenten, die Lichtrezeptoren der Augen stimulieren, könnten eventuell Hoffnung für dauerhaft in Schicht arbeitende Menschen geben. Fragen Sie dazu einen spezialisierten Schlafmediziner nach Details. Wenn Sie perspektivisch keine Möglichkeit haben, beruflich die Schichtarbeit einzuschränken, tun Sie gut daran, möglichst viele der hier angesprochenen Ansätze umzusetzen. Im Folgenden finden Sie noch weiterführende Hinweise für generelle Schlafempfehlungen, von denen Sie sicher auch profitieren werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir sind nun am Ende unserer Kapitels \"Schichtarbeit\" angekommen.\r\n\r\nIch hoffe Sie konnten in diesem Abschnitt etwas für sich mitnehmen.\n\nFalls Sie noch Fragen haben wenden Sie sich bitte an contact@simsab.net.\r\n\r\nVielleicht sehen wir uns zu einem weiteren Coaching wieder.\r\n\r\nSchlafen Sie gut, schlafen Sie besser!\r\n\r\nIhr Motivado-Schlafcoach\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

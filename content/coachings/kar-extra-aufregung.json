@@ -1,0 +1,169 @@
+{
+  "key": "kar-extra-aufregung",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching „Die Nervosität im Griff haben“\r\n\r\nSchön, dass Sie sich die Zeit nehmen, sich intensiver mit dem Thema Nervosität zu beschäftigen.\r\n\r\nNeben Nervosität können Empfindungen wie Aufregung, Anspannung und Angst im Verlauf Ihrer Bewerbungsphase vermehrt auftauchen. \r\n\r\nIn diesem Coaching möchten wir Ihnen Strategien und Übungen an die Hand geben, die Ihnen dabei helfen, konstruktiv mit diesen Empfindungen umzugehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Als Einstieg möchten wir Sie zu einem kleinen Experiment einladen:\r\n\r\nNehmen Sie sich vor, in den nächsten 2 Minuten NICHT an einen rosa Elefanten zu denken.  \r\nDas ist Ihr Ziel, bemühen Sie sich bitte unbedingt es auch zu erreichen!\r\nProbieren Sie es jetzt aus und klicken Sie danach auf weiter!",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und? Wie ist es Ihnen ergangen?\r\n\r\nIn der Regel wird Ihnen trotz des Verbots der rosa Elefant immer wieder durch den Kopf gegangen sein. Das liegt daran, dass das Gehirn die Aufforderung etwas nicht zu tun nur schlecht verarbeiten kann. Stattdessen haben wir mit der Aufforderung: „Denken Sie NICHT an den rosa Elefant!“ ihr Gehirn erst auf die Idee gebracht, an einen Elefanten zu denken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was zeigt uns dieses kleine Experiment? \r\n\r\nWenn wir versuchen, unliebsame Gedanken zu unterdrücken, führt das dazu, dass sie vermehrt auftreten. Das gleiche gilt auch für Gefühle. \r\nDaher möchten wir Sie dazu ermutigen, Ihre Gefühle und Gedanken zunächst einmal zuzulassen und zu akzeptieren. Geben Sie ihnen Raum und Zeit. Wenn Sie das tun, werden Sie feststellen, dass Sie sie viel schneller wieder loswerden als wenn Sie krampfhaft versuchen, sie wegzudrücken.\r\n\r\nWenn Sie also vor einem Vorstellungsgespräch aufgeregt sind, vermeiden Sie Gedanken wie: \r\n„Ich bin schon wieder so aufgeregt - das wird wieder schieflaufen“ \r\n„Hör jetzt auf, Dir Sorgen zu machen“ oder \r\n„Ich unterdrücke jetzt einfach meine Angst“\r\n\r\nDas wird in der Regel nur dazu führen, dass Sie sich mehr Sorgen machen und mehr Angst haben. \r\n\r\nSagen Sie sich stattdessen:\r\n\r\n„Ich bin aufgeregt, das ist normal und geht fast allen Mensch so vor einem wichtigen Gespräch. Ich nehme meine Anspannung wahr, lasse mich davon aber nicht verunsichern. Wenn ich Angst bekomme, ist das ok, denn sie wird auch wieder weggehen.“ \r\n\r\noder\r\n\r\n\"Wenn ich diesen Job nicht bekomme, ist das kein Weltuntergang. Jeder, der lange genug sucht und einen Job bekommen möchte, findet auch einen. Wenn ich also dieses Mal noch nicht perfekt bin, habe ich noch viele weitere Chancen mich zu beweisen.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ich denke, also fühl' ich!\r\n\r\nWelche Dinge uns durch den Kopf gehen, beeinflussen in großem Maße, wie wir uns fühlen. \r\nStellen wir uns z.B. Herrn Müller vor, der sich auf dem Weg zu einem Vorstellungsgespräch befindet.  \r\nFolgende Gedanken gehen ihm durch den Kopf: \r\n\r\n„Oje, ich bin sicher nicht gut genug vorbereitet.  Naja, eigentlich glaube ich schon, ich bin der richtige Mann für den Job, aber wer weiß, was die Leute im Gespräch gleich denken.\r\nWenn Sie mir eine Frage stellen, die ich nicht beantworten kann, habe ich bestimmt direkt ein Blackout und werde das Gespräch in den Sand setzen.“\r\n\r\nDiese Gedanken führen dazu, dass Herr Müllers Anspannung wächst. Sein Körper macht sich bemerkbar, er fängt an zu schwitzen und sein Herz schlägt schneller. \r\nEr denkt: \r\n„Oh Gott, wenn ich jetzt schon Angst kriege, wie soll das gleich erst werden?  Vielleicht sollte ich das Gespräch lieber absagen?  Nein, ich gehe hin, aber ich denke nicht, dass das noch viel bringt. Ich werde sowieso keinen guten Eindruck hinterlassen.“\r\n\r\nDas Ergebnis ist, dass Herr Müller sich immer mehr in seine Angst hineinsteigert und aufgewühlt und unkonzentriert beim Termin eintrifft.  \r\n\r\nDiese Gedanken sind also nicht hilfreich!",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein Gegenentwurf dazu könnte so aussehen:\r\n\r\n„Oje, ich bin sicher nicht genug vorbereitet. Moment, wie komme ich eigentlich auf diese Idee? Ich habe Zeit investiert, über die Firma recherchiert und meine Präsentation geübt. Warum sollte ich also keinen guten Eindruck machen? Ganz im Gegenteil, ich werde da jetzt reingehen und mein Bestes geben. Wenn mein Herz anfängt schneller zu schlagen oder meine Hände schwitzen, weiß ich, dass das wieder vorübergeht-also kein Grund zur Panik! So, jetzt gönne ich mir noch einen Moment Ruhe und dann geht’s los!“\r\n\r\nIn dieser Variante wird Herr Müller sich insgesamt besser fühlen. Er nimmt seine Gedanken und Körperreaktionen wahr, lässt sich davon aber nicht verunsichern. Zusätzlich stimmt er sich mit optimistischen Gedanken positiv auf das Gespräch ein.\r\nDas Ergebnis ist, dass er ausgeruht und mit klarem Kopf in das Gespräch geht.\r\n\r\nWir halten also fest: es ist sinnvoll, die eigenen hemmenden Gedanken wahrzunehmen und Sie dann in konstruktive, positive Gedanken umzuformulieren. \r\nNicht nur, weil Sie dadurch Stress und unangenehme Gefühle vermeiden, sondern auch, weil Sie letztlich leistungsfähiger sind, wenn Sie mit Ruhe und Konzentration in das Gespräch gehen.\r\n\r\nMachen Sie sich den engen Zusammenhang von Gedanken und Gefühlen also unbedingt zunutze!\r\n\r\nHaben sie hierzu noch Fragen? Dann wenden Sie sich an unsere Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Erwägen Sie, ein Entspannungsverfahren zu erlernen\r\n\r\nWenn Sie regelmäßig Anspannung empfinden, z.B. schlecht einschlafen können oder sich während des Schreibens Ihrer Bewerbungen viele Sorgen machen, empfehlen wir Ihnen ein Entspannungsverfahren zu erlernen. \r\nHier gibt es diverse Methoden, aus denen Sie das Richtige für sich auswählen können. \r\nEs ist nachgewiesen, dass Entspannungsverfahren die Konzentrationsfähigkeit erhöhen und das allgemeine Wohlbefinden verbessern.\r\n\r\nHier sind Beispiele für anerkannten Verfahren:\r\n\r\n- Progressive Muskelrelaxation (PMR)\r\n- Autogenes Training \r\n- Meditation\r\n\r\n\r\nKurse zu Entspannungsverfahren werden an Volkshochschulen (VHS) und von vielen privaten Anbietern angeboten. Informieren Sie sich bei Ihrer Krankenkasse, ob Sie für Ihren Kurs einen Zuschuss (von bis zu 80%) beantragen können.\r\n\r\nAlternativ können Sie sich Bücher oder Hörbücher besorgen. \r\nWenn Sie sich für diese Variante entscheiden, lassen Sie sich nicht verunsichern, wenn Ihnen die Entspannung die ersten Mal noch etwas schwer fällt.\r\nUnser Geist und unser Körper muss sich zunächst an die neue Herangehensweise gewöhnen. Übung macht auch hier den Meister.\r\n\r\nWenn Sie ein Entspannungsverfahren beherrschen, können Sie es flexibel und spontan einsetzen: abends vorm Schlafengehen, in der Bahn auf dem Weg zum Vorstellungsgespräch oder in der Mittagspause, wenn Sie Ihren neuen Job gefunden haben.\r\n\r\nWenn Sie kein Verfahren erlernen möchten, ist das kein Beinbruch. Auch so haben Sie mit unserem Coaching schon sehr viel mehr gemacht als die meisten Bewerber und können stolz auf sich sein!\r\nAlternativ können Sie bei Anspannung z.B. die Atemübung machen, die wir Ihnen bereits vorgestellt haben.\r\nZur Erinnerung: einfach 20 mal hintereinander aktiv ein- und ausatmen. Je mehr Sie sich auf Ihren Atem und Ihren Körper konzentrieren, desto mehr können Sie störende Gedanken loslassen und sich so entspannen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Üben Sie im Rollenspiel!\r\n\r\nEgal wie viele Bücher Sie gelesen habe oder wie gut Sie sich in Gedanken vorbereitet haben-sie müssen die Dinge, die Ihnen schwerfallen üben, damit Sie Ihnen leichterfallen.\r\n\r\nVielleicht kennen Sie das aus anderen Situationen in Ihrem Leben. Wissen Sie noch, wie schwer es war, das erste Mal vor einer Gruppe zu sprechen oder alleine hinterm Steuer zu sitzen? Erinnern Sie sich daran, welche Ängste Sie dabei hatten? Je öfter Sie ein Verhalten jedoch umgesetzt haben, desto leichter fiel es ihnen. Beim Autofahren kann man besonders schön beobachten, wie eine Handlung plötzlich fast wie von selbst abläuft.\r\nGenauso ist es bei Vorstellungsgesprächen auch: je öfter Sie ein Gespräch geführt haben, desto schneller und spontaner können Sie auf Antworten reagieren und umso wohler fühlen Sie sich in Ihrer Haut.\r\nDarum: bitten Sie einen guten Freund/eine gute Freundin mit Ihnen die Gesprächssituation zu üben. Ihr Gegenüber stellt Ihnen dabei klassische Fragen, die wir Ihnen bereits zu einem früheren Zeitpunkt vorgestellt haben.  Je realistischer die Übungssituation ist, desto größer ist Ihre Lernerfahrung. Versuchen Sie also, in ihren „Rollen“ zu bleiben und die Umgebung so zu gestalten, dass Sie dem echten Gespräch möglichst ähnlich ist.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ist im Gespräch zu beachten?\r\n\r\nWenn Sie während eines Gesprächs merken, wie die Nervosität Überhand gewinnt, überraschen Sie Ihr Gegenüber mit Ehrlichkeit:\r\nSprechen Sie ganz offen an, dass Sie grade sehr nervös sind und bitten um einen Moment, um dreimal tief durchzuatmen. \r\nIhr Gegenüber wird darauf in der Regel mit Verständnis reagieren. Und selbst, wenn Sie an jemanden geraten, der an dieser Stelle ungeduldig ist, ist es immer noch besser zu signalisieren, dass man aus Nervosität nicht antworten kann als einfach gar nichts mehr zu sagen!\r\n\r\nFragen Sie sich vor und während des Gesprächs auch: Was habe ich eigentlich zu verlieren?\r\nEins ist nämlich sicher: Sie können die Situation nicht verschlechtern, egal, wie das Gespräch verläuft. Im schlimmsten Fall sind Sie in der gleichen Situation wie vorher. \r\nEntscheidend ist, dass Sie zu Ihrem Gesprächstermin erschienen sind: so haben Sie sich selber die Chance auf einen neuen Job offengehalten und können die Erfahrung im Zweifel als wertvolle Übung verbuchen. Aus jedem Versuch werden Sie etwas lernen. Grade die negativen Erfahrungen bringen uns im Leben oft weiter, da man lernt, was man zukünftig lieber vermeiden sollte.\r\nSeien Sie also stolz auf sich, auch wenn es dieses Mal nicht geklappt hat!",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching „Die Nervosität im Griff haben!“\r\n\r\nWir hoffen Ihnen, mit unseren Tipps weitergeholfen zu haben. Wenn Sie Fragen haben, wenden Sie sich gerne an unsere Experten!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Die Nervosität im Griff haben\"",
+      "text": "Als Aufgabe suchen Sie sich bitte einen Partner zum üben und führen Sie mindestens ein Rollenspiel gemeinsam durch. Viel Erfolg dabei!",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Weiter geht's mit dem Coaching \"Nervosität, ersten Eindruck und Smalltalk\".",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

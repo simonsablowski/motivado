@@ -1,0 +1,280 @@
+{
+  "key": "bez-traumpart-verstehen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Verliebt aber keine Ahnung!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "List",
+      "key": "bez_traumpartner_bsp",
+      "title": "Sammeln Sie Beispielpersonen, die Sie als Traumpartner einordnen würden:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V5.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 10
+          }
+        ],
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "bez_traumpartner_bsp",
+      "title": "Was ist diesen Personen wichtig?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V6.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 23
+          }
+        ],
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Gemacht? Lernen und näher dran",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "So kommen Sie an weitere Informationen über Ihren Traumpartner:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V8.flv"
+        },
+        "elements": [
+          {
+            "element": "Direktheit, Offenheit, Ehrlichkeit",
+            "second": 11
+          },
+          {
+            "element": "Fragen Sie Freunde",
+            "second": 34
+          },
+          {
+            "element": "Fragen Sie den Traumpartner",
+            "second": 40
+          },
+          {
+            "element": "Fragen Sie den (Ex-)Partner des Traumpartners",
+            "second": 75
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "List",
+      "key": "rel_traumpartner_freundefragen",
+      "title": "Tragen Sie ein: Wen können Sie wann fragen?",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Vorteile dieser wachsenden Listen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Stellen Sie einen Plan auf",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Plan aufstellen zur Umsetzung des Kennenlernens",
+      "text": "Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie es tatsächlich planen, werden Sie auch etwas erfolgreich umsetzen. Fragen Sie die Ansprechpersonen nach 4 Wochen nach Feedback, inwiefern es Ihnen gelungen ist, Verbesserungen durchzuführen. Wenn Sie keine Ahnung haben, wie Sie diese Ziele erreichen sollen, fragen Sie unsere Experten! Lassen Sie auf jeden Fall diese Punkte neben dem weiteren Coaching nebenher laufen. (Check-up nach 3-5 Wochen!)",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "93a96823025b4ba8a237dcab40e347fe",
+      "title": "Haben Sie das Gefühl, besser zu wissen, was Traumpartner von Ihnen erwarten bzw. wo Sie in der Vergangenheit die Latte gerissen haben?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "93a96823025b4ba8a237dcab40e347fe is '2'"
+        },
+        {
+          "to": "n012",
+          "if": "93a96823025b4ba8a237dcab40e347fe is '1'"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Nicht leichte Aufgabe  - Über Schatten springen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Sind Sie sicher?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_LearnAbDP_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

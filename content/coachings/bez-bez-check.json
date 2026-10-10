@@ -1,0 +1,512 @@
+{
+  "key": "bez-bez-check",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Machen Sie eine Auflistung der positiven Punkte, die Ihnen in einer Beziehung wichtig sind.\n\nWas ist Ihnen wichtig?\n\nWas haben Sie sich früher einmal gewünscht für Ihre Beziehung?",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung und Erweiterung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Markieren Sie Ihre Punkte der Wichtigkeit nach auf der linken Seite.\n\n3 für 'Sehr wichtig'\n\n2 für 'Wichtig'\n\n1 für 'Wäre nett'",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Beurteilen Sie Punkt für Punkt, wie gut Ihre Beziehung dies erfüllt (Erfüllungsgrad rechts):\n2 für 'voll da'\n1 für 'gut erfüllt'\n0 für 'trifft wenig zu'\n-1 für 'eher negativ'\n-2 für 'trifft überhaupt nicht zu' oder 'total negativ'",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Multiplizieren (mal nehmen) Sie bei jedem Punkt die Wichtigkeit (links) mit dem tatsächlichen Erfüllungsgrad (rechts).",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zählen Sie die Ergebniszahlen zusammen\nund teilen Sie dieses Ergebnis durch die Anzahl Ihrer Punkte.\n\nNotieren Sie Ihr Gesamtergebnis.\n\n(Rechnen Sie dies mit einem Taschenrechner aus.)",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "6323ea8068a448928ff5f0c9ae983850",
+      "title": "Wie ist Ihr Gesamtergebnis?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Wert ist um die 0\n\n-1 < Ergebnis < 1"
+          },
+          {
+            "key": 2,
+            "value": "Ergebniswert ist über 3\n\n3 < Ergebnis"
+          },
+          {
+            "key": 3,
+            "value": "Wert ist größer als 1, aber unter 3\n\n1 < Ergebnis < 3"
+          },
+          {
+            "key": 4,
+            "value": "Zwischen -6 und -1\n(Negatives Ergebnis)"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "6323ea8068a448928ff5f0c9ae983850 is 1"
+        },
+        {
+          "to": "n010",
+          "if": "6323ea8068a448928ff5f0c9ae983850 is 2"
+        },
+        {
+          "to": "n011",
+          "if": "6323ea8068a448928ff5f0c9ae983850 is 3"
+        },
+        {
+          "to": "n012",
+          "if": "6323ea8068a448928ff5f0c9ae983850 is 4"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Um die 0",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Sehr gutes Ergebnis",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Positiver Wert",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Neg Ergebnis",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Überlegen Sie, was Sie gar nicht erleben wollen, falls das eben nicht schon dabei war. Und dann die Frage, wie ist das in Ihrer aktuellen Beziehung?",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Betrachten Sie jetzt wieder sich selbst: Inwieweit tragen Sie zu den Schwächen Ihrer Beziehung bei? Inwiefern tragen Sie zu den Stärken Ihrer Beziehung bei?",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Geschicktes Handeln",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sind Sie der Typ, der Ihre \"Idealbeziehung\" anzieht? Gehen Sie jeden positiven Punkt ihrer Traumbeziehungsliste durch und tragenSie  daneben ein, ob Sie selbst eine solche Beziehung ermöglichen oder ob Sie sich selbst mehr anstrengen müssten, um eine Traumbeziehung anzuziehen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Weibl Männl",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unabhängig von Ihrer Beziehung: Welche besonderen, denkwürdigen oder großartigen Erlebnisse haben Sie in der letzten Zeit gemacht? Denken Sie einen Moment nach und halten Sie diese Punkte stichpunktartig fest.",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Waren diese Punkte mit Ihrem Partner oder eher mit Anderen?\n\nBeurteilen Sie selbst.",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schauen Sie auf Ihre Beziehung zurück und sammeln Sie kurz, was Sie besonders Schönes und auch nicht so Schönes erlebt haben. Machen Sie sich wieder stichpunktartig Notizen.",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zum Nachdenken:\r\n\r\nSind Sie eigentlich jemand, der Dinge gern eher positiv oder eher negativ erinnert? Beschweren Sie sich gern über Ihren Partner oder stellen Sie ihn immer in den besten Tönen dar, auch wenn Sie anders fühlen? Vielleicht übertreiben Sie auch gern mal oder sind viel zu nüchtern. Was trifft wohl auf Ihre Aufzeichnungen gerade zu? Schauen Sie sich nochmals die Notizen an und korrigieren Sie falls nötig etwas. Wir wollen die Erlebnisse so ehrlich wie möglich.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schauen Sie Ihre Aufzeichnungen nochmals an. Was denken Sie? Welches Bauchgefühl bekommen Sie. Zeichnet sich eine Tendenz ab? Und wenn ja, haben Sie den Mut, diese Tendenz in die Tat umzusetzen? Wir sind dafür da, Ihnen zu helfen. Ob Sie die Beziehung intensivieren wollen, ob Sie sie retten oder verabschieden wollen, wir coachen Sie. Wir geben Ihnen das Know-How und die Erfahrung, wie andere Menschen ähnliche Situationen gemeistert haben.",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Options",
+      "key": "ab80a6b6a6894ca7bdaeebe78560af44",
+      "title": "Zeichnet sich ein klares Bild ab? Trauen Sie sich ein klares Resumee zu ziehen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja, ein negatives Gefühl"
+          },
+          {
+            "key": 2,
+            "value": "Nein / Eher nicht."
+          },
+          {
+            "key": 3,
+            "value": "Ja, ein positives Gefühl"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n024",
+          "if": "ab80a6b6a6894ca7bdaeebe78560af44 is 1"
+        },
+        {
+          "to": "n025",
+          "if": "ab80a6b6a6894ca7bdaeebe78560af44 is 2"
+        },
+        {
+          "to": "n026",
+          "if": "ab80a6b6a6894ca7bdaeebe78560af44 is 3"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Neg Gefühl",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Video",
+      "key": null,
+      "title": "Unentschieden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Video",
+      "key": null,
+      "title": "Pos Gefühl",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war Ihr Coaching 'Beziehungs-Check'",
+      "props": {
+        "video": {
+          "url": "REL_BezCheck_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

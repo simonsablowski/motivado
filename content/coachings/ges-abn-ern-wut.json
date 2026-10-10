@@ -1,0 +1,163 @@
+{
+  "key": "ges-abn-ern-wut",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Essen aus Wut oder Frust",
+      "text": "Nehmen Sie sich auch für dieses Coaching ca. 20 Minuten Zeit.\n\nSie können das Coaching jeder Zeit anhalten oder die Videos pausieren, wenn Sie sich zu einem Punkt aus dem Coaching ausführlicher Gedanken machen möchten.\n\nViel Spaß!",
+      "props": {
+        "video": {
+          "url": "DIC_IntroWutFrustEssen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Denken Sie einmal nach:",
+      "text": "Eigentlich sind es immer wieder die selben Situationen in denen wir aus Frust oder Wut essen. \nWelche Situation ist es für Sie?\n\nUnd was passiert eigentlich in diesem Moment mit uns?",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2B_V1.flv",
+          "delay": 25
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2B_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Handeln Sie rechtzeitig!",
+      "text": "Finden Sie eine gute Möglichkeit sich in eine bessere Stimmung zu bringen!\nWenden Sie diese an, bevor kein Weg mehr am Kühlschrank vorbei führt.",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2B_V3.flv",
+          "delay": 14
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Wut und Frust brauchen ein Ventil!",
+      "text": "Einen Berg Süßigkeiten oben drauf zu stopfen löst Ihren Ärger oder Frust nicht auf, ganz im Gegenteil.\nSie können sich Ihn aber von der Seele rennen! Also bewegen Sie sich!\nSie werden merken, körperlich entspannt und mit dem guten Gewissen gerade etwas für sich und seine Figur getan zu haben, kann niemand mehr wütend oder gestresst sein!",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2B_V4.flv",
+          "delay": 12
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Sport ist nicht Ihr Ding?",
+      "text": "Nicht alle die keinen Sport machen sind übergwichtig.\nFragen Sie doch einfach Menschen in Ihrem Bekanntenkreis, wie die es schaffen Wut oder Frust abzubauen, ohne den Kühlschrank zu plündern.",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2B_V5.flv",
+          "delay": 60
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Zum Schluss zwei wichtige Punkte für Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_EmotioEsser2B_V6.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Lassen Sie die emotionale Zustände, in denen Sie essen, erst gar nicht aufkommen!",
+            "second": 5
+          },
+          {
+            "element": "2. Sind Sie dann doch einmal wieder wütend oder traurig, was können Sie in dann tun, anstatt zu essen?",
+            "second": 32
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_OutroWutFrustEssen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

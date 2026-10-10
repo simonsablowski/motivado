@@ -1,0 +1,423 @@
+{
+  "key": "ges-abn-es-zieldefintion",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Was erwartet mich in den nächsten Schritten?",
+      "text": "1. Meine Zieldefinition\n2. Individualisierte Ernährungs- und Trainingspläne\n3. Wie motiviere ich mich und bleibe ich motiviert\n4. Ein Umfeld, das mich beim Abnehmen unterstützt",
+      "props": {
+        "video": {
+          "url": "DIC_1SchritteNeu_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Coaching Zieldefinition",
+      "text": "Hier legen wir die Basis für Ihren Abnehm-Start.\n\nNehmen Sie sich ungefähr 20 Minuten Zeit für dieses Coaching.",
+      "props": {
+        "video": {
+          "url": "DIC_IntroGrundlagen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "DIC_PunkteNegAbnehmenGrundlagen",
+      "title": "Was wird alles schlechter, wenn Sie es nicht schaffen, abzunehmen?",
+      "text": "Schreiben Sie einmal 5 Konsequenzen auf, die Ihr Scheitern mit sich bringen würde.\n\nWenn ich es nicht geschafft habe abzunehmen, dann:",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V1.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "DIC_PunkteNegAbnehmenGrundlagen le '3'"
+        },
+        {
+          "to": "n005",
+          "if": "DIC_PunkteNegAbnehmenGrundlagen gt '3'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "DIC_PunkteNegAbnehmenGrundlagen",
+      "title": "Ist Ihnen auch wirklich alles eingefallen?",
+      "text": "Denken Sie zum Beispiel auch daran, wie Ihre Gesundheit beeinflusst werden könnte oder wie und wo Ihr Übergewicht Sie einschränken könnte.",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_VA1.flv"
+        },
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "List",
+      "key": "DIC_PunkteNegAbnehmenGrundlagen",
+      "title": "Ist Ihnen auch wirklich alles eingefallen?",
+      "text": "Denken Sie zum Beispiel auch daran, wie Ihre Gesundheit beeinflusst werden könnte oder wie und wo Ihr Übergewicht Sie einschränken könnte.",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_VB1.flv"
+        },
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "List",
+      "key": "DIC_PunktePosAbnehmenGrundlagen",
+      "title": "Was wird alles besser, wenn Sie es geschafft haben, abzunehmen? ",
+      "text": "Listen Sie im Folgenden bitte einmal 5 Punkte auf, die besser sein werden, wenn Sie erfolgreich abgenommen haben. \n\nWenn ich erfolgreich abgenommen habe, dann:",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V2.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "DIC_PunktePosAbnehmenGrundlagen le '3'"
+        },
+        {
+          "to": "n008",
+          "if": "DIC_PunktePosAbnehmenGrundlagen gt '3'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "List",
+      "key": "DIC_PunktePosAbnehmenGrundlagen",
+      "title": "Ist Ihnen auch wirklich alles eingefallen?",
+      "text": "Denken Sie zum Beispiel auch in die Punkte, die schlechter würden, wenn Sie zunähmen. Einige von denen kehren sich vielleicht ins Gegenteil um, wenn Sie erfolgreich abgenommen haben.",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_VA2.flv"
+        },
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "List",
+      "key": "DIC_PunktePosAbnehmenGrundlagen",
+      "title": "Ist Ihnen auch wirklich alles eingefallen?",
+      "text": "Denken Sie zum Beispiel auch in die Punkte, die schlechter würden, wenn Sie zunähmen. Einige von denen kehren sich vielleicht ins Gegenteil um, wenn Sie erfolgreich abgenommen haben.",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_VB2.flv"
+        },
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Was geht jetzt in Ihnen vor?",
+      "text": "Das Abnehmen ernsthaft anzugehen bringt manche Veränderungen mit sich. Oft weiß man gar nicht, wo man anfangen soll und fühlt sich ein wenig hilflos. \nIhnen muss es jedoch nicht so ergehen! \nKlicken Sie auf „weiter“ und wir erarbeiten gemeinsam Ihren Weg in Richtung Wunschgewicht!",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_ZDefA_V25B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Gehen Sie sich jetzt wiegen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Group",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V6.flv"
+        },
+        "count": 2
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "TextInput",
+      "key": "DIC_GrundlagenGewicht",
+      "title": "Wieviel wiegen Sie, in Kilogramm?",
+      "text": "",
+      "props": {
+        "type": "weight"
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "TextInput",
+      "key": "DIC_GrundlagenReduktion",
+      "title": "Wieviel möchten Sie abnehmen, in Kilogramm?",
+      "text": "",
+      "props": {
+        "type": "amount"
+      },
+      "next": [
+        {
+          "to": "n015",
+          "if": "DIC_GrundlagenReduktion le '15'"
+        },
+        {
+          "to": "n016",
+          "if": "DIC_GrundlagenReduktion gt '15'"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Dropdown",
+      "key": "DIC_GrundlagenAbnehmenProWoche",
+      "title": "Wieviel möchten Sie pro Woche abnehmen?",
+      "text": "Entscheiden Sie sich für einen Wert zwischen mindestens 500 Gramm und maximal 1000 Gramm pro Woche.",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V9.flv"
+        },
+        "items": [
+          "500",
+          "600",
+          "700",
+          "800",
+          "900",
+          "1000"
+        ]
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "EnergyDemand",
+      "key": "DIC_EnergieRechner",
+      "title": "Berechnen Sie jetzt Ihren individuellen Energiebedarf!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_IntroEnergieBedarf_V1.flv"
+        },
+        "weight": "#DIC_GrundlagenGewicht",
+        "height": "#DIC_GroesseStart"
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Dropdown",
+      "key": "DIC_GrundlagenWaageTag",
+      "title": "An welchem Wochentag möchten Sie sich wiegen gehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_ZDefFBOutro_V2B.flv"
+        },
+        "items": [
+          "Montag",
+          "Dienstag",
+          "Mittwoch",
+          "Donnerstag",
+          "Freitag",
+          "Samstag",
+          "Sonntag"
+        ]
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "TextArea",
+      "key": "DIC_PunkteBeachtenGrundlagen",
+      "title": "Gibt es noch etwas, das wir berücksichtigen müssen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "Dies war Ihr Coaching \"Zieldefinition\". Hiermit haben Sie die  Basis für Ihre Abnehmzeit gelegt. \nWeiter geht es im nächsten Coaching mit Ihren persönlichen Ernährungs- und Trainingsplänen. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n022",
+          "if": "DIC_KickOffDone not 'y'"
+        },
+        {
+          "to": null,
+          "if": "DIC_KickOffDone is 'y'"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Coaching",
+      "key": null,
+      "title": "Kick Off",
+      "text": "",
+      "props": {
+        "key": "kick-off"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

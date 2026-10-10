@@ -1,0 +1,31 @@
+{
+  "key": "bez-affaeren-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheckCasual_V3.flv"
+        },
+        "key": "bez-affaeren-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

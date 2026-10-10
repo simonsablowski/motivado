@@ -1,0 +1,281 @@
+{
+  "key": "bez-od-chatten",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro und Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Chatten macht Spaß",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Starten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Direkt und schnell, statt Korrektheit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Taktisch vorgehen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Emotionen und Smileys verwenden",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Komische Momente",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Gründe Verzögerungen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Sich bedeckt halten als E-Dater",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Locken und Reizen im Chat",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Sanfte Komplimente",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Bei Öffnung mitgehen zögerlich",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Ziel nicht vergessen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Übung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Die häufigsten Chat-Abkürzungen und Smilies",
+      "text": "Die klassischen Chat-Abkürzungen\n\nLOL                  \"Laughing Out Loud\" (Laut Lachen)\nROFL               \"Rolling On (the) Floor Laughing\" (Lachend auf dem Boden rollen.)\nOMG               \"Oh My God\" (Oh mein Gott!)\nG                     \"Grin\" (Grinsen)\nBG/GG            \"Big Grin\" (Großes Grinsen)\nCYA/CU           \"See ya\" (Bis bald, Bis später)\nHDL                 Hab Dich lieb.\nHDGDL            Hab Dich ganz doll lieb.\nIC                    \"I see\" (Ich verstehe)\nILD                   Ich liebe Dich.\n2L8                  \"Too late\" (Zu spät)\n4U                   \"For you\" (Für Dich)\nSry                  \"Sorry\" (Entschuldigung, Tut mir leid.)\nThx                  \"Thanks\" (Danke)\nGN8                \"Good Night\"\n\nDie weit verbreitesten Smilies\n\n:-) oder :)        Lächeln, witzig gemeint\n;-) oder ;)        Zwinkerndes Auge, ironisch gemeint\n:-D oder :D     Schallendes Lachen\n:-]                    Hämisch grinsen\n:-J                    Einen Spass machen\n:-7                   Ironische Bemerkung\n:P                    Zunge rausstrecken\n:*                    Kussmund\n:(                     Traurig sein\n:S                   Gemischte Gefühle",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateChat_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

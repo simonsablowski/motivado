@@ -1,0 +1,149 @@
+{
+  "key": "bez-laecheln-haende-haut",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Visitenkarte",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_HanHauZahn_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Farbe, Flecken, Ecken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_HanHauZahn_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Fragen Sie 4 Menschen nach einer Außenmeinung zu Ihren Zähnen.\nEs ist einfach!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_HanHauZahn_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "Das Wichtigste zu Händen:\r\n* gepflegt\r\n* gepflegt\r\n* und gepflegt\r\n\r\nWas geht nicht?\r\n* Männer mit langen Fingernägeln und ungepflegten Händen (\"Damit fasst der mich an!?\")\r\n* Dreckige Hände bei Frauen (\"Wie sieht es dann erst unter der Haube aus?\")\r\n\r\nBei Dates müssen die Finger gemacht sein.\r\nWenn man die Zehen sehen kann, gilt dasselbe.",
+      "props": {
+        "video": {
+          "url": "REL_HanHauZahn_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Fragen Sie wiederum 4 Personen nach der Gepflegtheit Ihrer Hände.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_HanHauZahn_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "Haben Sie jemals das Feedback bekommen, schlechte oder unreine Haut zu haben? Wissen Sie, was schlechte oder unreine Haut ausmacht? Besuchen Sie bitte ein Kosmektikstudio. \r\nWie sieht es mit Ihrer gesunden Gesichts- bzw. Hauttönung aus? Wir wollen nicht übertreiben, aber ein gesundes Äußeres ist wichtig. Bitte ein Bräunungsstudio besuchen und sanft bräunen.\r\n\r\nHolen Sie sich Feedback ein, dass da alles in Ordnung ist. \r\nWer fragt gewinnt! Wer Leute fragt, die es wissen müssen (wie Ex-Partner oder Intimpartner) gewinnt doppelt.",
+      "props": {
+        "video": {
+          "url": "REL_HanHauZahn_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Fragen Sie wiederum 4 Menschen nach einem Feedback zu Ihrer Haut?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_HanHauZahn_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Sehr schön! Sie haben das Coaching beendet. Setzen Sie die Übungen innerhalb der nächsten 3 Tage um, am besten noch heute. Wir wünschen viel Erfolg mit Ihren neuen oder alten Bekanntschaften.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_HanHauZahn_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

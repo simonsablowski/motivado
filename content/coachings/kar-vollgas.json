@@ -1,0 +1,461 @@
+{
+  "key": "kar-vollgas",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Willkommen im Jobcoaching",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Intro_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "kar_vollgas_position",
+      "title": "Welche Position hatten bzw. haben Sie in Ihrem jetzigen/ letzten Job inne?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Auszubildende/r"
+          },
+          {
+            "key": "2",
+            "value": "Trainee"
+          },
+          {
+            "key": "3",
+            "value": "Selbständiger / Freiberufler"
+          },
+          {
+            "key": "4",
+            "value": "Angestellter"
+          },
+          {
+            "key": "5",
+            "value": "Management mit Führungsverantwortung"
+          },
+          {
+            "key": "6",
+            "value": "Praktikant/in"
+          },
+          {
+            "key": "7",
+            "value": "gehobenes Management"
+          },
+          {
+            "key": "8",
+            "value": "Schüler/in"
+          },
+          {
+            "key": "9",
+            "value": "(Fach)-Hochschulabsolvent/in"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '4'"
+        },
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '9'"
+        },
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '7'"
+        },
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '8'"
+        },
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '6'"
+        },
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '5'"
+        },
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '3'"
+        },
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '1'"
+        },
+        {
+          "to": "n003",
+          "if": "kar_vollgas_position is '2'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "kar_vollgas_targetposition",
+      "title": "Und was ist Ihr Ziel? Was für eine Position streben Sie an?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Festanstellung Vollzeit"
+          },
+          {
+            "key": 2,
+            "value": "Praktikumsstelle"
+          },
+          {
+            "key": 3,
+            "value": "Festanstellung mit Führungsverantwortung"
+          },
+          {
+            "key": 4,
+            "value": "Ausbildungsplatz"
+          },
+          {
+            "key": 5,
+            "value": "Festanstellung Teilzeit"
+          },
+          {
+            "key": 6,
+            "value": "Traineestelle"
+          },
+          {
+            "key": 7,
+            "value": "Nebentätigkeit (400-Euro-Jobs etc.)"
+          },
+          {
+            "key": 8,
+            "value": "Sonstiges"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "kar_vollgas_targetposition is 1"
+        },
+        {
+          "to": "n004",
+          "if": "kar_vollgas_targetposition is 2"
+        },
+        {
+          "to": "n004",
+          "if": "kar_vollgas_targetposition is 3"
+        },
+        {
+          "to": "n004",
+          "if": "kar_vollgas_targetposition is 4"
+        },
+        {
+          "to": "n004",
+          "if": "kar_vollgas_targetposition is 5"
+        },
+        {
+          "to": "n004",
+          "if": "kar_vollgas_targetposition is 6"
+        },
+        {
+          "to": "n004",
+          "if": "kar_vollgas_targetposition is 7"
+        },
+        {
+          "to": "n004",
+          "if": "kar_vollgas_targetposition is 8"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "8a533716234f4af8808208cee1f31d5c",
+      "title": "Wie viel Zeit verwenden Sie pro Woche für Ihre Jobsuche?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Intro_V5.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "10 bis 20 Stunden pro Woche"
+          },
+          {
+            "key": 2,
+            "value": "Mehr als 20 Stunden pro Woche"
+          },
+          {
+            "key": 3,
+            "value": "Weniger als 10 Stunden pro Woche "
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "8a533716234f4af8808208cee1f31d5c is 1"
+        },
+        {
+          "to": "n005",
+          "if": "8a533716234f4af8808208cee1f31d5c is 2"
+        },
+        {
+          "to": "n005",
+          "if": "8a533716234f4af8808208cee1f31d5c is 3"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "f1d1defca0224debbf59f3712902efe3",
+      "title": "Wie viele Monate sichert Ihr aktuelles Einkommen (inkl. Abfindung, Arbeitslosengeld etc.) Ihre Ausgaben, bevor es finanziell problematisch wird?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "0 bis 3 Monate"
+          },
+          {
+            "key": "2",
+            "value": "3 bis 6 Monate"
+          },
+          {
+            "key": "3",
+            "value": "6 bis 12 Monate"
+          },
+          {
+            "key": "4",
+            "value": "mehr als 12 Monate"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "f1d1defca0224debbf59f3712902efe3 is '3'"
+        },
+        {
+          "to": "n006",
+          "if": "f1d1defca0224debbf59f3712902efe3 is '4'"
+        },
+        {
+          "to": "n006",
+          "if": "f1d1defca0224debbf59f3712902efe3 is '2'"
+        },
+        {
+          "to": "n007",
+          "if": "f1d1defca0224debbf59f3712902efe3 is '1'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Erklärung Aufbau",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Intro_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie mit Hilfe Ihrer finanziellen Mittel nur einen kurzen Zeitraum überbrücken können,ist es wichtig, die Jobsuche besonders intensiv und professionell zu betreiben. Wir unterstützen Sie dabei: je enger Sie sich an unseren vorgeschlagenen Zeitplan halten, desto schneller werden Sie ihr Ziel erreichen! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Zug-Metapher",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Vollgas_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung: Wie geben Sie Vollgas",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Vollgas_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Frühphase",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Vollgas_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Mittelphase",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Vollgas_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Spätphase",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Vollgas_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Start in the Job",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Vollgas_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie bleiben Sie motiviert?\r\n\r\nWie gesagt ist der Arbeitsaufwand einer effizienten Bewerbungsphase nicht zu unterschätzen. Falls Sie arbeitssuchend sind, kann es aufgrund des fehlenden regelmäßigen Tagesablaufes manchmal schwer sein, jederzeit topmotiviert zu bleiben. Berufstätige, die einen neuen Job suchen, haben dagegen eher die Schwierigkeit neben der alltäglichen Belastung Zeit und Muße für das Bewerbungscoaching aufzubringen.\r\n  \r\nWir möchten Ihnen daher einige Strategien mit an die Hand geben, um Ihre Motivation auch bei \"Durststrecken\" aufrechtzuerhalten:\r\n\r\n1. Setzen Sie sich Ziele!\r\n2. Belohnen Sie sich für Ihre Fortschritte!\r\n3. Pflegen Sie Ihre sozialen Kontakte!",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Setzen Sie sich Ziele!\r\n\r\nZiele spornen an und helfen, sich neu zu motivieren. Idealerweise setzen sie sich zunächst Wochenziele und legen dann jeden Tag fest, was sie an diesem Tag erreichen wollen, um Ihr Wochenziel einhalten zu können. \r\n\r\nWichtig: Halten Sie Ihre Ziele schriftlich fest! Notieren Sie sie beispielsweise gleich neben Ihrem Wochenplan. So haben Sie stets einen Blick darauf und sehen, was Sie bereits alles geschafft haben.\r\n\r\nHier haben wir Ihnen einige Beispiele für realistische Wochenziele zusammengestellt:\r\n\r\n\r\n* Sie führen mindestens ein gezieltes Gespräch bezüglich Ihrer Jobsuche in Ihrem Bekanntenkreis\r\n* Sie recherchieren über mindestens 10 Firmen (2 Firmen pro Tag) \r\n* Sie schreiben fünf Bewerbungen (1 Bewerbung pro Tag - für Berufstätige 2 Bewerbungen in einer Woche)\r\n* Sie geben diese Woche so richtig Gas mit Ihrer Jobsuche d.h. Sie halten Ihre Coachings, so wie im Wochenplan eingetragen, ein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Belohnen Sie sich!\n\nGenauso wichtig ist es, dass sie sich regelmäßíg für Ihre Leistungen belohnen.\r\n \r\nZum einen machen Sie sich dadurch einen grundlegenden Lernmechanismus des Menschen zunutze: \r\nWenn wir eine Belohnung für ein Verhalten bekommen, zeigen wir genau dieses Verhalten in Zukunft häufiger.\r\n \r\nZum anderen wirkt der Weg zum Ziel weniger beschwerlich, wenn wir uns auf eine schöne Belohnung freuen können. Das haben Sie sicher schon selber erlebt: wenn am Gipfel eine tolle Aussicht wartet, ist es einfach leichter, den Berg zu erklimmen. \r\nWenn Sie also z.B. Ihren Tagesplan erfüllt haben, gönnen Sie sich am abend etwas schönes. Genauso sind tagsüber kleinere Pausen nach Erledigung einer Aufgabe hilfreich, um motiviert zu bleiben.\r\n\r\nFolgendes sollten Sie beim Thema Belohnung beachten:\r\n\r\n- belohnen Sie sich möglichst zu festen Zeiten (so entsteht eine Routine, die verhindert, dass Sie zu viele Pausen einlegen und so ihr Ziel aus den Augen verlieren) \r\n- gestalten Sie Ihre Belohnungen möglichst so, dass Sie Ihrem Körper etwas Gutes tun, also z.B. einen entspannten Spaziergang, einen obsthaltigen Snack oder ähnliches \r\n- achten Sie auf Ihre individuellen Bedürfnisse: damit die Belohnung sie motiviert, sollten Sie etwas auswählen, dass Sie persönlich auch tatsächlich als Belohnung empfinden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Treffen Sie weiter Freunde und Familie!\r\n\r\nEs kann sein, dass Sie während Ihrer Bewerbungsphase relativ viel Zeit alleine verbringen werden. \r\n\r\nNehmen Sie sich daher regelmäßig Zeit für ein Treffen mit guten Freunden oder Familienmitgliedern, zu denen Sie ein gutes Verhältnis haben. \r\nStudien haben immer wieder belegt, dass Kontakte zu geliebten Menschen sich positiv auf unsere Stimmung, unsere Motivation und das allgemeine Wohlbefinden auswirken.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

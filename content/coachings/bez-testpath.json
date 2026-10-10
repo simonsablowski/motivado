@@ -1,0 +1,60 @@
+{
+  "key": "bez-testpath",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "wastesten",
+      "title": "Was willst Du testen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Buy Coaching"
+          },
+          {
+            "key": "2",
+            "value": "End Coaching"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "wastesten is '2'"
+        },
+        {
+          "to": "n002",
+          "if": "wastesten is '1'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy Video V6",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V6.flv"
+        },
+        "key": "bez-re-paket"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

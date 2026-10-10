@@ -1,0 +1,268 @@
+{
+  "key": "kar-selbstmarketing",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Kapitel Verkaufsstrategie",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_Verkaufen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro sich gut präsentieren",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_SichPraesen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Ende-Erklärung - Ihre Begründung zum Stellenwechsel \r\n\r\nHäufig werden Sie im Vorstellungsgespräch gefragt, warum Sie eine neue Position suchen. Um Ihnen die Antwort auf diese Frage zu erleichtern, entwerfen wir gemeinsam Ihre sogenannte \"Ende-Erklärung\". Dieses enthält keine Rechtfertigungen und wird zum Schluss galant mit dem potentiellen Arbeitgeber verknüpft, um den Fokus wieder auf Ihre aktuelle Bewerbung zu lenken.\r\n\r\nWir schauen uns jetzt verschiedene Varianten für eine Ende-Erklärung an. Vielleicht ist Ihr Werdegang bislang recht gradlinig verlaufen, vielleicht weist er aber auch einige Lücken und Knicke auf. \r\n\r\nStarten wir direkt mit dem ersten Fall und schauen uns an, wie Sie am besten argumentieren, wenn Ihr beruflicher Werdegang bisher eher gradlinig war.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie sieht eine professionelle Ende-Erklärung aus?\n\nNehmen wir an, Sie sind als Einziger oder im Rahmen eines größeren Stellenabbaus gekündigt worden. Bevor Sie hier ins Schwimmen kommen oder andere für Ihre Kündigung beschuldigen, suchen Sie etwas Globaleres als Grund für Ihre Kündigung: beispielsweise wurde Ihre gesamte Abteilung abgebaut, umstrukturiert oder ein neues System eingeführt, wofür entsprechend Fachkräfte gesucht wurden, die sich mit diesem System bereits auskennen. An dieser Stelle sollte man auf jeden Fall die Schuld auf etwas Höheres schieben wie eine Systemumstellung oder den Abbau eines ganzen Bereichs, so dass deutlich wird, dass Sie keine persönliche Verantwortung für die aktuelle Situation tragen. \nSie können Ihrem Ende-Statement einen besonders positiven Anstrich geben, indem Sie sagen: Ihnen wurde natürlich ein neuer Job im Konzern angeboten, was bedeutet, dass Sie eigentlich gar nicht unbedingt gegangen worden wären. Der (Orts-)Wechsel hat Ihnen jedoch nicht zugesagt oder nicht zu ihrer derzeitigen (familiären) Situation gepasst. Schließlich haben Sie für sich festgestellt, dass es ein guter Zeitpunkt ist, den Horizont zu erweitern, neue Menschen, Firmen und Kontakte kennenzulernen und neue Möglichkeiten wahrzunehmen, Ihre Stärken und Erfahrungen einzusetzen und entschieden, die Chance zum Wechsel zu nutzen.\nDurch einen Kollegen, einen Kontakt oder Ihre Stellensuche sind Sie auf die Ausschreibung gestoßen und haben über das Unternehmen und die Position recherchiert (Merken Sie, dass wir uns in wenigen Sekunden gar nicht mehr bei Ihrer Kündigung/ Ihrem Weggang befinden, sondern bereits bei Ihrer Bewerbung sind?). Mit Ihrer Recherche demonstrieren Sie, dass Sie bereits Einiges an Fleiß und Anstrengung für die neue Stelle unternommen haben. Bei der Informationsbeschaffung haben Sie weiterhin festgestellt, dass Ihnen das Unternehmen sehr gut gefällt. (Ein Kompliment an den Arbeitgeber kommt immer gut an!) Beispielsweise hat es Ihnen schon immer zusagt, sich in einem kleinem Unternehmen zu engagieren und Ihre Erfahrung, Ihre Stärken (die Sie hier gleich mit einer Erfolgsgeschichte gut belegen können) einzubringen. Sie begreifen eine Zusammenarbeit als echte Win-Win-Situation für beide Parteien und freuen sich daher sehr über die Möglichkeit des persönlichen Kennenlernens.\n\nEin Beispiel: \nSie waren vorher Sachbearbeiter im öffentlichen Dienst. Ihre Ende-Erklärung könnte folgendermaßen lauten:\n\"Die Firma hat die Systeme komplett umgestellt und im Rahmen dessen neue Fachkräfte, die in diesen Systemen fit sind, günstig einkaufen können. So wurde die Abteilung umstrukturiert, was bedeutete, dass ein ganzer Bereich an Mitarbeitern abgebaut wurde, u.a. meine Position. Die Firma hätte mich zwar noch gern gehalten und hat mir tatsächlich noch andere Möglichkeiten angeboten, wie zum Beispiel einen Karrieresprung nach vorne zu machen. Dieser wäre dann jedoch mit einem Gang ins Ausland (einem Ortswechsel) verbunden gewesen, so dass ich die Zeit genutzt habe und mir Gedanken darüber gemacht habe, wo ich im Moment eigentlich stehe. Ich habe dabei für mich festgestellt: Ich war jetzt ... Jahre bei diesem Unternehmen - ich habe mich dort über viele Jahre eingebracht und viel gelernt, jetzt ist es an der Zeit, den eigenen Horizont zu erweitern und seine Qualitäten in einem anderen Unternehmen einzubringen sowie ein neues Netzwerk von Aufgaben und Menschen kennenzulernen. Deswegen habe ich mich dagegen entschieden, diese angebotene Position anzunehmen und mir überlegt: eigentlich ist es der ideale Zeitpunkt, einen Schnitt zu machen und sich weiterzuentwickeln.\nDabei habe ich mit dann die Firmenlandschaft angeschaut, wobei mir Ihre Firma gleich ins Auge gesprungen ist.\" Erwähnen Sie jetzt Punkte, die Ihnen am Unternehmen gefallen haben: vielleicht hat Ihnen jemand spannende Dinge erzählt, Ihnen hat das Produkt besonders gut gefallen oder die Firma hat einen guten Ruf - was auch immer passt, bringen Sie jetzt als Kompliment. \nAlso, beispielsweise: \"Mir hat an Ihnen so gut gefallen, dass Sie seit Jahren sehr gute Umsätze machen und gleichzeitig ein bisschen kleiner sind, das heißt, bei Ihnen ist auch mehr Flexibilität drin. Deswegen hab ich mich bei Ihnen beworben, weil meine Erfahrungen aus meiner Sicht sehr gut zu den Zielen Ihrer Firma passen. Ich denke, dass es eine tolle Win-Win-Situation wäre und ich freu mich sehr, dass ich Sie jetzt persönlich kennenlerne.\"\n\nWas haben wir hier gemacht?\nWir sind hier von einer negativen Situation, also dem Abbau bzw. der Kündigung, über eine starke charakterliche Aussage, nämlich ,Ich habe mich entschieden, diesen Schritt zu machen und neue Wege zu gehen‘ zu einer sehr positiven Aussage gekommen, indem wir von einer „Win-Win-Situation“, den Stärken der Firma sowie Ihren Stärken gesprochen haben. Als zukunftsorientierten Abschluss haben Sie erwähnt, dass Sie sich über ein vertieftes Kennenlernen freuen würden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen wir jetzt an, Sie haben in der Vergangenheit länger bei einer Firma gearbeitet und danach nur einen kurzen „Zwischenstopp“ bei einer anderen Firma eingelegt. Wie argumentiert man hier in der Ende-Erklärung?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "In diesem Fall bietet es sich an, bei der früheren Firma anzusetzen, also:\n\n\"Ich habe bei der Firma ,Longitude‘ für mehr als ... Jahre gearbeitet, hatte dort ein sehr gutes Netzwerk unter den Mitarbeitern und hatte mich in die Themen sehr tief eingearbeitet.\nDann gab es Umstrukturierungen/ einen Managementwechsel/ eine Systemumstellung, in deren Rahmen die Firma Stellen abgebaut hat. Das Unternehmen hat mir damals noch eine andere Position angeboten, aber ich hab mir gedacht, dass nach ... Jahren der ideale Zeitpunkt ist, sich weiterzuentwickeln, den Horizont zu erweitern und meine Qualitäten und Erfahrungen in einem neuen Unternehmen einzusetzen. Daraufhin habe ich mir den Arbeitsmarkt und verschiedene Firmen angeschaut, übrigens witzigerweise damals auch schon Ihre Firma. Zu dem Zeitpunkt war bei Ihnen gerade keine Stelle ausgeschrieben und die Firma ,Kurzitude‘ hat mich sehr schnell zu einem Vorstellungsgespräch eingeladen. Es klang auch alles unglaublich gut. Später hat sich jedoch herausgestellt, dass...\n(1) die Stellenbeschreibung, so wie sie besprochen worden ist, am Ende nicht zugetroffen hat, \n(2) mein Chef ein wunderbarer Mensch war, der einfach komplett anders tickt als ich oder\n(3) die Position eigentlich bereits durch Interne gefüllt worden ist.\n\nAn dieser Stelle kam es dann leider zu dem Konflikt, dass...\n(1)ich dort meine Stärken nicht so hätte einbringen können und Dinge von mir gefordert wurden, die nicht zu meinem Profil passten,\n(2) wir in der beruflichen Zusammenarbeit festgestellt haben, dass es weniger gut passt oder\n(3) meine Position nicht mehr nötig war.\n\nWährend der Probezeit haben wir uns das dann gemeinsam angeschaut und überlegt, es noch einen Tick länger zu probieren, da ich auch niemand bin, der gleich die Flinte ins Korn wirft. Ich hab auch gesagt, dass ich gerne bereit bin zu schauen, ob es nicht doch möglich ist, zu bleiben. Um es kurz zu machen: es hat sich einfach rausgestellt, dass es keine produktive Kombination und damit auch keine echte Win-Win-Situation war. Ich habe mit meinem Vorgesetzten und meinem Team besprochen, dass es an sich nicht sinnvoll ist, weiter zusammenzuarbeiten. Das ist zwar nicht schön für den Lebenslauf (hier spricht man aus, was jeder sich denkt), aber ich wollte lieber nochmal von vorn anfangen, da mir eine fruchtbare und gute Zusammenarbeit über mehrere Jahre wichtig ist, so wie es früher bei anderen Firmen auch der Fall war.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nun schauen wir uns an, wie Sie argumentieren können, wenn Ihr Lebenslauf mehrere abgebrochene Stationen zeigt. Hier können Sie folgendes sagen:\n\n„Ich war bei der Firma Kurzitude eins und zwei und ich weiß, dass das nicht schön aussieht im Lebenslauf, da es sicherlich den Eindruck erweckt, dass ich von Station zu Station gesprungen bin. Es ist jedoch so, dass ich meinem Thema immer treu geblieben bin und in all der Zeit, immer XYZ gemacht habe. Nur hatte ich wirklich einfach etwas Pech: in dem einen Fall bin ich direkt in einen Managementwechsel hineingekommen und es wurden Stellen abgebaut, wobei es hier die neuen Mitarbeiter natürlich zuerst getroffen hat. Im anderen Fall ist ein Kunde eingebrochen und es wurden zuerst die abgebaut, die keine Familien haben und im dritten Fall hab ich mich getäuscht mit der Stellenbeschreibung, was ja leider nun auch mal vorkommt. Ich hab in all der Zeit jedoch immer als XYZ gearbeitet. Ich hatte zwischendurch auch super Feedback, beispielsweise bei Kurzitude zwei, die sagten: „Wir würden Sie so gern behalten, Herr Müller.“ - hier ruhig eine dritte Person sprechen lassen - „Es tut uns wirklich leid, dass jetzt der Kunde/ der Markt eingebrochen ist. Sie müssen verstehen, dass wir Leute mit Familie bevorzugt halten wollen.“\nAus dem Grund ist mir auch sehr wichtig, dass bei Ihnen eine langjährige Position möglich ist. Mal ganz abgesehen von meinem Lebenslauf: ich selber würde mich sehr freuen, wenn man seine Stärken, die man einbringt und im Laufe der Jahre ja auch vertieft, wieder langfristig einsetzen kann und sich nicht jedes Mal wieder umstellen muss.“\n\nDadurch nehmen Sie Ihrem Gegenüber die Sorge, dass Sie die Firma im Falle einer Einstellung recht schnell wieder verlassen würden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie sieht Ihre persönliche Ende-Erklärung aus? \r\nNur Mut: Jobwechsel sind auf dem heutigen Arbeitsmarkt Normalität - und das weiß in der Regel auch ihr Gesprächspartner! Auch, wenn Ihr Lebenslauf eher unkonventionell ist, ist das kein Beinbruch: entscheidend ist, dass Sie selbstbewusst auftreten und gute Begründungen für unerwartete Schlenker parat haben. Wenn Sie hierzu weitere Tipps und Unterstützung benötigen, kontaktieren Sie unsere Experten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte formulieren Sie jetzt Ihre Ende-Erklärung!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Einminutenpräsentation - Ihre Qualifikation und Zielsetzung in 60 Sekunden\n\nSehr schön, nun haben wir also bereits eine Antwort auf die Frage, warum Sie eine neue Stelle suchen. Jetzt geht es darum sich und seine Qualifikation ins rechte Licht zu rücken:\n\nIm Zuge Ihrer Stellensuche werden Sie mit Sicherheit oft gefragt \"Was machen Sie denn so? Erzählen Sie mal von sich!\" \nUm bei dieser Frage nicht ins Schwimmen zu geraten, möchten wir nun mit Ihnen Ihren persönlichen Leitfaden für eine gelungene Einminutenpräsentation entwickeln. Dieser unterstützt Sie darin, sich überzeugend und strukturiert vor Personalverantwortlichen und Kontakten zu präsentieren. \n\nDie Einminutenpräsentation ist dabei so etwas wie Ihre Visitenkarte, die Ihrem Gegenüber innerhalb kurzer Zeit einen Eindruck davon vermittelt, was Sie können und wie Ihr beruflicher Hintergrund aussieht. Sie hilft Ihnen in Telefonaten, im Bewerbungsgespräch und dient später auch als Kompetenzprofil in Ihren Bewerbungsunterlagen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Einminutenpräsentation sollte folgende Punkte enthalten:\r\n\r\n1. ...wo komm ich her (Vergangenheit)? - hier erwähne ich, wo ich mein Handwerkzeug gelernt habe, also meine Ausbildungsstationen und meine früheren beruflichen Tätigkeiten, die zum jetzigen Stellenprofil passen\r\n2. ...wo stehe ich gerade (Gegenwart)? - im Jetzt bin ich suchend und erwähne die Fähigkeiten, die zum zukünftigen Arbeitgeber passen und warum ich für diesen Arbeitgeber arbeiten möchte\r\n3. ...wo will ich hin (Zukunft)? - hier wird eine Verbindung zwischen der jetzigen Arbeit und der neuen Stelle hergestellt ",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schauen wir uns ein Beispiel für eine wirkungsvolle Einminutenpräsentation an: \n\nAngenommen, es geht um eine Projektassistenz bei einem internationalen Energiekonzern, dann könnte die Einminutenpräsentation folgendermaßen lauten:\n \n„Hallo, mein Name ist Peter Müller, ich bin 43 Jahre alt, habe eine Ausbildung als Bürokaufmann und habe die letzten 15 Jahre immer in Teams als Teamassistenz gearbeitet. Außerdem war ich als persönliche Assistenz von Führungskräften und Projektleitern tätig.\"\n\nDamit haben wir die Vergangenheit bereits abgeschlossen. Man kann hier gerne noch ein Beispiel integrieren, wie: „Bei der Firma BMW habe ich im Rahmen meiner Projektassistenz das gesamte Projekt XYZ bereits mehr oder weniger geschmissen. Ich habe umfassende MS-Office-Kenntnisse und kann auch mit Projektplanungssoftware wie MS Project umgehen.\"\n \nNun geht es um das Hier und Jetzt. Hier erzähle ich, was ich alles kann, also z.B.: \n\n\"Ich habe große Freude daran zu schauen, wo es im Team fehlt. Ich mag Menschen und ich hab ein Händchen zu sehen, wie es ihnen geht und bin einfach auch jemand, der darauf schaut, dass Leute sich im Team wohl fühlen. Das Wichtigste ist es natürlich, das Ziel in dem Projekt zu erreichen. Ich habe da auch eine große Zielstrebigkeit und -verbundenheit und an Ihrer Firma hat mir einfach Ihre frische/ moderne/ klassische Art aufzutreten gefallen (je nachdem, was hier passt).\"\n\nIm letzten Teil geht es darum, den Brückenschlag zur Zukunft hinzukriegen. Hier können Sie z.B. anführen, warum Sie sich in eine bestimmte Richtung entwickeln möchten bzw. warum Sie gerne für eine bestimmte Fima oder Branche arbeiten möchten. Also z.B.:\n\n\"Sie haben zudem Projekte im Bereich erneuerbare Energien, die mich schon immer gereizt haben, schließlich geht es nicht ohne diese Energiequellen in der Zukunft. Sie sind außerdem sehr international aufgestellt. Auch in meiner früheren Tätigkeit bei BMW war es teilweise bereits sehr international. Ich verfüge selber über französische und englische Sprachkenntnisse, weil ich in der Vergangenheit eine Dolmetscherausbildung gemacht habe. Es würde mich freuen, wenn ich meine Fähigkeiten als starke Projektassistenz mit meinen Fremdsprachenkenntnissen bei Ihnen einbringen. Ich bin überzeugt, dass das für beide Seiten ein Gewinn wäre.\"\n\nBei dieser kurzen Präsentation sollten Sie 60-90 Sekunden Redezeit nicht überschreiten. Formulieren Sie die Sätze am besten so, dass Sie zu Ihnen passen und Sie sich damit wohlfühlen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie sieht Ihre persönliche Einminutenpräsentation aus? Orientieren Sie sich dabei bitte an der vorgegebenen Struktur:\r\n\r\n1. ...wo komm ich her (Vergangenheit)? - hier erwähne ich frühere berufliche Tätigkeiten, die zum jetzigen Stellenprofil passen\r\n2. ...wo stehe ich gerade (Gegenwart)? - im Jetzt bin ich suchend und erwähne die Fähigkeiten, die zum zukünftigen Arbeitgeber passen\r\n3. ...wo will ich hin (Zukunft)? - hier wird eine Verbindung zwischen der jetzigen Arbeit und der neuen Stelle hergestellt",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte notieren Sie jetzt Ihre Einminuten-Präsentation!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für telefonischen Gespräche mit Ihren Kontakten reicht es aus, wenn Sie sich etwas kürzer fassen. \n\nAuch dafür ein Beispiel: \n\n„Ich hab seit Jahren im Bereich Team- und Projektassistenz gearbeitet. Ich kenn mich komplett mit den gesamten MS Office-Tools aus, bin gut in Fremdsprachen und mein Traum wäre es, die Projektassistenz in einem internationalen Umfeld zu übernehmen. Energiekonzerne finde ich superspannend, denn ohne die geht es nicht in der Zukunft. Ich würde mich daher wirklich freuen, wenn ich die Möglichkeit hätte, mich Ihnen in einem persönlichen Gespräch mit meinen Stärken, Fähigkeiten und Qualifikationen vorzustellen, da ich denke, dass es eine tolle Win-Win-Situation mit Ihnen, Eon, und mir, Peter Müller, wäre.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Erstellen wir auch gleich noch eine Kurzform Ihrer Einminutenpräsentation! \r",
+      "text": "Erstellen wir auch gleich noch eine Kurzform Ihrer Einminutenpräsentation! \nOrientieren Sie sich auch hier wieder an folgender Struktur:\n\n1. ...wo komm ich her (Vergangenheit)? \n2. ...wo stehe ich gerade (Gegenwart)? \n3. ...wo will ich hin (Zukunft)?\n \nAuf geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Übung macht bekanntlich den Meister. Und meisterhaft erzählt ist Ihre Einminutenpräsentation ein starkes Verkaufsmittel für Ihre Qualifikationen und Kompetenzen.\r\n\r\nLassen Sie uns Ihre Einminutenpräsentation also üben, so dass sie flüssig und prägnant rüberkommt. Sagen Sie jetzt Ihre Präsentation laut für sich auf und stoppen Sie Ihre Zeit. Sie werden die 60 Sekunden anfangs vielleicht noch nicht einhalten. Üben Sie daher, bis Sie Ihre Einminutenpräsentation in einer Minute fließend präsentieren können.\r\n\r\nLos geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Wir sind nun am Ende des Coachings \"Wie verkaufe ich mich gut?\"",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "Bevor Sie das nächste Coaching beginnen, erledigen Sie bitte diese Aufgabe:",
+      "text": "Besprechen Sie sowohl Ihr Ende-Statement als auch Ihre Einminutenpräsentation mit zwei bis drei Personen und üben Sie sie laut. Holen Sie sich auch eine Rückmeldung, wie Ihre Strategie beim Anderen ankommt. \nViel Spaß dabei und viel Erfolg beim Üben!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

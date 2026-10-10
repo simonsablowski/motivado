@@ -1,0 +1,222 @@
+{
+  "key": "bez-re-treffen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Treffen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Wie kommts zum Treffen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Treffen_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Match and Mirrow",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Treffen_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "rel_rueckTreffen_backUp",
+      "title": "Bitte schreiben Sie hier auf, welcher Freund/welche Freundin Sie unterstützen kann:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Treffen_V4.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 133
+          }
+        ],
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn der Partner Ihnen bei einem Treffen oder auch am Telefon ein Kompliment macht, reagieren Sie darauf schüchtern und zögerlich. Antworten Sie nicht mit einem Gegenkompliment, sondern sagen Sie etwas in dieser Art:\r\n\"Echt, das findest Du?\" oder Sie lächeln einfach zurückhaltend.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein weiterer wichtiger Hinweis für Ihre Treffen:\r\n\r\nSprechen Sie nicht über die Vergangenheit! Zu groß ist die Gefahr, dass alte Konflikte aufgewärmt werden oder Sie sich in Diskussionen verstricken, warum der Andere gegangen ist. Genau darauf hat Ihr/e Ex keine Lust! Deshalb: Konzentrieren Sie sich auf das Hier und Jetzt. Was gibt es Neues von beiden Seiten zu berichten? Was können Sie Schönes gemeinsam unternehmen? \r\nZentral ist jetzt, dass Sie wieder eine gute Zeit miteinander haben, ohne dass der Andere sich unter Druck gesetzt fühlt. Nur auf diese Weise wird er/sie Lust auf ein nächstes Treffen bekommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Um die gemeinsame Zeit harmonisch zu gestalten, ist es außerdem zentral, dass Sie auf jegliche Art von Vorwürfen verzichten. Das ist definitiv das Letzte, was Ihr Ex-Partner hören möchte. Ihre Wut, Ihre Trauer und alle anderen Gefühle, die momentan in Ihnen wüten, sind verständlich und berechtigt. Nur: lassen Sie sie an einer anderen Stelle raus, um Ihre Chancen auf eine Wiedervereinigung zu wahren. Machen Sie Sport, schreien Sie in Ihr Kissen oder schreiben Sie einen \"Wut-Brief\" an den Ex-Partner, den Sie nie abschicken. Es ist wichtig, dass Sie Ihre Gefühle rauslassen, damit diese Ihnen bei Ihrer Rückeroberung nicht im Weg stehen. Weitere Hinweise für den Umgang mit Emotionen finden Sie übrigens auch in unserem Coaching \"Mit Liebeskummer umgehen\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zufällige Treffen\r\n\r\nWenn Sie mit dem Anderen nicht verabredet waren, sondern ihn nur zufällig treffen, machen Sie sich rar! \r\nNatürlich können Sie solche Gelegenheiten nutzen, um sich wieder in Erinnerung zu rufen (insbesondere wenn Sie keinen Kontakt mehr zu Ihrem Ex-Partner haben). Auf der Veranstaltung sollten Sie dann aber abwarten, bis der Andere Sie begrüßt oder den Kontakt sucht. Bleiben Sie stets in Sichtweite, demonstrieren Sie aber gleichzeitig, dass sie nicht auf den Anderen angewiesen sind und auch so eine gute Zeit haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie mit dem Anderen sprechen, halten Sie die Konversation kurz und finden Sie dann einen Grund dafür, warum Sie jetzt keine Zeit mehr zum Reden haben (z.B. \"Oh, das ist mein Lieblingslied, ich gehe mal tanzen\" oder \"Ich muss mal eben telefonieren...\"). Sie können auch ruhig etwas leicht Kritisches sagen, um den Anderen aus der Reserve zu locken, z.B. \"Das T-Shirt hattest Du aber auch schon oft an, oder?\" Wichtig ist hierbei stets eine neckende Atmosphäre aufzubauen: Sie sollten den Anderen nicht runtermachen, sondern Ihre Kritik mit einem Augenzwinkern oder einem charmanten Lächeln anbringen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Anders sieht es natürlich aus, wenn Sie sich mit Ihrem Ex-Partner verabredet haben.\r\nHier sollten Sie dann alle Register ziehen, um Ihrem Ex zu gefallen. Wenn der Andere ein bestimmtes Outfit, eine bestimmte Frisur etc. an Ihnen mochte, stylen Sie sich entsprechend. Überlegen Sie sich auch im Vorfeld, welche Gesprächsthemen Sie anschneiden können, ohne in Ihrer Beziehungsvergangenheit zu rühren. Hobbies sind hier immer ein guter Ansatzpunkt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie merken, dass das Blatt sich langsam wendet und Ihr Ex-Partner wieder von sich aus Kontakt zu Ihnen sucht, können Sie in die nächste Phase Ihrer Rückeroberung einsteigen.\r\nVersuchen Sie dann hin und wieder körperliche Nähe zum Ex-Partner herzustellen. Wichtig ist, dass Sie nicht davon reden, sondern es einfach tun, also z.B. die Hand des Anderen nehmen, ihn küssen oder umarmen. Da Sie sich körperlich ja vertraut sind, kann es durchaus sein, dass es sogar zum Sex kommt.\r\nLassen Sie sich ruhig auf die körperliche Nähe ein. Das tun Sie aber nicht, weil Sie schon so lange darauf gewartet haben (das denken Sie höchstens), sondern weil Sie von der Situation überrascht wurden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtig: Anschließend sollten Sie dann aber schnell wieder Distanz herstellen. Bleiben Sie also nicht über Nacht und seien Sie derjenige, der das Treffen beendet. So geben Sie dem Anderen die Chance, Sie zu vermissen und sich nach Nähe zu Ihnen zu sehnen. Und genau das wollen Sie ja erreichen. Wenn der Andere sich um Sie bemühen muss, werden Sie in einem ganz neuen Licht erscheinen. So vertauschen Sie die Rollen und beim Anderen können sich wieder Verliebtsheitsgefühle regen.\r\nDiese Gefühle werden sich beim Ex-Partner vermutlich nur leise einstellen, wenn Sie es gut machen mit der Zeit aber stärker werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls sich der Andere Ihnen nicht nähert, gehen Sie wieder zurück zur vorherigen Phase und wechseln Sie weiter zwischen Phasen ab, in denen Sie kühl und reserviert sind und machen Sie Ihrem Ex zwischendurch Avancen (zur Orientierung halten Sie sich an unsere Zeitpläne!). Seien Sie ruhig frech und überraschen Sie den Anderen mit einer Berührung oder einem Kuss. Je besser Sie das sachte Spiel zwischen Locken und Wegstoßen, Nähe und Distanz beherschen, umso wahrscheinlicher werden im Anderen wieder Verliebtheitsgefühle aufkeimen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Das war unser Coaching 'Regeln für Ihre Treffen. Wir wünschen Ihnen viel Erfolg bei der Umsetzung!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

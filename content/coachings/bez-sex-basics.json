@@ -1,0 +1,208 @@
+{
+  "key": "bez-sex-basics",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching \"Wichtiges in Sachen Sex\".\r",
+      "text": "Dieses Coaching richtet sich an Menschen, die gerne mit Ihrem Date Sex hätten, sich aber in dieser Situation unsicher fühlen. Wenn Sie Schwierigkeiten haben, sich beim Sex zu entspannen oder im Allgemeinen nicht wissen, wie Sie sich beim Sex verhalten sollen, können wir Ihnen mit unseren professionellen Coachings helfen. Intimen Kontakt mit Ihrem Date möchten wir für Sie beide zu einer tollen Erfahrung machen.\nIn diesem Coaching haben wir einige Grundlagen zusammengestellt, die Sie dabei unterstützen, Ihre Unsicherheiten oder eventuelle Hemmungen in Bezug auf sexuelle Kontakte abzubauen. Wir möchten Ihnen zeigen, welche Maßnahmen Ihnen dabei helfen, sich in der entsprechenden Situation sicher und entspannt zu fühlen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Bevor Sie mit Ihrem Gegenüber intim werden, sollten sich Ihre Wohnung und Ihr Auto natürlich in einem ordentlichen Zustand befinden. Zu diesen Themen könnnen Sie im Anschluss weitere spezielle Coachings finden.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie mit Ihrem Date den nächsten Schritt gehen und Sex haben wollen, sollten Sie sich grundlegend sowohl mit Ihrem als auch mit dem Körper Ihres Gegenübers auskennen. Haben Sie sich seit der obligatorischen Aufklärung in der Schule nochmals intensiv mit diesem Thema auseinander gesetzt? ",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie also nicht so genau wissen, wo sich z.B. die erogenen Zonen des Anderen befinden, ist unser Tipp: Lesen Sie ein Fachbuch zu diesem Thema. Und damit ist nicht gemeint, dass Sie einen der unzähligen Ratgeber lesen, der Ihnen verspricht, der beste Liebhaber der Welt zu werden. Ein Versprechen dieser Art kann meist nicht eingehalten werden, da das subjektive Erleben von Sex von Person zu Person viel zu unterschiedlich ist, um eine allgemeine Aussage darüber treffen zu können. Wir würden Ihnen an dieser Stelle eher den dtv-Atlas \"Sexualität\" empfehlen.\r\nAlso, machen Sie sich schlau und lesen Sie!",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Von grundlegender Wichtigkeit sind außerdem Kondome. Auch auf die Gefahr hin, dass es unromantisch klingt, aber denken Sie in dieser Beziehung praktisch. Erstens ist es natürlich notwendig, dass Sie Kondome überhaupt da haben. Nicht nur, damit Sie auf der gesundheitlich sicheren Seite stehen, sondern auch, um von vornherein einem vielleicht unangenehmem Gespräch über Verhütung aus dem Weg gehen zu können.Und zweitens sollten Sie sich natürlich mit dem Gebrauch von Kondomen auskennen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jeder sollte im Umgang mit einem Kondom keine Probleme haben. Und das gilt nicht nur für Männer, sondern auch für Frauen. Durch den sicheren Umgang mit Kondomen können Sie eine potentiell peinliche Situation vermeiden. Wenn Sie aber in diesem Bereich Schwierigkeiten haben sollten, kaufen Sie sich Kondome und üben Sie.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Außerdem kann es von Vorteil für Sie sein, wenn Sie Gleitcreme u.ä. im Nachttisch haben. Gerade dann, wenn Sie zum ersten Mal mit einer neuen Person Sex haben und sich noch nicht mit dem Körper Ihres Gegenübers auskennen, können kleine Hilfsmittelchen durchaus nützlich sein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Kommunikation",
+      "text": "Sprechen Sie miteinander. Trauen Sie sich, mit Ihrem Gegenüber beim Sex zu reden. Fragen Sie den Anderen, ob ihm etwas gefällt oder weisen Sie selbst darauf hin, wenn sich etwas gut anfühlt. \"Gefällt Dir das?\" \"Ich fühle mich wohl.\" \"Das fühlt sich gut an.\" \nFalls Sie gehemmt sein sollten, verbal zu äußern, ob Sie sich wohl fühlen, können Sie natürlich auch den Anderen im wörtlichen Sinne führen. Nehmen Sie seine Hand und führen Sie sie dort hin, wo sich die Berührung für Sie am besten anfühlt. \nWenn Sie Ihrem Gegenüber auf diese Weise zu verstehen geben, dass es für Sie schön ist, wirkt dies entspannend auf die Situation.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es ist außerdem wichtig, dass Sie den Anderen darauf ansprechen, sobald Sie das Gefühl haben, dass er sich unwohl fühlen könnte. Schieben Sie diese Gedanken nicht auf die lange Bank. Negative Emotionen sollten sofort ohne Vorwurf angesprochen werden. \"Magst Du das?\" \"Ich habe das Gefühl, dass Du Dich nicht wohl fühlst. Stimmt das?\" \"Was gefällt Dir? Was soll ich anders machen?\" „Kann ich Dir helfen, Dich zu entspannen?“\r\n\r\nWenn Sie Ihr Gefühl getäuscht haben sollte, können Sie natürlich beruhigt sein. Aber Sie haben Ihrem Gegenüber trotzdem vermittelt, dass Sie sich dafür interessieren, wie es ihm geht. Sollte Ihr Gefühl stimmen, seien Sie verständnisvoll und gehen Sie einfach einen Schritt zurück. \"Wir haben Zeit.\" „Es muss nicht jetzt sein.“ Äußern Sie zwar den Wunsch nach Intimität, aber zeigen Sie Ihrem Gegenüber Verständnis. In beiden Fällen wird die Situation entkrampft und Ihr Gegenüber wird sich verstanden und gut aufgehoben fühlen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Seien Sie unkompliziert und flexibel",
+      "text": "Manchmal passieren ungeplante Dinge. Der Reißverschluss hat sich verhakt, der BH geht nicht auf, die Kondompackung lässt sich nicht öffen oder Sie stoßen sich das Knie am Bett. Lassen Sie sich dadurch nicht unter Druck setzen, sondern sprechen Sie auch diese Situation an. \n\"Du, mein Reißverschluss geht nicht auf.\" Mit einem ganz einfachen Satz weiß der Andere, dass und warum es gegebenenfalls eine Unterbrechung gibt und kann eventuell bei der Problembeseitigung helfen. Auch hier bleibt die Situation entspannt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Und gerade wenn Sie mit dem Anderen noch nicht so vertraut sind, seien Sie flexibel. Sollte Ihr Gegenüber eine klare Vorstellung davon haben, z.B. wie viel Licht zum Einsatz kommen darf, richten Sie sich nach ihm oder verhalten sich möglichst \"mittig\". Das bedeutet, dass Sie die Beleuchtung halbdunkel gestalten. Der menschliche Körper sieht im Halbdunkel nicht nur ästhetischer aus, diese Beleuchtung trägt ebenfalls zum Wohlbefinden des Anderen bei.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gleiches gilt auch für Geräusche. Dass Sie beim Sex mit Ihrem Date kommunizieren sollten, haben wir bereits besprochen. Damit ist aber nicht gemeint, dass Sie permanent mit Ihrem Gegenüber reden sollen oder versuchen dies durch ständiges Stöhnen usw. zu kompensieren. \r\nAber auch das andere Extrem der totalen Stille beim Sex ist fragwürdig. Kommunizieren Sie so viel, wie nötig, um sicher zu stellen, dass es dem Anderen gut geht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Gerechtigkeit\r\n\r\n",
+      "text": "Wenn Sie Sex mit jemandem haben und hoffen, dass daraus eventuell eine Beziehung oder eine Affäre wird, spielt Gerechtigkeit beim Sex eine große Rolle. Es sollte als selbstverständlich angesehen werden, dass Sie beim Sex genauso viel geben, wie Sie nehmen. \nDamit ist natürlich nicht gemeint, dass Sie eine Strichliste neben dem Bett zu liegen haben. Aber wenn der Sex mit Ihrem Date auf einem ausgeglichenen Niveau statt findet, fühlen Sie sich auch beide wohler. Die Chancen auf die Etablierung einer Affäre oder Beziehung steigen durch die Ausgeglichenheit Ihrer sexuellen Aktivitäten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Geduld und Zeit",
+      "text": "Ein ganz wichtiger Punkt zur Entspannung der Situation bei intimem Körperkontakt ist Geduld. Sie haben sich zwar im vorhergehenden Coaching vorgenommen, mit Ihrem Date Sex zu haben, aber geben Sie der Sache Zeit. Wenn Sie mit Ihrem Gegenüber intimer werden, beharren Sie nicht darauf, dass Sie jetzt unbedingt sofort Sex haben müssen. Inbesondere nicht, wenn der Andere etwas verkrampft ist. \n\"Es muss nicht jetzt sein.\" Sagen Sie Ihrem Date, dass es für Sie in Ordnung ist, wenn es nicht sofort zu Sex kommt. Nehmen Sie für sich und vor allem auch für den Anderen den Druck aus der Situation. \"Ich fühle mich auch ohne Sex wohl mit Dir.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben jetzt das Coaching \"Wichtiges in Sachen Sex\" durchlaufen. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

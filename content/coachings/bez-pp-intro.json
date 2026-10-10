@@ -1,0 +1,221 @@
+{
+  "key": "bez-pp-intro",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "8d1142c7d486440b8d7b752b31bc3491",
+      "title": "Wie lange sind Sie schon Single?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "< 6 Monate"
+          },
+          {
+            "key": 2,
+            "value": "6 Monate - 1 Jahr"
+          },
+          {
+            "key": 3,
+            "value": "> 1 Jahr"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "8d1142c7d486440b8d7b752b31bc3491 is 1"
+        },
+        {
+          "to": "n002",
+          "if": "8d1142c7d486440b8d7b752b31bc3491 is 2"
+        },
+        {
+          "to": "n002",
+          "if": "8d1142c7d486440b8d7b752b31bc3491 is 3"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "f7dcc313185d495eabc866a405d091bd",
+      "title": "Warum denken Sie, sind Sie Single?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "noch nicht den richtigen gefunden"
+          },
+          {
+            "key": 2,
+            "value": "zu wenig Zeit für Partnersuche"
+          },
+          {
+            "key": 3,
+            "value": "zu wenig Möglichkeiten jmd. kennenzulernen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "f7dcc313185d495eabc866a405d091bd is 1"
+        },
+        {
+          "to": "n003",
+          "if": "f7dcc313185d495eabc866a405d091bd is 2"
+        },
+        {
+          "to": "n003",
+          "if": "f7dcc313185d495eabc866a405d091bd is 3"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Coaching",
+      "key": null,
+      "title": "Singles-Coach",
+      "text": "",
+      "props": {
+        "key": "Singles_Coach"
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "170a141237594ba9ae394cc3ac494245",
+      "title": "Möchten Sie einen Partner oder eine Partnerin finden?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Partnerin"
+          },
+          {
+            "key": 2,
+            "value": "Partner"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "170a141237594ba9ae394cc3ac494245 is 1"
+        },
+        {
+          "to": "n006",
+          "if": "170a141237594ba9ae394cc3ac494245 is 2"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Coaching",
+      "key": null,
+      "title": "Frauen Ansprechen",
+      "text": "",
+      "props": {
+        "key": "Frauen-Ansprechen"
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Coaching",
+      "key": null,
+      "title": "Maenner Ansprechen",
+      "text": "",
+      "props": {
+        "key": "Maenner-Ansprechen"
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Coaching",
+      "key": null,
+      "title": "Besser Flirten",
+      "text": "",
+      "props": {
+        "key": "besser-flirten"
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Coaching",
+      "key": null,
+      "title": "Besser kennenlernen",
+      "text": "",
+      "props": {
+        "key": "besser-kennenlernen"
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Coaching",
+      "key": null,
+      "title": "Verführung",
+      "text": "",
+      "props": {
+        "key": "verfuehrung"
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Coaching",
+      "key": null,
+      "title": "Dating",
+      "text": "",
+      "props": {
+        "key": "dating"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

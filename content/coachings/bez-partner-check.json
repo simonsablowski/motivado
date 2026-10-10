@@ -1,0 +1,935 @@
+{
+  "key": "bez-partner-check",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "List",
+      "key": "REL_PartCheck_posPunkte",
+      "title": "Wie sieht Ihr Traumpartner aus?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V15.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 70
+          }
+        ],
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "REL_PartCheck_posPunkte gt 4 "
+        },
+        {
+          "to": "n003",
+          "if": "REL_PartCheck_posPunkte le 4 "
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Evaluation",
+      "key": "REL_PartCheck_Evaluation1",
+      "title": "Evaluation",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V17.flv"
+        },
+        "criteria": "#REL_PartCheck_posPunkte",
+        "type": "check",
+        "steps": 5,
+        "titleWeight": "Wie wichtig sind Ihnen die einzelnen Punkte?",
+        "titleRate": "Wie sehr erfüllt Ihr Partner die einzelnen Punkte?"
+      },
+      "next": [
+        {
+          "to": "n004",
+          "if": "REL_PartCheck_Evaluation1 le '-1'"
+        },
+        {
+          "to": "n005",
+          "if": "REL_PartCheck_Evaluation1 le '1' and REL_PartCheck_Evaluation1 gt '-1'"
+        },
+        {
+          "to": "n006",
+          "if": "REL_PartCheck_Evaluation1 le '3.5' and REL_PartCheck_Evaluation1 gt '1'"
+        },
+        {
+          "to": "n007",
+          "if": "REL_PartCheck_Evaluation1 gt '3.5'"
+        },
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "REL_PartCheck_posPunkte",
+      "title": "Ein paar Punkte fallen Ihnen noch ein",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V16.flv"
+        },
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "90b2f73c44a04318a15a68c9bc45adff",
+      "title": "Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V18.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 70
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter mit Schritt 3 \"Gefahren und Risiken\""
+          },
+          {
+            "key": 2,
+            "value": "Weiter mit Schritt 2 \"Wunschvorstellungen des Partners\""
+          },
+          {
+            "key": 3,
+            "value": "Weiter zu den passenden Coachings"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "90b2f73c44a04318a15a68c9bc45adff is 1"
+        },
+        {
+          "to": "n010",
+          "if": "90b2f73c44a04318a15a68c9bc45adff is 2"
+        },
+        {
+          "to": null,
+          "if": "90b2f73c44a04318a15a68c9bc45adff is 3"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "86571ecc0fcc49f2b565348f7a92b71a",
+      "title": "Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V19.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 58
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter mit Schritt 2 \"Wunschvorstellungen des Partners\""
+          },
+          {
+            "key": 2,
+            "value": "Weiter mit Schritt 3 \"Gefahren und Risiken\""
+          },
+          {
+            "key": 3,
+            "value": "Weiter zu den passenden Coachings"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "86571ecc0fcc49f2b565348f7a92b71a is 1"
+        },
+        {
+          "to": "n009",
+          "if": "86571ecc0fcc49f2b565348f7a92b71a is 2"
+        },
+        {
+          "to": null,
+          "if": "86571ecc0fcc49f2b565348f7a92b71a is 3"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "df54d111fde34005b955f7b72a099421",
+      "title": "Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V20.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 28
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter zu den passenden Coachings"
+          },
+          {
+            "key": 2,
+            "value": "Weiter mit Schritt 2 \"Wunschvorstellungen des Partners\""
+          },
+          {
+            "key": 3,
+            "value": "Weiter mit Schritt 3 \"Gefahren und Risiken\""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "df54d111fde34005b955f7b72a099421 is 1"
+        },
+        {
+          "to": "n010",
+          "if": "df54d111fde34005b955f7b72a099421 is 2"
+        },
+        {
+          "to": "n009",
+          "if": "df54d111fde34005b955f7b72a099421 is 3"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "2d979e30f2654c23927d55c2705ec9a3",
+      "title": "Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V21.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 30
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter mit Schritt 3 \"Gefahren und Risiken\""
+          },
+          {
+            "key": 2,
+            "value": "Weiter zu den passenden Coachings"
+          },
+          {
+            "key": 3,
+            "value": "Weiter mit Schritt 2 \"Wunschvorstellungen Ihres Partners\""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "2d979e30f2654c23927d55c2705ec9a3 is 1"
+        },
+        {
+          "to": null,
+          "if": "2d979e30f2654c23927d55c2705ec9a3 is 2"
+        },
+        {
+          "to": "n010",
+          "if": "2d979e30f2654c23927d55c2705ec9a3 is 3"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Test",
+      "text": "Keine Bedingung traf zu",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "List",
+      "key": "REL_PartCheck_negPunkte",
+      "title": "Was stört Sie?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V29.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "REL_PartCheck_negPunkte gt 2"
+        },
+        {
+          "to": "n012",
+          "if": "REL_PartCheck_negPunkte le 2"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "List",
+      "key": "REL_PartCheck_PartWunsch",
+      "title": "Was wünscht sich Ihr Partner?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V22.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n013",
+          "if": "REL_PartCheck_PartWunsch gt 4"
+        },
+        {
+          "to": "n014",
+          "if": "REL_PartCheck_PartWunsch le 4"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Evaluation",
+      "key": "REL_PartCheck_Evaluation3",
+      "title": "Evaluation negative Punkte",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V31.flv"
+        },
+        "criteria": "#REL_PartCheck_negPunkte",
+        "type": "negativecheck",
+        "steps": 5,
+        "titleWeight": "Wie wichtig sind Ihnen die einzelnen Punkte?",
+        "titleRate": "Wie sehr erfüllt Ihr Partner die einzelnen Punkte?"
+      },
+      "next": [
+        {
+          "to": "n015",
+          "if": "REL_PartCheck_Evaluation3 le -2"
+        },
+        {
+          "to": "n016",
+          "if": "REL_PartCheck_Evaluation3 gt 4"
+        },
+        {
+          "to": "n017",
+          "if": "REL_PartCheck_Evaluation3 le 2 and REL_PartCheck_Evaluation3 gt -2"
+        },
+        {
+          "to": "n018",
+          "if": "REL_PartCheck_Evaluation3 le 4 and REL_PartCheck_Evaluation3 gt 2"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "REL_PartCheck_negPunkte",
+      "title": "Ein paar Punkte sollten Ihnen schon einfallen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V30.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Evaluation",
+      "key": "REL_PartCheck_Evaluation2",
+      "title": "Evaluation Partnerwunsch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V24.flv"
+        },
+        "criteria": "#REL_PartCheck_PartWunsch",
+        "type": "check",
+        "steps": 5,
+        "titleWeight": "Wie wichtig sind Ihrem Partner die einzelnen Punkte?",
+        "titleRate": "Wie sehr erfüllen Sie die einzelnen Punkte?"
+      },
+      "next": [
+        {
+          "to": "n019",
+          "if": "REL_PartCheck_Evaluation2 le 3.5 and REL_PartCheck_Evaluation2 gt 1"
+        },
+        {
+          "to": "n020",
+          "if": "REL_PartCheck_Evaluation2 le -1"
+        },
+        {
+          "to": "n021",
+          "if": "REL_PartCheck_Evaluation2 gt 3.5"
+        },
+        {
+          "to": "n022",
+          "if": "REL_PartCheck_Evaluation2 le 1 and REL_PartCheck_Evaluation2 gt -1"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "List",
+      "key": "REL_PartCheck_PartWunsch",
+      "title": "Ein paar Punkte fallen Ihnen noch ein.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V23.flv"
+        },
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "bis  -2",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V32.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "default",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V35.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "bis 2",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V33.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "bis 4",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V34.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Options",
+      "key": "706d361ea5ca4715ac8b5edf2f9eb7b9",
+      "title": "Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V27.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 60
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter mit Schritt 3 \"Gefahren und Risiken\""
+          },
+          {
+            "key": 2,
+            "value": "Weiter zu passenden COachings"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "706d361ea5ca4715ac8b5edf2f9eb7b9 is 1"
+        },
+        {
+          "to": null,
+          "if": "706d361ea5ca4715ac8b5edf2f9eb7b9 is 2"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Options",
+      "key": "743802d3bb424c92aed52e12c3595781",
+      "title": "Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V25.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 55
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter zu passenden COachings"
+          },
+          {
+            "key": 2,
+            "value": "Weiter mit Schritt 3 \"Gefahren und Risiken\""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "743802d3bb424c92aed52e12c3595781 is 1"
+        },
+        {
+          "to": "n009",
+          "if": "743802d3bb424c92aed52e12c3595781 is 2"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Options",
+      "key": "358ea3472b4c4881aed29be232b027a8",
+      "title": "Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V28.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 52
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter mit Schritt 3 \"Gefahren und Risiken\""
+          },
+          {
+            "key": 2,
+            "value": "Weiter zu passenden COachings"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009",
+          "if": "358ea3472b4c4881aed29be232b027a8 is 1"
+        },
+        {
+          "to": null,
+          "if": "358ea3472b4c4881aed29be232b027a8 is 2"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Options",
+      "key": "5865642ddd0d4409833bc80009b4ece7",
+      "title": "Wie soll es jetzt weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V26.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 73
+          }
+        ],
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter zu passenden COachings"
+          },
+          {
+            "key": 2,
+            "value": "Weiter mit Schritt 3 \"Gefahren und Risiken\""
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "5865642ddd0d4409833bc80009b4ece7 is 1"
+        },
+        {
+          "to": "n009",
+          "if": "5865642ddd0d4409833bc80009b4ece7 is 2"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sabotieren Sie sich selbst?\r\n\r\nRufen Sie uns an und vereinbaren Sie ein Telefoncoaching, um Ihre persönliche Situation zu besprechen. Oder schreiben Sie uns eine E-Mail an contact@simsab.net. Unsere Experten helfen Ihnen gerne weiter.\r\n\r\nUm zu den letzten Coaching-Schritten zu gelangen, klicken Sie auf Weiter.",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V36.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "TextArea",
+      "key": "REL_PartCheck_Gedanken",
+      "title": "Was waren Ihre ersten Gedanken?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V37.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Options",
+      "key": "72973a490ce2464dad0352e10a18fd66",
+      "title": "Wie soll es weitergehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V38.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Vorher einen weiteren Punkt anschauen"
+          },
+          {
+            "key": 2,
+            "value": "Gleich weiter zum Ergebnis"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n026",
+          "if": "72973a490ce2464dad0352e10a18fd66 is 1"
+        },
+        {
+          "to": "n027",
+          "if": "72973a490ce2464dad0352e10a18fd66 is 2"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "List",
+      "key": "REL_PartCheck_Ziele",
+      "title": "Was sind Ihre großen Ziele?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V39.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Options",
+      "key": "35a81e6adf3a4bf7802e496ad9e59390",
+      "title": "Wie gut passt Ihr Partner zu Ihnen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V45.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Mein Partner passt gut zu mir"
+          },
+          {
+            "key": 2,
+            "value": "Mein Partner passt nicht so gut zu mir"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n029",
+          "if": "35a81e6adf3a4bf7802e496ad9e59390 is 1"
+        },
+        {
+          "to": "n030",
+          "if": "35a81e6adf3a4bf7802e496ad9e59390 is 2"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Evaluation",
+      "key": "REL_PartCheck_Evaluation4",
+      "title": "Evaluation große Ziele",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V40.flv"
+        },
+        "criteria": "#REL_PartCheck_Ziele",
+        "type": "check",
+        "steps": 5,
+        "titleWeight": "Wie wichtig sind Ihnen diese Ziele?",
+        "titleRate": "Wie sehr teilt Ihr Partner diese Ziele?"
+      },
+      "next": [
+        {
+          "to": "n031",
+          "if": "REL_PartCheck_Evaluation4 le 2 and REL_PartCheck_Evaluation4 gt -2"
+        },
+        {
+          "to": "n032",
+          "if": "REL_PartCheck_Evaluation4 gt 2"
+        },
+        {
+          "to": "n033",
+          "if": "REL_PartCheck_Evaluation4 le -2"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "Um zu den passenden Coachings zu gelangen, klicken Sie auf Weiter",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V48.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "Um zu den passenden Coachings zu gelangen, klicken Sie auf Weiter",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V47.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Video",
+      "key": null,
+      "title": "bis 2",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V42.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Video",
+      "key": null,
+      "title": "bis 6",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V43.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Video",
+      "key": null,
+      "title": "bis -2",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_PartCheck_V41.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    }
+  }
+}

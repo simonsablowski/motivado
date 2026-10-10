@@ -1,0 +1,208 @@
+{
+  "key": "bez-date",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching zum Thema \"Das perfekte Date\".\r",
+      "text": "Wenn es um ein Date geht, denken die meisten Menschen zuerst und fast ausschließlich nur darüber nach, wo sie sich mit Ihrer Verabredung treffen wollen. Natürlich ist diese Überlegung sehr wichtig, aber würden sich einige Leute genauso viele Gedanken darüber machen, worüber sie mit Ihrem Date sprechen möchten, würden wohl viele Dates besser laufen. \n\nIn unserem Coaching geht es vor allem darum, wie Sie sich auf Ihr Date ausgiebig vorbereiten können. Wir möchten Ihre Unsicherheiten in Bezug auf das erste Date mit einer neuen Person abbauen und Ihnen Strategien aufzeigen, mit deren Hilfe Sie verschiedene Dating-Situationen meistern können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Ortswahl und Ortswechsel",
+      "text": "Fangen wir mit dem offensichtlichen Thema an - dem Ort des Dates. \nBesonders dann, wenn Sie Ihr Date noch nicht persönlich kennen, weil Sie ihr Treffen z.B. Im Internet verabredet haben, gilt, dass Sie sich in der Öffentlichkeit z.B. in einem Restaurant oder einem Café treffen. Achten Sie darauf, dass das Restaurant nicht zu teuer aber wiederum auch nicht zu günstig ist. Eine gute Zeit, um sich zu treffen wäre der Nachmittag, weil in den meisten Restaurants weniger Betrieb herrscht und Sie sich so bei mehr Ruhe kennenlernen können.\n\nAber weil man sich bei einer Aktivität besser kennenlernen kann, als wenn man sich \"nur\" über einen Tisch hinüber beugt, haben wir einen Tipp für Sie:",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nehmen Sie nach dem Essen, dem Kaffee etc. einen Ortswechsel vor. Gehen Sie mit Ihrem Date im Park spazieren, in ein Museum oder schauen Sie sich eine Sehenswürdigkeit an. Wenn Sie z.B. Berliner sind und schon immer mal auf den Fernsehturm fahren oder die Siegessäule hoch klettern wollten, aber nie dazu gekommen sind, ist ein Date ein passender Moment dafür. Auch jeder kleine Stadtpark ist ein wunderbarer Ort um sich gemeinsam die Füße zu vertreten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Anschließend an Ihren Spaziergang oder Ausstellungsbesuch etc. - natürlich immer abhängig davon, wie das Date im Allgemeinen läuft - können Sie anschließend noch einmal eine Bar oder Restaurant besuchen, um den Abend abzurunden. Verschiedene Orte bieten Abwechslung und geben Ihrem Date neben einer Vielzahl an Erinnerungen das Gefühl, gleich mehrere Treffen mit Ihnen erlebt zu haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorbereitung und Zielsetzung\r\n\r\nEin perfektes Date beruht, neben der Wahl eines guten Ortes auch auf einer guten Vorbereitung. Wir wissen aus Erfahrung, dass viele Dates schief gehen, weil die Personen nicht genau wussten, was sie eigentlich zusammen machen sollen oder weil der Gesprächsstoff ausgeht.\r\nDaher haben wir einige Hinweise für Sie, wie Sie sich richtig vorbereiten können:\r\n\r\n1. Denken Sie darüber nach, über welche Themen Sie sich unterhalten wollen.\r\nDazu gehört nicht nur das allgemeine Weltgeschehen, Filme oder Musik sondern auch, dass Sie grundlegende Themen wie den Beruf oder die Familie anschneiden. Es ist leichter sich ein Bild von Ihrem Gegenüber machen zu können, wenn Sie wissen, was Ihrem Date im Leben wichtig ist. Am leichtesten sprechen Sie über Dinge die Sie mögen und kennen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Haben Sie ein paar Fragen im Kopf, die Sie Ihrem Date stellen können.\r\nZeigen Sie Interesse an Ihrem Date. Fragen Sie beispielsweise nach den schönsten Urlauben oder Freizeitaktivitäten. Dazu können wir Ihnen unsere Coachings aus dem Bereich „Kommunikation“ anbieten, wie z.B. das Coaching „Ein angenehmes Gespräch führen\". In Anschluss an dieses Coaching können Sie dieses dann bei Bedarf auswählen.\r\n\r\n3. Überlegen Sie sich, wie Sie Ihr Gegenüber unterhalten können.\r\nHaben sie schon mal im Hinterkopf welche Anekdoten Sie erzählen könnten, unterhalten Sie Ihr Gegenüber zum Beispiel durch Handlesen oder Ihr Wissen über Astrologie. Ganz nebenbei sind diese Themen gute Aufhänger dafür, einander körperlich näher zu kommen. Mehr zu diesem Punkt im Folgenden.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "4. Seien Sie für die folgenden Situationen vorbereitet:\r\n\r\nWer bezahlt?\r\n\r\nAls Frau sollten Sie nicht davon ausgehen, dass Sie eingeladen werden und demnach in der Lage sein, selbst Ihren Anteil zu bezahlen. Wenn der Mann Sie einladen möchte, Sie dies aber nicht wünschen, argumentieren Sie, dass Sie Ihre Freiheit behalten möchten. Dieses Beispiel gilt natürlich auch umgedreht. Wenn Sie als Mann nicht alles bezahlen möchten, die Frau aber davon ausgeht, argumentieren Sie, dass Sie sich nicht einkaufen möchten.\r\n\r\nFragen zu Ex-Freunden/innen\r\n\r\nWenn Sie von Ihrem Date auf Ihre Ex-Partner angesprochen werden, gehen Sie diesem Thema so gut es geht aus dem Weg. Wenn es sich nicht vermeiden lässt, bleiben Sie nicht zu lange bei diesem Thema. Ihr Date wird sich mit Ihrem Ex-Partner vergleichen und wenn Sie einen zu großen Fokus auf dieses Thema legen, wird sich Ihr Date schnell nebensächlich und entmutigt fühlen. \r\n\r\nFragen zur Familie\r\n\r\nEs ist ratsam, wenn Sie bei Ihrem Date eine gute Mischung aus Nähe und Distanz transportieren können. Ein Familienmensch zu sein wirkt vertrauenserweckend, aber Sie sollten nicht den Eindruck erwecken, dass Sie Ihre Eltern in jede Entscheidung in Ihrem Leben miteinbeziehen. Dies wirkt unselbstständig und vermittelt Ihrem Date das Gefühl, niemals mit den Eltern in Bezug auf Wichtigkeit mithalten zu können.\r\n\r\nFragen zum Beruf\r\n\r\nKommen Sie bei Ihrem Date auf das Thema Beruf zu sprechen, sollten Sie nur dann länger dabei verweilen, wenn Sie wirklich sehr von Ihrem Job fasziniert sind. Aber auch dann erzählen Sie nur zwei bis drei Minuten von Ihrer Karriere und lenken dann das Gespräch wieder auf Ihr Gegenüber. Wenn Sie nicht übermäßig von Ihrem Job begeistert sind, reicht es, wenn Sie Auskunft über Ihre Tätigkeit geben mit der Sie Ihre Brötchen verdienen und anschließend sagen, dass Sie lieber über spannendere Themen sprechen würden. Immerhin sind Sie mit Ihrem Job ja schon acht Stunden am Tag beschäftigt.\r\n\r\nFragen zu Hobbys\r\n\r\nWerden Sie bei Ihrem Date nach ihren Hobbys gefragt, ist es immer gut, wenn Sie ein besonderes Hobby angeben könnten. Es ist egal, ob es sich dabei um eine soziale, sportliche, musikalische, kulturelle oder besonders intelligente Tätigkeit handelt. Die Hauptsache ist, dass Sie von einem spannenden Thema reden können, dass Ihnen viel bedeutet und Sie fasziniert. \r\nWenn Sie keine Hobbys haben, sollten Sie sich tatsächlich eins zulegen. Nicht nur, weil Sie für Ihr Date spannender sind, sondern weil es Ihnen gut tut, wenn Sie außerhlb von Beruf und Alltag in etwas aufgehen können.\r\n\r\nFragen zu Affären\r\n\r\nBei diesem Thema ist es ratsam, wenn Sie sich besonders am Anfang möglichst bedeckt halten. Seien Sie diplomatisch und argumentieren Sie, dass Sie so früh noch nicht über dieses Thema reden möchten und dass Sie tatsächlich konservativer sind, als Sie womöglich erscheinen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie soll Ihr Date enden?\r\n\r\nBesonders wichtig für ein schönes und erfolgreiches Date ist außerdem, dass Sie sich ein Ziel für den Ausgang desselben setzen. Möchten Sie den Anderen wiedersehen? Hätten Sie es gerne, dass der Abend mit einem Kuss endet? Oder vielleicht mehr? \r\n\r\nWenn Sie wissen, wie das Date für Sie enden soll, wird es Ihnen leichter fallen diesem Ziel auch zu folgen. Ihre innere Einstellung ist für Ihr Handeln maßgeblich und beeinflusst auch Ihre Ausstrahlung. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Beim ersten Date empfehlen wir Ihnen, dass Sie sich maximal einen Kuss als Ziel setzen. Mehr ist nicht nur wenig üblich, sondern kann auch, wenn es nicht von selber so läuft, frustrierend sein und  zu Spannungen führen.\r\nSpannungen einerseits, weil Sie etwas erreichen wollen, dass der Andere nicht will.\r\nUnd Spannungen andererseits, weil Sie eine Erwartungshaltung haben, die wahrscheinlich zu hoch  ist und  sich daher nicht entspannen können. Wenn der Andere merkt, dass Sie zuviel  auf einmal wollen, kann es gut sein, dass sich die Person distanziert oder sogar das Date abbricht. Wollen Sie das?",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nehmen Sie sich also vor Ihrem Date einen Moment Zeit und überlegen Sie sich, was Sie sich von Ihrer Verabredung erwarten, wenn sie gut läuft. Seien Sie aber auf die Möglichkeit vorbereitet, dass es nicht gut laufen könnte. Wenn sich Ihr Gegenüber als doch nicht so toll herausstellt, wie Sie angenommen hatten, sehen Sie Ihr Date in diesem Fall trotzdem als eine gute Erfahrung an. Nehmen Sie die Möglichkeit wahr und üben Sie sich darin, den Anderen zu begeistern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie kommen Sie gut an?\r\n\r\nWenn Sie ein schönes Date haben wollen, sollten Sie Ihrem Gegenüber vor allem gut zuhören. Seien Sie ernsthaft daran interessiert, was Ihr Date Ihnen erzählt. In unserem Coaching \"Guter Small Talk\" haben wir Ihnen bereits Strategien gezeigt, wie Sie leicht ein Gespräch führen können. Wenn Sie dieses Coaching noch nicht durchlaufen haben, gibt es anschließend an dieses Coaching für Sie die Möglichkeit, es auszuwählen.\r\n\r\nWenn Sie sich mit Ihrem Gegenüber unterhalten, achten Sie auch darauf, dass die Gesprächsanteile nicht zu weit auseinander gehen. Die Verteilung sollte maximal bei 30% zu 70% liegen. Geben Sie also Ihrem Date immer die Möglichkeit, sich zu äußern. \r\n\r\nIm Gespräch müssen sie natürlich nicht mit allem übereinstimmen, was Ihnen Ihr Gegenüber mitteilt, aber Sie sollten gerade beim ersten Date auf allzu harte Kritik verzichten. Konzentrieren Sie sich darauf, den Anderen in passenden Momenten aufzubauen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Matching and mirroring\r\n\r\nAber nicht nur Ihr Interesse an Ihrem Gegenüber hat positive Auswirkungen auf das Wohlbefinden Ihres Dates, sondern auch Ihre Körpersprache. Sie können dem Anderen auch unbewusst ein gutes Gefühl vermitteln, indem Sie folgenden Tipp beachten:\r\n\r\nNehmen Sie die selbe Körperhaltung ein wie Ihr Date. Wenn Sich ihr Gegenüber also im Stuhl zurücklehnt, die Beine übereinanderschlägt oder ausstreckt, sich auf dem Ellenbogen aufstützt oder sich über den Tisch beugt, spiegeln Sie diese Körperhaltung. Achten Sie auch im Allgemeinen darauf, dass Ihre Körpersprache nicht abweisend ist. Das bedeutet, das verschränkte Arme oder das Wegdrehen des Körpers vom Anderen ein Tabu ist, wenn das Date gut laufen oder weitergehen soll.\r\n\r\nNatürlich können Sie diese Spiegelung der Körperhaltung auch auf andere Bereiche übertragen. Nähern Sie sich Ihrem Date auch in der Sprache an. Das heißt, dass Sie auf dem selben Sprachniveau miteinander kommunizieren sollten. Falls Sie Dialekt sprechen, bemühen Sie sich um eine möglichst hochdeutsche Aussprache. Ausnahme ist, wenn Ihr Date den selben Dialekt spricht wie Sie - das verbindet. \r\nPassen Sie sich auch in der Sprechgeschwindigkeit ihrem Gegenüber an.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Annährungsversuche\r\n\r\nWenn Sie den Abend mit Ihrem Date gerne mit einem Kuss oder mehr beenden möchten, sollten Sie natürlich versuchen, Ihrem Date näher zu kommen. Wie Sie körperliche Nähe zu Ihrem Gegenüber aufbauen können, haben wir in dem eigenen Coaching \"Eskalation\" für Sie zusammengestellt und werden es Ihnen im Anschluss an dieses Coaching zur Auswahl anbieten. \r\n\r\nIhre möglichen Eskalationswege sind folgende: \r\nBei jedem Date sollten Sie einen Schritt weiter gehen, sonst besteht die Gefahr, dass Sie in der Freundschaftsfalle landen. \r\nOder Sie erhöhen die Spannung des Anderen um eine Stufe, so dass der Andere noch mehr Lust auf Sie hat.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was ist, wenn?\r\n\r\nWas ist, wenn der Andere nicht so spannend ist wie gedacht und Sie keine Interesse an einem weiteren Treffen haben? Oder wenn das Date nicht so gut läuft, Sie Ihr Gegenüber aber trotzdem wiedersehen wollen?\r\n\r\nWenn Sie kein weiteres Treffen wünschen, sagen Sie Ihrem Gegenüber, dass es schön war, ihn kennenzulernen, dass Sie aber glauben, dass sie nicht zusammenpassen und von einem weiteren Date absehen. Denken Sie aber daran, dass auch dieses Date für Sie eine gute Übungsmöglichkeit ist. Gehen Sie also nicht mit einem negativen Gefühl aus dieser Situation heraus.\r\nFalls Sie sich das nicht trauen, direkt zu kommunizieren, dass Sie kein weiteres Treffen wünschen, wäre dies die klassische Notlüge: \r\nSie sind zur Zeit sehr beschäftigt und haben daher gar keine Zeit zu Daten.\r\n\r\nWenn Sie Ihr Date gerne wiedersehen möchten, obwohl das Treffen nicht optimal verlief, ist Ehrlichkeit immer noch der beste Weg. Entschuldigen Sie sich dafür, dass das Date schlechter gelaufen ist als erwartet, dass Sie es anders geplant hatten, aber gerne die Möglichkeit hätten, es beim nächsten Mal besser zu machen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching rund um das Thema \"Date\". Wir hoffen Ihnen hilfreiche Anregungen mitgegeben zu haben und wünschen Ihnen viel Erfolg bei der Umsetzung!\r\n\r\nWenn Sie noch Fragen haben oder weitere Unterstützung wünschen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen. Sie können uns per E-Mail oder Telefon erreichen. Dazu gehen Sie bitte auf \"Hilfe/Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "key": "bez-be2-kontakte",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontaktBe2_V7.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "title_erster-kontakt_bg.png",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 46
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Gegen die Unwissenheit:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V8.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 69
+          },
+          {
+            "type": "slide",
+            "url": "title_unwissenheit.png",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "fuehrerschein-bg.jpg",
+            "second": 6
+          },
+          {
+            "type": "slide",
+            "url": "locker-fahren_bg.jpg",
+            "second": 19
+          },
+          {
+            "type": "slide",
+            "url": "silbertablett_bg.jpg",
+            "second": 40
+          },
+          {
+            "type": "clearslide",
+            "second": 51
+          }
+        ],
+        "elements": [
+          {
+            "element": "Systematisch lernen",
+            "second": 72
+          },
+          {
+            "element": "Planen Sie Ihre Zeit",
+            "second": 90
+          },
+          {
+            "element": "Die Einstellung entscheidet",
+            "second": 120
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Fixierung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V9.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "title_fixierung.png",
+            "second": 0
+          },
+          {
+            "type": "hide",
+            "second": 10
+          },
+          {
+            "type": "clearslide",
+            "second": 10
+          },
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 101
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Ungeduld",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V10.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "title_ungeduld.png",
+            "second": 0
+          },
+          {
+            "type": "hide",
+            "second": 10
+          },
+          {
+            "type": "clearslide",
+            "second": 10
+          },
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 80
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "1455a07eb5234b98b2cf655fefccf567",
+      "title": "Welches Thema der Auswahl möchten Sie sich nun ansehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontaktBe2_V8.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Wichtige Punkte zum Kontakt herstellen"
+          },
+          {
+            "key": "2",
+            "value": "Auf dem Profil vorbeischauen"
+          },
+          {
+            "key": "3",
+            "value": "\"Frag-doch-mal\" spielen"
+          },
+          {
+            "key": "4",
+            "value": "\"Mehr-Verraten\"-Anfrage"
+          },
+          {
+            "key": "5",
+            "value": "Nachrichten schreiben"
+          },
+          {
+            "key": "6",
+            "value": "Ende des Coachings"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "1455a07eb5234b98b2cf655fefccf567 is '4'"
+        },
+        {
+          "to": "n007",
+          "if": "1455a07eb5234b98b2cf655fefccf567 is '2'"
+        },
+        {
+          "to": "n008",
+          "if": "1455a07eb5234b98b2cf655fefccf567 is '3'"
+        },
+        {
+          "to": "n009",
+          "if": "1455a07eb5234b98b2cf655fefccf567 is '1'"
+        },
+        {
+          "to": "n010",
+          "if": "1455a07eb5234b98b2cf655fefccf567 is '5'"
+        },
+        {
+          "to": "n011",
+          "if": "1455a07eb5234b98b2cf655fefccf567 is '6'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "\"Mehr-Verraten\"-Anfrage",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontaktBe2_V13.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "screen_mehrerfahren.png",
+            "second": 7
+          },
+          {
+            "type": "slide",
+            "url": "weiter.png",
+            "second": 61
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Keywords",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontaktBe2_V11.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 71
+          }
+        ],
+        "elements": [
+          {
+            "element": "Einfache Kontaktaufnahme",
+            "second": 11
+          },
+          {
+            "element": "Keine Fotos",
+            "second": 20
+          },
+          {
+            "element": "2-3 Mal vorbei schauen",
+            "second": 31
+          },
+          {
+            "element": "Nicht stalken!",
+            "second": 50
+          },
+          {
+            "element": "Timing protokollieren",
+            "second": 65
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontaktBe2_V12.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 42
+          },
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 42
+          }
+        ],
+        "elements": [
+          {
+            "element": "Intime Fragen vermeiden",
+            "second": 44
+          },
+          {
+            "element": "Positives und Negatives mischen",
+            "second": 68
+          },
+          {
+            "element": "Führen Sie Buch!",
+            "second": 90
+          },
+          {
+            "element": "Stellen Sie Fragen zur Freizeit",
+            "second": 53
+          },
+          {
+            "element": "Optimieren Sie Ihre Fragen",
+            "second": 107
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Notieren Sie sich systematisch:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontaktBe2_V9.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 0
+          }
+        ],
+        "elements": [
+          {
+            "element": "Name und Datum",
+            "second": 7
+          },
+          {
+            "element": "Variante des Kontaktes",
+            "second": 9
+          },
+          {
+            "element": "Ergebniss des Kontaktes",
+            "second": 13
+          },
+          {
+            "element": "Ihre Texte, Fragen, etc.",
+            "second": 26
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Nachrichten schreiben",
+      "text": "Nachrichten schreiben ist eine sehr gute Art in den Kontakt zu treten. Zu diesem wichtigen Thema können Sie in der Navigation oben das Coaching \"Die erste Nachricht\"!",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontaktBe2_V14.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 76
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Wann machen Sie Ihre \"be2-Fahrstunden\"? ",
+      "text": "Nehmen Sie sich bitte jetzt Ihren Kalender zur Hand und planen Sie, wann Sie Ihre \"be2-Fahrstunden\" machen wollen!\n\nSie sollten täglich 1-2 Stunden auf be2 verbingen, die Funktionalitäten ausprobieren und für potentielle Partner verfügbar sein.",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V20.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "aufgabe.png",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Protokoll-Vorlage",
+      "text": "Hier können Sie sich eine Vorlage für Ihr Kontakt-Protokoll, wie wir es gerade beschrieben haben herunter laden.",
+      "props": {
+        "documents": [
+          {
+            "name": "Kontaktprotokoll",
+            "file": "be2kontaktprotokoll.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontaktBe2_V15.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 0
+          },
+          {
+            "type": "slide",
+            "url": "ende.png",
+            "second": 72
+          }
+        ],
+        "elements": [
+          {
+            "element": "Unwissenheit",
+            "second": 7
+          },
+          {
+            "element": "Fixierung",
+            "second": 18
+          },
+          {
+            "element": "Seien Sie geduldig",
+            "second": 31
+          },
+          {
+            "element": "Bleiben Sie dran!",
+            "second": 62
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Timing",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 20
+          }
+        ],
+        "video": {
+          "url": "REL_EDateKontaktBe2_V10.flv"
+        },
+        "elements": [
+          {
+            "element": "Ähnliche Zeitabstände",
+            "second": 21
+          },
+          {
+            "element": "Eile wirkt verzweifelt",
+            "second": 41
+          },
+          {
+            "element": "Schaft Ähnlichkeit",
+            "second": 47
+          },
+          {
+            "element": "Daher nutzen Sie die 80% Regel",
+            "second": 58
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "ListView",
+      "key": null,
+      "title": "So erkennen Sie Fake-Nutzer:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateKontakt_V18.flv"
+        },
+        "elements": [
+          {
+            "element": "Besonders gute Hochglanz-Fotos im Profil.",
+            "second": 31
+          },
+          {
+            "element": "Das Profil ist kaum ausgefüllt.",
+            "second": 36
+          },
+          {
+            "element": "Der User reagiert nicht auf Ihre Nachrichten.",
+            "second": 41
+          },
+          {
+            "element": "Der Nutzer fragt nach Ihrer realen Email-Adresse oder Telefonnummer.",
+            "second": 64
+          },
+          {
+            "element": "Sie werden nicht persönlich angesprochen in den Nachrichten.",
+            "second": 107
+          },
+          {
+            "element": "Daher: Melden Sie solche Profile oder Nachrichten.",
+            "second": 140
+          }
+        ],
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 20
+          },
+          {
+            "type": "slide",
+            "url": "wichtig.png",
+            "second": 20
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    }
+  }
+}

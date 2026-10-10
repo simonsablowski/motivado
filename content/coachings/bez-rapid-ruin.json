@@ -1,0 +1,316 @@
+{
+  "key": "bez-rapid-ruin",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Oma Reiszleine",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Innerer Dialog und Tipps von Freunden.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Auswertung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Jugend",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Satz zum Abschreiben:\r\n\r\n\"Ich erlaube mir jetzt Beziehungen länger zu führen. Und ich bin neugierig darauf zu erfahren und zu erleben, was passiert, wenn ich bleibe und mit dem Partner zusammen bin.\"",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Perfektion",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Satz zum Abschreiben:\r\n\r\n\"Ich erlaube mir, nicht perfekt zu sein. Und ich erlaube meinem Partner, nicht perfekt zu sein. Das ist nicht nur spannender, sondern echter und abwechslungsreicher. Und ich freue mich darauf, unsere starken und unsere schwachen Seiten kennenzulernen, zu akzeptieren und vielleicht sogar zu lieben.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Hormone",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Satz zum Abschreiben:\r\n\r\n\"Ich erlaube mir, dass die ersten Schmetterlinge wieder zurückgehen und ich dann erkenne, was für eine tolle Beziehung, einen tollen Partner, ich da eigentlich habe. Ich erlaube es mir, die Beziehung dann sanft, aber stark zu genießen.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Freunde Familie",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Satz zum Abschreiben:\r\n\r\n\"Ich erlaube mir, einen Partner zu haben, der toll zu mir passt, auch wenn meine Freunde und Familie das vielleicht anders sehen. Das ist in Ordnung, denn das ist mein Leben und ich entscheide, wer toll für mich ist.\"",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Runterschlucken und Prävention",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein weiterer Punkt, nämlich die Fähigkeit, den Partner und sich selbst in eine wirklich tolle Beziehung zu verführen, wird meistens dem Zufall oder dem Anderen überlassen. Und ob der Partner das hinbekommt, ist leider mehr als Glückssache. Meistens versagt er natürlich. Schließlich ist der Partner kein Hellseher und benimmt sich unwissend 'daneben'.\r\nUnd was bleibt bei Ihnen als Gefühl zurück?\r\n'Passt mal wieder nicht, weil's halt nicht der Richtige ist.' - Darauf gibt es nur eine Antwort: Blödsinn!\r\nViel wahrscheinlicher:\r\nSie haben mit dem Partner weder über Ihre Beziehungswünsche, noch über dessen Beziehungswünsche gesprochen.\r\nSie haben sich nach dem Zusammenkommen nicht mehr soviele Gedanken wie am Anfang gemacht, was Sie Besonderes machen können, um die Beziehung toll zu gestalten, um den Partner und sich weiter zu verzaubern.\r\nWelcher Charakter wirklich zu Ihnen passt, ist Ihnen übrigens wahrscheinlich auch nicht klar.\r\nFolgender Satz ist für Sie wichtig:\r\n'Wenn die Beziehung beginnt, geht es erst so richtig los, den Anderen zu faszinieren und tolle Dinge zu tun! Eine Beziehung bedeutet, gemeinsam Sachen zu planen und zu erleben und meinen Partner zu überraschen. Das ist, was Menschen genießen'\r\nHaben Sie schon mal ein Projekt gehabt? Man setzt sich schöne Termine und Erinnerungen in Ihren Kalender. In unseren Coachings zum Stärken von Beziehungen haben wir jede Menge Inhalte dafür.",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Wollten Sie wirklich nicht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "I love you",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "Vertiefung Ihrer Beziehungsfähigkeit",
+      "text": "Wiederholen Sie die Sätze, die Ihnen zusagen, mind. 30 Mal pro Tag innerhalb der nächsten 19-27 Tage. Üben Sie Gespräche wie \"Ich liebe Dich\"-Abdämpfen oder wie man seine Konflite früh mit dem Partner bespricht, damit es daran nicht scheitert.",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Outro mit Zeitangabe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RapRuinEgo_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "Klassischerweise liegt zwischen diesem und dem nächsten Coaching eine Pause von 2 bis 3 Tagen, in denen Sie die Inhalte verdauen und die Übungen machen sollten. Spätestens nach 7 Tagen sollte das Beziehungs-Coaching in jedem Fall weiter gehen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

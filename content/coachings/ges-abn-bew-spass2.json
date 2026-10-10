@@ -1,0 +1,285 @@
+{
+  "key": "ges-abn-bew-spass2",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "DIC_TrainingKeinenSpassGrund",
+      "title": "Mein Training macht mir im Moment keinen Spaß mehr, weil...",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2_V2.flv",
+          "delay": 45
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "...im Moment soviel in meinem Leben im Umbruch ist (neuer Job/neue Beziehung/neuer Wohnort/etc.)."
+          },
+          {
+            "key": 2,
+            "value": "...ich einfach keine Ergebnisse sehe. Ich nehme nicht ab und es wachsen auch keine Muskeln."
+          },
+          {
+            "key": 3,
+            "value": "...mir klar wurde, dass Sport mir grundsätzlich keinen Spaß macht. Ich fühle mich auch nicht besser nach dem Training."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "DIC_TrainingKeinenSpassGrund is 1"
+        },
+        {
+          "to": "n003",
+          "if": "DIC_TrainingKeinenSpassGrund is 2"
+        },
+        {
+          "to": "n004",
+          "if": "DIC_TrainingKeinenSpassGrund is 3"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Warum haben Sie sich entschieden Sport zu machen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2b_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "War es eine Vernunftsentscheidung?",
+            "second": 44
+          },
+          {
+            "element": "Vernunfsentscheidung hilft nicht, Sie brauchen Argumente!",
+            "second": 95
+          },
+          {
+            "element": "Argumente für Sport aufschreiben!",
+            "second": 104
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Beachten Sie die folgenden Punkte:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2a_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "Muskeln sind 12% schwerer als Fett! ",
+            "second": 60
+          },
+          {
+            "element": "Muskelaufbau unterstützt Gewichtsabnahme!",
+            "second": 83
+          },
+          {
+            "element": "MEHR Bewegung bei GLEICHER Nahrungsaufnahme=Abnehmen! ",
+            "second": 105
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2c_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "Entscheidung sorgfältig bedacht? ",
+            "second": 35
+          },
+          {
+            "element": "Sie entscheiden,wie Sie weiter machen wollen!",
+            "second": 53
+          },
+          {
+            "element": "Sollten Sie Zweifeln?",
+            "second": 80
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2b_V2.flv"
+        },
+        "elements": [
+          {
+            "element": "Sport verbrennt Kalorien!",
+            "second": 66
+          },
+          {
+            "element": "Bleiben Sie flexibel, gestalten Sie Ihr Training unabhängig",
+            "second": 132
+          },
+          {
+            "element": "Es passt wirklich gar nicht?",
+            "second": 183
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Sie wollen Ihren Abnehmprozess wieder beschleunigen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2a_V2.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Essen Sie trotz Sport nicht plötzlich über Ihren Kalorienbedarf",
+            "second": 45
+          },
+          {
+            "element": "2. Unterstützen Sie Ihr Muskelwachstum durch Eiweiß!",
+            "second": 53
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe \"Training macht keinen Spaß mehr 2\"",
+      "text": "Schreiben Sie einmal auf, was denn ein \"Sporttyp\" für Sie ist.\nÜberlegen Sie sich, ob Sie sich mit so einem Typ Menschen identifizieren möchten oder nicht.\nWenn ja: Überlegen Sie sich, wie Sie ein Sporttyp werden können!\n\nWenn nein: Schreiben Sie auf, wie Sie sich im Alltag mehr bewegen können!",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2c_V2.flv",
+          "delay": 11
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe \"Training macht keinen Spaß mehr 2\"",
+      "text": "Gestalten Sie Ihr Training so einfach wie möglich. Die Durchführung sollte so wenig wie möglich von Umgebungsfaktoren abhängig sein. \nSollten alle Stricke reißen: Nehmen Sie sich eine Auszeit, bis es wieder passt. Bauen Sie bis dahin so viel Bewegung wie möglich in Ihren Alltag ein!",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2b_V3.flv",
+          "delay": 30
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Aufgabe \"Training macht keinen Spaß mehr 2\"",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2a_V3.flv"
+        },
+        "elements": [
+          {
+            "element": "Achten Sie in den nächsten Tagen bewusster auf Ihre Ernährung.",
+            "second": 20
+          },
+          {
+            "element": "Achten Sie auch auf kleine Fortschritte durch Messen.",
+            "second": 45
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_TrainingKSpass2_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

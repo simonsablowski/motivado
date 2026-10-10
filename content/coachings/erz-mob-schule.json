@@ -1,0 +1,633 @@
+{
+  "key": "erz-mob-schule",
+  "domain": "erz",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "In diesem Coaching erwartet Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "die richtige Kommunikation",
+            "second": 11
+          },
+          {
+            "element": "die richtigen Ansprechpartner",
+            "second": 15
+          },
+          {
+            "element": "Praxisbeispiele",
+            "second": 30
+          },
+          {
+            "element": "praktische Tipps",
+            "second": 43
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Verständnis für Eltern",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V2.flv"
+        },
+        "events": [
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp1.jpg",
+            "second": 5
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp2.jpg",
+            "second": 16
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp3.jpg",
+            "second": 25
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp4.jpg",
+            "second": 31
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp5.jpg",
+            "second": 41
+          },
+          {
+            "type": "slide",
+            "url": "edu_elternschulebsp1.jpg",
+            "second": 49
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Bitte beachten Sie die folgenden Punkte:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V4.flv"
+        },
+        "elements": [
+          {
+            "element": "nicht sofort zum Direktor",
+            "second": 7
+          },
+          {
+            "element": "nicht zuerst zu Behörden/Ministerien",
+            "second": 15
+          },
+          {
+            "element": "Eltern des Täters raushalten",
+            "second": 30
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Das sollten Sie tun:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "Verbündete finden",
+            "second": 7
+          },
+          {
+            "element": "Zeit einplanen",
+            "second": 19
+          },
+          {
+            "element": "alle Schritte gut planen",
+            "second": 24
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Verbündete",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Fassen wir kurz zusammen:\r\n\r\nDer erste wichtige Schritt, bevor Sie mit der Schule kommunizieren, ist es also Informationen einzuholen.\r\nDazu bietet es sich an, die Eltern von Klassenkameraden zu kontaktieren.\r\nGeben Sie diesen Eltern Zeit ein Gespräch mit Ihren Kindern zu führen und üben Sie hier keinen Druck aus.\r\nEs geht darum, Licht ins Dunkel zu bringen und das erreichen Sie, indem Sie jetzt Ruhe bewahren.\r\nWir raten Ihnen, sich während der Gespräche Notizen zu machen.\r\nDiese können Sie dann mit den Fakten zusammentragen, die Sie schon haben.\r\nWenn Sie alle Informationen eingeholt haben, vereinbaren Sie einen ersten Gesprächstermin mit der Schule und gehen so gut vorbereitet in das Gespräch.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Nutzen Sie unser Protokoll, um im Gespräch mit der Schule nichts wichtiges zu vergessen:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V22.flv"
+        },
+        "documents": [
+          {
+            "name": "Protokoll des Mobbings",
+            "file": "EDU_Mobbing_Protokoll.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "87d74188ca9f4f309c550e67560cf1b3",
+      "title": "Wie ist das Verhältnis Ihres Kindes zum Klassenlehrer?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V7.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Eher schlecht"
+          },
+          {
+            "key": 2,
+            "value": "Eher gut"
+          },
+          {
+            "key": 3,
+            "value": "Ich weiß es nicht"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "87d74188ca9f4f309c550e67560cf1b3 is 1"
+        },
+        {
+          "to": "n011",
+          "if": "87d74188ca9f4f309c550e67560cf1b3 is 2"
+        },
+        {
+          "to": "n012",
+          "if": "87d74188ca9f4f309c550e67560cf1b3 is 3"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Vertrauenslehrer und Co",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Lehrer kontaktieren",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "In dem Fall versuchen Sie bitte über Gespräche mit Ihrem Kind ein Gefühl dafür zu bekommen, wie das Verhältnis zum Klassenlehrer ist.\r\nFallen Sie hier nicht mit der Tür ins Haus, sondern nähern Sie sich langsam dem Thema. Hierzu orientieren Sie sich bitte an unserem Coaching \"Umgang mit meinem Kind\".\r\nDamit wir das Coaching an dieser Stelle fortsetzen können, gehen wir davon aus, dass das Verhältnis zum Klassenlehrer gut ist. Sollte sich im Nachhinein herausstellen, dass dem nicht so ist, wiederholen Sie das Coaching bitte und klicken Sie entsprechend \"eher schlecht\" an.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn geklärt ist, wer Ihr erster Ansprechpartner an der Schule ist, geht es darum, sich gut auf das erste Gespräch vorzubereiten.\r\nHier stellen Sie die Weichen, um das Mobbing möglichst schnell einzudämmen. Unterschätzen Sie bitte nicht, dass hier Fingerspitzengefühl nötig ist. Beachten Sie unbedingt unseren Leitfaden, den Sie sich am Ende des Coachings runterladen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Klassenlehrer Ihres Kindes ist also der erste Ansprechpartner an der Schule. \r\n\r\nJetzt geht es darum, sich gut auf das erste Gespräch vorzubereiten.\r\nHier stellen Sie die Weichen, um das Mobbing möglichst schnell einzudämmen. Unterschätzen Sie bitte nicht, dass hier Fingerspitzengefühl nötig ist und beachten Sie bitte unbedingt unseren Leitfaden, den Sie sich am Ende des Coachings runterladen können.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Erster Kontakt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V11.flv"
+        },
+        "elements": [
+          {
+            "element": "Keine Vorwürfe",
+            "second": 3
+          },
+          {
+            "element": "Konkret und sachlich berichten",
+            "second": 13
+          },
+          {
+            "element": "Keine Drohungen",
+            "second": 26
+          },
+          {
+            "element": "Nachfragen und Hilfe einfordern",
+            "second": 37
+          },
+          {
+            "element": "Folgegespräch vereinbaren",
+            "second": 76
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben gerade gehört, dass Sie der Schule Zeit geben sollten, die Situation einschätzen zu können.\r\nIn schlimmen Fällen stellt sich hier die Frage: soll ich mein Kind wirklich weiter dieser belastenden Situation aussetzen?\r\nHier müssen wir im Einzelfall abwägen. Dazu lassen Sie sich bitte von unseren Experten beraten.\r\nIst Ihr Kind z.B. wiederkehrender Gewalt ausgesetzt, müssen wir sofort handeln.\r\nIm Folgenden gehen wir davon aus, dass ein Verbleib an der Schule vertretbar ist.\r\nIhre Hauptaufgabe ist es dann, Ihr Kind so gut es geht emotional zu unterstützen (siehe dazu unser Coaching 'Umgang mit meinem Kind').\r\n\r\nHier geht es jetzt weiter mit dem Coaching 'Umgang mit der Schule'.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Laufe des Gesprächs mit der Schule können sich zwei Situationen ergeben:\r\n\r\n1. Die Schule ist bereits selber auf die Situation aufmerksam geworden\r\n\r\n2. Die Schule weiß nichts von dem Mobbing-Fall\r\n\r\nIm folgenden zeigen wir Ihnen, wie Sie in beiden Situationen richtig reagieren. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Options",
+      "key": "f37db32e1b62456e89bc654be775c064",
+      "title": "Welche Information möchten Sie sich zuerst anschauen? ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Die Schule weiß bescheid"
+          },
+          {
+            "key": 2,
+            "value": "Die Schule hat nichts bemerkt"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n020",
+          "if": "f37db32e1b62456e89bc654be775c064 is 1"
+        },
+        {
+          "to": "n021",
+          "if": "f37db32e1b62456e89bc654be775c064 is 2"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Lehrer ins Boot",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Keine Feinde",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Options",
+      "key": "1e218fd6bf2546078b0bf64284aae36c",
+      "title": "Möchten Sie auch wissen, wie Sie reagieren können, wenn die Schule nichts mitgbekommen hat?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein, weiter im Coaching"
+          },
+          {
+            "key": 2,
+            "value": "Ja"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n024",
+          "if": "1e218fd6bf2546078b0bf64284aae36c is 1"
+        },
+        {
+          "to": "n025",
+          "if": "1e218fd6bf2546078b0bf64284aae36c is 2"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Options",
+      "key": "f90cbed5666b404bba00a2bd432be0b6",
+      "title": "Möchten Sie auch wissen, wie Sie reagieren können, wenn die Schule von dem Fall weiß? ",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein, weiter im Coaching"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n026",
+          "if": "f90cbed5666b404bba00a2bd432be0b6 is 1"
+        },
+        {
+          "to": "n024",
+          "if": "f90cbed5666b404bba00a2bd432be0b6 is 2"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Video",
+      "key": null,
+      "title": "Keine Feinde",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Video",
+      "key": null,
+      "title": "Lehrer ins Boot",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternSchuleKom_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie sich nun zwei Dokumente runterladen: eine Schritt-für-Schritt Anleitung für den Umgang mit der Schule und eine Übung, die Sie gut auf das erste Gespräch mit der Schule vorbereiten wird. Viel Erfolg damit!",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Leitfaden für den Umgang mit der Schule",
+            "file": "EDU_Leitfaden_Schule.pdf"
+          },
+          {
+            "name": "Übung für das 1. Gespräch mit der Schule",
+            "file": "EDU_Erstgespraech_Schule.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching \"Vom Umgang der Eltern mit der Schule\". \r\n\r\nBevor wir in unserem Coaching-Programm fortfahren, ist es wichtig, dass Sie nun das Gespräch mit dem ersten Ansprechpartner an der Schule führen. \r\nDanach werten wir das Gespräch gemeinsam aus und überlegen, welche nächsten Schritte zu tun sind, falls Sie an dieser Stelle nicht weiterkommen.\r\nZur Vorbereitung des Gesprächs können Sie gerne unsere telefonische Beratung nutzen. Sie erreichen uns unter contact@simsab.net.\r\nNachdem das Gespräch stattgefunden hat, loggen Sie sich bitte wieder ein und erarbeiten Sie mit uns gemeinsam das weitere Vorgehen.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

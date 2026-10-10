@@ -1,0 +1,1283 @@
+{
+  "key": "slc-fitter",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Aktivitäten Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "9eb8c647e5114dd5a0aed6002da7ff1c",
+      "title": "Die folgenden Bereiche fassen Aktivitäten zusammen, die bereist tagsüber Ihren Schlaf nachts beeinflussen. Sie sind nach der Größe Ihres Einflusses sortiert.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V2.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Tageslicht "
+          },
+          {
+            "key": "2",
+            "value": "Stressthemen "
+          },
+          {
+            "key": "3",
+            "value": "Sport "
+          },
+          {
+            "key": "4",
+            "value": "Ernährung "
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "9eb8c647e5114dd5a0aed6002da7ff1c is '3'"
+        },
+        {
+          "to": "n004",
+          "if": "9eb8c647e5114dd5a0aed6002da7ff1c is '2'"
+        },
+        {
+          "to": "n005",
+          "if": "9eb8c647e5114dd5a0aed6002da7ff1c is '4'"
+        },
+        {
+          "to": "n006",
+          "if": "9eb8c647e5114dd5a0aed6002da7ff1c is '1'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Sport",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Stress Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V40.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Ernährung Einleitung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V46.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Tageslicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "0a211881424e46e7a556057c8043e732",
+      "title": "Treiben Sie Sport?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V21.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "0a211881424e46e7a556057c8043e732 is '1'"
+        },
+        {
+          "to": "n012",
+          "if": "0a211881424e46e7a556057c8043e732 is '2'"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Entspannungsübung I - Muskel für Muskel",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V42.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "c521dd170e1d42a89e7978526a3d6aeb",
+      "title": "Die Bedeutung der Uhrzeit Ihrer letzten Mahlzeit vor dem Schlafengehen richtet sich in erster Linie an der Uhrzeit, zu der Sie ins Bett gehen, aus. Das heißt, die für uns interessante Frage lautet, wann essen Sie das letzte Mal vor dem Zubettgehen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V47.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "< 1 Stunde"
+          },
+          {
+            "key": "2",
+            "value": "1 - 3 Stunden"
+          },
+          {
+            "key": "3",
+            "value": "3 - 4 Stunden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "c521dd170e1d42a89e7978526a3d6aeb is '2'"
+        },
+        {
+          "to": "n015",
+          "if": "c521dd170e1d42a89e7978526a3d6aeb is '3'"
+        },
+        {
+          "to": "n014",
+          "if": "c521dd170e1d42a89e7978526a3d6aeb is '1'"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "a1a1a394d4c947298265aa79ad1eb940",
+      "title": "Tragen Sie eine Sonnenbrille , wenn Sie draußen sind?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V7.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016",
+          "if": "a1a1a394d4c947298265aa79ad1eb940 is '2'"
+        },
+        {
+          "to": "n017",
+          "if": "a1a1a394d4c947298265aa79ad1eb940 is '1'"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "ac45eb0e82004e338d1640976397bd03",
+      "title": "Wie regelmäßig betreiben Sie diese Sportart/en?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V23.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "5 - 7 x pro Woche"
+          },
+          {
+            "key": "2",
+            "value": "3 - 5 x pro Woche"
+          },
+          {
+            "key": "3",
+            "value": "Unregelmäßig"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018",
+          "if": "ac45eb0e82004e338d1640976397bd03 is '3'"
+        },
+        {
+          "to": "n019",
+          "if": "ac45eb0e82004e338d1640976397bd03 is '1'"
+        },
+        {
+          "to": "n020",
+          "if": "ac45eb0e82004e338d1640976397bd03 is '2'"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Options",
+      "key": "1a918398b8e34acaaac2a66285552ec9",
+      "title": "Haben Sie früher einmal Sport getrieben?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V22.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021",
+          "if": "1a918398b8e34acaaac2a66285552ec9 is '1'"
+        },
+        {
+          "to": "n022",
+          "if": "1a918398b8e34acaaac2a66285552ec9 is '2'"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Options",
+      "key": "12c68f905f4f4af4af73e7e5813e1119",
+      "title": "Wollen Sie weiter zur nächsten Übung? Oder möchten Sie diesen Bereich verlassen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V41.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Zur nächsten Übung"
+          },
+          {
+            "key": "2",
+            "value": "Diesen Bereich verlassen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n023",
+          "if": "12c68f905f4f4af4af73e7e5813e1119 is '2'"
+        },
+        {
+          "to": "n024",
+          "if": "12c68f905f4f4af4af73e7e5813e1119 is '1'"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Mehr Abstand zwischen Abendessen und Schlafen gehen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V48.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Lob I",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Lob I",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Verzichten Sie auf die Sonnenbrille",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Regelmäßigkeit ist Ihr Schlüssel zum Erfolg",
+      "text": "Machen Sie Ihre Sportart/en so regelmäßig wie möglich.\n\nSchwitzen Sie mindestens einmal am Tag!",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "Hervorragend. Herzlichen Glückwunsch. Behalten Sie das unbedingt bei!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "Lob 3-5",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen Sie eine alte Sportart wieder auf",
+      "text": "Welche Sportart hat Ihnen früher Spaß gemacht?\nWelche Sportart würde Sie jetzt reizen?\nUnd mit wem?",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "Beginnen Sie Sport zu treiben",
+      "text": "Welche Sportart würde Sie jetzt reizen?\nUnd mit wem?\n\nGartenarbeit, Tanzen, Treppensteigen - jede Bewegungsform bei der Sie ins Schwitzen kommen können, zählt für uns als Sport!\nDa finden Sie bestimmt auch etwas für sich!",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Stress Zusammenfassung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V45.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Entspannungsübung II - In den Sonnenuntergang",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V43.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Options",
+      "key": "dd297a39c5a945e291559f1870d9f380",
+      "title": "Was entspricht am ehesten Ihrer letzten Mahlzeit?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V49.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ich esse abends meistens nur eine Kleinigkeit (z.B. kleiner Salat, Joghurt)"
+          },
+          {
+            "key": "2",
+            "value": "Ich esse abends  eine normale Portion eines einfachen Gerichts (z.B. Pasta)"
+          },
+          {
+            "key": "3",
+            "value": "Abendessen ist die wichtigste Mahlzeit des Tages. Da esse ich anständig (z.B. Vor-, Haupt- und Nachspeise)"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n030",
+          "if": "dd297a39c5a945e291559f1870d9f380 is '2'"
+        },
+        {
+          "to": "n031",
+          "if": "dd297a39c5a945e291559f1870d9f380 is '1'"
+        },
+        {
+          "to": "n030",
+          "if": "dd297a39c5a945e291559f1870d9f380 is '3'"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Options",
+      "key": "3894734ba83345cfaded94bb59a4e934",
+      "title": "Bekommen Sie direkt nach dem Aufstehen morgens Tageslicht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V9.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja, ich bekomme morgens direktes Tageslicht."
+          },
+          {
+            "key": "2",
+            "value": "Nein, ich bekomme morgens kaum direktes Tageslicht."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032",
+          "if": "3894734ba83345cfaded94bb59a4e934 is '1'"
+        },
+        {
+          "to": "n033",
+          "if": "3894734ba83345cfaded94bb59a4e934 is '2'"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Video",
+      "key": null,
+      "title": "Zusammenfassung Sport",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "List",
+      "key": "slc_fitter_SStrs4",
+      "title": "Meine 3 Vorsätze",
+      "text": "Schreiben Sie hier die 3 Dinge aus dem letzten Coaching zum Thema Stress auf, die Sie jetzt aktiv umsetzen werden:",
+      "props": {
+        "video": {
+          "url": "SLC_Main_V12.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Options",
+      "key": "8d5b2c4c68fe4ddd9569890d2d9dfa28",
+      "title": "Wollen Sie weiter zur nächsten Übung? Oder möchten Sie diesen Bereich verlassen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V41.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Zur nächsten Übung"
+          },
+          {
+            "key": "2",
+            "value": "Diesen Bereich verlassen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n036",
+          "if": "8d5b2c4c68fe4ddd9569890d2d9dfa28 is '1'"
+        },
+        {
+          "to": "n023",
+          "if": "8d5b2c4c68fe4ddd9569890d2d9dfa28 is '2'"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "Abends eher wie ein Bettler",
+      "text": "Verichten Sie beim Abendessen weitestgehend auf Kohlenhydrate und Fette zugunsten von Proteinen.\n\nEssen Sie nicht zu viel - sparen Sie sich die großen Mengen lieber fürs Frühstück auf, wenn Sie die Energie auch für den Tag brauchen können.",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V50.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Video",
+      "key": null,
+      "title": "Lob II",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "Sehr gut! Behalten Sie das unbedingt bei!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "Tageslicht direkt nach dem Aufstehen",
+      "text": "- Stellen Sie Ihren Wecker ans Fenster\n- Öffnen Sie direkt nach dem Aufstehen das Fenster\n- Das Tageslicht und die frische Luft machen Sie wach\n- Benutzen Sie eine Lichtdusche im Winter",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "List",
+      "key": "slc_fitter_SSpo4",
+      "title": "Meine 3 Vorsätze",
+      "text": "Schreiben Sie hier die 3 Dinge aus dem letzten Coaching zum Thema Sport und Bewegung auf, die Sie jetzt aktiv umsetzen werden:",
+      "props": {
+        "video": {
+          "url": "SLC_Main_V12.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Options",
+      "key": "fad14831292b4790857f8be87d462dfd",
+      "title": "Möchten Sie sich noch weitere Aktivitäten ansehen, die einen entscheidenen Einfluß auf Ihr Schlafverhalten haben?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V3.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "fad14831292b4790857f8be87d462dfd is '1'"
+        },
+        {
+          "to": "n039",
+          "if": "fad14831292b4790857f8be87d462dfd is '2'"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Video",
+      "key": null,
+      "title": "Entspannungsübung III - Das Rollband in den Schlaf",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V44.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Options",
+      "key": "5934f43ffef14dae8bca980942ff2246",
+      "title": "Wieviel Flüssigkeit (kein Alkohol) trinken Sie am Tag?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V51.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "< 0,5 l"
+          },
+          {
+            "key": "2",
+            "value": "0,5 - 1,5 l"
+          },
+          {
+            "key": "3",
+            "value": "> 1,5 l"
+          },
+          {
+            "key": "4",
+            "value": "> 4 -6l"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n040",
+          "if": "5934f43ffef14dae8bca980942ff2246 is '3'"
+        },
+        {
+          "to": "n041",
+          "if": "5934f43ffef14dae8bca980942ff2246 is '2'"
+        },
+        {
+          "to": "n041",
+          "if": "5934f43ffef14dae8bca980942ff2246 is '1'"
+        },
+        {
+          "to": "n042",
+          "if": "5934f43ffef14dae8bca980942ff2246 is '4'"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Options",
+      "key": "17470794f29844a186d844c6e3aa98e4",
+      "title": "Wieviel Zeit verbringen Sie  bei Sonnenaufgang bzw. in den frühen Morgenstunden draußen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "10 Minuten"
+          },
+          {
+            "key": "2",
+            "value": "10-30 Minuten"
+          },
+          {
+            "key": "3",
+            "value": "1 Stunde"
+          },
+          {
+            "key": "4",
+            "value": "2 Stunden und mehr"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n043",
+          "if": "17470794f29844a186d844c6e3aa98e4 is '3'"
+        },
+        {
+          "to": "n044",
+          "if": "17470794f29844a186d844c6e3aa98e4 is '1'"
+        },
+        {
+          "to": "n044",
+          "if": "17470794f29844a186d844c6e3aa98e4 is '2'"
+        },
+        {
+          "to": "n043",
+          "if": "17470794f29844a186d844c6e3aa98e4 is '4'"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Video",
+      "key": null,
+      "title": "Outro Aktivitäten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V57.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Video",
+      "key": null,
+      "title": "Lob trinken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V53.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n045"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Text",
+      "key": null,
+      "title": "1,5 l Flüssigkeit pro Tag helfen Ihrem Schlaf",
+      "text": "Über den Tag verteilt sollten Sie mindestens 1,5l Flüssigkeit zu sich nehmen, damit Ihr Körper nachts genug davon hat.\n\nVermeiden Sie Koffein-, Alkohol- und Zuckerhaltige Getränke soweit es geht.",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V52.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n045"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "Video",
+      "key": null,
+      "title": "Zuviel Flüssigkeit belastet unnötig",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V54.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n045"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "Video",
+      "key": null,
+      "title": "Lob II",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "Video",
+      "key": null,
+      "title": "Morgens Tageslicht Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n046"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "Video",
+      "key": null,
+      "title": "trinken vor dem Schlafen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V55.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n047"
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Options",
+      "key": "e544acda3df74ff4818c403d8c55219f",
+      "title": "Wieviel Zeit verbringen Sie zwischen 12 Uhr mittags und 18 Uhr draußen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V17.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "10 Minuten"
+          },
+          {
+            "key": "2",
+            "value": "10-30 Minuten"
+          },
+          {
+            "key": "3",
+            "value": "1 Stunde"
+          },
+          {
+            "key": "4",
+            "value": "2 Stunden und mehr"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n048",
+          "if": "e544acda3df74ff4818c403d8c55219f is '2'"
+        },
+        {
+          "to": "n049",
+          "if": "e544acda3df74ff4818c403d8c55219f is '3'"
+        },
+        {
+          "to": "n048",
+          "if": "e544acda3df74ff4818c403d8c55219f is '1'"
+        },
+        {
+          "to": "n049",
+          "if": "e544acda3df74ff4818c403d8c55219f is '4'"
+        }
+      ]
+    },
+    "n047": {
+      "id": "n047",
+      "type": "Video",
+      "key": null,
+      "title": "Ernährung Zusammenfassung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V56.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n050"
+        }
+      ]
+    },
+    "n048": {
+      "id": "n048",
+      "type": "Video",
+      "key": null,
+      "title": "Tageslicht mittags Inhalt und Übung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n049": {
+      "id": "n049",
+      "type": "Video",
+      "key": null,
+      "title": "Lob I",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n050": {
+      "id": "n050",
+      "type": "List",
+      "key": "slc_fitter_SErn4",
+      "title": "Meine 3 Vorsätze",
+      "text": "Schreiben Sie hier die 3 Dinge aus dem letzten Coaching zum Thema Ernährung auf, die Sie jetzt aktiv umsetzen werden:",
+      "props": {
+        "video": {
+          "url": "SLC_Main_V12.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n051": {
+      "id": "n051",
+      "type": "Options",
+      "key": "3e88f31e697c451b983de788d4b2863f",
+      "title": "Wieviel Zeit verbringen Sie zur Sonnenuntergangszeit  (ca. ab 18 Uhr) draußen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V14.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "10 Minuten"
+          },
+          {
+            "key": "2",
+            "value": "10-30 Minuten"
+          },
+          {
+            "key": "3",
+            "value": "1 Stunde"
+          },
+          {
+            "key": "4",
+            "value": "2 Stunden und mehr"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n052",
+          "if": "3e88f31e697c451b983de788d4b2863f is '4'"
+        },
+        {
+          "to": "n052",
+          "if": "3e88f31e697c451b983de788d4b2863f is '3'"
+        },
+        {
+          "to": "n053",
+          "if": "3e88f31e697c451b983de788d4b2863f is '1'"
+        },
+        {
+          "to": "n053",
+          "if": "3e88f31e697c451b983de788d4b2863f is '2'"
+        }
+      ]
+    },
+    "n052": {
+      "id": "n052",
+      "type": "Text",
+      "key": null,
+      "title": "Sehr gut! Behalten Sie das unbedingt bei!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n054"
+        }
+      ]
+    },
+    "n053": {
+      "id": "n053",
+      "type": "Video",
+      "key": null,
+      "title": "Tageslicht abends Inhalt",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n055"
+        }
+      ]
+    },
+    "n054": {
+      "id": "n054",
+      "type": "Video",
+      "key": null,
+      "title": "Zusammenfassung Tageslicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n056"
+        }
+      ]
+    },
+    "n055": {
+      "id": "n055",
+      "type": "Text",
+      "key": null,
+      "title": "Überlegen Sie sich ein Feierabend-Ritual",
+      "text": "Was können Sie abends tun, um mehr Tageslicht zu bekommen?\nWas fällt Ihnen dazu alles ein?\n\nSchreiben Sie es auch in Ihr Schlaftagebuch!",
+      "props": {
+        "video": {
+          "url": "SLC_Aktivitaeten_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n054"
+        }
+      ]
+    },
+    "n056": {
+      "id": "n056",
+      "type": "List",
+      "key": "slc_fitter_STLi4",
+      "title": "Meine 3 Vorsätze",
+      "text": "Schreiben Sie hier die 3 Dinge aus dem letzten Coaching zum Thema Tageslicht auf, die Sie jetzt aktiv umsetzen werden:",
+      "props": {
+        "video": {
+          "url": "SLC_Main_V12.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    }
+  }
+}

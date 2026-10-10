@@ -1,0 +1,78 @@
+{
+  "key": "slc-nykturie",
+  "domain": "slc",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Nachts auf die Toilette",
+      "text": "- Weniger trinken\n- Besser Schlafen",
+      "props": {
+        "video": {
+          "url": "SLC_Nykturie_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "slc_ABC_alter gt '55' and slc_ABC_geschlecht is 1"
+        },
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Durchschlafstörungen - Häufige Toilettenbesuche\n\nBei Männern im fortgeschritteneren Alter kommt es häufig vor, dass sie nachts zur Toilette aus dem Bett müssen.\nDas stört den Schlaf. Oft nicht einmal mit Erfolg, bei vielen Männern kommt es auch nur tröpfelnd. Häufig steckt die Prostata hinter diesen Symptomen.\nDie Prostata vergrößert sich im Laufe des Lebens langsam und führt dann häufig dazu, dass der Urin nicht mehr komplett aus der Blase abfließen kann und Sie deshalb das Gefühl haben, aufs Klo zu müssen.\nDiese gutartige Prostatavergrößerungkann mittlerweile sehr gut medikamentös behandelt werden, z.B. auch mit Sägepalmextrakten, was auch vorbeugend gegen Haarausfall wirkt.\nEs empfiehlt sich jedoch auf jeden Fall der Besuch beim Hausarzt oder Urologen, um das medizinisch abklären zu lassen.",
+      "props": {
+        "video": {
+          "url": "SLC_Nykturie_V2.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 42
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Zusammenfassung Nykturie",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "SLC_Nykturie_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

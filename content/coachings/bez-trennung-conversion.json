@@ -1,0 +1,92 @@
+{
+  "key": "bez-trennung-conversion",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "cc44d095965b4cec869a19ce86115c63",
+      "title": "Möchten Sie sich sicher von Ihrem Partner trennen oder lieber herausfinden, wie gut er zu Ihnen passt? ",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_V8.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ich möchte mich trennen."
+          },
+          {
+            "key": 2,
+            "value": "Zunächst herausfinden, wie gut wir zusammenpassen."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "cc44d095965b4cec869a19ce86115c63 is 1"
+        },
+        {
+          "to": "n003",
+          "if": "cc44d095965b4cec869a19ce86115c63 is 2"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "0de0b5415a6c4bd6a54e18182a25253e",
+      "title": "Möchten Sie sich von einer Beziehung oder einer Affäre trennen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_WcTrennung_V2.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Beziehung beenden"
+          },
+          {
+            "key": 2,
+            "value": "Affäre beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "0de0b5415a6c4bd6a54e18182a25253e is 1"
+        },
+        {
+          "to": "n003",
+          "if": "0de0b5415a6c4bd6a54e18182a25253e is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Buy",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "key": "bez-trennung"
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

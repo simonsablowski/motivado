@@ -1,0 +1,525 @@
+{
+  "key": "bez-lk-3",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Erinnerung Aufgaben",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro und neue Aufgaben",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "rel_lk_neueAufgaben",
+      "title": "Welche neuen Dinge möchten Sie ab jetzt tun?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V3.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "rel_lk_CoacheeBuddy2",
+      "title": "Wer kann Sie bei der Umsetzung unterstützen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V4.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "List",
+      "key": "rel_lkBasics_iLikeMyself",
+      "title": "Hier sehen Sie noch einmal, was Menschen an Ihnen schätzen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V5.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "d9feef52095e4335b9cb4367e8b81bb1",
+      "title": "Welche Methode zum Stoppen negativer Gedanken möchten Sie sich anschauen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V6.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Am Körper ansetzen"
+          },
+          {
+            "key": 2,
+            "value": "Freunde einbeziehen"
+          },
+          {
+            "key": 3,
+            "value": "Andere Sinne ansprechen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "d9feef52095e4335b9cb4367e8b81bb1 is 1"
+        },
+        {
+          "to": "n008",
+          "if": "d9feef52095e4335b9cb4367e8b81bb1 is 2"
+        },
+        {
+          "to": "n009",
+          "if": "d9feef52095e4335b9cb4367e8b81bb1 is 3"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Körperlich unterbrechen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V7A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Freund stört Gedanken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Sinneswahrnehmung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Verbal wehren",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V7B.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "9ce8a1efc37e44eaa936bfe387886dab",
+      "title": "Möchten Sie eine weitere Übung ausprobieren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "9ce8a1efc37e44eaa936bfe387886dab is 1"
+        },
+        {
+          "to": "n013",
+          "if": "9ce8a1efc37e44eaa936bfe387886dab is 2"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "EMDR",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "List",
+      "key": "rel_lk_sadThoughts",
+      "title": "Bitte schreiben Sie auf, welche bedrückenden Gedanken Ihnen durch den Kopf gehen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V12.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "List",
+      "key": "rel_lk_sadThoughts",
+      "title": "Bitte löschen Sie die negativen Gedanken und ergänzen Sie sie durch bessere, positive Gedanken!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V14.flv"
+        },
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Entspannung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Options",
+      "key": "fabc16c48bd444cf8f8b1a613dd69c92",
+      "title": "Über welche Entspannungstechnik möchten Sie mehr erfahren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Konzentrationstechniken"
+          },
+          {
+            "key": 2,
+            "value": "Tiefenentspannung"
+          },
+          {
+            "key": 3,
+            "value": "Progressive Muskelrelaxation (PMR)"
+          },
+          {
+            "key": 4,
+            "value": "Yoga"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n018",
+          "if": "fabc16c48bd444cf8f8b1a613dd69c92 is 1"
+        },
+        {
+          "to": "n019",
+          "if": "fabc16c48bd444cf8f8b1a613dd69c92 is 2"
+        },
+        {
+          "to": "n020",
+          "if": "fabc16c48bd444cf8f8b1a613dd69c92 is 3"
+        },
+        {
+          "to": "n021",
+          "if": "fabc16c48bd444cf8f8b1a613dd69c92 is 4"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Autogenes Training und Co.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Mantras etc.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Video",
+      "key": null,
+      "title": "PMR",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Yoga",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Options",
+      "key": "6b1ccd3213664472b72a92f9cab16dab",
+      "title": "Eine weitere Technik anschauen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n017",
+          "if": "6b1ccd3213664472b72a92f9cab16dab is 1"
+        },
+        {
+          "to": "n024",
+          "if": "6b1ccd3213664472b72a92f9cab16dab is 2"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "Fantasiereisen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Liebeskummer_C_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Bitte laden Sie sich hier Ihren nächsten Aktivitätenplan und Ihre persönliche Vorlage runter:",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Aktivitätenplan Beispiel 2",
+            "file": "LK_Aktivitaetenplan2_Beispiel.pdf"
+          },
+          {
+            "name": "Aktivitätenplan Vorlage 2",
+            "file": "LK_Aktivitaetenplan2_Vorlage.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

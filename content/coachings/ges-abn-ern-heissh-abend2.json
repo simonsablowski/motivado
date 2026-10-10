@@ -1,0 +1,118 @@
+{
+  "key": "ges-abn-ern-heissh-abend2",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Coaching Heißhunger am Abend 2",
+      "text": "Was können Sie ganz konkret machen, wenn der Heißhunger schon da ist?\nMehr dazu in diesem Coaching!",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends2_V1.flv",
+          "delay": 11
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Stoppen Sie sich!!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends2_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Heißhunger hat mit Hunger nichts zu tun!",
+      "text": "Große Mengen leere Kohlenhydrate wie Zucker oder Weißmehl (in Süßigkeiten, Limonaden, Weißmehlbrötchen, Nudeln, Backwaren, etc.) lassen unseren Blutzuckerspiegel Achterbahn fahren.\nIst er im Keller angekommen, schreit unser Körper nach Zucker und der Kühlschrank zieht uns magisch an. \nIhr Heißhunger ist also vor allem eine physiologische Reaktion, der wir ganz einfach mit gutem, regelmäßigem Essen entgegen wirken können! \n\nGegen den Heißhunger abends machen Sie sich schon mit Frühstück und Mittagessen stark, indem Sie zu diesen Mahlzeiten vollwertig essen mit viel Gemüse, Eiweiß und Vollkornprodukten!",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends2_V3.flv",
+          "delay": 38
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends2_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Heißhunger am Abend II.\"",
+      "text": "Ernähren Sie sich ausgewogen, lassen Sie keine Mahlzeiten aus.\nÜberlegen Sie sich, was Sie tun können, um sich in Situationen, wenn der Heißhunger am Abend doch wieder kommt, davon abzuhalten, wahllos alles zu essen.",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends2_V5.flv",
+          "delay": 63
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn das nächste Mal der Heißhunger kommt, werde ich nicht schwach!",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends2_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

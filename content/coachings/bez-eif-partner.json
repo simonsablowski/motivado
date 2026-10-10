@@ -1,0 +1,439 @@
+{
+  "key": "bez-eif-partner",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V1.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "6deb64a67277418ca0a99fc55fb5b21f",
+      "title": "Möchten Sie einen kurzen Test zum Thema Eifersucht machen oder das Coaching direkt starten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V89A.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Direkt zum Eifersuchts-Coaching"
+          },
+          {
+            "key": 2,
+            "value": "Zum Test"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "6deb64a67277418ca0a99fc55fb5b21f is 1"
+        },
+        {
+          "to": "n004",
+          "if": "6deb64a67277418ca0a99fc55fb5b21f is 2"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Ready to go?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V3.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Group",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine Beziehung zu führen, in der der Partner sehr schnell und oft eifersüchtig wird, kann sehr problematisch werden. Immerhin werden Sie oft unbegründet verdächtigt, Ihren Partner zu hintergehen und es ist sicherlich schwer, mit dem Mangel an Vertrauen umzugehen. \r\n\r\nDamit die Eifersucht Ihres Partners nicht irgendwann Ihre Beziehung zerstört, muss nicht nur er an sich arbeiten. Auch Sie können aktiv dazu beitragen, dass die Eifersucht Ihres Partners Ihre Beziehung nicht von innen heraus auffrisst. Ihre Reaktion auf eifersüchtiges Verhalten ist extrem wichtig und wir zeigen Ihnen in diesem Coaching, wie Sie in diesen Situationen am besten mit Ihrem Partner umgehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "rel_eiferPartnerTest1",
+      "title": "Wissen Sie nicht genau, ob Sie die Eifersucht von Ihrem Partner als Kompliment oder nicht werten sollen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V10.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": "j",
+            "value": "Ja"
+          },
+          {
+            "key": "n",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "rel_eiferPartnerTest1 is 'n'"
+        },
+        {
+          "to": "n008",
+          "if": "rel_eiferPartnerTest1 is 'j'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Konzentrieren Sie sich auf die positiven Seiten\r\n\r\nWenn Ihr Partner schnell eifersüchtig wird und Ihnen eine Szene macht, gibt es verschiedene Dinge, die Sie beachten sollten und die es Ihnen leichter machen, mit Ihrem Partner umzugehen.\r\n\r\n1. Eifersüchtige Menschen haben dieses falsche Verhalten meist schon in der Kindheit gelernt oder durch vorhergehende Beziehungen entwickelt. Ihr Partner hat meist einen Mangel, den er auszugleichen versucht. Das heißt, dass Sie dies in Gedanken berücksichtigen sollten.\r\n\r\n2. Sehen Sie die Eifersucht Ihres Partners als Kompliment, denn immerhin zeigt dieses Verhalten, dass Sie Ihrem Partner sehr wichtig sind. Fokussieren Sie diese Seite der Medaille, statt Ihrem Partner nur mangelndes Vertrauen vorzuwerfen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "rel_eiferPartnerTest2",
+      "title": "Ist Ihnen die Eifersucht Ihres Partner manchmal etwas zuviel?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V11.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": "j",
+            "value": "Ja"
+          },
+          {
+            "key": "n",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "rel_eiferPartnerTest2 is 'j'"
+        },
+        {
+          "to": "n010",
+          "if": "rel_eiferPartnerTest2 is 'n'"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3. Die Eifersucht des Anderes zeugt davon, dass Sie einen leidenschaftlichen Partner haben. Wir wissen aus Erfahrung, dass Beziehungen, in denen ein Partner eifersüchtig ist, häufig glücklicher sind als Paare, die über mangelnde Emotionen Ihres Partners klagen.\r\n\r\n4. Wenn Sie einen eifersüchtigen Partner haben, stehen die Chancen sehr gut, dass Sie im Falle einer Trennung, Ihren Partner wieder zurückerobern können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "rel_eiferPartnerTest3",
+      "title": "Wäre Ihr Partner ohne seine Eifersucht Ihr Traumpartner?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V12.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": "j",
+            "value": "Ja"
+          },
+          {
+            "key": "n",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "rel_eiferPartnerTest3 is 'j'"
+        },
+        {
+          "to": "n013",
+          "if": "rel_eiferPartnerTest1 is 'j' and rel_eiferPartnerTest2 is 'j' and rel_eiferPartnerTest3 is 'j'"
+        },
+        {
+          "to": "n014",
+          "if": "rel_eiferPartnerTest1 is 'j' and rel_eiferPartnerTest2 is 'j' and rel_eiferPartnerTest3 is 'j'"
+        },
+        {
+          "to": "n015",
+          "if": "rel_eiferPartnerTest2 is 'j' and rel_eiferPartnerTest3 is 'j'"
+        },
+        {
+          "to": "n016",
+          "if": "rel_eiferPartnerTest1 is 'j' and rel_eiferPartnerTest3 is 'j'"
+        },
+        {
+          "to": "n012",
+          "if": "rel_eiferPartnerTest3 is 'n'"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sprechen Sie die Eifersucht Ihres Partners an\r\n\r\nAber nur, weil es durchaus auch positive Seiten an der Eifersucht Ihres Partners gibt, heißt das nicht, dass dieses Verhalten Ihre Beziehung nicht dauerhaft belastet. Sie müssen sich beide mit diesem Problem in Ihrer Beziehung auseinandersetzen, wenn Sie nicht wollen, dass die Eifersucht zum Beziehungskiller wird. \r\n\r\nDas heißt, Sie sollten Ihren Partner darauf ansprechen. Aber eben weil eifersüchtige Menschen leidenschaftlich sind, sollten Sie genau wissen, wie Sie dieses Problem ansprechen. Wenn Sie mit der roten Fahne winken, obwohl Sie genau wissen, dass Sie es mit einem Stier zu tun haben, ist das nicht besonders förderlich für die Situation. Eifersüchtige Menschen wehren sich, wenn Sie angegriffen werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgrund Ihrer Angaben gehen wir davon aus, dass bei Ihrem Partner ein Fall von Eifersucht vorliegt, der Ihre Beziehung belasten kann.\r\nWir raten Ihnen daher dieses Coaching zu besuchen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V16.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgrund Ihrer Angaben empfehlen wir Ihnen unbedingt das Coaching zum Thema \"Mit der eigenen Eifersucht umgehen\" zu besuchen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V15.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgrund Ihrer Angaben empfehlen wir Ihnen unbedingt das Coaching zum Thema \"Mit der eigenen Eifersucht umgehen\" zu besuchen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V15.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgrund Ihrer Angaben empfehlen wir Ihnen unbedingt das Coaching zum Thema \"Mit der eigenen Eifersucht umgehen\" zu besuchen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V15.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgrund Ihrer Angaben empfehlen wir Ihnen unbedingt das Coaching zum Thema \"Mit der eigenen Eifersucht umgehen\" zu besuchen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Eifersucht_V15.flv",
+          "delay": 0
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wahren Sie Ihre Selbstdisziplin\r\n\r\nAnstatt Ihrem Partner Vorwürfe zu machen, dass er Ihnen Vorwürfe macht, nehmen Sie sich etwas zurück und vor allem Ihrem Partner den Wind aus den Segeln. Sprechen Sie Ihre eigenen Ängste an, z.B. \"Ich habe Angst davor, dass Du mir nach spionierst und dabei irgendetwas findest, das Du falsch interpretierst.\" \r\n\r\nDie Vorwürfe Ihres Partner wie \"Du hast doch nur etwas zu verbergen.\" sind schwer durch Argumente zu widerlegen. Sie reagieren darauf am besten, wenn Sie z.B. auf Ihre Erziehung hinweisen \"Es tut mir leid, wenn Du das so siehst. Aber ich bin so erzogen worden, dass man seinem Partner Freiheiten lässt.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Options",
+      "key": "757e40638a3d4fb9a3175c50101055a7",
+      "title": "Möchten Sie das Coaching 'Mit der eigenen Eifersucht umgehen' jetzt starten?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V86.flv",
+          "delay": 0
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "757e40638a3d4fb9a3175c50101055a7 is 1"
+        },
+        {
+          "to": null,
+          "if": "757e40638a3d4fb9a3175c50101055a7 is 2"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Stellen Sie Körperkontakt her\r\n\r\nDenken Sie daran, dass Ihr Partner einen Mangel hat. Dass heißt, dass sein Verhalten aus Unsicherheit resultiert oder daraus, dass er in einer vorhergehenden Beziehung betrogen wurde etc. Ihr Partner hat also eine Wunde - Angst verletzt zu werden oder Angst vor Kontrollverlust - , die heilen muss. Stellen Sie deswegen Körperkontakt her, denn körperliche Nähe hilft dabei, den Mangel Ihres Partners auszugleichen. \r\n\r\nNehmen Sie den Anderen in den Arm und damit meinen wir eine gute, feste Umarmung, die dem Anderen Sicherheit gibt. Nehmen Sie Ihrem Partner außerdem auch verbal die Angst, dass er irgendetwas verlieren könnte: \"Du hast das nicht nötig.\" oder \"Du bist ein toller Mensch und ich stehe zu Dir. Aber ich will nicht, dass Deine Eifersucht unsere Beziehung kaputt macht.\". Schließlich passiert genau das immer wieder.",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gehen Sie mit dem Verhaltensmuster um\r\n\r\nEs ist wichtig für Ihre Beziehung, dass Sie Ihren Partner akzeptieren und zwar inklusive seiner Eifersucht. Denn der Andere wird dieses Verhaltensmuster selten gänzlich ablegen. Wahrscheinlicher ist, dass er in verschiedenen Situationen immer eifersüchtig reagieren wird. Wie stark dieses Verhalten ausgeprägt ist, hängt davon ab, wie gut Sie beide in Ihrer Beziehung daran arbeiten.\r\n\r\nAber Sie sollten den Gedanken fallen lassen, dass Ihr Partner seine Eifersucht irgendwann total ablegt. Sie sollten daher dazu bereit sein, zu lernen, mit diesem Verhaltensmuster umzugehen. Wenn diese Bereitschaft bei Ihnen nicht vorhanden ist, ist Ihre Beziehung sehr wahrscheinlich zum Scheitern verurteilt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching rund um das Thema \"Mit der Eifersucht des Partners umgehen\". Wir hoffen Ihnen hilfreiche Anregungen mitgegeben zu haben und wünschen Ihnen viel Erfolg bei der Umsetzung!\r\n\r\nWenn Sie noch Fragen haben oder weitere Unterstützung wünschen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen. Sie können uns per E-Mail oder Telefon erreichen. Dazu gehen Sie bitte auf \"Hilfe/Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

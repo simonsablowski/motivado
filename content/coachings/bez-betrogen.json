@@ -1,0 +1,579 @@
+{
+  "key": "bez-betrogen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen in unserem Coaching zum Thema \"Betrogen worden - wie gehe ich damit um?\".\r\n\r\nIn Ihrer Situation wartet jetzt ein hartes Stück Arbeit auf Sie, denn ob Ihre Beziehung diesen Vertrauensbruch überstehen kann, hängt nicht nur an Ihrem Partner, sondern zum Großteil auch an Ihnen. In der nächsten Zeit werden wir unser Bestes tun, um Sie zu unterstützen.\r\n\r\nBitte beantworten Sie uns dazu zunächst folgende Frage:",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "rel_cheated",
+      "title": "Hatte oder hat Ihr Partner eine Affäre oder war es ein One-Night-Stand?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "aff",
+            "value": "Affäre"
+          },
+          {
+            "key": "ons",
+            "value": "One-Night-Stand"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003",
+          "if": "rel_cheated is 'ons'"
+        },
+        {
+          "to": "n004",
+          "if": "rel_cheated is 'aff'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Von einer Vertrauensperson enttäuscht zu werden, ist eine schwierige und schmerzhafte Situation - besonders dann, wenn es sich bei dieser Person um Ihren Partner handelt.\r\n\r\nAber eben auch genau weil es sich um Ihren Partner handelt, sollten Sie in dieser Situation keine überstürzten Entscheidungen treffen. Menschen sind nicht unfehlbar und Sie wären jetzt nicht hier, wenn Sie Ihrer Beziehung nicht eine zweite Chance geben wollten.\r\n\r\nUnser Coaching \"Beziehung nach One-Night-Stand weiterführen\" zeigt Ihnen Strategien, wie Sie mit Ihrer Situation umgehen. Wir zeigen Ihnen, was Ihnen hilft, sich mit dieser Situation auseinanderzusetzen und wie Sie das Vertrauen in Ihren Partner wieder aufbauen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Von einer Vertrauensperson enttäuscht zu werden, ist eine schwierige und schmerzhafte Situation - besonders dann, wenn es sich bei dieser Person um Ihren Partner handelt und Sie über einen längeren Zeitraum betrogen worden sind.\r\n\r\nAber eben auch genau weil es sich um Ihren Partner handelt, sollten Sie in dieser Situation keine überstürzten Entscheidungen treffen. Menschen sind nicht unfehlbar und Sie wären jetzt nicht hier, wenn Sie Ihrer Beziehung nicht eine zweite Chance geben wollten.\r\n\r\nUnser Coaching \"Beziehung nach Affäre weiterführen\" zeigt Ihnen Strategien, wie Sie mit Ihrer Situation umgehen. Wir zeigen Ihnen, was Ihnen hilft, sich mit dieser Situation auseinanderzusetzen und wie Sie das Vertrauen in Ihren Partner wieder aufbauen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Tipps zu Beginn",
+      "text": "Nehmen Sie sich Zeit\n\nBevor wir mit diesem Coaching richtig starten, sollten Sie sich bewusst sein, das Sie Zeit brauchen werden, um über den Vertrauensbruch hinwegzukommen. Nehmen Sie sich die Zeit, die Sie brauchen, um sich damit auseinanderzusetzen. Es wird Ihnen nicht helfen, wenn Sie sich selbst unter Zeitdruck setzen.\n\nInstrumentalisieren Sie nicht Ihre Kinder\n\nGanz gleich, was zwischen Ihnen und Ihrem Partner geschieht, ist es wichtig, dass Sie gegebenenfalls unter keinen Umständen Ihre Kinder in Ihren Streit etc. mit reinziehen. Vermeiden Sie also Schuldzuweisungen und Vorwürfe etc. vor den Augen Ihrer Kinder.\n\nAuch austauschende Gespräche mit Ihren Kindern über das Verhalten Ihres Partners sind absolut Tabu. Denken Sie daran, dass Kinder eben Kinder sind und Sie sie nicht als Freunde oder Psychologen etc. missbrauchen sollten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006",
+          "if": "rel_cheated is 'ons'"
+        },
+        {
+          "to": "n007",
+          "if": "rel_cheated is 'aff'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie diese beiden Hinweise beachten, haben Sie schon mal eine gute Grundlage geschaffen, auf der Sie nun mit Ihrer Situation umgehen können.\r\n\r\nBesonders schwierig an Ihrer Situation ist, dass Ihre Gefühle - Verletzung, Entäuschung, Wut etc. - oft zu einem Verhalten führen, das Ihren Partner noch weiter von Ihnen schiebt. Vorwürfe, Entzug körperlicher Nähe, Kontrollversuche oder immer wieder der Drang nach Vertrauensbeweisen führen dazu, dass Sie eine holprige Fortsetzung Ihrer Beziehung vorprogrammieren.\r\n\r\nDaher ist es wichtig, dass Sie eine klare Strategie aufstellen, nach der sich aber nicht nur Ihr Partner, sondern auch Sie selbst richten müssen. Im folgenden Werden wir Ihnen helfen, eine solche Strategie aufzubauen, aber auch mit Ihren Gefühlen umzugehen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie diese beiden Hinweise beachten, haben Sie schon mal eine gute Grundlage geschaffen, auf der Sie nun mit Ihrer Situation umgehen können.\r\n\r\nBesonders schwierig an Ihrer Situation ist, dass Ihre Gefühle - Verletzung, Entäuschung, Wut etc. - oft zu einem Verhalten führen, das Ihren Partner noch weiter von Ihnen schiebt. Vorwürfe, Entzug körperlicher Nähe, Kontrollversuche führen dazu, dass Sie weiterhin eine holprige Fortsetzung Ihrer Beziehung erleben werden.\r\n\r\nEs ist daher wichtig, dass Sie eine klare Strategie aufstellen, nach der sich aber nicht nur Ihr Partner, sondern auch Sie selbst richten müssen. Im folgenden Werden wir Ihnen helfen, eine solche Strategie aufzubauen, aber auch mit Ihren Gefühlen umzugehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Lassen Sie Ihre Gefühle raus",
+      "text": "Bevor Sie daran denken können, sich mit Ihrer Situation und dem Stand Ihrer Beziehung konstruktiv auseinanderzusetzen, müssen Sie Ihren Gefühlen Ausdruck verleihen. Ihre Wut, Trauer, Verzweiflung, Enttäuschung, Ärger, Ekel, Abscheu, Kummer, Besorgnis, Schwermut und/oder Herzschmerz müssen raus.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Klären der Situation",
+      "text": "Wenn Sie herausgefunden haben, dass Ihr Partner neben der Beziehung zu Ihnen eine Affäre hat, ist der wichtigste erste Schritt herauszufinden, ob Ihr Partner vorhat nun die Affäre zu beenden oder nicht. Das heißt, dass Sie ihm zur Rede stellen.\n\nSollte sich herausstellen, dass Ihr Partner dazu nicht bereits ist, müssen Sie sich die Frage stellen, ob es sich trotzdem lohnt für Ihren Partner zu kämpfen oder ob Sie womöglich dazu bereit sind, eine dritte Person zu dulden. Zudem müssen Sie unbedingt eine Antwort auf die Frage erhalten, wo die Prioritäten Ihres Partners liegen.\n\nSo sehr es auch schmerzt, kann es durchaus sein, dass sich Ihr Partner in die andere Person verliebt hat und Sie womöglich gegen Windmühlen kämpfen. Daher ist es sehr wichtig, dass Sie zunächst erst einmal grundlegend herausfinden, wie Ihr Partner zu ihrer Situation steht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "Gefahren, wenn Sie das nicht tun",
+      "text": "Gefühle auszudrücken ist immer wichtig, aber besonders in Ihrer Situation ein besonders wichtiger Prozess. Die eigenen Gefühle wollen gefühlt werden und können sich, wenn man dies nicht tut, gegen Sie selbst richten. So haben z.B. depressive Menschen oft unterdrückte Wut in sich, und diese sucht sich dann andere Wege und richtet sich letztendlich gegen sich selbst.\n\nZudem haben Gefühle, die unterdrückt werden und erst später hervorbrechen auch das Potential, alles, was Sie bis zu diesem Zeitpunkt in Ihrer Beziehung vielleicht schon wieder aufgebaut haben, einzureißen und zu zerstören.\n\nDamit Sie also die Chance haben, über den Vertrauensbruch Ihres Partners hinwegzukommen und in die Zukunft zu sehen, ist es sehr wichtig und notwendig, dass Sie Ihren Gefühlen freien Lauf lassen.\n\nIm Folgenden haben wir verschiedene Übungen für Sie, die Ihnen dabei helfen können, Ihre Gefühle zuzulassen und Sie so besser verarbeiten zu können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Was ist wenn...?",
+      "text": "Sollte Ihr Partner Ihnen zu verstehen geben, dass er die Beziehung zu Ihnen nicht weiterführen möchte, lassen Sie sich nur auf Situationen ein, mit denen Sie leben können. Auch wenn das bedeutet, dass Sie und Ihr Partner sich trennen werden - Sie müssen in dieser Situation daran denken, sich selbst nicht länger als nötig, einer schmerzhaften Erfahrung auszusetzen. Sie machen sich sonst kaputt.\n\nSollte es zwischen Ihnen und Ihrem Partner zu einer Trennung kommen, haben wir für Sie natürlich auch die richtigen Coachings, um eine Trennung gut zu verarbeiten und mit Liebeskummer richtig umzugehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es gibt viele verschiedene Wege, um Gefühle auszudrücken. Einer davon ist körperliche Betätigung. Sie ist eine gute Lösung, besonders um Wut loszuwerden. Ob Sie zu diesem Zweck einen Sandsack mit den Fäusten bearbeiten oder sich auf dem Laufband verausgaben, ist natürlich Ihre Entscheidung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Setzen Sie ein Ultimatum\r",
+      "text": "Wenn sich die Situation noch nicht geklärt hat und Ihr Partner Ihnen keine Entscheidung mitteilen kann, sollten Sie unbedingt ein Ultimatum setzen (etwa zwei Wochen), bis wann Sie eine Entscheidung erwarten. Wichtig ist, dass Sie sich selbst auch an dieses Ultimatum halten und entsprechende Konsequenzen ziehen, wenn es verstrichen ist.\n\nWie bereits gesagt, setzen Sie sich nicht länger als unbedingt nötig einer Situation aus, die für Sie eigentlich nicht tragbar ist. Es kann emotional und psychisch sehr anstrengend für Sie werden. Sie sollten das Ultimatum klar und hart aussprechen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "List",
+      "key": "rel_betrogenSicher_whatToDo",
+      "title": "Körperliche Betätigung",
+      "text": "Denken Sie jetzt darüber nach, welche Art körperlicher Betätigung Ihnen dabei helfen würde und schreiben Sie sie jetzt auf.",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen Sie eine Auszeit",
+      "text": "Haben Sie ein Ultimatum gesetzt, ist es sehr hilfreich, wenn Sie sich während dieser Zeit von Ihrem Partner eine Auszeit nehmen. Das bedeutet, dass Sie sich räumlich von Ihrem Partner entfernen und während dieser Zeit auch möglichst keinen Kontakt zu ihm haben.\n\nDiese Auszeit wird Ihnen und Ihrem Partner helfen, sich mit der Situation auseinanderzusetzen und für sich herauszufinden, was Sie eigentlich wollen. Wir haben im Folgenden einige Übungen für Sie zusammengestellt, die Ihnen helfen werden in dieser Zeit - und natürlich auch darüber hinaus - mit Ihren Gefühlen umzugehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Natürlich können Sie Ihren Gefühlen auch verbal Ausdruck verleihen. Schreien Sie, wenn nötig, in ein Kissen oder gehen Sie in den Wald und schreien Sie Ihren ganzen Frust und Ihre ganze Enttäuschung aus sich heraus.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "List",
+      "key": "rel_betrogenSicher_nameYourFriends",
+      "title": "Freunde und Bekannte",
+      "text": "Vielleicht hilft es Ihnen aber auch am besten, wenn Sie sich mit einem Bekannten oder einem Freund über Ihre Situation und Ihre Gefühle unterhalten können.\nÜberlegen, wen Sie anrufen können, wenn Sie von Ihrer Verzweiflung oder Wut etc. überwältigt werden. Schreiben Sie den Namen dieser Person auf.",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Unterstützung im Freundeskreis\r\n\r\n",
+      "text": "Wenn Sie sich Unterstützung in Ihrem Freundeskreis holen möchten, sollten Sie die entsprechende Person darauf vorbereiten, was genau auf sie zukommen wird. Denn egal, wie gut Ihre Freundschaft zu dieser Person auch ist - Sie gehen gerade durch eine sehr harte Phase in Ihrem Leben und das kann auch die beste Freundschaft belasten.\n\nDaher ist es wichtig, Ihrer Vertrauensperson von Anfang an zu sagen, dass Sie vermutlich in nächster Zeit sehr viel vergessen werden, sich in Gsprächen wiederholen werden, nur ein Thema kennen werden etc., dass Sie es aber sehr schätzen würden, wenn Ihre Vertrauensperson für Sie da wäre. Mit einer solchen Vorbereitung fällt es den meisten Menschen leichter, die schwierige Zeit gemeinsam mit Ihnen zu überstehen.\n\nWenn Sie möchten, können Sie die E-Mail-Adresse oder Telefonnummer Ihrer Vertrauensperson auch an uns schicken, damit wir mit dieser Person Kontakt aufnehmen und ihr helfen können, Sie in Ihrer Situation zu unterstützen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn es Ihnen hilft, sich durch Kreativität auszudrücken, sorgen Sie dafür, dass Sie jederzeit Ihr Musikinstrument, Ihr Notizbuch, Ihre Farben etc. in Ihrer Nähe haben. Nehmen Sie sich ausreichend Zeit dafür, Ihrer Kreativität freien Lauf zu lassen und reservieren Sie gegebenenfalls einen entsprechenden Termin in Ihrem Kalender.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Egal, welche Aktivität Ihnen hilft, Ihre Gefühle herauszulassen - sei es das Hören lauter Musik, tanzen zu gehen, Auto zu fahren, zu meditieren oder einige der eben genannten Dinge - schreiben Sie dies jetzt auf.\r\n\r\nÜberlegen Sie dabei welche dieser Aktivitäten Sie jederzeit tun können und welche nicht. Für den letztens Fall planen Sie extra Zeit ein und machen Sie jetzt einen Termin!",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Um alle Gedanken, die Ihnen in dieser Situation durch den Kopf schwirren herauszulassen, kann es sehr hilfreich sein, wenn Sie alles einmal aufschreiben. Schreiben Sie einen Brief an Ihren Partner, in dem Sie ihm Ihre Gedanken und Gefühle völlig ungefiltert mitteilen. \r\n\r\nDiesen Brief sollten Sie allerdings nicht abschicken, denn hier geht es nur darum, Ihnen ein Ventil für Ihre Gefühle zu zeigen. Wie Sie mit Ihrem Partner über das Geschehene sprechen, sollten Sie etwas reflektierter vorgehen. Im Folgenden werden wir Ihnen hilfreiche Strategien dazu zur Seite stellen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "Konfrontation und Aussprache mit dem Partner",
+      "text": "Natürlich ist es sehr wichtig, dass Sie Ihre Gefühle auch Ihrem Partner kommunizieren. Dass Sie wahrscheinlich das Bedürfnis haben, Ihrem Partner ins Gesicht zu schreien oder alles ungefiltert an den Kopf zu werfen, was Ihnen einfällt, ist verständlich.\n\nAllerdings sind Sie hier, weil Sie sich dazu entschieden haben, Ihrer Beziehung noch eine Chance zu geben. Daher sollten Sie in Ihrer Beziehung mit der Situation möglichst konstruktiv umgehen. Gegenseitige Beschuldigungen werden Ihnen wenig nutzen und können unter Umständen dazu führen, dass Ihre Beziehung zerbricht.\n\nGleichzeitig ist eine konstruktive Umgehensweise mit Ihrer Situation kein Garant dafür, dass Ihre Beziehung nicht doch scheitern kann. Wir haben einige Strategien für Sie, wie Sie sich möglichst reflektiert mit Ihrem Partner und Ihrer Beziehung auseinandersetzen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        },
+        {
+          "to": "n024",
+          "if": "rel_cheated is 'aff'"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "Vereinbaren Sie einen Termin",
+      "text": "So seltsam es auf den Blick scheinen mag, aber Sie sollten sich für Ihre Aussprache einen festen Termin setzen. Finden Sie einen Zeitpunkt, an dem Sie und Ihr Partner viel Zeit haben. Außerdem sollten bestenfalls schon ein paar Tage vergangen sein, seit Sie herausgefunden haben, dass Ihr Partner Sie betrogen hat. \n\nAuf diese Weise hatten Sie beide Zeit, sich mit ihrer Situation auseinander zu setzen und sich darüber klar zu werden, was Sie Ihrem Partner sagen wollen und welche Fragen Sie an Ihren Partner haben. Es ist wichtig, dass Sie deeskalierende Gespräche führen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "Eine neue Beziehung\r\n\r\n ",
+      "text": "Wenn das Ultimatum verstrichen ist und sich Ihr Partner dazu entscheidet, seine Affäre zu beenden, sollten Sie in Gedanken eine neue Beziehung mit Ihrem Partner beginnen. Lassen Sie die alte Beziehung und damit auch die Affäre Ihres Partners hinter sich.\n\nDamit Sie dieses Ziel erreichen können, haben wir im folgenden verschiedene Übungen und Strategien für Sie, die Sie dabei unterstützen, gemeinsam mit Ihrem Partner daran zu arbeiten, die Affäre zu verarbeiten und wieder in die Zukunft schauen zu können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "Deeskalierende Gespräche\r\n\r\n",
+      "text": "Zunächst hilft es in Ihrer Situation, wenn Sie sich beim Gespräch mit Ihrem Partner mit Ich-Aussagen ausdrücken. Das bedeutet, dass Sie Ihren Partner nicht mit Vorwürfen überhäufen, sondern sich in Ihren Äußerungen auf sich und Ihre Gefühle konzentrieren.\n\n\"Ich habe das und das gefühlt\" oder \"Ich fühle mich jetzt....\" statt \"Du hast das und das gemacht\" oder \"Du bist doch derjenige, der....\" Sagen Sie Ihrem Partner auch, in welcher Situation im Alltag es für Sie schwierig ist oder wird, Ihrem Partner zu vertrauen. Dadurch weiß Ihr Partner, wann es für Sie schwierig wird und kann sich darauf einstellen und Sie in den jeweiligen Situationen unterstützen.\n\nSeien Sie im Gespräch oder in den Gesprächen mit Ihrem Partner immer offen und ehrlich. Erwarten Sie diese Offenheit auch von Ihrem Partner und seien Sie vor allem auch bereits dafür, dass diese Gespräche Ihnen nicht leicht fallen werden. Es wird wahrscheinlich eher schmerzhaft sein, aber nur auf der Grundlage intensiver und ehrlicher Gespräche können Sie Ihre Beziehung wieder aufbauen und das Vertrauen zurückgewinnen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "Versuchen Sie, Ihren Partner zu verstehen",
+      "text": "Sie haben sich bereits dazu entschieden, Ihre Beziehung nach einem Vertrauensbruch weiterzuführen. Das bedeutet, dass Sie wirklich dazu bereit sein sollten, mit Ihrem Partner gemeinsam an einer Lösung zu arbeiten.\n\nDazu gehört auch, dass Sie versuchen sollten, Ihren Partner zu verstehen. Es ist sehr wichtig, über die Gründe zu sprechen, wodurch ein Vertrauensbruch verursacht wurde. Hören Sie Ihrem Partner genau zu und reagieren Sie wieder mit Ich-Aussagen. So kann Ihr Partner auf Ihre Gefühle reagieren, anstatt sich selbst permanent verteidigen zu müssen. Auf diese Weise nehmen Sie etwas von der Anspannung aus Ihrem Gespräch.",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "Vergewissern Sie sich",
+      "text": "Es ist besonders wichtig, dass Sie sich bei Ihrem Partner vergewissern, dass er ebenso wie Sie dazu bereit ist, alles zu tun, um Ihre Beziehung aufrecht zu erhalten. Dazu gehört natürlich, dass er sich bei Ihnen entschuldigt und bereits ist, offen über seinen Vertrauensbruch zu reden.\n\nWenn nur Sie Ihre Beziehung unbedingt weiterführen möchten, aber Ihr Partner nicht mindestens genauso viel Energie wie Sie in Ihre Beziehung zu stecken bereit ist, steht Ihre Beziehung unter keinem guten Stern. Unter Umständen sollten Sie dann eine Trennung erwägen, denn es kann ansonsten psychisch sehr anstrengend für Sie werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "Sich der Situation stellen\r\n\r\n",
+      "text": "Ihr Partner sollte also dazu bereit sein, sich wirklich ernsthaft mit der Situation auseinanderzusetzen und sich ihr zu stellen. Für Sie beide bedeutet das, dass Sie sich gemeinsam mit allen Fragen rund um das wann, wo, wie, wieso und mit wem beschäftigen.\n\nEs ist sehr wichtig, dass Sie Licht ins Dunkel bringen, damit sie beide daran arbeiten können, dass sich diese Situation nicht wiederholt. Finden Sie die Ursachen für den Vertrauensbruch des Partners und arbeiten Sie daran, Lösungswege dafür zu finden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "Was bedeutet Vertrauen?",
+      "text": "In diesem Zusammenhang ist es wichtig, dass Sie mit Ihrem Partner darüber sprechen, was Vertrauen für Sie beide bedeutet. Haben Sie die gleichen Vorstellungen von Vertrauen und Vertrauensbruch? Oder ist es für einen Partner schon wie ein Schlag ins Gesicht, wenn der andere (für Ihn harmlos) mit anderen Personen flirtet? Hat Ihr Partner eventuell kein Gefühl dafür, ab welchen Zeitpunkt er schon zu weit gegangen ist? \n\nÜberlegen Sie gemeinsam, ob Sie den selben Begriff von Vertrauen haben und wenn dies nicht der Fall ist, treffen Sie eine Absprache darüber, was erlaubt ist, und was nicht.\n\nWarum hat Ihr Partner Sie betrogen, ist eine Frage, deren Antwort Sie dringend diskutieren sollten, denn nur wenn Sie den Grund kennen, können Sie beide daran arbeiten, dass eine solche Situation nicht wieder entsteht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "Vertrauen wieder aufbauen",
+      "text": "Mit dem Partner darüber zu sprechen, warum er Sie betrogen hat, ist sicherlich eine schmerzhafte Erfahrung, aber denken Sie daran, dass Ihr verletztes Vertrauen in Ihren Partner nur durch Offenheit wieder aufgebaut werden kann. Fordern Sie daher nicht nur Offenheit von Ihrem Partner über das wie, wo und wann, sondern seien Sie auch offen, wenn es darum geht, ob Sie eventuell auch dazu hätten beitragen können, die Situation zu ändern.\n\nGanz bewusst sollten Sie sich auch über das Thema Sex unterhalten. Seien Sie auch hier offen dafür Ihr Sexleben zu verändern. Ob dies durch Spielzeuge, andere Stellungen, Literatur, Viagra etc. passiert, spielt dabei keine Rolle. Diskutieren Sie auch erlaubte Ventile für sich und Ihren Partner. Sind Pornos erlaubt? Darf der Partner flirten? Oder nur wenn er nicht unter Alkoholeinfluss steht? Setzen Sie klare Grenzen - auch für sich selbst - und halten Sie sich auch daran.\n\nWenn Sie nach dem Vertrauensbruch mit Ihrem Partner keinen Sex mehr haben wollen, machen Sie auch hier eine eindeutig Aussage darüber, wie lange dies so bleiben soll. Auch hier ist es wichtig, dass Sie sich an Ihre eigene Ansage halten. Wenn Sie bei diesem Thema ins straucheln kommen und hier keine Lösung finden können, sollten Sie es vielleicht in Betracht ziehen, die Beziehung doch zu beenden, denn Sexualität spielt eine große Rolle in jeder Beziehung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "List",
+      "key": "rel_betrogenSicher_partnerList",
+      "title": "Was kann Ihr Partner tun?",
+      "text": "Das ist genau die Frage, die sich Ihr Partner in ihrer Situation vermutlich pausenlos stellt. \"Was kann Ihr Partner tun, damit es Ihnen wieder besser geht?\"\n\nUnd damit Ihr Partner auch etwas tun kann, um Ihnen zu zeigen, dass er wie Sie ihre Beziehung erhalten möchte, können Sie zunächst völlig ungefiltert aufschreiben, was das sein könnte. Angefangen bei einer Weltreise, über einen gemeinsamen Kinoabend in der Woche bis hin zu mehr Hilfe im Haushalt - schreiben Sie jetzt auf, was immer Ihnen dazu einfällt.\n\nSehen Sie sich Ihre Liste nun noch einmal genau an und überprüfen Sie, welche der aufgeführten Dinge in der Realität für Ihren Partner machbar sind und besprechen Sie dann diese Liste mit Ihrem Partner. Handeln Sie aus, welche Dinge auf Ihrer Liste er tatsächlich übernehmen wird.",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "Verzeihen Sie Ihrem Partner\r\n\r\n",
+      "text": "Ein Vertrauensbruch ist schwer zu verkraften und noch lange nach einer solchen Situation sitzt der Gedanke daran noch immer im Hinterkopf. Das ist verständlich, aber sowohl für Ihre Beziehung als auch für Ihren inneren Frieden ist es sehr wichtig und notwendig, dass Sie Ihrem Partner verzeihen.\n\nDies ist ein langer Prozess und hängt vor allem davon ab, wie gut Sie sich gemeinsam mit Ihrem Partner mit Ihren Gefühlen auseinandersetzen. Wenn Sie auf lange Sicht merken, dass dieser Schritt für Sie nicht möglich ist, haben Sie und Ihr Partner noch sehr hohen Klärungs- und Aufarbeitungsbedarf.",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "List",
+      "key": "rel_betrogenSicher_thinkAbout",
+      "title": "Der Blick in die Zukunft",
+      "text": "Helfen kann Ihnen auf diesem Weg vor allem der Blick nach vorne. Wenn zwischen Ihnen und Ihrem Partner eindeutig geklärt ist, dass es sich um einen Ausrutscher gehandelt hat, unterbrechen Sie negative Gedanken sobald Sie aufkommen. Konzentrieren Sie sich auf Ihre Zukunft.\n\nÜberlegen Sie sich, woran Sie denken können, sobald bei Ihnen negative Gedanken aufkommen und schreiben Sie dies jetzt auf.",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "Beziehungsvision aufbauen",
+      "text": "Nach einem Vertrauensbruch ist es zwar wichtig herauszufinden, aus welchem Grund es dazu kommen konnte, aber ebenso wichtig ist es auch, dass Sie gemeinsam mit Ihrem Partner wieder nach vorne schauen sollten. Das heißt, dass Sie wieder gemeinsam an einer Beziehungsvision arbeiten sollten.\n\nEs ist notwendig, dass Sie mit Ihrem Partner klären, welche Erwartungen Sie beide an Ihre Beziehung und Ihre Zukunft haben. Zu diesem Thema empfehlen wir Ihnen unser Coaching \"Beziehungsvision\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Manchmal kann es vorkommen, dass körperliche Schmerzen auftreten, wenn immer Sie an den Seitensprung Ihres Partners denken. Sich auf die Zukunft zu konzentrieren, reicht dann nciht immer aus.\r\n\r\nDaher nehmen Sie sich bei körperlichen Beschwerden ein paar Minuten Zeit und atmen Sie ruhig und tief genau in die Stelle Ihres Körpers, an der Sie Schmerz verspüren. Wenn Sie ausatmen, stellen Sie sich vor, dass der Schmerz Ihren Körper verlässt.\r\n\r\nDiese Technik benötigt mehrere Minuten und braucht auch etwas Übung, daher nehmen Sie sich Zeit und wiederholen Sie sie mehrmals.",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "Respekt verschaffen",
+      "text": "Viele Menschen fühlen sich Ihrem Partner gegenüber nach einem Seitensprung nicht mehr ebenbürtig. Damit Sie sich in Ihrer Beziehung aber wohl fühlen können und sich ernst genommen verstehen, ist es wichtig, dass Sie auf der selben Stufe stehen wie Ihr Partner. \n\nDafür empfehlen wir Ihnen an dieser Stelle unser Coaching zum Thema \"Balance in einer Beziehung\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "Werden Sie aktiv\r\n\r\n",
+      "text": "Nachdem Sie herausgefunden haben, was die Ursachen für den Seitensprung Ihres Partners waren, sollten Sie aktiv werden und dafür sorgen, dass Sie Änderungen durchsetzen.\n\nSprechen Sie dabei nicht nur - wie bereits gesagt - über das Thema Sex und eventuelle unerfüllte sexuelle Wünsche Ihres Partners. Verändern Sie statt dessen auch Ihre Routine im Alltag. Dabei geht es nicht unbedingt darum, große Gesten zu vollbringen, sondern vielleicht endlich einfach das zu tun, was Sie schon immer mal machen wollten.\n\nWollten Sie schon lange in ein bestimmtes Restaurant - gehen Sie hin. Wollten Sie schon immer einen Tanzkurs machen - tragen Sie sich ein. Wollten Sie schon lange ein Wochenende an der Ostsee verbringen - fahren Sie hin. Brechen Sie aus Ihrem Alltag aus.",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "Selbstbewusstseinsübung",
+      "text": "Unter einem Seitensprung des Partners leidet ganz besonders das Selbstbewusstsein. Oft fragt man sich \"Bin ich nicht gut genug?\" oder \"Was hat der Andere, was ich nicht habe?\". Um an Ihrem Selbstbewusstsein arbeiten zu können und Ihren Selbstwert nicht von dem Verhalten anderer Personen abhängig zu machen, empfehlen wir Ihnen unser Coaching zum Thema \"Selbstbewusstsein\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "Ihre Attraktivität fördern",
+      "text": "Nachdem der Vertrauensbruch Ihres Partners vermutlich sehr an Ihrem Selbstbewusstsein gekratzt hat, ist es wichtig, dass Sie etwas für sich selbst tun.\n\nOb Sie sich mit neuer Kleidung eindecken, ein neues Hobby beginnen oder sich in den Sport stürzen, ist ganz egal. Die Hauptsache ist, dass es Ihnen gut tut und entweder direkten Einfluss auf Ihre Attraktivität hat oder durch Ihr Wohlgefühl indirekt Ihre Ausstrahlung unterstreicht.\n\nDie eigene Attraktivität in Ihrer Situation zu erhöhen, ist nicht nur nötig, um sich vorm Partner wieder begehrenswert zu fühlen, sondern auch, um wieder ein gutes Gefühl für den eigenen Körper zu bekommen. In unserem Coaching \"Locken und Reizen\" zeigen wir Ihnen die Strategie, wie Sie Ihren Partner locken und verführen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "Urlaub machen",
+      "text": "Damit Sie zu Ihrem Partner wieder eine tiefere Bindung aufbauen können, kann es sehr hilfreich sein, wenn Sie gemeinsam für eine Weile in den Urlaub fahren und auf diese Weise Ihre Probleme vor allem örtlich bedingt hinter sich lassen. Ein Ortswechsel hilft Ihnen vor allem dabei, dass Sie sich wieder ganz auf Sie selbst und Ihre Beziehung konzentrieren können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching rund um das Thema \"Betrogen worden\". Wir hoffen Ihnen hilfreiche Anregungen mitgegeben zu haben und wünschen Ihnen viel Erfolg bei der Umsetzung!\r\n\r\nWenn Sie noch Fragen haben oder weitere Unterstützung wünschen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen. Sie können uns per E-Mail oder Telefon erreichen. Dazu gehen Sie bitte auf \"Hilfe/Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

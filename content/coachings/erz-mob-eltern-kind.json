@@ -1,0 +1,979 @@
+{
+  "key": "erz-mob-eltern-kind",
+  "domain": "erz",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Wir zeigen Ihnen in diesem Coaching, wie Sie:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V4.flv"
+        },
+        "elements": [
+          {
+            "element": "mit Ihrem Kind umgehen",
+            "second": 7
+          },
+          {
+            "element": "miteinander reden",
+            "second": 9
+          },
+          {
+            "element": "souverän bleiben",
+            "second": 16
+          },
+          {
+            "element": "sich selbst stärken",
+            "second": 20
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Gut, dass Sie da sind",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Was braucht Ihr Kind jetzt?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Ihr Verständnis",
+            "second": 13
+          },
+          {
+            "element": "2. gut informierte Eltern",
+            "second": 17
+          },
+          {
+            "element": "3. gemeinsame Zeit",
+            "second": 22
+          },
+          {
+            "element": "= einen sicheren Hafen",
+            "second": 28
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "05ba82aff5204e2d84b6016a22a3c340",
+      "title": "Haben Sie jeden Tag Zeit, sich ausgiebig mit Ihrem Kind zu beschäftigen, oder ist diese Zeit nur am Wochenende vorhanden?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "05ba82aff5204e2d84b6016a22a3c340 is 1"
+        },
+        {
+          "to": "n006",
+          "if": "05ba82aff5204e2d84b6016a22a3c340 is 2"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V32.flv"
+        },
+        "elements": [
+          {
+            "element": "Zeit bewusst nutzen",
+            "second": 6
+          },
+          {
+            "element": "Termine einhalten",
+            "second": 14
+          },
+          {
+            "element": "Ihr Kind braucht jetzt Verlässlichkeit!",
+            "second": 28
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Zeit schaffen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V33.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Ziel sollte sein, dass Sie jeden Tag mindestens 15-30 Minuten ungestört Zeit mit Ihrem Kind verbringen. In dieser Zeit sollten Sie sich voll und ganz Ihrem Kind widmen und z.B. nicht durch den Fernseher oder Anrufe abgelenkt werden.\r\nDurch dieses tägliche Ritual wird sich die Beziehung mit Ihrem Kind festigen und weiterentwickeln. Das ist dann die Grundlage dafür, dass sich Ihr Kind öffnet und alle Informationen über das Mobbing mit Ihnen teilt.\r\nBei der Terminwahl ist es wichtig, dass Sie Ihr Kind in die Planung miteinbeziehen. Stimmen Sie sich mit Ihrem Kind ab und finden Sie Termine, die für Sie beide gut passen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "TextArea",
+      "key": "IdeenGemeinsameZeit",
+      "title": "",
+      "text": "Für Ihr Kind ist es momentan besonders wichtig, in Ihnen einen verlässlichen Ansprechpartner zu haben. Überlegen Sie daher bitte jetzt, welchen Weg es gibt, dass Sie täglich ca. 15 Minuten mit Ihrem Kind ohne Störungen sprechen können.\r\nVielleicht können Sie Ihre Pause auf der Arbeit so legen, dass Ihr Kind zu Hause erreichbar ist? Vielleicht können Sie morgens 15 Minuten früher aufstehen, um gemeinsam in Ruhe zu frühstücken?\r\nSeien Sie kreativ und tragen Sie Ihre Ideen hier ein. Wenn Sie stocken, holen Sie sich gerne Unterstützung von unseren Experten!\r\nBitte beachten Sie hierbei, dass Sie Ihr Kind in die Planung miteinbeziehen. Stimmen Sie sich mit Ihrem Kind ab und finden Sie Termine, die für Sie beide gut passen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Damit wir unser Coaching noch detaillierter auf Sie abstimmen können, beantworten Sie uns im Folgenden bitte noch einige Fragen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "3cb4952c177347d69d87f0e14010887b",
+      "title": "Wie alt ist ihr Kind?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Unter 11"
+          },
+          {
+            "key": 2,
+            "value": "11 und älter"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "3cb4952c177347d69d87f0e14010887b is 1"
+        },
+        {
+          "to": "n011",
+          "if": "3cb4952c177347d69d87f0e14010887b is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "2db0eb64fe4b41d68ceb3a328d73a3b9",
+      "title": "Redet Ihr Kind regelmäßig über vertrauliche Dinge mit Ihnen, z.B. ob es gemobbt wird?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n012",
+          "if": "2db0eb64fe4b41d68ceb3a328d73a3b9 is 1"
+        },
+        {
+          "to": "n013",
+          "if": "2db0eb64fe4b41d68ceb3a328d73a3b9 is 2"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Wunderbar! Sie scheinen eine vertrauensvolle Beziehung zu Ihrem Kind zu haben. \r\nDas ist eine tolle Grundlage, um in schwierigen Situation gemeinsam eine Lösung zu finden.\r\nAchten Sie bitte zusätzlich auf die folgenden Punkte.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie sich davon bitte nicht verunsichern. \r\n\r\nGerade wenn ein Kind Opfer von Mobbing geworden ist, fällt es ihm/ihr manchmal sehr schwer, den eigenen Eltern davon zu erzählen.\r\nDie Kinder wollen meist vermeiden, dass die Eltern sich zu viele Sorgen machen. Auch Scham spielt hier manchmal eine Rolle.\r\n\r\nWir werden Ihnen dabei helfen, sich Ihrem Kind so zuzuwenden, dass es sich Schritt für Schritt öffnet. \r\nDavon werden Sie und Ihr Kind nicht nur in Bezug auf das Mobbing, sondern auch langfristig profitieren, da es Ihre Beziehung zusätzlich stärkt.\r\nDer erste Schritt ist es nun, regelmäßig Zeit mit Ihrem Kind zu verbringen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Ihr Kind soll spüren:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V24.flv"
+        },
+        "elements": [
+          {
+            "element": "Sie sind stark",
+            "second": 13
+          },
+          {
+            "element": "Sie wissen was Sie tun",
+            "second": 22
+          },
+          {
+            "element": "Sie haben keine Angst",
+            "second": 27
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V26.flv"
+        },
+        "elements": [
+          {
+            "element": "Ruhe bewahren",
+            "second": 25
+          },
+          {
+            "element": "genau zuhören",
+            "second": 27
+          },
+          {
+            "element": "empathisch sein",
+            "second": 30
+          },
+          {
+            "element": "souverän bleiben",
+            "second": 40
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Sie möchten mehr über Empathie erfahren und wie Sie sich empathisch verhalten können? Dann laden Sie sich hier unser Merkblatt runter:",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Merkblatt Empathie",
+            "file": "EDU_Merkblatt_Empathie.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Damit es Ihnen gelingt, in den Gesprächen mit Ihrem Kind ruhig zu bleiben, ist es wichtig, dass Sie sich auch mit Ihren eigenen Gefühlen auseinandersetzen.\r\nAuch Sie sind momentan vermutlich sehr emotional. Sie haben Angst um Ihr Kind, Sie sind wütend auf die Täter.\r\nAll diese Reaktionen sind verständlich und zeigen, dass Sie Ihr Kind lieben.\r\nAber: Ihr Kind darf von diesen Gefühlen nichts mitbekommen.\r\nStellen Sie sich vor, Sie werden überfallen und gehen danach zur Polizei. Welche Gefühle würde es wohl in Ihnen auslösen, wenn auch die Polizei nun in Panik gerät?\r\n\r\nDeshalb raten wir Ihnen: Lassen Sie Ihre Gefühle an anderer Stelle heraus. Schlucken Sie sie nicht runter, sondern sprechen Sie mit Ihren Freunden, mit Ihrem Partner oder anderen Familienangehörigen darüber.\r\nLassen Sie Ihre Wut z.B. beim Sport raus.\r\n\r\nGeben Sie auf sich acht, damit Sie Ihrem Kind gegenüber Stärke ausstrahlen können!",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Oft liegt das Problem in der Kommunikation auch darin, dass das Kind sehr verschlossen ist und sich nicht mitteilt.\r\nDie Eltern spüren sehr genau, dass etwas nicht in Ordnung ist, wissen aber nicht, wie sie Ihr Kind zum Reden motivieren können.\r\nWas Sie in dieser Situation machen können, zeigen wir Ihnen jetzt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Wenn Sie mit Ihrem Kind über das Mobbing sprechen möchten:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V29.flv"
+        },
+        "elements": [
+          {
+            "element": "behutsam einsteigen",
+            "second": 12
+          },
+          {
+            "element": "einfache Fragen stellen",
+            "second": 20
+          },
+          {
+            "element": "Thema nicht direkt ansprechen",
+            "second": 39
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V30.flv"
+        },
+        "elements": [
+          {
+            "element": "langsam konkreter werden",
+            "second": 12
+          },
+          {
+            "element": "Ich-Botschaften verwenden",
+            "second": 40
+          },
+          {
+            "element": "Ihre Liebe zeigen",
+            "second": 60
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was meinen wir, wenn wir sagen: Vermeiden Sie Du-Botschaften?\r\n\r\nDu-Botschaften stehen den sogenannten Ich-Botschaften gegenüber.\r\n\r\nBei Du-Botschaften spricht man grob gesagt über den Anderen, bei Ich-Botschaften bleibt man mehr bei sich und sagt, was man beobachtet hat oder was einem aufgefallen ist.\r\nDas Problem bei Du-Botschaften ist, dass sie schnell wie Anschuldigungen oder Unterstellungen wirken. Der Andere fühlt sich dann schnell angegriffen und zieht sich eher zurück.\r\n\r\nVersuchen Sie daher stets Ihre Aussagen abzuschwächen, indem Sie mit einer Ich-Formulierung einsteigen.\r\n\r\nHier sehen Sie einige Beispiele:\r\n\r\nSchlecht: Du bist immer traurig.\r\nBesser: Ich habe gemerkt, dass Du häufig nach der Schule traurig bist. Magst Du mir davon erzählen? \r\n\r\nSchlecht: Du lässt Dich von den Kinder in der Schule ärgern.\r\nBesser: Mir ist aufgefallen, dass Du oft erzählst, dass die Kinder in der Schule gemein zu Dir waren.\r\n\r\nSchlecht: Wenn Du mir nicht erzählst, was los ist, kann ich Dir nicht helfen.\r\nBesser: Ich würde Dir gerne helfen. Deshalb wäre es schön, wenn Du mir erzählst, was in der Schule passiert. Dann können wir gemeinsam überlegen, was wir dagegen tun können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie können Sie ihr Kind spüren lassen, dass Sie es lieben?\r\n\r\nIm Gespräch können Sie das z.B. über folgende Dinge machen:\r\n\r\n1. Schauen Sie Ihr Kind interessiert und freundlich an\r\n2. Nutzen Sie kleine zärtliche Gesten, wie eine Hand auf der Hand Ihres Kindes, eine Umarmung und/oder einen Kuss\r\n3. Sitzen oder stehen Sie so, dass Ihr Kind Ihnen in die Augen schauen kann\r\n4. Binden Sie in das Gespräch kleine Liebesbekundungen ein, z.B. \"Ich würde Dir gerne helfen, weil ich Dich so lieb habe.\" \r\n5. Machen Sie Ihrem Kind Komplimente: \"Ich finde es toll, dass Du mir beim Kochen hilfst. Den Tisch hast Du richtig toll gedeckt.\"\r\n6. Akzeptieren Sie, wenn Ihr Kind nicht reden möchte. Hier können Sie z.B. sagen: \"Ich kann verstehen, dass Du jetzt nicht mit mir sprechen möchtest. Mir ist wichtig, dass Du weißt, dass Du jederzeit zu mir kommen kannst.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Am Ende des Gesprächs:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V27.flv"
+        },
+        "elements": [
+          {
+            "element": "Lob aussprechen",
+            "second": 17
+          },
+          {
+            "element": "Mut machen",
+            "second": 36
+          },
+          {
+            "element": "Stärke zeigen",
+            "second": 51
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben nun schon eine Menge Informationen erhalten, worauf Sie im Gespräch mit Ihrem Kind achten sollten.\r\nIm folgenden haben wir einige Beispiele für Sie zusammengetragen, wie Sie eine Atmosphäre schaffen, damit sich Ihr Kind Ihnen öffnet und es so überhaupt erst zu einem Gespräch kommt.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Options",
+      "key": "a208b8d2ee2d4a6eaa66f232f248062c",
+      "title": "Welches Beispiel möchten Sie sich anschauen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter im Coaching"
+          },
+          {
+            "key": 2,
+            "value": "Puppen und Teddy"
+          },
+          {
+            "key": 3,
+            "value": "Gemeinsam kochen"
+          },
+          {
+            "key": 4,
+            "value": "Eine Höhle bauen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n026",
+          "if": "a208b8d2ee2d4a6eaa66f232f248062c is 1"
+        },
+        {
+          "to": "n027",
+          "if": "a208b8d2ee2d4a6eaa66f232f248062c is 2"
+        },
+        {
+          "to": "n028",
+          "if": "a208b8d2ee2d4a6eaa66f232f248062c is 3"
+        },
+        {
+          "to": "n029",
+          "if": "a208b8d2ee2d4a6eaa66f232f248062c is 4"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Options",
+      "key": "5ed78303673642eb80a260a849a149cd",
+      "title": "Folgende Dinge können leicht schieflaufen:",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Das falsche Tempo"
+          },
+          {
+            "key": 2,
+            "value": "Falscher Zeitpunkt für Gespräche"
+          },
+          {
+            "key": 3,
+            "value": "Zum Ende dieses Coachings"
+          },
+          {
+            "key": 4,
+            "value": "Kopfloses Verhalten"
+          },
+          {
+            "key": 5,
+            "value": "Falsche Prioritäten"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n030",
+          "if": "5ed78303673642eb80a260a849a149cd is 1"
+        },
+        {
+          "to": "n031",
+          "if": "5ed78303673642eb80a260a849a149cd is 2"
+        },
+        {
+          "to": "n032",
+          "if": "5ed78303673642eb80a260a849a149cd is 3"
+        },
+        {
+          "to": "n033",
+          "if": "5ed78303673642eb80a260a849a149cd is 4"
+        },
+        {
+          "to": "n034",
+          "if": "5ed78303673642eb80a260a849a149cd is 5"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "So gehen Sie vor:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V36.flv"
+        },
+        "elements": [
+          {
+            "element": "Plüschtiere auswählen",
+            "second": 11
+          },
+          {
+            "element": "Rollen verteilen",
+            "second": 18
+          },
+          {
+            "element": "intensiv spielen",
+            "second": 39
+          },
+          {
+            "element": "Fragen stellen",
+            "second": 45
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "So gehen Sie vor:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V37.flv"
+        },
+        "elements": [
+          {
+            "element": "Gericht auswählen",
+            "second": 11
+          },
+          {
+            "element": "Aufgaben verteilen",
+            "second": 32
+          },
+          {
+            "element": "einfache Fragen stellen",
+            "second": 58
+          },
+          {
+            "element": "sich dem Thema nähern",
+            "second": 118
+          },
+          {
+            "element": "Geduld haben",
+            "second": 143
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "So gehen Sie vor:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V35.flv"
+        },
+        "elements": [
+          {
+            "element": "eine Höhle bauen",
+            "second": 12
+          },
+          {
+            "element": "ein Märchen vorlesen",
+            "second": 23
+          },
+          {
+            "element": "Fragen stellen",
+            "second": 43
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V39.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V42.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Dieses Dokument fasst zusammen, wie Sie der \"sichere Hafen\" bzw. der \"Fels in der Brandung\" für Ihr Kind werden:",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "So werde ich der sichere Hafen für mein Kind",
+            "file": "EDU_Zusammenfassung_Hafen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V40.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V41.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Options",
+      "key": "8ae33ce3fc734787b9159b72bcedd909",
+      "title": "Welches Beispiel möchten Sie sich nun anschauen?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Zum Ende dieses Coachings"
+          },
+          {
+            "key": 2,
+            "value": "Kopfloses Verhalten"
+          },
+          {
+            "key": 3,
+            "value": "Das falsche Tempo"
+          },
+          {
+            "key": 4,
+            "value": "Falsche Prioritäten"
+          },
+          {
+            "key": 5,
+            "value": "Falscher Zeitpunkt für Gespräche"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032",
+          "if": "8ae33ce3fc734787b9159b72bcedd909 is 1"
+        },
+        {
+          "to": "n037",
+          "if": "8ae33ce3fc734787b9159b72bcedd909 is 2"
+        },
+        {
+          "to": "n038",
+          "if": "8ae33ce3fc734787b9159b72bcedd909 is 3"
+        },
+        {
+          "to": "n039",
+          "if": "8ae33ce3fc734787b9159b72bcedd909 is 4"
+        },
+        {
+          "to": "n040",
+          "if": "8ae33ce3fc734787b9159b72bcedd909 is 5"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "ListView",
+      "key": null,
+      "title": "So erreichen Sie unsere Experten:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V50.flv"
+        },
+        "elements": [
+          {
+            "element": "1. Per E-Mail unter contact@simsab.net",
+            "second": 0
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V40.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V39.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V41.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "EDU_ElternKind_V42.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    }
+  }
+}

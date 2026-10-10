@@ -1,0 +1,30 @@
+{
+  "key": "bez-kennenlernen-restmoeglichkeiten",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Aufbau",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

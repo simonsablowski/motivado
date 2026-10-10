@@ -1,0 +1,179 @@
+{
+  "key": "kar-was-passt",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro was passt zu mir?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_CharaEigen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihr Charakter\r\n\r\nNeben Kompetenzen und Fähigkeiten zeichnen jeden Menschen Charaktereigenschaften aus, die ihn einzigartig machen. \r\nWir möchten nun gemeinsam mit Ihnen rausfinden: Welche persönlichen Eigenschaften machen Sie zu dem, der Sie sind?\r\n\r\nLassen Sie sich bitte nicht irritieren, wenn Sie an dieser Stelle einige Überschneidungen mit Ihren personalen Kompetenzen feststellen. Die Übergänge sind fließend. \r\nWir sammeln noch einmal Ihre Charaktereigenschaften, damit Sie auch auf die Frage: \"Wie sind Sie denn so als Mensch?\" Ihre Antwort bereits parat haben. Oft möchte der Arbeitgeber durch diese Frage herausfinden, ob Sie in das bestehende Team passen. Hier gibt es also kein Richtig oder Falsch - es geht darum, Sie kennenzulernen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hier sehen Sie eine Liste mit zahlreichen Charaktereigenschaften. Bitte wählen Sie max. 8 aus, von denen Sie glauben, dass sie Sie am besten beschreiben. \r\n\r\nUnser Tipp:\r\nWenn Sie sich später im Vorstellungsgespräch beschreiben, ist es wichtig, dass Sie Beispiele anbringen können, um wirklich glaubhaft zu wirken. Notieren Sie daher bitte zu jeder ausgewählten Eigenschaft eine oder mehrere Situationen, in denen man erkennen konnte, dass Sie diese Eigenschaft besitzen.  \r\n\r\nHierzu ein Beispiel: Ich bin zuverlässig. Wenn ich mich z.B. auf einen Abgabetermin festgelegt habe, halte ich diesen auch ein.\r\n\r\nCharaktereigenschaften\r\n\r\nIch bin...\r\n\r\nabenteuerlustig\r\nanpassungsfähig\r\naufgeschlossen\r\nausdauernd\r\nbegeisterungsfähig\r\nbeschützend\r\nbesonnen\r\ndiplomatisch\r\ndominant\r\nehrlich\r\neinfallsreich\r\nenthusiastisch\r\nextrovertiert\r\nflexibel\r\nfreundlich\r\ngeduldig\r\ngefühlsbetont\r\ngerecht\r\ngründlich\r\nhumorvoll\r\nimpulsiv\r\ninnovativ\r\nintrovertiert\r\nkontaktfreudig\r\nkonservativ\r\nkooperativ\r\nkreativ\r\nlebhaft\r\nleistungsorientiert\r\nlernbereit\r\nloyal\r\nmutig\r\nneugierig\r\noffen\r\nordentlich\r\nordnungsliebend\r\npflichtbewusst\r\npragmatisch\r\npünktlich\r\nrational\r\nrealistisch\r\nruhig\r\nsachorientiert\r\nschlagfertig\r\nschüchtern\r\nselbstsicher\r\nsensibel\r\nselbstkritisch\r\nsicherheitsbewusst\r\nsorgfältig\r\nspontan\r\ntolerant\r\nunkompliziert\r\nunterstützend\r\nverantwortungsbewusst\r\nverlässlich\r\nvernünftig\r\nverständnisvoll\r\nvertrauenswürdig\r\nwillensstark\r\nzielstrebig\r\nzuverlässig",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "kar_was_passt_eigenschaften",
+      "title": "Notieren Sie jetzt bitte bis zu acht Eigenschaften, die Sie an sich beobachtet haben. \r\nSuchen Sie am besten die Eigenschaften aus, die Sie auch im Vorstellungsgespräch auf die Frage anbringen könnten: Warum sollten wir Sie einstellen?",
+      "text": "",
+      "props": {
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sich selbst zu beschreiben, fällt manchmal schwer. Vielleicht kennen Sie das: während Sie von sich selbst denken, Sie seien im Grunde ein ausgeglichener Mensch, bekommen Sie von Ihren Freunden und Bekannten die Rückmeldung, Sie würden häufig viel zu schnell an die Decke gehen. Daher empfehlen wir Ihnen: fragen Sie gute Bekannte, Freunde, Kollegen oder Familienangehörige um Rat, wenn es darum geht, Ihren Charakter einzuschätzen. \r\n\r\nBis zum nächsten Coaching gehen Sie daher bitte die Liste mit den Charaktereigenschaften durch und bitten Sie einen Freund oder einen Ihnen nahe stehenden Menschen maximal acht Eigenschaften auszuwählen, die Sie am besten beschreiben. Wenn Sie uns eine Email unter contact@simsab.net senden, schicken wir Ihnen die Liste gerne zu.\r\n\r\nVergleichen Sie danach seine Antworten mit Ihren: wo finden Sie Gemeinsamkeiten, wo Unterschiede? Wie realistisch haben Sie sich selbst eingeschätzt? \r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für Ihr Ziel 'Neuer Job' spielen auch Ihre beruflichen Interessen eine bedeutsame Rolle. Die beste Leistung bringt man schließlich immer dann, wenn das, was man tut, Spaß macht.\r\nBeachten Sie aber bitte auch, Ihr Ziel schnell zu einem unrealistischen Vorhaben werden kann, wenn Sie bei Ihrer zukünftigen Jobwahl ausschließlich nach Ihren persönlichen Interessen gehen. Nach einer Karriere als Rechtsanwalt noch einmal auf den Pilotenberuf umzusatteln kann Sie z.B. vor unlösbare Herausforderungen stellen.\r\n\r\nMit Hilfe der nächsten Übung wollen wir gemeinsam Ihre aktuellen beruflichen Interessen herausfinden. Wichtig dabei ist, dass Sie ehrlich zu sich sind. Es hilft nichts, wenn Sie angeben, gern neue Herausforderungen anzunehmen, dabei jedoch totunglücklich sind, wenn Sie sich jedes Mal wieder von vorn neu einarbeiten müssen.  \r\n\r\nKlicken Sie auf \"Nächster Schritt\", um Ihren beruflichen Interessen auf den Grund zu gehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Denken Sie nun bitte an Ihren aktuellen bzw. letzten Job (wenn Sie Berufseinsteiger sind, können Sie auf Erfahrungen aus Nebenjobs oder aus der Schulzeit zurückgreifen): \r\nWelche Tätigkeiten und Aufgaben waren / sind besonders spannend für Sie? Gibt es Aufgaben, in denen Sie so richtig aufgehen und darüber Raum und Zeit vergessen? Welche sind das?",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "List",
+      "key": "kar_was_passt_FreudeAufgaben",
+      "title": "Bitte notieren Sie die wichtigsten Punkte!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Welche Tätigkeiten bereiteten Ihnen weniger Freude? Welche Ihrer Aufgaben erledigten Sie meist erst unter Druck?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "List",
+      "key": "kar_was_passt_KeineFreudeAufgaben",
+      "title": "Bitte notieren Sie auch hierzu die wichtigsten Punkte!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön. Nun haben Sie also nochmal ein konkreteres Bild davon, was Ihnen im Arbeitsleben Freude bereitet.\r\nGemeinsam mit Ihren Stärken und Eigenschaften, formen Sie daraus im nächsten Schritt Ihre persönliche berufliche Vision. \r\n\r\nDamit sind wir am Ende des Coachings \"Was passt zu mir?\" angelangt. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "\rAufgabe zu dem Coaching \"Was passt zu mir?\"",
+      "text": "Bis zu unserem nächsten Coaching denken Sie bitte an die Aufgabe, die wir Ihnen ans Herz gelegt haben. Zur Erinnerung: Bitte lassen Sie eine vertraute Person acht Charaktereigenschaften aus der Liste auswählen und vergleichen Sie diese Angaben mit Ihren eigenen.\nViel Spaß dabei!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

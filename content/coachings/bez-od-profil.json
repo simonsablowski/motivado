@@ -1,0 +1,558 @@
+{
+  "key": "bez-od-profil",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Vorbereitung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "edategender",
+      "title": "Ein kurze Frage vorweg:\nSind ein Mann oder eine Frau?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateEdarling_V7.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Mann"
+          },
+          {
+            "key": 2,
+            "value": "Frau"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "edategender is 1"
+        },
+        {
+          "to": "n006",
+          "if": "edategender is 2"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "männliches Profil",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "weibliches Profil",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Nickname",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Persönlichkeits-Test",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Bild",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Frage-Antwort-Teil",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Mischung aus populär und extrem",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Kleine Lügen im Profil",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V34.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Anmerkung zu Sport",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Zurück zu den Fragen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Video",
+      "key": null,
+      "title": "Mühe geben-Unerfolgreich",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Peppiger schreiben",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Video",
+      "key": null,
+      "title": "Freunde fragen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Video",
+      "key": null,
+      "title": "Gute Mischung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Video",
+      "key": null,
+      "title": "Unser Input",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "Hier können Sie sich unsere Bespielantworten zusammengefasst in einem Dokument runterladen.\r\nViel Spaß beim Stöbern!",
+      "text": "",
+      "props": {
+        "documents": [
+          {
+            "name": "Beispielantworten Online-Profil",
+            "file": "REL_OD_Profil_Beispielantworten.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Video",
+      "key": null,
+      "title": "Welcher Bewusstseinszustand hilft",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V24a.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Video",
+      "key": null,
+      "title": "Nicht 100% so beantworten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V24b.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Video",
+      "key": null,
+      "title": "No Go´s",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Video",
+      "key": null,
+      "title": "Keine Smiley, zu harte Ironie",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V26.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Video",
+      "key": null,
+      "title": "Keine Abkürzungen, kein Slang",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V27.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Video",
+      "key": null,
+      "title": "Noch einmal genau durchlesen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V28.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Video",
+      "key": null,
+      "title": "Freischalten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V29.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Video",
+      "key": null,
+      "title": "Planen Sie jetzt schon ein Update",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V30.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Video",
+      "key": null,
+      "title": "Melden Sie sich irgendwo an",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V31.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Video",
+      "key": null,
+      "title": "auch wir helfen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V32.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_EDateProfil_V33.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

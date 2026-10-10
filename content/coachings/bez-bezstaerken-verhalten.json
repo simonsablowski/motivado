@@ -1,0 +1,117 @@
+{
+  "key": "bez-bezstaerken-verhalten",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen im Coaching 'Die großen Stolpersteine in Beziehungen vermeiden'!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "Ignorieren von Wünschen",
+      "text": "Der Partner hat sich ausdrücklich, vielleicht sogar mehrmals folgendes gewünscht: Pünktlichkeit oder zeitliche Flexibilität oder etwas Make-Up oder den Verzicht auf Eltern-Besuchen, etc. Doch nach dem Motto \"Wenn der Partner mich liebt, passt schon alles.\" Wird es verschlampt, vergessen, übergangen und es knallt kräftig. Beziehungen sind kein Ort um Liebesbeweise zu strapazieren sondern, sich für eine tolle Sache etwas Mühe zu geben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Ungünstige Darstellung",
+      "text": "Natürlich muss man sich nicht immer perfekt zeigen. Das wäre anstrengend. Dennoch muss man sich gerade für seinen Partner schön machen und langsam lernen, an welcher Stelle man etwas sparen darf. Wer das vernachlässigt riskiert seine Beziehung härter als vielen bewusst. Sieht man nämlich den Partner in vernachlässigter Kleidung, Hygiene, Schminke wird das sofort als \"Die tollen Tage sind vorbei!\"-Signal gewertet. Fast niemand spricht von dieser ersten Enttäuschung doch bei einigen Menschen führt dies dazu die Beziehung für nicht mehr so toll zu erachten und im schlimmsten Fall schon das Ende der Beziehung herbeizusehnen.Ähnliche Fehler: vor dem Partner auf's Klo zu gehen.Den Partner krank, oder unattraktiv zu empfangen, ohne Zähne geputzt zu küssen, vor der Dusche stinkend zu begrüßen als zu Duschen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Ungünstiges Timing\n",
+      "text": "Gerade zu Beziehungsbeginn ist Timing ganz wichtig:\nDen Partner zu treffen, wenn man sich gut fühlt, attraktiv ist. Den Partner nicht treffen wenn man schlecht drauf oder müde ist. Unattraktiv, vielleicht verschwitzt, unrasiert, ungeschminkt oder erschöpft ist. Lieber verschiebt man ein Treffen um 2 Stunden oder um einen Tag, als zu früh schlechte Eindrücke zu hinterlassen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Ähnlicher Bewusstseinszustand",
+      "text": "Einer ist betrunken, der Andere nicht. Das geht bei vielen Paaren in die Hose. Verschiedene Bewusstseinzustände (auch durch andere Drogen oder durch Stress verursacht) führen zu Mega-Beziehungsknatsch. Warum? In verschiedenen Bewusstseinzuständen (z.B. betrunken - nicht betrunken) denken Menschen verschieden und handeln verschieden. Beispiel Trinken abends beim Weggehen: Der Bertrunkene macht einen etwas zu groben Witz, der Nüchterne wertet es, wie wenn es der Andere als Nüchterner gesagt hätte, also viel zu hart. Außerdem erscheinen nüchternen Menschen, betrunkene immer als unangenehm. In jedem Fall sollte man lieber alleine oder mit seinen guten Freunden feiern oder nur ein wenig trinken. Ist die Beziehung schon etwas älter, heisst es immer noch Vorsicht! Über solche Abende haben Paare sich schon für Wochen überworfen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Weglassen von guten Dingen",
+      "text": "Sie wissen, dass Ihr Partner etwas Bestimmtes sehr mag, aber aus irgendeinem Grund machen Sie es nicht mehr, geben Sie es ihm nicht mehr. Warum?\nGerade in der Beziehung ist es wichtig, den Partner weiter anzuziehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Sprechen\n",
+      "text": "Wenn Sie schon merken, dass Sie stinken, eine alte, ausgebeulte Jeans tragen, kein Make-Up drauf haben, etc. etc., dann sprechen Sie es an.\nUnd zwar richtig!\nFalsch: \"Stinke etwas, aber Du liebst mich ja Gott sei dank!\"\nRichtig: \"Achtung. Bitte Abstand, ich stinke etwas und werde das gleich korrigieren. Eigentlich dürftest Du mir so gar nicht begegnen.\"\nBei \"Falsch\" setzen Sie sich über den Anderen hinweg und tun noch so, als ob Sie egal wie verstellt liebenswert sein. Wer sagt, dass das stimmt??\nBei \"Richtig\" geben Sie dem Partner die Chance, Ihnen zu widersprechen oder tatsächlich auf Abstand zu gehen. Vor allem aber dadurch, dass Sie es selbst als störend beschreiben, ist die unangenehme Spannung aus der Situation genommen, und Sie sinken nicht so stark in der Liebe Ihres Partners - vielleicht sogar gar nicht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das  Coaching 'Die großen Stolpersteine in Beziehungen vermeiden'. Für mehr Informationen zu diesem Thema beachten Sie bitte auch unser E-Book 'Die 5 häufigsten Beziehungskiller'. Für Rückfragen stehen wir gerne zur Verfügung. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

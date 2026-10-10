@@ -1,0 +1,193 @@
+{
+  "key": "kar-interessen",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro Wo will ich hin?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "JAC_VisioZiel_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für Ihr Ziel 'Neuer Job' spielen auch Ihre beruflichen Interessen eine bedeutsame Rolle. Wenn Sie bei Ihrer zukünftigen Jobwahl jedoch ausschließlich nach Ihren persönlichen Interessen gehen, kann Ihr berufliches Ziel schnell zu einem unrealistischen Vorhaben werden. Nach einer Karriere als Rechtsanwalt noch einmal auf den Pilotberuf umzusatteln kann Sie vor unlösbare Herausforderungen stellen.\r\n\r\nMit Hilfe der nächsten Übungen wollen wir gemeinsam Ihre aktuellen beruflichen Interessen herausfinden. Wichtig dabei ist auch, dass Sie ehrlich zu sich sind! Es hilft nichts, wenn Sie angeben, gern neue Herausforderungen anzunehmen, dabei jedoch totunglücklich sind, wenn Sie sich jedes Mal wieder von vorn neu einarbeiten müssen.  \r\n\r\nKlicken Sie auf \"Nächster Schritt\", um Ihren beruflichen Interessen auf den Grund zu gehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte notieren Sie alles, was Ihnen dazu einfällt und entwerfen Sie Ihr persönliches Wunschbild für heute in fünf Jahren! Unsere Experten am Telefon helfen Ihnen gerne weiter.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gibt es vielleicht auch Dinge, die Sie an der Realisierung Ihrer Vision hindern könnten? Welche sind das? Müssten Sie für Ihr berufliches Ziel beispielsweise umziehen oder sich umschulen lassen? Würde Ihr Anfahrtsweg länger werden oder brauchen Sie vielleicht ein Auto für diese Tätigkeit?\r\nWelche Dinge könnten sich als Hindernisse auf dem Weg zu Ihrer beruflichen Vision erweisen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "\r\nSchreiben Sie bitte alles auf, was Ihnen einfällt!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hindernisse sind dazu da, aus dem Weg geräumt zu werden! Wenn es möglicherweise Baustellen auf Ihrem Weg zum Ziel gibt, welche Schritte können Sie unternehmen, um Ihre berufliche Vision Realität werden zu lassen? Notieren Sie Ihre Ideen und Lösungsansätze dazu!",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Denken Sie an Ihren aktuellen bzw. letzten Job: \r\n\r\n1. Welche Tätigkeiten und Aufgaben waren/ sind besonders spannend für Sie? Gibt es Aufgaben, in der Sie so richtig aufgehen können und darüber Raum und Zeit vergessen? Welche sind das?\r\n\r\n2. Welche Tätigkeiten bereiten Ihnen weniger Freude? Welche Ihrer Aufgaben erledigen Sie meist erst unter Druck?\r\n\r\nFinden Sie mindestens jeweils 5 Punkte und tragen Sie sie in der Tabelle unter 'Vorlieben' und  'Abneigungen' ein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es gibt eine schöne Technik, die uns dabei hilft, ein klares Bild von unseren Zielen zu entwerfen und uns so die Zielformulierung erleichtert:\r\n \r\nWenn wir einen Kuchen backen, haben wir das Bild im Kochbuch vor Augen, stellen uns vor, wie er aussieht, wenn er fertig gebacken ist und sogar, wie er schmecken wird. Stellen Sie sich vor, Sie würden gleich in den Supermarkt gehen, um dort einzukaufen. Wie sieht Ihr inneres Bild gerade aus? Erscheint der Supermarkt gerade vor Ihrem geistigen Auge? Haben Sie die Produkte vor sich?\r\n\r\nSo, wie es mit ganz alltäglichen Dingen ist, sollten wir es auch mit unseren großen Zielen machen. Um die Dinge anzugehen und zu erreichen, müssen wir sie uns vorstellen. Und unsere langfristigen Ziele sollten nicht weniger wichtig sein als unsere alltäglichen Aufgaben, oder? \r\n\r\nProbieren Sie es aus: Stellen Sie sich vor, Sie hätten Ihre Ziele bereits erreicht und schauen Sie, welche Bilder Ihnen dazu durch den Kopf gehen. Nehmen Sie sich dazu ruhig eine Weile Zeit, schließlich geht es um Ihre Zukunft.\r\nWenn Sie soweit sind, Ihre Ziele zu formulieren, klicken Sie bitte auf \"weiter\". Wenn Sie Fragen oder Schwierigkeiten haben, rufen Sie auch unsere Experten an, die Ihnen gerne weiterhelfen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "TextArea",
+      "key": "kar_interessen_beruflichesziel",
+      "title": "Bitte schreiben Sie nun Ihre beruflichen Ziele in das Textfeld!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Denken Sie an Ihren aktuellen bzw. letzten Job: \n\n1. Welche Tätigkeiten und Aufgaben waren/ sind besonders spannend für Sie? Gibt es Aufgaben, in der Sie so richtig aufgehen können und darüber Raum und Zeit vergessen? Welche sind das?\n\n2. Welche Tätigkeiten bereiten Ihnen weniger Freude? Welche Ihrer Aufgaben erledigen Sie meist erst unter Druck?\n\nFinden Sie mindestens jeweils 5 Punkte und tragen Sie sie in der Tabelle unter 'Vorlieben' und  'Abneigungen' ein.\n\nZum eintragen Ihrer Punkte haben wir für Sie eine vorgefertigte Liste bereitgestellt, die Sie sich unten herunterladen und ausdrucken können.",
+      "props": {
+        "documents": [
+          {
+            "name": "Liste Berufliche Interessen",
+            "file": "Berufliche_Interessen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "TextArea",
+      "key": "kar_interessen_waswillich_willichnicht",
+      "title": "Bitte notieren Sie nun im Textfeld für alle eben genannten Punkte, was Sie wollen, vielleicht wollen und auf keinen Fall wollen!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Wo will ich hin?\"\r\n\r\nSie haben nun eine berufliche Vision entwickelt und sind gut gerüstet für unser nächstes Coaching \"Wie verkaufe ich mich gut?\".",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Wo will ich hin?\"",
+      "text": "Bis zu unserem nächsten Coaching verfassen Sie bitte einen kurzen Text, in dem Sie Ihre berufliche Vision zusammenfassen. Üben Sie dann mindestens fünf mal laut Ihre Antwort auf die Frage: \"Wo sehen Sie sich in 5 Jahren?\" Wenn Sie hier noch Schwierigkeiten haben, probieren Sie es mit der Technik, die wir Ihnen erklärt haben oder wenden Sie sich an unsere Experten.\nSo sind Sie zukünftig ideal auf die Frage nach Ihren beruflichen Zielen vorbereitet.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

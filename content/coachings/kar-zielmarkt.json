@@ -1,0 +1,411 @@
+{
+  "key": "kar-zielmarkt",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihren Zielmarkt finden\r\n\r\nEs ist wichtig für sich selber festzulegen, in welchen Unternehmen man sich vorstellen kann zu arbeiten. Wir raten Ihnen einen individuellen Kriterienkatalog aufzustellen, der Sie durch den Unternehmensdschungel lenkt. So suchen Sie gezielt, vergeuden keine Zeit mit planloser Recherche und verkürzen dadurch Ihre Suche. \r\n\r\nIhr Zielmarkt sollte groß genug sein. Häufig sprechen Jobsuchende mit mehr als 20 Personalverantwortlichen, bis Sie ein geeignetes Angebot annehmen. Daher werden Sie mit unserer Unterstützung eine Liste mit doppelt sovielen Firmen, also ca. 40-50 Unternehmen, zusammenstellen, die Ihnen als Ausgangspunkt für Ihre Bewerbungen dient.\r\n\r\nKeine Sorge: Sie müssen nicht auf Anhieb 50 Firmen finden, bei denen Sie sich bewerben. Für den Anfang reichen 20 Unternehmen. Sie werden Ihre Liste mit Hilfe unserer Tipps später Stück für Stück erweitern.\r\n\r\nLegen wir los!",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Welche Kriterien sollten für Ihre Zielliste eine Rolle spielen? Erste Gedanken darüber haben Sie sich bereits gemacht, als Sie Ihr berufliches Ziel und mögliche Alternativen formuliert haben. Darauf können Sie jetzt zurückgreifen.\r\n\r\nFangen wir gleich an mit der Region bzw. dem Ort.\r\nWo möchten Sie in Zukunft arbeiten? Können Sie sich vorstellen, im gesamten Bundesgebiet oder sogar im Ausland zu arbeiten oder möchten Sie sich lieber auf einen Ort beschränken? Wäre ein Umzug daher für Sie eine Alternative? Könnten Sie sich vorstellen zu pendeln?\r\nIst die aktuelle Arbeitsmarktsituation in Ihrer präferierten Region günstig oder eher schlecht? Bedenken Sie auch diesen Aspekt während Ihrer Suche.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "kar_zielmarkt_proort",
+      "title": "Sie stehen einem Ortswechel oder sogar dem Gang ins Ausland nicht ganz abgeneigt gegenüber? \r\nDann notieren Sie nun bitte zuerst, welche Punkte für  einen Ortswechsel sprechen.",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "kar_zielmarkt_gegenort",
+      "title": "Nun notieren Sie bitte, welche Punkte gegen einen Ortswechsel sprechen.",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Nun vergleichen Sie bitte in aller Ruhe Ihre Angaben und klären Sie für sich, ob ein Ortswechsel eine echte Option darstellt. Klicken Sie dazu bitte auf weiter!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "List",
+      "key": "kar_zielmarkt_proort",
+      "title": "Ihre Punkte, die für einen Ortswechsel sprechen:",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "List",
+      "key": "kar_zielmarkt_gegenort",
+      "title": "Ihre Punkte, die gegen einen Ortswechsel sprechen:",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "TextArea",
+      "key": "kar_zielmarkt_entscheidungort",
+      "title": "Sind Sie zu einer Entscheidung gekommen? Wie sieht sie aus? Bitte notieren Sie sie hier!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Die Unternehmensbranche",
+      "text": "In welcher Branche bzw. welchem Unternehmenstyp möchten Sie gerne arbeiten? \nWo werden Menschen mit Ihren Fähigkeiten beschäftigt und wo wird man Sie demzufolge als geeigneten Bewerber betrachten?\n\nZur Übersicht haben wir eine Branchenliste für Sie zusammengestellt, die Sie unten sehen.\n\nNutzen Sie außerdem die Gelben Seiten oder Online-Jobportale, wie beispielsweise Monster.de, Stepstone.de oder Jobpilot.de, um sich über Branchentypen zu informieren.\n\n\nAnlagen- & Maschinenbau\nArchitektur, Design\nAutomobilindustrie + Zulieferer\nBanken, Finanzen, Versicherungen\nBau, Baustoffhandel\nBergbau, Metallgewerbe\nBiotechnik, Pharmazie\nBuchhaltung, Steuer- und Prüfungswesen\nChemie, Rohölproduktion,  Kunststoffe\nDruck, Papier, Verpackung\nEinzelhandel\nElektronik, Elektrotechnik & Technik\nEnergie- & Wasserversorgung\nErziehung, Aus- & Weiterbildung\nFeinmechanik & Optik\nFinanzdienstleistungen\t\nForschung\nGastronomie, Hotel, Touristik\nGemeinnützig\nGesundheits- und Sozialwesen\nGrafik & Design\nHandel, Vertrieb\nHaushaltsdienstleistungen \nImmobilien\nIngenieurdienstleistungen\nInternet & Multimedia\nIT-Dienstleistungen & EDV-Schulung\nIT-Hardware - Programmierung\t\nIT-Software - Systeme/Design\nKonsumgüter, Lebens- und Genussmittel\nKosmetik\nKunst & Kultur \nLand- & Forstwirtschaft, Fischerei\nLuft- & Raumfahrtindustrie\nMaschinen- & Anlagenbau\nMedizintechnik\nÖffentlicher Dienst\nPersonalberatung, Arbeitsvermittlung\nRechtsdienstleistungen/ -beratung\nRundfunk, Musik, Film, TV, Verlag\nSchifffahrt\nSicherheitsdienste, Überwachungsdienst\nSport, Fitness, Freizeit\nTechnische & kaufmännische Dienstleistung\nTelekommunikation/Wireless, Dienstleistungen\nTextil, Leder, Bekleidung\nTransport, Logistik, Verkehr\nUmwelt, Entsorgung, Recycling\nUnterhaltung – Theater/Museen\nUnternehmensberatung\nWerbung, Marketing, PR, Messen und Events \nWirtschaftsprüfung, Steuerberatung, Rechtsanwälte",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "List",
+      "key": "kar_zielmarkt_unterbranche",
+      "title": "Tragen Sie bitte jetzt Ihre angestrebten Unternehmensbranchen ein!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Unternehmensgröße",
+      "text": "Die Größe eines Unternehmens kann in Mitarbeiteranzahl und Umsatz ausgedrückt werden. Welche Unternehmensgröße ist für Sie attraktiv?\n\nAls Hinweis: einige Stellen gibt es erst ab einer bestimmten Größe. So braucht ein kleines Unternehmen mit weniger als 30 Mitarbeitern noch keine eigene Personalabteilung, was bei einem globalen Konzern mit mehr als 1000 Angestellten schon wieder ganz anders aussieht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "kar_zielmarkt_untergroesse",
+      "title": "\r\nWas ist Ihre präferierte Unternehmensgröße? Tragen Sie's hier ein!",
+      "text": "",
+      "props": {
+        "items": 1
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nachdem Sie Ihre Zielkriterien festgelegt haben, recherchieren wir jetzt gemeinsam erste Unternehmen, die Ihren Kriterien entsprechen. \r\n\r\nNehmen Sie sich dafür ein Blatt Papier oder machen Sie eine Excel-Datei auf, ganz wie Sie mögen. Legen Sie sich eine Spalte mit dem Titel \"Zielfirmen\" an und sammeln sie alle Firmen, die Ihnen einfallen! Nehmen Sie sich für's erste Zusammentragen 3 Minuten Zeit. \r\n\r\nLos geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie heute auf 10 Zielfirmen kommen, sind Sie schon ein ganzes Stück weitergekommen! Erweitern Sie Ihre Liste jeden Tag um weitere Firmen.\n\nUm auf weitere Firmen zu kommen, fragen Sie dazu Ihre Freunde, (ehemalige) Kollegen und Bekannte. Suchen Sie dann weiter in Branchenverzeichnissen. Nutzen Sie auch die Gelben Seiten! Schlagen Sie die lokalen und überregionalen Tageszeitungen auf, nutzen Sie Fachzeitschriften für Ihre Suche, die Sie auch in Bibliotheken finden. Gehen Sie auf Firmenportale, Jobbörsen und Plattformen wie Xing oder LinkedIn.\n\nWir haben Ihnen eine PDF-Datei zusammengestellt, die einige nützliche Quellen für Sie beinhaltet. So wird Ihre Suche noch leichter und effektiver.\n\nÜberlegen Sie mit Hilfe der Links und Quellen: welche weiteren Firmen gibt es noch? \nEine Liste mit 50 Unternehmen ist Ihr Ziel.",
+      "props": {
+        "documents": [
+          {
+            "name": "Datenbanken Firmensuche",
+            "file": "Liste_Datenbanken_Firmen.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Recherchieren Sie weitere Unternehmen, die Ihren Kriterien entsprechen. \r\nKeinem fallen 50 Firmen auf Anhieb ein! Sie sollten jedoch relativ schnell auf 20 Firmen kommen. Erweitern Sie Ihre Liste alle paar Tage um 5 weitere Firmen, indem Sie Ihre Suche intensivieren und alle verfügbaren Quellen nutzen!\r\n\r\nSprechen Sie auch mit anderen über Ihre Zielliste. Sammeln Sie auf diese Weise Informationen zu möglichen Kontakten in den Firmen, zu den Unternehmen an sich oder wie dort der Einstellungsprozess aussieht.\r\n\r\nViel Erfolg und gutes Gelingen! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls Sie Schwierigkeiten mit Ihrer Liste haben, könnten Ihnen die folgenden Tipps helfen:\r\n\r\nWenn Sie zu viele Unternehmen finden, priorisieren Sie die Unternehmen, die Ihnen am besten gefallen. Erstellen Sie Ihre persönliche Top-50-Liste und schränken Sie Ihre Auswahl so etwas ein.\r\n\r\nSie finden weniger als 50 Unternehmen? Vergrößern Sie Ihre Liste, indem Sie Ihre Zielkriterien etwas \"aufweichen\". \r\nVielleicht kommt ein Ortswechsel doch für Sie in Frage. Stellen Sie sich vor, Sie schauen in ein paar Jahren zurück und sagen sich: \"Das war die beste Entscheidung meines Lebens! Ich habe tolle Freunde kennengelernt, die ich nicht mehr missen möchte, habe neue Erfahrungen gesammelt, die mein Leben unglaublich reich gemacht haben und bin viel offener und spontaner geworden.\" \r\nÜberlegen Sie sich, ob auch ein traditionelleres Unternehmen in Frage kommt, ob Sie auch einen längeren Anfahrtsweg in Kauf nehmen wollen, eventuell andere Branchen aufnehmen können usw. Erhöhen Sie Ihre Auswahl an potentiellen zukünftigen Arbeitgebern. Ihre Suche bringt Sie so viel schneller zum Erfolg.\r\n\r\nSie kommen trotz Priorisierung (bei zu vielen Unternehmen) oder Aufweichung Ihrer Kriterien (bei zu wenigen Unternehmen) nicht weiter? Dann wenden Sie sich an unsere Experten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte tragen Sie jetzt für jedes Unternehmen so viele Informationen wie möglich zusammen und tragen Sie alles in Ihre Datei ein, damit Sie später darauf zurückgreifen können!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Warum ist die Recherche über Ihre Zielfirmen so wertvoll und wie profitieren Sie davon?\r\n\r\n1. Sie werden über große Expertise in dem Bereich verfügen, der Sie interessiert: Sie werden \r\nUnternehmen und Märkte kennenlernen und schnuppern in vielfältige Branchen und Tätigkeitsfelder \r\nhinein. Dazu kommt, dass Sie immens wertvolles Wissen aufbauen, das ihnen auch in Zukunft nützlich sein wird. \r\n\r\n2. Sie werden sehr viel besser vorbereitet ins Vorstellungsgespräch gehen: das stärkt Ihr Selbstbewusstsein und lässt Sie kompetent wirken! \r\n\r\n3. Sie werden Kontakte zu Menschen knüpfen, die Ihnen bei Ihrer Jobsuche behilflich sein können!  \r\n\r\n4. Nachdem Sie sich intensiv mit der Branche und den Tätigkeitsfeldern beschäftigt haben, können Sie sich sicher sein, einen Weg einzuschlagen, der zu Ihren beruflichen Zielen passt.\r\n\r\n5. Sie werden Personen aus Ihrem Netzwerk, die sich in einer ähnlichen Situation befinden, jetzt oder später wertvolle Tipps geben können, weil Sie Ihren Zielmarkt kennen.\r\n\r\nDie Recherche lohnt sich also in jedem Fall (auch wenn Sie sich nicht bei jeder der Firmen tatsächlich bewerben) und erhöht Ihre Chancen auf dem Arbeitsmarkt!",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nachdem Sie nun wertvolle Informationen über alle Unternehmen auf Ihrer Liste gesammelt haben, können Sie sich auf diejenigen Unternehmen konzentrieren, an die Sie demnächst herantreten möchten. \r\nEntweder haben Sie eine Stellenausschreibung gefunden, die Sie interessiert oder die passen könnte, oder Sie haben die Kontaktdaten einer Person im Personalbereich recherchiert (Initiativbewerbung). Jetzt nehmen Sie sich nach und nach die einzelnen Unternehmen vor und investieren Sie noch einmal Zeit für eine intensivere Recherche. Das folgende Beispiel soll Ihnen zur Orientierung dienen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir nehmen uns jetzt gemeinsam mal eine Firma vor, zu der wir möglichst viele Informationen sammeln. \r\n\r\nNehmen Sie sich wieder Ihre Excel-Datei oder Ihr Blatt Papier zur Hand. Alles, was ihnen bei Ihrer Recherche auffällt, schreiben Sie in die entsprechende Spalte, damit Sie es für später haben und im Bewerbungsgespräch einfließen lassen können. \r\n\r\nWas Sie jetzt nicht gleich finden, lassen Sie erstmal frei und versuchen es später zu beantworten. \r\nUm besonders effektiv in Ihrer Suche zu sein: legen Sie sich Favoriten in Ihrem Internetbrowser an oder, wenn Sie es lieber mögen: legen Sie sich Ordner mit den gefundenen Informationen an.\r\n\r\nSpäter müssen Sie Ihren Lebenslauf und Ihr Anschreiben individuell an die jeweilige Firma anpassen. Daher: je mehr Infos Sie jetzt sammeln, desto mehr haben Sie später für Ihre Bewerbungsunterlagen.\r\n\r\nBeschäftigen Sie sich z.B. damit, welche Unternehmenskultur (beispielsweise modern oder traditionell) das Unternehmen auf der Internetseite vertritt, wie das Unternehmen aufgebaut ist oder welche Historie dahinter steht.\r\nLos geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nehmen wir an, Sie haben Siemens als erstes Beispiel gewählt. Welche Fakten sind jetzt besonders relevant und wichtig?\r\nTragen Sie alle gefundenen Infos sofort in Ihre Excel-Datei oder notieren Sie sie auf Ihrem Zettel!\r\n\r\nLos geht's mit der Recherche über Siemens:\r\n\r\n* Wie viele Mitarbeiter beschäftigt das Unternehmen im In- und Ausland?\r\n* Wie sieht es mit seinem (Jahres-)umsatz aus? Wie hoch ist der Gewinn? Wie sieht der momentane Aktienstand aus?\r\n* Ist Siemens Marktführer in seiner Branche? Welche Konkurrenzfirmen gibt es?\r\n* Wo ist das Unternehmen derzeit angesiedelt? Wo hat es seinen Hauptsitz, wo sitzen wichtige Tochterunternehmen oder Beteiligungen? Hat es Niederlassungen im Ausland und wo?\r\n* Wie sieht die Produktpalette bei Siemens aus?\r\n* Welche Dienstleistungen bietet es an?\r\n* Seit wann gibt es Siemens auf dem Markt? \r\n* Wie ist die Geschäftsform der Firma?\r\n* Wie hat es sich in den letzten Jahren entwickelt (Umsatz, Mitarbeiteranzahl, Unternehmenskultur)?\r\n* Welches Image hat Siemens in der Branche? Wie ist die aktuelle Presse? Steht es gut oder schlecht da und warum?\r\n* Welche Stärken hat das Unternehmen?\r\n\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "Bitte schreiben Sie alles auf, was Sie dazu finden!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "List",
+      "key": "kar_zielmarkt_UntPos",
+      "title": "",
+      "text": "Notieren Sie auch, was Ihnen besonders positiv an dem Unternehmen auffällt. Damit können Sie später im Vorstellungsgespräch punkten. Komplimente werden vom Arbeitgeber immer gern gehört. \r\n\r\nWelche Dinge sind das? Finden Sie mindestens drei für Ihre erste Firma und schreiben Sie sie auf. ",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Notieren Sie sich auch gleich Fragen während Ihrer Recherche, die Sie im Bewerbungsgespräch verwenden können. Interessierte Bewerber sind attraktiver als Kandidaten, die keine einzige Frage in Petto haben. \r\n\r\nWelche Punkte wollen Sie ansprechen? Schreiben Sie mindestens drei auf!",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Vorstellungsgespräch wird gerne danach gefragt, warum das Unternehmen gerade Sie einstellen sollte. Um darauf eine überzeugende Antwort zu haben, sollten Sie sich bei Ihrer Recherche fragen:\r\n\r\n* Welchen Mehrwert können Sie für das Unternehmen leisten?\r\n* Was könnten sie beitragen?\r\n* Welche Aufgaben müssen im Unternehmen gelöst werden, für die Sie die richtige Qualifikationen haben?\r\n* Und warum könnten Sie gut in das Unternehmen passen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "Notieren Sie bitte jetzt alles, was Ihnen dazu auffällt. Was könnten Sie auf die Frage antworten?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Welche Quellen helfen Ihnen bei Ihrer Informationssuche?\r\n\r\n* Gespräche mit Ihren Netzwerkpartnern und Kontakten\r\n* Gespräche mit Menschen, die in der jeweiligen Firma arbeiten\r\n* die Firmenhomepage\r\n* Geschäftsberichte, die man auf den Internetseiten meist einfach herunterladen kann\r\n* ein kurzer Anruf bei der jeweiligen Firma. Rufen Sie in der Telefonzentrale des Unternehmens an. Häufig stellt man Sie gerade bei größeren Firmen in die PR- oder Presseabteilung durch. Fragen Sie nach Firmenmappen, Pressemappen, Jahresberichten oder Firmenbroschüren.\r\n* Firmendatenbanken (www.firmendatenbanken.de)\r\n* Printmedien und elektronische Medien (eine Übersicht der Online-Ausgaben deutscher Zeitungen finden Sie hier: www.bdzv.de/Zeitungswebsites.html)\r\n* Fachzeitschriften und Fachliteratur\r\n* Verbände und Organisationen, die sich mit den von Ihnen recherchierten Themen befassen\r\n\r\nUnser Extra-Tipp: \r\nDas Internetportal Xing eigent sich gut, um weitere Informationen zu einer Zielfirma zu recherchieren: schreiben Sie hierzu Mitarbeiter (!) dieser Firma an und stellen Sie Ihre Fragen. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "Sehr schön, nun haben Sie also bereits Ihre erste intensive Recherche durchgeführt. \r\n\r\nDamit sind wir am Ende des Coachings \"Wo kann ich mich bewerben?\" angelangt. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Wo kann ich mich bewerben?\"",
+      "text": "Recherchieren Sie bitte bis zum nächsten Mal die restlichen Unternehmen, auf die Sie zugehen möchten. \nWir wünschen Ihnen viel Erfolg und interessante Einblicke bei der Recherche Ihrer Zielfirmen!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "key": "bez-einstellung-sex",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Willkommen in unserem Coaching \"Die richtige Einstellung für eine intime Beziehung\".",
+      "text": "Unser Coaching wendet sich an Menschen, die sich in der Dating-Phase befinden und den körperlichen Kontakt zum Anderen intensivieren möchten. Wenn Sie sich unsicher sind, ob und wie Sie einen Schritt weitergehen können, dann sind Sie hier genau richtig.\nSie sind ganz bestimmt nicht allein damit oder generell der Erste, der Angst oder Zweifel hat, die Intentionen Ihres Gegenübers falsch verstehen zu können. Unsicherheiten in Bezug auf eventuelle Zurückweisung oder die sexuelle Vorgeschichte des Anderen sind natürlich. Aber wenn diese Unsicherheiten Sie dominieren oder dazu führen, dass Sie in der jeweiligen Situation blockieren, muss sich etwas ändern.\nMit der richtigen Einstellung können Sie Ungewissheiten dieser Art von vornherein aus dem Weg gehen. Wir zeigen Ihnen die Strategien, mit denen Sie dieses Ziel erreichen und Ihren Gegenüber leichter mitreißen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben sich mit dem Anderen mittlerweile mehrmals getroffen und irgendwie läuft nicht alles rund. Sie würden zwar gerne den nächsten Schritt wagen, aber Sie trauen sich nicht. Woran, glauben Sie, liegt das? Sind Sie sich unsicher, ob der Andere Ihre Annäherung willkommen heißen würde? Haben Sie Angst vor der Abweisung oder sogar im Gegenteil, dass der Gegenüber Ihre Zuneigung erwidert und mehr will? Immerhin ist intimer Körperkontakt und Sex ein großer Schritt in jeder zwischenmenschlichen Beziehung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen Sie sich einen Moment Zeit und schreiben Sie auf, woran Sie denken, bevor Sie zu Ihrem Date gehen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den meisten Menschen schwirren vor einem Date die unterschiedlichsten Dinge durch den Kopf. Was ziehe ich an? Wie sehe ich aus? Wohin gehen wir? Worüber können wir reden? Alle diese Dinge sind natürlich wichtig und wir haben in unseren Coachings zum Thema Date schon über die richtige Vorbereitung für ein Date gesprochen. \r\nMit negativen Gedanken werden Sie es schwer haben, denn was Sie denken, strahlen Sie auch aus. Viele Menschen unterschätzen den Einfluss Ihres Unterbewusstseins auf Ihr Handeln und Wirken. Wenn Sie sich mit Ihrem Date treffen, aber Sie in Ihrem Hinterkopf während des gesamten Abends alle Gründe durchgehen, warum Sie sich dem Anderen nicht annähern sollten, wird es auch zu keinem intimeren Kontakt kommen. Ihr Gegenüber wird Ihre Zurückhaltung und Ihr Zögern spüren und den Weg einschlagen, den Sie unbewusst vorgeben. \r\nEs ist also wichtig, die innere Einstellung zu haben, Ihr Ziel zu erreichen. All die eben genannten Dinge, die Ihnen vor Ihrem Date durch den Kopf gehen, lenken Sie davon ab, Ihr eigentliches Ziel zu erreichen. Daher ist eine klare Ausrichtung des Geistes für Sie besonders wichtig, denn diese lässt Sie unbewusst anders Auftreten. \r\nSie befinden sich in einer Date-Situation und möchten einen Schritt weitergehen, dann könnte Ihr mögliches Ziel lauten, Sex mit Ihrem Gegenüber zu haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der erste Schritt, den Sie im Kopf vollziehen müssen, um Ihrem Geist eine klare Ausrichtung zu geben, ist der, dass Sie überhaupt erst einmal die Möglichkeit in Betracht ziehen, mit Ihrem Date Sex zu haben. Dass es möglich ist und dass der Sex sowohl für Sie als auch den Anderen gut\r\nwird. Dass Sie beide Spaß dabei haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Es ist wichtig, dass Sie in Ihrem Unterbewusstsein grundsätzlich eine positive Einstellung zu der Möglichkeit von Intimität und Sex mit Ihrem Date aufbauen. Halten Sie also auch für möglich, Sex haben zu können, selbst wenn dies nicht den Bemerkungen Ihres Gegenübers entspricht. Lassen Sie sich davon nicht beeindrucken, denn Menschen treffen oft Aussagen, die im Gegensatz zu Ihren Handlungen stehen. Wenn Ihr Date sagt, dass es nur auf Blonde steht, heißt das nicht, dass Sie mit Ihren brauen Haaren nicht trotzdem für den Anderen infrage kommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Natürlich ist dies etwas leichter gesagt als getan. Wenn Sie sich später in der jeweiligen Situation befinden, ist es selbstverständlich möglich, dass Ihre Zweifel wieder einsetzen und Sie dabei sabotieren, Ihr Ziel zu erreichen. \r\nDaher nehmen Sie sich Zeit, wiederholen Sie die Übung mehrmals, damit Sie in der Situation auf eine starke innere Einstellung zurückgreifen können. Wichtig ist auch, dass Sie sich mit Ihrem Ziel nicht selbst unter Druck setzen. Sex mit dem Date muss nicht unbedingt beim nächsten Treffen passieren. Geben Sie sich selbst etwas Zeit und haben Sie Geduld, aber verlieren Sie Ihr Ziel dabei nicht aus den Augen.\r\nAuf die möglichen Zweifel und Unsicherheiten, die vielleicht in Ihrem Hinterkopf an Ihnen nagen, werden wir etwas später in diesem Coaching noch zu sprechen kommen, aber hier geht es erst einmal nur darum, Ihre innere Einstellung positiv zu gestalten und Ihren Blick auf Ihr Ziel zu richten.\r\nBevor Sie also zu Ihrem Date gehen, denken Sie daran, dass Ihre Unsicherheiten zu Selbstsabotage führen können. Halten Sie es also für möglich, intimen Kontakt zu Ihrem Gegenüber aufbauen und auch genießen zu können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "„Ich entscheide jetzt...“\r\n\r\nDamit haben Sie den ersten Schritt auf dem Weg zur richtigen Einstellung bereits getan. Wichtig ist nun, dass Sie nicht nur die Möglichkeit in Betracht ziehen, mit Ihrem Date Sex zu haben. \r\nGehen Sie einen Schritt weiter und treffen Sie die bewusste Entscheidung, dass intimer Körperkontakt wirklich passieren wird.\r\nDiese Übung ähnelt zwar auf den ersten Blick dem ersten Schritt, zeichnet sich aber durch mehr Aktivität aus. Dieser zweite Schritt dient der Festigung Ihrer Gedankenausrichtung. Denn hier geht es nicht nur um die Möglichkeit, sondern um die wissentliche Entscheidung, die Sie treffen. Sie senden eine Aussage an Ihr Gehirn und Unterbewusstsein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Behalten Sie in Erinnerung, dass sich Zweifel und Unsicherheiten unbewusst negativ auf Ihre Ausstrahlung auswirken. Nehmen sie sich also die Zeit und fällen Sie die bewusste positive Entscheidung, dass sehr guter Sex stattfinden wird. Und auch hier ist es wichtig, dass die Entscheidung, die Sie treffen, nicht unter zeitlichem Druck steht. Geben Sie sich Zeit und haben Sie Geduld, Ihre Entscheidung durchzusetzen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorstellung, dass es bereits passiert ist: \r\n\r\nIn den vorherigen Schritten haben Sie die Möglichkeit in Betracht gezogen und die Entscheidung gefällt, intimen Kontakt mit Ihrem Date zu haben. Jetzt geht es um den dritten Schritt auf Ihrem Weg zur richtigen Einstellung. Denken Sie daran, sich Notizen zu machen und bei unseren Übungen auch wirklich bewusst mitzuarbeiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der dritte Schritt besteht darin, dass Sie sich vor Ihrem Date vorstellen, dass es bereits passiert ist. Dass Sie bereits Sex mit dem Anderen hatten. Dass es sehr gut gelaufen ist und Sie beide Spaß dabei hatten. Visualisieren Sie, wie Sie einen Tag nach Ihrem Date einem Bekannten oder einem Freund erzählen, wie es war. Es geht an dieser Stelle nicht darum, dass Sie ausführlich und detailliert vom intimen Kontakt mit Ihrem Date erzählen. Vielmehr geht es allein um die Tatsache, dass Sie sich erlauben sich vorzustellen, dass es mit Ihnen passiert ist und dass Sie jemandem davon erzählen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Diese drei Schritte sind für Ihre innere Einstellung sehr wichtig, weil Sie Ihr Unterbewusstsein dadurch grundsätzlich in eine positive Ausrichtung versetzen, ihrem Date näher zu kommen.\r\nVielleicht kennen Sie Filme oder Bücher, in denen die Hauptfiguren bestimmte Zeichen sehen, die Sie an ihr Ziel führen, sei es die große Liebe oder ein berufliches Ziel. Und im Grunde weiß jeder Zuschauer, dass die Charaktere der Bücher oder Filme diese Zeichen nur deswegen überall sehen, weil Sie danach suchen. Ihr Unterbewusstsein ist darauf ausgerichtet. \r\nUnd eben darin liegt der Sinn der eben durchgeführten Übungen. Wenn Sie Ihren Geist darauf ausrichten, dass Sie eine körperliche Beziehung mit Ihrem Gegenüber eingehen wollen, wird sich auch Ihr Auftreten dementsprechend verändern. Statt Ihrem Date unterbewusst zu vermitteln, dass Sie vor dem Schritt zur körperlichen Intimität zurückschrecken, werden Sie Signale aussenden, die das Gegenteil bedeuten.\r\nAus diesem Grund nehmen Sie sich die Zeit dazu, die Übungen unseres Coachings auch wirklich durchzuführen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein gutes Körpergefühl\r\n\r\nHaben Sie schon einmal gezögert, mit jemandem Sex zu haben, weil Sie mit Ihrem Körper unzufrieden sind? Empfinden Sie sich im Vergleich zu anderen Menschen als weniger attraktiv?\r\nUm tollen Sex haben zu können, spielt der Körper nur insofern eine Rolle, als Sie über ein gutes Körpergefühl verfügen sollten. Eine körperlich vermeintlich perfekte Person wirkt weniger attraktiv, wenn Sie unentspannt und verklemmt ist, als eine imperfekte, aber dafür entspannte Person.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Um Ihr Körperbewusstsein und -empfinden zu verbessern, ist es hilfreich, sich jeden Tag ein paar Minuten Zeit für den eigenen Körper zu nehmen. Empfinden Sie Dankbarkeit für Ihren Körper, während Sie ihn berühren. Werden Sie sich Ihres Körpers bewusst, indem Sie jeden einzelnen Körperteil wahrnehmen und als Teil von sich akzeptieren. \r\nDies kann z.B. beim täglichen Abtrocknen oder Eincremen geschehen.Eine Routine dieser Art ist nicht nur gesund, weil sie die Lymphknotenfunktion anregt und gut für Ihre Haut ist. Vielmehr bauen Sie zu Ihrem Körper ein positives Gefühl auf und helfen der eigenen erotischen Ausstrahlung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Um sich beim Sex wohl zu fühlen, ist es außerdem wichtig, dass Sie sich nicht nur mit Ihrem Körper, sondern auch mit dem Ihres Gegenübers auskennen. Wenn Sie vertraut und ungezwungen mit dem Thema Sex und dem Körper des Anderen umgehen, wird das in hohem Maße zur Entspannung beitragen und deshalb viel eher zu einem besonderen Erlebnis werden. Wir werden auf dieses Thema noch einmal ausführlicher in unserem Coaching „Grundlagen in Sachen Sex“ in diesem Bereich eingehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie sich nicht unter Druck setzen: Heutzutage wird man mit dem Thema Sex bis zur Reizüberflutung bombardiert. In allen Medien, besonders im Film und Fernsehen, geht es ständig nur um das Eine. Und auch im Freundeskreis wird oft darüber geredet, wer mit wem wann und wie oft Sex hatte. Alle scheinen den Erzählungen zufolge immer ein extrem gutes Sex-Leben zu haben. Alles ist immer toll, alles klappt immer super und nie gibt es Kommunikationsschwierigkeiten.\r\nHaben Sie sich schon einmal mit den Erfahrungen eines Freundes oder Bekannten verglichen? \r\nLassen Sie sich nicht unter Druck setzen, denn meist entsprechen sowieso nur ein Bruchteil der erzählten Geschichten der Wahrheit. Mit der Realität haben sie oft nur wenig zu tun. Diese ist meist wesentlich durchschnittlicher und wahrscheinlich auch viel langweiliger. Und vor allem erfährt man nie die andere Seite der Dinge. \r\nFühren Sie sich vor Augen, dass natürlich auch die Medien genau das ausnutzen. Die Prahlerei und Einseitigkeit der Geschichten werden im Fernsehen nur eine Nummer größer dargestellt, denn die Realität wäre zu durchschnittlich, um sie zu erzählen. Letztendlich liegt es bei Ihnen, sich unter Druck setzen zu lassen oder nicht. Führen Sie sich vor Augen, dass man das ja nicht tun muss.\r\nEs geht vor allem darum, dass sie sich in Ihrer Haut wohl fühlen. Genießen Sie das, was Sie wollen und nicht das, was andere vielleicht von Ihnen erwarten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gleiches gilt im Übrigen auch für Ihr Date. Lassen Sie sich nicht davon unter Druck setzen, dass Sie womöglich mit den sexuellen Erfahrungen Ihres Gegenübers nicht mithalten können. Im Gegenteil, sehen Sie diese Erfahrungen Ihres Dates eher als positiv an, weil sie durchaus hilfreich sein können.\r\n\r\nVielleicht sind Sie genau die Person mit der Ihr Date sehr guten Sex haben kann, weil eben genau Sie offen, entspannt, vertraut und ehrlich mit der Situation umgehen. Besonders Offenheit für Neues, aber auch Ehrlichkeit sich selbst und dem Anderen gegenüber sind von großer Wichtigkeit. Mehr zu diesem Thema werden wir Ihnen im Coaching „Grundlagen in Sachen Sex“ anbieten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben nun das Coaching zum Thema \"Die richtige Einstellung für eine intime Beziehung\" durchlaufen. \r\nFalls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

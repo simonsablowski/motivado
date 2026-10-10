@@ -1,0 +1,121 @@
+{
+  "key": "bez-bezstaerken-partner-lesen",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V150.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir haben daher ein paar Übungen für die nächsten Tage für Sie vorbereitet:\r\n\r\nÜbung zu erhöhter Sensibilität für mögliche Partner. Dafür brauchen Sie einen Freund, Bekannten, Verwandten oder Kollegen. Schön wäre übrigens, Sie haben in Ihrem Bekanntenkreis einen Menschen, den Sie attraktiv finden. Erzählen Sie einfach, sie machen derzeit ein Kommunikations-Coaching von Motivado und werden dort mit Übungen genervt, für die Sie einen Partner benötigen. Auch die andere Person kann so etwas über sich dazulernen. Hauptsache ist allerdings, Sie führen die Übungen zu zweit durch.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "* Übung 1: Sie sehen ein Bild (relative einfache, abstrakte Form) und müssen das dem Anderen beschreiben, und der Andere muss anhand Ihrer Worte das Bild zeichnen. Dabei ist ganz wichtig: Der Andere darf das Bild nicht sehen. Sie haben zwei Minuten Zeit. Vergleichen Sie das Original mit dem Zeichenresultat Ihres Bekannten. Sprechen Sie über die Unterschiede.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "* Übung 2: Nehmen Sie ein zweites Bild, diesmal aber mir einer szenischen Darstellung, und wiederholen Sie die Übung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "* Übung 3: Nehmen Sie ein drittes Bild, diesmal aber mit einem Gesicht, und wiederholen Sie die Übung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "* Übung 4: Schauen Sie sich ein beliebiges Video auf Youtube an. Dabei dürfen Sie sich das Gesicht des Anderen ansehen um zu erraten, wie gut oder schlecht das Video ankam. Zeit: drei Minuten. Nehmen Sie sich einen Zettel und schreiben Sie auf, was Sie von dem Video halten, was Ihnen durch den Kopf gegangen ist und an welche Stadt Sie das Video erinnert hat, bzw. an welche Dinge aus einer Stadt. Schreiben Sie auch auf, was Sie vermuten, dass Ihr Bekannter sich gedacht und empfunden hat. Nach drei Minuten vergleichen Sie Ihre Ergebnisse und sprechen über beide Wahrnehmungen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "* Übung 5: Legen Sie sich für Sie und Ihren Bekannten einen Zettel und Stifte bereit. Überlegen Sie sich beide, wie Sie um Aufmerksamkeiten oder Gefallen in der Familie, in der Arbeit und in Beziehungen bitten oder fragen. Sie haben drei Minuten Zeit, Punkte und Ihre Strategien zu sammeln. Dann lesen Sie sich die Ergebnisse gegenseitig vor. Achtung dabei: Genauso wichtig wie die Strategien ist, wie Sie oder Ihr Bekannter damit umgehen, wenn das Ziel nicht erreicht wird - kurz, wenn die Aufmerksamkeit oder der Gefallen von niemanden erhört wird.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Machen Sie die Quizze mit Freunden",
+      "text": "Machen Sie die angesprochenen Übungen mit Freunden um zu sehen, wie weit man von einander weg sein kann UND vertiefen Sie für sieben Tage, dass man sich völlig in einem Menschen täuschen kann und deshalb mehr Feingefühl und regelmäßiges Fragen sehr wichtig sind.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

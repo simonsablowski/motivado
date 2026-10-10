@@ -1,0 +1,182 @@
+{
+  "key": "bez-date-raum",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie haben ein Date und es läuft super. Sie und Ihr Gegenüber kommen sich näher, sie wollen gemeinsam nach Hause fahren und Sie freuen sich schon? Aber auch jetzt können Sie den Karren noch gegen die Wand fahren.\r\n\r\nWelche Wirkung haben Ihr Auto und Ihre Wohnung? Was ist dabei zu beachten? Wir wollen nämlich nicht, dass Sie sich hinterher wundern, warum sich der Andere nicht mehr meldet oder offen für weitere Dates ist.\r\n\r\nDamit Sie nicht noch auf der Zielgeraden das Rennen verlieren, sollten Sie das Wichtigste zum Date bezüglich Ihrer Wohnung und/oder Ihres Autos wissen und dementsprechend vorbereitet sein.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Herzlich Willkommen in unserem Coaching \"Auto und Wohnung beim Date\".\r\n\r\nWenn sie ein Date haben und den ganzen Tag vorher überlegen, was sie anziehen sollen und worüber sie reden können, vergessen viele Menschen oft eine wichtige Grundlage: ihre Wohnung und ihr Auto. Es ist nicht so wichtig, wie groß oder klein Ihre Wohnung ist oder welches Auto Sie fahren, aber welche Dinge wirklich geschätzt werden, zeigen wir Ihnen im Folgenden.\r\n\r\nIn unserem Coaching \"Auto und Wohnung beim Date\" geht es darum, Ihnen zu zeigen, welche Vorbereitungen Sie treffen können, damit sich Ihr Gegenüber bei Ihnen wohlfühlt und einer Verlängerung Ihres Dates, bei der es vielleicht sogar zu Sex kommt, nichts im Weg steht. Wenn Sie damit erst anfangen, wenn Ihr Date bereits neben Ihnen sitzt, ist es definitiv zu spät.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Wohnung ist Ihre Visitenkarte\r\n\r\nGerade für Frauen entsprechen die Wohnungen oder auch das Auto von Männern einer Visitenkarte. Der erste Eindruck, der durch Ihre Wohnung entsteht, ist schwer zu ändern und daher auch der wichtigste. Wir helfen Ihnen mit unserer Erfahrung dabei, mit Ihrer Wohnung einen guten ersten Eindruck zu machen.\r\n\r\nSelbst wenn Sie nicht davon ausgehen, dass Sie mit Ihrem Date in Ihre Wohnung gehen werden, sollte sich diese dennoch in einem guten Zustand befinden. Wollen Sie wirklich das Risiko eingehen, dass der Andere doch mit zu Ihnen kommt und auf Grund Ihrer Wohnung oder Ihres Autos den Abend oder gar den Kontakt abbricht? ",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sauberkeit in Ihrer Wohnung\r\n\r\nEine unsaubere Wohnung kann genau diesen Effekt haben, denn Ihr Gegenüber wird den hygienischen Standard Ihrer Wohnung auf Ihre persönliche Hygiene übertragen. Mit einer schmuddeligen Wohnung stehen die Chancen für Intimitäten schlecht.\r\n\r\nSauberkeit gilt besonders für das Bad und die Küche. Niemand fühlt sich wohl, wenn die Mülleimer überlaufen, die Haare auf dem Boden schon mit Staubmäusen eine Symbiose eingegangen sind und der Schimmel in der Dusche langsam die Wand hoch kriecht. \r\nSorgen Sie dafür, dass in Ihrer Wohnung ein hygienischer Standard herrscht, bei dem sich Besucher wohl fühlen. Entfernen Sie außerdem unangenehme Dinge wie herumliegende, benutzte Taschentücher oder Verpackungen von Schokolade etc.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Fallen für unangenehmen Geruch \r\n\r\nAchten Sie besonders darauf, mögliche Geruchsquellen wie schmutzige Wäsche, Mülleimer, Aschenbecher, leicht benutzte Sportsachen, Turnschuhe, Geschirrspüler oder dreckiges Geschirr zu entfernen oder zu säubern.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die persönliche Note\r\n\r\nAußer einem sauberen Zustand ihrer Wohnung können Sie noch weitere Vorbereitungen für den Fall treffen, dass Ihr Date Sie zuhause besucht. Ihre Wohnung sollte Ihre Persönlichkeit wider spiegeln. Allerdings sollten Sie sich in einigen Bereichen etwas zurückhalten:\r\n\r\nFür Männer gilt, dass keine Poster von nackten Frauen in der Wohnung hängen sollten. Ebenso sollten sich Frauen in Ihrer Fan-Liebe etwas zurückhalten und nicht die gesamte Wohnung mit Bravo-Postern geschmückt haben. \r\n\r\nEine riesige Kuscheltier-Sammlung wirkt auf den Anderen meist etwas abschreckend. Aber der eine abgegriffene Lieblingsteddy, der Sie seit Ihrer Geburt durchs Leben begleitet hat, darf natürlich bleiben, auch bei Männern. Bilder der Familie und von Freunden zeigen, dass Sie eine kontaktfreudige und sozial aktive Person sind. Zumal wirken kahle Wände nicht besonders einladend oder gemütlich.\r\n\r\nBei Männern sollte zudem keine Unterwäsche herumliegen, bei Frauen verhält sich dies ein bisschen anders – aber natürlich sollte nur saubere Unterwäsche zu sehen sein. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Perfektion ist zu viel\r\n\r\nEin wichtiger Erfahrungswert ist aber auch, dass Ihre Wohnung nicht zu geleckt aussehen sollte. Lassen Sie ruhig einige Dinge wie z.B. Handtücher, ein paar Schuhe, etwas frisch gewaschene Wäsche, Arbeitsunterlagen, Zeitschriften oder Bücher herumliegen. Immerhin wohnen und leben Sie in Ihrer Wohnung und so darf es natürlich auch aussehen. Ein zu aufgeräumtes Zimmer wirkt unpersönlich und perfekt inszeniert, also als ob alles geplant und vorbereitet war.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unterhaltung\r\n\r\nWenn Sie zudem Dinge bereit haben, die Spaß machen (z.B. ein Spiel, ein Musikinstrument oder Fotos), wird sich Ihr Date schneller bei Ihnen wohl fühlen, Sie haben gleich ein Gesprächsthema, etwas zu tun und der Andere kann sich schneller entspannen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vorbereitungen für den Fall aller Fälle\r\n\r\nHaben Sie das Gefühl, dass Sie mit Ihrem Date intim werden und Sex haben könnten, gibt es einige Dinge, die vorbereitet sein sollten.\r\n\r\nDa Sie nicht wissen können, wie Ihr Gegenüber darauf reagiert, wenn man Ihnen in die Fenster sehen kann, wären Vorhänge vor dem Fenster schön oder Sie sollten sie zumindest verdecken können. Außerdem ist es wichtig, dass Ihre Bettwäsche sauber und frisch ist.\r\n\r\nSie können passende Musik aussuchen und eine Flasche Wein im Kühlschrank oder zumindest griffbereit haben. Besonders dann, wenn es bereits zu Intimitäten gekommen ist oder noch kommen soll, können Sie auch eine Flasche Champagner kalt gestellt (nicht gelegt!) haben. \r\n\r\nReagiert Ihr Date mit \"Du bist Dir aber ganz schön sicher!\", können Sie wie folgt antworten: \"Ich habe die Flasche mal geschenkt bekommen. Champagner hält sich ja nur eine Weile und ich wollte sie schon immer mal trinken.\"\r\n\r\nGerade dann, wenn es zu Sex zwischen Ihnen und Ihrem Date kommen soll, sollten Kondome etc. versteckt griffbereit liegen. Für den Fall, dass sie schon vorher entdeckt werden, wären dies die richtigen Antworten auf mögliche Kommentare des Anderen:\r\n„Oh, die Kondome liegen ja schon da.“ - „So etwas sollte man heutzutage im Haus haben findest Du nicht?“\r\n„War das geplant?“ - „Ich denke so etwas kann man nicht planen, aber ich habe natürlich nichts dagegen, dass es sich so entwickelt.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sauberkeit in Ihrem Auto\r\n\r\nEinige Punkte kennen Sie nun schon bereits, vor allem in Bezug auf Sauberkeit:\r\nIn Ihrem Auto sollten keinesfalls die Reste vom letzten Besuch eines Fast-Food-Restaurants oder Ihre unangenehm riechenden Sportsachen auf dem Rücksitz vor sich hin gammeln. \r\n\r\nEntsorgen Sie auch alles, was sich immer so gerne auf dem Beifahrer- oder Rücksitz ansammelt: Pfandflaschen, Flyer, Müll und alle Essensreste (und wir meinen damit nicht, alles ins Handschuhfach zu stopfen). \r\nLeeren Sie gegebenenfalls den Aschenbecher aus und die Sanddüne im Fußraum muss auch nicht sein.\r\n\r\nWenn Sie mit Ihrem Auto zum Date fahren, sollten Sie ein Fenster einen kleinen Spalt offen lassen, damit es gut durchlüften kann.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die persönliche Note\r\n\r\nIhr Auto sollte allerdings ebenfalls nicht zu unpersönlich sein. Lassen Sie ruhig Ihre Lieblings-CD oder ein Buch, das Sie gerne lesen, im Auto liegen. Auch ein Glücksbringer, den Sie vom letzten Urlaub mitgebracht haben und der jetzt vom Rückspiegel hängt, oder ein Flyer eines Events, auf dem Sie letztens noch waren, zeigen Persönlichkeit. Zudem bieten sie Gesprächsstoff.\r\n\r\nNoch ein kleiner Hinweis von uns für Sie: Achten Sie darauf, welche Musik und wie laut diese angeht, wenn Sie den Schlüssel im Zündschloss umdrehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Tipp zum Schluss\r\nBevor Sie mit Ihrem Date Ihre Wohnung betreten oder ins Auto steigen, sollten Sie sich dem Anderen gegenüber kurz dafür entschuldigen, in welchem Zustand sich Ihre Wohnung oder Ihr Auto befindet. \"Entschuldige bitte, wie es hier aussieht, ich hatte eine stressige Woche und bin nicht dazu gekommen, hier klar Schiff zu machen.\"\r\n\r\nAus unserer Erfahrung bei Motivado wissen wir, dass Sie mit einer solchen Aussage immer auf der sicheren Seite sind. Sie wissen nicht, welche Ansprüche der Andere an Hygiene und Sauberkeit hat. Wenn Sie zum ersten Mal Besuch von einer neuen Person bekommen, sollte Ihre Wohnung oder Ihr Auto so aussehen, als ob Sie keinen Besucher erwartet hätten, sich aber trotzdem jeder bei Ihnen wohl fühlt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching rund um das Thema Auto und Wohnung beim Date\". Wir hoffen Ihnen hilfreiche Anregungen mitgegeben zu haben und wünschen Ihnen viel Erfolg bei der Umsetzung!\r\n\r\nWenn Sie noch Fragen haben oder weitere Unterstützung wünschen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen. Sie können uns per E-Mail oder Telefon erreichen. Dazu gehen Sie bitte auf \"Hilfe/Kontakt\".",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "key": "bez-re-spannend",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Spannend_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "List",
+      "key": "rel_rueckAttr_like",
+      "title": "Was hat Ihrem Ex-Partner an Ihnen gefallen? Wann hat er Ihre Nähe gesucht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Spannend_V2.flv"
+        },
+        "events": [
+          {
+            "type": "hide",
+            "second": 0
+          },
+          {
+            "type": "show",
+            "second": 23
+          }
+        ],
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "rel_rueckAttr_like",
+      "title": "Pflegen Sie diese Liste!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Spannend_V3.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "rel_rueckAttr_disturb",
+      "title": "Schreiben Sie bitte auf, an welchen Punkten sich Ihr Partner gestört hat!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Spannend_V4.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "List",
+      "key": "rel_rueckAttr_disturb",
+      "title": "Bitte ergänzen Sie Ihre Liste!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Spannend_V5.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Was sagt Ex?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_Spannend_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "List",
+      "key": "rel_rueckAttr_disturb",
+      "title": "Wählen Sie bitte jetzt aus Ihrer Liste die Punkte aus, an denen Sie bereit sind zu arbeiten und schreiben Sie neben jeden dieser Punkte, wie genau Sie das tun möchten!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Super! \r\nSie arbeiten an sich und geben Gas, um Ihren Partner zurückzugewinnen. Damit haben Sie schon vielen Menschen etwas voraus. \r\nSie können stolz auf sich sein! ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nun haben wir neben allgemeinen Dos und Don'ts, die für alle 'Rückeroberer' gleichermaßen gelten, zusätzlich Ihre ganz persönliche Aufstellung von Punkten, die nur für Sie und Ihren Ex-Partner relevant sind. Als Grundregel für Ihre Rückeroberung gilt: tun Sie alles, was Ihrem Partner gefallen hat und vermeiden Sie möglichst alles, was Ihren Partner gestört hat. \r\nSie haben sich ja bereits einige Punkte vorgenommen, an denen Sie arbeiten möchten. Falls Ihnen im Laufe der Zeit weitere Dinge einfallen, bauen Sie diese in Ihre Strategie ein! Vergessen Sie aber auch nicht, vermehrt die Dinge zu zeigen, in die Ihr Partner sich ursprünglich mal verliebt hat.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ihre Attraktivität steigern\r\n\r\nNatürlich ist Aussehen nicht alles. Ihr Ex-Partner hat Sie aus vielerlei Gründen als den Menschen an seiner Seite ausgewählt. Dennoch spielt körperliche Anziehungskraft eine wichtige Rolle, wenn Sie einen Menschen (wieder) für sich begeistern wollen.\r\nNutzen Sie deshalb diese Phase, um verstärkt etwas für die eigene Attraktivität zu tun und dem Anderen umso mehr vor Augen zu führen, was er verpasst.\r\nDamit tun Sie nämlich vor allem auch etwas für sich selbst!",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "An dieser Stelle bietet es sich auch an, einmal gute Freunde nach Feedback zu fragen. Wir haben schon oft erlebt, dass Menschen sich kleinerer Makel (die leicht zu beheben wären) nicht bewusst sind, weil sie schlicht niemand darauf aufmerksam macht. Das können z.B. eher unvorteilhafte Klamotten sein oder kleinere Beläge auf den Zähnen, die der Zahnarzt locker entfernen könnte.\r\nWenn Sie eine Rückmeldung in dieser Art bekommen, nehmen Sie das Ihrem Freund nicht übel. Schließlich haben Sie gefragt und der Andere meint es nur gut, indem er Sie auf Dinge aufmerksam macht, die Ihnen selbst nicht auffallen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "rel_rueckAttr_change",
+      "title": "Bitte notieren Sie jetzt, in welcher Hinsicht Sie an Ihrer optischen Erscheinung etwas verändern möchten (z.B. modische Outfits, Frisörbesuch, Gewichtsabnahme etc.)!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön. Falls die Themem \"Gewichtsverlust\", \"fitter werden\" oder \"gesünder essen\" in Ihrer Liste auftaucht, empfehlen wir Ihnen unseren Abnehm-Coach. Diesen können Sie jederzeit auf unserer Start-Seite unter 'Coaching' starten. Lassen Sie uns aber zunächst dieses Coaching fortführen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine weitere Möglichkeit, in den Augen des Anderen attraktiver zu werden, ist seine oder ihre Eifersucht anzuregen.\r\n\r\nDas können Sie erreichen, indem \r\na. Sie mit jemand Anderem dort erscheinen, wo der Ex-Partner sich aufhält\r\nb. Sie Ihrem Ex-Partner erzählen, dass Sie sich mit jemand Anderem treffen\r\nc. eine dritte Person (z.B. ein gemeinsamer Freund) Ihrem Ex-Partner erzählt, dass Sie sich mit jemand Anderem treffen.\r\n\r\nDazu müssen Sie nicht tatsächlich ein \"echtes\" Date mit jemand Anderem haben. Wichtig ist, dass dieser Eindruck bei Ihrem Ex-Partner entsteht.\r\nAchtung: Wenn Sie hier in die Trickkiste greifen, achten Sie aber auf jeden Fall darauf, dass Ihr Ex-Partner nicht dahinter kommt!\r\nAußerdem funktioniert diese Strategie nur dann, wenn Sie wieder ein Wechselspiel aus Kalt und Heiß einsetzen. Den Anderen kurz eifersüchtig zu machen und dann aus seinem Blickfeld zu verschwinden, wird Ihnen nicht helfen. Stattdessen sollten Sie sein neu entfachtes Interesse für einen kleinen Flirt nutzen, bevor Sie sich wieder zurückziehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Das war unser Coaching 'Für den Anderen wieder spannend werden'.\r\nFür Rückfragen stehen wir Ihnen gerne zur Verfügung. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

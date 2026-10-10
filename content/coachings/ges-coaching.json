@@ -1,0 +1,26 @@
+{
+  "key": "ges-coaching",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Dieses Coaching befindet sich noch im Aufbau.  Bitte wenden Sie sich telefonisch oder per E-Mail an unsere Experten. Wir sind für Sie da!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

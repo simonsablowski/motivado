@@ -1,0 +1,30 @@
+{
+  "key": "bez-re-bruecke1",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Cut",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_ExZurueck_ZwischenInfo_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

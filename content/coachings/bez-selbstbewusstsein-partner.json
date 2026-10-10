@@ -1,0 +1,255 @@
+{
+  "key": "bez-selbstbewusstsein-partner",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_QuestTree_V122.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Schwer verliebt Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Übersicht",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Hormone",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Hatten Sie schon schöne Erlebnisse? Auch wenn Sie nun neue Wege gehen, können Sie ein paar der alten guten Erinnerungen nehmen, um sich zusätzlich aufzubauen.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Atemübung\r\n\r\n* Die andere Person sehen:\r\n\r\n- Schönes gemeinsam machen\r\n- Lieblingsessen einnehmen\r\n- Traumurlaub\r\n- Rentnerbank: Ende gut alles gut.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V7.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Nehmen Sie eine starke Haltung ein, während Sie an den Partner denken!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Machen Sie sich deutlich, dass es für Sie möglich ist, einen Partner zu finden. Das können Sie z.B. ideal beim Laufen oder Spazierengehen umsetzen. Sprechen Sie dabei immer wieder diesen Satz aus: \"Es ist möglich. Ich erlaube mir eine glückliche Beziehung.\"",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Integrieren Sie die folgenden Übungen in den nächsten Tagen:\r\n* Sehen Sie sich glücklich mit einem tollen Partner\r\n* Achten Sie auf eine gute, aufrechte, selbstbewusste Körperhaltung\r\n* Stoppen Sie Zweifelgedanken sofort mit den positiven Bildern und den Aussagen, dass niemand weiß, was alles passieren und funktionieren kann.",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "1f574c34f19d4c46a9113df3ea1cf212",
+      "title": "Haben Sie die Übung auch mit aller Intensität gemacht und eingeplant?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Nein, eher nicht."
+          },
+          {
+            "key": 2,
+            "value": "Ja, ich gebe Vollgas."
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "1f574c34f19d4c46a9113df3ea1cf212 is 1"
+        },
+        {
+          "to": "n012",
+          "if": "1f574c34f19d4c46a9113df3ea1cf212 is 2"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Haben Sie Übung begonnen, bzw. eingeplant das zu tun?\n\nFalls nicht: Wenn Sie bei dieser kleinen Übung schon nicht Vollgas geben, wieviel Mühe machen Sie sich dann, wenn Sie eine tolle Person vor sich haben und es mal anstrengend wird? Wie ernst meinen Sie es mit Ihrem Wunsch nach einer glücklichen Beziehung? Gehören Sie zu den Leuten, die hoffen und dann denken, alles fällt Ihnen in den Schoß? Wäre fast nicht verwunderlich, wenn Sie keine glückliche Beziehung haben, wenn Sie nicht mal so kleine Dinge probieren und mit Vollgas durchziehen. Durchschnittliches Verhalten bringt durchschnittliche Partner und durchschnittliche Beziehungen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das ist wunderbar! Wann immer ein Mensch etwas tut, hat das eine Konsequenz auf sein Unterbewusstsein. Machen Sie die Übung in jedem Fall noch 21 Tage weiter, während das Coaching hier weitergeht. Und beachten Sie, die Übung auch wirklich mit soviel Überzeugung wie möglich zu machen. Notfalls wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "Sie gewinnen mit jeder Übung und holen sich weiter aus den Löchern, in denen viele Menschen stecken bleiben und Ihren Traumpartner nicht kennenlernen oder für sich gewinnen können.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_SBPartner_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

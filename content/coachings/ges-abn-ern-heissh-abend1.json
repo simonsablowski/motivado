@@ -1,0 +1,194 @@
+{
+  "key": "ges-abn-ern-heissh-abend1",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Herzlich Willkommen im Coaching Heißhunger am Abend!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends1_V1.flv"
+        },
+        "elements": [
+          {
+            "element": "Wie ferngesteuert!!",
+            "second": 48
+          },
+          {
+            "element": "Ohne jegliche Kontrolle!",
+            "second": 53
+          },
+          {
+            "element": "Keine Grenzen mehr!",
+            "second": 60
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends1_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Warum habe ich immer Heißhungerattacken am Abend?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends1_V3.flv"
+        },
+        "elements": [
+          {
+            "element": "Zu starke Kontrolle!",
+            "second": 8
+          },
+          {
+            "element": "Abends fordert der Körper sein Recht.",
+            "second": 60
+          },
+          {
+            "element": "Durchbrechen Sie das Handlungsmuster!",
+            "second": 110
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Den Heißhunger erst gar nicht entstehen lassen!",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends1_V4.flv"
+        },
+        "elements": [
+          {
+            "element": "3 Mahlzeiten am Tag.",
+            "second": 26
+          },
+          {
+            "element": "1 bis 2 kleine Zwischenmahlzeiten",
+            "second": 51
+          },
+          {
+            "element": "Essen Sie bewusst!",
+            "second": 126
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Was tun, wenn der Heißhunger dann doch auftaucht?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends1_V5.flv"
+        },
+        "elements": [
+          {
+            "element": "Gesündere Alternative angewöhnen!",
+            "second": 32
+          },
+          {
+            "element": "Kleine Tricks helfen bei Heißhungerattacken:",
+            "second": 67
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Hier ein paar kleine Tipps: ",
+      "text": "- Trinken Sie immer erst zwei große Gläser Wasser.\n- Überlegen Sie genau, warum Sie jetzt zur Schokolade greifen.\n- Stehen Sie auf, bewegen Sie sich mindestens 10 Minuten, in 9 von 10 Fällen ist der Heißhunger dann bereits vorbei.\n- Finden Sie Ihren persönlichen Trick gegen den Heißhunger und üben Sie diesen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "Verzeihen Sie sich Ausrutscher!",
+      "text": "Ein kleiner Ausrutscher ist keine Katastrophe und innerhalb von einer Woche wieder ausgeglichen! Ausrutscher sind erlaubt, solange es nicht zu viele werden und man diese mit einplant.",
+      "props": {
+        "video": {
+          "url": "DIC_HeisshungerAbends1_V6.flv",
+          "delay": 85
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zu dem Coaching \"Heißhunger am Abend.\"",
+      "text": "Der Heißhunger am Abend kann Ihnen nur gefährlich werden, wenn er Sie unvorbereitet trifft!\nDann, wenn Sie abends nach Hause kommen, er Sie mit voller Wucht überrollt und Sie an nichts anderes mehr denken können, als an Ihren Kühlschrank.\nMüssen Sie in dieser Situation erst nachdenken, was Sie jetzt anstelle zu essen tun könnten, haben Sie schon verloren!\nUnd darum:\nSchreiben Sie sich einen Regieplan für eine typische Heißhunger-Situation unter der Woche und für eine am Wochenende!\nSchreiben Sie sich ganz genau auf, was Sie machen werden, wenn Sie mit Heißhunger nach Hause kommen werden.\nWenn Sie es bisher noch nicht getan haben, dann misten Sie Ihren Kühlschrank aus (zuckrige und fettige Dinge raus - Gemüse, Obst und Putenbrustaufschnitt rein!).\nAuf geht's!\nBereiten Sie sich vor und dann werden Sie ganz genau wissen, was das nächste Mal zu tun ist.\nViel Erfolg!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

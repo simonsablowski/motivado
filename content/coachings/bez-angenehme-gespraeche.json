@@ -1,0 +1,260 @@
+{
+  "key": "bez-angenehme-gespraeche",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Willkommen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "BulletPoints",
+      "key": null,
+      "title": "Das erwartet Sie im Coaching:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V3.flv"
+        },
+        "elements": [
+          {
+            "element": "Grundlagen",
+            "second": 4
+          },
+          {
+            "element": "Gesprächstechniken",
+            "second": 6
+          },
+          {
+            "element": "Übung",
+            "second": 13
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "TextArea",
+      "key": null,
+      "title": "Was bringt es Ihnen, Gespräche zu lenken und angenehmer zu gestalten? Schreiben Sie es hier auf:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "TextArea",
+      "key": null,
+      "title": "Mit wem unterhalten Sie sich gerne? Und warum? Machen Sie sich hier Notizen:",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V5.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Rahmen aufmerksamer Gesprächspartner",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V6.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "List",
+      "key": "rel_angGespr_fragenSchoen",
+      "title": "Was sind gute Fragen, die dem Anderen helfen Schönes zu erinnern?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V7.flv"
+        },
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "List",
+      "key": "rel_angGespr_fragenSchoen",
+      "title": "",
+      "text": "Beispielfragen:\n  Was macht Ihnen Spaß?\r\n Was mögen Sie gar nicht so gern?\r\n Was war Ihr Lieblingsurlaub? / Lieblingsurlaubsort?\r\n Wann haben Sie sich das erste Mal verknallt? Wie war das?\r\n Was ist Ihnen mal Dummes passiert?\r\n Auch verbunden mit einem sanften Kompliment:\r\n Wie schaffen Sie es, trotz Ihres Jobs noch so frisch zu wirken, oder arbeiten Sie zur Zeit nicht?",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Ansprechen von Emotionen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Lächeln, Nicken, Nachhaken",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Berührung im Gespräch",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Nähe über Ähnlichkeit",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "\nEine kleine Frage, die Sie nebenbei im Kopf haben könnten, ist:\nWas fehlt dem Gegenüber? Selbst der hübscheste, intelligenteste Typ vermisst etwas. Wenn Sie das erahnen und Punkte davon im Gespräch einbringen können, ist es für den Anderen immer spannend.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Aufgabe zum Coaching 'Sehr angenehme Gespräche führen'\r\n\r\nÜben Sie mit Bekannten und Fremden, ohne dass diese es wissen, sehr angenehme Gespräche zu führen.\r\n\r\nHalten Sie fest, mit wem Sie gesprochen haben, und wie gut Sie die Elemente unterbringen konnten. Halten Sie auch fest, was Sie beim nächsten Mal besser machen wollen.",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Gratulation. Dies war das Coaching 'Angenehme Gespräche führen\". Nun heißt es viel Spaß! Viel Erfolg! und Bis bald.",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_AngGespr_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

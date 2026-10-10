@@ -1,0 +1,251 @@
+{
+  "key": "bez-tf-2",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V8.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Video",
+      "key": null,
+      "title": "Ankündigung",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V9.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Basics: Frau nicht billig",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Brücken bauen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Vertrauen für die Nummer",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Themenwechsel für mehr Vertrauen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "Was würden Sie sich wünschen? Gut gehen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "Themen, die die Frau interessant findet",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Ende - Vorschau - Anmoderation Übungen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "Themen vorbereiten",
+      "text": "Sammeln Sie Themen. Worüber unterhalten sich Menschen, Frauen sich gerne? Zu jedem Thema bereiten Sie zwei oder drei Fragen vor, um ein Gespräch zu dem Thema leichter zu führen.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V18.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Spannende, besondere Themen vertiefen",
+      "text": "Wählen Sie ein Thema, das eine Frau spannend und auch etwas außergewöhnlich finden könnte. Ist es Gesichtszüge interpretieren, Körpersprache, Handlesen, etc. und vertiefen Sie dieses.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Ortswechsel üben",
+      "text": "Sie müssen eventuell entgegen Ihrer bisherigen Gewohnheit an einem Ort gern länger zu bleiben, üben den Ort zu wechseln. Üben Sie dies mit Freunden innerhalb der nächsten Wochen. Mindestens fünf Mal sollten Sie das hinbekommen.",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Ende",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_FrauAnsprechWeiter_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

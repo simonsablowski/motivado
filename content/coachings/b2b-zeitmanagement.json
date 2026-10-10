@@ -1,0 +1,1028 @@
+{
+  "key": "b2b-zeitmanagement",
+  "domain": "b2b",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "db359fff755c4729b0ae1e71d2e0636e",
+      "title": "Prototyp",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "V1 - Variante ohne Belohnung"
+          },
+          {
+            "key": "2",
+            "value": "V2 - Variante mit Belohnung"
+          },
+          {
+            "key": "3",
+            "value": "V3 - Variante mit Belohnung, sofort oder Zeitversetzt"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "db359fff755c4729b0ae1e71d2e0636e is '1'"
+        },
+        {
+          "to": "n003",
+          "if": "db359fff755c4729b0ae1e71d2e0636e is '2'"
+        },
+        {
+          "to": "n004",
+          "if": "db359fff755c4729b0ae1e71d2e0636e is '3'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Options",
+      "key": "6b8a9077c7904b189721f65e1a5a3f8c",
+      "title": "Lust auf eine kleine Lerneinheit \"Zeitmanagement\"?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "6b8a9077c7904b189721f65e1a5a3f8c is '1'"
+        },
+        {
+          "to": "n006",
+          "if": "6b8a9077c7904b189721f65e1a5a3f8c is '2'"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Options",
+      "key": "5f8d1e0825f446dcabc8497313f1b4ec",
+      "title": "Heute wieder die Gelegenheit, neue Punkte zu sammeln!",
+      "text": "Möchten Sie mit der kleinen Lerneinheit \"Zeitmanagement\" fortsetzen?",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          },
+          {
+            "key": "3",
+            "value": "Später"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "5f8d1e0825f446dcabc8497313f1b4ec is '2'"
+        },
+        {
+          "to": "n005",
+          "if": "5f8d1e0825f446dcabc8497313f1b4ec is '1'"
+        },
+        {
+          "to": "n007",
+          "if": "5f8d1e0825f446dcabc8497313f1b4ec is '3'"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Options",
+      "key": "c98c548ed98945c2b6b573ff002e2fa5",
+      "title": "Heute wieder die Gelegenheit, neue Punkte zu sammeln!",
+      "text": "Möchten Sie mit der kleinen Lerneinheit \"Zeitmanagement\" jetzt oder lieber in 6 Stunden fortsetzen?",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Jetzt"
+          },
+          {
+            "key": "2",
+            "value": "Später"
+          },
+          {
+            "key": "3",
+            "value": "Danke, will ich nicht"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "c98c548ed98945c2b6b573ff002e2fa5 is '1'"
+        },
+        {
+          "to": "n007",
+          "if": "c98c548ed98945c2b6b573ff002e2fa5 is '2'"
+        },
+        {
+          "to": "n006",
+          "if": "c98c548ed98945c2b6b573ff002e2fa5 is '3'"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich willkommen zu Ihrer kleinen Lerneinheit Zeitmanagement!",
+      "text": "Unser ganzer Alltag hat mit Zeitmanagement zu tun: Wie viel Freizeit Sie haben, wie effektiv Sie Ihre Dinge erledigen können. Im weiteren Verlauf zeigen wir Ihnen, wie Sie Ihre Zeit besser managen können.\n\nSchön, dass Sie nun beginnen, Ihre Alltagsabläufe zu optimieren.\n\nZur Übersicht unserer kleinen wichtigen Themen klicken Sie auf \"Weiter\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "fb2ee7184cb84f2fa6091741e79fbb90",
+      "title": "Schade!",
+      "text": "Sind Sie sich wirklich sicher? Es dauert doch nur 3 Minuten.",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ich möchte es mir doch anschauen"
+          },
+          {
+            "key": "2",
+            "value": "Vielleicht später"
+          },
+          {
+            "key": "3",
+            "value": "Programm beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "fb2ee7184cb84f2fa6091741e79fbb90 is '3'"
+        },
+        {
+          "to": "n005",
+          "if": "fb2ee7184cb84f2fa6091741e79fbb90 is '1'"
+        },
+        {
+          "to": "n009",
+          "if": "fb2ee7184cb84f2fa6091741e79fbb90 is '2'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "777ae82c2bab482ea6d1ec3973c7ddf2",
+      "title": "Hallo noch mal! ",
+      "text": "Die 6 Stunden sind wie im Flug vergangen?\n\nWie wäre es mit einer kleinen Lerneinheit \"Zeitmanagement\"?\nDabei lernen Sie Praktisches und können auch noch ganz entspannt Punkte sammeln.",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja, gern"
+          },
+          {
+            "key": "2",
+            "value": "Später"
+          },
+          {
+            "key": "3",
+            "value": "Danke, will ich nicht"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n005",
+          "if": "777ae82c2bab482ea6d1ec3973c7ddf2 is '1'"
+        },
+        {
+          "to": "n009",
+          "if": "777ae82c2bab482ea6d1ec3973c7ddf2 is '2'"
+        },
+        {
+          "to": "n006",
+          "if": "777ae82c2bab482ea6d1ec3973c7ddf2 is '3'"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "inhalte",
+      "title": "Was interessiert Sie am meisten? Was brauchen Sie am ehesten?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "To-Do-Listen: Varianten, Tipps, Alternativen"
+          },
+          {
+            "key": "2",
+            "value": "Die E-Mail-Fluten managen"
+          },
+          {
+            "key": "3",
+            "value": "Meister der Unterbrechung"
+          },
+          {
+            "key": "4",
+            "value": "Arbeit und Privates unter einen Hut bringen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n010",
+          "if": "inhalte is '1'"
+        },
+        {
+          "to": "n011",
+          "if": "inhalte is '2'"
+        },
+        {
+          "to": "n012",
+          "if": "inhalte is '3'"
+        },
+        {
+          "to": "n013",
+          "if": "inhalte is '4'"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Wir melden uns noch mal in 6 Stunden. Bis später!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "To-Do-Listen",
+      "text": "Kommt das Ihnen bekannt vor? Den ganzen Tag durchgearbeitet, \"zig\" Gespräche gehabt, mehrere Telefonate geführt und trotzdem heißt es abends: \"Irgendwie weiß ich nicht mehr, was ich heute alles gemacht habe...\" oder \"Schon wieder XY vergessen!\".\n\nDie gute alte To-Do-Liste - eine der erfolgreichsten Arbeitstechniken zur Strukturierung und Verwaltung anfallender Aufgaben. Um die eigene Vergesslichkeit in den Griff zu bekommen, ist sie schlicht und einfach das Tool der ersten Wahl! \n\nJeder kennt sie, jeder nutzt sie, nicht wahr? Warum wachsen dann diese praktischen Alltagsunterstützer so oft zu monströsen Gewissensbissenverursacher?\n\nIn diesem Teil des Lernprogramms \"Zeitmanagement\" zeigen wir Ihnen, wie Sie das Monster wieder zähmen. Das werden ein paar gut investierte Minuten sein! Klicken sie \"Weiter\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "E-Mail - die Fluten kontrollieren",
+      "text": "Unser Posteingang wird tagtäglich mit E-Mails geflutet. Experten erwarten, dass bis 2012 ein Mitarbeiter eines großen Unternehmens durchschnittlich 200 E-Mails am Tag erhält! Wussten Sie, dass nur knapp 12 % der Unternehmen eine verbindliche Regelung für den Umgang damit haben?\n\nDazu kommen noch diverse störende Angewohnheiten im Umgang mit Mails: \n* Breites Streuen von CC-Kopien\n* über E-Mails schnell Verantwortung Abschieben\n* ewig lange Nachrichten von Kunden oder Kollegen \n\nDas kennen wir doch alle, oder?\n\nIn dieser Einheit bekommen Sie viele pfiffige Tipps, wie Sie die E-Mail Fluten besser managen können. Verlieren Sie nicht mehr Ihre Zeit und Nerven und klicken Sie jetzt auf \"Weiter\"!",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "Umgang mit Unterbrechungen - wenn der wichtige Kunde oder der nette Kollege dazwischenfunkt",
+      "text": "Kennen Sie das? Sie sind gerade mittendrin in einem Thema oder versuchen noch ein Paar E-Mail-Zeilen zu produzieren und dann kommt's: Der nette Kollege will mit Ihnen quatschen, die Kollegin hat eine Frage, das Telefon klingelt ...\n\nElf Minuten - so lange kann sich laut Studien ein durchschnittlicher Büroarbeiter mit einem Thema beschäftigen, bevor er unterbrochen wird. Nach jeder Unterbrechung wendet er sich im Durchschnitt mindestens zwei anderen Aufgaben zu, bevor er zur ursprünglichen Tätigkeit zurückkehren kann. Verblüffend, oder?\n\nUnterbrechungen bei der Arbeit sind vor allem im Büro aber auch in Dienstleistungsberufen an der Tagesordnung. Viele kommen vor lauter Anrufen, E-Mails und Internet fast nicht mehr zum Arbeiten. \n\nIn dieser Einheit zeigen wir Ihnen, wie Sie mit dem Meister der Unterbrechung bei der Arbeit effizienter und selbstbewusster umgehen können. Klicken Sie bitte auf \"Weiter\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Priorisieren - wichtige Jobs und wichtige private Angelegenheiten unter einen Hut bringen",
+      "text": "Eines der wichtigen Ziele beim Zeit- und Arbeitsmanagement besteht darin, die anstehenden Aufgaben in eine sinnvolle und effiziente Rangfolge zu bringen. Das Setzen von Prioritäten (auch als Priorisieren bezeichnet) spielt in der Arbeitswelt eine sehr wichtige Rolle.\n\nWussten Sie, dass oftmals sogar bei Einstellungsprüfungen vom Bewerber im Rahmen der sogenannten Postkorbübung verlangt wird, viele Aufgaben unter Zeitdruck zu priorisieren und zu bearbeiten?\n\nAuch für Privatleben ist Priorisieren von großer Bedeutung. Kennen Sie das vielleicht? In der Arbeit läuft alles so weit gut, zu Hause haben Sie aber ein schlechtes Gewissen, für die Familie/Freunde/sich selbst nicht genug Zeit zu investieren.\n\nEin wichtiges Thema! Gleich zeigen wir Ihnen, wie auch Sie davon profitieren können, die Prioritäten richtig zu setzen. Los geht's!",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "Formen der To-Do-Liste (1/2)",
+      "text": "Der Erfinder der Tabelle sollte den Nobelpreis bekommen - keine Frage! Genauso der Erfinder der To-Do-Liste, die man ähnlich einer Tabelle aufbauen kann: In jeder Zeile werden die zu erledigenden Aufgaben aufgeführt.\n\nBei der einfachsten Form der To-Do-Liste geht es im Vordergrund um das Erkennen der Ziele. Klassischerweise gibt es zwei Spalten: eine für die anstehenden Aufgaben und eine  für die feststehenden Termine. \n\nBei der erweiterten Form dieser To-Do-Liste kommt noch die Einschätzung des Aufwands einer Aufgabe hinzu. Die erweiterte To-Do-Liste enthält deswegen noch eine weitere Spalte für den voraussichtlichen Zeitbedarf zur Bearbeitung derjeweiligen Aufgabe. Dabei empfiehlt es sich immer eine Pufferzeit miteinzuberechnen, vor allem bei neuen Aufgaben, mit denen man noch nicht so gut vertraut ist.",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "1. Bearbeiten Sie Ihre E-Mails routiniert",
+      "text": "Die E-Mails kann man aus dem Berufsleben nicht mehr wegdenken. Was aber tun, wenn man oft mit dem Bearbeiten der einkommenden Post kaum hinterherkommt?\n\nDie erste Antwort lautet: eine feste Prozedur für die Bearbeitung der E-Mails bestimmen und diese konsequent anwenden! \n\nWie kann es laufen? Unsere Strategie in 5 Schritten:\n\nI. Die Idee, sich in der Inbox einige Unterordner anzulegen ist Ihnen sicherlich nicht neu. Folgende Ordner dürfen aber auf keinen Fall fehlen: \n- BEANTWORTEN - für alle E-Mails, die beantwortet werden müssen. Weitere Möglichkeit: Diesen Ordner in \"HEUTE\" und \"DIESE WOCHE\" unterteilen.\n- SPÄTER - für alle Nachrichten, die Sie später lesen wollen und nicht sofort zu beantworten brauchen.\n- BEARBEITEN - für diejenigen Nachrichten, die Sie bearbeiten aber nicht beantworten müssen\n- AUFHEBEN - für wichtige Nachrichten, die Sie für später aufheben wollen, wie Rechnungen, Bestätigungsmails mit Zugangsdaten zu versch. Webseiten, etc.\n\nDas war noch nicht alles. Wie es danach weitergeht, erfahren Sie gleich. Klicken Sie auf \"Weiter\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "Externe und interne Unterbrechungen",
+      "text": "Wir könnten eigentlich zwischen \"Störern\" und \"innerem Schweinehund\" unterscheiden, die Forscher sprechen aber lieber von \"externen\" und \"internen\" Unterbrechungen... \n\nZu EXTERNEN \"Störern\" gehören Maileingang, eingehende Telefonate, Facebook & Co., Besuche von Kollegen, etc.  \n\nDie INTERNEN Unterbrechungen haben mit der Konzentrationsfähigkeit, Motivation und Priorisierung zu tun.\n\nFür beides gilt: Halten Sie eine strikte Taktung von Arbeit ein!",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "Festlegen von Prioritäten",
+      "text": "Bei der Festlegung von Prioritäten werden die anstehenden Aufgaben nach ihrer Dringlichkeit und Wichtigkeit beurteilt und sortiert. Die Unterschiedung zwischen DRINGENDEN und WICHTIGEN Aufgaben ist dabei wesentlich.\n\nDRINGENDE Aufgaben müssen rasch erledigt werden. Sie bedürfen der sofortigen Aufmerksamkeit und benötigen sofortige Handlung. Bei diesen Aufgaben gibt es ein bestimmtes Zeitlimit und die Fristeinhaltung ist mit einem einmaligen Nutzen verbunden. Bei der DRINGLICHKEIT handelt es sich also um ein ZEITLICHES Bewertungskriterium. Wenn Sie sich zwischendurch locker noch ein Sandwich machen können, ist die Aufgabe sicherlich nicht dringend zu erledigen.\n\nWICHTIGE Aufgaben sind meistens längerfristiger, strategischer und haben umfassendere Auswirkungen. Sie bringen Sie einem bestimmten Ziel näher und erlauben es Ihnen, langfristige Verbesserungen herbeizuführen. \n\nDie WICHTIGKEIT beschreibt also die Bedeutung einer Aufgabe und ist somit ein SACHLICHES Bewertungskriterium.",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "Formen der To-Do-Liste (2/2)",
+      "text": "\"Ohne Plan kein Geld!\" Komplexere To-Do-Listen können zusätzlich noch eine weitere Spalte für die Prioritäten der jeweiligen Aufgaben beinhalten. Die aufgelisteten Aufgaben können dann in der Reihenfolge der Prioritäten und anschließend ihrer vorgesehenen Erledigung neu angeordnet werden. So gelangt man zu einem ersten ARBEITSPLAN.\n\nUm die langfristigen Ziele und Prioritäten nicht aus dem Auge zu verlieren, empfiehlt es sich, eine weitere Form der To-Do-Liste zu erstellen - einen WOCHENPLAN. Dieser beinhaltet alle Termine, Aufgaben und Ziele einer Woche und hilft somit auch über eine längere Zeit den Überblick zu behalten.\n\nUnsere Empfehlung:\n\nZum Thema \"Prioritäten setzen\" und \"Arbeitsplan\" schauen Sie sich bitte den Block \"Arbeit und Privates unter einen Hut bringen\" an.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "Wenn die Ordnerstruktur fertig ist...",
+      "text": "I. Gehen Sie Ihre Inbox durch und schauen Sie anhand des Betreffs, ob Sie bereits in diesem Schritt einige Nachrichten löschen können (z.B. Werbenachrichten/SPAM). Übrigens: immer wieder einkommende, langweilige Newsletter oder Rundmails gehören auch zu SPAM. Nicht sammeln, weg damit!\n\nII. Fertig mit SPAM? Gehen Sie jetzt kurz die restlichen Nachrichten durch und lesen Sie deren ersten ein Paar Zeile. Handelt es sich dabei um E-Mails, die Sie in 2-3 Minuten beantworten können, machen Sie das! Anschließend können Sie diese Nachrichten löschen oder archivieren.\n\nIII. Verteilen Sie die restlichen Nachrichten in die Unterordner, die Sie in Ihrer Inbox angelegt haben.\n\nIV. Jetzt wird es Zeit, die verteilten Nachrichten zu bearbeiten. Beginnen Sie nun mit dem Ordner \"BEANTWORTEN\" und gehen Sie anschließend die Ordner \"BEARBEITEN\" und evtl. noch \"SPÄTER\" durch.\n\nWICHTIG:\nNachdem Sie die Nachrichten in verschiedene Ordner verteilt haben, bearbeiten Sie jede davon NUR NOCH EINMAL: beantworten, weiterleiten, archivieren oder löschen. \"Auf später Verschieben\" gilt nicht als Option, haben Sie das bemerkt?",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Externe Unterbrechungen - wichtige Tipps & Tricks",
+      "text": "1. Reservieren Sie sich eine bestimmte Zeit am Tag, an der Sie von anderen ungestört und mit Ihrer ganzen Aufmerksamkeit an Ihren Aufgaben arbeiten können. Eine Vereinbarung mit Kollegen, die Telefonate und andere Störungen in diesem Zeitraum abzufangen, kann enorm helfen.\n\n2. Bitten Sie Ihre Kollegen, ihre Anliegen und Fragen zu bündeln und Ihnen diese eventuell noch per E-Mail zu schicken. So vermeiden Sie es, mehrmals am Tag unterbrochen zu werden und können alles auf einmal beantworten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "Merken Sie sich:",
+      "text": "Die DRINGLICHKEIT einer Aufgabe bezieht sich auf die Zeit, die zur Verfügung steht, um die Aufgabe zu erledigen.\nDie WICHTIGKEIT bezieht sich immer auf den Inhalt der Aufgabe.\n\nKleiner Tipp:\nZur besseren Entschiedungsfindung fragen Sie sich:\n- Stünde mir viel weniger der Arbeitszeit zur Verfügung, würde ich die Aufgabe bald erledigen oder eher weglassen wollen?\n- Was würde passieren, wenn ich die Aufgabe weglasse?",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "Alltag planen",
+      "text": "Waren Sie schon mal in den Alpen? O.K., nicht jeder muss Lust auf eine menschenleere Wildnis haben. Wie wäre es dann mit einem gehaltsvollen Akronym?\n\nDie ALPEN-Methode ist eine einfache Methode des Zeitmanagements, die Ihnen bei der Strukturierung Ihres Tagesablaufs helfen kann. Wichtig zu beachten: Verbringen Sie maximal 10-15 Minuten für die Planung! \n\nDas Akronym ALPEN steht für:\n\nA-ufgaben und Termine aufschreiben\nL-änge abschätzen\nP-ufferzeiten festlegen\nE-ntscheidungen treffen/Prioritäten setzen\nN-achkontrolle\n\nWie sieht das konkret aus? Klicken Sie auf \"Weiter\"!",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "2. Bearbeiten Sie Ihre E-Mails genau ein- oder zweimal am Tag",
+      "text": "Kleine Ablenkung nötig? Pausenfüller gefällig? Da gibt es nichts besseres als unser liebes Internet!\n\nPlannen Sie pro Tag nur einen oder zwei Termine ein, an denen Sie Ihre E-Mails lesen und bearbeiten. So widerstehen Sie der Versuchung, ständig nach neuen E-Mails zu schauen und diese als Pausenfüller oder als Ablenkung zu nutzen.  \n\nSchalten Sie am besten das Intervall, in dem ihr Mailprogramm neue Post holt, auf 60 Minuten hoch oder ganz ab. Bald werden Sie Ihre Aufgaben viel konzentrierter und ohne unnötigen Unterbrechungen angehen können.\n\nEine andere Variante?\n\nStatt zweimal, bearbeiten Sie Ihre E-Mails mehrmals am Tag in 15-Minuten-Blöcken. Sollten Sie sich für diese Variante entscheiden, achten Sie immer auf die Zeit und überschreiten Sie die geplanten 15 Minuten nicht!",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "Externe Unterbrechungen - wichtige Tipps & Tricks",
+      "text": "3. Prüfen Sie immer, welche Wichtigkeit eine Unterbrechung hat, und schenken Sie Ihre Aufmerksamkeit nur den wirklich wichtigen, besonders wenn Sie diese viel Zeit kosten würden.\n\n4. Oft ist eine Unterbrechung gerade richtig, daher fragen Sie sich regelmäßig, ob Sie sich nicht unterbrechen lassen, weil Sie gerade eine kurze Pause brauchen. Diese ist ja schließlich legitim und führt, wenn nicht mißbraucht, zur Produktivitätssteigerung.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "Priorität",
+      "text": "Aus den Dimensionen WICHTIGKEIT und DRINGLICHKEIT ergibt sich die PRIORITÄT einer Aufgabe, die ihre zeitliche Bearbeitungsreihenfolge bestimmt. Konkret heißt das: Die Aufgaben mit höherer Prorität sollen vor den Aufgaben mit niedriger Priorität bearbeitet werden. Sortiert man die Aufgaben auf der To-Do-Liste aufsteigend nach ihrer Priorität, bestimmt man so einen ARBEITSPLAN.\n\nDie Wichtigkeit und Dringlichkeit der Aufgaben und somit ihre Priorität kann sich natürlich im Laufe der Zeit deutlich verändern. Deshalb ist es zu empfehlen, die Aufgaben immer wieder neu auf die Wichtigkeit und Dringlichkeit zu beurteilen und entsprechend die Prioritäten anzupassen.\n\nDie Sortierung der Aufgaben nach deren Wichtikgeit und Dringlichkeit veranschaulicht im folgenden Schritt die Entscheidungs-Matrix. Klicken Sie bitte \"Weiter\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "A-L-P-E-N- Methode",
+      "text": "Im Einzelnen bedeutet das:\n\n1.  Aufgaben aufschreiben\nErstellen Sie eine To-Do-Liste, in der Sie alle Aufgaben notieren, die an diesem Tag zu erledigen sind. Nehmen Sie auch unerledigte Aufgaben von vergangenen Tagen mit auf die Liste.\n\n2. Länge abschätzen\nSchätzen Sie für jede Aufgabe die Zeit ab, die Sie voraussichtlich dafür benötigen. Für jede Tätigkeit sollten Sie ein Zeitlimit setzen - so arbeiten Sie viel schneller und konzentrierter.\n\n3. Pufferzeiten festlegen\nPufferzeiten helfen Ihnen, Stress zu vermeiden und schützen Sie davor, Ihr Tagespensum zu hoch anzusetzen. Unser Tipp: Denken Sie bei der Planung an das Zwei-Drittel/Ein-Drittel-Prinzip: ZWEI DRITTEL der Zeit für konkrete Aufgaben reservieren, EIN DRITTEL der Zeit als Pufferzeit haben.\n\n4. Entscheidungen treffen\nOft lassen sich die eingetragenen Aufgaben an einem Tag nicht alle bewältigen. Deshalb ist es wichtig, Entscheidungen zu treffen: Was ist für Sie mehr und was weniger wichtig? Schauen Sie sich in unserem Programm dazu den Block \"Priorisieren\" an.\n\n5. Nachkontrolle\nDie Nachkontrolle gilt der Nachhaltigkeit und hilft Ihnen, Ihren Tagesablauf immer besser zu organisieren. Haben Sie das Tagespensum ohne Stress geschafft? Haben Sie am Ende des Tages ein gutes Gefühl gehabt? Was lässt sich verbessern? Wie war es mit der Pufferzeit?\n\nLust auf auf ein anderes Konzept? Klicken Sie \"Weiter\" um die \"Rapid Planning Method\" von Tony Robbins kennen zu lernen.\n\nJetzt wird es Zeit für etwas Praktisches. Klicken Sie auf \"Weiter\".",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "3. Halten Sie Ihre E-Mail-Antworten möglichst kurz!",
+      "text": "Ihr Gegenüber hat genau so wenig Zeit wie Sie, deshalb gilt es:\n\n* bleiben Sie bei den E-Mails kurz, klar und sachlich,\n* geben Sie ihrer E-Mails einen aussagekrätigen betreff,\n* überlegen Sie vorm Absenden noch einmal kurz, ob Ihre Botschaft wie gewünscht rüberkommt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "Externe Unterbrechungen - wichtige Tipps & Tricks",
+      "text": "Die \"Zauberworte\" beim Abwenden von externen Unterbrechungen heißen \"Moment\" und \"Augenblick\".\n\n\"Moment, Frau A., ich bin gleich fertig.\"\n\"Augenblick, Herr F., ich möchte diese Aufgabe noch zu Ende bringen.\"\n\"Augenblick, Tom, ich bin in 30 Minuten wieder voll bei dir.\"\n\nWichtig:\nWerden Sie selbst zum Vorbild! Möchten Sie, dass andere Kollegen Ihre produktive Phasen respektieren, tun Sie das auch selbst!",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "MATRIX",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "Rapid Planning Method",
+      "text": "Vielleicht kennen Sie den altbekannten Witz: Wie isst man einen Elefanten? - Stück für Stück.\n\nGenau dieses Prinzip liegt der RPM-Methode von Tony Robbins zugrunde. Das Zauberwort dabei heißt \"Chunking\", sprich in unserem Fall Zusammenfassen, Bildung von Blöcken oder einfach Schubladendenken.\n\nIst Schubladendenken nicht schlimm, unfair und überhaupt überflüßig? Nicht immer! Einen Gegenstand, der vier Beine, eine Rückenlehne und eine Sitzfläche hat lässt sich viel praktischer als \"Stuhl\" zusammenfassen. \n\nÄhnlich ist es bei der Zeitplanung mit der RPM-Methode: Das Chunking von mehreren aufeinanderfolgenden Zwischenschritten zu einem zusammenhängenden Ziel bzw. Wert sorgt für gute Motivation und Ausdauer.\n\nWie geht die RPM-Methode konkret? Klicken Sie \"Weiter\", um die Methode gleich hier im Programm einmal anzuwenden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "4. E-Mails sind keine Telefonate",
+      "text": "1. Stellen Sie klar, dass Sie E-Mails nicht als Kommunikationsmittel/-weg für Dringendes ansehen und lassen Sie sich nicht von Telefonanfragen, ob die E-Mail bereits angekommen ist, verrückt machen.\n\n2. Gleichzeitig können Sie oft Zeit dadurch gewinnen, dass Sie die Anrufer darum bitten, Ihnen die Sachlage per E-mail zuzuschicken. So kann die E-Mail als Schutz gegen zeitraubende Telefonate fungieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "Interne Unterbrechungen - den Schweinehund besiegen",
+      "text": "1. Erledigen Sie die Aufgaben, für die Sie viel Konzetration brauchen, wenn Sie noch frisch sind. Vermeiden Sie es, diese Art von Aufgaben auf spätere Tageszeit zu schieben.\n\n2. Dokumentieren Sie Ihre Arbeit, schreiben Sie eine To-Do-Liste mit Ihren Vorhaben. So klärt sich weiteres Vorgehen oft bereits während des Schreibvorgangs und das abschließende Abhaken bringt Freude und gutes Gefühl.\n\nUnsere Empfehlung:\nSchauen Sie sich auch den Bereich \"To-Do-Listen - Varianten, Tipps & Tricks, Alternativen\" dieses Lernprogramms an!",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Options",
+      "key": "a5315d953951466b8a92614e9ace01a5",
+      "title": "Es gibt verschiedene Methoden, die die Prioritätensetzung erleichtern können. Wählen Sie bitte eine davon:",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "ABC-Analyse"
+          },
+          {
+            "key": "2",
+            "value": "Das Pareto-Prinzip"
+          },
+          {
+            "key": "3",
+            "value": "Eisenhower-Methode"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n037",
+          "if": "a5315d953951466b8a92614e9ace01a5 is '1'"
+        },
+        {
+          "to": "n037",
+          "if": "a5315d953951466b8a92614e9ace01a5 is '2'"
+        },
+        {
+          "to": "n037",
+          "if": "a5315d953951466b8a92614e9ace01a5 is '3'"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "List",
+      "key": "ToDoList",
+      "title": "Welche Aufgaben möchten Sie diese Woche erledigen? Listen Sie diese bitte unten auf!",
+      "text": "",
+      "props": {
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Options",
+      "key": "52312c6e21fc40daa38b39a22a528a01",
+      "title": "Wollen Sie jetzt eine Übung machen, zur Themenwahl zurückgehen oder das Programm beenden?",
+      "text": "Ein kleiner Tipp: Durch die Übungen werden die Inhalte für Sie nachvolziehbarer und leichter umsetzbar. Für absolvierte Übungen bekommen Sie noch zusätliche Motivado-Punkte, die Sie gegen tolle Prämien eintauschen können.",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Mit einer kleinen Übung zum Thema fortfahren"
+          },
+          {
+            "key": "2",
+            "value": "Zurück zur Themenwahl"
+          },
+          {
+            "key": "3",
+            "value": "Programm beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n039",
+          "if": "52312c6e21fc40daa38b39a22a528a01 is '1'"
+        },
+        {
+          "to": "n008",
+          "if": "52312c6e21fc40daa38b39a22a528a01 is '2'"
+        },
+        {
+          "to": "n040",
+          "if": "52312c6e21fc40daa38b39a22a528a01 is '3'"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "Interne Unterbrechungen - wichtige Tipps & Tricks",
+      "text": "Profitieren Sie von der Pomodoro-Methode:\n\nA. Suchen Sie sich eine wichtige, überschaubare Arbeit/Erbeiteinheit aus.\nB. Stellen Sie einen Timer/Wecker auf eine Zeit von 25-30 Minuten ein.\nC. Bearbeiten Sie die gewählte Aufgabe Innerhalb dieser Zeit so fokussiert und gut, wie möglich - ohne Ablenkung, etc.. \nD. Nachdem der Timer klingelt, machen Sie eine kleine Pause von bis zu 10 Minuten\nE. Setzen Sie mit einem neuen Zeitblock fort. Machen Sie nach einer Reihe von 4 Pomodoro-Runden eine längere Pause.",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "METHODE",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n042"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "List",
+      "key": "ToDoList",
+      "title": "Wählen Sie jetzt davon diejenigen Aufgaben aus, die sie am morgigen Tag erledigen möchten. Ordnen Sie diesen eine Zahl zu: 1 für \"sehr wichtig\", 2 für \"wichtig\", 3 für \"am wenigsten wichtig\"",
+      "text": "",
+      "props": {
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n043"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "ÜBUNG",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n044"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Options",
+      "key": "ea46d3cf97ee40a3bd7a73e55c99251e",
+      "title": "Wann wollen Sie mit dem nächsten Thema fortfahren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Jetzt"
+          },
+          {
+            "key": "2",
+            "value": "in einer Woche"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008",
+          "if": "ea46d3cf97ee40a3bd7a73e55c99251e is '1'"
+        },
+        {
+          "to": "n045",
+          "if": "ea46d3cf97ee40a3bd7a73e55c99251e is '2'"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Options",
+      "key": "11d33a55c2434aa59bb12d219017b86d",
+      "title": "Wollen Sie jetzt eine kleine Übung machen, zur Themenwahl zurückgehen oder das Programm beenden?",
+      "text": "Ein kleiner Tipp: Durch die Übungen werden die Inhalte für Sie nachvolziehbarer und leichter umsetzbar. Für absolvierte Übungen bekommen Sie noch zusätlich Motivado-Punkte, die Sie gegen tolle Prämien eintauschen können.",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Mit einer kleinen Übung zum Thema fortfahren"
+          },
+          {
+            "key": "2",
+            "value": "Zurück zur Themenwahl"
+          },
+          {
+            "key": "3",
+            "value": "Programm beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n046",
+          "if": "11d33a55c2434aa59bb12d219017b86d is '1'"
+        },
+        {
+          "to": "n040",
+          "if": "11d33a55c2434aa59bb12d219017b86d is '3'"
+        },
+        {
+          "to": "n008",
+          "if": "11d33a55c2434aa59bb12d219017b86d is '2'"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "Options",
+      "key": "6fc15d9c6a274835a0ea8abba569e817",
+      "title": "Wollen Sie jetzt eine kleine Übung machen, zur Themenwahl zurückgehen oder das Programm beenden?",
+      "text": "Ein kleiner Tipp: Durch die Übungen werden die Inhalte für Sie nachvolziehbarer und leichter umsetzbar. Für absolvierte Übungen bekommen Sie noch zusätlich Motivado-Punkte, die Sie gegen tolle Prämien eintauschen können.",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Mit einer kleinen Übung fortfahren"
+          },
+          {
+            "key": "2",
+            "value": "Zurück zur Methodenübersicht"
+          },
+          {
+            "key": "3",
+            "value": "Programm beenden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n047",
+          "if": "6fc15d9c6a274835a0ea8abba569e817 is '1'"
+        },
+        {
+          "to": "n033",
+          "if": "6fc15d9c6a274835a0ea8abba569e817 is '2'"
+        },
+        {
+          "to": "n040",
+          "if": "6fc15d9c6a274835a0ea8abba569e817 is '3'"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "List",
+      "key": "ToDoList",
+      "title": "Ordnen Sie jetzt die Aufgaben in der Reihenfolge der Prioritäten an (einfach auf den Punkt klicken und an die entsprechende Stelle ziehen).",
+      "text": "",
+      "props": {
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n048"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "Options",
+      "key": "ea01a603681549fd9aa8e34b400039c5",
+      "title": "Gratulation!",
+      "text": "Jetzt verstehen Sie die Prinzipien viel besser, oder?\n\nFür die Durchführung der Übung haben Sie 1 Motivado-Punkt erhalten (Sie haben bereits XX Punkte gesammelt).\n\nSollen wir uns bei Ihnen in einer Woche melden und fragen, wie es mit der Umsetzung gelaufen ist?\n\nHIER könnte man SETVALUE einführen für \"JA\"",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n040",
+          "if": "ea01a603681549fd9aa8e34b400039c5 is '1'"
+        },
+        {
+          "to": "n040",
+          "if": "ea01a603681549fd9aa8e34b400039c5 is '2'"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "Text",
+      "key": null,
+      "title": "Vielen Dank!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Text",
+      "key": null,
+      "title": "ÜBUNG",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n049"
+        }
+      ]
+    },
+    "n047": {
+      "id": "n047",
+      "type": "Text",
+      "key": null,
+      "title": "ÜBUNG",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n050"
+        }
+      ]
+    },
+    "n048": {
+      "id": "n048",
+      "type": "List",
+      "key": "ToDoList",
+      "title": "Super! So sieht Ihre To-Do Liste für morgen aus. Arbeiten Sie von oben nach unten.",
+      "text": "",
+      "props": {
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n049": {
+      "id": "n049",
+      "type": "Options",
+      "key": "c7f397251b444338a441ce56c4905b43",
+      "title": "Gratulation!",
+      "text": "Jetzt verstehen Sie die Prinzipien viel besser, oder?\n\nFür die Durchführung der Übung haben Sie 1 Motivado-Punkt erhalten (Sie haben bereits XX Punkte gesammelt).\n\nSollen wir uns bei Ihnen in einer Woche melden und fragen, wie es mit der Umsetzung gelaufen ist?\n\nHIER könnte man SETVALUE einführen für \"JA\"",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n040",
+          "if": "c7f397251b444338a441ce56c4905b43 is '2'"
+        },
+        {
+          "to": "n040",
+          "if": "c7f397251b444338a441ce56c4905b43 is '1'"
+        }
+      ]
+    },
+    "n050": {
+      "id": "n050",
+      "type": "Options",
+      "key": "9317d42445f5423496f95403e2452ad0",
+      "title": "Gratulation!",
+      "text": "Jetzt verstehen Sie #Prioritaet_Methoden viel besser, oder?\n\nFür die Durchführung der Übung haben Sie 1 Motivado-Punkt erhalten (Sie haben bereits XX Punkte gesammelt).\n\nSollen wir uns bei Ihnen in einer Woche melden und schauen, wie es mit der Umsetzung gelaufen ist?\nHIER könnte man SETVALUE einführen für \"JA\"",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n040",
+          "if": "9317d42445f5423496f95403e2452ad0 is '1'"
+        },
+        {
+          "to": "n040",
+          "if": "9317d42445f5423496f95403e2452ad0 is '2'"
+        }
+      ]
+    },
+    "n051": {
+      "id": "n051",
+      "type": "Options",
+      "key": "92a1752b70fd49b9b3a232b64617307f",
+      "title": "Gratulation!",
+      "text": "Jetzt verstehen Sie das Prinzip viel besser, oder?\n\nFür die Durchführung der Übung haben Sie 1 Motivado-Punkt erhalten (Sie haben bereits XX Punkte gesammelt).\n\nSollen wir uns bei Ihnen in einer Woche melden und fragen, wie es mit der Umsetzung gelaufen ist?",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n040",
+          "if": "92a1752b70fd49b9b3a232b64617307f is '2'"
+        },
+        {
+          "to": "n040",
+          "if": "92a1752b70fd49b9b3a232b64617307f is '1'"
+        }
+      ]
+    }
+  }
+}

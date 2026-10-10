@@ -1,0 +1,617 @@
+{
+  "key": "bez-re-faq",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Options",
+      "key": "260f97f62c97440ea287836c03a502c8",
+      "title": "Welche Frage beschäftigt Sie? Bitte wählen Sie aus!",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Wie schaffe ich es die Kontaktsperre und die 'kalten Phasen' durchzuhalten?"
+          },
+          {
+            "key": 2,
+            "value": "Es geht mir sehr schlecht! Was kann ich tun?"
+          },
+          {
+            "key": 3,
+            "value": "Bin ich daran schuld, dass der Andere Schluss gemacht hat? Findet er denn gar nichts mehr an mir?"
+          },
+          {
+            "key": 4,
+            "value": "Wenn der Andere mir anbietet, eine Affäre zu haben, soll ich darauf eingehen, auch wenn ich lieber eine Beziehung möchte?"
+          },
+          {
+            "key": 5,
+            "value": "Soll ich für meinen Partner etwas aufgeben, das mir wichtig ist, wenn es meine Chancen erhöht, ihn zurückzugewinnen?"
+          },
+          {
+            "key": 6,
+            "value": "Ich denke viel darüber nach, wie sich mein Ex-Partners in der Vergangenheit falsch verhalten hat. Das macht mich ärgerlich/traurig. Wie kann ich das dem Anderen kommunizieren? "
+          },
+          {
+            "key": 7,
+            "value": "Soll ich meinem Ex-Partner einen klärenden Brief schreiben?"
+          },
+          {
+            "key": 8,
+            "value": "Renne ich dem Anderen nicht hinterher, wenn ich ihn kontaktiere? "
+          },
+          {
+            "key": 9,
+            "value": "Die Kontaktsperre macht keinen Sinn, der Andere wird sich nie melden, da können wir warten, bis wir schwarz werden."
+          },
+          {
+            "key": 10,
+            "value": "Sollte ich dem Anderen nicht zeigen, dass ich kämpfe (besonders direkt nach der Trennung)?"
+          },
+          {
+            "key": 11,
+            "value": "Soll ich meinem Partner erzählen, was für Strategien ich einsetze, um ihn zurückzugewinnen?"
+          },
+          {
+            "key": 12,
+            "value": "Wie reagiere ich, wenn der Andere mir vorwirft, dass ich mich nur aus taktischen Gründen rar mache?"
+          },
+          {
+            "key": 13,
+            "value": "Ich frage mich ständig, wie es dem Anderen geht und was er denkt und fühlt."
+          },
+          {
+            "key": 14,
+            "value": "Der Andere will Funkstille, soll ich ihn trotzdem in der Kontaktphase kontaktieren?"
+          },
+          {
+            "key": 15,
+            "value": "Mein Ex-Partner schuldet mir noch Geld. Wie soll ich damit umgehen?\t"
+          },
+          {
+            "key": 16,
+            "value": "Verstelle ich mich nicht mit der empfohlenen Strategie?"
+          },
+          {
+            "key": 17,
+            "value": "Darf ich Geschenke machen, z.B. zum Geburtstag und zu Weihnachten?"
+          },
+          {
+            "key": 18,
+            "value": "Warum hat mein Partner nichts gesagt, als alles in die falsche Richtung lief?"
+          },
+          {
+            "key": 19,
+            "value": "Ich würde die Kontaktsperre am liebsten brechen. Vielleicht hat der Andere mich schon vergessen?"
+          },
+          {
+            "key": 20,
+            "value": "Ich leide gerade wieder sehr unter Liebeskummer. Was kann ich tun?"
+          },
+          {
+            "key": 21,
+            "value": "Mein Ex-Partner ist eifersüchtig. Was bedeutet das und wie soll ich reagieren?\t"
+          },
+          {
+            "key": 22,
+            "value": "Was mache ich, wenn der Andere unangekündigt vor der Tür steht?"
+          },
+          {
+            "key": 23,
+            "value": "Zurück zum Coaching"
+          },
+          {
+            "key": 24,
+            "value": "Was muss ich bei gemeinsamen Kindern beachten?"
+          },
+          {
+            "key": 25,
+            "value": "Was für Angebote kann ich machen, um den Anderen zu überreden, mich doch nicht zu verlassen?"
+          },
+          {
+            "key": 26,
+            "value": "Wie verhalte ich mich, wenn ich den Anderen zufällig treffe (auf einer Party, auf der Straße etc.)?"
+          },
+          {
+            "key": 27,
+            "value": "Warum sagt mein Partner, dass er noch mit mir befreundet sein möchte?"
+          },
+          {
+            "key": 28,
+            "value": "Mein Ex-Partner meldet sich gelegentlich, gibt aber keine klaren Hinweise (\"Hey, wollte mich nur mal melden, wie geht's denn so?\"). Was bedeutet das?"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "260f97f62c97440ea287836c03a502c8 is 1"
+        },
+        {
+          "to": "n003",
+          "if": "260f97f62c97440ea287836c03a502c8 is 2"
+        },
+        {
+          "to": "n004",
+          "if": "260f97f62c97440ea287836c03a502c8 is 3"
+        },
+        {
+          "to": "n005",
+          "if": "260f97f62c97440ea287836c03a502c8 is 4"
+        },
+        {
+          "to": "n006",
+          "if": "260f97f62c97440ea287836c03a502c8 is 5"
+        },
+        {
+          "to": "n007",
+          "if": "260f97f62c97440ea287836c03a502c8 is 6"
+        },
+        {
+          "to": "n008",
+          "if": "260f97f62c97440ea287836c03a502c8 is 7"
+        },
+        {
+          "to": "n009",
+          "if": "260f97f62c97440ea287836c03a502c8 is 8"
+        },
+        {
+          "to": "n010",
+          "if": "260f97f62c97440ea287836c03a502c8 is 9"
+        },
+        {
+          "to": "n011",
+          "if": "260f97f62c97440ea287836c03a502c8 is 10"
+        },
+        {
+          "to": "n012",
+          "if": "260f97f62c97440ea287836c03a502c8 is 11"
+        },
+        {
+          "to": "n013",
+          "if": "260f97f62c97440ea287836c03a502c8 is 12"
+        },
+        {
+          "to": "n014",
+          "if": "260f97f62c97440ea287836c03a502c8 is 13"
+        },
+        {
+          "to": "n015",
+          "if": "260f97f62c97440ea287836c03a502c8 is 14"
+        },
+        {
+          "to": "n016",
+          "if": "260f97f62c97440ea287836c03a502c8 is 15"
+        },
+        {
+          "to": "n017",
+          "if": "260f97f62c97440ea287836c03a502c8 is 16"
+        },
+        {
+          "to": "n018",
+          "if": "260f97f62c97440ea287836c03a502c8 is 17"
+        },
+        {
+          "to": "n019",
+          "if": "260f97f62c97440ea287836c03a502c8 is 18"
+        },
+        {
+          "to": "n020",
+          "if": "260f97f62c97440ea287836c03a502c8 is 19"
+        },
+        {
+          "to": "n021",
+          "if": "260f97f62c97440ea287836c03a502c8 is 20"
+        },
+        {
+          "to": "n022",
+          "if": "260f97f62c97440ea287836c03a502c8 is 21"
+        },
+        {
+          "to": "n023",
+          "if": "260f97f62c97440ea287836c03a502c8 is 22"
+        },
+        {
+          "to": null,
+          "if": "260f97f62c97440ea287836c03a502c8 is 23"
+        },
+        {
+          "to": "n024",
+          "if": "260f97f62c97440ea287836c03a502c8 is 24"
+        },
+        {
+          "to": "n025",
+          "if": "260f97f62c97440ea287836c03a502c8 is 25"
+        },
+        {
+          "to": "n026",
+          "if": "260f97f62c97440ea287836c03a502c8 is 26"
+        },
+        {
+          "to": "n027",
+          "if": "260f97f62c97440ea287836c03a502c8 is 27"
+        },
+        {
+          "to": "n028",
+          "if": "260f97f62c97440ea287836c03a502c8 is 28"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Tun Sie alles, was Ihnen dabei hilft, nicht ständig zu grübeln und an den Anderen zu denken.\r\nFolgende Dinge haben vielen unserer Kunden geholfen:\r\n\r\n- Gehen sie regelmäßig zum Sport (hier werden Glückshormone ausgeschüttet)!\r\n- Isolieren Sie sich nicht und treffen Sie sich stattdessen mit Ihnen nahestehenden Menschen! Raus aus dem Haus!\r\n- Tun Sie sich etwas Gutes (erstellen Sie Ihre persönliche Wohlfühlliste, mit Dingen, die Sie entspannen: z.B. schwimmen gehen, das Lieblingsessen kochen etc.)\r\n- Sorgen Sie dafür, dass Sie ausreichend frische Luft und Sonnenlicht (mindestens eine halbe Stunde pro Tag) bekommen!\r\n- Besuchen Sie unsere Aufbaucoachings und wiederholen Sie die Rückeroberungscoachings!\r\n- Nutzen Sie unsere kostenfreie Möglichkeit uns per E-Mail fragen zu stellen oder buchen Sie ein persönliches Telefoncoaching!",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Können Sie nicht mehr Ihrem Alltag folgen? Können Sie nicht mehr arbeiten? Vernachlässigen Sie sich oder Ihre Hygiene anhaltend? Wenn es Ihnen über einen längeren Zeitraum sehr schlecht geht, ist es notwendig, dass Sie sich Hilfe suchen. Leider können wir Sie aus der Ferne nur in einem begrenzten Umfang betreuen. Wenn Sie oben genannte Fragen bejahen können, ist es wichtig, dass Sie sich zusätzlich therapeutische Hilfe holen. \r\nWir raten Ihnen also unabhängig von unserem Rat zu Ihrer Rückeroberung, sich so schnell wie möglich persönlich von einem Psychotherapeuten betreuen zu lassen. Eine Therapie wird Ihnen dabei helfen, diese für Sie sehr harte Phase gut zu überstehen.\r\nDas hat nichts damit zu tun, dass Sie \"verrückt\" sind oder \"in die Psychiatrie\" gehören. Wenn Sie mit der Herausforderung nicht mehr klarkommen, und das kann den stabilsten Menschen passieren, sollten Sie sich in so einem Moment helfen lassen. \r\nRufen Sie uns an und wir nennen Ihnen einige gut ausgebildete Therapeuten in Ihrer Nähe.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Sie sind auf keinen Fall an allem Schuld. Und natürlich ist etwas an Ihnen. Und damit es wieder stärker durchblitzen kann, müssen Sie Stück für Stück Liebeskummer und Vorwürfe hinter sich lassen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Prinzipiell ja, wenn Sie sich der Situation gewachsen fühlen.\r\nWenn man eine Affäre hat, in der man dem Anderen viel Raum lässt und lernt, sich interessant zu machen, ist es sehr wahrscheinlich, dass der Affärenpartner irgendwann mehr will.\r\nSie müssen jetzt herausfinden, was die richtige Mischung ist. Hilfe dabei finden Sie in unseren Coachings „Locken und Reizen“ und „Von der Affäre zur Partnerschaft“.\r\nHier schon einmal zwei klassische Fehler, die Sie vermeiden sollten:\r\n- Darüber sprechen: Wenn Sie Ihre Affäre thematisieren, kann das den Partner schnell verschrecken. Auch Diskussionen über Ihre Beziehung werden den Anderen eher wegtreiben. Es geht schließlich darum, wieder schöne gemeinsame Momente zu erleben, damit auch der Partner wieder Lust auf mehr bekommt. Der beste Weg dahin, ist es einen richtig schönen Abend zu haben, in dem Sie locker und gelassen waren und nicht auf mehr gedrängt haben.\r\n- Die Affäre wie eine Beziehung behandeln:  Setzen Sie niemals die gleichen Erwartungen an Ihren Affärenpartner, wie sie sie an einen Beziehungspartner hätten. Sätze wie „Wieso hast Du nicht angerufen?“ oder „Wir haben uns schon wieder so lange nicht gesehen!“ sind in einer Beziehung ein Zeichen von Zuneigung, können einen Affärenpartner aber schnell verschrecken. Stattdessen zeigen Sie durch Sätze wie „Hatte Deinen Anruf gar nicht erwartet, ich dachte, Du hast gerade viel zu tun“, dass es Ihnen auch ohne den Anderen gutgeht.\r\nWenn der Andere sich wieder in Richtung Beziehung bewegt, sprechen Sie das auf keinen Fall an, sondern zögern Sie vielleicht sogar noch etwas. Ohne dass man drüber spricht, kann es sich dann wieder zu einer Beziehung entwickeln. Und wenn der Andere sagt „Es fühlt sich irgendwie wie eine Beziehung an“, dann können Sie unschuldig antworten: „Echt? Hab ich gar nicht gemerkt.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sie sollten nicht aufgrund einer Trennung in Ihrem Leben etwas ändern oder aufgeben. Das wird vom Anderen als Anbiedern empfunden, ist sogar nachteilig. \r\nAusnahmen: Dinge, die die Beziehung direkt gefährden, wie Jähzorn, Besserwissertum, schlechte Gewohnheiten, die die Beziehung beeinträchtigen (Rauchen, Alkohol).",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie die alten Sachen ruhen! Jetzt geht es um die Zukunft. \r\nLassen Sie Ihrem Partner etwas Abstand und kümmern Sie sich um Ihren Liebeskummer. Die passenden Coachings finden Sie bei uns. Durchlaufen Sie sie ruhig mehrmals, damit Sie etwas finden, das Ihnen in Ihrer jetzigen Situation gut tut, damit es Ihnen bald besser geht.\r\nWenn Sie sich immer wieder über denselben Punkt aufregen, machen Sie sich direkt dem Ex-Partner gegenüber Luft. Allerdings ist hier kurz und knackig wichtig. Achtung, Falle: Nachdem Sie sich Luft gemacht haben, hat man das Bedürfnis nach Versöhnung und will nun, wo es gesagt ist, wieder Friede, Freude, Eierkuchen mit dem Partner. Das klappt nicht! Deshalb so schnell wie möglich Abstand gewinnen, damit die Information beim Anderen nachwirken kann.\r\nNachdem Sie sich Luft gemacht haben, müssen Sie sich sofort wieder zurückziehen, sonst hat das Ganze keine Wirkung und wird kontraproduktiv.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Nach unserer Erfahrung ist es nicht hilfreich, dem Anderen alles zu schreiben, was Sie fühlen und denken. Ganz im Gegenteil: Dadurch kann die Tür zu ihm ganz zugehen. \r\nIm ersten Moment fühlen Sie sich dann vielleicht leichter, aber das kann jederzeit wieder kippen, wenn er nicht auf Ihr Schreiben reagiert.\r\nSetzen Sie sich eine Zeitlinie, wie lange Sie um die Beziehung kämpfen wollen. So schützen Sie sich. Wenn dieser Zeitpunkt erreicht ist, dann räumen Sie auf, schreiben klärende Worte, setzen ein Ultimatum. Jetzt noch nicht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das Gefühl, dem Anderen hinterherzurennen, vermitteln Sie vor allem, wenn Sie den Kontakt falsch herstellen. Die Häufigkeit spielt natürlich auch eine Rolle, doch vor allem ist es die Art: \r\nWenn Sie \r\nviel nachfragen, \r\nimmer Zeit für den Anderen haben, \r\nalles in Ihrem Leben um den Anderen herum drapieren \r\n… dann rennen Sie tatsächlich dem Anderen hinterher und bringen sich selbst in eine schwache Position. Kommunizieren Sie stattdessen auf Augenhöhe.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir warten auch nicht darauf, dass der Andere den Kontakt herstellt. Tatsächlich werden wahrscheinlich Sie den Kontakt herstellen müssen. Nur eben nicht sofort. Hier heißt es jetzt auch ein bisschen cool zu sein. An seinen Knien winselnd um Vergebung zu bitten, würde ihn höchstens in seiner Entscheidung bestätigen. Es muss schon etwas Zeit vergangen sein, symbolisch auch für Ihren Stolz und als Chance für Sie, sich wieder etwas gefasst zu haben, bevor Sie sich melden können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RueckFAQ_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RueckFAQ_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RueckFAQ_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das ist normal so! \r\nOb es ihm gut geht, wissen wir nicht und interessiert uns auch nicht.  Jemand, der unangekündigt geht, hat Emotionen, die kaum nachvollziehbar sind. Deshalb müssen wir die Wahrscheinlichkeit erhöhen, dass es wieder klappen könnte in Zukunft. Der Weg ist: auf sich selbst zurückkommen, wieder zu sich selbst finden, unabhängig machen. Komischerweise wirkt das auf Ex-Partner auf Dauer attraktiv. Und natürlich immer mal wieder überraschend mit kleinen Aktionen und Sms den Anderen locken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Befolgen Sie nicht alles was der Andere sagt. Wenn er sagt, dass er eine Zeitlang Funkstille möchte, dann ist das für Sie nur halb relevant. Lesen Sie vor allem zwischen den Zeilen:\r\n- Wie ist die Tendenz? Will er mehr oder weniger Kontakt? In Ihrem Fall will er im Moment eher weniger Kontakt.\r\n- Was ist die Kernaussage? Er will bestimmen, wo es lang geht.\r\nDie Frage, die Sie sich stellen müssen, ist: Wollen Sie sich fügen oder wollen Sie das tun, was Sie für richtig halten? Für die Rückeroberung ist es nach unserer Erfahrung besser, das zu tun, was Sie für richtig halten. Das bedeutet natürlich nicht, dass Sie die Kontaktsperre komplett über Bord werfen. Aber es bedeutet, dass Sie selbst bestimmen, wann Sie Kontakt haben, und nicht Ihr Ex-Partner.\r\nWas sagt Ihnen also Ihr Gefühl? Wann ist es besser, dass Sie sich wieder melden?\r\n- Denken Sie, es ist besser, dass Sie sich Zeit lassen?\r\n- Oder denken Sie, es ist besser, eine neue Aktion zu starten? Danach gehen Sie natürlich wieder auf Abstand, das ist gut und wichtig.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Bevor Sie mit den großen Rückeroberungsaktionen starten, sollten Sie die Geschichte mit dem Geld, das er Ihnen schuldet, aus dem Weg räumen. Sonst vermischt sich die Rückeroberung mit den Schulden. Wie können Sie das vermeiden? Aus anderer Erfahrung hilft in so einem Fall ein Dauerauftrag über einen kleinen Betrag. Schreiben Sie eine Nachricht, in der Sie vorschlagen, so einen Dauerauftrag einzurichten.  Sie könnten z.B. schreiben: „Wollte Dir mal einen Vorschlag machen. Habe von Freunden gehört, wie sie es in der Familie machen: per Dauerauftrag wird jeden Monat 20 Euro überwiesen. Dann muss es nicht zwischen uns steht\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Diese Frage hören wir häufig. Unsere Antwort darauf: sehen Sie es nicht so als würden Sie sich verstellen. Sehen Sie es eher so, dass Sie derzeit in keinem guten Zustand sind. Deshalb ist es für Sie besonders wichtig eine klare Strategie zu haben, die Sie verfolgen können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Geschenke in der Rückeroberung sind tabu! Erlaubt sind passende, intelligente Aufmerksamkeiten. Wichtig ist hier der Überraschungseffekt. Überreichen Sie das Geburtstagsgeschenk zum Beispiel verzögert, damit Ihr Geschenk nicht eines von vielen ist, sondern heraussticht. Überliefern Sie es persönlich und bemerken Sie dazu: „Das ist kein Weihnachtsgeschenk/Geburtstagsgeschenk. Es ist also auch nicht zu spät.“\r\nFalls Sie es persönlich vorbeibringen, ist es wichtig, dass Sie diesen Besuch so kurz wie möglich halten. Lassen Sie sich, falls es dazu kommt, gar nicht erst lange in die Wohnung einladen, sondern sagen Sie „Ich muss gleich weiter zum Training“. Das ist in dieser Phase sehr wichtig. Damit zeigen Sie, dass Sie viel zu tun haben und unabhängig sind. \r\nDamit Sie diese Strategie durchhalten, können Sie sich z.B. mit einem Freund verabreden, der auf Sie wartet. So geraten Sie gar nicht erst in Versuchung, länger zu bleiben.\r\nIm Vergleich zu Ihrem Kontakt während der Beziehung erscheinen diese Aktionen vielleicht wie ein Tropfen auf dem heißen Stein. Doch mit diesem kurzen Aufblitzen und dann wieder Verschwinden ziehen Sie mehr Aufmerksamkeit auf sich als mit großen romantischen Gesten, die den Anderen erdrücken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Diese Frage wird auch in unserem Coaching ‚Früh verlassen werden‘ behandelt: Die andere Person hofft, dass es sich wieder einrenkt.\r\nUnterbewusst wünscht sie sich, dass der Partner von selbst anhand winziger Zeichen erkennt, womit sie unzufrieden ist. Diese Unzufriedenheit sammelt sich dann so lange, bis der Staudamm platzt und es zur Trennung kommt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zunächst einmal Gratulation, dass Sie die Kontaktsperre bisher durchgehalten haben. Dieser Teil fällt allen, die in Ihrer Situation sind, sehr schwer, doch es ist sehr wichtig, dass Sie durchhalten.\r\nAuch wenn Sie es nicht glauben: Nach einer Beziehung vergisst niemand den Anderen. Die Angst, vergessen zu werden, ist wie die Angst eines Kindes in der Nacht, das Angst hat, dass die Sonne nicht wieder aufgeht. Die Sonne geht wieder auf!\r\nJetzt ist es wichtig, dass Sie sich um Ihren Liebeskummer kümmern und sich wieder von innen stärken. Machen Sie unsere Coachings für diesen Bereich und wiederholen Sie die Lektionen und Übungen täglich.\r\nMelden Sie sich stattdessen bei uns, damit Sie jetzt keine Fehler machen.\r\nHalten Sie bis zur nächsten geplanten Aktion durch, damit die negativen Gefühle, die Ihr Ex-Partner momentan hat, wieder verrauchen können und er auch an den Punkt kommt, wo er Sie vermisst.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Vergraben Sie sich nicht alleine zu Hause, sondern tun Sie aktiv etwas, um Ihre angeschlagene Seele zu trösten. Hierzu eignet sich besonders Sport, frische Luft, Reden mit guten Freunden und alles, was Ihnen sonst noch guttut.\r\nWir wissen, dass Ihnen gerade das jetzt wahrscheinlich unglaublich schwerfällt, dennoch: schnappen Sie sich einfach Ihre Schuhe und machen Sie einen Spaziergang! Es wird Ihnen guttun. Wir raten Ihnen unbedingt auch unser Coaching \"\"Mit Liebeskummer umgehen\"\" zu durchlaufen, damit Sie die Phase der Kontaktsperre gut bewältigen können. Hier gehen wir nochmal konkreter darauf ein, wie Sie sich motivieren können, aktiv etwas für sich zu tun, anstatt in Gedanken stets bei der Trennung und Ihrem Ex-Partner zu bleiben. Machen Sie immer auch die Übungen in den Coachings.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eifersüchtige Vorwürfe Ihres Ex-Partners sind ein gutes Zeichen, denn sie signalisieren Interesse und den Wunsch nach mehr. Die beste Reaktion: Tun Sie unschuldig! Beispiele:\r\n* „Ich weiß nicht, wovon Du sprichst.“\r\n* „Wenn ich aus Liebeskummer 10kg abnehme/10kg zunehme/nicht mehr schlafe, wie kannst Du denken, dass jemand anderes Platz hätte.“\r\n* Auf keinen Fall: „Da ist nichts!“, damit weiter Neugierde und Eifersucht ausgelöst werden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Seien Sie freundlich neutral und haben Sie wenig Zeit. Machen Sie zwischendurch ein paar Power-Komplimente. Nutzen Sie dazu unser Telefoncoaching.\r\nWenn der Sex zwischen Ihnen gut war, verführen Sie den Anderen! Und schmeißen Sie ihn anschließend sofort wieder raus!",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zeigen Sie Ihren Kindern nicht zu viel von der Trauer, den Fragezeichen und Ihrer Wut. Erstens ist das Kind als Kind überfordert und kann und darf keine Erwachsenen-Hilfe-Rolle einnehmen. Und zweitens verhindern Sie so, dass das Kind unnötig Dinge ausplaudert, denn es geht weder Ihren Ex-Partner etwas an, noch jemanden, der Ihrem Ex-Partner nahesteht.\r\nDas ist eine Herausforderung, die für manche Mütter kaum schaffbar ist. Falls das für Sie möglich ist, wäre das besser und sicherer.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Gar keine. Solche Angebote des Verlassenen sind selten erfolgreich bei Trennungen. Egal ob \"Lass uns noch einmal von vorne beginnen!\" oder \"Gib mir doch bitte noch eine letzte Chance, diesmal wird alles anders!\" - meist erreicht man damit nur das Gegenteil und treibt den Anderen noch weiter von sich weg.\r\nDer Ex-Partner hat seine Entscheidung vorerst getroffen und wird Sie nicht einfach so wieder zurücknehmen.\r\nDer Trick ist es, dass der Verlassene wieder reizhaft, attraktiv und ein bisschen mysteriös erscheint. So kann derjenige, der gegangen ist, wieder Interesse entwickeln und seine Entscheidung hinterfragen.\r\n\r\nDas erreichen Sie nicht durch verzweifelte Angebote, in denen Sie sich dem Anderen \"zu Füßen werfen\".\r\nHalten Sie sich stattdessen an unsere Strategie. Diese braucht zwar Zeit, erhöht aber Ihre Chancen, den Anderen zurückzugewinnen.\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Video",
+      "key": null,
+      "title": "",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_RueckFAQ_V4.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Diese Verhaltensweise ist ein klassisches Muster von Menschen, die sich entweder nicht gerne binden möchten oder noch etwas Zeit brauchen. Sie wollen fliehen und sich gleichzeitig alle Türen offen halten.\r\nFür Ihre Rückeroberung bedeutet das, dass Sie noch Chancen haben, wenn Sie nun die richtigen Aktionen einsetzen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das ist ein klassischer Abchecker-Anruf. Der Andere will wissen: Ist die Tür noch offen, stehst Du noch auf mich? Sonst will er eigentlich gar nichts, deshalb dürfen wir auf keinen Fall diese Fragen beantworten. Wir wollen die Spannung erhöhen. \r\nEine Reaktion, mit der Sie den Anderen so richtig neugierig machen: \"Danke, mir geht's ganz gut. Ich hab mir vorgenommen, Dich in diesem Monat nicht zu sehen. Bis jetzt klappt's ganz gut. Wir können nochmal bei Gelegenheit sprechen, ich muss jetzt weiter.“",
+      "props": {},
+      "next": [
+        {
+          "to": "n001"
+        }
+      ]
+    }
+  }
+}

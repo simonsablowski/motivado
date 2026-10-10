@@ -1,0 +1,263 @@
+{
+  "key": "bez-lk-letgo",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Loslassen_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Wir nehmen Sie an die Hand",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Loslassen_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie uns dazu noch einmal auf das Bild zurückkommen, das wir schon im Coaching „Mit Liebeskummer umgehen“ verwendet haben: \r\n\r\nIhr jetziger Zustand ist durchaus vergleichbar mit einem Drogenentzug. Die Biochemie in Ihrem Gehirn ist aus der Balance geraten und Sie sind „süchtig“ danach, den Kontakt zu Ihrem Ex-Partner wiederherzustellen. Genau das verstärkt aber leider Ihr Leid. \r\n\r\nDeshalb, so hart das im Moment sein mag: \r\n1. Brechen Sie den Kontakt zu Ihrem Ex-Partner zumindest vorübergehend ab oder reduzieren Sie ihn auf ein Minimum! (Hier zählen aber wirklich nur wirklich dringende Gründe wie gemeinsame Kinder oder ernsthafte Krankheiten) \r\n2. Entfernen Sie alle Erinnerungsstücke wie Fotos oder Andenken an gemeinsame Aktivitäten aus Ihrer Wohnung! Jedes Mal, wenn Sie diese Dinge sehen, streuen Sie Salz in Ihre Wunde.\r\n3. Schreiben Sie Ihrem Ex-Partner keine E-Mails oder SMS und rufen Sie ihn nicht an!",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir wissen, dass es nicht leicht ist, diese Regeln einzuhalten, weil der Kontakt zum Ex-Partner genau das ist, was Sie sich sehnlichst wünschen. \r\n\r\nAuch Ihr Gehirn macht Ihnen in dem Fall das Leben schwer. So redet man sich schnell ein, dass es unbedingt nötig ist, dem anderen sein T-Shirt vorbeizubringen, das man gerade in der Wäsche entdeckt hat. Oder man ist fest davon überzeugt, dass es niemand anderen gibt, der einem bei der Steuererklärung helfen kann. \r\nDies alles sind aber letztlich Vorwände, um endlich doch wieder Kontakt aufnehmen zu „dürfen“. \r\nWiderstehen Sie hier! Je öfter Sie auf den Teil in sich hören, der den anderen vermisst, umso länger werden Sie nicht über die Trennung hinwegkommen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Greifen Sie in solchen Momenten stattdessen auf Aktivitäten zurück, die Ihnen guttun. Gönnen Sie sich etwas, tun Sie Dinge, die Ihnen Spaß machen, lenken Sie sich ab. Hauptsache Sie schaffen es, sich an die Regeln zu halten.   \r\n\r\nAußerdem können Sie einen guten Freund einspannen, der Sie in solchen Momenten unterstützt. Einigen Sie sich vorher darauf, dass er Sie in diesen Momenten darin verstärkt, dass Sie Ihre/n Ex nicht kontaktieren. Rufen Sie diese Person in genau solchen Momenten an. Wenn möglich, unternehmen Sie dann etwas gemeinsam!",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "List",
+      "key": "rel_lkLetGo_friendControl",
+      "title": "Wer kommt für diese Aufgabe in Frage? Bitte notieren Sie jetzt den Namen der Person und setzen Sie sich selbst einen Termin, wann Sie mit ihm/ihr das vorbereitende Gespräch dazu führen möchten!",
+      "text": "Wer kommt für diese Aufgabe in Frage? \nBitte notieren Sie jetzt den Namen der Person und setzen Sie sich selbst einen Termin, wann Sie mit ihm/ihr das vorbereitende Gespräch dazu führen möchten!",
+      "props": {
+        "items": 1
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sich von unrealistischen Hoffnungen lösen...\r\n\r\nManchmal wünscht man sich etwas so sehr, dass unser Gehirn alle möglichen und unmöglichen Hintertürchen findet, wie die Erfüllung des Wunsches vielleicht doch noch zu realisieren wäre.\r\n„Wenn ich lange genug warte, wird der Andere schon merken, wie toll wir eigentlich zusammenpassen....“\r\n„Der Andere ist jetzt noch nicht bereit für eine Beziehung mit mir, bald wird er es aber sein...“ \r\noder auch\r\n„Wenn ich 5 Kilo abnehmen würde/wenn ich Chef meiner Abteilung würde, dann wird sich der Andere wieder neu in mich verlieben...“\r\n\r\nWenn Sie solche oder ähnliche Gedanken an sich feststellen, machen Sie sich noch einmal ganz bewusst, was der Andere Ihnen kommuniziert hat. Erinnern Sie sich an die genauen Worte. \r\nDer Andere möchte keine Beziehung mit Ihnen und hat Sie verlassen. Das ist die Realität. \r\nAll die Gedanken, die unseren Beispielen ähneln, sind lediglich Luftschlösser, die sie sich bauen, damit es nicht so weh tut. Das ist zwar verständlich, bringt Sie aber langfristig nicht weiter. Stattdessen blockieren Sie sich, indem Ihr Herz für niemand anderen frei ist.\r\n\r\nEine gute Übung, um sich das Ende der Beziehung bewusst zu machen, ist laut und deutlich auszusprechen: \r\n„Es ist vorbei!“",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "Und das üben wir jetzt: Sagen Sie bitte dreimal laut hintereinander:\r„Es ist vorbei!“  \n\nund klicken Sie dann auf weiter!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Haben Sie die Worte ausgesprochen? Sehr schön! Belohnen Sie sich jetzt für Ihren Mut und machen Sie dann mit unserem Coaching weiter.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den Ex-Partner von seinem Thron stoßen...\r\n\r\nEs ist an der Zeit, Ihren Ex-Partner von seinem Thron zu stoßen. Das machen wir, indem wir eine Liste erstellen mit allen Dingen, die Sie an ihm/ihr stören.\r\nWahrscheinlich fällt Ihnen das erstmal schwer. Vermutlich verklären Sie den Anderen und können sich gar nicht vorstellen, jemals etwas an ihm oder ihr auszusetzen zu haben. Mal wieder spielt Ihnen auch hier noch Ihr Gehirn einen Streich: Wenn man etwas nicht mehr haben kann, wird es in unserem Kopf automatisch aufgewertet. Das gilt für das T-Shirt, das in unserer Größe nicht mehr zu haben war, genauso wie für Ihren Ex-Partner.  \r\nDennoch: Überlegen Sie mal ganz genau, wie Sie das während der Beziehung gesehen haben. Fragen Sie auch Ihre Freunde, was Sie früher am Anderen kritisiert haben. \r\nEs geht hierbei nicht darum, den Anderen schlecht zu machen. Es geht darum, sich bewusst zu machen, dass der Andere genauso ein Mensch mit Fehlern ist wie alle anderen auch. Schließlich fällt es leichter, einen ganz normalen Menschen ziehen zu lassen, als den absoluten Traummann/die absolute Traumfrau.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "List",
+      "key": "rel_lkLetGo_exGoingDown",
+      "title": "Legen wir also los: Was stört Sie alles an Ihrem Ex-Partner? Schreiben Sie alles auf, was Ihnen einfällt!\r\n",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "List",
+      "key": "rel_lkLetGo_exGoingDown",
+      "title": "Sehr schön. Hier sehen Sie noch einmal Ihre Liste. Was fällt Ihnen noch ein? Denken Sie noch einmal in Ruhe nach und ergänzen Sie dann Ihre Liste!",
+      "text": "",
+      "props": {
+        "items": 8
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Begehen Sie ein Ritual!\r\nLeider fehlt es in unserer Gesellschaft an Ritualen, einen geliebten Menschen loszulassen. Gerade Rituale helfen aber dabei, einen Schlussstrich zu ziehen und etwas endgültig hinter sich zu lassen. Daher kann es Sinn machen, sich ein eigenes Ritual zu schaffen.\r\nVielleicht schreiben Sie einen Abschiedsbrief an die jeweilige Person, den Sie aber nicht abschicken. Das hilft besonders, wenn es unausgesprochene Dinge zwischen ihnen gibt. \r\nVielleicht beschriften Sie einen Stein mit dem Namen der Person und werfen ihn in einen Fluss. Im nächsten Schritt können Sie Ihrer Kreativität freien Lauf lassen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "TextArea",
+      "key": "rel_lkLetGo_ritual",
+      "title": "Überlegen Sie bitte jetzt in Ruhe: Welches Ritual könnte zu Ihnen passen? \r\nWenn Ihnen etwas einfällt, notieren Sie es hier!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Neue Ziele für Ihre Zukunft!\r\nUm Vergangenes hinter sich zu lassen, ist es besonders hilfreich, sich neue Ziele zu setzen. Sie haben derzeit die Freiheit und den Raum, viele neue Dinge auszuprobieren, die mit Ihrem Ex-Partner vielleicht nicht möglich gewesen wären oder zu denen Sie aus Zeitgründen nicht gekommen sind. Nutzen Sie daher jetzt die neuen Möglichkeiten, die sich ergeben. Vielleicht wollten Sie schon immer mal eine Reise machen, zu der Ihr Ex-Partner keine Lust hatte? Oder Sie würden sich gerne beruflich verändern? Vielleicht können Sie sich auch schon wieder eine neue Partnerschaft vorstellen?\r\nDie Welt gehört Ihnen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "List",
+      "key": "rel_lkLetGo_goals",
+      "title": "Was fällt Ihnen ein? Welche neuen Ziele möchten Sie sich setzen? Schreiben Sie sie auf!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Jede Phase im Leben hat ihre Vorteile...\r\nAuch wenn es erstmal komisch klingt, auch diese Phase in Ihrem Leben hat ihre Vorteile, z.B.:\r\n- lernen Sie viel über sich selbst\r\n- werden Sie gestärkt aus dieser Erfahrung herausgehen\r\n- besitzen Sie derzeit ein besonderes kreatives Potenzial\r\n- können Sie, nachdem Sie diese Phase überstanden haben,  anderen helfend zur Seite stehen, die unter einer Trennung leiden\r\n\r\nSo könnten Sie die Zeit z.B. nutzen, um sich kreativ zu betätigen und so Ihren Schmerz zu verarbeiten. Vielleicht kommen Sie auch zu wichtigen Erkenntnissen, die Sie in einem Tagebuch festhalten möchten. Wenn Sie solche oder ähnliche Impulse verspüren, gehen Sie ihnen nach!",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching 'Wie lasse ich richtig los?'. Wir hoffen, Ihnen hilfreiche Anregungen mitgegeben zu haben, und wünschen Ihnen viel Erfolg bei der Umsetzung! Wenn Sie noch Fragen haben oder weitere Unterstützung wünschen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne helfen. Sie können uns per E-Mail oder Telefon erreichen. Dazu gehen Sie bitte auf 'Hilfe/Kontakt'.\r\n\r\nWir haben noch viele weitere Coachings, die Sie vielleicht interessieren. Wenn Sie sich z.B. eine neue Beziehung wünschen, könnten unsere Coachings zu den Themen 'Kennenlernen' und 'Beziehung aufbauen und gut gestalten' für Sie hilfreich sein. Wenn Sie Unterstützung zu einem Thema brauchen, das Sie auf unserer Seite nicht finden, wenden Sie sich bitte an unsere Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

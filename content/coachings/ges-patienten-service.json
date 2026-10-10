@@ -1,0 +1,4406 @@
+{
+  "key": "ges-patienten-service",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "Herzlich Wilkommen zu unserem Patienten-Coaching. ",
+      "text": "Hier haben Sie die Möglichkeit, wichtige Informationen zu bestimmten Krankheitsbildern zu erfahren, die richtige Art und Weise der Medikamenteneinnahme zu erlernen sowie im Bereich \"Patienten-Support\" Unterstützung bei den krankheitsbedingten Alltagsschwierigkeiten zu bekommen. \n \nIm nächsten Schritt können Sie auch Ihren patienten-Service über die Einnahme des Medikaments informieren und/oder Ihre Blutwerte an Ihren Patienten-Service übermitteln.\n\nBitte klicken sie auf \"Weiter\", um zum nächsten Schritt zu gelangen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Group",
+      "key": null,
+      "title": "Zunächst benötigen wir von Ihnen einige Angaben",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "angaben-01.jpg"
+          }
+        ],
+        "count": 4
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "TextInput",
+      "key": "vorname",
+      "title": "Ihr Vorname:",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "TextInput",
+      "key": "nachname",
+      "title": "Ihr Nachname:",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Options",
+      "key": "geschlecht",
+      "title": "Ihr Geschlecht:",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "Frau",
+            "value": "weiblich"
+          },
+          {
+            "key": "Herr",
+            "value": "männlich"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n006",
+          "if": "geschlecht is 'Frau'"
+        },
+        {
+          "to": "n006",
+          "if": "geschlecht is 'Herr'"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Options",
+      "key": "alter",
+      "title": "sowie Ihr Alter:",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "bis20",
+            "value": "bis 20"
+          },
+          {
+            "key": "ueber20",
+            "value": "über 20"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n007",
+          "if": "geschlecht is 'Frau' and alter is 'ueber20'"
+        },
+        {
+          "to": "n008",
+          "if": "geschlecht is 'Herr' and alter is 'ueber20'"
+        },
+        {
+          "to": "n009",
+          "if": "geschlecht is 'Frau' and alter is 'bis20'"
+        },
+        {
+          "to": "n010",
+          "if": "geschlecht is 'Herr' and alter is 'bis20'"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Options",
+      "key": "b21b2cff0d4a42fb90b7833d7f7887dc",
+      "title": "Hallo #geschlecht #nachname (#alter)! Wählen Sie bitte die entsprechende Option!",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Patienten-Support"
+          },
+          {
+            "key": "2",
+            "value": "Einnahme des Medikaments melden"
+          },
+          {
+            "key": "3",
+            "value": "Blutwerte erfassen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n011",
+          "if": "b21b2cff0d4a42fb90b7833d7f7887dc is '1'"
+        },
+        {
+          "to": "n012",
+          "if": "b21b2cff0d4a42fb90b7833d7f7887dc is '2'"
+        },
+        {
+          "to": "n013",
+          "if": "b21b2cff0d4a42fb90b7833d7f7887dc is '3'"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Options",
+      "key": "4be959132a294e3eb76ac48fe39a001d",
+      "title": "Hallo #geschlecht #nachname (#alter)! Wählen Sie bitte die entsprechende Option!",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "handshake-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Patienten-Support"
+          },
+          {
+            "key": "2",
+            "value": "Einnahme des Medikaments melden"
+          },
+          {
+            "key": "3",
+            "value": "Blutwerte erfassen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n014",
+          "if": "4be959132a294e3eb76ac48fe39a001d is '1'"
+        },
+        {
+          "to": "n015",
+          "if": "4be959132a294e3eb76ac48fe39a001d is '2'"
+        },
+        {
+          "to": "n016",
+          "if": "4be959132a294e3eb76ac48fe39a001d is '3'"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Options",
+      "key": "6e1ee060695d4adea16fdcee903234f1",
+      "title": "Hallo #vorname (#alter)! Wähle bitte die entsprechende Option!",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Patienten-Support"
+          },
+          {
+            "key": "2",
+            "value": "Einnahme des Medikaments melden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n017",
+          "if": "6e1ee060695d4adea16fdcee903234f1 is '1'"
+        },
+        {
+          "to": "n018",
+          "if": "6e1ee060695d4adea16fdcee903234f1 is '2'"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Options",
+      "key": "fafe56aa6e5c452b80376f06e1092633",
+      "title": "Hallo #vorname (#alter)! Wähle bitte die entsprechende Option!",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Patienten-Support"
+          },
+          {
+            "key": "2",
+            "value": "Einnahme des Medikaments melden"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n019",
+          "if": "fafe56aa6e5c452b80376f06e1092633 is '1'"
+        },
+        {
+          "to": "n020",
+          "if": "fafe56aa6e5c452b80376f06e1092633 is '2'"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Options",
+      "key": "krankheit",
+      "title": "Bitte wählen Sie die betreffende Krankheit: ",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragezeichen-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "allerg",
+            "value": "Allergien"
+          },
+          {
+            "key": "diab",
+            "value": "Diabetes"
+          },
+          {
+            "key": "ms",
+            "value": "Multiple Sklerose"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n021",
+          "if": "krankheit is 'allerg'"
+        },
+        {
+          "to": "n021",
+          "if": "krankheit is 'diab'"
+        },
+        {
+          "to": "n021",
+          "if": "krankheit is 'ms'"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Group",
+      "key": null,
+      "title": "Hallo #geschlecht #nachname! Geben Sie bitte alle benötigten Informationen ein und klicken Sie auf \"Weiter\"",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "angaben-01.jpg"
+          }
+        ],
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Group",
+      "key": null,
+      "title": "Hallo #geschlecht #nachname! Geben Sie bitte alle benötigten Informationen ein und klicken Sie auf \"Weiter\"",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "angaben-01.jpg"
+          }
+        ],
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Options",
+      "key": "krankheit",
+      "title": "Bitte wählen Sie die betreffende Krankheit: ",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragezeichen-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "allerg",
+            "value": "Allergien"
+          },
+          {
+            "key": "diab",
+            "value": "Diabetes"
+          },
+          {
+            "key": "ms",
+            "value": "Multiple Sklerose"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n024",
+          "if": "krankheit is 'diab'"
+        },
+        {
+          "to": "n024",
+          "if": "krankheit is 'ms'"
+        },
+        {
+          "to": "n024",
+          "if": "krankheit is 'allerg'"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Group",
+      "key": null,
+      "title": "Hallo #geschlecht #nachname! Geben Sie bitte alle benötigten Informationen ein und klicken Sie auf \"Weiter\"",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "angaben-01.jpg"
+          }
+        ],
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Group",
+      "key": null,
+      "title": "Hallo #geschlecht #nachname! Geben Sie bitte alle benötigten Informationen ein und klicken Sie auf \"Weiter\"",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "angaben-01.jpg"
+          }
+        ],
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Options",
+      "key": "krankheit",
+      "title": "Bitte wählen Sie die betreffende Krankheit: ",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragezeichen-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "allerg",
+            "value": "Allergien"
+          },
+          {
+            "key": "diab",
+            "value": "Diabetes"
+          },
+          {
+            "key": "ms",
+            "value": "Multiple Sklerose"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n027",
+          "if": "krankheit is 'ms'"
+        },
+        {
+          "to": "n027",
+          "if": "krankheit is 'diab'"
+        },
+        {
+          "to": "n027",
+          "if": "krankheit is 'allerg'"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Group",
+      "key": null,
+      "title": "Hallo #vorname! Gib bitte alle benötigten Informationen ein und klicke auf \"Weiter\" #geschlecht",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "angaben-01.jpg"
+          }
+        ],
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Options",
+      "key": "krankheit",
+      "title": "Bitte wählen Sie die betreffende Krankheit: ",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragezeichen-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "allerg",
+            "value": "Allergien"
+          },
+          {
+            "key": "diab",
+            "value": "Diabetes"
+          },
+          {
+            "key": "ms",
+            "value": "Multiple Sklerose"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n029",
+          "if": "krankheit is 'ms'"
+        },
+        {
+          "to": "n029",
+          "if": "krankheit is 'allerg'"
+        },
+        {
+          "to": "n029",
+          "if": "krankheit is 'diab'"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Group",
+      "key": null,
+      "title": "Hallo #vorname! Gib bitte alle benötigten Informationen ein und klicke auf \"Weiter\" #geschlecht",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "angaben-01.jpg"
+          }
+        ],
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Options",
+      "key": "0d3f3f954b1443fe88100cd0e631c953",
+      "title": "Bitte wählen Sie eine Option aus:",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "info_frau-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Mir fehlt die Motivation, die vereinbarten Therapiemaßnahmen auch tatsächlich einzuhalten."
+          },
+          {
+            "key": "2",
+            "value": "Ich weiß nicht, wie ich mein Medikament richtig einnehme"
+          },
+          {
+            "key": "3",
+            "value": "Ich fühle mich durch (meine) die Erkrankung sehr belastet"
+          },
+          {
+            "key": "4",
+            "value": "Ich mache mir Sorgen um den Krankheitsverlauf oder habe Angst vor der Lebensumstellung"
+          },
+          {
+            "key": "5",
+            "value": "Mir fehlen noch allgemeine Informationen über die Krankheit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n031",
+          "if": "0d3f3f954b1443fe88100cd0e631c953 is '2'"
+        },
+        {
+          "to": "n032",
+          "if": "krankheit is 'allerg' and 0d3f3f954b1443fe88100cd0e631c953 is '4'"
+        },
+        {
+          "to": "n033",
+          "if": "krankheit is 'diab' and 0d3f3f954b1443fe88100cd0e631c953 is '4'"
+        },
+        {
+          "to": "n034",
+          "if": "krankheit is 'ms' and 0d3f3f954b1443fe88100cd0e631c953 is '4'"
+        },
+        {
+          "to": "n035",
+          "if": "krankheit is 'diab' and 0d3f3f954b1443fe88100cd0e631c953 is '4'"
+        },
+        {
+          "to": "n036",
+          "if": "0d3f3f954b1443fe88100cd0e631c953 is '1'"
+        },
+        {
+          "to": "n037",
+          "if": "0d3f3f954b1443fe88100cd0e631c953 is '3'"
+        },
+        {
+          "to": "n038",
+          "if": "krankheit is 'ms' and 0d3f3f954b1443fe88100cd0e631c953 is '5'"
+        },
+        {
+          "to": "n039",
+          "if": "krankheit is 'allerg' and 0d3f3f954b1443fe88100cd0e631c953 is '5'"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "TextInput",
+      "key": "medikament",
+      "title": "Medikamentenname",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "TextInput",
+      "key": "uhrzeit",
+      "title": "Uhrzeit (z.B. 10:30)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Options",
+      "key": "2bfc8d460c034fee90fb602b83df02dc",
+      "title": "Bitte wählen Sie eine Option aus:",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "info_mann-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Mir fehlt die Motivation, die vereinbarten Therapiemaßnahmen auch tatsächlich einzuhalten."
+          },
+          {
+            "key": "2",
+            "value": "Ich weiß nicht, wie ich mein Medikament richtig einnehme"
+          },
+          {
+            "key": "3",
+            "value": "Ich fühle mich durch (meine) die Erkrankung sehr belastet"
+          },
+          {
+            "key": "4",
+            "value": "Ich mache mir Sorgen um den Krankheitsverlauf oder habe Angst vor der Lebensumstellung"
+          },
+          {
+            "key": "5",
+            "value": "Mir fehlen noch allgemeine Informationen über die Krankheit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n042",
+          "if": "2bfc8d460c034fee90fb602b83df02dc is '1'"
+        },
+        {
+          "to": "n043",
+          "if": "krankheit is 'diab' and 2bfc8d460c034fee90fb602b83df02dc is '5'"
+        },
+        {
+          "to": "n044",
+          "if": "krankheit is 'ms' and 2bfc8d460c034fee90fb602b83df02dc is '5'"
+        },
+        {
+          "to": "n045",
+          "if": "krankheit is 'allerg' and 2bfc8d460c034fee90fb602b83df02dc is '5'"
+        },
+        {
+          "to": "n046",
+          "if": "2bfc8d460c034fee90fb602b83df02dc is '2'"
+        },
+        {
+          "to": "n047",
+          "if": "krankheit is 'diab' and 2bfc8d460c034fee90fb602b83df02dc is '4'"
+        },
+        {
+          "to": "n048",
+          "if": "krankheit is 'ms' and 2bfc8d460c034fee90fb602b83df02dc is '4'"
+        },
+        {
+          "to": "n049",
+          "if": "krankheit is 'allerg' and 2bfc8d460c034fee90fb602b83df02dc is '4'"
+        },
+        {
+          "to": "n050",
+          "if": "2bfc8d460c034fee90fb602b83df02dc is '3'"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "TextInput",
+      "key": "medikament",
+      "title": "Medikamentenname",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n051"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "TextInput",
+      "key": "uhrzeit",
+      "title": "Uhrzeit (z.B. 10:30)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n052"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Options",
+      "key": "infowahl",
+      "title": "Bitte wählen Sie eine Option aus:",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "info_maedchen-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Mir fehlt die Motivation, die vereinbarten Therapiemaßnahmen auch tatsächlich einzuhalten."
+          },
+          {
+            "key": "2",
+            "value": "Ich weiß nicht, wie ich mein Medikament richtig einnehme"
+          },
+          {
+            "key": "3",
+            "value": "Ich fühle mich durch (meine) die Erkrankung sehr belastet"
+          },
+          {
+            "key": "4",
+            "value": "Ich mache mir Sorgen um den Krankheitsverlauf oder habe Angst vor der Lebensumstellung"
+          },
+          {
+            "key": "5",
+            "value": "Mir fehlen noch allgemeine Informationen über die Krankheit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n053",
+          "if": "infowahl is '2'"
+        },
+        {
+          "to": "n054",
+          "if": "krankheit is 'ms' and infowahl is '4'"
+        },
+        {
+          "to": "n055",
+          "if": "krankheit is 'diab' and infowahl is '4'"
+        },
+        {
+          "to": "n056",
+          "if": "krankheit is 'ms' and infowahl is '4'"
+        },
+        {
+          "to": "n057",
+          "if": "krankheit is 'allerg' and infowahl is '4'"
+        },
+        {
+          "to": "n058",
+          "if": "infowahl is '3'"
+        },
+        {
+          "to": "n059",
+          "if": "krankheit is 'diab' and infowahl is '3'"
+        },
+        {
+          "to": "n060",
+          "if": "krankheit is 'allerg' and infowahl is '5'"
+        },
+        {
+          "to": "n061",
+          "if": "infowahl is '1'"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "TextInput",
+      "key": "medikament",
+      "title": "Medikamentenname",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n062"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Options",
+      "key": "cda7e16cdc434494bac9df2a7f984cee",
+      "title": "Bitte wählen Sie eine Option aus:",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "info_jungs-01.jpg"
+          }
+        ],
+        "options": [
+          {
+            "key": "1",
+            "value": "Mir fehlt die Motivation, die vereinbarten Therapiemaßnahmen auch tatsächlich einzuhalten."
+          },
+          {
+            "key": "2",
+            "value": "Ich weiß nicht, wie ich mein Medikament richtig einnehme"
+          },
+          {
+            "key": "3",
+            "value": "Ich fühle mich durch (meine) die Erkrankung sehr belastet"
+          },
+          {
+            "key": "4",
+            "value": "Ich mache mir Sorgen um den Krankheitsverlauf oder habe Angst vor der Lebensumstellung"
+          },
+          {
+            "key": "5",
+            "value": "Mir fehlen noch allgemeine Informationen über die Krankheit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n063",
+          "if": "cda7e16cdc434494bac9df2a7f984cee is '3'"
+        },
+        {
+          "to": "n064",
+          "if": "krankheit is 'diab' and cda7e16cdc434494bac9df2a7f984cee is '3'"
+        },
+        {
+          "to": "n065",
+          "if": "krankheit is 'diab' and cda7e16cdc434494bac9df2a7f984cee is '4'"
+        },
+        {
+          "to": "n066",
+          "if": "krankheit is 'ms' and cda7e16cdc434494bac9df2a7f984cee is '4'"
+        },
+        {
+          "to": "n067",
+          "if": "krankheit is 'allerg' and cda7e16cdc434494bac9df2a7f984cee is '4'"
+        },
+        {
+          "to": "n068",
+          "if": "krankheit is 'ms' and cda7e16cdc434494bac9df2a7f984cee is '4'"
+        },
+        {
+          "to": "n069",
+          "if": "cda7e16cdc434494bac9df2a7f984cee is '1'"
+        },
+        {
+          "to": "n070",
+          "if": "cda7e16cdc434494bac9df2a7f984cee is '2'"
+        },
+        {
+          "to": "n071",
+          "if": "krankheit is 'allerg' and cda7e16cdc434494bac9df2a7f984cee is '5'"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "TextInput",
+      "key": "medikament",
+      "title": "Medikamentenname",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n072"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Options",
+      "key": "9761a1763c2b42d485365cb3e37d3279",
+      "title": "Um welche Medikamentenform handelt es sich?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Tabletten"
+          },
+          {
+            "key": "2",
+            "value": "Matrixpflaster"
+          },
+          {
+            "key": "3",
+            "value": "Spritze"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n073",
+          "if": "9761a1763c2b42d485365cb3e37d3279 is '1'"
+        },
+        {
+          "to": "n074",
+          "if": "9761a1763c2b42d485365cb3e37d3279 is '2'"
+        },
+        {
+          "to": "n075",
+          "if": "9761a1763c2b42d485365cb3e37d3279 is '3'"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n076"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n076"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n076"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "Diabetes Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "Task 4",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Options",
+      "key": "5c615da74ce14b7788e08daf78885e96",
+      "title": "Viele menschen sind verzweifelt und fühlen sich sehr belastet, weil ihnen wichtige Informationen über die Krankheit fehlen. Möchten Sie Weiteres über die Krankheit erfahren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n038",
+          "if": "krankheit is 'ms' and 5c615da74ce14b7788e08daf78885e96 is '1'"
+        },
+        {
+          "to": "n035",
+          "if": "krankheit is 'diab' and 5c615da74ce14b7788e08daf78885e96 is '1'"
+        },
+        {
+          "to": "n039",
+          "if": "krankheit is 'allerg' and 5c615da74ce14b7788e08daf78885e96 is '1'"
+        },
+        {
+          "to": "n036",
+          "if": "5c615da74ce14b7788e08daf78885e96 is '2'"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "MS Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "Allergie Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "TextInput",
+      "key": "dosis",
+      "title": "Dosis",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n078"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "TextInput",
+      "key": "blutdruck",
+      "title": "Blutdruck (in mmHg, z.B. 120/80)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n079"
+        }
+      ]
+    },
+    "n042": {
+      "id": "n042",
+      "type": "Options",
+      "key": "Motivation_Grund",
+      "title": "Woran liegt es?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ich sehe darin für mich persönlich keinen Sinn und Zweck"
+          },
+          {
+            "key": "2",
+            "value": "Ich weiß nicht so richtig, warum ich das eigentlich tun sollte"
+          },
+          {
+            "key": "3",
+            "value": "Ich will/müsste viele meiner Lebensgewohnheiten aufgeben"
+          },
+          {
+            "key": "4",
+            "value": "Ich sehe keine Erfolge der vereinbarten Maßnahmen"
+          },
+          {
+            "key": "5",
+            "value": "Es wird sowieso nichts bringen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n080",
+          "if": "Motivation_Grund is '1'"
+        },
+        {
+          "to": "n081",
+          "if": "Motivation_Grund is '2'"
+        },
+        {
+          "to": "n081",
+          "if": "Motivation_Grund is '3'"
+        },
+        {
+          "to": "n081",
+          "if": "Motivation_Grund is '4'"
+        },
+        {
+          "to": "n081",
+          "if": "Motivation_Grund is '5'"
+        }
+      ]
+    },
+    "n043": {
+      "id": "n043",
+      "type": "Text",
+      "key": null,
+      "title": "Diabetes Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n047"
+        }
+      ]
+    },
+    "n044": {
+      "id": "n044",
+      "type": "Text",
+      "key": null,
+      "title": "MS Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n048"
+        }
+      ]
+    },
+    "n045": {
+      "id": "n045",
+      "type": "Text",
+      "key": null,
+      "title": "Allergie Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n049"
+        }
+      ]
+    },
+    "n046": {
+      "id": "n046",
+      "type": "Options",
+      "key": "89affdd429764a8e8549aa542d0ec20b",
+      "title": "Um welche Medikamentenform handelt es sich?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Tabletten"
+          },
+          {
+            "key": "2",
+            "value": "Matrixpflaster"
+          },
+          {
+            "key": "3",
+            "value": "Spritze"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n082",
+          "if": "89affdd429764a8e8549aa542d0ec20b is '1'"
+        },
+        {
+          "to": "n083",
+          "if": "89affdd429764a8e8549aa542d0ec20b is '2'"
+        },
+        {
+          "to": "n084",
+          "if": "89affdd429764a8e8549aa542d0ec20b is '3'"
+        }
+      ]
+    },
+    "n047": {
+      "id": "n047",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n048": {
+      "id": "n048",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n049": {
+      "id": "n049",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n050": {
+      "id": "n050",
+      "type": "Options",
+      "key": "2720c966ff294fb296a5c68023098eca",
+      "title": "Oft sind die PAtienten verzweifelt und fühlen sich sehr belastet, weil es ihnen wichtige Informationen über die Krankheit fehlen. Möchten Sie Weiteres über Ihre Krankheit erfahren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n045",
+          "if": "krankheit is 'allerg' and 2720c966ff294fb296a5c68023098eca is '1'"
+        },
+        {
+          "to": "n044",
+          "if": "krankheit is 'ms' and 2720c966ff294fb296a5c68023098eca is '1'"
+        },
+        {
+          "to": "n043",
+          "if": "krankheit is 'diab' and 2720c966ff294fb296a5c68023098eca is '1'"
+        },
+        {
+          "to": "n085",
+          "if": "2720c966ff294fb296a5c68023098eca is '2'"
+        }
+      ]
+    },
+    "n051": {
+      "id": "n051",
+      "type": "TextInput",
+      "key": "dosis",
+      "title": "Dosis",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n086"
+        }
+      ]
+    },
+    "n052": {
+      "id": "n052",
+      "type": "TextInput",
+      "key": "blutdruck",
+      "title": "Blutdruck (in mmHg, z.B. 120/80)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n087"
+        }
+      ]
+    },
+    "n053": {
+      "id": "n053",
+      "type": "Options",
+      "key": "ffcacfdcb35d44ac974660d6d737fb08",
+      "title": "Um welche Medikamentenform handelt es sich?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Tabletten"
+          },
+          {
+            "key": "2",
+            "value": "Matrixpflaster"
+          },
+          {
+            "key": "3",
+            "value": "Spritze"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n088",
+          "if": "ffcacfdcb35d44ac974660d6d737fb08 is '1'"
+        },
+        {
+          "to": "n089",
+          "if": "ffcacfdcb35d44ac974660d6d737fb08 is '2'"
+        },
+        {
+          "to": "n090",
+          "if": "ffcacfdcb35d44ac974660d6d737fb08 is '3'"
+        }
+      ]
+    },
+    "n054": {
+      "id": "n054",
+      "type": "Text",
+      "key": null,
+      "title": "MS Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n056"
+        }
+      ]
+    },
+    "n055": {
+      "id": "n055",
+      "type": "Text",
+      "key": null,
+      "title": "Diabetes Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n059"
+        }
+      ]
+    },
+    "n056": {
+      "id": "n056",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n091"
+        }
+      ]
+    },
+    "n057": {
+      "id": "n057",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n091"
+        }
+      ]
+    },
+    "n058": {
+      "id": "n058",
+      "type": "Options",
+      "key": "dba70d73ea304dbc90355da168b339aa",
+      "title": "Viele menschen sind verzweifelt und fühlen sich sehr belastet, weil ihnen wichtige Informationen über die Krankheit fehlen. Möchten Sie Weiteres über die Krankheit erfahren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n055",
+          "if": "krankheit is 'diab' and dba70d73ea304dbc90355da168b339aa is '1'"
+        },
+        {
+          "to": "n060",
+          "if": "krankheit is 'allerg' and dba70d73ea304dbc90355da168b339aa is '1'"
+        },
+        {
+          "to": "n054",
+          "if": "krankheit is 'ms' and dba70d73ea304dbc90355da168b339aa is '1'"
+        },
+        {
+          "to": "n061",
+          "if": "dba70d73ea304dbc90355da168b339aa is '2'"
+        }
+      ]
+    },
+    "n059": {
+      "id": "n059",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n091"
+        }
+      ]
+    },
+    "n060": {
+      "id": "n060",
+      "type": "Text",
+      "key": null,
+      "title": "Allergie Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n057"
+        }
+      ]
+    },
+    "n061": {
+      "id": "n061",
+      "type": "Text",
+      "key": null,
+      "title": "diff Task",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n062": {
+      "id": "n062",
+      "type": "TextInput",
+      "key": "dosis",
+      "title": "Dosis",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n092"
+        }
+      ]
+    },
+    "n063": {
+      "id": "n063",
+      "type": "Options",
+      "key": "9b2cf2abad4a466e8139755386eff49a",
+      "title": "Viele menschen sind verzweifelt und fühlen sich sehr belastet, weil ihnen wichtige Informationen über die Krankheit fehlen. Möchten Sie Weiteres über die Krankheit erfahren?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Ja"
+          },
+          {
+            "key": "2",
+            "value": "Nein"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n069",
+          "if": "9b2cf2abad4a466e8139755386eff49a is '2'"
+        },
+        {
+          "to": "n071",
+          "if": "krankheit is 'allerg' and 9b2cf2abad4a466e8139755386eff49a is '1'"
+        },
+        {
+          "to": "n065",
+          "if": "krankheit is 'diab' and 9b2cf2abad4a466e8139755386eff49a is '1'"
+        },
+        {
+          "to": "n066",
+          "if": "krankheit is 'ms' and 9b2cf2abad4a466e8139755386eff49a is '1'"
+        }
+      ]
+    },
+    "n064": {
+      "id": "n064",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n093"
+        }
+      ]
+    },
+    "n065": {
+      "id": "n065",
+      "type": "Text",
+      "key": null,
+      "title": "Diabetes Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n064"
+        }
+      ]
+    },
+    "n066": {
+      "id": "n066",
+      "type": "Text",
+      "key": null,
+      "title": "MS Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n068"
+        }
+      ]
+    },
+    "n067": {
+      "id": "n067",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n093"
+        }
+      ]
+    },
+    "n068": {
+      "id": "n068",
+      "type": "Text",
+      "key": null,
+      "title": "Verlauf",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n093"
+        }
+      ]
+    },
+    "n069": {
+      "id": "n069",
+      "type": "Text",
+      "key": null,
+      "title": "diff Task Jungs",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n070": {
+      "id": "n070",
+      "type": "Options",
+      "key": "2514cd06fbf541a2b9dff7e2cc898d48",
+      "title": "Um welche Medikamentenform handelt es sich?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "Tabletten"
+          },
+          {
+            "key": "2",
+            "value": "Matrixpflaster"
+          },
+          {
+            "key": "3",
+            "value": "Spritze"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n094",
+          "if": "2514cd06fbf541a2b9dff7e2cc898d48 is '3'"
+        },
+        {
+          "to": "n095",
+          "if": "2514cd06fbf541a2b9dff7e2cc898d48 is '2'"
+        },
+        {
+          "to": "n096",
+          "if": "2514cd06fbf541a2b9dff7e2cc898d48 is '1'"
+        }
+      ]
+    },
+    "n071": {
+      "id": "n071",
+      "type": "Text",
+      "key": null,
+      "title": "Allergie Einführung",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n067"
+        }
+      ]
+    },
+    "n072": {
+      "id": "n072",
+      "type": "TextInput",
+      "key": "dosis",
+      "title": "Dosis",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n097"
+        }
+      ]
+    },
+    "n073": {
+      "id": "n073",
+      "type": "Text",
+      "key": null,
+      "title": "Tabletten info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "tabletten-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n076"
+        }
+      ]
+    },
+    "n074": {
+      "id": "n074",
+      "type": "Text",
+      "key": null,
+      "title": "Pflaster Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "pflaster-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n076"
+        }
+      ]
+    },
+    "n075": {
+      "id": "n075",
+      "type": "Text",
+      "key": null,
+      "title": "Spritze Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "spritze-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n076"
+        }
+      ]
+    },
+    "n076": {
+      "id": "n076",
+      "type": "Text",
+      "key": null,
+      "title": "Task 5",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n077": {
+      "id": "n077",
+      "type": "Options",
+      "key": "9ed0e44e9d2d4d6aab9d807b4d57557a",
+      "title": "Wollen Sie das Programm beenden?",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": 1,
+            "value": "Ja"
+          },
+          {
+            "key": 2,
+            "value": "Zurück zum Start"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": null,
+          "if": "9ed0e44e9d2d4d6aab9d807b4d57557a is 1"
+        },
+        {
+          "to": "n001",
+          "if": "9ed0e44e9d2d4d6aab9d807b4d57557a is 2"
+        }
+      ]
+    },
+    "n078": {
+      "id": "n078",
+      "type": "TextInput",
+      "key": "uhrzeit",
+      "title": "Uhrzeit (z.B. 10:30)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n098"
+        }
+      ]
+    },
+    "n079": {
+      "id": "n079",
+      "type": "TextInput",
+      "key": "blutzucker",
+      "title": "Blutzucker pro dL (z.B. 65mg/dL)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n099"
+        }
+      ]
+    },
+    "n080": {
+      "id": "n080",
+      "type": "Text",
+      "key": null,
+      "title": "Vision",
+      "text": "VIDEO?",
+      "props": {},
+      "next": [
+        {
+          "to": "n100"
+        }
+      ]
+    },
+    "n081": {
+      "id": "n081",
+      "type": "Text",
+      "key": null,
+      "title": "EOT",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n082": {
+      "id": "n082",
+      "type": "Text",
+      "key": null,
+      "title": "Tabletten Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "tabletten-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n083": {
+      "id": "n083",
+      "type": "Text",
+      "key": null,
+      "title": "Pflaster Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "pflaster-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n084": {
+      "id": "n084",
+      "type": "Text",
+      "key": null,
+      "title": "Spritze info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "spritze-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n085": {
+      "id": "n085",
+      "type": "Text",
+      "key": null,
+      "title": "Damit wir gezielter auf Ihr problem eingehen können, benötigen wir von Ihnen einige Angaben.",
+      "text": "Welche der folgenden Bereiche Ihrer Krankheit bzw. Ihrer Behandlung sind derzeit ein Problem für Sie?\nKlicken Sie bitte jene Antwort, die am ehesten für Sie zutrifft. Bitte beantworten Sie alle Fragen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n101"
+        }
+      ]
+    },
+    "n086": {
+      "id": "n086",
+      "type": "TextInput",
+      "key": "uhrzeit",
+      "title": "Uhrzeit (z.B. 10:30)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n102"
+        }
+      ]
+    },
+    "n087": {
+      "id": "n087",
+      "type": "TextInput",
+      "key": "blutzucker",
+      "title": "Blutzucker pro dL (z.B. 65mg/dL)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n103"
+        }
+      ]
+    },
+    "n088": {
+      "id": "n088",
+      "type": "Text",
+      "key": null,
+      "title": "Tabletten Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "tabletten-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n091"
+        }
+      ]
+    },
+    "n089": {
+      "id": "n089",
+      "type": "Text",
+      "key": null,
+      "title": "Pflaster Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "pflaster-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n091"
+        }
+      ]
+    },
+    "n090": {
+      "id": "n090",
+      "type": "Text",
+      "key": null,
+      "title": "Spritze Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "spritze_jung-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n091"
+        }
+      ]
+    },
+    "n091": {
+      "id": "n091",
+      "type": "Text",
+      "key": null,
+      "title": "EOT Mädchen",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n092": {
+      "id": "n092",
+      "type": "TextInput",
+      "key": "uhrzeit",
+      "title": "Uhrzeit (z.B. 10:30)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n104"
+        }
+      ]
+    },
+    "n093": {
+      "id": "n093",
+      "type": "Text",
+      "key": null,
+      "title": "EOT Jungs",
+      "text": "",
+      "props": {},
+      "next": []
+    },
+    "n094": {
+      "id": "n094",
+      "type": "Text",
+      "key": null,
+      "title": "Spritze Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "spritze_jung-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n093"
+        }
+      ]
+    },
+    "n095": {
+      "id": "n095",
+      "type": "Text",
+      "key": null,
+      "title": "Pflaster Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "pflaster-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n093"
+        }
+      ]
+    },
+    "n096": {
+      "id": "n096",
+      "type": "Text",
+      "key": null,
+      "title": "Tabletten Info",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "tabletten-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n093"
+        }
+      ]
+    },
+    "n097": {
+      "id": "n097",
+      "type": "TextInput",
+      "key": "uhrzeit",
+      "title": "Uhrzeit (z.B. 10:30)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n105"
+        }
+      ]
+    },
+    "n098": {
+      "id": "n098",
+      "type": "Group",
+      "key": null,
+      "title": "Beantworten Sie bitte kurz folgende Fragen:",
+      "text": "Während der letzten Woche:",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragebogen-01.jpg"
+          }
+        ],
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n106"
+        }
+      ]
+    },
+    "n099": {
+      "id": "n099",
+      "type": "TextInput",
+      "key": "hdl",
+      "title": "Blutfette: HDL-Cholesterin pro dL (z.B.  39 mg/dL)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n107"
+        }
+      ]
+    },
+    "n100": {
+      "id": "n100",
+      "type": "Text",
+      "key": null,
+      "title": "Wie bleiben Sie motiviert? ",
+      "text": "Wir möchten Ihnen einige Strategien mit an die Hand geben, um Ihre Motivation aufzubauen und auch bei \"Durststrecken\" aufrechtzuerhalten: \n\n1. Setzen Sie sich Ziele! \n2. Belohnen Sie sich für Ihre Fortschritte! \n3. Pflegen Sie Ihre sozialen Kontakte!\n\nIn den nächsten Schritten werden wir Ihnen zeigen, wie Sie an diesen 3 wichtigen Punkten arbeiten können. \n \nKlicken Sie bitte auf \"Weiter\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n108"
+        }
+      ]
+    },
+    "n101": {
+      "id": "n101",
+      "type": "Evaluation",
+      "key": "Fragebogen_Bereich01",
+      "title": "Es ist derzeit ein Problem für mich, ",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragebogen-01.jpg"
+          }
+        ],
+        "weightedcriteria": [
+          {
+            "name": "dass ich mich durch die ständigen Anforderungen der Behandlung „ausgebrannt“ fühle.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich das Gefühl habe, dass die Krankheit mir täglich zu viel geistige/körperliche Kraft raubt.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass es im Zusammenhang mit meiner Krankheit unangenehme soziale Situationen gibt (z. B. wenn mir jemand sagt, was ich essen soll).",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich mich von meinen Freunden und meiner Familie bei der Behandlung nicht genügend unterstützt fühle.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich mich ständig gedanklich mit Essen oder mit Nahrungsmitteln beschäftige.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich mich schuldig oder ängstlich fühle, wenn ich meine Behandlung vernachlässige.",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 5,
+        "titleWeight": "1",
+        "titleRate": ""
+      },
+      "next": [
+        {
+          "to": "n109"
+        }
+      ]
+    },
+    "n102": {
+      "id": "n102",
+      "type": "Group",
+      "key": null,
+      "title": "Beantworten Sie bitte kurz folgende Fragen:",
+      "text": "Während der letzten Woche:",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragebogen-01.jpg"
+          }
+        ],
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n110"
+        }
+      ]
+    },
+    "n103": {
+      "id": "n103",
+      "type": "TextInput",
+      "key": "hdl",
+      "title": "Blutfette: HDL-Cholesterin pro dL (z.B.  39 mg/dL)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n111"
+        }
+      ]
+    },
+    "n104": {
+      "id": "n104",
+      "type": "Group",
+      "key": null,
+      "title": "Beantworte bitte kurz folgende Fragen!",
+      "text": "Während der letzten Woche:",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragebogen-01.jpg"
+          }
+        ],
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n112"
+        }
+      ]
+    },
+    "n105": {
+      "id": "n105",
+      "type": "Group",
+      "key": null,
+      "title": "Beantworte bitte kurz folgende Fragen",
+      "text": "Während der letzten Woche:",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragebogen-01.jpg"
+          }
+        ],
+        "count": 5
+      },
+      "next": [
+        {
+          "to": "n113"
+        }
+      ]
+    },
+    "n106": {
+      "id": "n106",
+      "type": "Options",
+      "key": "frage1",
+      "title": "fühlte ich mich fröhlich und gut gelaunt",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n114",
+          "if": "frage1 is '3'"
+        },
+        {
+          "to": "n114",
+          "if": "frage1 is '4'"
+        },
+        {
+          "to": "n114",
+          "if": "frage1 is '2'"
+        },
+        {
+          "to": "n114",
+          "if": "frage1 is '5'"
+        },
+        {
+          "to": "n114",
+          "if": "frage1 is '1'"
+        }
+      ]
+    },
+    "n107": {
+      "id": "n107",
+      "type": "TextInput",
+      "key": "ldl",
+      "title": "Blutfette: HDL-Cholesterin pro dL (z.B.  130 mg/dL)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n098"
+        }
+      ]
+    },
+    "n108": {
+      "id": "n108",
+      "type": "Text",
+      "key": null,
+      "title": "Setzen Sie sich Ziele!\r\n\r\n",
+      "text": "Ziele spornen an und helfen, sich neu zu motivieren. Idealerweise setzen sie sich zunächst Wochenziele und legen dann jeden Tag fest, was sie an diesem Tag erreichen wollen, um Ihr Wochenziel einhalten zu können. \n\nWichtig: Halten Sie Ihre Ziele schriftlich fest! Notieren Sie sie beispielsweise gleich neben Ihrem Wochenplan. So haben Sie stets einen Blick darauf und sehen, was Sie bereits alles geschafft haben.\n\nHier haben wir Ihnen einige Beispiele für realistische Wochenziele zusammengestellt:\n\n* Sie treffen sich mindestens ein Mal pro Woche mit Ihren Bekannten/Freunden\n* An mindestens 5 von 7 Tagen nutzen Sie unser Program, um Ihren Patienten-Service Ihre Körpermesswerte zu übermitteln\n* Mindestens 1 die Woche machen Sie zwischen 1 und 1,5 Stunden Sport\n* Sie erstellen einen Wochenplan und halten sich an mind. 80% der aufgeschriebenen Aufgaben während der kommenden Woche",
+      "props": {},
+      "next": [
+        {
+          "to": "n115"
+        }
+      ]
+    },
+    "n109": {
+      "id": "n109",
+      "type": "Evaluation",
+      "key": "Fragebogen_Bereich02",
+      "title": "Es ist derzeit ein Problem für mich, ",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragebogen-01.jpg"
+          }
+        ],
+        "weightedcriteria": [
+          {
+            "name": "dass ich keine eindeutigen und klaren Ziele für meine Krankheitsbehandlung habe.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass mich der Gedanke, mit der Krankheit leben zu müssen, ängstigt.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich keine richtige Vorstellung habe, wie mein Leben jetzt aussehen soll.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich mir nicht so wirklich vorstellen kann, wie ich mein Alltag nutzen kann.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich nicht weiss, wie ich die alten Gewohnheiten, wenn nötig, ändere und neue aufbaue.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich mit der regelmäßigen Einnahme der Medikamente nicht klar komme.",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 5,
+        "titleWeight": "1",
+        "titleRate": ""
+      },
+      "next": [
+        {
+          "to": "n116"
+        }
+      ]
+    },
+    "n110": {
+      "id": "n110",
+      "type": "Options",
+      "key": "frage1",
+      "title": "fühlte ich mich fröhlich und gut gelaunt",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n117",
+          "if": "frage1 is '3'"
+        },
+        {
+          "to": "n117",
+          "if": "frage1 is '4'"
+        },
+        {
+          "to": "n117",
+          "if": "frage1 is '2'"
+        },
+        {
+          "to": "n117",
+          "if": "frage1 is '5'"
+        },
+        {
+          "to": "n117",
+          "if": "frage1 is '1'"
+        }
+      ]
+    },
+    "n111": {
+      "id": "n111",
+      "type": "TextInput",
+      "key": "ldl",
+      "title": "Blutfette: HDL-Cholesterin pro dL (z.B.  130 mg/dL)",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n102"
+        }
+      ]
+    },
+    "n112": {
+      "id": "n112",
+      "type": "Options",
+      "key": "frage1",
+      "title": "fühlte ich mich fröhlich und gut gelaunt",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n118",
+          "if": "frage1 is '2'"
+        },
+        {
+          "to": "n118",
+          "if": "frage1 is '4'"
+        },
+        {
+          "to": "n118",
+          "if": "frage1 is '5'"
+        },
+        {
+          "to": "n118",
+          "if": "frage1 is '3'"
+        },
+        {
+          "to": "n118",
+          "if": "frage1 is '1'"
+        }
+      ]
+    },
+    "n113": {
+      "id": "n113",
+      "type": "Options",
+      "key": "frage1",
+      "title": "fühlte ich mich fröhlich und gut gelaunt",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n119",
+          "if": "frage1 is '3'"
+        },
+        {
+          "to": "n119",
+          "if": "frage1 is '4'"
+        },
+        {
+          "to": "n119",
+          "if": "frage1 is '2'"
+        },
+        {
+          "to": "n119",
+          "if": "frage1 is '5'"
+        },
+        {
+          "to": "n119",
+          "if": "frage1 is '1'"
+        }
+      ]
+    },
+    "n114": {
+      "id": "n114",
+      "type": "Options",
+      "key": "frage2",
+      "title": "fühlte ich mich ruhig und entspannt",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n120",
+          "if": "frage2 is '1'"
+        },
+        {
+          "to": "n120",
+          "if": "frage2 is '2'"
+        },
+        {
+          "to": "n120",
+          "if": "frage2 is '4'"
+        },
+        {
+          "to": "n120",
+          "if": "frage2 is '5'"
+        },
+        {
+          "to": "n120",
+          "if": "frage2 is '3'"
+        }
+      ]
+    },
+    "n115": {
+      "id": "n115",
+      "type": "Text",
+      "key": null,
+      "title": "Coaching Zieldefinition",
+      "text": "Hier legen wir die Basis für Ihre Motivation.\n\nNehmen Sie sich dieses Coaching ungefähr 20 Minuten Zeit.",
+      "props": {},
+      "next": [
+        {
+          "to": "n121"
+        }
+      ]
+    },
+    "n116": {
+      "id": "n116",
+      "type": "Evaluation",
+      "key": "Fragebogen_Bereich03",
+      "title": "Es ist derzeit ein Problem für mich, ",
+      "text": "",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "fragebogen-01.jpg"
+          }
+        ],
+        "weightedcriteria": [
+          {
+            "name": "dass ich mir Sorgen über die Zukunft und über mögliche ernste Folgeerkrankungen mache.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich mir unsicher bin, inwieweit meine Stimmungen und Gefühle mit der Krankheit zusammenhängen.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich mir Sorgen über bestimmte Krankheitsanzeichen, z.B. Unterzuckerungen, mache.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich relativ wenig über den typischen Krankheitsverlauf bei meiner Krankheit weiß.",
+            "weightFactor": 1
+          },
+          {
+            "name": "dass ich meine Medikamenten nicht richtig einzunehmen weiß.",
+            "weightFactor": 1
+          }
+        ],
+        "type": "test",
+        "steps": 5,
+        "titleWeight": "1",
+        "titleRate": ""
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n117": {
+      "id": "n117",
+      "type": "Options",
+      "key": "frage2",
+      "title": "fühlte ich mich ruhig und entspannt",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n122",
+          "if": "frage2 is '1'"
+        },
+        {
+          "to": "n122",
+          "if": "frage2 is '2'"
+        },
+        {
+          "to": "n122",
+          "if": "frage2 is '4'"
+        },
+        {
+          "to": "n122",
+          "if": "frage2 is '5'"
+        },
+        {
+          "to": "n122",
+          "if": "frage2 is '3'"
+        }
+      ]
+    },
+    "n118": {
+      "id": "n118",
+      "type": "Options",
+      "key": "frage2",
+      "title": "fühlte ich mich ruhig und entspannt",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n123",
+          "if": "frage2 is '3'"
+        },
+        {
+          "to": "n123",
+          "if": "frage2 is '1'"
+        },
+        {
+          "to": "n123",
+          "if": "frage2 is '5'"
+        },
+        {
+          "to": "n123",
+          "if": "frage2 is '4'"
+        },
+        {
+          "to": "n123",
+          "if": "frage2 is '2'"
+        }
+      ]
+    },
+    "n119": {
+      "id": "n119",
+      "type": "Options",
+      "key": "frage2",
+      "title": "fühlte ich mich ruhig und entspannt",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n124",
+          "if": "frage2 is '1'"
+        },
+        {
+          "to": "n124",
+          "if": "frage2 is '2'"
+        },
+        {
+          "to": "n124",
+          "if": "frage2 is '4'"
+        },
+        {
+          "to": "n124",
+          "if": "frage2 is '5'"
+        },
+        {
+          "to": "n124",
+          "if": "frage2 is '3'"
+        }
+      ]
+    },
+    "n120": {
+      "id": "n120",
+      "type": "Options",
+      "key": "frage3",
+      "title": "fühlte ich mich aktiv und vital",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n125",
+          "if": "frage3 is '5'"
+        },
+        {
+          "to": "n125",
+          "if": "frage3 is '4'"
+        },
+        {
+          "to": "n125",
+          "if": "frage3 is '1'"
+        },
+        {
+          "to": "n125",
+          "if": "frage3 is '2'"
+        },
+        {
+          "to": "n125",
+          "if": "frage3 is '3'"
+        }
+      ]
+    },
+    "n121": {
+      "id": "n121",
+      "type": "List",
+      "key": "DIC_PunkteNegComplianceGrundlagen",
+      "title": "Was wird alles schlechter, wenn Sie es nicht schaffen, die vereinbarten Therapiemaßnahmen einzuhalten?",
+      "text": "Schreiben Sie einmal 5 Konsequenzen auf, die Ihr Scheitern mit sich bringen würde.\n\nWenn ich es nicht geschafft habe, die vereinbarten Therapiemaßnahmen auch tatsächlich einzuhalten, dann:",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n126",
+          "if": "DIC_PunkteNegComplianceGrundlagen le '3'"
+        },
+        {
+          "to": "n127",
+          "if": "DIC_PunkteNegComplianceGrundlagen gt '3'"
+        }
+      ]
+    },
+    "n122": {
+      "id": "n122",
+      "type": "Options",
+      "key": "frage3",
+      "title": "fühlte ich mich aktiv und vital",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n128",
+          "if": "frage3 is '5'"
+        },
+        {
+          "to": "n128",
+          "if": "frage3 is '4'"
+        },
+        {
+          "to": "n128",
+          "if": "frage3 is '1'"
+        },
+        {
+          "to": "n128",
+          "if": "frage3 is '2'"
+        },
+        {
+          "to": "n128",
+          "if": "frage3 is '3'"
+        }
+      ]
+    },
+    "n123": {
+      "id": "n123",
+      "type": "Options",
+      "key": "frage3",
+      "title": "fühlte ich mich aktiv und vital",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n129",
+          "if": "frage3 is '1'"
+        },
+        {
+          "to": "n129",
+          "if": "frage3 is '2'"
+        },
+        {
+          "to": "n129",
+          "if": "frage3 is '5'"
+        },
+        {
+          "to": "n129",
+          "if": "frage3 is '3'"
+        },
+        {
+          "to": "n129",
+          "if": "frage3 is '4'"
+        }
+      ]
+    },
+    "n124": {
+      "id": "n124",
+      "type": "Options",
+      "key": "frage3",
+      "title": "fühlte ich mich aktiv und vital",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n130",
+          "if": "frage3 is '5'"
+        },
+        {
+          "to": "n130",
+          "if": "frage3 is '4'"
+        },
+        {
+          "to": "n130",
+          "if": "frage3 is '1'"
+        },
+        {
+          "to": "n130",
+          "if": "frage3 is '2'"
+        },
+        {
+          "to": "n130",
+          "if": "frage3 is '3'"
+        }
+      ]
+    },
+    "n125": {
+      "id": "n125",
+      "type": "Options",
+      "key": "frage4",
+      "title": "fülte ich mich beim Aufwachen frisch und ausgeruht",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n131",
+          "if": "frage4 is '4'"
+        },
+        {
+          "to": "n131",
+          "if": "frage4 is '3'"
+        },
+        {
+          "to": "n131",
+          "if": "frage4 is '5'"
+        },
+        {
+          "to": "n131",
+          "if": "frage4 is '2'"
+        },
+        {
+          "to": "n131",
+          "if": "frage4 is '1'"
+        }
+      ]
+    },
+    "n126": {
+      "id": "n126",
+      "type": "List",
+      "key": "DIC_PunkteNegAbnehmenGrundlagen",
+      "title": "Ist Ihnen auch wirklich alles eingefallen?",
+      "text": "Denken Sie zum Beispiel auch daran, wie Ihre Gesundheit beeinflusst werden könnte oder wie und wo Ihr Übergewicht Sie einschränken könnte.",
+      "props": {
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n132"
+        }
+      ]
+    },
+    "n127": {
+      "id": "n127",
+      "type": "List",
+      "key": "DIC_PunkteNegComplianceGrundlagen",
+      "title": "Ist Ihnen auch wirklich alles eingefallen?",
+      "text": "Denken Sie zum Beispiel auch daran, wie Ihre Beziehungen beeinflusst werden könnten.",
+      "props": {
+        "video": {
+          "url": "DIC_Grundlagen_VB1.flv"
+        },
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n132"
+        }
+      ]
+    },
+    "n128": {
+      "id": "n128",
+      "type": "Options",
+      "key": "frage4",
+      "title": "fülte ich mich beim Aufwachen frisch und ausgeruht",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n133",
+          "if": "frage4 is '4'"
+        },
+        {
+          "to": "n133",
+          "if": "frage4 is '3'"
+        },
+        {
+          "to": "n133",
+          "if": "frage4 is '5'"
+        },
+        {
+          "to": "n133",
+          "if": "frage4 is '2'"
+        },
+        {
+          "to": "n133",
+          "if": "frage4 is '1'"
+        }
+      ]
+    },
+    "n129": {
+      "id": "n129",
+      "type": "Options",
+      "key": "frage4",
+      "title": "fülte ich mich beim Aufwachen frisch und ausgeruht",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n134",
+          "if": "frage4 is '5'"
+        },
+        {
+          "to": "n134",
+          "if": "frage4 is '1'"
+        },
+        {
+          "to": "n134",
+          "if": "frage4 is '2'"
+        },
+        {
+          "to": "n134",
+          "if": "frage4 is '4'"
+        },
+        {
+          "to": "n134",
+          "if": "frage4 is '3'"
+        }
+      ]
+    },
+    "n130": {
+      "id": "n130",
+      "type": "Options",
+      "key": "frage4",
+      "title": "fülte ich mich beim Aufwachen frisch und ausgeruht",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n135",
+          "if": "frage4 is '4'"
+        },
+        {
+          "to": "n135",
+          "if": "frage4 is '3'"
+        },
+        {
+          "to": "n135",
+          "if": "frage4 is '5'"
+        },
+        {
+          "to": "n135",
+          "if": "frage4 is '2'"
+        },
+        {
+          "to": "n135",
+          "if": "frage4 is '1'"
+        }
+      ]
+    },
+    "n131": {
+      "id": "n131",
+      "type": "Options",
+      "key": "frage5",
+      "title": "erlebte ich täglich eine Fülle von Dingen, die mich interessieren",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n136",
+          "if": "frage5 is '5'"
+        },
+        {
+          "to": "n136",
+          "if": "frage5 is '3'"
+        },
+        {
+          "to": "n136",
+          "if": "frage5 is '4'"
+        },
+        {
+          "to": "n136",
+          "if": "frage5 is '2'"
+        },
+        {
+          "to": "n136",
+          "if": "frage5 is '1'"
+        }
+      ]
+    },
+    "n132": {
+      "id": "n132",
+      "type": "List",
+      "key": "DIC_PunktePosComplianceGrundlagen",
+      "title": "Was wird alles besser, wenn Sie es geschafft haben, die vereinbarten Therapiemaßnahmen einzuhalten? ",
+      "text": "Listen Sie im Folgenden bitte einmal 5 Punkte auf, die besser sein werden, wenn Sie die vereinbarten Therapiemaßnahmen tatsächlich einhalten. \n\nWenn ich mich an die Verainbarungen mit meinem Arzt erfolgreich gehalten habe, dann:",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n137",
+          "if": "DIC_PunktePosComplianceGrundlagen le '3'"
+        },
+        {
+          "to": "n138",
+          "if": "DIC_PunktePosComplianceGrundlagen gt '3'"
+        }
+      ]
+    },
+    "n133": {
+      "id": "n133",
+      "type": "Options",
+      "key": "frage5",
+      "title": "erlebte ich täglich eine Fülle von Dingen, die mich interessieren",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n139",
+          "if": "frage5 is '5'"
+        },
+        {
+          "to": "n139",
+          "if": "frage5 is '3'"
+        },
+        {
+          "to": "n139",
+          "if": "frage5 is '4'"
+        },
+        {
+          "to": "n139",
+          "if": "frage5 is '2'"
+        },
+        {
+          "to": "n139",
+          "if": "frage5 is '1'"
+        }
+      ]
+    },
+    "n134": {
+      "id": "n134",
+      "type": "Options",
+      "key": "frage5",
+      "title": "erlebte ich täglich eine Fülle von Dingen, die mich interessieren",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n140",
+          "if": "frage5 is '5'"
+        },
+        {
+          "to": "n140",
+          "if": "frage5 is '1'"
+        },
+        {
+          "to": "n140",
+          "if": "frage5 is '2'"
+        },
+        {
+          "to": "n140",
+          "if": "frage5 is '4'"
+        },
+        {
+          "to": "n140",
+          "if": "frage5 is '3'"
+        }
+      ]
+    },
+    "n135": {
+      "id": "n135",
+      "type": "Options",
+      "key": "frage5",
+      "title": "erlebte ich täglich eine Fülle von Dingen, die mich interessieren",
+      "text": "",
+      "props": {
+        "options": [
+          {
+            "key": "1",
+            "value": "zu keiner Zeit"
+          },
+          {
+            "key": "2",
+            "value": "manchmal"
+          },
+          {
+            "key": "3",
+            "value": "mehr als die Hälfte der Zeit"
+          },
+          {
+            "key": "4",
+            "value": "meistens"
+          },
+          {
+            "key": "5",
+            "value": "die ganze Zeit"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n141",
+          "if": "frage5 is '5'"
+        },
+        {
+          "to": "n141",
+          "if": "frage5 is '3'"
+        },
+        {
+          "to": "n141",
+          "if": "frage5 is '4'"
+        },
+        {
+          "to": "n141",
+          "if": "frage5 is '2'"
+        },
+        {
+          "to": "n141",
+          "if": "frage5 is '1'"
+        }
+      ]
+    },
+    "n136": {
+      "id": "n136",
+      "type": "AddValue",
+      "key": "wohlbefinden_summe",
+      "title": "summe",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#frage1",
+          "#frage2",
+          "#frage3",
+          "#frage4",
+          "#frage5"
+        ]
+      },
+      "next": [
+        {
+          "to": "n142"
+        }
+      ]
+    },
+    "n137": {
+      "id": "n137",
+      "type": "List",
+      "key": "DIC_PunktePosComplianceGrundlagen",
+      "title": "Ist Ihnen auch wirklich alles eingefallen?",
+      "text": "Denken Sie zum Beispiel auch in die Punkte, die schlechter würden. Einige von denen kehren sich vielleicht ins Gegenteil um.",
+      "props": {
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n143"
+        }
+      ]
+    },
+    "n138": {
+      "id": "n138",
+      "type": "List",
+      "key": "DIC_PunktePosComplianceGrundlagen",
+      "title": "Ist Ihnen auch wirklich alles eingefallen?",
+      "text": "Denken Sie zum Beispiel auch an die Punkte, die schlechter würden. Einige von denen kehren sich vielleicht ins Gegenteil um.",
+      "props": {
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n143"
+        }
+      ]
+    },
+    "n139": {
+      "id": "n139",
+      "type": "AddValue",
+      "key": "wohlbefinden_summe",
+      "title": "summe",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#frage1",
+          "#frage2",
+          "#frage3",
+          "#frage4",
+          "#frage5"
+        ]
+      },
+      "next": [
+        {
+          "to": "n144"
+        }
+      ]
+    },
+    "n140": {
+      "id": "n140",
+      "type": "AddValue",
+      "key": "wohlbefinden_summe",
+      "title": "summe",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#frage1",
+          "#frage2",
+          "#frage3",
+          "#frage4",
+          "#frage5"
+        ]
+      },
+      "next": [
+        {
+          "to": "n145"
+        }
+      ]
+    },
+    "n141": {
+      "id": "n141",
+      "type": "AddValue",
+      "key": "wohlbefinden_summe",
+      "title": "summe",
+      "text": "",
+      "props": {
+        "operation": "add",
+        "values": [
+          "#frage1",
+          "#frage2",
+          "#frage3",
+          "#frage4",
+          "#frage5"
+        ]
+      },
+      "next": [
+        {
+          "to": "n146"
+        }
+      ]
+    },
+    "n142": {
+      "id": "n142",
+      "type": "Text",
+      "key": null,
+      "title": "Schön gemacht, #geschlecht #nachname!",
+      "text": "Ihre Angaben wurden an den Patienten-Service übermittelt.\n\nFür Ihr Commitment/Engagement bekommen Sie 1 Motivado-Punkt! Sie haben bereits XX Punkte gesammelt, Ihren nächsten Punkt können Sie in 24 Stunden bekommen.\n\nSo machen Sie nicht nur etwas Gutes für Ihre Gesundheit, sondern können sich bald auch noch über eine unserer tollen Prämien freuen, wie z.B. Drogerie- und Kinogutscheine.\n\nDenken Sie bitte daran: Indem Sie für sich sorgen, kümmern Sie sich auch um Ihre Nächsten/Menschen, die Sie lieben. Weiter so!",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "familie01-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n147",
+          "if": "wohlbefinden_summe lt '12'"
+        },
+        {
+          "to": "n148",
+          "if": "wohlbefinden_summe ge '12' and wohlbefinden_summe lt '19'"
+        },
+        {
+          "to": "n149",
+          "if": "wohlbefinden_summe gt '18'"
+        }
+      ]
+    },
+    "n143": {
+      "id": "n143",
+      "type": "TextArea",
+      "key": "Compliance_Ziel",
+      "title": "Angesichts der Vor- und Nachteile formulieren Sie jetzt bitte Ihr Genesungsziel:",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n150"
+        }
+      ]
+    },
+    "n144": {
+      "id": "n144",
+      "type": "Text",
+      "key": null,
+      "title": "Top, #geschlecht #nachname!",
+      "text": "Ihre Angaben wurden an den Patienten-Service übermittelt.\n\nFür Ihr Commitment/Engagement bekommen Sie 1 Motivado-Punkt! Sie haben bereits XX Punkte gesammelt, Ihren nächsten Punkt können Sie in 24 Stunden bekommen.\n\nSo machen Sie nicht nur etwas Gutes für Ihre Gesundheit, sondern können sich bald auch noch über eine unserer tollen Prämien freuen, wie z.B. Zeitschriftenabos oder Kinogutscheine.\n\nDenken Sie bitte daran: Indem Sie für sich sorgen, kümmern Sie sich auch um Ihre Nächsten/Menschen, die Sie lieben. Weiter so!",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "med_einnahme-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n151",
+          "if": "wohlbefinden_summe lt '12'"
+        },
+        {
+          "to": "n152",
+          "if": "wohlbefinden_summe ge '12' and wohlbefinden_summe lt '19'"
+        },
+        {
+          "to": "n153",
+          "if": "wohlbefinden_summe gt '18'"
+        }
+      ]
+    },
+    "n145": {
+      "id": "n145",
+      "type": "Text",
+      "key": null,
+      "title": "Super, #vorname!",
+      "text": "Wir haben Deine Angaben an den Patientenservice übermittelt. \n\nFür deine tolle Leistung bekommst Du 1 Motivado-Punkt! Du hast bereits XX Punkte gesammelt, Deinen nächsten Punkt kannst Du in 24 Stunden bekommen.\n\nSo machst du nicht nur etwas Gutes für deine Gesundheit, sondern kannst dich bald auch noch über eine unserer tollen Prämien freuen, wie Spiele, Kinogutscheine, etc.\n\nWeiter so!",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "geschenk-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n154",
+          "if": "wohlbefinden_summe lt '12'"
+        },
+        {
+          "to": "n155",
+          "if": "wohlbefinden_summe gt '18'"
+        },
+        {
+          "to": "n156",
+          "if": "wohlbefinden_summe ge '12' and wohlbefinden_summe lt '19'"
+        }
+      ]
+    },
+    "n146": {
+      "id": "n146",
+      "type": "Text",
+      "key": null,
+      "title": "Super, #vorname!",
+      "text": "Wir haben die Daten an deinen Patientenservice übermittelt. \n\nFür deine tolle Leistung bekommst Du 1 Motivado-Punkt! Du hast bereits XX Punkte gesammelt, Deinen nächsten Punkt kannst Du in 24 Stunden bekommen.\n\nSo machst du nicht nur etwas Gutes für deine Gesundheit, sondern kannst dich bald auch noch über eine unserer tollen Prämien freuen.\n\nWeiter so!",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "thumbsup-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n157",
+          "if": "wohlbefinden_summe lt '12'"
+        },
+        {
+          "to": "n158",
+          "if": "wohlbefinden_summe ge '12' and wohlbefinden_summe lt '19'"
+        },
+        {
+          "to": "n159",
+          "if": "wohlbefinden_summe gt '18'"
+        }
+      ]
+    },
+    "n147": {
+      "id": "n147",
+      "type": "Text",
+      "key": null,
+      "title": "5-12, IO #wohlbefinden_summe",
+      "text": "ein deutlich eingeschränktes Wohlbefinden",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n148": {
+      "id": "n148",
+      "type": "Text",
+      "key": null,
+      "title": "12-19, IO= #wohlbefinden_summe",
+      "text": "ein reduziertes bis zufriedenstellendes psychisches Wohlbefinden",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n149": {
+      "id": "n149",
+      "type": "Text",
+      "key": null,
+      "title": "19 - 25, IO = #wohlbefinden_summe",
+      "text": "ein sehr gutes Wohlbefinden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n150": {
+      "id": "n150",
+      "type": "Group",
+      "key": "DIC_ESMotivationZiel",
+      "title": "Coaching Motivation",
+      "text": "Sie sehen hier jetzt noch einmal Ihr bereits formuliertes Ziel: #Compliance_Ziel|'Sie haben Ihr Ziel noch nicht formuliert? Dann holen Sie das jetzt nach! Bitte auf \"Zurück\" klicken!'\n\nWenn Sie Ihr Ziel erfolgreich erreicht haben,",
+      "props": {
+        "count": 3
+      },
+      "next": [
+        {
+          "to": "n160"
+        }
+      ]
+    },
+    "n151": {
+      "id": "n151",
+      "type": "Text",
+      "key": null,
+      "title": "5-12, IO #wohlbefinden_summe",
+      "text": "ein deutlich eingeschränktes Wohlbefinden",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n152": {
+      "id": "n152",
+      "type": "Text",
+      "key": null,
+      "title": "12-19, IO= #wohlbefinden_summe",
+      "text": "ein reduziertes bis zufriedenstellendes psychisches Wohlbefinden",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n153": {
+      "id": "n153",
+      "type": "Text",
+      "key": null,
+      "title": "19 - 25, IO = #wohlbefinden_summe",
+      "text": "ein sehr gutes Wohlbefinden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n154": {
+      "id": "n154",
+      "type": "Text",
+      "key": null,
+      "title": "5-12, IO #wohlbefinden_summe",
+      "text": "ein deutlich eingeschränktes Wohlbefinden",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n155": {
+      "id": "n155",
+      "type": "Text",
+      "key": null,
+      "title": "19 - 25, IO = #wohlbefinden_summe",
+      "text": "ein sehr gutes Wohlbefinden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n156": {
+      "id": "n156",
+      "type": "Text",
+      "key": null,
+      "title": "12-19, IO= #wohlbefinden_summe",
+      "text": "ein reduziertes bis zufriedenstellendes psychisches Wohlbefinden",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n157": {
+      "id": "n157",
+      "type": "Text",
+      "key": null,
+      "title": "5-12, IO #wohlbefinden_summe",
+      "text": "ein deutlich eingeschränktes Wohlbefinden",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n158": {
+      "id": "n158",
+      "type": "Text",
+      "key": null,
+      "title": "12-19, IO= #wohlbefinden_summe",
+      "text": "ein reduziertes bis zufriedenstellendes psychisches Wohlbefinden",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n159": {
+      "id": "n159",
+      "type": "Text",
+      "key": null,
+      "title": "19 - 25, IO = #wohlbefinden_summe",
+      "text": "ein sehr gutes Wohlbefinden.",
+      "props": {},
+      "next": [
+        {
+          "to": "n077"
+        }
+      ]
+    },
+    "n160": {
+      "id": "n160",
+      "type": "TextInput",
+      "key": "DIC_MotivationWieAlltagAussehen",
+      "title": "Wie wird dann ihr Alltag aussehen?",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n161"
+        }
+      ]
+    },
+    "n161": {
+      "id": "n161",
+      "type": "TextInput",
+      "key": "DIC_MotivationWieFuehlen",
+      "title": "Wie werden Sie sich dann fühlen?",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n162"
+        }
+      ]
+    },
+    "n162": {
+      "id": "n162",
+      "type": "TextInput",
+      "key": "DIC_MotivationReaktionen",
+      "title": "Welche Reaktionen werden von außen kommen?",
+      "text": "",
+      "props": {
+        "type": "none"
+      },
+      "next": [
+        {
+          "to": "n163"
+        }
+      ]
+    },
+    "n163": {
+      "id": "n163",
+      "type": "Dropdown",
+      "key": "DIC_Compl_SkalaZiel",
+      "title": "Auf einer Skala von 1-5 (1= gar nicht wichtig, 5= sehr wichtig), wie wichtig ist Ihnen Ihr Ziel?",
+      "text": "",
+      "props": {
+        "items": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "next": [
+        {
+          "to": "n164",
+          "if": "DIC_Compl_SkalaZiel le '3'"
+        },
+        {
+          "to": "n165",
+          "if": "DIC_Compl_SkalaZiel gt '3'"
+        }
+      ]
+    },
+    "n164": {
+      "id": "n164",
+      "type": "TextArea",
+      "key": "DIC_ZielAbnehmen",
+      "title": "Passen Sie Ihr Ziel doch bitte so an, dass es Ihnen wichtig genug ist!",
+      "text": "Wenn ich es geschafft habe erfolgreich abzunehmen, dann:",
+      "props": {
+        "video": {
+          "url": "DIC_ESMotivation_V2A.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n165"
+        }
+      ]
+    },
+    "n165": {
+      "id": "n165",
+      "type": "Text",
+      "key": null,
+      "title": "Führen Sie sich bitte alles noch mal vor Augen",
+      "text": "Ihr Ziel lautet: #Compliance_Ziel\n\nWenn Sie dieses Ziel erreicht haben, sieh iht Alltag folgend aus: #DIC_MotivationWieAlltagAussehen\n\nund Sie fühlen sich dabei: #DIC_MotivationWieFuehlen\n\nund bekommen von außen folgende Reaktionen: #DIC_MotivationReaktionen",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "thumbsup-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n166"
+        }
+      ]
+    },
+    "n166": {
+      "id": "n166",
+      "type": "Text",
+      "key": null,
+      "title": "Belohnen Sie sich!\n\n",
+      "text": "Genauso wichtig ist es, dass sie sich regelmäßíg für Ihre Leistungen belohnen.\n \nZum einen machen Sie sich dadurch einen grundlegenden Lernmechanismus des Menschen zunutze: \nWenn wir eine Belohnung für ein Verhalten bekommen, zeigen wir genau dieses Verhalten in Zukunft häufiger.\n \nZum anderen wirkt der Weg zum Ziel weniger beschwerlich, wenn wir uns auf eine schöne Belohnung freuen können. Das haben Sie sicher schon selber erlebt: wenn am Gipfel eine tolle Aussicht wartet, ist es einfach leichter, den Berg zu erklimmen. \nWenn Sie also z.B. Ihren Tagesplan erfüllt haben, gönnen Sie sich am abend etwas schönes. Genauso sind tagsüber kleinere Pausen nach Erledigung einer Aufgabe hilfreich, um motiviert zu bleiben.\n\nFolgendes sollten Sie beim Thema Belohnung beachten:\n\n- belohnen Sie sich möglichst zu festen Zeiten (so entsteht eine Routine, die verhindert, dass Sie zu viele Pausen einlegen und so ihr Ziel aus den Augen verlieren) \n- gestalten Sie Ihre Belohnungen möglichst so, dass Sie Ihrem Körper etwas Gutes tun, also z.B. einen entspannten Spaziergang, einen obsthaltigen Snack oder ähnliches \n- achten Sie auf Ihre individuellen Bedürfnisse: damit die Belohnung sie motiviert, sollten Sie etwas auswählen, dass Sie persönlich auch tatsächlich als Belohnung empfinden.",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "geschenk-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n167"
+        }
+      ]
+    },
+    "n167": {
+      "id": "n167",
+      "type": "Text",
+      "key": null,
+      "title": "Treffen Sie weiter Freunde und Familie!",
+      "text": "Es kann sein, dass Sie während Ihrer Bewerbungsphase relativ viel Zeit alleine verbringen werden. \n\nNehmen Sie sich daher regelmäßig Zeit für ein Treffen mit guten Freunden oder Familienmitgliedern, zu denen Sie ein gutes Verhältnis haben. \nStudien haben immer wieder belegt, dass Kontakte zu geliebten Menschen sich positiv auf unsere Stimmung, unsere Motivation und das allgemeine Wohlbefinden auswirken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n168"
+        }
+      ]
+    },
+    "n168": {
+      "id": "n168",
+      "type": "Options",
+      "key": "bec33a1d4eed4a25baeec24fcac4c5c1",
+      "title": "Wählen Sie aus einer der Motivationsübungen aus",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_ESMotivation_V3.flv"
+        },
+        "options": [
+          {
+            "key": "1",
+            "value": "Mir mein Ziel noch einmal deutlich vor Augen führen"
+          },
+          {
+            "key": "2",
+            "value": "Motivierende Zwischenziele formulieren"
+          },
+          {
+            "key": "3",
+            "value": "Diesen Teil überspringen"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n169",
+          "if": "bec33a1d4eed4a25baeec24fcac4c5c1 is '1'"
+        },
+        {
+          "to": "n170",
+          "if": "bec33a1d4eed4a25baeec24fcac4c5c1 is '2'"
+        },
+        {
+          "to": "n024",
+          "if": "bec33a1d4eed4a25baeec24fcac4c5c1 is '3'"
+        }
+      ]
+    },
+    "n169": {
+      "id": "n169",
+      "type": "Text",
+      "key": null,
+      "title": "Zielvisualisierung",
+      "text": "Diese Übung soll Sie darauf vorbereiten in Momenten, in denen Sie drohen einzubrechen und von Ihrem Plan abzuweichen, sich schnell wieder an Ihr Ziel erinnern zu können, um weiter darauf hin arbeiten zu können.\n\nSie besteht insgesamt aus 3 Schritten. Bitte lesen Sie sich immer einen Schritt durch und befolgen die Anweisungen. \nGehen Sie dann über zum nächsten Schritt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n171"
+        }
+      ]
+    },
+    "n170": {
+      "id": "n170",
+      "type": "Text",
+      "key": null,
+      "title": "Die Motivation aufrecht erhalten über Zwischenziele",
+      "text": "Sich ein Ziel zu setzen und genau zu wissen, wie es aussehen soll ist sehr wichtig!\nWenn Sie daran denken, wie es sein wird, wenn Sie Ihr Ziel erreicht haben, was geht Ihnen dann durch den Kopf?\nViele unserer Kunden beschleicht an dieser Stelle ein etwas mulmiges Gefühl...immerhin scheint dieses Ziel manchmal noch so weit weg.\nDenken Sie daran: Es geht um Ihre Gesundheit!\nNatürlich werden Sie es nicht innerhalb einer Woche erreichen. Aber erste kleine Erfolge können Sie in kurzer Zeit erreichen!\n\nJeder kleine Erfolg wird so viel Spaß machen!\nDamit Sie genau diesen kleinen Erfolge auch regelmäßig erleben können und der Weg bis zum Ziel Ihnen kurz erscheint, ist es eben wichtig sich Zwischenziele zu setzen.\nDiese Zwischenziele sind genauso wichtig, wie Ihr großes Ziel zu erreichen!\n\nSchauen wir uns also im nächsten Schritt an, wie man sich gute Zwischenziele setzt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n172"
+        }
+      ]
+    },
+    "n171": {
+      "id": "n171",
+      "type": "Text",
+      "key": null,
+      "title": "Schritt 1",
+      "text": "Setzen Sie sich in einer entspannten Pose hin und schließen Sie kurz die Augen. Atmen Sie ein paar Mal tief ein und wieder aus, um sich zu entspannen. \nHaben Sie das getan und fühlen Sie sich entspannt genug, klicken Sie bitte auf \"weiter\".",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "peace-mann-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n173"
+        }
+      ]
+    },
+    "n172": {
+      "id": "n172",
+      "type": "Text",
+      "key": null,
+      "title": "Wie genau sehen gute Zwischenziele aus?",
+      "text": "Zunächst müssen Ihre Erfolge messbar werden. Einige Beispiele:\n\n- regelmäßig aufzuschreiben, was Sie alles am Tag/in der jeweiligen Woche erreicht haben und das mit Ihrer Vision und Ihrem Wochenplan vergleichen\n\n- Jede Medikamenteneinnahme mit Hilfe unseren Programs an den patienten-Service schicken und/oder aufschreiben, am Ende der Woche die Regelmäßigkeit überprüfen \n\nJetzt, wo Sie Ihren Fortschritt messen können, sollten Sie sich überlegen, wann Sie in naher Zukunft das erste Zwischenziel erreicht haben wollen.\n\nÜberlegen Sie sich auch schon einmal eine Art Krisenplan. \nWas machen Sie, wenn Sie ein Zwischenziel knapp nicht erreicht haben? \nÜberlegen Sie sich allerdings auch, was Sie in der Woche danach tun um doppelt so gut zu sein. Zum Beispiel eine Woche lang alles an Zucker weg lassen und jeden Tag sich 20 Minuten zusätzlich intensiv bewegen.\nUnd schon sind Sie wieder motiviert zurück auf dem Weg in die richtige Richtung!",
+      "props": {},
+      "next": [
+        {
+          "to": "n174"
+        }
+      ]
+    },
+    "n173": {
+      "id": "n173",
+      "type": "Text",
+      "key": null,
+      "title": "Schritt 2",
+      "text": "Schließen Sie bitte gleich wieder die Augen und denken Sie an Ihr Ziel. \nSie möchten Ihr Genesungsziel erreichen, welches Symbol fällt Ihnen spontan dazu ein? Vielleicht ein Foto von Ihnen vor einigen Jahren? Eine andere Person, die Ihr Vorbild ist? Eine Situation/eine Person/ein Objekt, das Sie als Kraftquelle sehen? \nNehmen Sie das erste Symbol, das Ihnen spontan einfällt und betrachten Sie es ausführlich vor Ihrem inneren Auge.\n\nHaben Sie dieses Symbol klar und deutlich vor Augen?\n\nKlicken Sie dann auf „weiter“.",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "entspannung-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n175"
+        }
+      ]
+    },
+    "n174": {
+      "id": "n174",
+      "type": "Options",
+      "key": "0bfbe83f0ecc439d9d0bd2d6b857db47",
+      "title": "Möchten Sie noch einmal zur Auswahl zurückkehren oder das Coaching \"Motivation\" fortsetzen?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_ESMotivation_V4.flv"
+        },
+        "options": [
+          {
+            "key": 1,
+            "value": "Weiter zum nächsten Schritt"
+          },
+          {
+            "key": 2,
+            "value": "Zur Auswahl der Motivationsübungen zurückkehren"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n024",
+          "if": "0bfbe83f0ecc439d9d0bd2d6b857db47 is 1"
+        },
+        {
+          "to": "n168",
+          "if": "0bfbe83f0ecc439d9d0bd2d6b857db47 is 2"
+        }
+      ]
+    },
+    "n175": {
+      "id": "n175",
+      "type": "Text",
+      "key": null,
+      "title": "Schritt 3",
+      "text": "Stellen Sie sich nun vor, Sie stünden auf der Rasenfläche einer Sportanlage. Gut 20 Meter vor Ihnen steht eine große Zielscheibe. In der Mitte der Zielscheibe können Sie Ihr Symbol erkennen.\nIn Ihren Händen halten Sie Pfeil und Bogen. Sie nehmen den Bogen hoch und legen den Pfeil ein. Sie fangen an den Bogen zu spannen, ziehen mit der rechten Hand Sehne und Pfeil immer weiter nach hinten, visieren dabei mit der Spitze des Pfeils die Mitte der Zielscheibe an. Sie bleiben dabei die ganze Zeit konzentriert, mit Ihren Augen auf das Ziel, auf Ihr Symbol gerichtet. Sie spüren, wie die Spannung in den Muskeln in Ihren Armen steigt, Ihre Arme werden ein wenig müde, aber Sie halten die Spannung!\nSie erreichen den Punkt der maximalen Bogenspannung. Ihre Arme zittern, aber Sie halten die Spannung noch kurz, immer Ihr Symbol in der Mitte der Zielscheibe anvisiert.\nDann löst sich der Pfeil wie von selbst, wird von der Sehne Ihres Bogens in Richtung Zielscheibe geschleudert.  Sie hören Ihn durch die Luft schwirren in gerader Linie auf das Ziel zufliegend und sehen, wie der Pfeil Ihr Ziel genau in der Mitte trifft, dort wo Ihr Symbol  hängt. Sie betrachten vor Ihrem inneren Auge noch eine Weile zufrieden, wie perfekt Ihr Pfeil genau in der Mitte Ihr Symbol getroffen hat.\nRichten Sie Ihre Aufmerksamkeit jetzt wieder auf Ihren Körper. Erinnern Sie sich noch an die Spannung, die Sie eben gespürt haben? Diese Spannung hat sich jetzt komplett gelöst. Sie spüren wie das leichte Brennen in Ihren Armen jetzt völliger Entspannung gewichen ist. \nSpüren Sie es? Konzentrieren Sie sich noch eben auf dieses Gefühl, klicken Sie dann erst auf \"weiter\".",
+      "props": {
+        "events": [
+          {
+            "type": "slide",
+            "second": 0,
+            "url": "target-01.jpg"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n176"
+        }
+      ]
+    },
+    "n176": {
+      "id": "n176",
+      "type": "Text",
+      "key": null,
+      "title": "Wie fühlt sich dieser Volltreffer an?",
+      "text": "Wie fühlt es sich für Sie an jetzt dort zu stehen, nachdem Sie so erfolgreich Ihr Ziel getroffen haben? Die Arme ein wenig müde, aber entspannt?\n\nSchließen Sie noch einmal die Augen und genießen Sie dieses Gefühl noch eine Weile.\n\nSie sind nun am Ende unserer Zielvisualisierungsübung angekommen.\nFühlen Sie sich etwas müde oder träge, dann stehen Sie kurz auf und gehen Sie ein paar Schritte.\n\nDanach klicken Sie bitte auf \"weiter\" und ich erkläre Ihnen, wie Sie diese Übung nutzen können, wenn Sie das Gefühl haben das Abnehmen nicht durchhalten zu können.",
+      "props": {},
+      "next": [
+        {
+          "to": "n177"
+        }
+      ]
+    },
+    "n177": {
+      "id": "n177",
+      "type": "Text",
+      "key": null,
+      "title": "Wie kann Sie diese Zielvisualisierung unterstützen?",
+      "text": "Wie zu Begin bereits erwähnt wird Sie früher oder später der Moment einholen, in dem es Ihnen schwer fallen wird, sich z.B. an die mit Ihrem Arzt vereinbarten Therapiemaßnahmen zu halten. \nDas können die unterschiedlichsten Situationen sein. Es kann das Stück Sahne-Torte sein, das Sie entgegen der Gewohnheit am Sonntag bei der Mutter ablehnen möchten und plötzlich merken, wie Sie trotzdem schwach werden. Oder auch der Moment, wenn Sie Abends nach Hause kommen, gestresst oder frustriert und das Letzte woran Sie denken könnten, sind Ihre Medikamente.\nDavon wie Sie sich hier entscheiden hängt ab, ob Sie es schaffen, Ihre Ziele err erfolgreich zu erreichen.\nDarum ist es so wichtig, dass Sie es schaffen sich in solchen Momenten sofort wieder Ihr Ziel vor Augen zu rufen. Mit allen Details und positiven Emotionen, wenn Sie es erreicht haben. Nur dann wissen Sie wieder ganz genau, warum Sie z.B. diese Kalorienbombe nur zu gerne ablehnen oder die Tabletten doch schulcken wollen.\n\nWiederholen Sie diese Übung jedes Mal, wenn Sie ein bisschen freie Zeit haben. Irgendwann müssen Sie nur an das Symbol für Ihr Ziel denken und sofort stellt sich dieses tolle Gefühle ein, wenn man sieht, wie man sein Ziel voll in der Mitte getroffen hat.\n\nViel Erfolg!",
+      "props": {},
+      "next": [
+        {
+          "to": "n174"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "key": "bez-bezstaerken-koerper",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Ready to go?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Standard_V3.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "In Umfragen geben die meisten Menschen an, dass eine glückliche Partnerschaft für sie einen besonderen Wert besitzt und daher weit oben auf der Prioritätenliste steht. Dennoch passiert es im alltäglichen Stress schnell, dass andere Dinge dringlicher erscheinen und man sich deshalb viel seltener Zeit für Zweisamkeit nimmt als eigentlich nötig wäre.\r\nTappen Sie nicht in die gleiche Falle und verinnerlichen Sie, dass Ihre Beziehung eine tragende Säule für Ihr Wohlergehen ist. Je höher Sie den Wert Ihrer Beziehung einschätzen, umso mehr Energie werden Sie auch aufbringen, um in die Beziehung zu investieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "List",
+      "key": "rel_koerper_bezGut",
+      "title": "Lassen Sie uns deshalb einmal überlegen, was Sie an Ihrer Beziehung und an Ihrem Partner mögen und wertschätzen. Bitte notieren Sie alles, was Ihnen dazu einfällt!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "List",
+      "key": "rel_koerper_conBreak",
+      "title": "Nun lassen Sie uns überlegen, welche negativen Konsequenzen es hätte, wenn Ihre Beziehung in die Brüche gehen würde? \r\nBitte notieren Sie auch hier wieder so viel möglich!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "Wenn Sie alle diese Aspekte miteinbeziehen: Wie wertvoll ist Ihre Beziehung für Sie auf einer Skala von 1-10 (10 ist der beste Wert)?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Damit Herzlich Willkommen im Coaching 'Wie bleiben wir auf Dauer glücklich?'. In diesem Coaching gehen wir intensiv darauf ein, was Sie tun können, um auch im Alltag regelmäßig Ihre Beziehung zu stärken. ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Viele Leute gehen davon aus, dass es vom Zufall oder vom Glück abhängt, ob eine Beziehung glücklich ist und auch bleibt oder nicht. Die weit verbreitete Meinung ist, dass das eine Vorzeige-Pärchen im Freundeskreis eben einfach perfekt zusammenpasst und allein deswegen eine so harmonische Beziehung hat.",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Genau das ist aber ein Trugschluss. Eine gut funktionierende Beziehung läuft nicht von selbst perfekt, sondern muss intensiv gepflegt werden. Dass auch die glücklichen Pärchen viel Zeit und Energie in Ihre Beziehung investieren, ist nur leider nicht für alle Außenstehenden sichtbar.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ein Bild, das wir in unseren Coachings gerne verwenden, ist der Beziehungskörper. \r\nMan kann die „Fitness“ der Beziehung sehr anschaulich mit der eigenen körperlichen Fitness vergleichen. Wer seinen Körper trainiert, weiß, dass Fitness erstens mit viel Aufwand verbunden ist und man zweitens ständig weiter trainieren muss, um seine Fitness zu erhalten. Dafür kann man sich dann aber auch über die Erfolge freuen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Genauso verhält es sich mit Ihrer Beziehung. \r\nSo wie man den eigenen Körper durch regelmäßiges Joggen fit hält, sollte man sich Zeit dafür nehmen, am Beziehungskörper zu arbeiten. Dies ist ohne Frage leichter gesagt als getan. \r\nIn diesem Coaching  geben wir Ihnen deshalb Strategien an die Hand, wie Sie an Ihrer Beziehung arbeiten können. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was löst es in Ihnen aus, wenn wir Ihnen sagen, dass auch eine glückliche Beziehung Arbeit bedeutet? \r\nVielleicht sind Sie zwar theoretisch unserer Meinung, sind aber trotzdem nicht so recht motiviert mehr Energie aufzuwenden?\r\nVielleicht wissen Sie neben all den täglichen Verpflichtungen gar nicht, wo Sie die Zeit und die Lust dafür hernehmen sollen? ",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das ist verständlich. Aber denken Sie nur an all die positiven Effekt, die Sie haben werden, wenn Sie sich mit unseren Punkten ab sofort (noch) mehr um Ihre Beziehung zu kümmern:\r\n\r\n1. Sie werden mehr schöne Momente mit Ihrem Partner erleben\r\n2. Sie und Ihr Partner werden diese Momente noch intensiver miteinander genießen können\r\n3. Sie werden weniger Diskussion führen und sich weniger mit Ihrem Partner streiten\r\n4. Sie werden insgesamt entspannter sein, weil Ihre Beziehung harmonisch verläuft\r\n5. Sie werden sich emotional noch tiefer mit Ihrem Partner verbunden fühlen\r\n6. Ihr Partner wird in schwierigen Momenten an Ihrer Seite sein\r\n\r\nUnser Fazit lautet deshalb ganz klar: Ihre Beziehung langfristig auf gute Beine zu stellen, ist eine Investition, die sich lohnt!",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unzufriedenheit in einer Partnerschaft entsteht schnell, wenn man zu hohe oder unrealistische Erwartungen an den Anderen oder an die Beziehung hat.\r\nÜberprüfen Sie deshalb Ihre Vorstellung einer funktionierenden Beziehung. Ist es wirklich realistisch ein Leben lang stets der beste Freund, der attraktivste Mensch und der interessanteste Gesprächspartner für Ihren Partner zu sein?\r\nDiese Frage mit nein zu beantworten, bedeutet nicht, dass Sie Ihren Partner nicht lieben oder Ihre Beziehung vor dem Aus steht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "In jeder guten Beziehung ist man sich mal näher und mal weniger nah. Die Erkenntnis, dass der Partner (genau wie sie selber) nicht perfekt ist und dass jedes Verliebtheitsgefühl in der Intensität nachlässt, werden Sie in jeder Beziehung machen. Ob mit Ihrem aktuellen Partner oder mit jemand anderem. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Leider schleicht sich in vielen Beziehungen mit der Zeit der Effekt ein, dass man die Dinge, die man schätzt, die Dinge, warum man den Anderen als Menschen an seiner Seite ausgewählt hat, als Selbstverständlichkeit wahrnimmt.\r\nDer Fokus verschiebt sich stattdessen auf all die kleinen Dinge, die man als störend empfindet und Unzufriedenheit stellt sich ein. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "List",
+      "key": "rel_koerper_bezStoer",
+      "title": "Welche 2-3 Dinge fallen Ihnen ein, die Sie an Ihrem Partner stören, die aber eigentlich nicht wirklich schlimm sind und die Sie auch in anderen Beziehungen im Bekanntenkreis immer wieder beobachten?\r\nSchreiben Sie sie auf!",
+      "text": "",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "List",
+      "key": "rel_koerper_bezStoer",
+      "title": "",
+      "text": "In Ordnung. Nun gehen Sie Ihre Liste bitte Punkt für Punkt durch und stellen Sie sich jedesmal die Fragen: Ist mein Wunsch nach Veränderung an dieser Stelle angemessen? Würde ich das gleiche für meinen Partner tun? Bitte notieren Sie hinter jedem Punkt, wie Sie ihn bewerten.",
+      "props": {
+        "items": 3
+      },
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie geht es Ihnen nach dieser Übung? Sind Sie zu neuen Erkenntnissen gekommen? Entscheidend ist, dass Sie sich immer, wenn Sie etwas an Ihrem Partner auszusetzen haben, stets daran erinnern, was Sie an ihm schätzen und auch hinterfragen, ob Ihre Forderung realistisch/angebracht ist. Dadurch lösen sich viele vermeintliche \"Probleme\" schnell von alleine auf.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Im Folgenden möchten wir uns darauf konzentrieren, was Sie konkret dazu beitragen können, Ihre Beziehung jeden Tag ein bisschen besser zu machen.\r\nDeshalb-Hand aufs Herz:\r\nwelche kleineren Dinge gibt es, die in letzter Zeit (ca. im letzten halben Jahr) in Ihrer Beziehung nicht mehr so gut gelaufen sind?  \r\n\r\nHier sind einige Beispiele:\r\nSie haben sich nicht regelmäßig erkundigt, wie es Ihrem Partner geht, was ihn beschäftigt\r\nSie haben sich nur wenig Zeit für Ihren Partner genommen\r\nDer Umgang miteinander ist nicht mehr so liebevoll wie früher\r\nSie haben den Anderen vor Freunden kritisiert ",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "List",
+      "key": "rel_koerper_sandGet",
+      "title": "Was fällt Ihnen ein? Bitte notieren Sie jetzt alle Punkte!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtig ist, dass Sie sich um diese Dinge kümmern! Lassen Sie sie nicht einfach im Sand verlaufen, sondern suchen Sie aktiv das Gespräch mit Ihrem Partner. \r\nIm Coaching \"Richtig Kommunizieren\" zeigen wir Ihnen, wie Sie auch heikle Themen ansprechen, ohne einen Streit zu provozieren.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Der Beziehung, die Zeit einräumen, die sie verdient\r\n\r\nVon zentraler Bedeutung ist, dass Sie mit Ihrem Partner ganz konkret planen wann Sie sich Zeit füreinander nehmen. Das können regelmäßige Spaziergänge sein oder das Abendessen, das Sie stets gemeinsam verbringen. Wichtig ist, dass so etwas nicht \"zufällig\" passiert, sondern fest in Ihren Tagesablauf eingeplant wird.",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "List",
+      "key": "rel_koerper_zuZweit",
+      "title": "Gibt es in Ihrer Beziehung bereits solche feste Zeiten, zu denen Sie Zeit miteinander verbringen?\r\nNotieren Sie sie bitte hier!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sehr schön. Lassen Sie uns nun überlegen, um welche Punkte Sie die Liste erweitern könnten. Welche regelmäßige Aktivität könnten Sie mit Ihrem Partner erleben?\r\nHier sind wieder einige Beispiele:\r\n\r\n1. Jeden Dienstag gemeinsam ins Kino gehen\r\n2. Einmal im Monat einen Tag in der Natur verbringen\r\n3. Jeden Sonntagabend gemeinsam kochen\r\n4. Jeden Mittwoch zum Mittagessen verabreden\r\n5. Alle drei Monate ein gemeinsames Wochenende in einer anderen Stadt",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "List",
+      "key": "rel_koerper_zuZweit",
+      "title": "Hier sehen Sie noch einmal Ihre Liste. Bitte ergänzen Sie sie um alle Punkte, die Ihnen jetzt noch eingefallen sind und besprechen Sie Ihre Ideen heute abend mit Ihrem Partner!",
+      "text": "",
+      "props": {
+        "items": 5
+      },
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie nun auf neue Ideen gekommen sind, besprechen Sie diese bei der nächsten Gelegenheit mit Ihrem Partner. So zeigen Sie Ihrem Partner, dass Sie gerne Zeit mit ihm verbringen und geben ihm das Gefühl, dass Sie an ihm und seiner Gesellschaft interessiert sind. Darüber wird er sich freuen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtig ist, dass Sie sich an diese Verabredungen auch halten. Nur so wird sich Ihr Partner wahrgenommen und geliebt fühlen. Deshalb: halten Sie sich an das, was Sie versprochen haben – auch wenn Sie mal keine Lust darauf haben. Ihre Beziehung wird es Ihnen danken.",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den Partner immer wieder neu entdecken\r\n\r\nJe besser Sie Ihren Partner kennen, desto mehr können Sie dafür tun, Ihre Beziehung positiv zu beeinflussen. Seien Sie deshalb im Alltag aufmerksam: Welche Wünsche und Vorstellungen hat Ihr Partner? Was würde er gerne mal unternehmen? Was mag er, was mag er nicht? \r\nGenauso hilfreich ist es auch den Hintergrund Ihres Partners näher zu beleuchten. Wie ist er aufgewachsen? Welches Verhältnis hat er zu seinen Eltern?\nAus all diesen Punkten könnten Sie leicht kleine und große Aufmerksamkeiten ableiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "All diese Informationen helfen Ihnen dabei, den Anderen besser einschätzen und kennen zu lernen und wirken sich positiv auf Ihre Beziehung aus. \r\nLegen Sie sich deshalb ein Notizbuch an, in dem Sie all diese Informationen sammeln und blättern sie in regelmäßigen Abständen darin. \r\nVor allem, wenn Sie dem Anderen eine Freude machen oder mit einem Geschenk überraschen möchten, finden Sie hier dann viele Inspirationen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sprechen Sie mit Ihrem Partner auch in regelmäßigen Abständen über Ihre Träume und Visionen. Wenn Sie z.B. das nächste Mal am Wochenende noch keine Pläne für den Abend haben, machen Sie einen gemeinsamen \"Visionsworkshop\" und stellen Sie sich dabei folgende Fragen:\r\n1. Was sind die Träume und Visionen meines Partners?\r\n2. Was sind meine eigenen Träume und Visionen?\r\n3. Welche Träume und Visionen haben wir als Paar?",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Routine aufbrechen\r\n\r\nJede Beziehung kommt an den Punkt, an dem nach der anfänglichen Verliebtheit, der „rosaroten Brille“, der Alltag Einzug hält und sich die Routine einzuschleichen droht. Natürlich muss Ihre Partnerschaft auch den Alltag überstehen, aber damit sich Ihr Partner nicht als Selbstverständlichkeit fühlt und Ihre Beziehung nicht in Alltagstrott und Langeweile versinkt, sollten Sie aktiv dagegen arbeiten. Ein Kompliment, Zärtlichkeiten oder ein kleines Geschenk können hier schon Wunder wirken. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie Ihrem Partner zeigen, dass Sie sich Gedanken um Ihre Beziehung machen, dass Sie gerne Zeit mit ihm verbringen und an ihm interessiert sind, wirkt sich dies positiv auf Ihre Beziehung und Ihre eigene Zufriedenheit aus, weil sich Ihr Partner wahrgenommen und geliebt fühlt. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Überraschen Sie Ihren Partner in regelmäßigen Abständen mit kleinen Aufmerksamkeiten! Hierbei geht es nicht darum, viel Geld auszugeben. Stattdessen wird sich Ihr Partner freuen, wenn Sie sich Gedanken dazu gemacht haben, wie Sie ihm eine Freude machen können. Das kann ein liebevoller Brief sein, den Sie ihm morgens auf dem Küchentisch hinterlassen, ein spontanes Picknick im Stadtpark oder eine schöne Blume, die Sie mitbringen. Ihrer Fantasie sind hier keine Grenzen gesetzt. Die Kunst ist, es einfach zu tun.",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Außerdem sollten Sie immer mal wieder etwas mit Ihrem Partner unternehmen, das Sie normalerweise nicht tun. \r\nProbieren Sie das neue exotische Restaurant oder eine neue Sportart gemeinsam aus. Ideal ist es natürlich, wenn Sie etwas auswählen, das Ihr Partner schon lange mal ausprobieren wollte.",
+      "props": {},
+      "next": [
+        {
+          "to": "n035"
+        }
+      ]
+    },
+    "n035": {
+      "id": "n035",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Schöne Momente noch schöner machen\r\n\r\nOft ist es gar nicht so sehr, was um uns herum passiert, sondern was wir aus der Situation machen. Natürlich kann man z.B. sein Essen einfach essen. Man kann aber auch ganz bewusst die einzelnen Gewürze schmecken, sich Zeit nehmen, den Geschmack zu genießen und für einen Moment alles andere ausblenden. \r\nWem es gelingt, die Momente mit dem Partner auf diese Art und Weise bewusst zu genießen, der hat eine sehr viel erfüllendere Partnerschaft.",
+      "props": {},
+      "next": [
+        {
+          "to": "n036"
+        }
+      ]
+    },
+    "n036": {
+      "id": "n036",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wie erreichen Sie das?\r\n\r\nZum einen ist es eine Grundhaltung, eine Entscheidung, den Moment in vollen Zügen zu genießen und alles andere für einen Moment zu vergessen. \r\nZum anderen können Sie schöne Momente durch kleine Dinge noch schöner gestalten.\r\nWenn Sie z.B. gemeinsam auf der Couch kuscheln, zünden Sie zusätzlich eine Kerze an. Wenn Sie einen romantischen Spaziergang machen, machen Sie Ihrem Partner eine Liebeserklärung. Wenn Sie gemeinsam im Restaurant sitzen, kaufen Sie dem Rosenverkäufer eine Blume ab.\r\nWir sind sicher, Ihnen werden viele schöne Wege einfallen, sich gegenseitig Ihre Zuneigung zu zeigen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n037"
+        }
+      ]
+    },
+    "n037": {
+      "id": "n037",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Manchmal ist in einer Beziehung nicht die Routine das Problem, sondern dass einer der Partner sich von zu vielen Veränderungen überfordert fühlt. Wenn der Partner oder die Beziehung sich verändert, kann das schnell zu Verunsicherungen führen. Schnell fragt man sich: Was hat das zu bedeuten? Entfernen wir uns voneinander?",
+      "props": {},
+      "next": [
+        {
+          "to": "n038"
+        }
+      ]
+    },
+    "n038": {
+      "id": "n038",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wichtig ist aus unserer Sicht, dass Sie Ihren Partner und Ihre Beziehung nicht als etwas Statisches wahrnehmen, das sich bitte nicht zu verändern hat. \r\nBeziehungen „atmen“ genauso wie Menschen. Sie wachsen, entwickeln sich weiter und verändern sich. \r\nWenn sich Ihr Partner also nicht so verhält, wie Sie es erwarten, bedeutet dies nicht, dass er Sie nicht mehr liebt, sondern lediglich, dass er sich weiterentwickelt. \r\nDas hat auch für Sie ganz klare Vorteile:\r\nWenn Ihr Partner neue Dinge ausprobiert, kann das auch Sie bereichern und Sie und Ihre Beziehung erhalten neue Impulse.",
+      "props": {},
+      "next": [
+        {
+          "to": "n039"
+        }
+      ]
+    },
+    "n039": {
+      "id": "n039",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zum Abschluss unseres Coachings möchten wir Sie bitten einen Aktionsplan für die nächsten 3 Monate zu entwerfen.  Erstellen Sie dazu eine Liste von  kleinen Aufmerksamkeiten, mit denen Sie Ihren Partner in regelmäßigen Abständen überraschen können z.B. dem Partner eine Blume nach Feierabend mitbringen, den Partner mit seinem Lieblingsessen überraschen etc..\r\nNun nehmen Sie Ihren Kalender zur Hand und planen Sie für jede Woche der nächsten Monate mindestens eine kleine Aufmerksamkeit ein!",
+      "props": {},
+      "next": [
+        {
+          "to": "n040"
+        }
+      ]
+    },
+    "n040": {
+      "id": "n040",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Falls Sie während der Umsetzung Ihres Aktionsplans das Gefühl haben, dass der Andere nicht so mitzieht, wie Sie es sich wünschen, überprüfen Sie bitte die folgenden Punkte:\r\n\r\n1. Habe ich die Anregungen aus diesem Coaching umgesetzt?\r\n2. Habe ich die richtigen Aktivitäten ausgewählt (solche, die dem Partner Freude bereiten)?\r\n3. Habe ich Abwechslung in meinen Aktionsplan gebracht (z.B. nicht jede Woche die gleiche Aufmerksamkeit parat gehabt)?  \r\n\r\nAußerdem raten wir Ihnen in diesem Fall das Coaching 'Balance' (erneut) zu druchlaufen. Hier lernen Sie, wie Sie den Anderen dazu bringen, gemeinsam mit Ihnen an der Stärkung der Beziehung zu arbeiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n041"
+        }
+      ]
+    },
+    "n041": {
+      "id": "n041",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Das war unser Coaching 'Wie bleiben wir langfristig glücklich?' Wenn Sie Fragen oder Anregungen zu diesem Coaching haben, wenden Sie sich bitte per E-Mail oder Telefon an unsere Experten. Wir wünschen Ihnen viel Erfolg und Freude bei der Umsetzung unserer Anregungen.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

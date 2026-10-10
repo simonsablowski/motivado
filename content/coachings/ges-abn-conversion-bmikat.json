@@ -1,0 +1,203 @@
+{
+  "key": "ges-abn-conversion-bmikat",
+  "domain": "ges",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "DieterCategory",
+      "key": "DIC_IntroBMICategory",
+      "title": "Bestimmen Sie Ihre Abnehmchancen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "DIC_IntroBMICategory_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002",
+          "if": "DIC_IntroBMICategory is 'A1'"
+        },
+        {
+          "to": "n003",
+          "if": "DIC_IntroBMICategory is 'A2'"
+        },
+        {
+          "to": "n004",
+          "if": "DIC_IntroBMICategory is 'B1'"
+        },
+        {
+          "to": "n005",
+          "if": "DIC_IntroBMICategory is 'B2'"
+        },
+        {
+          "to": "n006",
+          "if": "DIC_IntroBMICategory is 'C1'"
+        },
+        {
+          "to": "n007",
+          "if": "DIC_IntroBMICategory is 'C2'"
+        },
+        {
+          "to": "n008",
+          "if": "DIC_IntroBMICategory is 'D1'"
+        },
+        {
+          "to": "n009",
+          "if": "DIC_IntroBMICategory is 'D2'"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "ges-abn-paket",
+        "video": {
+          "url": "DIC_IntroBMICategoryA1_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "ges-abn-paket",
+        "video": {
+          "url": "DIC_IntroBMICategoryA2_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "ges-abn-paket",
+        "video": {
+          "url": "DIC_IntroBMICategoryB1_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "ges-abn-paket",
+        "video": {
+          "url": "DIC_IntroBMICategoryB2_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "ges-abn-paket",
+        "video": {
+          "url": "DIC_IntroBMICategoryC1_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "ges-abn-paket",
+        "video": {
+          "url": "DIC_IntroBMICategoryC2_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "ges-abn-paket",
+        "video": {
+          "url": "DIC_IntroBMICategoryD1_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Buy",
+      "key": null,
+      "title": "Buy",
+      "text": "",
+      "props": {
+        "key": "ges-abn-paket",
+        "video": {
+          "url": "DIC_IntroBMICategoryD2_V2.flv"
+        }
+      },
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

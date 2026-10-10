@@ -1,0 +1,298 @@
+{
+  "key": "bez-kennenlernen-diaet",
+  "domain": "bez",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Video",
+      "key": null,
+      "title": "Teaser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V1.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Video",
+      "key": null,
+      "title": "Intro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V10.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "Was erhoffen Sie sich eventuell von einer besseren Ernährung? ",
+      "text": "Bzw. was, denken Sie, bringt es Ihnen?",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V11.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Video",
+      "key": null,
+      "title": "Auflösung der Gründe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V12.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Video",
+      "key": null,
+      "title": "Basics",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V13.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Video",
+      "key": null,
+      "title": "Wasser",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V14.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Video",
+      "key": null,
+      "title": "Regenerationsphasen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V15.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Video",
+      "key": null,
+      "title": "ersetzen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V16.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Video",
+      "key": null,
+      "title": "ersetzen von Süßigkeiten",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V17.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Video",
+      "key": null,
+      "title": "Darm reinigen",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V19.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Video",
+      "key": null,
+      "title": "Vollkorn",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V20.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Video",
+      "key": null,
+      "title": "Alkohol",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V21.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "Welche Dinge von den hier eben erwähnten Punkten, würden Sie gern umsetzen oder wenigstens für eine Phase von 14 Tagen ausprobieren?",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V22.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Video",
+      "key": null,
+      "title": "Erinnerung an Gründe",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V23.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Schreiben Sie eine Woche lang auf, was genau Sie essen.\n\n",
+      "text": "Was genau, wann, wieviel, bei welcher Gelegenheit.\n\nNach einer Woche schauen Sie nach: War genug Wasser dabei? Waren genug Fasern dabei? Waren Pausen dazwischen?",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V24.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Video",
+      "key": null,
+      "title": "Outro",
+      "text": "",
+      "props": {
+        "video": {
+          "url": "REL_Ernaehrung_V25.flv"
+        }
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "In diesem Coach, also dem Beziehungs-Coach, haben wir nur ein paar Punkte, die wir in unserer Erfahrung als Coaches als wichtig und hilfreich erlebt haben, zusammengestellt. Diejenigen, die ausführlichere Coachings zu Diät und Fitness benötigen, möchten wir an dieser Stelle gerne an unseren Diät-Coach verweisen, der viele nützliche Inhalte zum Thema Ernährung für Sie bereithält.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

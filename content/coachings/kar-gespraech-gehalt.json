@@ -1,0 +1,471 @@
+{
+  "key": "kar-gespraech-gehalt",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching \"Vertrags- und Gehaltsverhandlungen\"\r\n\r\nNachdem Sie sich präsentiert haben, stellt sich das Unternehmen kurz vor: um welche Aufgaben geht es zukünftig, wie sehen die Arbeitskonditionen aus. Fragen Sie auch hier jederzeit interessiert nach und machen Sie sich Notizen. Sie demonstrieren so einmal mehr Ihr Interesse für die Stelle! ",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Ihre Fragen als Bewerber\n\nSpätestens hier kommen Sie mit Ihren Fragen zum Zug. \n\nGute Fragen sind wie ein guter Händedruck! Beweisen Sie somit durch Ihre Fragen, dass Sie sich tatsächlich Gedanken über die Stelle gemacht haben. Neben den Fragen, die wir für Sie vorbereitet haben, stellen Sie auch fachliche Fragen und beweisen Sie so Tiefgang.\n\nStehlen Sie dem Personaler nicht seine kostbare Zeit, indem Sie Fragen stellen, die bereits im Gespräch geklärt worden sind oder die Sie selbst im Rahmen Ihrer Recherche hätten beantworten können. Sie wirken sonst unaufmerksam und unvorbereitet. \n\nMit welchen Fragen Sie neben fachlichen Fragen im Gespräch punkten, zeigt Ihnen unser Arbeitsblatt \"Fragen des Bewerbers\". \n\nUm zu wissen, wie Sie schwierigen und unerlaubten Fragen im Vorstellungsgespräch souverän begegnen, besuchen Sie unser Coaching \"Mit Einwänden und schwierigen Fragen umgehen\".",
+      "props": {
+        "documents": [
+          {
+            "name": "Fragen des Bewerber",
+            "file": "Fragen_Bewerber.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Gehalts- und Vertragsverhandlung ist natürlich auch Bestandteil des Bewerbungsgesprächs. Um beides für Sie erfolgreich zu gestalten, werden wir uns gemeinsam anschauen, welche Argumente Sie ins Feld führen können, um das von Ihnen angestrebte Ziel zu erreichen und wie Sie sich auf beides optimal vorbereiten.",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Starten wir mit der Vorbereitung für Ihre Gehaltsverhandlung.\r\n\r\n1. Informieren Sie sich vor Ihrem Gespräch über aktuelle Gehälter! Hiervor drücken sich viele und lassen die Gehaltsfrage einfach auf sich zukommen. Riskieren Sie hier nicht, mit weitaus weniger aus der Verhandlung zu gehen, als eigentlich drin gewesen wäre, nur, weil Sie sich ein paar Stunden Zeit zur Recherche genommen haben! Ein paar Tausender mehr auf dem Gehaltscheck sollten ruhig etwas Aufwand wert sein, oder?\r\n\r\nAußerdem: nur der informierte Bewerber überzeugt stärker! Sie argumentieren viel selbstbewusster, wenn Sie genau wissen, was Ihre Qualifikationen Wert sind! So schnell kann Sie dann niemand an der Nase herumführen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie sich auf die Suche nach aktuellen Gehaltsstatistiken machen, berücksichtigen Sie Ihre Berufserfahrung, mögliche Personal- und Umsatzverantwortung, die Branche, Unternehmensgröße, die Region und die allgemeine wirtschaftliche Lage. \r\n\r\nNutzen Sie für einen aktuellen Gehaltsüberblick die folgenden Quellen:\r\n\r\nWerfen Sie einen Blick auf einer der zahlreichen Gehaltstabellen im Internet (beispielsweise www.gehalts-check.de, www.karriere.de oder www.gehaltsvergleich.com). Hier finden Sie einen Überblick über aktuelle Gehälter, aufgelistet nach Region und Branche. Weitere Quellen finden Sie auf unserem Arbeitsblatt, welches hier für Sie zum Download bereitsteht.\r\nFragen Sie Freunde, Verwandte oder Bekannte, die aus eigener Erfahrung berichten können.\r\nEin gutes Wissen über die jetzige Gehaltslage für die verschiedensten Berufe können Sie auch bei Personalvermittlungsfirmen erfragen. Dadurch, dass diese von den Unternehmen den Auftrag erhalten, geeignetes Personal zu finden, haben Sie meist umfangreiche Datenbanken zu Gehaltsübersichten. Hier genügt ein kurzer Anruf, um in Erfahrung zu bringen, was Ihre Qualifikationen derzeit wert sind. Eine Liste mit einigen Personalvermittlungsfirmen haben wir Ihnen im Anhang zusammengestellt. Sie können Sie einfach runterladen und Ihre Recherche beginnen!\r\nAuch Wirtschaftszeitungen (z.Bsp. Capital, Wirtschaftswoche, Handelsblatt etc.) drucken regelmäßig ab, was in den verschiedenen Branchen und Positionen verdient wird.\r\nZum Schluss lohnt auch ein Blick auf die Internetseiten von Gewerkschaften, der Industrie- und Handelskammer sowie Berufsverbänden. Auch hier werden Sie fündig bei der Suche nach aktuellen Gehaltsstatistiken.\r\n\r\nSchauen wir gleich mal, was Sie im Vorstellungsgespräch verlangen können! Öffnen Sie eine der beiden angegebenen Gehaltstabellen im Internet und geben Sie Ihre beruflich angestrebte Position bzw. die Bezeichnung der Position, auf die Sie sich beworben haben, ein. Achten Sie darauf, dass die angegebenen Zahlen auf aktuellen Vergleichsdaten von 2009/2010 beruhen. Wie Sie sehen, wird Ihnen das Jahresbruttogehalt angegeben - um dieses wird auch in der Gehaltsverhandlung verhandelt.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Stellen Sie für sich auch eine Übersicht über Ihre derzeitigen bzw. letzten Neben- und Sonderleistungen zusammen, die Sie in Ihrer aktuellen/ letzten Firma erhalten haben. Nur so können Sie wirklich einen genauen Vergleich anstellen und sich entsprechend verbessern.",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Für Ihre Gehaltsforderung kann man auch etwas pauschaler sagen: wenn Sie den Job wechseln wollen, sollten Sie 10 bis 20% mehr Gehalt von Ihrem neuen Arbeitgeber verlangen. \r\nBei einem Gehaltswunsch von weniger als 10% erzeugen Sie als Kandidat Misstrauen. Der Arbeitgeber wird sich wahrscheinlich fragen, was Sie als Bewerber motiviert, für nicht mehr als 10% mehr Gehalt den Job zu wechseln. Wer sich als Bewerber eindeutig unter Wert anbietet, wird nicht geschätzt. \r\n\r\nGrundsätzlich gilt also: Trauen Sie sich ruhig, das Gehalt zu fordern, das Sie haben möchten! \r\nWenn Sie hierzu noch Fragen haben, wenden Sie sich an unsere Experten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die 20% müssen jedoch nicht die obere Grenze für Ihre Gehaltswünsche sein. Es wurde noch keiner abgelehnt, der anfangs zuviel gefordert hat! Vielleicht führt der Arbeitgeber bei einer Absage Ihre hohe Gehaltsforderung als Grund an. Hier können Sie davon ausgehen, dass das nur ein vorgeschobener Vorwand ist und es ganz andere Gründe für die Absage gab.\r\nLassen Sie es also ruhig drauf ankommen und steigen Sie hoch ein! Vielleicht wird Ihr Gegenüber im Gespräch schmunzeln oder erschrocken gucken. Wenn er partout nicht auf Ihre Forderung eingeht und sie für überzogen hält, können Sie immer noch sagen: \"Einen Versuch ist es wert gewesen.\" Sie können auch anbringen, dass ein Freund von Ihnen in einem Konkurrenzunternehmen soviel bekommen hat.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "Grundsätzlich gilt: wenn der Arbeitgeber ernsthaft an Ihnen interessiert ist, wird er versuchen, das Gehalt zugunsten des Bewerbers auszuhandeln und ihm entgegenzukommen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Machen Sie sich jedoch vorher auf jeden Fall klar: eine Forderung von mehr als 20% provoziert Überlegungen seitens des Arbeitgebers, ob Sie als Bewerber das Geld auch wirklich wert sind. Häufig kommen dann Einwände, wie mangelnde Berufserfahrung, Alter, Einarbeitungszeit etc. Bereiten Sie sich darauf unbedingt vor, wenn Sie gleich zwei oder mehr Gehaltsstufen auf einmal nehmen wollen. In unserer Coaching-Unit \"Mit Einwänden und schwierigen Fragen umgehen\" lernen Sie, mit welchen sprachlichen Mitteln Sie Einwände entkräften können.\r\nOft hat zudem nicht nur der Arbeitgeber Zweifel, ob das Gehalt gerechtfertigt ist. Auch bei Bewerbern findet man häufig die sogenannte \"Schere im Kopf\", wenn das zukünftige Gehalt einen ordentlichen Gehaltssprung bedeutet, obwohl die beschriebene Stelle durchaus ihren Qualifikationen entspricht.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Da Frauen Ihre Arbeitskraft häufiger als geringwertiger als die von Männern ansehen, fordern Sie häufig dementsprechend weniger Gehalt. Dabei ist Ihre Familienarbeit von unschätzbarem Wert für die Gesellschaft! Zudem gibt es keine Beweise für die Theorie einiger Arbeitgeber, dass Frauen mit Kindern in ihrem Beruf weniger leistungsfähig sind als Frauen ohne familiäre Verpflichtungen. Und letztens: bei etwas mehr Gehalt können Sie sich für zu Hause professionelle Unterstützung leisten.\r\nFordern Sie also auf jeden Fall mindestens 20% mehr Gehalt, wenn Sie in die Verhandlungen einsteigen und lassen Sie sich nicht mit weniger vertrösten!",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Überlegen Sie sich also eine Gehaltsspanne, die Sie angeben wollen, wenn Sie nach Ihren Gehaltswünschen gefragt werden. Sie haben dazu recherchiert, was man in Ihrer Branche üblicherweise zahlt, haben eine Gesamtübersicht über Ihre finanziellen Vergütungen plus allen Extras aufgestellt und wissen jetzt, dass es nicht weniger als 10 und nicht viel mehr als 20% sein sollte.",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": " Wie sieht Ihre Gehaltsspanne demzufolge aus? Was ist Ihr minimal gefordertes Gehalt, welches das Maximale? Schreiben Sie's auf!",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Sammeln Sie starke Argumente\r\n\r\nWenn Sie ein (weitaus) höheres Gehalt verlangen, möchte der Arbeitgeber von Ihnen wissen, warum er Ihnen soviel zahlen sollte. Denn er geht mit der Frage in das Gespräch: \"Wie viel wird der mich wohl kosten?\"\r\n\r\nSammeln Sie somit überzeugende Argumente, um Ihre Qualitäten möglichst \"höchstbietend\" zu verkaufen. Wählen Sie dafür Beispiele für Ihre beruflichen Erfolge und Leistungen aus, mit denen Sie den Personalverantwortlichen später davon überzeugen können, dass Ihre Gehaltswünsche angemessen sind.",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "Lassen Sie uns gleich zusammen überlegen: welchen Mehrwert haben Sie für Ihre früheren Arbeitgeber geleistet? Welche Erfolge haben Sie in Ihrem jetzigen oder letzten Job erzielt?",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "List",
+      "key": "kar_gespraech_gehalt_ErfolgeGespraech",
+      "title": "Schreiben Sie jetzt mindestens 6 Erfolge auf, die Sie als Argumente für ihren Wert ins Feld führen können. Nutzen Sie dafür auch Ihre eingangs gesammelten Erfolgsgeschichten!",
+      "text": "",
+      "props": {
+        "items": 6
+      },
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die Vertrags- und Gehaltsverhandlung \r\n\r\nHier gilt: wer nicht versucht, der nicht gewinnt! Wie wir grad eben schon gesagt haben: es wurde noch niemand wegen überzogener Gehaltswünsche abgelehnt! Lassen Sie sich also nicht frühzeitig mit weniger Gehalt als gefordert abspeisen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Apropos frühzeitig: einige Arbeitgeber fragen bereits zu Beginn des Gesprächs, wie Ihre Gehaltswünsche aussehen. Hier sollten Sie sofort drei Antworten parat haben:\r\n\r\nErste Antwort: \"Bevor Sie nicht endgültig entschieden haben, dass Sie mich einstellen wollen und bevor ich nicht endgültig beschlossen habe, dass ich Ihnen bei Ihrer Aufgabe helfen kann, ist es aus meiner Sicht zu früh, über dieses Thema zu reden.\" Diese Antwort funktioniert immer dann gut, wenn der Arbeitgeber ein angenehmer Zeitgenosse ist.\r\n\r\nZweite Antwort: Der Arbeitgeber lässt sich nicht so leicht abwimmeln? Dann probieren Sie es mit: \"Ich möchte mich gern mit Ihnen über dieses Thema unterhalten, aber können Sie mir erst genauer erklären, was diese Position beinhaltet?\" Gerade, wenn Sie innerhalb der ersten paar Minuten zu Ihren Gehaltsvorstellungen gefragt werden, sollten Sie auf diese Reaktion zurückgreifen.\r\n\r\nDritte Antwort: Wenn der Arbeitgeber immer noch nicht lockerlässt, nennen Sie eine Gehaltsspanne. Sagen Sie beispielsweise: \"Ich möchte ein Jahresgehalt zwischen 40000 und 50000 Euro.\" \r\n\r\nVersucht der Arbeitgeber weiterhin, Sie auf eine konkrete Summe festzunageln, wird es wahrscheinlich wohl nicht zu einer Gehalts\"verhandlung\" im Gespräch kommen. Wenn Sie den Job unbedingt wollen, heißt das für Sie, dass Sie nach den Gehaltsvorstellungen des Arbeitgebers fragen und dann eine Entscheidung treffen müssen, ob Sie das Angebot annehmen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn es jedoch, wie in den meisten Fällen, zu einer Verhandlung kommt, gibt es einen guten Tipp: lassen Sie bei der Gehaltsverhandlung dem Arbeitgeber immer den Vortritt. In vielen Verhandlungen war es ein Vorteil, erst ein Angebot des Arbeitgebers zu erhalten, bevor man selbst seine Wünsche äußert. Man kann dann nämlich auf die Offerte reagieren und hat damit häufig die besseren Karten. Besonders erfahrene Personaler wissen das und werden Sie daher fragen: \"Was haben Sie sich denn als Gehalt vorgestellt?\" Sie erhoffen sich, dass Sie als Erstes einen Betrag nennen, weil sie wissen, dass sie dadurch im Vorteil sind.\r\nDaher antworten Sie auf diese Frage: \"Nun, Sie haben diese Position geschaffen, also haben Sie sicher einen Betrag im Kopf und mich würde sehr interessieren, wie hoch er ist.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Hierzu sei gesagt, dass das Gehalt immer verhandelbar ist, wenn der Arbeitgeber nicht von Anfang an den Höchstbetrag nennt, der ihm vorschwebt, sondern die Verhandlung mit einem geringeren Angebot eröffnet. Für Sie ist es jetzt natürlich entscheidend zu wissen, ob die genannte Summe bereits das Höchstgebot darstellt oder ob noch Spielraum für Verhandlung ist. \r\n\r\nWie finden Sie das heraus?\r\nDurch Recherche! Wenn Sie durch gründliches Nachforschen in Zukunft 5.000 Euro mehr im Jahr verdienen, lohnt es sich schon mal, sich dafür ausreichend Zeit zu nehmen, oder nicht? Wir haben Ihnen bereits innerhalb der Vorbereitung auf die Gehaltsverhandlung Tipps gegeben, wie Sie aktuelle Gehälter für Ihre Branche und Region in Erfahrung bringen können.\r\n\r\nHaben Sie dennoch im Hinterkopf, dass Personaler oft eine sehr harte Linie in Ihrer Verhandlung fahren, die sie nur selten überschreiten. Seien Sie daher nicht enttäuscht, wenn Ihrem Gehaltswunsch selbst nach zähen Verhandlungen nicht nachgegeben wird.",
+      "props": {},
+      "next": [
+        {
+          "to": "n021"
+        }
+      ]
+    },
+    "n021": {
+      "id": "n021",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Eine der wichtigsten Fragen in der Gehaltsverhandlung ist: wann sollten ich im Gespräch über mein Gehalt verhandeln? Hier gilt: Diskutieren Sie niemals über Ihr Geld, bevor das Gespräch zum Ende kommt und man Ihnen definitiv zu verstehen gegeben hat, dass man Sie haben will.",
+      "props": {},
+      "next": [
+        {
+          "to": "n022"
+        }
+      ]
+    },
+    "n022": {
+      "id": "n022",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Ganz konkret bedeutet das, dass Sie erst über Ihr Gehalt verhandeln, wenn...\r\n* man Sie von Ihrer besten Seite kennengelernt hat und deutlich geworden ist, wodurch Sie sich von Ihren Mitbewerbern abheben\r\n* Sie das Unternehmen so umfassend wie möglich kennengelernt haben, so dass Sie wissen, wann es unnachgiebig und wann flexibel ist\r\n* Sie ganz genau wissen, was zu den Aufgaben gehört\r\n* Sie beschlossen haben, dass Sie den Job gerne haben wollen würden\r\n* man Ihnen klar signalisiert hat: \"Wir wollen Sie haben.\"\r\n* man Ihnen zu verstehen gegeben hat: \"Wir müssen Sie haben.\"\r\n\r\nDer Vorteil: wenn Sie mit Ihrer Gehaltsverhandlung bis zum Schluss warten, springt für Sie möglicherweise ein noch höheres Gehalt raus, als zu Beginn des Vorstellungsgesprächs.",
+      "props": {},
+      "next": [
+        {
+          "to": "n023"
+        }
+      ]
+    },
+    "n023": {
+      "id": "n023",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Sollte das Unternehmen nicht auf Ihre Gehaltsvorstellungen eingehen, haben Sie folgende Möglichkeiten: \r\n\r\nErstens: verlagern Sie den Schwerpunkt auf andere Bestandteile des Vergütungspakets. Neben dem eigentlichen Gehalt gibt es jedoch noch eine Reihe weiterer Punkte, die Gegenstand Ihrer Vertragsverhandlung sein können, beispielsweise:\r\n\r\n* die Stellenbeschreibung (zumindest Teile davon)\r\n* der Positionstitel\r\n* der Vertragsbeginn\r\n* die Dauer der Einarbeitungszeit\r\n* verkürzte Probezeit\r\n* Neuverhandlung des Vergütungspakets nach Ablauf der Probezeit\r\n* der Umfang der Entscheidungskompetenz\r\n* der Umfang des Budgets und Ressourcen\r\n* die Anzahl der Urlaubstage\r\n* evt. anfallende Umzugskosten\r\n* Zusatzversicherungen\r\n* Fort- und Weiterbildungen\r\n* Aktienoptionen\r\n* erfolgsabhängige Vergütung\r\n\r\nEs ist zwar unwahrscheinlich, dass Sie all diese Punkte mit Ihrem zukünftigen Arbeitgeber auszuhandeln haben. Sie sollten die zusätzlichen Zusatzleistungen in jedem Fall diskutieren. Dabei gilt: je höher die Position angesiedelt ist und je dringender sie besetzt werden soll, desto größer ist Ihr Verhandlungsspielraum. ",
+      "props": {},
+      "next": [
+        {
+          "to": "n024"
+        }
+      ]
+    },
+    "n024": {
+      "id": "n024",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir haben für Sie eine umfangreiche Liste mit möglichen Bestandteilen Ihrer Gehalts- und Vertragsverhandlungen zusammengestellt. Versuchen Sie jedoch nicht, alle Bestandteile mit dem zukünftigen Arbeitgeber zu verhandeln. Erfragen Sie vorab das im Unternehmen übliche Vergütungspaket.",
+      "props": {},
+      "next": [
+        {
+          "to": "n025"
+        }
+      ]
+    },
+    "n025": {
+      "id": "n025",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Die zweite Möglichkeit ist: wenn Sie bei der Verhandlung des Einstiegsgehalts keinen Erfolg hatten, kündigen Sie jetzt schon an, dass Sie nach Ablauf der Probezeit nachverhandeln wollen. Tragen Sie sich den Termin gleich danach in Ihren Kalender ein. Nur Mitarbeiter, die nachfragen und Ihre Erfolge später auch belegen können, haben die besten Chancen, einen Gehaltssprung zu machen! \r\n\r\nFragen Sie zudem unsere Experten, wenn Sie Hilfe bei Ihrer Gehaltsverhandlung benötigen!",
+      "props": {},
+      "next": [
+        {
+          "to": "n026"
+        }
+      ]
+    },
+    "n026": {
+      "id": "n026",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Was kann noch in der Verhandlung passieren?\r\n\r\nEinige Arbeitgeber bieten Ihnen an, erst einmal mit einem niedrigeren Gehalt einsteigen und nach Ablauf der Probezeit über eine Gehaltssteigerung zu verhandeln. Lassen Sie sich nicht darauf ein! Argumentieren Sie stattdessen so: \"Die Probezeit dient ja gerade dazu, sich gegenseitig kennen zu lernen, abzuschätzen, ob man weiterhin miteinander arbeiten möchte und auf dieser Basis noch einmal über Gehalt und etwaige Konditionen neu zu verhandeln. Ich möchte daher noch einmal bekräftigen, dass ich Ihr finanzielles Angebot für nicht angemessen halte in Anbetracht meiner Qualifikationen und Fähigkeiten.\"\r\nWenn der Arbeitgeber hier weiter auf stur schaltet, sollten Sie dennoch unbedingt Nägel mit Köpfen machen und jetzt schon schriftlich einen Termin für die Nachverhandlung festlegen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n027"
+        }
+      ]
+    },
+    "n027": {
+      "id": "n027",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Manche Arbeitgeber fragen Sie im Gespräch auch, was Sie derzeit verdienen, um eine Vorstellung davon zu bekommen, mit was Sie ggf. zufrieden sein könnten. Diese Frage ist im Prinzip nicht zulässig. Versuchen Sie daher die Frage anfangs galant zu umschiffen. Beispielsweise können Sie sagen: \"Ich habe in meinem letzten Job ähnlich viel verdient.\" \r\nWenn der Arbeitgeber nicht locker lässt, können Sie hier Ihr derzeitiges oder letztes Gehalt großzügig aufrunden und auf weitere Vergünstigungen und Extras hinweisen. Eine weitere Antwortmöglichkeit wäre auch: \"Ich erwarte im Jahr mindestens 90.000€.\"",
+      "props": {},
+      "next": [
+        {
+          "to": "n028"
+        }
+      ]
+    },
+    "n028": {
+      "id": "n028",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wenn Sie ein Angebot bekommen... \r\nUnabhängig davon, wie gut es ist - nehmen Sie es nicht sofort an. Bitten Sie um Bedenkzeit, beispielsweise: \"Ich freue mich über Ihr Angebot. Die Position und Ihr Unternehmen entsprechen genau meinen Vorstellungen. Ich möchte gerne eine Nacht über Ihr Angebot schlafen. Kann ich Sie am Montag anrufen?\"\r\nVor allem, wenn Sie mit dem Ihnen angebotenen Gehalt nicht zufrieden sind, bitten Sie sich mit dieser Begründung einige Tage bis zu einer Woche Bedenkzeit aus! Die Entscheidung etwas rauszuzögern kann im Zweifelsfall sogar dazu führen, dass man Ihnen finanziell noch etwas entgegenkommt.\r\n\r\nHaben Sie mehrere Bewerbungen laufen und vielleicht noch weitere Angebote, packen Sie auf jeden Fall ein paar Tage Zeit zum Nachdenken mehr drauf. Erwartet man beispielsweise Ihre Antwort am Donnerstag, können Sie ruhig sagen, dass Sie noch weitere Bewerbungen offen bzw. konkrete Angebote haben und sich daher am Dienstag oder Mittwoch meldet. Sie erhöhen so den Druck auf den potentiellen Arbeitgeber und machen sich noch spannender als Bewerber!\r\n\r\nGrundsätzlich ist es bei mehreren Angebote wichtig, allen beteiligten Unternehmen den aktuellen Status zu kommunizieren. Falls Sie dabei mit dem Angebot eines Arbeitgebers nicht zufrieden sind, sagen Sie klar, dass Sie sich noch woanders beworben haben.",
+      "props": {},
+      "next": [
+        {
+          "to": "n029"
+        }
+      ]
+    },
+    "n029": {
+      "id": "n029",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Den Vertrag unter Dach und Fach bekommen\r\n\r\nEin gutes Unternehmen wird Ihnen eine schriftliche Bestätigung der ausgehandelten Details schicken (Hier Achtung: wenn das Unternehmen dies nicht tut, können Sie sich darauf einstellen, auch in Zukunft um solche formalen Dinge selbst kümmern zu müssen!). \r\n\r\nKündigen Sie jedoch nicht, bevor Sie nicht eine schriftliche Zusicherung oder noch besser: Ihre Unterschrift unter den neuen Arbeitsvertrag gesetzt haben! Sie sollten zudem nur Ihren Familienangehörigen und engsten Freunden von Ihrer neuen Position erzählen, solange Sie noch nichts schriftlich haben!",
+      "props": {},
+      "next": [
+        {
+          "to": "n030"
+        }
+      ]
+    },
+    "n030": {
+      "id": "n030",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wann das Gespräch vorbei ist, entscheidet der Arbeitgeber. \r\nBetonen Sie hier noch einmal, dass Sie sich über die Einladung und das persönliche Kennenlernen gefreut haben. Dann fragen Sie wann Sie wieder vom Arbeitgeber hören werden und erwähnen, dass Sie derzeit mehrere Bewerbungen laufen haben. Wenn der Gesprächspartner hier ausweichend reagiert, haken Sie noch einmal nach und sagen Sie, dass Sie für Ihre persönliche Planung gerne einen konkreten Tag wüssten, an dem Sie mit einer Nachricht rechnen können. Geben Sie hier möglichst einen Tag an, der nicht weiter als 4-5 Tage in der Zukunft liegt. Natürlich bleiben Sie dabei absolut höflich. So entsteht bei Ihrem Gegenüber der Eindruck, dass Sie tatsächlich noch andere Angebote haben und er sich daher schnell entscheiden sollte.\r\n\r\nVerzichten Sie dagegen darauf zu fragen, welchen Eindruck Sie hinterlassen haben. Diese Frage lässt Sie eher unsicher wirken.\r\n\r\nSollte Ihnen sofort ein Angebot unterbreitet wird, freuen Sie sich, bitten Sie aber um einige Tage Bedenkzeit.",
+      "props": {},
+      "next": [
+        {
+          "to": "n031"
+        }
+      ]
+    },
+    "n031": {
+      "id": "n031",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "Wir haben hier für Sie noch einmal die häufigsten Fragen im Bewerbungsgespräch zusammengestellt. Laden Sie sich unser Arbeitsblatt gleich runter! \r\n\r\nFassen wir zum Schluss auch noch einmal zusammen, was  Arbeitgeber mögen und was nicht. Klicken Sie dazu einfach auf \"weiter\"!",
+      "props": {
+        "documents": [
+          {
+            "name": "Fragen Bewerbungsgespräch",
+            "file": "Fragen_Bewerbungsgespraech.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n032"
+        }
+      ]
+    },
+    "n032": {
+      "id": "n032",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Zusammengefasst für Sie:\r\n\r\nWas mögen Arbeitgeber - die größten Do's:\r\n1. Sie lächeln!\r\n2. Sie schauen Ihrem Gegenüber immer wieder in die Augen.\r\n3. Sie sprechen laut und deutlich, so dass der Hinterste im Raum Sie noch verstehen kann.\r\n4. Sie nehmen eine ähnliche Körperhaltung wie Ihr Gegenüber ein. Diese Form der Anpassung führt zum Aufbau von Sympathie.\r\n7. Sie bedanken sich freundlich nach dem Gespräch.\r\n\r\nWas mögen Arbeitgeber nicht - die größten Dont's:\r\n1. Sie lümmeln sich auf Ihrem Stuhl.\r\n2. Sie halten die Arme permanent verschränkt.\r\n3. Sie spielen nervös mit Haaren oder Schmuck und lassen die Finger knacken.\r\n4. Sie sprechen so leise, dass man Sie kaum versteht\r\n5. Sie fallen Ihrem Gegenüber ständig ins Wort.\r\n6. Sie spielen Ihre Leistungen und Fähigkeiten herunter.\r\n7. Sie lästern über frühere Arbeitgeber. \r\n8. Sie sprechen beim Smalltalk über Religion, Familie oder Politik.",
+      "props": {},
+      "next": [
+        {
+          "to": "n033"
+        }
+      ]
+    },
+    "n033": {
+      "id": "n033",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Die Vertrags- und Gehaltsverhandlung\". Im nächsten Coaching lernen Sie, wie Sie mit schwierigen Fragen und Einwänden im Gespräch umgehen können.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n034"
+        }
+      ]
+    },
+    "n034": {
+      "id": "n034",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Vertrags- und Gehaltsverhandlungen\"",
+      "text": "Um souverän rüberzukommen, ist es wichtig, ein paar Mal für sich das ausgesprochen zu haben, was Sie in der Verhandlung fordern möchten. Schnappen Sie sich also einen Freund und üben Sie Ihre Forderungen selbstbewusst auszusprechen. Alternativ können Sie auch alleine vorm Spiegel üben.\nSagen Sie also z.B.: \"Meine Gehaltsvorstellungen liegen zwischen 40.000 und 50.000 Euro brutto im Jahr.\"\nDieser Satz muss flüssig klingen, deshalb sagen Sie ihn mindestens 15 Mal! Je öfter Sie üben, desto selbstbewusster werden Sie im Gespräch wirken und je selbstbewusster Sie wirken, desto größer ist Ihre Chance Ihr Wunschgehalt zu bekommen. \nViel Erfolg beim Üben!",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}

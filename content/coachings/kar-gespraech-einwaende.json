@@ -1,0 +1,280 @@
+{
+  "key": "kar-gespraech-einwaende",
+  "domain": "kar",
+  "title": "",
+  "description": "",
+  "start": [
+    {
+      "to": "n001"
+    }
+  ],
+  "nodes": {
+    "n001": {
+      "id": "n001",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Willkommen im Coaching „Mit schwierigen Fragen und Einwänden umgehen“ \r\n\r\nManche Personalverantwortliche wollen Sie im Vorstellungsgespräch ein wenig auf den Prüfstand stellen. Sie stellen knifflige bis hin zu unerlaubten Fragen und als Bewerber ist man häufig überrascht, da man damit nicht gerechnet hat. \r\n\r\nWir wollen Sie in diesem Coaching bestmöglich auf solche „Schrecksekunden“ vorbereiten. Dazu schauen wir uns provozierende Fragen des Arbeitgebers an und wie Sie am besten damit umgehen.\r\n\r\nAuch unerlaubte Fragen werden häufiger im Bewerbungsgespräch gestellt. Lassen Sie sich davon nicht ins Boxhorn jagen. Wie, das zeigen wir Ihnen ebenfalls. \r\n\r\nLos geht‘s!",
+      "props": {},
+      "next": [
+        {
+          "to": "n002"
+        }
+      ]
+    },
+    "n002": {
+      "id": "n002",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Provozierende Fragen des Arbeitgebers\r\n\r\nManche Fragen sollen Sie bewusst aus der Reserve locken, um zu sehen, wie Sie darauf reagieren.\r\n\r\n\"Wenn ich mir Sie so ansehe… Glauben Sie wirklich, dass Sie in unsere Firma passen?\"\r\nWas sagen Sie nun? Bei solchen Befragungstechniken geht es immer darum herauszufinden, ob und wie Sie reagieren. Also: werden Sie schnell aufbrausend und fangen Sie an, sich zu verteidigen oder gar andere zu beschuldigen? Oder bewahren Sie Ruhe und antworten Sie in gelassenem Tonfall? \r\n\r\nWie reagieren Sie am besten, wenn Sie mit solchen Fragen konfrontiert werden?\r\n\r\nErfahren Sie mehr dazu im nächsten Schritt!",
+      "props": {},
+      "next": [
+        {
+          "to": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "id": "n003",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "1.Vorbereitung ist alles!\r\n\r\nBereiten Sie sich auf all die Fragen vor, die wir Ihnen in diesem Coaching zeigen und auf solche, die aus Ihrem Lebenslauf resultieren können. Machen Sie sich eine Liste von für Sie unangenehmen oder provozierenden Fragen. Welcher Punkt in Ihrem Lebenslauf könnte den Personaler zu einer provokanten Frage bringen?",
+      "props": {},
+      "next": [
+        {
+          "to": "n004"
+        }
+      ]
+    },
+    "n004": {
+      "id": "n004",
+      "type": "Text",
+      "key": null,
+      "title": "Denken Sie kurz darüber nach und notieren Sie drei Fragen, die Ihnen spontan einfallen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n005"
+        }
+      ]
+    },
+    "n005": {
+      "id": "n005",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Überlegen Sie sich jetzt, was Sie auf die Fragen antworten werden. \r\n\r\nWenn Sie beispielsweise gefragt werden: \"Was spricht gegen Sie als Bewerber für diesen Arbeitsplatz?\", sollten Sie Ihre Stärken nennen, auch wenn Sie dies vielleicht schon im Gespräch getan haben. Auch wenn Ihr Gesprächspartner darauf beharren sollte, Sie seien trotzdem nicht der richtige Kandidat oder eine Frage sei noch nicht ausreichend genug beantwortet, behalten Sie die Nerven und antworten Sie wie zuvor.",
+      "props": {},
+      "next": [
+        {
+          "to": "n006"
+        }
+      ]
+    },
+    "n006": {
+      "id": "n006",
+      "type": "Text",
+      "key": null,
+      "title": "Schreiben Sie Ihre Antworten auf und rufen Sie unsere Experten an, wenn Sie nicht sicher sind, wie Sie am besten darauf reagieren sollen.",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n007"
+        }
+      ]
+    },
+    "n007": {
+      "id": "n007",
+      "type": "DocumentDownload",
+      "key": null,
+      "title": "",
+      "text": "2. Nachfragen\r\n\r\nFragen Sie zurück, ob Sie die Frage richtig verstanden haben. Möglicherweise will man nur etwas ganz Bestimmtes herausbekommen: Wie reagieren Sie, wenn Sie persönlich angegriffen, kritisiert oder hinterfragt werden?\r\n\r\nIm Arbeitsblatt haben wir Ihnen noch weitere provokante Fragen und mögliche Antworten für Sie zusammengestellt. Sie können diese unten für sich herunterladen. \r\r\n\nSo sind Sie ideal vorbereitet, falls Sie eine davon in Ihrem Gespräch erwischen sollten.",
+      "props": {
+        "documents": [
+          {
+            "name": "Fragen Bewerbungsgespräch",
+            "file": "Fragen_Bewerbungsgespraech.pdf"
+          }
+        ]
+      },
+      "next": [
+        {
+          "to": "n008"
+        }
+      ]
+    },
+    "n008": {
+      "id": "n008",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Unerlaubte Fragen\r\n\r\nEinige Personalverantowrtliche stellen selbst Fragen, die ihnen per Gesetz untersagt sind. Doch selbst wenn der Arbeitgeber nicht alles fragen darf, halten sich in der Realität nur die Wenigsten an diese Vorgabe. Oft genug werden Bewerber in Vorstellungsgesprächen durch allzu private Fragen verunsichert und geraten dadurch in Gewissenskonflikte. \r\n\r\nWie gehen Sie damit um, wenn Sie im Vorstellungsgespräch beispielsweise nach Ihren Familienplänen oder Ihrer Religionszugehörigkeit gefragt werden?\r\n\r\nHier haben Sie vom Gesetz her uneingeschränktes Recht zur Lüge! Was viele nämlich nicht wissen: eine Lüge hat hier keine negativen Konsequenzen für ihren Arbeitsvertrag. Also gilt hier ausnahmsweise das Motto: \"Lügen erlaubt\". Würden Sie dagegen die Antwort nur verweigern, wäre dadurch nicht viel gewonnen: der Arbeitgeber würde sich seinen Teil dann wahrscheinlich denken und Sie vielleicht aus dem Bewerbungsverfahren werfen.\r\n\r\nSie sollten sich jedoch auch vorher mit den Fragen vertraut machen, die nicht zulässig sind.\r\n\r\nUnd zu guter Letzt ist es ratsam, sich von vornherein Antworten auf unerlaubte Fragen zu überlegen - kleine Notlügen eingeschlossen. Nur so können Sie sicher sein, dass Sie in der entscheidenden Situation nicht anfangen rumzustammeln.",
+      "props": {},
+      "next": [
+        {
+          "to": "n009"
+        }
+      ]
+    },
+    "n009": {
+      "id": "n009",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Doch was sind das eigentlich für Fragen, die unzulässig sind? Grundsätzlich sind es all jene, die nicht \"arbeitsbezogen\" sind, d. h. die mit dem zu besetzenden Arbeitsplatz in keinem direkten Zusammenhang stehen. \r\n\r\nAlso: \r\n* die Frage nach der Religionszugehörigkeit (Ausnahme: Sie bewerben sich bei der Kirche)\r\n* die Frage nach gewerkschaftlichem Engagement\r\n* die Frage nach politischer Gesinnung\r\n* Fragen nach privaten Plänen wie Hochzeit oder Familienplanung\r\n* Fragen nach früheren Krankheiten (Ausnahme: Sie bewerben sich als Pilot)\r\n* die Frage nach einer Schwangerschaft\r\n* Fragen zu Ihrer Hetero-, Homo- und Transsexualität etc.\r\n* Fragen zu Berufen der Lebenspartner, der Familie und Freunden\r\n* Fragen zu privaten Vermögensverhältnissen und eventuellen Schulden\r\n* Fragen nach Vorstrafen, polizeilichem Führungszeugnis (es sei denn, man bewirbt sich auf staatliche Stellen) und laufenden Ermittlungsverfahren\r\n* die Frage nach früherem Lohn, es sei denn, man will Rückschlüsse auf Verantwortung in früheren Positionen daraus ableiten\r\n\r\nOhne Einwilligung des Bewerbers sind genauso unzulässig:\r\n* Medizinische Untersuchungen\r\n* Psychologische Tests/ Gutachten\r\n* Sicherheitsüberprüfungen\r\n* Genomanalyse ",
+      "props": {},
+      "next": [
+        {
+          "to": "n010"
+        }
+      ]
+    },
+    "n010": {
+      "id": "n010",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Frauen werden zusätzlich häufiger mit so genannten \"Frauenfragen\" konfrontiert. Auch diese sind alles andere als erlaubt! Es gilt somit weiterhin: Lügen ist erlaubt!\r\n\r\nSchauen wir uns einige Fragen etwas genauer an:\r\n\r\nFrage 1: „Wie sind Ihre Kinder versorgt, während Sie Ihrem Job nachgehen?“ oder \"Wie sieht Ihre Familienplanung aus?“\r\nUnser Tipp: Stellen Sie klar, dass Ihre Kinder gut betreut sind. Bei Fragen nach Ihrer Familienplanung dürfen Sie lügen!\r\n\r\nFrage 2: „Sind Ihre Kinder öfters krank?“\r\nWir raten Ihnen: Sagen Sie, dass Ihre Kinder gravierende Krankheiten bereits hinter sich haben und bei Ihnen alles bestens organisiert ist.\r\n\r\nFrage 3: „Wie wollen Sie Beruf und Familie miteinander vereinbaren?“\r\nUnser Tipp: Sie haben alles perfekt organisiert, Ihr Partner unterstützt Sie voll und ganz und die Kinderbetreuung ist gesichert.\r\n\r\nFrage 4: „Was sagt Ihr Partner zu Ihren beruflichen Plänen?“\r\nAntworten Sie, dass Sie alles mit ihm besprochen haben und Sie beide an einem Strang ziehen.",
+      "props": {},
+      "next": [
+        {
+          "to": "n011"
+        }
+      ]
+    },
+    "n011": {
+      "id": "n011",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Neben schwierigen Fragen sind Einwände eine weitere potentielle Hürde im Vorstellungsgespräch, der Bewerber immer wieder begegnen. Wir zeigen Ihnen daher in diesem Coaching typische Einwände, die Sie möglicherweise erwarten und wie Sie souverän und vor allem überzeugend darauf reagieren!\r\n\r\nLos geht‘s!",
+      "props": {},
+      "next": [
+        {
+          "to": "n012"
+        }
+      ]
+    },
+    "n012": {
+      "id": "n012",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Generell gilt: kein  Einwand bleibt unbehandelt! Machen Sie sich bereits vorher Gedanken, welche Einwände (Alter, Erfahrung, Kinderbetreuung, fehlende Qualifikationen etc.) kommen könnten. Bereiten Sie Ihre Antworten darauf vor und vor allem: üben Sie Ihre Reaktion! Wenn Ihre Antwort „sitzt“, strahlen Sie Ruhe und Souveränität aus!\r\n\r\nRufen Sie zudem unsere Experten an! Wir helfen Ihnen, überzeugende Antworten auf mögliche Einwände zu finden!",
+      "props": {},
+      "next": [
+        {
+          "to": "n013"
+        }
+      ]
+    },
+    "n013": {
+      "id": "n013",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Wir stellen Ihnen hier drei klassische Methoden der Einwandbehandlung vor, mit denen Sie die häufigsten Einwände galant umschiffen können:\r\n\r\n1.Die bedingte Zustimmung \r\n\r\nHierbei wird ein Teilaspekt des Einwandes aufgegriffen. Man stimmt diesem erst zu, um im Anschluss den eigenen Standpunkt zu präsentieren.\r\n\r\nEin Beispiel: \r\n\r\nDer Vorgesetzte: \"Sie wirken noch recht unerfahren in diesem Bereich.\" \r\n\r\nDer Bewerber: \"Sie sprechen an, dass ich auf Sie noch unerfahren wirke. Es mag sein, dass mein Alter dies nahelegt. Bedenken Sie doch, dass ich in meiner letzten Tätigkeit als Hauptverantwortlicher für Projekt XYZ eingesetzt wurde. Man hat mir somit die Verantwortung voll und ganz zugetraut trotz meines jungen Alters.\"\r\n\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n014"
+        }
+      ]
+    },
+    "n014": {
+      "id": "n014",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Üben wir direkt den Umgang mit diesem Einwand. Finden Sie eine passende Antwort auf den Einwurf des Arbeitgebers: \r\n\r\nDer Personaler: \"Sie haben durch Ihre Elternzeit zwei Jahre nicht mehr in diesem Beruf gearbeitet. Ich bin nicht sicher, ob Sie es schaffen, sich nach so langer Auszeit wieder ausreichend einzuarbeiten.\"\r\n\r\nWas antworten Sie hier? Schreiben Sie es auf!",
+      "props": {},
+      "next": [
+        {
+          "to": "n015"
+        }
+      ]
+    },
+    "n015": {
+      "id": "n015",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "2. Die Umformulierungsmethode\r\n \r\nHierbei wird der Einwand wird durch eine Umformulierung teilweise entschärft.\r\n\r\nEin Beispiel: \r\n\r\nDer Vorgesetzte: \"Ihr Lebenslauf zeigt, dass Sie bislang noch nicht viel in diesem Bereich tätig waren.\" \r\n\r\nDer Bewerber: \"Wenn ich Sie richtig verstanden habe, kommt es Ihnen auf eine längere Berufserfahrung in dem Bereich an. Ich möchte nochmals betonen, dass ich in meinem letzten Job bereits alle Aufgaben bearbeitet habe, die Teil Ihrer Stellenanzeige sind. Ich habe beispielsweise...\"\r\n\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n016"
+        }
+      ]
+    },
+    "n016": {
+      "id": "n016",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Üben wir den Umgang mit diesem Einwand. Formulieren Sie folgenden Einwand mit der Umformulierungsmethode um: \r\n\r\nDer Vorgesetzte: \"Ich weiß nicht, inwiefern Sie nach Ihrer langen Elternzeit wieder voll in Ihrem Job durchstarten können.\"\r\n\r\nWie lautet Ihre Reaktion?",
+      "props": {},
+      "next": [
+        {
+          "to": "n017"
+        }
+      ]
+    },
+    "n017": {
+      "id": "n017",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "3.Die Vorteil-Nachteil-Methode\r\n\r\nHierbei wird der Einwand scheinbar aufgenommen. Jetzt werden Vorteile und Nachteile abgewogen. Sie können so selbst die Nachteile entkräften und die Vorteile hervorheben.\r\n\r\nEin Beispiel: \r\n\r\nDer Vorgesetzte: \"Sie wirken noch recht unerfahren in diesem Bereich.\"\r\n\r\nDer Bewerber: \"Sie meinen, dass ich dafür noch nicht genügend Erfahrung habe. Es gibt sicher Bewerber mit mehr Erfahrung als ich. Ich bringe dagegen eine frische Perspektive und Herangehenweise mit. In meiner letzten Position habe ich gerade durch meine Nähe zu meiner Ausbildung ein neues System für das interne Prozessmonitoring entwickeln können. Dadurch haben wir 20% Kosten gespart.“ \r\n\r\n",
+      "props": {},
+      "next": [
+        {
+          "to": "n018"
+        }
+      ]
+    },
+    "n018": {
+      "id": "n018",
+      "type": "Text",
+      "key": null,
+      "title": "",
+      "text": "Lassen Sie uns wieder üben: Entkräften Sie folgenden Einwand mit Hilfe der Vorteil-Nachteil-Methode!\r\n\r\nDer Vorgesetzte: \"Ihr Lebenslauf enthält viele Lücken. Ich frage mich, ob Sie nicht auch in diesem Job schnell wieder das Weite suchen, wenn Sie merken, dass es vielleicht nicht das Richtige für Sie ist.\"\r\n\r\nWas ist Ihre Antwort darauf?",
+      "props": {},
+      "next": [
+        {
+          "to": "n019"
+        }
+      ]
+    },
+    "n019": {
+      "id": "n019",
+      "type": "Text",
+      "key": null,
+      "title": "Das war das Coaching \"Mit schwierigen Fragen und Einwänden umgehen\". ",
+      "text": "",
+      "props": {},
+      "next": [
+        {
+          "to": "n020"
+        }
+      ]
+    },
+    "n020": {
+      "id": "n020",
+      "type": "Text",
+      "key": null,
+      "title": "Aufgabe zum Coaching \"Mit schwierigen Fragen und Einwänden umgehen\"",
+      "text": "Bis zu unserem nächsten Coaching überlegen Sie sich bitte, welche Einwände und Fragen in Ihren Vorstellungsgesprächen auftauchen könnten und schreiben Sie auf, wie Sie dann darauf reagieren möchten.",
+      "props": {},
+      "next": [
+        {
+          "to": null
+        }
+      ]
+    }
+  }
+}
