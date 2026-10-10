@@ -16,7 +16,6 @@ export function ProductPage() {
   const group = site.groups.find((g) => product.category.startsWith(g.slug));
   const category = site.categories.find((c) => c.path === product.category);
   const experts = site.experts.filter((e) => product.experts.includes(e.id));
-  const playable = product.coachings.filter((k) => modelOf(site, k)).length;
   const paragraphs = product.description.split('\n').filter((l) => l.trim());
 
   return (
@@ -63,7 +62,6 @@ export function ProductPage() {
           <section className="section" aria-labelledby="pkg-h">
             <div className="section__head">
               <h2 id="pkg-h">Das Paket enthält {product.coachings.length} Coachings</h2>
-              <span className="hint">{playable} davon jetzt verfügbar</span>
             </div>
             <ol className="cards" style={{ listStyle: 'none', margin: 0, padding: 0 }}>
               {product.coachings.map((k, i) => {

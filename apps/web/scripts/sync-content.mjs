@@ -30,7 +30,20 @@ const hiddenModels = new Set([...hidden].map((k) => alias[k] ?? k));
 for (const m of Object.values(meta)) {
   for (const f of ['title', 'subtitle', 'description']) if (isPlaceholder(m[f])) m[f] = '';
 }
-const visibleProducts = products.map((p) => ({ ...p, coachings: p.coachings.filter((k) => !hidden.has(k)) }));
+// Catalogue entries without a model ("In Vorbereitung") will never be completed: hide them as well,
+// and drop packages that would be left empty.
+const unfinished = new Set();
+const visibleProducts = products.map((p) => ({
+  ...p,
+  coachings: p.coachings.filter((k) => {
+    if (hidden.has(k)) return false;
+    if (available.has(alias[k] ?? k)) return true;
+    unfinished.add(k);
+    return false;
+  }),
+}));
+const emptyPackages = new Set(visibleProducts.filter((p) => p.coachings.length === 0).map((p) => p.slug));
+site.products = site.products.filter((slug) => !emptyPackages.has(slug));
 
 // Only the coachings of the launch products are shipped.
 const keys = new Set();
@@ -55,9 +68,10 @@ for (const k of [...keys]) {
 for (const k of keys) cpSync(join(source, 'coachings', `${k}.json`), join(target, 'coachings', `${k}.json`));
 
 mkdirSync(join(target, 'site'), { recursive: true });
-for (const f of ['groups', 'categories', 'experts', 'launch', 'model-map']) {
+for (const f of ['groups', 'categories', 'experts', 'model-map']) {
   cpSync(join(source, 'site', `${f}.json`), join(target, 'site', `${f}.json`));
 }
+writeFileSync(join(target, 'site', 'launch.json'), JSON.stringify(site));
 writeFileSync(join(target, 'site', 'products.json'), JSON.stringify(visibleProducts));
 writeFileSync(join(target, 'site', 'coachings.json'), JSON.stringify(meta));
 writeFileSync(join(target, 'index.json'), JSON.stringify(index.filter((c) => keys.has(c.key))));
@@ -65,4 +79,6 @@ if (existsSync(join(source, 'ratgeber'))) cpSync(join(source, 'ratgeber'), join(
 if (existsSync(join(source, 'media.json'))) cpSync(join(source, 'media.json'), join(target, 'media.json'));
 else writeFileSync(join(target, 'media.json'), '{}');
 
-console.log(`content synced: ${keys.size} coachings, ${hidden.size} placeholder entries hidden`);
+console.log(
+  `content synced: ${keys.size} coachings, ${hidden.size} placeholder and ${unfinished.size} unfinished entries hidden, ${emptyPackages.size} empty packages dropped`,
+);
