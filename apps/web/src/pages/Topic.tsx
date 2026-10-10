@@ -2,7 +2,6 @@ import { Link, useParams } from 'react-router-dom';
 import { Box, Bundle, ExpertsBox, introOf } from '../components/catalogue';
 import { useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
-import { GROUP_IMAGE } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
 
 /** The legacy site filed some sleep products under the bare topic; give that section a real name. */
@@ -33,7 +32,6 @@ export function Topic() {
     .sort((a, b) => a.title.localeCompare(b.title, 'de'));
   const experts = site.experts.filter((e) => products.some((p) => p.experts.includes(e.id)));
   const featured = site.featured.filter((f) => f.group === g.slug && site.available.has(f.coaching));
-  const image = GROUP_IMAGE[g.slug];
   const ratgeber = RATGEBER[g.slug];
   const nameOf = (c: { path: string; title: string }) => CATEGORY_TITLE[c.path] ?? c.title;
   const lead = groupDescription;
@@ -53,18 +51,13 @@ export function Topic() {
             <h1>{g.title}</h1>
             {lead && <p className="lead">{lead}</p>}
           </div>
-          {image && (
-            <div className="page-banner__image">
-              <img src={image} alt="" />
-            </div>
-          )}
         </div>
       </div>
 
       <div className="wrap layout">
-        <div>
+        <div className="stack">
           {featured.map((f) => (
-            <div className="intro" key={f.coaching} style={{ marginTop: 20 }}>
+            <div className="intro" key={f.coaching}>
               <h2>{f.title}</h2>
               <p>{f.text}</p>
               <Link className="button" to={`/coaching/${f.coaching}`}>
@@ -74,13 +67,13 @@ export function Topic() {
           ))}
 
           {sharedIntro && (
-            <div className="intro" style={{ marginTop: 20 }}>
+            <div className="intro">
               <h2>{sharedIntro.headline || g.title}</h2>
               {sharedIntro.paragraphs.map((t, i) => (
                 <p key={i}>{t}</p>
               ))}
               {sharedIntro.bullets.length > 0 && (
-                <ul className="pluses">
+                <ul className="points">
                   {sharedIntro.bullets.map((b, i) => (
                     <li key={i}>{b}</li>
                   ))}
@@ -101,7 +94,7 @@ export function Topic() {
                       <p key={i}>{t}</p>
                     ))}
                     {own.bullets.length > 0 && (
-                      <ul className="pluses">
+                      <ul className="points">
                         {own.bullets.map((b, i) => (
                           <li key={i}>{b}</li>
                         ))}

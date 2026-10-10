@@ -3,7 +3,6 @@ import { Box, ExpertsBox, ProductImage } from '../components/catalogue';
 import { coachingTitle, modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { hasProgress } from '../lib/store';
-import { GROUP_IMAGE } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
 
 export function ProductPage() {
@@ -32,11 +31,6 @@ export function ProductPage() {
             <h1>{product.title}</h1>
             {product.subtitle && <p className="lead">{product.subtitle}</p>}
           </div>
-          {group && GROUP_IMAGE[group.slug] && (
-            <div className="page-banner__image">
-              <img src={GROUP_IMAGE[group.slug]} alt="" />
-            </div>
-          )}
         </div>
       </div>
 
