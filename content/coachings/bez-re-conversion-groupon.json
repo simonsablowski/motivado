@@ -61,10 +61,6 @@
           {
             "element": "Persönliche E-Mail-Betreuung",
             "second": 43
-          },
-          {
-            "element": "Persönliche Telefonberatung",
-            "second": 46
           }
         ]
       },
@@ -313,10 +309,6 @@
           {
             "element": "Rückeroberungsplan als Download",
             "second": 0
-          },
-          {
-            "element": "Gratis: 10 Min. Telefonberatung",
-            "second": 0
           }
         ]
       },
@@ -364,10 +356,6 @@
           {
             "element": "Rückeroberungsplan als Download",
             "second": 0
-          },
-          {
-            "element": "Gratis: 10 Min. Telefonberatung",
-            "second": 0
           }
         ]
       },
@@ -414,10 +402,6 @@
           },
           {
             "element": "Rückeroberungsplan als Download",
-            "second": 0
-          },
-          {
-            "element": "Gratis: 10 Min. Telefonberatung",
             "second": 0
           }
         ]

@@ -1,14 +1,19 @@
 import { Link, useParams } from 'react-router-dom';
 import { modelOf, useSite } from '../lib/api';
+import { usePageMeta } from '../lib/meta';
 import { GROUP_IMAGE } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
 
 export function Topic() {
   const { group } = useParams();
   const { data: site, loading } = useSite();
+  const g = site?.groups.find((x) => x.slug === group);
+  const groupDescription = site?.categories.find((c) => c.path === group)?.description.split('\n')[0];
+  usePageMeta(
+    g ? `${g.title}: Coachings` : 'Motivado',
+    groupDescription || (g ? `Video-Coachings zum Thema ${g.title}.` : undefined),
+  );
   if (!site) return <Loading loading={loading} />;
-
-  const g = site.groups.find((x) => x.slug === group);
   if (!g) return <NotFound />;
 
   const products = site.products.filter((p) => site.launch.includes(p.slug) && p.category.startsWith(g.slug));
@@ -38,6 +43,24 @@ export function Topic() {
       </div>
 
       <div className="wrap">
+        {site.featured
+          .filter((f) => f.group === g.slug && site.available.has(f.coaching))
+          .map((f) => (
+            <section className="section" key={f.coaching} aria-label={f.title}>
+              <div className="offer">
+                <div>
+                  <p className="eyebrow">Schnell-Check</p>
+                  <h2>{f.title}</h2>
+                  <p className="offer__label" style={{ marginTop: 8 }}>
+                    {f.text}
+                  </p>
+                </div>
+                <Link className="button" to={`/coaching/${f.coaching}`}>
+                  Jetzt starten
+                </Link>
+              </div>
+            </section>
+          ))}
         {categories.map((c) => (
           <section className="section" key={c.path} aria-labelledby={`c-${c.slug}`}>
             <div className="section__head">

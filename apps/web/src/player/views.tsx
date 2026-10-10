@@ -1,4 +1,17 @@
-import { display, interpolate, type Answer, type CoachingNode } from '@motivado/engine';
+import {
+  ACTIVITY_LEVELS,
+  BMI_LABELS,
+  bmi,
+  bmiBand,
+  dieterCategory,
+  display,
+  energyDemand,
+  interpolate,
+  parseNumber,
+  parseSex,
+  type Answer,
+  type CoachingNode,
+} from '@motivado/engine';
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { mediaUrl } from '../lib/media';
@@ -20,7 +33,16 @@ export interface ViewProps {
 }
 
 /** Types that need input before the user may continue. */
-export const INTERACTIVE = new Set(['Options', 'TextInput', 'TextArea', 'List', 'Dropdown', 'Evaluation']);
+export const INTERACTIVE = new Set([
+  'Options',
+  'TextInput',
+  'TextArea',
+  'List',
+  'Dropdown',
+  'Evaluation',
+  'DieterCategory',
+  'EnergyDemand',
+]);
 
 type Props = Record<string, unknown>;
 const props = (n: CoachingNode): Props => n.props as Props;
@@ -252,6 +274,177 @@ function Evaluation({ node, answers, onChange }: ViewProps) {
   );
 }
 
+const de = (n: number, digits = 1) => n.toLocaleString('de-DE', { minimumFractionDigits: digits, maximumFractionDigits: digits });
+
+const refKey = (raw: unknown, fallback: string) =>
+  typeof raw === 'string' && raw.startsWith('#') ? raw.slice(1) : fallback;
+
+/** Height, weight and gender, prefilled from earlier answers. */
+function useBody(answers: Record<string, Answer>, heightKey: string, weightKey: string) {
+  const [height, setHeight] = useState(String(answers[heightKey]?.value ?? ''));
+  const [weight, setWeight] = useState(String(answers[weightKey]?.value ?? ''));
+  const [sex, setSex] = useState<string>(parseSex(answers.geschlecht?.value) ?? '');
+  const h = parseNumber(height);
+  const w = parseNumber(weight);
+  const validBody = h !== undefined && w !== undefined && h >= 100 && h <= 250 && w >= 30 && w <= 300;
+  return { height, setHeight, weight, setWeight, sex, setSex, h, w, validBody };
+}
+
+function BodyFields({
+  body,
+  children,
+}: {
+  body: ReturnType<typeof useBody>;
+  children?: React.ReactNode;
+}) {
+  return (
+    <div className="fields">
+      <div>
+        <label htmlFor="body-height">Größe in cm</label>
+        <input
+          id="body-height"
+          className="field"
+          inputMode="decimal"
+          value={body.height}
+          onChange={(e) => body.setHeight(e.target.value)}
+        />
+      </div>
+      <div>
+        <label htmlFor="body-weight">Gewicht in kg</label>
+        <input
+          id="body-weight"
+          className="field"
+          inputMode="decimal"
+          value={body.weight}
+          onChange={(e) => body.setWeight(e.target.value)}
+        />
+      </div>
+      <div>
+        <label htmlFor="body-sex">Geschlecht</label>
+        <select id="body-sex" className="field" value={body.sex} onChange={(e) => body.setSex(e.target.value)}>
+          <option value="">Bitte wählen …</option>
+          <option value="f">weiblich</option>
+          <option value="m">männlich</option>
+        </select>
+      </div>
+      {children}
+    </div>
+  );
+}
+
+/** Legacy `DieterCategory`: BMI band + gender decide which follow-up video is shown. */
+function DieterCategory({ node, answers, onChange }: ViewProps) {
+  const p = props(node);
+  const heightKey = refKey(p.height, 'DIC_GroesseStart');
+  const weightKey = refKey(p.weight, 'DIC_GrundlagenGewicht');
+  const body = useBody(answers, heightKey, weightKey);
+  const sex = parseSex(body.sex);
+  const value = body.validBody ? bmi(body.w as number, body.h as number) : undefined;
+
+  useEffect(() => {
+    if (value === undefined || !sex) return onChange(undefined);
+    onChange({
+      value: dieterCategory(body.w as number, body.h as number, sex),
+      data: { bmi: Math.round(value * 10) / 10 },
+      also: { [heightKey]: { value: body.h }, [weightKey]: { value: body.w }, geschlecht: { value: sex } },
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [body.h, body.w, sex]);
+
+  return (
+    <>
+      <Heading node={node} answers={answers} />
+      <BodyFields body={body} />
+      {value !== undefined && (
+        <div className="result" aria-live="polite">
+          <div className="result__value">BMI {de(value)}</div>
+          <p>{BMI_LABELS[bmiBand(value)]}</p>
+        </div>
+      )}
+    </>
+  );
+}
+
+/** Legacy `EnergyDemand`: daily energy need from body data, activity and the planned loss. */
+function EnergyDemand({ node, answers, onChange }: ViewProps) {
+  const p = props(node);
+  const heightKey = refKey(p.height, 'DIC_GroesseStart');
+  const weightKey = refKey(p.weight, 'DIC_GrundlagenGewicht');
+  const body = useBody(answers, heightKey, weightKey);
+  const [age, setAge] = useState('');
+  const [activity, setActivity] = useState('1.4');
+  const sex = parseSex(body.sex);
+  const years = parseNumber(age);
+  const loss = parseNumber(answers.DIC_GrundlagenAbnehmenProWoche?.value);
+  const ready = body.validBody && sex && years !== undefined && years >= 14 && years <= 100;
+  const result = ready
+    ? energyDemand({
+        weightKg: body.w as number,
+        heightCm: body.h as number,
+        age: years as number,
+        sex: sex as 'f' | 'm',
+        activity: Number(activity),
+        ...(loss ? { lossGramsPerWeek: loss } : {}),
+      })
+    : undefined;
+
+  useEffect(() => {
+    if (!result) return onChange(undefined);
+    onChange({
+      value: result.target ?? result.total,
+      data: result,
+      also: { [heightKey]: { value: body.h }, [weightKey]: { value: body.w }, geschlecht: { value: sex } },
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [result?.basal, result?.total, result?.target, sex]);
+
+  return (
+    <>
+      <Heading node={node} answers={answers} />
+      <BodyFields body={body}>
+        <div>
+          <label htmlFor="body-age">Alter in Jahren</label>
+          <input
+            id="body-age"
+            className="field"
+            inputMode="numeric"
+            value={age}
+            onChange={(e) => setAge(e.target.value)}
+          />
+        </div>
+        <div>
+          <label htmlFor="body-activity">Aktivität im Alltag</label>
+          <select
+            id="body-activity"
+            className="field"
+            value={activity}
+            onChange={(e) => setActivity(e.target.value)}
+          >
+            {ACTIVITY_LEVELS.map((a) => (
+              <option key={a.value} value={a.value}>
+                {a.label}
+              </option>
+            ))}
+          </select>
+        </div>
+      </BodyFields>
+      {result && (
+        <div className="result" aria-live="polite">
+          <div className="result__value">{result.total.toLocaleString('de-DE')} kcal pro Tag</div>
+          <p>
+            Gesamtbedarf bei Ihrem Alltag. Davon Grundumsatz: {result.basal.toLocaleString('de-DE')} kcal.
+          </p>
+          {result.target !== undefined && (
+            <p>
+              <strong>Zum Abnehmen mit {loss} g pro Woche: {result.target.toLocaleString('de-DE')} kcal pro Tag.</strong>
+            </p>
+          )}
+        </div>
+      )}
+    </>
+  );
+}
+
 function Bullets({ node, answers, time }: ViewProps) {
   const p = props(node);
   const elements = (p.elements as { element: string; second?: number }[] | undefined) ?? [];
@@ -364,6 +557,10 @@ export function NodeView(p: ViewProps) {
       return <Dropdown {...p} />;
     case 'Evaluation':
       return <Evaluation {...p} />;
+    case 'DieterCategory':
+      return <DieterCategory {...p} />;
+    case 'EnergyDemand':
+      return <EnergyDemand {...p} />;
     case 'BulletPoints':
     case 'Keywords':
       return <Bullets {...p} />;

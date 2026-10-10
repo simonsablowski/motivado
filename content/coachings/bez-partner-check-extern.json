@@ -504,7 +504,7 @@
       "type": "Text",
       "key": "REL_PartCheck_Sabotage",
       "title": "Sabotieren Sie sich selbst?\r\n\r\n",
-      "text": "Schreiben Sie uns an contact@simsab.net und vereinbaren Sie ein persönliches Coaching, um Ihre Situation zu besprechen. Oder schreiben Sie uns eine E-Mail an contact@simsab.net. Unsere Experten helfen Ihnen gerne weiter.\n\nUm zu den letzten Coaching-Schritten zu gelangen, klicken Sie auf Weiter.",
+      "text": "Schreiben Sie uns an contact@simsab.net, um Ihre persönliche Situation zu besprechen. Oder schreiben Sie uns eine E-Mail an contact@simsab.net. Unsere Experten helfen Ihnen gerne weiter.\n\nUm zu den letzten Coaching-Schritten zu gelangen, klicken Sie auf Weiter.",
       "props": {
         "video": {
           "url": "REL_PartCheck_V36.flv"

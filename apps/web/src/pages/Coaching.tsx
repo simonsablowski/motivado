@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { coachingTitle, loadCoaching, modelOf, useAsync, useSite } from '../lib/api';
+import { usePageMeta } from '../lib/meta';
 import { Player } from '../player/Player';
 import { Loading, NotFound } from './Static';
 
@@ -8,6 +9,9 @@ export function Coaching() {
   const { data: site } = useSite();
   const { data: coaching, loading, error } = useAsync(() => loadCoaching(key), [key]);
 
+  const alias = site ? Object.entries(site.modelMap).find(([, m]) => m === key)?.[0] : undefined;
+  const known = site?.coachings[key] ?? (alias ? site?.coachings[alias] : undefined);
+  usePageMeta(site ? coachingTitle(site, key) : 'Motivado', known?.subtitle || known?.description?.split('\n')[0]);
   if (loading || !site) return <Loading loading />;
   if (error || !coaching) return <NotFound />;
 

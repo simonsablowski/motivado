@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
+import { usePageMeta } from '../lib/meta';
 import { SITE } from '../site.config';
 import { useSite } from '../lib/api';
 
@@ -12,6 +13,7 @@ export function Order() {
   const { data: site } = useSite();
   const product = site?.products.find((p) => p.slug === key);
   const name = product?.title ?? 'dieses Paket';
+  usePageMeta(product ? `${product.title}: Paket anfragen` : 'Paket anfragen');
   const subject = encodeURIComponent(`Anfrage: ${product?.title ?? key}`);
 
   return (

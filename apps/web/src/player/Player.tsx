@@ -116,7 +116,10 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
     let session = group ? group.after : pos.session;
     for (const v of views) {
       const a = pending[v.key ?? v.id];
-      if (v.key && a) session = storeAnswer(session, v.key, a);
+      if (!a) continue;
+      const { also, ...own } = a;
+      if (v.key) session = storeAnswer(session, v.key, own);
+      for (const [k, extra] of Object.entries(also ?? {})) session = storeAnswer(session, k, extra);
     }
     const next = advance(coaching, session);
     saveSession(next.session, next.step.kind === 'end');

@@ -47,7 +47,8 @@ def slug(name):
 
 def launch_models(content_dir):
     site = os.path.join(content_dir, 'site')
-    launch = json.load(open(os.path.join(site, 'launch.json'), encoding='utf-8'))['products']
+    config = json.load(open(os.path.join(site, 'launch.json'), encoding='utf-8'))
+    launch = config['products']
     products = {p['slug']: p for p in json.load(open(os.path.join(site, 'products.json'), encoding='utf-8'))}
     alias = json.load(open(os.path.join(site, 'model-map.json'), encoding='utf-8'))
     index = {c['key'] for c in json.load(open(os.path.join(content_dir, 'index.json'), encoding='utf-8'))}
@@ -57,6 +58,9 @@ def launch_models(content_dir):
             m = alias.get(k, k)
             if m in index and m not in keys:
                 keys.append(m)
+    for f in config.get('featured', []):
+        if f['coaching'] in index and f['coaching'] not in keys:
+            keys.append(f['coaching'])
     return keys
 
 

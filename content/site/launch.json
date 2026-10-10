@@ -6,11 +6,20 @@
     "balance-in-der-beziehung",
     "besser-aussehen",
     "bewegung",
+    "erste-schritte",
     "schlafen-bei-schichtarbeit",
     "schlafstoerungen",
     "motiviert-in-die-jobsuche-starten",
     "sich-gut-verkaufen",
     "das-eigene-potential-ausschopfen",
     "mobbing-schule"
+  ],
+  "featured": [
+    {
+      "coaching": "ges-abn-conversion-bmikat",
+      "group": "gesundheit",
+      "title": "Abnehmchancen-Check",
+      "text": "In zwei Minuten: Ihr BMI und was er für Ihr Abnehmen bedeutet."
+    }
   ]
 }

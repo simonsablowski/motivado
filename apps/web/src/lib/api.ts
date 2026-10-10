@@ -34,6 +34,13 @@ export interface CoachingMeta {
   description: string;
 }
 
+export interface Featured {
+  coaching: string;
+  group: string;
+  title: string;
+  text: string;
+}
+
 export interface Site {
   groups: Group[];
   categories: Category[];
@@ -44,6 +51,8 @@ export interface Site {
   modelMap: Record<string, string>;
   /** Slugs of products published on this release. */
   launch: string[];
+  /** Single coachings promoted on a topic page. */
+  featured: Featured[];
   /** Model keys that are shipped with this build. */
   available: Set<string>;
 }
@@ -74,7 +83,7 @@ export function loadSite(): Promise<Site> {
       getJson<Expert[]>('/content/site/experts.json'),
       getJson<Record<string, CoachingMeta>>('/content/site/coachings.json'),
       getJson<Record<string, string>>('/content/site/model-map.json'),
-      getJson<{ products: string[] }>('/content/site/launch.json'),
+      getJson<{ products: string[]; featured?: Featured[] }>('/content/site/launch.json'),
       getJson<{ key: string }[]>('/content/index.json'),
     ]);
     const { _comment, ...map } = modelMap as Record<string, string>;
@@ -87,6 +96,7 @@ export function loadSite(): Promise<Site> {
       coachings,
       modelMap: map,
       launch: launch.products,
+      featured: launch.featured ?? [],
       available: new Set(index.map((c) => c.key)),
     };
   })();
@@ -132,6 +142,8 @@ export function modelOf(site: Site, catalogueKey: string): string | undefined {
 }
 
 export function coachingTitle(site: Site, key: string): string {
+  const featured = site.featured.find((f) => f.coaching === key);
+  if (featured) return featured.title;
   const meta = site.coachings[key] ?? site.coachings[Object.entries(site.modelMap).find(([, m]) => m === key)?.[0] ?? ''];
   if (meta?.title) return meta.title;
   return key.replace(/^[a-z0-9]+-/, '').replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase());

@@ -168,6 +168,18 @@ img {
   color: #fff;
   text-decoration: underline;
 }
+.footer__note {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #2d333b;
+  color: #9aa1ab;
+}
+.footer__note p {
+  margin: 0;
+}
+.footer__note a {
+  color: #fff;
+}
 main {
   display: block;
   min-height: 60vh;
@@ -470,7 +482,7 @@ main {
   border: 1px solid var(--line);
 }
 .expert__photo {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 11 / 7;
   object-fit: cover;
   object-position: center 20%;
   width: 100%;
@@ -487,6 +499,14 @@ main {
   color: var(--muted);
   font-size: 0.93rem;
   margin: 0;
+}
+.expert__photo--small {
+  object-fit: contain;
+  padding: 24px;
+  width: 100%;
+  height: auto;
+  max-width: 128px;
+  box-sizing: content-box;
 }
 /* expert text without photo (sidebars) */
 .expert--plain {
@@ -629,6 +649,58 @@ a.list__title:hover {
 .prose p {
   max-width: var(--measure);
   white-space: pre-line;
+}
+
+/* ratgeber articles */
+.article {
+  max-width: var(--measure);
+}
+.article h2 {
+  font-size: 1.35rem;
+  color: var(--teal-dark);
+  margin: 1.8em 0 0.5em;
+}
+.article h3 {
+  margin: 1.4em 0 0.4em;
+}
+.article p {
+  margin-bottom: 1.1em;
+}
+.article a {
+  color: var(--teal-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.article a:hover {
+  color: var(--accent-dark);
+}
+.article ul,
+.article ol {
+  padding-left: 1.3em;
+  margin: 0 0 1.1em;
+}
+.index {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 3 240px;
+  column-gap: 32px;
+  border-top: 1px solid var(--line);
+}
+.index li {
+  break-inside: avoid;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.index a {
+  text-decoration: none;
+}
+.index a:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}
+.index--single {
+  columns: 1;
 }
 
 /* ---- player -------------------------------------------------------------------------------- */
@@ -816,6 +888,38 @@ a.document:hover {
   .panel {
     padding: 22px 18px 26px;
   }
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0 20px;
+}
+.fields label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 650;
+  margin-top: 14px;
+}
+.fields .field {
+  margin-top: 6px;
+}
+.result {
+  margin-top: 24px;
+  border-left: 4px solid var(--teal);
+  background: var(--stage);
+  padding: 16px 20px;
+}
+.result__value {
+  font-size: 1.6rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  color: var(--teal-dark);
+}
+.result p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .state {

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { usePageMeta } from '../lib/meta';
 import { SITE } from '../site.config';
 
 export function Loading({ loading = true }: { loading?: boolean }) {
@@ -10,6 +11,7 @@ export function Loading({ loading = true }: { loading?: boolean }) {
 }
 
 export function NotFound() {
+  usePageMeta('Seite nicht gefunden');
   return (
     <div className="wrap--narrow">
       <div className="page-head">
@@ -29,6 +31,7 @@ export function NotFound() {
  */
 export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
   const impressum = page === 'impressum';
+  usePageMeta(impressum ? 'Impressum' : 'Datenschutz');
   return (
     <div className="wrap--narrow">
       <div className="page-head">

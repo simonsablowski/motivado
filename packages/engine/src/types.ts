@@ -62,6 +62,8 @@ export interface Answer {
   value: unknown;
   /** Human readable counterpart, e.g. the selected option label. */
   data?: unknown;
+  /** Further answers set by the same step (a calculator that also asks height and weight). */
+  also?: Record<string, Answer>;
 }
 
 export interface Session {

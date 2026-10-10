@@ -1,12 +1,17 @@
 import { Link } from 'react-router-dom';
 import { activeGroups } from '../App';
 import { modelOf, useSite } from '../lib/api';
+import { usePageMeta } from '../lib/meta';
 import { GROUP_IMAGE } from '../lib/visuals';
 import { ExpertCard } from './Team';
 import { Loading } from './Static';
 
 export function Home() {
   const { data: site, loading } = useSite();
+  usePageMeta(
+    'Motivado – Coaching per Video',
+    'Interaktive Video-Coachings mit Experten zu Beziehung, Gesundheit, Karriere und Erziehung: individuell, in Ihrem Tempo, wann und wo Sie möchten.',
+  );
   if (!site) return <Loading loading={loading} />;
 
   const groups = activeGroups(site);

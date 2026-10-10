@@ -79,13 +79,34 @@ one screen), per-coaching progress.
 | `motivado-build`, `-config`    | `.github/workflows`, `docs/DEPLOY.md`            |
 | Flash/Flex player, Magento shop| `apps/web`; "buy" leads to `/bestellen/…`        |
 
+## Calculators
+
+`DieterCategory` (BMI band + gender -> one of eight follow-up videos) and
+`EnergyDemand` (daily energy need) were Flash widgets whose formulas are lost.
+`packages/engine/src/body.ts` implements them with standard formulas (BMI
+bands, Mifflin-St Jeor). Open assumption: the legacy category suffix `1`/`2`
+is taken to mean female/male.
+
+## Ratgeber
+
+About 630 SEO articles of the old site, extracted by
+`tools/extract_ratgeber.py` into `content/ratgeber/<topic>/<slug>.json`
+(headings, paragraphs, lists, internal links; no images). They live under
+`/ratgeber` and are linked from the footer only.
+
+## Search engines
+
+`apps/web/scripts/prerender.mjs` runs after `vite build` and writes a static
+HTML file per public route with its own title, description, canonical and Open
+Graph tags (Ratgeber articles also carry their text), plus `sitemap.xml` and
+`robots.txt`. In the browser `usePageMeta` keeps the same tags up to date.
+
 ## Known gaps
 
-* `EnergyDemand` / `DieterCategory` (BMI and energy calculators, used by one
-  coaching) show their text but do not calculate.
 * The sleep coachings are filed under `slc-*` in the models and under
   `ges-schlaf-*` in the catalogue; the mapping in
   `content/site/model-map.json` is inferred and should be confirmed.
 * Smoking cessation (`ges-rau-*`) and a few other catalogue coachings have no
   model in the legacy repositories.
-* About 640 `ratgeber-*` article pages of the old site are not ported.
+* Content edits made after the migration (typo fixes in the models repo, the
+  contact address, removed phone offers) are scripted in `tools/`.

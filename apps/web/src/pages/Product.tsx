@@ -1,15 +1,16 @@
 import { Link, useParams } from 'react-router-dom';
 import { coachingTitle, modelOf, useSite } from '../lib/api';
+import { usePageMeta } from '../lib/meta';
 import { hasProgress } from '../lib/store';
-import { GROUP_IMAGE, expertPhoto } from '../lib/visuals';
+import { GROUP_IMAGE, expertPhoto, isSmallPortrait } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
 
 export function ProductPage() {
   const { slug } = useParams();
   const { data: site, loading } = useSite();
+  const product = site?.products.find((p) => p.slug === slug && site.launch.includes(p.slug));
+  usePageMeta(product ? product.title : 'Motivado', product ? product.description.split('\n')[0] : undefined);
   if (!site) return <Loading loading={loading} />;
-
-  const product = site.products.find((p) => p.slug === slug && site.launch.includes(p.slug));
   if (!product) return <NotFound />;
 
   const group = site.groups.find((g) => product.category.startsWith(g.slug));
@@ -88,7 +89,11 @@ export function ProductPage() {
           </Link>
           {experts.map((e) => (
             <div className="expert expert--plain" key={e.id} style={{ marginTop: 24 }}>
-              <img className="expert__photo" src={expertPhoto(e.name)} alt={e.name} />
+              <img
+                className={`expert__photo${isSmallPortrait(e.name) ? ' expert__photo--small' : ''}`}
+                src={expertPhoto(e.name)}
+                alt={e.name}
+              />
               <h3 style={{ marginTop: 12 }}>{e.name}</h3>
               <p>{e.description}</p>
             </div>

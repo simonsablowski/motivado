@@ -5,6 +5,7 @@ import { Coaching } from './pages/Coaching';
 import { Home } from './pages/Home';
 import { Order } from './pages/Order';
 import { ProductPage } from './pages/Product';
+import { RatgeberArticle, RatgeberHub, RatgeberTopic } from './pages/Ratgeber';
 import { SITE } from './site.config';
 import { Legal, NotFound } from './pages/Static';
 import { Team } from './pages/Team';
@@ -38,7 +39,6 @@ function Layout() {
                   {g.title}
                 </NavLink>
               ))}
-            <NavLink to="/team">Experten</NavLink>
           </nav>
         </div>
       </header>
@@ -50,6 +50,14 @@ function Layout() {
           <div>
             <h3>Motivado</h3>
             <p>Coaching per Video – interaktiv und individuell, mit Experten, die sich Zeit für Ihre Situation nehmen.</p>
+            <ul>
+              <li>
+                <Link to="/team">Unsere Experten</Link>
+              </li>
+              <li>
+                <Link to="/ratgeber">Ratgeber</Link>
+              </li>
+            </ul>
           </div>
           <div>
             <h3>Themen</h3>
@@ -71,9 +79,6 @@ function Layout() {
               <li>
                 <Link to="/datenschutz">Datenschutz</Link>
               </li>
-              <li>
-                <Link to="/team">Experten</Link>
-              </li>
             </ul>
           </div>
           <div>
@@ -82,6 +87,15 @@ function Layout() {
               <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
             </p>
           </div>
+        </div>
+        <div className="wrap footer__note">
+          <p>
+            Die Domain <strong>motivado.com</strong> steht zum Verkauf. Anfragen bitte an{' '}
+            <a href={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent('Domain motivado.com')}`}>
+              {SITE.contactEmail}
+            </a>
+            .
+          </p>
         </div>
       </footer>
     </>
@@ -97,6 +111,9 @@ export function App() {
         <Route path="paket/:slug" element={<ProductPage />} />
         <Route path="coaching/:key" element={<Coaching />} />
         <Route path="bestellen/:key" element={<Order />} />
+        <Route path="ratgeber" element={<RatgeberHub />} />
+        <Route path="ratgeber/:topic" element={<RatgeberTopic />} />
+        <Route path="ratgeber/:topic/:slug" element={<RatgeberArticle />} />
         <Route path="team" element={<Team />} />
         <Route path="impressum" element={<Legal page="impressum" />} />
         <Route path="datenschutz" element={<Legal page="datenschutz" />} />

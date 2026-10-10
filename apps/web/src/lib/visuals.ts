@@ -16,3 +16,10 @@ export function expertPhoto(name: string): string {
     .replace(/\s+/g, '_');
   return `/img/experts/${slug}.jpg`;
 }
+
+/** Portraits that only exist at 80x80 px: shown at native size instead of enlarged. */
+const SMALL_PORTRAITS = new Set(['ania_ferstl']);
+
+export function isSmallPortrait(name: string): boolean {
+  return SMALL_PORTRAITS.has(expertPhoto(name).replace('/img/experts/', '').replace('.jpg', ''));
+}

@@ -42,6 +42,12 @@ function respond(node: CoachingNode, rand: () => number): Answer | undefined {
     }
     case 'List':
       return { value: ['a', 'b', 'c'] };
+    case 'DieterCategory': {
+      const letters = ['A', 'B', 'C', 'D'];
+      return { value: `${letters[Math.floor(rand() * 4)]}${1 + Math.floor(rand() * 2)}` };
+    }
+    case 'EnergyDemand':
+      return { value: 1800 };
     case 'Evaluation':
       return { value: 50 };
     case 'TextInput':

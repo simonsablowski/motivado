@@ -11,3 +11,17 @@ export { computeAnswer, isComputed } from './compute';
 export { display, interpolate, templateReferences } from './template';
 export { advance, answer, begin, chooseEdge, createSession, nodeOf, valuesOf, type Position } from './walker';
 export { validate, type Issue } from './validate';
+export {
+  ACTIVITY_LEVELS,
+  BMI_LABELS,
+  bmi,
+  bmiBand,
+  dieterCategory,
+  energyDemand,
+  parseNumber,
+  parseSex,
+  type BmiBand,
+  type EnergyInput,
+  type EnergyResult,
+  type Sex,
+} from './body';

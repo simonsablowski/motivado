@@ -25,6 +25,7 @@ for (const slug of site.products) {
     if (available.has(model)) keys.add(model);
   }
 }
+for (const f of site.featured ?? []) if (available.has(f.coaching)) keys.add(f.coaching);
 // Coachings that other shipped coachings hand over to.
 for (const k of [...keys]) {
   const c = JSON.parse(readFileSync(join(source, 'coachings', `${k}.json`), 'utf8'));
@@ -40,6 +41,7 @@ for (const f of ['groups', 'categories', 'products', 'experts', 'coachings', 'la
   cpSync(join(source, 'site', `${f}.json`), join(target, 'site', `${f}.json`));
 }
 writeFileSync(join(target, 'index.json'), JSON.stringify(index.filter((c) => keys.has(c.key))));
+if (existsSync(join(source, 'ratgeber'))) cpSync(join(source, 'ratgeber'), join(target, 'ratgeber'), { recursive: true });
 if (existsSync(join(source, 'media.json'))) cpSync(join(source, 'media.json'), join(target, 'media.json'));
 else writeFileSync(join(target, 'media.json'), '{}');
 
