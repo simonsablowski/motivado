@@ -1275,13 +1275,6 @@ a.mini__title:hover {
   display: flex;
   flex-direction: column;
 }
-.card__image {
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  width: 100%;
-  display: block;
-  background: var(--stage);
-}
 .card__body {
   padding: 14px 16px 16px;
   display: flex;

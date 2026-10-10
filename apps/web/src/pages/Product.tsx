@@ -69,15 +69,6 @@ export function ProductPage() {
                 const meta = site.coachings[k];
                 return (
                   <li className="card" key={k}>
-                    <img
-                      className="card__image"
-                      src={`/img/coachings/${k}.jpg`}
-                      alt=""
-                      loading="lazy"
-                      onError={(e) => {
-                        e.currentTarget.style.visibility = 'hidden';
-                      }}
-                    />
                     <div className="card__body">
                       <span className="card__no">{String(i + 1).padStart(2, '0')}</span>
                       <h3>{coachingTitle(site, model ?? k)}</h3>
