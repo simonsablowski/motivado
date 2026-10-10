@@ -150,7 +150,7 @@ const sitemap =
 writeFileSync(join(dist, 'sitemap.xml'), sitemap);
 writeFileSync(
   join(dist, 'robots.txt'),
-  `User-agent: *\nAllow: /\nDisallow: /bestellen/\n\nSitemap: ${BASE}/sitemap.xml\n`,
+  `User-agent: *\nAllow: /\n\nSitemap: ${BASE}/sitemap.xml\n`,
 );
 
 console.log(`prerendered ${routes.length} routes, sitemap + robots written`);

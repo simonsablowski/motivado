@@ -77,7 +77,7 @@ one screen), per-coaching progress.
 | `motivado-api`                 | `packages/engine`                                |
 | `motivado-ui`                  | `apps/web/src/lib/store.ts` (browser storage)    |
 | `motivado-build`, `-config`    | `.github/workflows`, `docs/DEPLOY.md`            |
-| Flash/Flex player, Magento shop| `apps/web`; "buy" leads to `/bestellen/…`        |
+| Flash/Flex player, Magento shop| `apps/web` (player); there is no shop            |
 
 ## Calculators
 

@@ -519,19 +519,9 @@ function Documents({ node, answers }: ViewProps) {
   );
 }
 
+/** The legacy shop offer: there is no shop any more, so only the heading remains. */
 function Buy({ node, answers }: ViewProps) {
-  const key = String(props(node).key ?? '');
-  return (
-    <>
-      <Heading node={node} answers={answers} />
-      <div className="offer">
-        <p className="offer__label">Das vollständige Coaching-Paket</p>
-        <Link className="button" to={`/bestellen/${encodeURIComponent(key)}`}>
-          Jetzt Paket ansehen
-        </Link>
-      </div>
-    </>
-  );
+  return <Heading node={node} answers={answers} />;
 }
 
 function Handover({ node, answers, coachingLink }: ViewProps) {

@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import { Box, ExpertsBox, ProductImage } from '../components/catalogue';
+import { ExpertsBox, ProductImage } from '../components/catalogue';
 import { coachingTitle, modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { hasProgress } from '../lib/store';
@@ -101,15 +101,6 @@ export function ProductPage() {
         </div>
 
         <aside className="layout__side" aria-label="Zusatzinformationen">
-          <Box title="Das Paket" accent>
-            <p>
-              {product.coachings.length} interaktive Video-Coachings
-              {experts.length > 0 && ` mit ${experts.map((e) => e.name).join(', ')}`}.
-            </p>
-            <Link className="button" to={`/bestellen/${product.slug}`}>
-              Paket anfragen
-            </Link>
-          </Box>
           <ExpertsBox experts={experts} title={experts.length > 1 ? 'Ihre Experten' : 'Ihr Experte'} />
         </aside>
       </div>

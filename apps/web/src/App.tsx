@@ -3,7 +3,6 @@ import { Link, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-
 import { useSite, type Site } from './lib/api';
 import { Coaching } from './pages/Coaching';
 import { Home } from './pages/Home';
-import { Order } from './pages/Order';
 import { ProductPage } from './pages/Product';
 import { RatgeberArticle, RatgeberHub, RatgeberTopic } from './pages/Ratgeber';
 import { SITE } from './site.config';
@@ -103,7 +102,6 @@ export function App() {
         <Route path="themen/:group" element={<Topic />} />
         <Route path="paket/:slug" element={<ProductPage />} />
         <Route path="coaching/:key" element={<Coaching />} />
-        <Route path="bestellen/:key" element={<Order />} />
         <Route path="ratgeber" element={<RatgeberHub />} />
         <Route path="ratgeber/:topic" element={<RatgeberTopic />} />
         <Route path="ratgeber/:topic/:slug" element={<RatgeberArticle />} />
