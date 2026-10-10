@@ -11,6 +11,7 @@
   --accent-tint: #fdeee4;
   --teal: #0b7676;
   --teal-dark: #085757;
+  --tint: #e2eeee; /* fold-out boxes: clearly different from the page colour */
   --sun: #fbe754;
   --measure: 66ch;
   --gutter: 20px;
@@ -194,7 +195,7 @@ main:has(> .band:last-child) {
 }
 .page-head + .section,
 .page-banner + .wrap > .section:first-child,
-.page-banner + .wrap > .layout {
+.page-banner + .layout {
   padding-top: 36px;
 }
 
@@ -257,19 +258,19 @@ main:has(> .band:last-child) {
   border-color: var(--accent-dark);
 }
 .button:disabled {
-  background: transparent;
-  border-color: var(--line);
-  color: var(--muted);
+  background: var(--stage);
+  border-color: var(--stage);
+  color: #98a0aa;
   cursor: not-allowed;
 }
 .button--quiet {
-  background: transparent;
-  color: var(--ink);
-  border-color: var(--ink);
+  background: var(--teal);
+  border-color: var(--teal);
+  color: #fff;
 }
 .button--quiet:hover:not(:disabled) {
-  background: var(--ink);
-  border-color: var(--ink);
+  background: var(--teal-dark);
+  border-color: var(--teal-dark);
   color: #fff;
 }
 .button--light {
@@ -727,8 +728,8 @@ main:has(> .band:last-child) {
   border-radius: 0;
 }
 .choice:hover {
-  border-color: var(--ink);
-  border-left-color: var(--ink);
+  border-color: var(--teal);
+  border-left-color: var(--teal);
 }
 .choice.is-selected {
   border-color: var(--accent);
@@ -748,7 +749,7 @@ main:has(> .band:last-child) {
   margin-top: 14px;
 }
 .field:hover {
-  border-color: var(--ink);
+  border-color: var(--teal);
 }
 .field:focus {
   background: var(--paper);
@@ -989,28 +990,6 @@ a.document:hover {
   line-height: 1.35;
 }
 
-/* tabs: jump between the categories of a topic */
-.tabs {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 8px;
-  margin-bottom: 8px;
-}
-.tab {
-  display: block;
-  padding: 12px 14px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-bottom: 4px solid var(--line);
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-}
-.tab:hover {
-  border-bottom-color: var(--accent);
-  color: var(--accent-dark);
-}
-
 /* category: introduction box + bundles */
 .category {
   padding-top: 40px;
@@ -1155,7 +1134,7 @@ a.document:hover {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  background: var(--stage);
+  background: var(--tint);
   padding: 10px 20px;
 }
 .bundle__count {
@@ -1176,16 +1155,16 @@ a.document:hover {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--paper);
-  border: 2px solid var(--ink);
-  padding: 8px 14px;
+  background: var(--teal);
+  border: 0;
+  color: #fff;
+  padding: 10px 16px;
   font: 700 0.9rem/1 var(--font);
   cursor: pointer;
   border-radius: 0;
 }
 .toggle:hover {
-  background: var(--ink);
-  color: #fff;
+  background: var(--teal-dark);
 }
 .toggle::after {
   content: '';
@@ -1198,8 +1177,8 @@ a.document:hover {
   transform: rotate(180deg);
 }
 .bundle__panel {
-  background: var(--stage);
-  padding: 0 20px 20px;
+  background: var(--tint);
+  padding: 4px 20px 20px;
 }
 .minis {
   display: grid;
@@ -1357,9 +1336,9 @@ a.mini__title:hover {
 }
 .tool {
   background: var(--paper);
-  border: 1px solid var(--line);
-  border-bottom: 3px solid var(--line);
-  padding: 8px 18px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  padding: 9px 18px;
   font: 700 0.9rem/1 var(--font);
   cursor: pointer;
   border-radius: 0;
@@ -1417,14 +1396,14 @@ a.mini__title:hover {
   flex: none;
   width: 40px;
   height: 40px;
-  background: var(--ink);
+  background: var(--teal);
   border: 0;
   cursor: pointer;
   position: relative;
   border-radius: 0;
 }
 .ctl:hover {
-  background: var(--accent-dark);
+  background: var(--teal-dark);
 }
 .ctl--play::before {
   content: '';
@@ -1462,7 +1441,7 @@ a.mini__title:hover {
   border: 3px solid var(--ink);
 }
 .ctl--full:hover {
-  background: var(--ink);
+  background: var(--teal);
 }
 .ctl--full:hover::before {
   border-color: #fff;
@@ -1530,7 +1509,7 @@ a.mini__title:hover {
   border-radius: 0;
 }
 .volume__bar.is-on {
-  background: var(--ink);
+  background: var(--teal);
 }
 .volume__bar:hover {
   background: var(--accent);

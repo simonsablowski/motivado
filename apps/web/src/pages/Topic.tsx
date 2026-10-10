@@ -63,16 +63,6 @@ export function Topic() {
 
       <div className="wrap layout">
         <div>
-          {categories.length > 1 && (
-            <nav className="tabs" aria-label={`Bereiche in ${g.title}`}>
-              {categories.map((c) => (
-                <a className="tab" key={c.path} href={`#${c.slug}`}>
-                  {nameOf(c)}
-                </a>
-              ))}
-            </nav>
-          )}
-
           {featured.map((f) => (
             <div className="intro" key={f.coaching} style={{ marginTop: 20 }}>
               <h2>{f.title}</h2>
