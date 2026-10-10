@@ -91,8 +91,12 @@ is taken to mean female/male.
 
 About 630 SEO articles of the old site, extracted by
 `tools/extract_ratgeber.py` into `content/ratgeber/<topic>/<slug>.json`
-(headings, paragraphs, lists, internal links; no images). They live under
-`/ratgeber` and are linked from the footer only.
+(headings, paragraphs, lists, internal links; no images), then cleaned by
+`tools/clean_ratgeber.py`: reviewed spelling fixes (`tools/ratgeber_typos.json`),
+at most three internal links per article and none in the topic introductions
+(the legacy text linked nearly every keyword). The cleaned JSON is the source
+of truth now; do not re-extract over it without re-running the cleanup. The
+articles live under `/ratgeber` and are linked from the footer only.
 
 ## Search engines
 
