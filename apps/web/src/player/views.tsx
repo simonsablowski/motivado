@@ -495,13 +495,20 @@ function Documents({ node, answers }: ViewProps) {
             <li key={d.file}>
               {url ? (
                 <a className="document" href={url} target="_blank" rel="noreferrer">
-                  <span>{d.name}</span>
-                  <span className="document__type">PDF</span>
+                  <span className="document__icon" aria-hidden="true">
+                    PDF
+                  </span>
+                  <span className="document__name">{d.name}</span>
                 </a>
               ) : (
                 <span className="document is-unavailable">
-                  <span>{d.name}</span>
-                  <span className="document__type">nicht verfügbar</span>
+                  <span className="document__icon" aria-hidden="true">
+                    PDF
+                  </span>
+                  <span className="document__name">
+                    {d.name}
+                    <small>nicht verfügbar</small>
+                  </span>
                 </span>
               )}
             </li>

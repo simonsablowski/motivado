@@ -14,6 +14,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { loadAnswers, loadSession, saveSession, clearProgress } from '../lib/store';
 import { mediaUrl, useMediaReady } from '../lib/media';
+import { StageControls, Toolbar } from './Controls';
 import { INTERACTIVE, NodeView } from './views';
 
 interface Props {
@@ -82,7 +83,13 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
   const [pos, setPos] = useState<Position>(initial);
   const [pending, setPending] = useState<Record<string, Answer | undefined>>({});
   const [time, setTime] = useState(0);
+  const [playing, setPlaying] = useState(false);
+  const [duration, setDuration] = useState(0);
+  const [volume, setVolume] = useState(1);
+  const [muted, setMuted] = useState(false);
   const panel = useRef<HTMLDivElement>(null);
+  const video = useRef<HTMLVideoElement>(null);
+  const stageBox = useRef<HTMLDivElement>(null);
 
   const node = pos.step.kind === 'node' ? pos.step.node : undefined;
   const group = useMemo(
@@ -98,6 +105,7 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
   useEffect(() => {
     setPending({});
     setTime(hasVideo ? 0 : Infinity);
+    setDuration(0);
     panel.current?.focus({ preventScroll: true });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [node?.id]);
@@ -131,9 +139,68 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
     setPos(begin(coaching, { ...createSession(coaching.key), answers: loadAnswers() }));
   };
 
+  /**
+   * One step back. The history always ends with the node on screen; from the
+   * end screen the last visited node is shown again.
+   */
+  const history = pos.session.history;
+  const canGoBack = pos.step.kind === 'end' ? history.length > 0 : history.length > 1;
+  const goBack = () => {
+    if (!canGoBack) return;
+    const atEnd = pos.step.kind !== 'node';
+    const target = atEnd ? history[history.length - 1] : history[history.length - 2];
+    const to = target ? coaching.nodes[target] : undefined;
+    if (!to) return;
+    const session: Session = {
+      ...pos.session,
+      current: to.id,
+      history: atEnd ? history : history.slice(0, -1),
+    };
+    saveSession(session);
+    setPos({ session, step: { kind: 'node', node: to } });
+  };
+
+  // ---- video control -------------------------------------------------------------------------
+  const toggle = () => {
+    const v = video.current;
+    if (!v) return;
+    if (v.paused) void v.play().catch(() => undefined);
+    else v.pause();
+  };
+  const seek = (s: number) => {
+    if (video.current) video.current.currentTime = s;
+    setTime(s);
+  };
+  const setLevel = (level: number) => {
+    const v = video.current;
+    setVolume(level || volume);
+    setMuted(level === 0);
+    if (v) {
+      v.muted = level === 0;
+      if (level > 0) v.volume = level;
+    }
+  };
+  const fullscreen = () => {
+    const box = stageBox.current;
+    if (!box) return;
+    if (document.fullscreenElement) void document.exitFullscreen();
+    else void box.requestFullscreen?.();
+  };
+
+  const actions = (primary: React.ReactNode) => (
+    <div className="actions">
+      <button type="button" className="button button--quiet" disabled={!canGoBack} onClick={goBack}>
+        ‹ Zurück
+      </button>
+      {primary}
+      <span className="step-count">Schritt {history.length}</span>
+    </div>
+  );
+
   if (pos.step.kind === 'end') {
     return (
       <div className="player">
+        <Toolbar backTo={backTo} backLabel={backLabel} onRestart={restart} />
         <div className="panel panel--end" ref={panel} tabIndex={-1}>
           <p className="eyebrow">{title}</p>
           <h2 className="question">Geschafft – dieses Coaching ist abgeschlossen.</h2>
@@ -145,6 +212,11 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
             <button type="button" className="button button--quiet" onClick={restart}>
               Noch einmal von vorn
             </button>
+            {canGoBack && (
+              <button type="button" className="button button--quiet" onClick={goBack}>
+                ‹ Zurück
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -154,6 +226,7 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
   if (pos.step.kind === 'blocked' || !node) {
     return (
       <div className="player">
+        <Toolbar backTo={backTo} backLabel={backLabel} onRestart={restart} />
         <div className="panel" ref={panel} tabIndex={-1}>
           <h2 className="question">An dieser Stelle geht es leider nicht weiter.</h2>
           <p className="prose">
@@ -179,56 +252,84 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
 
   return (
     <div className="player">
-      {hasVideo && (
-        <div className="stage">
-          <video
-            key={videoUrl}
-            className="stage__video"
-            src={videoUrl}
-            controls
-            autoPlay
-            playsInline
-            preload="auto"
-            onTimeUpdate={(e) => setTime(e.currentTarget.currentTime)}
-            onEnded={() => setTime(Infinity)}
-          />
-          {slide && <img className="stage__slide" src={slide} alt="" />}
-        </div>
-      )}
-      {!hasVideo && stage.video && (
-        <p className="notice">Das Video zu diesem Schritt ist in dieser Version noch nicht verfügbar.</p>
-      )}
-      <div className="panel" ref={panel} tabIndex={-1} aria-live="polite">
-        {visible ? (
-          <>
-            {views.map((v) => (
-              <div className="view" key={v.id}>
-                <NodeView
-                  node={v}
-                  answers={answers}
-                  time={time}
-                  coachingLink={v.type === 'Coaching' ? handover : undefined}
-                  onChange={(a) => setAnswer(v.key ?? v.id, a)}
-                />
-              </div>
-            ))}
-            <div className="actions">
-              {!last && (
-                <button type="button" className="button" disabled={!complete} onClick={proceed}>
-                  Weiter
-                </button>
-              )}
-              {last && (
-                <button type="button" className="button button--quiet" onClick={proceed}>
-                  Überspringen
-                </button>
-              )}
-              <span className="step-count">Schritt {pos.session.history.length}</span>
-            </div>
-          </>
-        ) : (
-          <p className="hint">Hören Sie zu …</p>
+      <Toolbar backTo={backTo} backLabel={backLabel} onRestart={restart} />
+      <div className={`player__grid${hasVideo ? ' player__grid--split' : ''}`}>
+        {hasVideo && (
+          <div className="stage" ref={stageBox}>
+            <video
+              key={videoUrl}
+              ref={video}
+              className="stage__video"
+              src={videoUrl}
+              autoPlay
+              playsInline
+              preload="auto"
+              onClick={toggle}
+              onLoadedMetadata={(e) => {
+                setDuration(e.currentTarget.duration);
+                e.currentTarget.volume = volume;
+                e.currentTarget.muted = muted;
+              }}
+              onPlay={() => setPlaying(true)}
+              onPause={() => setPlaying(false)}
+              onTimeUpdate={(e) => setTime(e.currentTarget.currentTime)}
+              onEnded={() => {
+                setTime(Infinity);
+                setPlaying(false);
+              }}
+            />
+            {slide && <img className="stage__slide" src={slide} alt="" />}
+            <StageControls
+              playing={playing}
+              current={Number.isFinite(time) ? time : duration}
+              duration={duration}
+              volume={volume}
+              muted={muted}
+              onToggle={toggle}
+              onSeek={seek}
+              onVolume={setLevel}
+              onFullscreen={fullscreen}
+            />
+          </div>
         )}
+        <div className="panel-wrap">
+          {!hasVideo && stage.video && (
+            <p className="notice">Das Video zu diesem Schritt ist in dieser Version noch nicht verfügbar.</p>
+          )}
+          <div className="panel" ref={panel} tabIndex={-1} aria-live="polite">
+            {visible ? (
+              <>
+                {views.map((v) => (
+                  <div className="view" key={v.id}>
+                    <NodeView
+                      node={v}
+                      answers={answers}
+                      time={time}
+                      coachingLink={v.type === 'Coaching' ? handover : undefined}
+                      onChange={(a) => setAnswer(v.key ?? v.id, a)}
+                    />
+                  </div>
+                ))}
+                {actions(
+                  last ? (
+                    <button type="button" className="button button--quiet" onClick={proceed}>
+                      Überspringen
+                    </button>
+                  ) : (
+                    <button type="button" className="button" disabled={!complete} onClick={proceed}>
+                      Weiter ›
+                    </button>
+                  ),
+                )}
+              </>
+            ) : (
+              <>
+                <p className="hint">Hören Sie zu …</p>
+                {actions(null)}
+              </>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );
