@@ -27,7 +27,7 @@ export function Home() {
           <div className="hero__text">
             <p className="eyebrow">Coaching per Video</p>
             <h1 id="hero-h">
-              Ein Coach, der <em>auf Sie eingeht.</em>
+              Persönliches Coaching, <em>wann Sie es brauchen.</em>
             </h1>
             <p className="lead">
               Motivado bringt Experten zu Ihnen nach Hause: in kurzen Videos, mit Fragen und Übungen, die sich Ihrer
