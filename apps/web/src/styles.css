@@ -500,14 +500,6 @@ main {
   font-size: 0.93rem;
   margin: 0;
 }
-.expert__photo--small {
-  object-fit: contain;
-  padding: 24px;
-  width: 100%;
-  height: auto;
-  max-width: 128px;
-  box-sizing: content-box;
-}
 /* expert text without photo (sidebars) */
 .expert--plain {
   background: none;

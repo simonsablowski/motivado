@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { coachingTitle, modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { hasProgress } from '../lib/store';
-import { GROUP_IMAGE, expertPhoto, isSmallPortrait } from '../lib/visuals';
+import { GROUP_IMAGE, expertPhoto } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
 
 export function ProductPage() {
@@ -89,11 +89,7 @@ export function ProductPage() {
           </Link>
           {experts.map((e) => (
             <div className="expert expert--plain" key={e.id} style={{ marginTop: 24 }}>
-              <img
-                className={`expert__photo${isSmallPortrait(e.name) ? ' expert__photo--small' : ''}`}
-                src={expertPhoto(e.name)}
-                alt={e.name}
-              />
+              <img className="expert__photo" src={expertPhoto(e.name)} alt={e.name} />
               <h3 style={{ marginTop: 12 }}>{e.name}</h3>
               <p>{e.description}</p>
             </div>

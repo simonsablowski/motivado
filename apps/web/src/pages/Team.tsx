@@ -1,18 +1,13 @@
 import { Link } from 'react-router-dom';
 import { useSite, type Expert } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
-import { expertPhoto, isSmallPortrait } from '../lib/visuals';
+import { expertPhoto } from '../lib/visuals';
 import { Loading } from './Static';
 
 export function ExpertCard({ expert }: { expert: Expert }) {
   return (
     <div className="expert">
-      <img
-        className={`expert__photo${isSmallPortrait(expert.name) ? ' expert__photo--small' : ''}`}
-        src={expertPhoto(expert.name)}
-        alt={expert.name}
-        loading="lazy"
-      />
+      <img className="expert__photo" src={expertPhoto(expert.name)} alt={expert.name} loading="lazy" />
       <div className="expert__body">
         <h3>{expert.name}</h3>
         <p>{expert.description}</p>

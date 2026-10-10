@@ -18,6 +18,9 @@ from parse_dump import parse_inserts  # noqa: E402
 
 TABLES = ['category', 'coaching', 'expert', 'product', 'product_coaching']
 
+# experts that are not shown on the site (no usable portrait)
+EXCLUDED_EXPERTS = {26}
+
 GROUPS = {
     'beziehung': 'Beziehung',
     'gesundheit': 'Gesundheit',
@@ -56,7 +59,7 @@ def main(dump_path, out_dir):
             'group': parts[0],
             'title': c['title'],
             'description': to_text(c['description']),
-            'experts': ids(c['experts']),
+            'experts': [i for i in ids(c['experts']) if i not in EXCLUDED_EXPERTS],
         })
 
     by_product = collections.defaultdict(list)
@@ -81,12 +84,12 @@ def main(dump_path, out_dir):
             'title': p['title'],
             'subtitle': to_text(p['subtitle']),
             'description': to_text(p['description']),
-            'experts': ids(p['experts']),
+            'experts': [i for i in ids(p['experts']) if i not in EXCLUDED_EXPERTS],
             'coachings': [coaching_key[r['coaching_id']] for r in rows if r['coaching_id'] in coaching_key],
         })
 
     experts = [{'id': e['id'], 'name': e['name'], 'description': to_text(e['description'])}
-               for e in sorted(t['expert'], key=lambda e: e['id'])]
+               for e in sorted(t['expert'], key=lambda e: e['id']) if e['id'] not in EXCLUDED_EXPERTS]
 
     coachings = {c['key']: {
         'title': to_text(c['title']),
