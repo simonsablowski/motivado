@@ -25,8 +25,7 @@ export function NotFound() {
 }
 
 /**
- * Legal pages are placeholders on purpose: they have to state the operator's
- * real details (§ 5 DDG, DSGVO) before the site goes live.
+ * Legal pages. The operator's details live in site.config.ts (§ 5 DDG, DSGVO).
  */
 export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
   const impressum = page === 'impressum';
@@ -36,14 +35,19 @@ export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
         <h1>{impressum ? 'Impressum' : 'Datenschutz'}</h1>
       </div>
       <div className="prose section">
-        <p className="notice">
-          Diese Seite ist ein Platzhalter. Die rechtlich erforderlichen Angaben werden vor der Veröffentlichung ergänzt.
-        </p>
         {impressum ? (
           <>
-            <p>Angaben gemäß § 5 DDG: Name und Anschrift des Betreibers, ggf. Registereintrag und USt-IdNr. folgen.</p>
+            <h2>Angaben gemäß § 5 DDG</h2>
             <p>
-              Kontakt: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
+              {SITE.operator.name}
+              <br />
+              {SITE.operator.street}
+              <br />
+              {SITE.operator.city}
+            </p>
+            <h2>Kontakt</h2>
+            <p>
+              E-Mail: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
             </p>
           </>
         ) : (
@@ -56,9 +60,11 @@ export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
               Die Videos werden von unserem Medienserver ausgeliefert. Dabei verarbeitet der Hosting-Anbieter technisch
               notwendige Verbindungsdaten (z. B. IP-Adresse).
             </p>
+            <h2>Verantwortlicher</h2>
             <p>
-              Verantwortlich und Ansprechpartner für Fragen zum Datenschutz:{' '}
-              <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
+              {SITE.operator.name}, {SITE.operator.street}, {SITE.operator.city}
+              <br />
+              E-Mail: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
             </p>
           </>
         )}

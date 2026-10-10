@@ -30,11 +30,6 @@ files. Both fit into Cloudflare's free plan.
 
 ## 3. Before going live
 
-* Fill in `Impressum` and `Datenschutz` (`apps/web/src/pages/Static.tsx`).
-  German law requires real operator details.
-* Postal address and operator name in the Impressum. The contact address
-  (`contact@simsab.net`) is set in `apps/web/src/site.config.ts` and in the
-  content.
 * Check the content you publish, in particular the health coachings and the
   named experts, and the third-party names in `b2b-*` coachings (those are not
   part of the launch set).
