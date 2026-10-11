@@ -22,19 +22,25 @@ export function Team() {
   usePageMeta('Unsere Experten', 'Coaches, Psychologen und Berater mit Praxiserfahrung: die Menschen vor der Kamera.');
   if (!site) return <Loading loading={loading} />;
   return (
-    <div className="wrap">
-      <div className="page-head">
-        <Crumbs>
-          <Link to="/">Start</Link> / Experten
-        </Crumbs>
-        <h1>Unsere Experten</h1>
-        <p className="lead">Die Menschen vor der Kamera: Coaches, Psychologen und Berater mit Praxiserfahrung.</p>
+    <>
+      <div className="page-banner">
+        <div className="wrap">
+          <div className="page-banner__text">
+            <Crumbs>
+              <Link to="/">Start</Link> / Experten
+            </Crumbs>
+            <h1>Unsere Experten</h1>
+            <p className="lead">Die Menschen vor der Kamera: Coaches, Psychologen und Berater mit Praxiserfahrung.</p>
+          </div>
+        </div>
       </div>
-      <div className="experts section">
-        {site.experts.map((e) => (
-          <ExpertCard key={e.id} expert={e} />
-        ))}
+      <div className="wrap">
+        <div className="experts section">
+          {site.experts.map((e) => (
+            <ExpertCard key={e.id} expert={e} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

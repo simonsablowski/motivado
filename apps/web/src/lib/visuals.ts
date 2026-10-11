@@ -4,6 +4,7 @@ export const GROUP_IMAGE: Record<string, string> = {
   gesundheit: '/img/gesundheit.jpg',
   karriere: '/img/karriere.jpg',
   erziehung: '/img/erziehung.jpg',
+  schlafen: '/img/schlafen.jpg',
 };
 
 /** Portrait of an expert: /img/experts/<first>_<last>.jpg */

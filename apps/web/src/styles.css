@@ -283,12 +283,11 @@ main:has(> .band:last-child) {
 }
 
 /* title and its introduction belong together; the content follows at a calm distance */
-.page-head .lead,
 .page-banner__text .lead {
   margin: 16px 0 0;
 }
-.page-head + .section,
 .page-banner + .wrap > .section:first-child,
+.page-banner + .wrap--narrow > .section:first-child,
 .page-banner + .layout {
   padding-top: 36px;
 }
@@ -658,9 +657,6 @@ main:has(> .band:last-child) {
 }
 .page-banner h1 {
   color: var(--teal-dark);
-}
-.page-head {
-  padding: 40px 0 0;
 }
 .header__crumbs {
   min-width: 0;

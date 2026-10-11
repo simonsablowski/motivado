@@ -120,34 +120,40 @@ export function RatgeberHub() {
   const { data, loading } = useAsync(() => getJson<TopicInfo[]>('/content/ratgeber/topics.json'), []);
   if (!data) return <Loading loading={loading} />;
   return (
-    <div className="wrap">
-      <div className="page-head">
-        <Crumbs>
-          <Link to="/">Start</Link> / Ratgeber
-        </Crumbs>
-        <h1>Ratgeber</h1>
-        <p className="lead">Hintergrundwissen zu den Themen, bei denen wir mit unseren Modulen helfen.</p>
+    <>
+      <div className="page-banner">
+        <div className="wrap">
+          <div className="page-banner__text">
+            <Crumbs>
+              <Link to="/">Start</Link> / Ratgeber
+            </Crumbs>
+            <h1>Ratgeber</h1>
+            <p className="lead">Hintergrundwissen zu den Themen, bei denen wir mit unseren Modulen helfen.</p>
+          </div>
+        </div>
       </div>
-      <div className="topics section">
-        {data.map((t) => {
-          const meta = TOPIC_META[t.topic];
-          return (
-            <Link key={t.topic} className="topic" to={`/ratgeber/${t.topic}`}>
-              {meta && (
-                <div className="topic__image">
-                  <img src={GROUP_IMAGE[meta.image]} alt="" loading="lazy" />
+      <div className="wrap">
+        <div className="topics section">
+          {data.map((t) => {
+            const meta = TOPIC_META[t.topic];
+            return (
+              <Link key={t.topic} className="topic" to={`/ratgeber/${t.topic}`}>
+                {meta && (
+                  <div className="topic__image">
+                    <img src={GROUP_IMAGE[meta.image]} alt="" loading="lazy" />
+                  </div>
+                )}
+                <div className="topic__body">
+                  <h3>{t.title}</h3>
+                  <span className="topic__list">{meta?.blurb}</span>
+                  <span className="topic__count">{t.count} Artikel →</span>
                 </div>
-              )}
-              <div className="topic__body">
-                <h3>{t.title}</h3>
-                <span className="topic__list">{meta?.blurb}</span>
-                <span className="topic__count">{t.count} Artikel →</span>
-              </div>
-            </Link>
-          );
-        })}
+              </Link>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
@@ -165,71 +171,77 @@ export function RatgeberTopic() {
   if (error || !data) return <NotFound />;
   const meta = TOPIC_META[topic];
   return (
-    <div className="wrap">
-      <div className="page-head">
-        <Crumbs>
-          <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> / {data.title}
-        </Crumbs>
-        <h1>{data.heading}</h1>
-      </div>
-      {data.groups && data.groups.length > 0 && (
-        <nav className="chips" aria-label="Themen in diesem Ratgeber">
-          {data.groups.map((g) => (
-            <a key={g.id} className="chip--link" href={`#${g.id}`}>
-              {g.title} <span className="chip__count">{g.slugs.length}</span>
-            </a>
-          ))}
-        </nav>
-      )}
-      <div className="section">
-        <Blocks blocks={data.intro} />
-        {meta && (
-          <div className="offer">
-            <p className="offer__label">Lieber Schritt für Schritt begleitet werden?</p>
-            <Link className="button" to={`/themen/${meta.group}`}>
-              Zu den Modulen
-            </Link>
+    <>
+      <div className="page-banner">
+        <div className="wrap">
+          <div className="page-banner__text">
+            <Crumbs>
+              <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> / {data.title}
+            </Crumbs>
+            <h1>{data.heading}</h1>
           </div>
+        </div>
+      </div>
+      <div className="wrap">
+        {data.groups && data.groups.length > 0 && (
+          <nav className="chips" aria-label="Themen in diesem Ratgeber">
+            {data.groups.map((g) => (
+              <a key={g.id} className="chip--link" href={`#${g.id}`}>
+                {g.title} <span className="chip__count">{g.slugs.length}</span>
+              </a>
+            ))}
+          </nav>
+        )}
+        <div className="section">
+          <Blocks blocks={data.intro} />
+          {meta && (
+            <div className="offer">
+              <p className="offer__label">Lieber Schritt für Schritt begleitet werden?</p>
+              <Link className="button" to={`/themen/${meta.group}`}>
+                Zu den Modulen
+              </Link>
+            </div>
+          )}
+        </div>
+        {data.groups && data.groups.length > 0 ? (
+          <>
+            {data.groups.map((g) => (
+              <section className="section" id={g.id} key={g.id} aria-labelledby={`${g.id}-h`}>
+                <div className="section__head">
+                  <h2 id={`${g.id}-h`}>{g.title}</h2>
+                  <span className="hint">{g.slugs.length} Artikel</span>
+                </div>
+                <ul className="index">
+                  {g.slugs.map((slug) => (
+                    <li key={slug}>
+                      <Link to={`/ratgeber/${topic}/${slug}`}>
+                        {data.articles.find((a) => a.slug === slug)?.title ?? slug}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <p className="index__more">
+                  Das passende Video-Coaching: <Link to={g.link.to}>{g.link.label}</Link>
+                </p>
+              </section>
+            ))}
+          </>
+        ) : (
+          <section className="section" aria-labelledby="all-h">
+            <div className="section__head">
+              <h2 id="all-h">Alle Artikel ({data.articles.length})</h2>
+            </div>
+            <ul className="index">
+              {data.articles.map((a) => (
+                <li key={a.slug}>
+                  <Link to={`/ratgeber/${topic}/${a.slug}`}>{a.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
       </div>
-      {data.groups && data.groups.length > 0 ? (
-        <>
-          {data.groups.map((g) => (
-            <section className="section" id={g.id} key={g.id} aria-labelledby={`${g.id}-h`}>
-              <div className="section__head">
-                <h2 id={`${g.id}-h`}>{g.title}</h2>
-                <span className="hint">{g.slugs.length} Artikel</span>
-              </div>
-              <ul className="index">
-                {g.slugs.map((slug) => (
-                  <li key={slug}>
-                    <Link to={`/ratgeber/${topic}/${slug}`}>
-                      {data.articles.find((a) => a.slug === slug)?.title ?? slug}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <p className="index__more">
-                Das passende Video-Coaching: <Link to={g.link.to}>{g.link.label}</Link>
-              </p>
-            </section>
-          ))}
-        </>
-      ) : (
-        <section className="section" aria-labelledby="all-h">
-          <div className="section__head">
-            <h2 id="all-h">Alle Artikel ({data.articles.length})</h2>
-          </div>
-          <ul className="index">
-            {data.articles.map((a) => (
-              <li key={a.slug}>
-                <Link to={`/ratgeber/${topic}/${a.slug}`}>{a.title}</Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-    </div>
+    </>
   );
 }
 
@@ -257,39 +269,45 @@ export function RatgeberArticle() {
       ? [...list.slice(Math.max(0, at - 4), at), ...list.slice(at + 1, at + 5)]
       : [];
   return (
-    <div className="wrap--narrow">
-      <div className="page-head">
-        <Crumbs>
-          <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{' '}
-          <Link to={`/ratgeber/${topic}`}>{index.data?.title ?? topic}</Link>
-        </Crumbs>
-        <h1>{a.heading}</h1>
-      </div>
-      <div className="section">
-        <Blocks blocks={a.blocks} />
-      </div>
-      {meta && (
-        <div className="offer">
-          <p className="offer__label">Mehr dazu im interaktiven Video-Coaching zum Thema.</p>
-          <Link className="button" to={`/themen/${meta.group}`}>
-            Module ansehen
-          </Link>
-        </div>
-      )}
-      {related.length > 0 && (
-        <section className="section" aria-labelledby="more-h">
-          <div className="section__head">
-            <h2 id="more-h">Weitere Artikel</h2>
+    <>
+      <div className="page-banner">
+        <div className="wrap--narrow">
+          <div className="page-banner__text">
+            <Crumbs>
+              <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{' '}
+              <Link to={`/ratgeber/${topic}`}>{index.data?.title ?? topic}</Link>
+            </Crumbs>
+            <h1>{a.heading}</h1>
           </div>
-          <ul className="index index--single">
-            {related.map((r) => (
-              <li key={r.slug}>
-                <Link to={`/ratgeber/${topic}/${r.slug}`}>{r.title}</Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-    </div>
+        </div>
+      </div>
+      <div className="wrap--narrow">
+        <div className="section">
+          <Blocks blocks={a.blocks} />
+        </div>
+        {meta && (
+          <div className="offer">
+            <p className="offer__label">Mehr dazu im interaktiven Video-Coaching zum Thema.</p>
+            <Link className="button" to={`/themen/${meta.group}`}>
+              Module ansehen
+            </Link>
+          </div>
+        )}
+        {related.length > 0 && (
+          <section className="section" aria-labelledby="more-h">
+            <div className="section__head">
+              <h2 id="more-h">Weitere Artikel</h2>
+            </div>
+            <ul className="index index--single">
+              {related.map((r) => (
+                <li key={r.slug}>
+                  <Link to={`/ratgeber/${topic}/${r.slug}`}>{r.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </div>
+    </>
   );
 }
