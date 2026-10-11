@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import { ExpertsBox, ProductImage } from '../components/catalogue';
+import { ExpertsBox, ProductImage, modules } from '../components/catalogue';
 import { coachingTitle, modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { hasProgress } from '../lib/store';
@@ -76,14 +76,14 @@ export function ProductPage() {
           </div>
 
           <div className="strip">
-            <div className="strip__item">Interaktive Video-Coachings</div>
+            <div className="strip__item">Interaktives Video-Coaching</div>
             <div className="strip__item">Übungen, Checklisten und Tipps</div>
             <div className="strip__item">In Ihrem Tempo, jederzeit</div>
           </div>
 
           <section className="section" aria-labelledby="pkg-h">
             <div className="section__head">
-              <h2 id="pkg-h">Das Paket enthält {product.coachings.length} Coachings</h2>
+              <h2 id="pkg-h">Das Paket enthält {modules(product.coachings.length)}</h2>
             </div>
             <ol className="cards" style={{ listStyle: 'none', margin: 0, padding: 0 }}>
               {product.coachings.map((k, i) => {

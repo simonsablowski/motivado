@@ -25,8 +25,8 @@ export function Topic() {
   const g = site?.groups.find((x) => x.slug === group);
   const groupDescription = site?.categories.find((c) => c.path === group)?.description.split('\n')[0];
   usePageMeta(
-    g ? `${g.title}: Coachings` : 'Motivado',
-    groupDescription || (g ? `Video-Coachings zum Thema ${g.title}.` : undefined),
+    g ? `${g.title}: Module` : 'Motivado',
+    groupDescription || (g ? `Interaktives Video-Coaching zum Thema ${g.title}.` : undefined),
   );
   if (!site) return <Loading loading={loading} />;
   if (!g) return <NotFound />;

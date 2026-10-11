@@ -109,7 +109,10 @@ function CoachingMini({ site, catalogueKey }: { site: Site; catalogueKey: string
   );
 }
 
-/** A product ("Paket") as a box whose coachings fold out. */
+/** "1 Modul", "21 Module". */
+export const modules = (n: number) => (n === 1 ? '1 Modul' : `${n} Module`);
+
+/** A product ("Paket") as a box whose modules fold out. */
 export function Bundle({ site, product, group }: { site: Site; product: Product; group: string }) {
   const [open, setOpen] = useState(false);
   const experts = site.experts.filter((e) => product.experts.includes(e.id));
@@ -145,7 +148,7 @@ export function Bundle({ site, product, group }: { site: Site; product: Product;
         </div>
       </div>
       <div className="bundle__bar">
-        <span className="bundle__count">{product.coachings.length} Coachings</span>
+        <span className="bundle__count">{modules(product.coachings.length)}</span>
         <button
           type="button"
           className="toggle"

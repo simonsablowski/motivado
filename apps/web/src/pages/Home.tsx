@@ -1,6 +1,8 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { modules } from '../components/catalogue';
 import { activeGroups } from '../App';
-import { modelOf, useSite } from '../lib/api';
+import { getJson, modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { FEATURED_EXPERTS, GROUP_IMAGE } from '../lib/visuals';
 import { ExpertCard } from './Team';
@@ -8,9 +10,13 @@ import { Loading } from './Static';
 
 export function Home() {
   const { data: site, loading } = useSite();
+  const [stats, setStats] = useState<{ modules: number; hours: number; exercises: number } | null>(null);
+  useEffect(() => {
+    getJson<{ modules: number; hours: number; exercises: number }>('/content/stats.json').then(setStats, () => setStats(null));
+  }, []);
   usePageMeta(
     'Motivado – Coaching per Video',
-    'Interaktive Video-Coachings mit Experten zu Beziehung, Gesundheit, Karriere und Erziehung: individuell, in Ihrem Tempo, wann und wo Sie möchten.',
+    'Interaktives Video-Coaching mit Experten zu Beziehung, Gesundheit, Karriere und Erziehung: individuell, in Ihrem Tempo, wann und wo Sie möchten.',
   );
   if (!site) return <Loading loading={loading} />;
 
@@ -83,13 +89,30 @@ export function Home() {
                 <div className="topic__body">
                   <h3>{g.title}</h3>
                   <span className="topic__list">{products.slice(0, 3).map((p) => p.title).join(' · ')}</span>
-                  <span className="topic__count">{coachings.size} Coachings →</span>
+                  <span className="topic__count">{modules(coachings.size)} →</span>
                 </div>
               </Link>
             );
           })}
         </div>
       </section>
+
+      {stats && (
+        <section className="wrap facts" aria-label="Motivado in Zahlen">
+          <div className="fact">
+            <span className="fact__number">{stats.modules}</span>
+            <span className="fact__label">Module</span>
+          </div>
+          <div className="fact">
+            <span className="fact__number">{stats.hours}</span>
+            <span className="fact__label">Stunden Videomaterial</span>
+          </div>
+          <div className="fact">
+            <span className="fact__number">{stats.exercises}</span>
+            <span className="fact__label">Übungen</span>
+          </div>
+        </section>
+      )}
 
       <section className="band band--teal" aria-labelledby="how-h">
         <div className="wrap">

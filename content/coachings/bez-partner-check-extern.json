@@ -627,7 +627,7 @@
       "id": "n027",
       "type": "ListView",
       "key": "REL_PartCheck_PartnerPasstGut",
-      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Coachings: ",
+      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Module: ",
       "text": "",
       "props": {
         "video": {
@@ -658,7 +658,7 @@
       "id": "n028",
       "type": "ListView",
       "key": "REL_PartCheck_PartnerPasstNicht",
-      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Coachings: ",
+      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Module: ",
       "text": "",
       "props": {
         "video": {
@@ -685,7 +685,7 @@
       "id": "n029",
       "type": "ListView",
       "key": "REL_PartCheck_PartnerPasstUnsicher",
-      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Coachings: ",
+      "title": "Gehen Sie auf www.motivado.de/beziehung und durchlaufen Sie eines der folgenden Module: ",
       "text": "",
       "props": {
         "video": {
@@ -740,7 +740,7 @@
       "type": "Text",
       "key": "REL_PartCheck_Outro",
       "title": "Dies war ein Auszug aus unserem Coaching-Programm. ",
-      "text": "Wenn Sie mehr Coachings zu den Themen \n\n* Beziehung\n* Karriere\n* Gesundheit\n* Erziehung \n\nmöchten, kommen Sie zu uns auf \n\nwww. motivado.de\n\nUnsere Experten sind gerne für Sie da!",
+      "text": "Wenn Sie mehr Module zu den Themen \n\n* Beziehung\n* Karriere\n* Gesundheit\n* Erziehung \n\nmöchten, kommen Sie zu uns auf \n\nwww. motivado.de\n\nUnsere Experten sind gerne für Sie da!",
       "props": {},
       "next": [
         {

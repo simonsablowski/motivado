@@ -129,7 +129,7 @@
           },
           {
             "key": 3,
-            "value": "Weiter zu den passenden Coachings"
+            "value": "Weiter zu den passenden Modulen"
           }
         ]
       },
@@ -179,7 +179,7 @@
           },
           {
             "key": 3,
-            "value": "Weiter zu den passenden Coachings"
+            "value": "Weiter zu den passenden Modulen"
           }
         ]
       },
@@ -221,7 +221,7 @@
         "options": [
           {
             "key": 1,
-            "value": "Weiter zu den passenden Coachings"
+            "value": "Weiter zu den passenden Modulen"
           },
           {
             "key": 2,
@@ -275,7 +275,7 @@
           },
           {
             "key": 2,
-            "value": "Weiter zu den passenden Coachings"
+            "value": "Weiter zu den passenden Modulen"
           },
           {
             "key": 3,
@@ -850,7 +850,7 @@
       "id": "n029",
       "type": "Text",
       "key": null,
-      "title": "Um zu den passenden Coachings zu gelangen, klicken Sie auf Weiter",
+      "title": "Um zu den passenden Modulen zu gelangen, klicken Sie auf Weiter",
       "text": "",
       "props": {
         "video": {
@@ -867,7 +867,7 @@
       "id": "n030",
       "type": "Text",
       "key": null,
-      "title": "Um zu den passenden Coachings zu gelangen, klicken Sie auf Weiter",
+      "title": "Um zu den passenden Modulen zu gelangen, klicken Sie auf Weiter",
       "text": "",
       "props": {
         "video": {

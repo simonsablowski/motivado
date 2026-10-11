@@ -64,7 +64,7 @@ add({
   path: '/',
   title: 'Motivado – Coaching per Video',
   description:
-    'Interaktive Video-Coachings mit Experten zu Beziehung, Gesundheit, Karriere und Erziehung: individuell, in Ihrem Tempo, wann und wo Sie möchten.',
+    'Interaktives Video-Coaching mit Experten zu Beziehung, Gesundheit, Karriere und Erziehung: individuell, in Ihrem Tempo, wann und wo Sie möchten.',
 });
 
 for (const g of groups) {
@@ -72,8 +72,8 @@ for (const g of groups) {
   const c = categories.find((x) => x.path === g.slug);
   add({
     path: `/themen/${g.slug}`,
-    title: `${g.title}: Coachings`,
-    description: firstLine(c?.description) || `Video-Coachings zum Thema ${g.title}.`,
+    title: `${g.title}: Module`,
+    description: firstLine(c?.description) || `Interaktives Video-Coaching zum Thema ${g.title}.`,
   });
 }
 

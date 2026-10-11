@@ -441,7 +441,7 @@
       "type": "Text",
       "key": null,
       "title": "",
-      "text": "Sie dürften gute Chancen haben die Beziehung zu retten, wenn Sie nun nicht zu lange warten. Als erstes benötigen Sie eine Erklärung bzw. eine Entschuldigung, warum Sie sich getrennt haben. Außerdem braucht der Partner eine klare Vision, warum er/sie es nochmal mit Ihnen versuchen sollte. Dazu sollten Sie in die Coachings zum Beziehungsstärken einsteigen und mit den neu gewonnenen Informationen eine sehr gute Entschuldigung / Vision entwickeln.",
+      "text": "Sie dürften gute Chancen haben die Beziehung zu retten, wenn Sie nun nicht zu lange warten. Als erstes benötigen Sie eine Erklärung bzw. eine Entschuldigung, warum Sie sich getrennt haben. Außerdem braucht der Partner eine klare Vision, warum er/sie es nochmal mit Ihnen versuchen sollte. Dazu sollten Sie in die Module zum Beziehungsstärken einsteigen und mit den neu gewonnenen Informationen eine sehr gute Entschuldigung / Vision entwickeln.",
       "props": {},
       "next": [
         {
@@ -669,7 +669,7 @@
       "type": "Text",
       "key": null,
       "title": "",
-      "text": "Dieses Statement sollten Sie vorbereiten. Idealerweise bringen Sie es direkt vor, indem Sie den Anderen abpassen. Das kann eine tolle Wirkung haben. Ansonsten ist auch der klassische Anruf, um ein Treffen zu vereinbaren, eine sehr gute Variante. Wir empfehlen Ihnen vor diesem Treffen unbedingt unsere Coachings zur Stärkung Ihrer Beziehung zu machen. Wenn Sie hierzu noch Fragen haben, wenden Sie sich bitte an unsere Kundenbetreuung. ",
+      "text": "Dieses Statement sollten Sie vorbereiten. Idealerweise bringen Sie es direkt vor, indem Sie den Anderen abpassen. Das kann eine tolle Wirkung haben. Ansonsten ist auch der klassische Anruf, um ein Treffen zu vereinbaren, eine sehr gute Variante. Wir empfehlen Ihnen vor diesem Treffen unbedingt unsere Module zur Stärkung Ihrer Beziehung zu machen. Wenn Sie hierzu noch Fragen haben, wenden Sie sich bitte an unsere Kundenbetreuung. ",
       "props": {},
       "next": [
         {
@@ -738,7 +738,7 @@
       "type": "Text",
       "key": null,
       "title": "",
-      "text": "Sollte Ihr Partner nicht auf Ihren Wunsch eingehen, leiten wir Sie zu unseren weiteren Coachings zum Thema Rückeroberung. Auch wenn sich die Situation schwieriger darstellt, als Sie dachten, haben Sie noch Chancen, den anderen zurück zu erobern. Zunächst raten wir Ihnen aber, es mit Ihrer Erklärung zu probieren.",
+      "text": "Sollte Ihr Partner nicht auf Ihren Wunsch eingehen, leiten wir Sie zu unseren weiteren Modulen zum Thema Rückeroberung. Auch wenn sich die Situation schwieriger darstellt, als Sie dachten, haben Sie noch Chancen, den anderen zurück zu erobern. Zunächst raten wir Ihnen aber, es mit Ihrer Erklärung zu probieren.",
       "props": {},
       "next": [
         {
@@ -893,7 +893,7 @@
           },
           {
             "key": 2,
-            "value": "Zu Coachings um meine Beziehung zu stärken"
+            "value": "Zu Modulen um meine Beziehung zu stärken"
           }
         ]
       },

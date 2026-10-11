@@ -98,7 +98,7 @@ export function RatgeberHub() {
           <Link to="/">Start</Link> / Ratgeber
         </Crumbs>
         <h1>Ratgeber</h1>
-        <p className="lead">Hintergrundwissen zu den Themen, bei denen wir mit unseren Coachings helfen.</p>
+        <p className="lead">Hintergrundwissen zu den Themen, bei denen wir mit unseren Modulen helfen.</p>
       </div>
       <div className="topics section">
         {data.map((t) => {
@@ -144,7 +144,7 @@ export function RatgeberTopic() {
           <div className="offer">
             <p className="offer__label">Lieber Schritt für Schritt begleitet werden?</p>
             <Link className="button" to={`/themen/${meta.group}`}>
-              Zu den Coachings
+              Zu den Modulen
             </Link>
           </div>
         )}
@@ -191,9 +191,9 @@ export function RatgeberArticle() {
       </div>
       {meta && (
         <div className="offer">
-          <p className="offer__label">Persönlich begleitet: unsere Video-Coachings zum Thema.</p>
+          <p className="offer__label">Persönlich begleitet: unser interaktives Video-Coaching zum Thema.</p>
           <Link className="button" to={`/themen/${meta.group}`}>
-            Coachings ansehen
+            Module ansehen
           </Link>
         </div>
       )}

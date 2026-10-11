@@ -72,6 +72,28 @@ for (const f of ['groups', 'categories', 'experts', 'model-map']) {
   cpSync(join(source, 'site', `${f}.json`), join(target, 'site', `${f}.json`));
 }
 writeFileSync(join(target, 'site', 'launch.json'), JSON.stringify(site));
+// Numbers for the home page: modules, hours of video material and exercises of what ships.
+const media = existsSync(join(source, 'media.json')) ? JSON.parse(readFileSync(join(source, 'media.json'), 'utf8')) : {};
+const durationsFile = join(source, 'media-durations.json');
+const durations = existsSync(durationsFile) ? JSON.parse(readFileSync(durationsFile, 'utf8')) : {};
+const EXERCISE = new Set(['Options', 'TextInput', 'TextArea', 'Dropdown', 'List', 'ListView', 'Evaluation', 'Keywords', 'Group']);
+const videos = new Set();
+let exercises = 0;
+for (const k of keys) {
+  const c = JSON.parse(readFileSync(join(source, 'coachings', `${k}.json`), 'utf8'));
+  for (const n of Object.values(c.nodes)) {
+    const v = n.props?.video?.url;
+    if (v && media[v] && durations[v] !== undefined) videos.add(v);
+    if (EXERCISE.has(n.type)) exercises += 1;
+  }
+}
+let seconds = 0;
+for (const v of videos) seconds += durations[v];
+writeFileSync(
+  join(target, 'stats.json'),
+  JSON.stringify({ modules: keys.size, hours: Math.round(seconds / 3600), exercises }),
+);
+
 writeFileSync(join(target, 'site', 'products.json'), JSON.stringify(visibleProducts));
 writeFileSync(join(target, 'site', 'coachings.json'), JSON.stringify(meta));
 writeFileSync(join(target, 'index.json'), JSON.stringify(index.filter((c) => keys.has(c.key))));

@@ -469,6 +469,33 @@ main:has(> .band:last-child) {
   }
 }
 
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--gap-tiles);
+  margin-top: 64px;
+}
+.fact {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-bottom: 4px solid var(--line);
+  padding: 20px 24px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.fact__number {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--teal-dark);
+  font-variant-numeric: tabular-nums;
+}
+.fact__label {
+  font-weight: 650;
+  color: var(--muted);
+}
 .topics {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
