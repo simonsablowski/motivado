@@ -7,16 +7,16 @@
   --muted: #5c6470;
   --line: #d8d3c8;
   --line-strong: #a39e93; /* frames that must stay visible against the page colour */
-  /* palette taken from the logo: its orange, its blue-teal and its yellow */
-  --accent: #ffcd2c; /* yellow of the play button: text on it is --on-accent */
-  --accent-hover: #f2bb00;
-  --accent-dark: #1f5f6b; /* emphasis text on light grounds (yellow cannot be text): deep teal */
-  --accent-tint: #fff6d6;
+  /* palette taken from the logo: teal, charcoal and the light aquamarine of the play button */
+  --accent: #54d3c6; /* light aquamarine of the play button: text on it is --on-accent */
+  --accent-hover: #3dbfb2;
+  --accent-dark: #1f5f6b; /* emphasis text on light grounds (the light accent cannot be text): deep teal */
+  --accent-tint: #e1f7f4;
   --on-accent: #26292e;
   --teal: #2f7f8c; /* white text passes AA */
   --teal-dark: #1f5f6b;
   --tint: #e1eef1; /* fold-out boxes: clearly different from the page colour */
-  --sun: #ffcd2c;
+  --accent-light: #9bf0e4; /* aquamarine for text and numbers on the teal fields */
   --measure: 66ch;
   /* spacing between sibling tiles, used everywhere */
   --gap-tiles: 24px; /* tiles on the page: topics, claims, steps, experts, cards, boxes */
@@ -223,6 +223,114 @@ img {
   color: var(--accent-dark);
   text-decoration: underline;
 }
+/* burger menu: the toggle is hidden on wide screens */
+.nav__toggle {
+  display: none;
+}
+
+/* narrow screens: logo and burger in one row, breadcrumbs below, the menu opens as a list */
+@media (max-width: 900px) {
+  .sale-bar {
+    font-size: 0.82rem;
+    line-height: 1.4;
+  }
+  .sale-bar .wrap {
+    padding: 8px 0;
+  }
+  .header__inner {
+    min-height: 56px;
+    gap: 0 16px;
+    padding-block: 6px;
+  }
+  .logo img {
+    height: 30px;
+  }
+  .nav__toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: 44px;
+    height: 44px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0;
+  }
+  .nav__toggle-icon,
+  .nav__toggle-icon::before,
+  .nav__toggle-icon::after {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: var(--ink);
+    content: '';
+    transition: transform 0.15s, opacity 0.15s;
+  }
+  .nav__toggle-icon {
+    position: relative;
+  }
+  .nav__toggle-icon::before,
+  .nav__toggle-icon::after {
+    position: absolute;
+    left: 0;
+  }
+  .nav__toggle-icon::before {
+    top: -8px;
+  }
+  .nav__toggle-icon::after {
+    top: 8px;
+  }
+  .nav__toggle[aria-expanded='true'] .nav__toggle-icon {
+    background: transparent;
+  }
+  .nav__toggle[aria-expanded='true'] .nav__toggle-icon::before {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .nav__toggle[aria-expanded='true'] .nav__toggle-icon::after {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .header__inner .header__crumbs {
+    order: 3;
+    flex: 0 0 100%;
+    padding-bottom: 8px;
+  }
+  .header__inner .header__crumbs:empty {
+    display: none;
+  }
+  .nav {
+    display: none;
+    order: 4;
+    flex-basis: 100%;
+    flex-direction: column;
+    margin: 0;
+    gap: 0;
+    border-top: 1px solid var(--line);
+  }
+  .nav.is-open {
+    display: flex;
+  }
+  .nav__item {
+    width: 100%;
+  }
+  .nav__link {
+    display: block;
+    width: 100%;
+    padding: 14px 0;
+    text-align: left;
+    font-size: 1.05rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav__link[aria-current='page'] {
+    border-bottom-color: var(--line);
+    padding-left: 12px;
+    box-shadow: inset 3px 0 0 var(--teal);
+  }
+  .nav__link:hover {
+    border-bottom-color: var(--line);
+  }
+}
+
 @media (max-width: 1140px) {
   .nav__panel {
     display: none !important;
@@ -369,8 +477,8 @@ main:has(> .band:last-child) {
   color: var(--accent-dark);
 }
 .button--light:hover:not(:disabled) {
-  background: var(--sun);
-  border-color: var(--sun);
+  background: var(--accent-light);
+  border-color: var(--accent-light);
   color: var(--ink);
 }
 .actions {
@@ -411,14 +519,14 @@ main:has(> .band:last-child) {
 }
 .hero h1 em {
   font-style: normal;
-  color: var(--sun);
+  color: var(--accent-light);
 }
 .hero .lead {
   color: #fff;
   margin: 24px 0 32px;
   max-width: 56ch;
 }
-/* the hero button is the yellow one; on the teal field it turns white on hover */
+/* the hero button is the accent one; on the teal field it turns white on hover */
 .hero .button:hover:not(:disabled) {
   background: #fff;
   border-color: #fff;
@@ -557,7 +665,7 @@ main:has(> .band:last-child) {
   color: #fff;
 }
 .band--teal .eyebrow {
-  color: var(--sun);
+  color: var(--accent-light);
 }
 .band--paper {
   /* white field between the teal steps and the beige expert section */
@@ -599,7 +707,7 @@ main:has(> .band:last-child) {
   counter-increment: step;
   content: '0' counter(step);
   display: block;
-  color: var(--sun);
+  color: var(--accent-light);
   font-weight: 800;
   font-size: 1.4rem;
   margin-bottom: 4px;

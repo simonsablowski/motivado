@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw, ImageFont
 out = sys.argv[1].rstrip('/')
 TEAL = (47, 127, 140)
 WHITE = (255, 255, 255)
-SUN = (255, 208, 74)
+SUN = (155, 240, 228)
 INK = (38, 41, 46)
 W, H = 1200, 630
 

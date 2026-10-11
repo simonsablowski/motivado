@@ -14,15 +14,19 @@ import { Topic } from './pages/Topic';
 
 /** Groups that have at least one product on this release. */
 export function activeGroups(site: Site) {
-  return site.groups.filter((g) => site.products.some((p) => site.launch.includes(p.slug) && p.category.startsWith(g.slug)));
+  return site.groups.filter((g) =>
+    site.products.some((p) => site.launch.includes(p.slug) && p.category.startsWith(g.slug)),
+  );
 }
 
 function Layout() {
   const { data: site } = useSite();
   const { pathname } = useLocation();
   const [crumbsSlot, setCrumbsSlot] = useState<HTMLElement | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     window.scrollTo(0, 0);
+    setMenuOpen(false);
   }, [pathname]);
   return (
     <CrumbsSlot.Provider value={crumbsSlot}>
@@ -44,7 +48,17 @@ function Layout() {
             <img src="/logo.svg" alt="Motivado" width="203" height="38" />
           </Link>
           <div className="header__crumbs" ref={setCrumbsSlot} />
-          <nav className="nav" aria-label="Hauptnavigation">
+          <button
+            type="button"
+            className="nav__toggle"
+            aria-label={menuOpen ? 'Menü schließen' : 'Menü öffnen'}
+            aria-expanded={menuOpen}
+            aria-controls="main-nav"
+            onClick={() => setMenuOpen((open) => !open)}
+          >
+            <span className="nav__toggle-icon" aria-hidden="true" />
+          </button>
+          <nav id="main-nav" className={`nav${menuOpen ? ' is-open' : ''}`} aria-label="Hauptnavigation">
             {site &&
               activeGroups(site).map((g) => (
                 <div className="nav__item" key={g.slug}>

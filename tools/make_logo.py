@@ -14,7 +14,7 @@ SRC = sys.argv[1]
 OUT_DIR = sys.argv[2].rstrip('/')
 
 LETTERS = '#3c4046'
-PLAY = '#ffcd2c'         # yellow disc, the accent of the site
+PLAY = '#54d3c6'         # light aquamarine disc, the accent of the site
 TRIANGLE = '#3c4046'
 # the disc sits where the "o" belongs: between the m (ends x=477) and the t (starts x=818), on the x-height
 CX, CY, R = 647.0, 331.0, 142.0
