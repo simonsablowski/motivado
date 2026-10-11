@@ -138,7 +138,7 @@ img {
 }
 .nav {
   display: flex;
-  gap: 4px 0;
+  gap: 4px 2px;
   margin-left: auto;
   flex-wrap: wrap;
 }
@@ -178,7 +178,7 @@ img {
   grid-auto-columns: 230px;
   gap: 8px 36px;
   background: var(--paper);
-  border: 2px solid var(--line-strong);
+  border: 1px solid var(--line-strong);
   border-top: 4px solid var(--teal);
   padding: 20px 24px 22px;
   max-width: 100%;
@@ -395,79 +395,72 @@ main:has(> .band:last-child) {
 }
 
 /* ---- home ---------------------------------------------------------------------------------- */
-.hero__grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
-  gap: 24px 48px;
-  align-items: end;
-  padding-top: 64px;
+/* hero: full-bleed teal field, the three claims sit in it as lighter boxes */
+.hero {
+  background: var(--teal-dark);
+  color: #fff;
+  padding-bottom: 56px;
 }
 .hero__text {
-  padding-bottom: 72px;
+  padding-top: 72px;
 }
 .hero h1 {
-  color: var(--teal-dark);
-  max-width: 14ch;
+  color: #fff;
+  max-width: 22ch;
 }
 .hero h1 em {
   font-style: normal;
-  color: var(--accent);
+  color: var(--sun);
 }
 .hero .lead {
+  color: #d3e6e6;
   margin: 24px 0 32px;
+  max-width: 56ch;
 }
 .hero__actions {
   display: flex;
-  gap: 14px;
+  gap: 16px;
   flex-wrap: wrap;
 }
-.hero__image {
-  width: 100%;
-  height: auto;
-  align-self: end;
-}
-@media (max-width: 800px) {
-  .hero__grid {
-    grid-template-columns: 1fr;
-    padding-top: 40px;
-  }
-  .hero__text {
-    padding-bottom: 8px;
-  }
-  .hero__image {
-    max-width: 440px;
-  }
-}
-
-.benefits {
-  padding-top: 24px;
-}
-.benefits__grid {
+.claims {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 16px;
+  margin-top: 64px;
 }
-.benefit {
+.claim {
   display: grid;
-  grid-template-columns: 64px 1fr;
+  grid-template-columns: 48px minmax(0, 1fr);
   gap: 16px;
-  padding: 20px;
   align-items: start;
-  background: var(--paper);
-  border: 1px solid var(--line);
+  background: var(--teal);
+  padding: 20px;
 }
-.benefit img {
-  width: 64px;
-  height: 64px;
-  opacity: 0.85;
+.claim img {
+  width: 48px;
+  height: 48px;
+  /* the icons are dark grey on white: invert them, then screen the black away so only the strokes remain */
+  filter: invert(1) brightness(1.6);
+  mix-blend-mode: screen;
 }
-.benefit h3 {
+.claim__title {
+  font-size: 1.15rem;
+  line-height: 1.3;
   margin-bottom: 6px;
 }
-.benefit p {
+.claim p {
   margin: 0;
-  color: var(--muted);
+  color: #e3f0f0;
   font-size: 0.95rem;
+  line-height: 1.5;
+}
+@media (max-width: 800px) {
+  .hero__text {
+    padding-top: 40px;
+  }
+  .claims {
+    margin-top: 40px;
+  }
 }
 
 .topics {

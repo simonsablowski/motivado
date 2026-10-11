@@ -23,51 +23,44 @@ export function Home() {
   return (
     <>
       <section className="hero" aria-labelledby="hero-h">
-        <div className="wrap hero__grid">
-          <div className="hero__text">
-            <p className="eyebrow">Coaching per Video</p>
-            <h1 id="hero-h">
-              Persönliches Coaching, <em>wann Sie es brauchen.</em>
-            </h1>
-            <p className="lead">
-              Motivado bringt Experten zu Ihnen nach Hause: in kurzen Videos, mit Fragen und Übungen, die sich Ihrer
-              Situation anpassen. Besser als ein Buch, flexibler als ein Seminar.
-            </p>
-            <div className="hero__actions">
-              <a className="button" href="#themen">
-                Themen entdecken
-              </a>
-              {sample && (
-                <Link className="button button--quiet" to={`/coaching/${sample}`}>
-                  Coaching ausprobieren
-                </Link>
-              )}
-            </div>
+        <div className="wrap hero__text">
+          <h1 id="hero-h">
+            Persönliches Coaching, <em>wann Sie es brauchen.</em>
+          </h1>
+          <p className="lead">
+            Motivado bringt Experten zu Ihnen nach Hause: in kurzen Videos, mit Fragen und Übungen, die sich Ihrer
+            Situation anpassen. Besser als ein Buch, flexibler als ein Seminar.
+          </p>
+          <div className="hero__actions">
+            <a className="button" href="#themen">
+              Themen entdecken
+            </a>
+            {sample && (
+              <Link className="button button--light" to={`/coaching/${sample}`}>
+                Coaching ausprobieren
+              </Link>
+            )}
           </div>
-          <img className="hero__image photo" src="/img/hero.jpg" alt="" width="404" height="346" />
         </div>
-      </section>
-
-      <section className="benefits" aria-label="Das erwartet Sie">
-        <div className="wrap benefits__grid">
-          <div className="benefit">
-            <img src="/img/icons/video.png" alt="" width="64" height="64" className="photo" />
+        <div className="wrap claims">
+          <div className="claim">
+            <img src="/img/icons/video.png" alt="" width="64" height="64" />
             <div>
-              <h3>Coaching per Video</h3>
+              <h2 className="claim__title">Coaching per Video</h2>
               <p>Experten erklären Schritt für Schritt, was wirklich hilft.</p>
             </div>
           </div>
-          <div className="benefit">
-            <img src="/img/icons/fortschritt.png" alt="" width="64" height="64" className="photo" />
+          <div className="claim">
+            <img src="/img/icons/fortschritt.png" alt="" width="64" height="64" />
             <div>
-              <h3>Übungen mit Wirkung</h3>
+              <h2 className="claim__title">Übungen mit Wirkung</h2>
               <p>Fragen, Checklisten und Aufgaben machen aus Wissen Gewohnheit.</p>
             </div>
           </div>
-          <div className="benefit">
-            <img src="/img/icons/haende.png" alt="" width="64" height="64" className="photo" />
+          <div className="claim">
+            <img src="/img/icons/haende.png" alt="" width="64" height="64" />
             <div>
-              <h3>Individuell für Sie</h3>
+              <h2 className="claim__title">Individuell für Sie</h2>
               <p>Ihre Antworten bestimmen, wie es weitergeht.</p>
             </div>
           </div>
