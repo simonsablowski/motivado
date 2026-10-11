@@ -8,7 +8,7 @@
   --line: #d8d3c8;
   --line-strong: #a39e93; /* frames that must stay visible against the page colour */
   /* palette taken from the logo: its orange, its blue-teal and its yellow */
-  --accent: #f4a02c; /* logo orange (amber): text on it is --on-accent, not white */
+  --accent: #f28c28; /* logo orange: text on it is --on-accent, not white */
   --accent-dark: #a35200; /* orange for text on light grounds and for hover states */
   --accent-tint: #fdf0dc;
   --on-accent: #26292e;
