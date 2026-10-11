@@ -235,7 +235,7 @@ export function RatgeberTopic() {
                 ))}
               </ul>
               <p className="index__more">
-                Persönlich begleitet: <Link to={g.link.to}>{g.link.label}</Link>
+                Das passende Video-Coaching: <Link to={g.link.to}>{g.link.label}</Link>
               </p>
             </section>
           ))}
@@ -302,7 +302,7 @@ export function RatgeberArticle() {
       {meta && (
         <div className="offer">
           <p className="offer__label">
-            Persönlich begleitet: unser interaktives Video-Coaching zum Thema.
+            Mehr dazu im interaktiven Video-Coaching zum Thema.
           </p>
           <Link className="button" to={`/themen/${meta.group}`}>
             Module ansehen
