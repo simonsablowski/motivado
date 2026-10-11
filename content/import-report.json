@@ -3193,7 +3193,7 @@
     "issues": []
   },
   {
-    "key": "slc-abc",
+    "key": "ges-slc-abc",
     "file": "slc/xpdl/slc-abc.xpdl",
     "ok": true,
     "nodes": 8,
@@ -3201,7 +3201,7 @@
     "issues": []
   },
   {
-    "key": "slc-fitter",
+    "key": "ges-slc-fitter",
     "file": "slc/xpdl/slc-fitter.xpdl",
     "ok": true,
     "nodes": 56,
@@ -3300,7 +3300,7 @@
     ]
   },
   {
-    "key": "slc-hilfsmittel",
+    "key": "ges-slc-hilfsmittel",
     "file": "slc/xpdl/slc-hilfsmittel.xpdl",
     "ok": true,
     "nodes": 10,
@@ -3321,7 +3321,7 @@
     ]
   },
   {
-    "key": "slc-lifystyle",
+    "key": "ges-slc-lifystyle",
     "file": "slc/xpdl/slc-lifystyle.xpdl",
     "ok": true,
     "nodes": 11,
@@ -3354,7 +3354,7 @@
     ]
   },
   {
-    "key": "slc-nykturie",
+    "key": "ges-slc-nykturie",
     "file": "slc/xpdl/slc-nykturie.xpdl",
     "ok": true,
     "nodes": 3,
@@ -3362,7 +3362,7 @@
     "issues": []
   },
   {
-    "key": "slc-reduktion",
+    "key": "ges-slc-reduktion",
     "file": "slc/xpdl/slc-reduktion.xpdl",
     "ok": true,
     "nodes": 19,
@@ -3389,7 +3389,7 @@
     ]
   },
   {
-    "key": "slc-schicht",
+    "key": "ges-slc-schicht",
     "file": "slc/xpdl/slc-schicht.xpdl",
     "ok": true,
     "nodes": 6,
@@ -3397,7 +3397,7 @@
     "issues": []
   },
   {
-    "key": "slc-umgebung",
+    "key": "ges-slc-umgebung",
     "file": "slc/xpdl/slc-umgebung.xpdl",
     "ok": true,
     "nodes": 26,
@@ -3436,7 +3436,7 @@
     ]
   },
   {
-    "key": "slc-verhalten",
+    "key": "ges-slc-verhalten",
     "file": "slc/xpdl/slc-verhalten.xpdl",
     "ok": true,
     "nodes": 17,

@@ -57,7 +57,8 @@ const externalKeys = new Set<string>();
 
 const results: { coaching: Coaching; file: string; ok: boolean; issues: ImportIssue[] }[] = [];
 for (const file of findXpdl(resolve(source))) {
-  const key = basename(file, '.xpdl');
+  // the sleep coachings are filed as slc-* in the models and keyed ges-slc-* on the site
+  const key = basename(file, '.xpdl').replace(/^slc-/, 'ges-slc-');
   if (only && !only.includes(key)) continue;
   if (!/^[a-z0-9-]+$/.test(key)) {
     report.push({ key, file: relative(file), ok: false, nodes: 0, edges: 0, issues: [{ level: 'error', message: 'Invalid coaching key' }] });

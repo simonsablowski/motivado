@@ -12694,7 +12694,7 @@
   "kar-zielmarkt": [
    "Liste_Datenbanken_Firmen.pdf"
   ],
-  "slc-abc": [
+  "ges-slc-abc": [
    "SLC_SchlafUeberbl_V1.flv",
    "SLC_SchlafUeberbl_V2.flv",
    "SLC_SchlafUeberbl_V3.flv",
@@ -12706,7 +12706,7 @@
    "schlaf_rhythmus.jpg",
    "temperatur_rhythmus.jpg"
   ],
-  "slc-fitter": [
+  "ges-slc-fitter": [
    "SLC_Aktivitaeten_V1.flv",
    "SLC_Aktivitaeten_V10.flv",
    "SLC_Aktivitaeten_V12.flv",
@@ -12753,13 +12753,13 @@
    "SLC_Aktivitaeten_V9.flv",
    "SLC_Main_V12.flv"
   ],
-  "slc-hilfsmittel": [
+  "ges-slc-hilfsmittel": [
    "SLC_Hilfsmittel_V1.flv",
    "SLC_Hilfsmittel_V2.flv",
    "SLC_Hilfsmittel_V3.flv",
    "SLC_Hilfsmittel_V4.flv"
   ],
-  "slc-lifystyle": [
+  "ges-slc-lifystyle": [
    "SLC_Aktivitaeten_V29.flv",
    "SLC_Aktivitaeten_V30.flv",
    "SLC_Aktivitaeten_V32.flv",
@@ -12772,12 +12772,12 @@
    "SLC_Aktivitaeten_V39.flv",
    "SLC_Aktivitaeten_V6.flv"
   ],
-  "slc-nykturie": [
+  "ges-slc-nykturie": [
    "SLC_Nykturie_V1.flv",
    "SLC_Nykturie_V2.flv",
    "SLC_Nykturie_V3.flv"
   ],
-  "slc-reduktion": [
+  "ges-slc-reduktion": [
    "SLC_GeheimtippVF_V1.flv",
    "SLC_GeheimtippVF_V2.flv",
    "SLC_GeheimtippVF_V3.flv",
@@ -12795,8 +12795,8 @@
    "SLC_SchlafRed_V8.flv",
    "SLC_SchlafRed_V9.flv"
   ],
-  "slc-schicht": [],
-  "slc-umgebung": [
+  "ges-slc-schicht": [],
+  "ges-slc-umgebung": [
    "SLC_SchlafUmgeb_V1.flv",
    "SLC_SchlafUmgeb_V10.flv",
    "SLC_SchlafUmgeb_V11.flv",
@@ -12822,7 +12822,7 @@
    "SLC_SchlafUmgeb_V8.flv",
    "SLC_SchlafUmgeb_V9.flv"
   ],
-  "slc-verhalten": [
+  "ges-slc-verhalten": [
    "SLC_SchlafVerh_V1.flv",
    "SLC_SchlafVerh_V12.flv",
    "SLC_SchlafVerh_V14.flv",

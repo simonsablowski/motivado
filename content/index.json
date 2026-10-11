@@ -1152,56 +1152,56 @@
     "edges": 30
   },
   {
-    "key": "slc-abc",
-    "domain": "slc",
+    "key": "ges-slc-abc",
+    "domain": "ges",
     "nodes": 8,
     "edges": 10
   },
   {
-    "key": "slc-fitter",
-    "domain": "slc",
+    "key": "ges-slc-fitter",
+    "domain": "ges",
     "nodes": 56,
     "edges": 85
   },
   {
-    "key": "slc-hilfsmittel",
-    "domain": "slc",
+    "key": "ges-slc-hilfsmittel",
+    "domain": "ges",
     "nodes": 10,
     "edges": 17
   },
   {
-    "key": "slc-lifystyle",
-    "domain": "slc",
+    "key": "ges-slc-lifystyle",
+    "domain": "ges",
     "nodes": 11,
     "edges": 17
   },
   {
-    "key": "slc-nykturie",
-    "domain": "slc",
+    "key": "ges-slc-nykturie",
+    "domain": "ges",
     "nodes": 3,
     "edges": 5
   },
   {
-    "key": "slc-reduktion",
-    "domain": "slc",
+    "key": "ges-slc-reduktion",
+    "domain": "ges",
     "nodes": 19,
     "edges": 24
   },
   {
-    "key": "slc-schicht",
-    "domain": "slc",
+    "key": "ges-slc-schicht",
+    "domain": "ges",
     "nodes": 6,
     "edges": 7
   },
   {
-    "key": "slc-umgebung",
-    "domain": "slc",
+    "key": "ges-slc-umgebung",
+    "domain": "ges",
     "nodes": 26,
     "edges": 41
   },
   {
-    "key": "slc-verhalten",
-    "domain": "slc",
+    "key": "ges-slc-verhalten",
+    "domain": "ges",
     "nodes": 17,
     "edges": 33
   }

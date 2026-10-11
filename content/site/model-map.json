@@ -1,11 +1,11 @@
 {
-  "_comment": "Catalogue coaching key -> model key, where the model was filed under a different name (sleep coach 'slc-*'). Confirmed by the owner: slc is the sleep coaching.",
-  "ges-schlaf-ueberblick": "slc-abc",
-  "ges-schlaf-aktivitaeten": "slc-fitter",
-  "ges-schlaf-einschlafhilfen": "slc-hilfsmittel",
-  "ges-schlaf-wasserlassen": "slc-nykturie",
-  "ges-schlaf-reduktion": "slc-reduktion",
-  "ges-schlaf-schicht": "slc-schicht",
-  "ges-schlaf-schlafumgebung": "slc-umgebung",
-  "ges-schlaf-schlafverhalten": "slc-verhalten"
+  "_comment": "Catalogue coaching key -> model key, where the model was filed under a different name (sleep coach, keyed 'ges-slc-*'). Confirmed by the owner: slc is the sleep coaching.",
+  "ges-schlaf-ueberblick": "ges-slc-abc",
+  "ges-schlaf-aktivitaeten": "ges-slc-fitter",
+  "ges-schlaf-einschlafhilfen": "ges-slc-hilfsmittel",
+  "ges-schlaf-wasserlassen": "ges-slc-nykturie",
+  "ges-schlaf-reduktion": "ges-slc-reduktion",
+  "ges-schlaf-schicht": "ges-slc-schicht",
+  "ges-schlaf-schlafumgebung": "ges-slc-umgebung",
+  "ges-schlaf-schlafverhalten": "ges-slc-verhalten"
 }

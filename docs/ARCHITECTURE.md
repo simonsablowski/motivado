@@ -107,7 +107,7 @@ Graph tags (Ratgeber articles also carry their text), plus `sitemap.xml` and
 
 ## Known gaps
 
-* The sleep coachings are filed under `slc-*` in the models and under
+* The sleep coachings are filed under `slc-*` in the models, are keyed `ges-slc-*` here and are listed under
   `ges-schlaf-*` in the catalogue; the mapping in
   `content/site/model-map.json` is confirmed.
 * Smoking cessation (`ges-rau-*`) and a few other catalogue coachings have no
