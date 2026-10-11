@@ -677,5 +677,23 @@
       "kar-selbstmarketing",
       "kar-unterlagen"
     ]
+  },
+  {
+    "slug": "bewerbungsstrategie",
+    "path": "karriere/jobsuche-bewerbung/bewerbungsstrategie",
+    "category": "karriere/jobsuche-bewerbung",
+    "title": "Bewerbungsstrategie und Start",
+    "subtitle": "Von der Zielliste bis zu den ersten 100 Tagen",
+    "description": "Fünf Module für alles, was nach der Bewerbungsmappe kommt: den passenden Zielmarkt finden, Kontakte und Initiativbewerbungen nutzen, den ersten Kontakt herstellen und im neuen Job gut starten.",
+    "experts": [
+      4
+    ],
+    "coachings": [
+      "kar-zielmarkt",
+      "kar-stellenauswahl",
+      "kar-initiativ",
+      "kar-erster-anruf",
+      "kar-start-job"
+    ]
   }
 ]
