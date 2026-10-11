@@ -16,7 +16,20 @@ export function ProductPage() {
   const group = site.groups.find((g) => product.category.startsWith(g.slug));
   const category = site.categories.find((c) => c.path === product.category);
   const experts = site.experts.filter((e) => product.experts.includes(e.id));
-  const paragraphs = product.description.split('\n').filter((l) => l.trim());
+  const lines = product.description
+    .split('\n')
+    .map((l) => l.trim())
+    .filter((l) => l && !/^\(s\.u\.\)$/i.test(l));
+  // consecutive "•" lines form one list, everything else is a paragraph
+  const blocks: ({ text: string } | { items: string[] })[] = [];
+  for (const line of lines) {
+    if (line.startsWith('•')) {
+      const item = line.replace(/^•\s*/, '');
+      const last = blocks[blocks.length - 1];
+      if (last && 'items' in last) last.items.push(item);
+      else blocks.push({ items: [item] });
+    } else blocks.push({ text: line });
+  }
 
   return (
     <>
@@ -46,9 +59,17 @@ export function ProductPage() {
                   ))}
                 </div>
               )}
-              {paragraphs.map((line, i) => (
-                <p key={i}>{line}</p>
-              ))}
+              {blocks.map((b, i) =>
+                'items' in b ? (
+                  <ul key={i}>
+                    {b.items.map((item, j) => (
+                      <li key={j}>{item}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p key={i}>{b.text}</p>
+                ),
+              )}
             </div>
             <ProductImage product={product} group={group?.slug} className="product-head__image" />
           </div>
