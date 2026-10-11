@@ -558,6 +558,16 @@ main:has(> .band:last-child) {
 .band--teal .eyebrow {
   color: var(--sun);
 }
+.band--paper {
+  /* white field between the teal steps and the beige expert section */
+  background: var(--paper);
+  margin-top: 0;
+}
+.band--paper .fact {
+  background: var(--stage);
+  border: 0;
+  border-bottom: 4px solid var(--teal);
+}
 .band--accent {
   background: var(--accent);
   color: var(--on-accent);
