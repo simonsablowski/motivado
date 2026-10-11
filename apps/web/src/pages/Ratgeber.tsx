@@ -235,7 +235,8 @@ export function RatgeberTopic() {
                 ))}
               </ul>
               <p className="index__more">
-                Das passende Video-Coaching: <Link to={g.link.to}>{g.link.label}</Link>
+                Das passende Video-Coaching:{" "}
+                <Link to={g.link.to}>{g.link.label}</Link>
               </p>
             </section>
           ))}
