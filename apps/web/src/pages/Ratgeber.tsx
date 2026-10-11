@@ -1,9 +1,9 @@
-import { Link, useParams } from "react-router-dom";
-import { getJson, useAsync } from "../lib/api";
-import { usePageMeta } from "../lib/meta";
-import { GROUP_IMAGE } from "../lib/visuals";
-import { Loading, NotFound } from "./Static";
-import { Crumbs } from "../components/Crumbs";
+import { Link, useParams } from 'react-router-dom';
+import { getJson, useAsync } from '../lib/api';
+import { usePageMeta } from '../lib/meta';
+import { GROUP_IMAGE } from '../lib/visuals';
+import { Loading, NotFound } from './Static';
+import { Crumbs } from '../components/Crumbs';
 
 interface Segment {
   t: string;
@@ -12,9 +12,7 @@ interface Segment {
   href?: string;
 }
 type Block =
-  | { t: "h"; level: number; text: string }
-  | { t: "p"; inline: Segment[] }
-  | { t: "ul" | "ol"; items: Segment[][] };
+  { t: 'h'; level: number; text: string } | { t: 'p'; inline: Segment[] } | { t: 'ul' | 'ol'; items: Segment[][] };
 
 interface TopicInfo {
   topic: string;
@@ -46,34 +44,31 @@ interface Article {
 }
 
 /** Topic -> photo and the coaching topic page it leads to. */
-const TOPIC_META: Record<
-  string,
-  { image: string; group: string; blurb: string }
-> = {
+const TOPIC_META: Record<string, { image: string; group: string; blurb: string }> = {
   beziehung: {
-    image: "beziehung",
-    group: "beziehung",
-    blurb: "Liebe, Partnerschaft, Trennung und Dating.",
+    image: 'beziehung',
+    group: 'beziehung',
+    blurb: 'Liebe, Partnerschaft, Trennung und Dating.',
   },
   abnehmen: {
-    image: "gesundheit",
-    group: "gesundheit",
-    blurb: "Ernährung, Bewegung und Motivation.",
+    image: 'gesundheit',
+    group: 'gesundheit',
+    blurb: 'Ernährung, Bewegung und Motivation.',
   },
   schlafen: {
-    image: "schlafen",
-    group: "gesundheit",
-    blurb: "Besser einschlafen, durchschlafen und erholt aufwachen.",
+    image: 'schlafen',
+    group: 'gesundheit',
+    blurb: 'Besser einschlafen, durchschlafen und erholt aufwachen.',
   },
   bewerbung: {
-    image: "karriere",
-    group: "karriere",
-    blurb: "Bewerbung, Vorstellungsgespräch und Karriere.",
+    image: 'karriere',
+    group: 'karriere',
+    blurb: 'Bewerbung, Vorstellungsgespräch und Karriere.',
   },
   erziehung: {
-    image: "erziehung",
-    group: "erziehung",
-    blurb: "Kinder stärken, Konflikte lösen, Mobbing begegnen.",
+    image: 'erziehung',
+    group: 'erziehung',
+    blurb: 'Kinder stärken, Konflikte lösen, Mobbing begegnen.',
   },
 };
 
@@ -95,13 +90,8 @@ function Blocks({ blocks }: { blocks: Block[] }) {
   return (
     <div className="article">
       {blocks.map((b, i) => {
-        if (b.t === "h")
-          return b.level <= 2 ? (
-            <h2 key={i}>{b.text}</h2>
-          ) : (
-            <h3 key={i}>{b.text}</h3>
-          );
-        if (b.t === "p")
+        if (b.t === 'h') return b.level <= 2 ? <h2 key={i}>{b.text}</h2> : <h3 key={i}>{b.text}</h3>;
+        if (b.t === 'p')
           return (
             <p key={i}>
               <Inline segments={b.inline} />
@@ -124,13 +114,10 @@ function Blocks({ blocks }: { blocks: Block[] }) {
 
 export function RatgeberHub() {
   usePageMeta(
-    "Ratgeber",
-    "Ratgeber zu Beziehung, Abnehmen, Schlafen, Bewerbung und Erziehung: Wissen, das weiterhilft.",
+    'Ratgeber',
+    'Ratgeber zu Beziehung, Abnehmen, Schlafen, Bewerbung und Erziehung: Wissen, das weiterhilft.',
   );
-  const { data, loading } = useAsync(
-    () => getJson<TopicInfo[]>("/content/ratgeber/topics.json"),
-    [],
-  );
+  const { data, loading } = useAsync(() => getJson<TopicInfo[]>('/content/ratgeber/topics.json'), []);
   if (!data) return <Loading loading={loading} />;
   return (
     <div className="wrap">
@@ -139,10 +126,7 @@ export function RatgeberHub() {
           <Link to="/">Start</Link> / Ratgeber
         </Crumbs>
         <h1>Ratgeber</h1>
-        <p className="lead">
-          Hintergrundwissen zu den Themen, bei denen wir mit unseren Modulen
-          helfen.
-        </p>
+        <p className="lead">Hintergrundwissen zu den Themen, bei denen wir mit unseren Modulen helfen.</p>
       </div>
       <div className="topics section">
         {data.map((t) => {
@@ -168,16 +152,14 @@ export function RatgeberHub() {
 }
 
 export function RatgeberTopic() {
-  const { topic = "" } = useParams();
+  const { topic = '' } = useParams();
   const { data, loading, error } = useAsync(
     () => getJson<TopicIndex>(`/content/ratgeber/${topic}/index.json`),
     [topic],
   );
   usePageMeta(
-    data ? `Ratgeber ${data.title}` : "Ratgeber",
-    data?.articles.length
-      ? `${data.articles.length} Artikel im Ratgeber ${data.title}.`
-      : undefined,
+    data ? `Ratgeber ${data.title}` : 'Ratgeber',
+    data?.articles.length ? `${data.articles.length} Artikel im Ratgeber ${data.title}.` : undefined,
   );
   if (loading) return <Loading />;
   if (error || !data) return <NotFound />;
@@ -186,18 +168,24 @@ export function RatgeberTopic() {
     <div className="wrap">
       <div className="page-head">
         <Crumbs>
-          <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{" "}
-          {data.title}
+          <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> / {data.title}
         </Crumbs>
         <h1>{data.heading}</h1>
       </div>
+      {data.groups && data.groups.length > 0 && (
+        <nav className="chips" aria-label="Themen in diesem Ratgeber">
+          {data.groups.map((g) => (
+            <a key={g.id} className="chip--link" href={`#${g.id}`}>
+              {g.title} <span className="chip__count">{g.slugs.length}</span>
+            </a>
+          ))}
+        </nav>
+      )}
       <div className="section">
         <Blocks blocks={data.intro} />
         {meta && (
           <div className="offer">
-            <p className="offer__label">
-              Lieber Schritt für Schritt begleitet werden?
-            </p>
+            <p className="offer__label">Lieber Schritt für Schritt begleitet werden?</p>
             <Link className="button" to={`/themen/${meta.group}`}>
               Zu den Modulen
             </Link>
@@ -206,20 +194,8 @@ export function RatgeberTopic() {
       </div>
       {data.groups && data.groups.length > 0 ? (
         <>
-          <nav className="chips" aria-label="Themen in diesem Ratgeber">
-            {data.groups.map((g) => (
-              <a key={g.id} className="chip--link" href={`#${g.id}`}>
-                {g.title} <span className="chip__count">{g.slugs.length}</span>
-              </a>
-            ))}
-          </nav>
           {data.groups.map((g) => (
-            <section
-              className="section"
-              id={g.id}
-              key={g.id}
-              aria-labelledby={`${g.id}-h`}
-            >
+            <section className="section" id={g.id} key={g.id} aria-labelledby={`${g.id}-h`}>
               <div className="section__head">
                 <h2 id={`${g.id}-h`}>{g.title}</h2>
                 <span className="hint">{g.slugs.length} Artikel</span>
@@ -228,15 +204,13 @@ export function RatgeberTopic() {
                 {g.slugs.map((slug) => (
                   <li key={slug}>
                     <Link to={`/ratgeber/${topic}/${slug}`}>
-                      {data.articles.find((a) => a.slug === slug)?.title ??
-                        slug}
+                      {data.articles.find((a) => a.slug === slug)?.title ?? slug}
                     </Link>
                   </li>
                 ))}
               </ul>
               <p className="index__more">
-                Das passende Video-Coaching:{" "}
-                <Link to={g.link.to}>{g.link.label}</Link>
+                Das passende Video-Coaching: <Link to={g.link.to}>{g.link.label}</Link>
               </p>
             </section>
           ))}
@@ -260,16 +234,10 @@ export function RatgeberTopic() {
 }
 
 export function RatgeberArticle() {
-  const { topic = "", slug = "" } = useParams();
-  const article = useAsync(
-    () => getJson<Article>(`/content/ratgeber/${topic}/${slug}.json`),
-    [topic, slug],
-  );
-  const index = useAsync(
-    () => getJson<TopicIndex>(`/content/ratgeber/${topic}/index.json`),
-    [topic],
-  );
-  usePageMeta(article.data?.title ?? "Ratgeber", article.data?.description);
+  const { topic = '', slug = '' } = useParams();
+  const article = useAsync(() => getJson<Article>(`/content/ratgeber/${topic}/${slug}.json`), [topic, slug]);
+  const index = useAsync(() => getJson<TopicIndex>(`/content/ratgeber/${topic}/index.json`), [topic]);
+  usePageMeta(article.data?.title ?? 'Ratgeber', article.data?.description);
   if (article.loading) return <Loading />;
   if (article.error || !article.data) return <NotFound />;
   const a = article.data;
@@ -292,7 +260,7 @@ export function RatgeberArticle() {
     <div className="wrap--narrow">
       <div className="page-head">
         <Crumbs>
-          <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{" "}
+          <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{' '}
           <Link to={`/ratgeber/${topic}`}>{index.data?.title ?? topic}</Link>
         </Crumbs>
         <h1>{a.heading}</h1>
@@ -302,9 +270,7 @@ export function RatgeberArticle() {
       </div>
       {meta && (
         <div className="offer">
-          <p className="offer__label">
-            Mehr dazu im interaktiven Video-Coaching zum Thema.
-          </p>
+          <p className="offer__label">Mehr dazu im interaktiven Video-Coaching zum Thema.</p>
           <Link className="button" to={`/themen/${meta.group}`}>
             Module ansehen
           </Link>
