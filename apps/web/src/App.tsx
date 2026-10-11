@@ -41,7 +41,7 @@ function Layout() {
       <header className="header">
         <div className="wrap header__inner">
           <Link to="/" className="logo" aria-label="Motivado – zur Startseite">
-            <img src="/logo.png" alt="Motivado" width="215" height="55" />
+            <img src="/logo.svg" alt="Motivado" width="180" height="46" />
           </Link>
           <div className="header__crumbs" ref={setCrumbsSlot} />
           <nav className="nav" aria-label="Hauptnavigation">
