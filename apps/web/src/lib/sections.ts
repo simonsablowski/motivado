@@ -21,8 +21,10 @@ const SECTIONS: Record<string, { title: string; packages: string[] }[]> = {
         'vom-date-zur-beziehung',
       ],
     },
-    { title: 'Anziehung und Erotik', packages: ['besser-aussehen', 'verfuehrung'] },
-    { title: 'Beziehung leben', packages: ['beziehung-starken', 'balance-in-der-beziehung', 'eifersucht'] },
+    {
+      title: 'Beziehung und Erotik',
+      packages: ['beziehung-starken', 'balance-in-der-beziehung', 'eifersucht', 'besser-aussehen', 'verfuehrung'],
+    },
     {
       title: 'Krise und Trennung',
       packages: ['ex-zurueck', 'liebeskummer', 'betrogen-wordenbez-bet-paket', 'die-affare', 'sich-trennen'],
