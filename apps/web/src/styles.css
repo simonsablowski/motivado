@@ -758,6 +758,36 @@ main:has(> .band:last-child) {
 .index--single {
   columns: 1;
 }
+.index__more {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: var(--gap-tiles);
+}
+.chip--link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 14px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  color: var(--teal-dark);
+  font-weight: 650;
+  text-decoration: none;
+}
+.chip--link:hover {
+  border-color: var(--teal);
+}
+.chip__count {
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
 
 /* ---- player -------------------------------------------------------------------------------- */
 .coaching-head {
