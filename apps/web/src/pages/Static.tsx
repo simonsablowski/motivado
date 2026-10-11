@@ -1,17 +1,21 @@
-import { Link } from 'react-router-dom';
-import { usePageMeta } from '../lib/meta';
-import { SITE } from '../site.config';
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { getJson } from "../lib/api";
+import { usePageMeta } from "../lib/meta";
+import { SITE } from "../site.config";
 
 export function Loading({ loading = true }: { loading?: boolean }) {
   return (
     <div className="wrap state" role="status">
-      {loading ? 'Lädt …' : 'Die Inhalte konnten nicht geladen werden. Bitte versuchen Sie es später noch einmal.'}
+      {loading
+        ? "Lädt …"
+        : "Die Inhalte konnten nicht geladen werden. Bitte versuchen Sie es später noch einmal."}
     </div>
   );
 }
 
 export function NotFound() {
-  usePageMeta('Seite nicht gefunden');
+  usePageMeta("Seite nicht gefunden");
   return (
     <div className="wrap--narrow">
       <div className="page-head">
@@ -26,16 +30,60 @@ export function NotFound() {
   );
 }
 
+/** Photographers of the Unsplash photos used on the site (content/site/photos.json). */
+function PhotoCredits() {
+  const [names, setNames] = useState<string[]>([]);
+  useEffect(() => {
+    getJson<Record<string, { by?: string }>>("/content/site/photos.json").then(
+      (photos) => {
+        const by = Object.entries(photos)
+          .filter(([k]) => !k.startsWith("_"))
+          .map(([, p]) => p.by)
+          .filter((n): n is string => Boolean(n));
+        setNames([...new Set(by)].sort((a, b) => a.localeCompare(b, "de")));
+      },
+      () => setNames([]),
+    );
+  }, []);
+  return (
+    <>
+      <h2>Bildnachweis</h2>
+      <p>
+        Die Fotografien auf dieser Website stammen von{" "}
+        <a
+          href="https://unsplash.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Unsplash
+        </a>{" "}
+        und werden unter der{" "}
+        <a
+          href="https://unsplash.com/license"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Unsplash-Lizenz
+        </a>{" "}
+        verwendet.
+        {names.length > 0 && (
+          <> Fotografinnen und Fotografen: {names.join(", ")}.</>
+        )}
+      </p>
+    </>
+  );
+}
+
 /**
  * Legal pages. The operator's details live in site.config.ts (§ 5 DDG, DSGVO).
  */
-export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
-  const impressum = page === 'impressum';
-  usePageMeta(impressum ? 'Impressum' : 'Datenschutz');
+export function Legal({ page }: { page: "impressum" | "datenschutz" }) {
+  const impressum = page === "impressum";
+  usePageMeta(impressum ? "Impressum" : "Datenschutz");
   return (
     <div className="wrap--narrow">
       <div className="page-head">
-        <h1>{impressum ? 'Impressum' : 'Datenschutz'}</h1>
+        <h1>{impressum ? "Impressum" : "Datenschutz"}</h1>
       </div>
       <div className="prose section">
         {impressum ? (
@@ -50,24 +98,29 @@ export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
             </p>
             <h2>Kontakt</h2>
             <p>
-              E-Mail: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
+              E-Mail:{" "}
+              <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
             </p>
+            <PhotoCredits />
           </>
         ) : (
           <>
             <p>
-              Diese Website speichert Ihre Antworten im Coaching ausschließlich lokal in Ihrem Browser (localStorage).
-              Es werden keine Cookies zu Werbezwecken gesetzt und keine Daten an Dritte übermittelt.
+              Diese Website speichert Ihre Antworten im Coaching ausschließlich
+              lokal in Ihrem Browser (localStorage). Es werden keine Cookies zu
+              Werbezwecken gesetzt und keine Daten an Dritte übermittelt.
             </p>
             <p>
-              Die Videos werden von unserem Medienserver ausgeliefert. Dabei verarbeitet der Hosting-Anbieter technisch
-              notwendige Verbindungsdaten (z. B. IP-Adresse).
+              Die Videos werden von unserem Medienserver ausgeliefert. Dabei
+              verarbeitet der Hosting-Anbieter technisch notwendige
+              Verbindungsdaten (z. B. IP-Adresse).
             </p>
             <h2>Verantwortlicher</h2>
             <p>
               {SITE.operator.name}, {SITE.operator.street}, {SITE.operator.city}
               <br />
-              E-Mail: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
+              E-Mail:{" "}
+              <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
             </p>
           </>
         )}

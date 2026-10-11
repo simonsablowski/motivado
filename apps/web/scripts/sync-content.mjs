@@ -68,7 +68,7 @@ for (const k of [...keys]) {
 for (const k of keys) cpSync(join(source, 'coachings', `${k}.json`), join(target, 'coachings', `${k}.json`));
 
 mkdirSync(join(target, 'site'), { recursive: true });
-for (const f of ['groups', 'categories', 'experts', 'model-map']) {
+for (const f of ['groups', 'categories', 'experts', 'model-map', 'photos']) {
   cpSync(join(source, 'site', `${f}.json`), join(target, 'site', `${f}.json`));
 }
 writeFileSync(join(target, 'site', 'launch.json'), JSON.stringify(site));
