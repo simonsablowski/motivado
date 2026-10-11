@@ -923,7 +923,8 @@ main:has(> .band:last-child) {
 }
 .player__grid {
   display: grid;
-  grid-template-columns: minmax(0, 820px);
+  /* the same width for every kind of step: with a video the stage and the panel share it, without the panel takes it all */
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--gap-tiles);
   align-items: start;
 }
@@ -1755,9 +1756,6 @@ a.mini__title:hover {
   background: var(--paper);
   border: 1px solid var(--line);
   border-top: 4px solid var(--teal);
-}
-.playerbar--narrow {
-  max-width: 820px;
 }
 .playerbar__progress {
   flex: 1;

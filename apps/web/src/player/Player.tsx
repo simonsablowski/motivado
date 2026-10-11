@@ -340,7 +340,6 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
         </div>
       </div>
       <PlayerBar
-        narrow={!hasVideo}
         canGoBack={canGoBack}
         onBack={goBack}
         step={history.length}

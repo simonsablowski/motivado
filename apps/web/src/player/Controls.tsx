@@ -82,19 +82,16 @@ export function PlayerBar({
   step,
   total,
   primary,
-  narrow,
 }: {
   canGoBack: boolean;
   onBack: () => void;
   step: number;
   total: number;
   primary: React.ReactNode;
-  /** Same width as a single-column step (no video). */
-  narrow?: boolean;
 }) {
   const percent = Math.min(100, Math.round((step / total) * 100));
   return (
-    <div className={`playerbar${narrow ? ' playerbar--narrow' : ''}`} role="navigation" aria-label="Schritte">
+    <div className="playerbar" role="navigation" aria-label="Schritte">
       <button type="button" className="button button--text" disabled={!canGoBack} onClick={onBack}>
         ‹ Zurück
       </button>
