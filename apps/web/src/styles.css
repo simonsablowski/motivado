@@ -1328,7 +1328,8 @@ a.mini__title:hover {
   margin-top: var(--gap-tiles);
 }
 .strip__item {
-  background: var(--tint);
+  background: var(--paper);
+  border: 1px solid var(--line);
   color: var(--teal-dark);
   padding: 14px 16px 14px 42px;
   position: relative;
