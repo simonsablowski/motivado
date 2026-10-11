@@ -7,15 +7,15 @@
   --muted: #5c6470;
   --line: #d8d3c8;
   --line-strong: #a39e93; /* frames that must stay visible against the page colour */
-  /* palette taken from the logo: its orange, its blue-teal and its yellow */
-  --accent: #f4a02c; /* logo orange (amber): text on it is --on-accent, not white */
-  --accent-dark: #a35200; /* orange for text on light grounds and for hover states */
-  --accent-tint: #fdf0dc;
+  /* palette taken from the logo: its coral, its blue-teal and its yellow */
+  --accent: #f0866a; /* logo coral: text on it is --on-accent, not white */
+  --accent-dark: #b03f24; /* coral for text on light grounds and for hover states */
+  --accent-tint: #fdece6;
   --on-accent: #26292e;
   --teal: #2f7f8c; /* white text passes AA */
   --teal-dark: #1f5f6b;
   --tint: #e1eef1; /* fold-out boxes: clearly different from the page colour */
-  --sun: #f6d655;
+  --sun: #ffd04a;
   --measure: 66ch;
   --gutter: 20px;
   --font: ui-sans-serif, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
