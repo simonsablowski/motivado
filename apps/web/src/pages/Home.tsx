@@ -97,23 +97,6 @@ export function Home() {
         </div>
       </section>
 
-      {stats && (
-        <section className="wrap facts" aria-label="Motivado in Zahlen">
-          <div className="fact">
-            <span className="fact__number">{stats.modules}</span>
-            <span className="fact__label">Module</span>
-          </div>
-          <div className="fact">
-            <span className="fact__number">{stats.hours}</span>
-            <span className="fact__label">Stunden Videomaterial</span>
-          </div>
-          <div className="fact">
-            <span className="fact__number">{stats.exercises}</span>
-            <span className="fact__label">Übungen</span>
-          </div>
-        </section>
-      )}
-
       <section className="band band--teal" aria-labelledby="how-h">
         <div className="wrap">
           <p className="eyebrow">In drei Schritten</p>
@@ -134,6 +117,29 @@ export function Home() {
           </div>
         </div>
       </section>
+
+      {stats && (
+        <section className="wrap section" aria-labelledby="facts-h">
+          <div className="section__intro">
+            <p className="eyebrow">Zahlen und Fakten</p>
+            <h2 id="facts-h">Motivado in Zahlen</h2>
+          </div>
+          <div className="facts">
+            <div className="fact">
+              <span className="fact__number">{stats.modules}</span>
+              <span className="fact__label">Module</span>
+            </div>
+            <div className="fact">
+              <span className="fact__number">{stats.hours}</span>
+              <span className="fact__label">Stunden Videomaterial</span>
+            </div>
+            <div className="fact">
+              <span className="fact__number">{stats.exercises}</span>
+              <span className="fact__label">Übungen</span>
+            </div>
+          </div>
+        </section>
+      )}
 
       {experts.length > 0 && (
         <section className="wrap section" aria-labelledby="experts-h">

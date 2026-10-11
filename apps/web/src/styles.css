@@ -473,7 +473,7 @@ main:has(> .band:last-child) {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: var(--gap-tiles);
-  margin-top: 64px;
+  margin-top: 32px;
 }
 .fact {
   background: var(--paper);
