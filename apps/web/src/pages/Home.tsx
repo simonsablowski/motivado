@@ -32,11 +32,8 @@ export function Home() {
             Situation anpassen. Besser als ein Buch, flexibler als ein Seminar.
           </p>
           <div className="hero__actions">
-            <a className="button" href="#themen">
-              Themen entdecken
-            </a>
             {sample && (
-              <Link className="button button--light" to={`/coaching/${sample}`}>
+              <Link className="button" to={`/coaching/${sample}`}>
                 Coaching ausprobieren
               </Link>
             )}

@@ -1,7 +1,10 @@
-"""Vectorise the press logo (2500 px wide) into a flat SVG with a slightly rebalanced palette.
+"""Rebuild the Motivado logo as a flat SVG: true circles for the three rings, a traced wordmark.
 
-Usage: python tools/vectorise_logo.py <press logo jpg> apps/web/public
-Writes logo.svg and a transparent logo.png (860 px) next to it. Only needs numpy and Pillow.
+Usage: python tools/vectorise_logo.py <press logo jpg, 2500 px wide> apps/web/public
+Writes logo.svg and a transparent logo.png (860 px) next to it. Needs numpy and Pillow only.
+
+The ring geometry was fitted to the press logo (three annuli, outer radius 234, inner radius 137,
+eccentric holes, stacked blue < yellow < orange at 76 % opacity). Change RING_COLOURS to rebalance.
 """
 import sys
 
@@ -10,34 +13,24 @@ from PIL import Image
 
 SRC = sys.argv[1]
 OUT_DIR = sys.argv[2].rstrip('/')
-OUT = OUT_DIR + '/logo.svg'
+
+# ring colours at 76 % opacity over white; the press logo used #69bec4, #ffcd2c, #f7871f
+RING_COLOURS = {'blue': '#69bec4', 'yellow': '#ffcd2c', 'orange': '#f7981f'}
+ALPHA = 0.76
+CHARCOAL_NEW = '#3c4046'
+R_OUT, R_IN = 233.95, 137.35
+# stacking order bottom to top: (outer centre, hole centre) in press-logo pixels
+RINGS = {
+    'blue': ((581.4, 295.1), (608.8, 313.7)),
+    'yellow': ((709.9, 312.8), (677.3, 314.0)),
+    'orange': ((634.5, 377.1), (655.1, 352.0)),
+}
 
 im = np.array(Image.open(SRC).convert('RGB')).astype(np.int32)
 H, W, _ = im.shape
-
-# classes: (name, original rgb, new colour)
-CLASSES = [
-    ('blue',     (138, 210, 210), '#63b6c2'),
-    ('yellow',   (254, 222,  90), '#f6d457'),
-    ('lightor',  (246, 162,  90), '#f5a65c'),
-    ('olive',    (234, 210,  90), '#dccb5e'),
-    ('brown',    (222, 150,  78), '#d6955a'),
-    ('darkor',   (234, 150,  42), '#e58f31'),
-    ('orange',   (246, 150,  42), '#f39834'),
-]
-CHARCOAL = (65, 65, 67)
-CHARCOAL_NEW = '#3c4046'
-WHITE = (255, 255, 255)
-
-# classify every pixel to the nearest palette colour (incl. white and charcoal)
-pal = np.array([c[1] for c in CLASSES] + [CHARCOAL, WHITE], dtype=np.int32)
-d = ((im[:, :, None, :] - pal[None, None, :, :]) ** 2).sum(axis=3)
-label = d.argmin(axis=2)
-CH = len(CLASSES)        # charcoal index
-WH = len(CLASSES) + 1    # white index
-
-# keep only the wordmark: the grey ".de" sits right of x = 2240 and is classed as charcoal/white noise
-label[:, 2240:] = WH
+mx = im.max(axis=2)
+# the wordmark is the only really dark thing; the grey ".de" is lighter and drops out
+charcoal_mask = (mx < 100).astype(np.float32)
 
 
 def box_blur(a):
@@ -161,48 +154,59 @@ def path(loops, eps):
     return ''.join(out)
 
 
-layers = []
-for k, (name, _, new) in enumerate(CLASSES):
-    m = (label == k).astype(np.float32)
-    if m.sum() < 500:
-        continue
-    loops = contours(box_blur(m))
-    layers.append((name, new, path(loops, 1.1)))
-charcoal = path(contours(box_blur((label == CH).astype(np.float32))), 0.9)
+charcoal = path(contours(box_blur(charcoal_mask)), 0.9)
 
-# crop to the artwork
-ys, xs = np.nonzero(label != WH)
-x0, x1, y0, y1 = xs.min() - 8, xs.max() + 8, ys.min() - 8, ys.max() + 8
+# artwork bounds: rings and wordmark
+yy, xx = np.mgrid[0:H, 0:W]
+ring_mask = np.zeros((H, W), bool)
+member = {}
+for name, (co, ci) in RINGS.items():
+    m = ((xx - co[0]) ** 2 + (yy - co[1]) ** 2 <= R_OUT**2) & ((xx - ci[0]) ** 2 + (yy - ci[1]) ** 2 > R_IN**2)
+    member[name] = m
+    ring_mask |= m
+art = ring_mask | (charcoal_mask > 0.5)
+ys, xs = np.nonzero(art)
+x0, x1, y0, y1 = int(xs.min()) - 8, int(xs.max()) + 8, int(ys.min()) - 8, int(ys.max()) + 8
 vb = f'{x0} {y0} {x1 - x0} {y1 - y0}'
 
+
+def circle(c, r):
+    return f'M{c[0] - r:.2f} {c[1]:.2f}a{r} {r} 0 1 0 {2 * r} 0a{r} {r} 0 1 0 {-2 * r} 0Z'
+
+
 parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{vb}" role="img" aria-label="Motivado">']
-for name, new, d_ in layers:
-    # a hairline stroke in the same colour closes the seams between neighbouring regions
-    parts.append(f'<path fill="{new}" stroke="{new}" stroke-width="1.6" stroke-linejoin="round" fill-rule="evenodd" d="{d_}"/>')
+for name, (co, ci) in RINGS.items():
+    d_ = circle(co, R_OUT) + circle(ci, R_IN)
+    parts.append(f'<path fill="{RING_COLOURS[name]}" fill-opacity="{ALPHA}" fill-rule="evenodd" d="{d_}"/>')
 parts.append(f'<path fill="{CHARCOAL_NEW}" fill-rule="evenodd" d="{charcoal}"/>')
 parts.append('</svg>')
 svg = '\n'.join(parts)
-open(OUT, 'w', encoding='utf-8').write(svg)
+open(OUT_DIR + '/logo.svg', 'w', encoding='utf-8').write(svg)
 print('viewBox', vb, 'bytes', len(svg))
-for name, new, d_ in layers:
-    print(name, new, len(d_))
-print('charcoal', len(charcoal))
 
-# raster fallback (structured data, social cards): same classes, same new colours, transparent ground
+
+# raster fallback with the same composition (structured data, social cards)
 def hexrgb(h):
     h = h.lstrip('#')
-    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+    return np.array([int(h[i:i + 2], 16) for i in (0, 2, 4)], float)
 
 
-cols = [hexrgb(c[2]) for c in CLASSES] + [hexrgb(CHARCOAL_NEW), (255, 255, 255)]
-rgba = np.zeros((H, W, 4), np.uint8)
-for k, col in enumerate(cols[:-1]):
-    rgba[label == k] = (*col, 255)
-crop = rgba[y0:y1, x0:x1]
-big = Image.fromarray(crop, 'RGBA')
-# premultiply-free downscale: scale colour and alpha together over a transparent ground
+canvas = np.zeros((H, W, 4), float)          # premultiplied RGBA, transparent
+for name in RINGS:
+    col = hexrgb(RING_COLOURS[name])
+    m = member[name][..., None]
+    a = ALPHA
+    canvas[..., :3] = np.where(m, canvas[..., :3] * (1 - a) + col * a, canvas[..., :3])
+    canvas[..., 3:4] = np.where(m, canvas[..., 3:4] * (1 - a) + a, canvas[..., 3:4])
+ch = hexrgb(CHARCOAL_NEW)
+cm = (charcoal_mask > 0.5)[..., None]
+canvas[..., :3] = np.where(cm, ch, canvas[..., :3])
+canvas[..., 3:4] = np.where(cm, 1.0, canvas[..., 3:4])
+a = canvas[..., 3:4]
+rgb = np.where(a > 0, canvas[..., :3] / np.maximum(a, 1e-6), 0)
+img = np.concatenate([rgb, a * 255], axis=2).clip(0, 255).astype(np.uint8)
+big = Image.fromarray(img[y0:y1, x0:x1], 'RGBA')
 out_w = 860
-out_h = round(out_w * crop.shape[0] / crop.shape[1])
-png = big.resize((out_w, out_h), Image.LANCZOS)
-png.save(OUT_DIR + '/logo.png', optimize=True)
-print('png', png.size)
+out_h = round(out_w * big.height / big.width)
+big.resize((out_w, out_h), Image.LANCZOS).save(OUT_DIR + '/logo.png', optimize=True)
+print('png', (out_w, out_h))
