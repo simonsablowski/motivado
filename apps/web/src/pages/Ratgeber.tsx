@@ -271,7 +271,7 @@ export function RatgeberArticle() {
   return (
     <>
       <div className="page-banner">
-        <div className="wrap--narrow">
+        <div className="wrap">
           <div className="page-banner__text">
             <Crumbs>
               <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{' '}
@@ -281,7 +281,7 @@ export function RatgeberArticle() {
           </div>
         </div>
       </div>
-      <div className="wrap--narrow">
+      <div className="wrap">
         <div className="section">
           <Blocks blocks={a.blocks} />
         </div>

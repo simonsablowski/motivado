@@ -94,10 +94,6 @@ img {
   width: min(1120px, 100% - 2 * var(--gutter));
   margin-inline: auto;
 }
-.wrap--narrow {
-  width: min(760px, 100% - 2 * var(--gutter));
-  margin-inline: auto;
-}
 
 /* ---- header / footer ------------------------------------------------------------------------ */
 .sale-bar {
@@ -288,7 +284,6 @@ main:has(> .band:last-child) {
   margin: 16px 0 0;
 }
 .page-banner + .wrap > .section:first-child,
-.page-banner + .wrap--narrow > .section:first-child,
 .page-banner + .layout {
   padding-top: 36px;
 }

@@ -17,7 +17,7 @@ export function NotFound() {
   return (
     <>
       <div className="page-banner">
-        <div className="wrap--narrow">
+        <div className="wrap">
           <div className="page-banner__text">
             <p className="eyebrow">404</p>
             <h1>Diese Seite gibt es nicht.</h1>
@@ -25,7 +25,7 @@ export function NotFound() {
           </div>
         </div>
       </div>
-      <div className="wrap--narrow">
+      <div className="wrap">
         <Link className="button" to="/">
           Zur Startseite
         </Link>
@@ -77,13 +77,13 @@ export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
   return (
     <>
       <div className="page-banner">
-        <div className="wrap--narrow">
+        <div className="wrap">
           <div className="page-banner__text">
             <h1>{impressum ? 'Impressum' : 'Datenschutz'}</h1>
           </div>
         </div>
       </div>
-      <div className="wrap--narrow">
+      <div className="wrap">
         <div className="prose section">
           {impressum ? (
             <>
