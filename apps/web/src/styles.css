@@ -17,6 +17,9 @@
   --tint: #e1eef1; /* fold-out boxes: clearly different from the page colour */
   --sun: #f6d655;
   --measure: 66ch;
+  /* spacing between sibling tiles, used everywhere */
+  --gap-tiles: 24px; /* tiles on the page: topics, claims, steps, experts, cards, boxes */
+  --gap-tiles-in-box: 16px; /* tiles inside a box */
   --gutter: 20px;
   --font: ui-sans-serif, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
@@ -428,7 +431,7 @@ main:has(> .band:last-child) {
 .claims {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 24px; /* same as .topics below */
+  gap: var(--gap-tiles);
   margin-top: 64px;
 }
 .claim {
@@ -469,7 +472,7 @@ main:has(> .band:last-child) {
 .topics {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 24px;
+  gap: var(--gap-tiles);
 }
 .topic {
   background: var(--paper);
@@ -546,7 +549,7 @@ main:has(> .band:last-child) {
 .steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
+  gap: var(--gap-tiles);
   counter-reset: step;
   margin-top: 32px;
 }
@@ -571,7 +574,7 @@ main:has(> .band:last-child) {
 .experts {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 28px;
+  gap: var(--gap-tiles);
 }
 .expert {
   background: var(--paper);
@@ -719,7 +722,7 @@ main:has(> .band:last-child) {
 .player__grid {
   display: grid;
   grid-template-columns: minmax(0, 820px);
-  gap: 20px;
+  gap: var(--gap-tiles);
   align-items: start;
 }
 .player__grid--split {
@@ -991,11 +994,11 @@ a.document:hover {
 }
 .stack {
   display: grid;
-  gap: 20px;
+  gap: var(--gap-tiles);
 }
 .layout__side {
   display: grid;
-  gap: 20px;
+  gap: var(--gap-tiles);
   position: sticky;
   top: 24px;
 }
@@ -1094,7 +1097,7 @@ a.document:hover {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 10px;
+  gap: var(--gap-tiles-in-box);
   counter-reset: point;
 }
 .points li {
@@ -1321,8 +1324,8 @@ a.mini__title:hover {
 .strip {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 8px;
-  margin-top: 12px;
+  gap: var(--gap-tiles);
+  margin-top: var(--gap-tiles);
 }
 .strip__item {
   background: var(--teal);
@@ -1346,7 +1349,7 @@ a.mini__title:hover {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 16px;
+  gap: var(--gap-tiles);
 }
 .card {
   background: var(--paper);
