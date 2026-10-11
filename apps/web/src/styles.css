@@ -423,6 +423,17 @@ main:has(> .band:last-child) {
   margin: 24px 0 32px;
   max-width: 56ch;
 }
+/* orange does not sit well on the teal field: the hero button is yellow */
+.hero .button {
+  background: var(--sun);
+  border-color: var(--sun);
+  color: var(--on-accent);
+}
+.hero .button:hover:not(:disabled) {
+  background: #fff;
+  border-color: #fff;
+  color: var(--teal-dark);
+}
 .hero__actions {
   display: flex;
   gap: 16px;
