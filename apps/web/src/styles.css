@@ -174,10 +174,11 @@ img {
   right: 0;
   z-index: 30;
   grid-auto-flow: column;
+  grid-auto-columns: 230px;
   gap: 8px 36px;
   background: var(--paper);
-  border: 1px solid var(--line);
-  border-top: 4px solid var(--teal);
+  border: 2px solid var(--teal);
+  border-top-width: 4px;
   padding: 20px 24px 22px;
   max-width: 100%;
 }
@@ -213,7 +214,7 @@ img {
   padding: 5px 0;
   text-decoration: none;
   font-weight: 600;
-  white-space: nowrap;
+  line-height: 1.35;
 }
 .nav__group a:hover {
   color: var(--accent-dark);
