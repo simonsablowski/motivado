@@ -1328,8 +1328,8 @@ a.mini__title:hover {
   margin-top: var(--gap-tiles);
 }
 .strip__item {
-  background: var(--teal);
-  color: #fff;
+  background: var(--tint);
+  color: var(--teal-dark);
   padding: 14px 16px 14px 42px;
   position: relative;
   font-size: 0.95rem;
@@ -1342,8 +1342,8 @@ a.mini__title:hover {
   top: 17px;
   width: 12px;
   height: 7px;
-  border-left: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-left: 3px solid var(--teal);
+  border-bottom: 3px solid var(--teal);
   transform: rotate(-45deg);
 }
 .cards {
