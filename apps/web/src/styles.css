@@ -6,6 +6,7 @@
   --ink: #15181d;
   --muted: #5c6470;
   --line: #d8d3c8;
+  --line-strong: #a39e93; /* frames that must stay visible against the page colour */
   --accent: #d64f06; /* orange, white text passes AA */
   --accent-dark: #b33f03;
   --accent-tint: #fdeee4;
@@ -177,8 +178,8 @@ img {
   grid-auto-columns: 230px;
   gap: 8px 36px;
   background: var(--paper);
-  border: 2px solid var(--teal);
-  border-top-width: 4px;
+  border: 2px solid var(--line-strong);
+  border-top: 4px solid var(--teal);
   padding: 20px 24px 22px;
   max-width: 100%;
 }
@@ -606,18 +607,23 @@ main:has(> .band:last-child) {
   background: var(--paper);
 }
 .page-banner__text {
-  padding: 40px 0 32px;
+  padding: 32px 0;
 }
 .page-banner h1 {
   color: var(--teal-dark);
 }
 .page-head {
-  padding: 48px 0 0;
+  padding: 40px 0 0;
+}
+.header__crumbs {
+  min-width: 0;
+  flex: 1 1 auto;
 }
 .crumbs {
+  margin: 0;
   font-size: 0.875rem;
+  line-height: 1.3;
   color: var(--muted);
-  margin-bottom: 16px;
 }
 .crumbs a {
   text-decoration: none;

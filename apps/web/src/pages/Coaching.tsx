@@ -3,6 +3,7 @@ import { coachingTitle, loadCoaching, modelOf, useAsync, useSite } from '../lib/
 import { usePageMeta } from '../lib/meta';
 import { Player } from '../player/Player';
 import { Loading, NotFound } from './Static';
+import { Crumbs } from '../components/Crumbs';
 
 export function Coaching() {
   const { key = '' } = useParams();
@@ -24,9 +25,9 @@ export function Coaching() {
     <div className="wrap">
       <div className="coaching-head">
         <div>
-          <p className="crumbs" style={{ margin: 0 }}>
+          <Crumbs>
             {product ? <Link to={`/paket/${product.slug}`}>{product.title}</Link> : <Link to="/">Start</Link>}
-          </p>
+          </Crumbs>
           <h1>{title}</h1>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { coachingTitle, modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { hasProgress } from '../lib/store';
 import { Loading, NotFound } from './Static';
+import { Crumbs } from '../components/Crumbs';
 
 export function ProductPage() {
   const { slug } = useParams();
@@ -36,10 +37,10 @@ export function ProductPage() {
       <div className="page-banner">
         <div className="wrap page-banner__grid">
           <div className="page-banner__text">
-            <p className="crumbs">
+            <Crumbs>
               <Link to="/">Start</Link> / {group && <Link to={`/themen/${group.slug}`}>{group.title}</Link>}
               {category && category.path !== group?.slug && <> / {category.title}</>}
-            </p>
+            </Crumbs>
             <h1>{product.title}</h1>
             {product.subtitle && <p className="lead">{product.subtitle}</p>}
           </div>

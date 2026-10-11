@@ -3,6 +3,7 @@ import { getJson, useAsync } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { GROUP_IMAGE } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
+import { Crumbs } from '../components/Crumbs';
 
 interface Segment {
   t: string;
@@ -93,9 +94,9 @@ export function RatgeberHub() {
   return (
     <div className="wrap">
       <div className="page-head">
-        <p className="crumbs">
+        <Crumbs>
           <Link to="/">Start</Link> / Ratgeber
-        </p>
+        </Crumbs>
         <h1>Ratgeber</h1>
         <p className="lead">Hintergrundwissen zu den Themen, bei denen wir mit unseren Coachings helfen.</p>
       </div>
@@ -132,9 +133,9 @@ export function RatgeberTopic() {
   return (
     <div className="wrap">
       <div className="page-head">
-        <p className="crumbs">
+        <Crumbs>
           <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> / {data.title}
-        </p>
+        </Crumbs>
         <h1>{data.heading}</h1>
       </div>
       <div className="section">
@@ -179,10 +180,10 @@ export function RatgeberArticle() {
   return (
     <div className="wrap--narrow">
       <div className="page-head">
-        <p className="crumbs">
+        <Crumbs>
           <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{' '}
           <Link to={`/ratgeber/${topic}`}>{index.data?.title ?? topic}</Link>
-        </p>
+        </Crumbs>
         <h1>{a.heading}</h1>
       </div>
       <div className="section">

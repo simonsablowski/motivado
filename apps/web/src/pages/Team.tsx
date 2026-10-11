@@ -3,6 +3,7 @@ import { useSite, type Expert } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { expertPhoto } from '../lib/visuals';
 import { Loading } from './Static';
+import { Crumbs } from '../components/Crumbs';
 
 export function ExpertCard({ expert }: { expert: Expert }) {
   return (
@@ -23,9 +24,9 @@ export function Team() {
   return (
     <div className="wrap">
       <div className="page-head">
-        <p className="crumbs">
+        <Crumbs>
           <Link to="/">Start</Link> / Experten
-        </p>
+        </Crumbs>
         <h1>Unsere Experten</h1>
         <p className="lead">Die Menschen vor der Kamera: Coaches, Psychologen und Berater mit Praxiserfahrung.</p>
       </div>

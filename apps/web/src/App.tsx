@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
+import { CrumbsSlot } from './components/Crumbs';
 import { useSite, type Site } from './lib/api';
 import { topicSections } from './lib/sections';
 import { Coaching } from './pages/Coaching';
@@ -19,11 +20,12 @@ export function activeGroups(site: Site) {
 function Layout() {
   const { data: site } = useSite();
   const { pathname } = useLocation();
+  const [crumbsSlot, setCrumbsSlot] = useState<HTMLElement | null>(null);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <>
+    <CrumbsSlot.Provider value={crumbsSlot}>
       <a className="skip" href="#main">
         Zum Inhalt springen
       </a>
@@ -41,6 +43,7 @@ function Layout() {
           <Link to="/" className="logo" aria-label="Motivado – zur Startseite">
             <img src="/logo.png" alt="Motivado" width="215" height="55" />
           </Link>
+          <div className="header__crumbs" ref={setCrumbsSlot} />
           <nav className="nav" aria-label="Hauptnavigation">
             {site &&
               activeGroups(site).map((g) => (
@@ -107,7 +110,7 @@ function Layout() {
           </div>
         </div>
       </footer>
-    </>
+    </CrumbsSlot.Provider>
   );
 }
 

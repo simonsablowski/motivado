@@ -4,6 +4,7 @@ import { useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { topicSections } from '../lib/sections';
 import { Loading, NotFound } from './Static';
+import { Crumbs } from '../components/Crumbs';
 
 const RATGEBER: Record<string, { topic: string; label: string }> = {
   beziehung: { topic: 'beziehung', label: 'Ratgeber Beziehung' },
@@ -50,9 +51,9 @@ export function Topic() {
       <div className="page-banner">
         <div className="wrap page-banner__grid">
           <div className="page-banner__text">
-            <p className="crumbs">
+            <Crumbs>
               <Link to="/">Start</Link> / {g.title}
-            </p>
+            </Crumbs>
             <h1>{g.title}</h1>
             {lead && <p className="lead">{lead}</p>}
           </div>
