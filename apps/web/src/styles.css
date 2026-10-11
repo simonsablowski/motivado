@@ -2,6 +2,7 @@
 
 :root {
   --stage: #f2efe9; /* keep in sync with STAGE in tools/build_media.py */
+  --stage-video: #d5d9dc; /* the field behind the coach: the clips carry the page beige, multiply blends it into this */
   --paper: #ffffff;
   --ink: #26292e;
   --muted: #5c6470;
@@ -936,21 +937,24 @@ main:has(> .band:last-child) {
 }
 .stage {
   position: relative;
-  background: var(--paper);
+  isolation: isolate;
+  background: var(--stage-video);
   border-top: 4px solid var(--teal);
 }
 .stage__video {
   display: block;
   width: 100%;
   max-height: 64vh;
-  background: var(--stage);
+  background: transparent;
+  /* the clips were mixed onto the page beige: multiplying turns that beige into the stage colour */
+  mix-blend-mode: multiply;
   cursor: pointer;
 }
 .stage:fullscreen {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: var(--stage);
+  background: var(--stage-video);
 }
 .stage:fullscreen .stage__video {
   max-height: calc(100vh - 64px);
