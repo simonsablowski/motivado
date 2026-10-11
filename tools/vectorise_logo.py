@@ -14,8 +14,8 @@ from PIL import Image
 SRC = sys.argv[1]
 OUT_DIR = sys.argv[2].rstrip('/')
 
-# ring colours at 76 % opacity over white; the press logo used #69bec4, #ffcd2c, #f7871f (the orange ring is a coral now)
-RING_COLOURS = {'blue': '#5ab8c4', 'yellow': '#ffd04a', 'orange': '#f0866a'}
+# ring colours at 76 % opacity over white; the press logo used #69bec4, #ffcd2c, #f7871f
+RING_COLOURS = {'blue': '#69bec4', 'yellow': '#ffcd2c', 'orange': '#f7981f'}
 ALPHA = 0.76
 CHARCOAL_NEW = '#3c4046'
 R_OUT, R_IN = 233.95, 137.35
