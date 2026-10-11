@@ -3,17 +3,19 @@
 :root {
   --stage: #f2efe9; /* keep in sync with STAGE in tools/build_media.py */
   --paper: #ffffff;
-  --ink: #15181d;
+  --ink: #26292e;
   --muted: #5c6470;
   --line: #d8d3c8;
   --line-strong: #a39e93; /* frames that must stay visible against the page colour */
-  --accent: #d64f06; /* orange, white text passes AA */
-  --accent-dark: #b33f03;
-  --accent-tint: #fdeee4;
-  --teal: #0b7676;
-  --teal-dark: #085757;
-  --tint: #e2eeee; /* fold-out boxes: clearly different from the page colour */
-  --sun: #fbe754;
+  /* palette taken from the logo: its orange, its blue-teal and its yellow */
+  --accent: #f09020; /* logo orange: text on it is --on-accent, not white */
+  --accent-dark: #a35200; /* orange for text on light grounds and for hover states */
+  --accent-tint: #fdf0dc;
+  --on-accent: #26292e;
+  --teal: #2f7f8c; /* white text passes AA */
+  --teal-dark: #1f5f6b;
+  --tint: #e1eef1; /* fold-out boxes: clearly different from the page colour */
+  --sun: #f6d655;
   --measure: 66ch;
   --gutter: 20px;
   --font: ui-sans-serif, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -96,7 +98,7 @@ img {
 /* ---- header / footer ------------------------------------------------------------------------ */
 .sale-bar {
   background: var(--accent);
-  color: #fff;
+  color: var(--on-accent);
   font-size: 0.95rem;
   font-weight: 500;
 }
@@ -105,7 +107,7 @@ img {
   text-align: center;
 }
 .sale-bar a {
-  color: #fff;
+  color: var(--on-accent);
   font-weight: 700;
   text-underline-offset: 3px;
 }
@@ -334,7 +336,7 @@ main:has(> .band:last-child) {
 .button {
   display: inline-block;
   background: var(--accent);
-  color: #fff;
+  color: var(--on-accent);
   border: 2px solid var(--accent);
   padding: 13px 24px;
   font: 700 1rem/1.2 var(--font);
@@ -345,6 +347,7 @@ main:has(> .band:last-child) {
 .button:hover:not(:disabled) {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
+  color: #fff;
 }
 .button:disabled {
   background: var(--stage);
@@ -397,7 +400,7 @@ main:has(> .band:last-child) {
 /* ---- home ---------------------------------------------------------------------------------- */
 /* hero: full-bleed teal field, the three claims sit in it as lighter boxes */
 .hero {
-  background: var(--teal-dark);
+  background: var(--teal);
   color: #fff;
   padding-bottom: 56px;
 }
@@ -413,7 +416,7 @@ main:has(> .band:last-child) {
   color: var(--sun);
 }
 .hero .lead {
-  color: #d3e6e6;
+  color: #fff;
   margin: 24px 0 32px;
   max-width: 56ch;
 }
@@ -433,7 +436,7 @@ main:has(> .band:last-child) {
   grid-template-columns: 48px minmax(0, 1fr);
   gap: 16px;
   align-items: start;
-  background: var(--teal);
+  background: rgba(0, 0, 0, 0.14);
   padding: 20px;
 }
 .claim img {
@@ -450,7 +453,7 @@ main:has(> .band:last-child) {
 }
 .claim p {
   margin: 0;
-  color: #e3f0f0;
+  color: #fff;
   font-size: 0.95rem;
   line-height: 1.5;
 }
@@ -527,7 +530,7 @@ main:has(> .band:last-child) {
 }
 .band--accent {
   background: var(--accent);
-  color: #fff;
+  color: var(--on-accent);
 }
 .band--accent h2 {
   max-width: 24ch;
