@@ -692,6 +692,14 @@ main:has(> .band:last-child) {
   max-width: var(--measure);
   white-space: pre-line;
 }
+.prose h2 {
+  /* legal pages: clear air above a heading, the text follows close below */
+  font-size: 1.5rem;
+  margin: 48px 0 12px;
+}
+.prose h2:first-child {
+  margin-top: 0;
+}
 .prose ul {
   max-width: var(--measure);
   margin: 0 0 1em;
