@@ -8,14 +8,15 @@
   --line: #d8d3c8;
   --line-strong: #a39e93; /* frames that must stay visible against the page colour */
   /* palette taken from the logo: its orange, its blue-teal and its yellow */
-  --accent: #f28c28; /* logo orange: text on it is --on-accent, not white */
-  --accent-dark: #a35200; /* orange for text on light grounds and for hover states */
-  --accent-tint: #fdf0dc;
+  --accent: #ffcd2c; /* yellow of the play button: text on it is --on-accent */
+  --accent-hover: #f2bb00;
+  --accent-dark: #1f5f6b; /* emphasis text on light grounds (yellow cannot be text): deep teal */
+  --accent-tint: #fff6d6;
   --on-accent: #26292e;
   --teal: #2f7f8c; /* white text passes AA */
   --teal-dark: #1f5f6b;
   --tint: #e1eef1; /* fold-out boxes: clearly different from the page colour */
-  --sun: #f6d655;
+  --sun: #ffcd2c;
   --measure: 66ch;
   /* spacing between sibling tiles, used everywhere */
   --gap-tiles: 24px; /* tiles on the page: topics, claims, steps, experts, cards, boxes */
@@ -134,7 +135,7 @@ img {
 }
 .logo img {
   display: block;
-  height: 46px;
+  height: 38px;
   width: auto;
 }
 :root {
@@ -326,7 +327,7 @@ main:has(> .band:last-child) {
   content: '';
   width: 14px;
   height: 14px;
-  background: var(--accent);
+  background: var(--teal);
   flex: none;
 }
 .photo {
@@ -347,9 +348,9 @@ main:has(> .band:last-child) {
   border-radius: 0;
 }
 .button:hover:not(:disabled) {
-  background: var(--accent-dark);
-  border-color: var(--accent-dark);
-  color: #fff;
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+  color: var(--on-accent);
 }
 .button:disabled {
   background: var(--stage);
@@ -422,12 +423,7 @@ main:has(> .band:last-child) {
   margin: 24px 0 32px;
   max-width: 56ch;
 }
-/* orange does not sit well on the teal field: the hero button is yellow */
-.hero .button {
-  background: var(--sun);
-  border-color: var(--sun);
-  color: var(--on-accent);
-}
+/* the hero button is the yellow one; on the teal field it turns white on hover */
 .hero .button:hover:not(:disabled) {
   background: #fff;
   border-color: #fff;

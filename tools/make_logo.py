@@ -1,36 +1,30 @@
-"""Rebuild the Motivado logo as a flat SVG: true circles for the three rings, a traced wordmark.
+"""Build the Motivado logo: the traced wordmark with a yellow play button in place of the "o".
 
-Usage: python tools/vectorise_logo.py <press logo jpg, 2500 px wide> apps/web/public
-Writes logo.svg and a transparent logo.png (860 px) next to it. Needs numpy and Pillow only.
-
-The ring geometry was fitted to the press logo (three annuli, outer radius 234, inner radius 137,
-eccentric holes, stacked blue < yellow < orange at 76 % opacity). Change RING_COLOURS to rebalance.
+Usage: python tools/make_logo.py <press logo jpg, 2500 px wide> apps/web/public
+Writes logo.svg, a transparent logo.png (860 px) and favicon.ico next to it.
+Needs numpy and Pillow only. The lettering is traced from the press logo (letters = the dark pixels);
+the play button replaces the ring symbol that used to sit between the "m" and the "t".
 """
 import sys
 
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageDraw
 
 SRC = sys.argv[1]
 OUT_DIR = sys.argv[2].rstrip('/')
 
-# ring colours at 76 % opacity over white; the press logo used #69bec4, #ffcd2c, #f7871f
-RING_COLOURS = {'blue': '#69bec4', 'yellow': '#ffcd2c', 'orange': '#f7871f'}
-ALPHA = 0.76
-CHARCOAL_NEW = '#3c4046'
-R_OUT, R_IN = 233.95, 137.35
-# stacking order bottom to top: (outer centre, hole centre) in press-logo pixels
-RINGS = {
-    'blue': ((581.4, 295.1), (608.8, 313.7)),
-    'yellow': ((709.9, 312.8), (677.3, 314.0)),
-    'orange': ((634.5, 377.1), (655.1, 352.0)),
-}
+LETTERS = '#3c4046'
+PLAY = '#ffcd2c'         # yellow disc, the accent of the site
+TRIANGLE = '#3c4046'
+# the disc sits where the "o" belongs: between the m (ends x=477) and the t (starts x=818), on the x-height
+CX, CY, R = 647.0, 331.0, 142.0
 
 im = np.array(Image.open(SRC).convert('RGB')).astype(np.int32)
 H, W, _ = im.shape
-mx = im.max(axis=2)
-# the wordmark is the only really dark thing; the grey ".de" is lighter and drops out
-charcoal_mask = (mx < 100).astype(np.float32)
+charcoal_mask = (im.max(axis=2) < 100).astype(np.float32)
+# nothing of the old ring symbol may remain inside the disc region
+yy, xx = np.mgrid[0:H, 0:W]
+charcoal_mask[(xx - CX) ** 2 + (yy - CY) ** 2 <= (R + 10) ** 2] = 0
 
 
 def box_blur(a):
@@ -154,59 +148,56 @@ def path(loops, eps):
     return ''.join(out)
 
 
-charcoal = path(contours(box_blur(charcoal_mask)), 0.9)
+letters = path(contours(box_blur(charcoal_mask)), 0.9)
 
-# artwork bounds: rings and wordmark
-yy, xx = np.mgrid[0:H, 0:W]
-ring_mask = np.zeros((H, W), bool)
-member = {}
-for name, (co, ci) in RINGS.items():
-    m = ((xx - co[0]) ** 2 + (yy - co[1]) ** 2 <= R_OUT**2) & ((xx - ci[0]) ** 2 + (yy - ci[1]) ** 2 > R_IN**2)
-    member[name] = m
-    ring_mask |= m
-art = ring_mask | (charcoal_mask > 0.5)
-ys, xs = np.nonzero(art)
-x0, x1, y0, y1 = int(xs.min()) - 8, int(xs.max()) + 8, int(ys.min()) - 8, int(ys.max()) + 8
+ys, xs = np.nonzero(charcoal_mask > 0.5)
+x0, x1 = int(xs.min()) - 8, int(max(xs.max(), CX + R)) + 8
+y0, y1 = int(ys.min()) - 8, int(max(ys.max(), CY + R)) + 8
 vb = f'{x0} {y0} {x1 - x0} {y1 - y0}'
 
+# play triangle, optically centred (a little to the right of the disc centre)
+tri = [(CX - 0.26 * R, CY - 0.46 * R), (CX - 0.26 * R, CY + 0.46 * R), (CX + 0.50 * R, CY)]
+tri_d = 'M' + 'L'.join(f'{x:.1f} {y:.1f}' for x, y in tri) + 'Z'
 
-def circle(c, r):
-    return f'M{c[0] - r:.2f} {c[1]:.2f}a{r} {r} 0 1 0 {2 * r} 0a{r} {r} 0 1 0 {-2 * r} 0Z'
-
-
-parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{vb}" role="img" aria-label="Motivado">']
-for name, (co, ci) in RINGS.items():
-    d_ = circle(co, R_OUT) + circle(ci, R_IN)
-    parts.append(f'<path fill="{RING_COLOURS[name]}" fill-opacity="{ALPHA}" fill-rule="evenodd" d="{d_}"/>')
-parts.append(f'<path fill="{CHARCOAL_NEW}" fill-rule="evenodd" d="{charcoal}"/>')
-parts.append('</svg>')
-svg = '\n'.join(parts)
+svg = '\n'.join(
+    [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{vb}" role="img" aria-label="Motivado">',
+        f'<path fill="{LETTERS}" fill-rule="evenodd" d="{letters}"/>',
+        f'<circle cx="{CX}" cy="{CY}" r="{R}" fill="{PLAY}"/>',
+        f'<path fill="{TRIANGLE}" d="{tri_d}"/>',
+        '</svg>',
+    ]
+)
 open(OUT_DIR + '/logo.svg', 'w', encoding='utf-8').write(svg)
 print('viewBox', vb, 'bytes', len(svg))
 
 
-# raster fallback with the same composition (structured data, social cards)
 def hexrgb(h):
     h = h.lstrip('#')
-    return np.array([int(h[i:i + 2], 16) for i in (0, 2, 4)], float)
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
 
 
-canvas = np.zeros((H, W, 4), float)          # premultiplied RGBA, transparent
-for name in RINGS:
-    col = hexrgb(RING_COLOURS[name])
-    m = member[name][..., None]
-    a = ALPHA
-    canvas[..., :3] = np.where(m, canvas[..., :3] * (1 - a) + col * a, canvas[..., :3])
-    canvas[..., 3:4] = np.where(m, canvas[..., 3:4] * (1 - a) + a, canvas[..., 3:4])
-ch = hexrgb(CHARCOAL_NEW)
-cm = (charcoal_mask > 0.5)[..., None]
-canvas[..., :3] = np.where(cm, ch, canvas[..., :3])
-canvas[..., 3:4] = np.where(cm, 1.0, canvas[..., 3:4])
-a = canvas[..., 3:4]
-rgb = np.where(a > 0, canvas[..., :3] / np.maximum(a, 1e-6), 0)
-img = np.concatenate([rgb, a * 255], axis=2).clip(0, 255).astype(np.uint8)
-big = Image.fromarray(img[y0:y1, x0:x1], 'RGBA')
-out_w = 860
-out_h = round(out_w * big.height / big.width)
-big.resize((out_w, out_h), Image.LANCZOS).save(OUT_DIR + '/logo.png', optimize=True)
-print('png', (out_w, out_h))
+# raster: draw at 3x the final size, then reduce, so the edges are smooth
+SCALE = 860 * 3 / (x1 - x0)
+w3, h3 = round((x1 - x0) * SCALE), round((y1 - y0) * SCALE)
+canvas = Image.new('RGBA', (w3, h3), (0, 0, 0, 0))
+lm = Image.fromarray((charcoal_mask[y0:y1, x0:x1] > 0.5).astype(np.uint8) * 255, 'L').resize((w3, h3), Image.LANCZOS)
+canvas.paste(Image.new('RGBA', (w3, h3), hexrgb(LETTERS) + (255,)), (0, 0), lm)
+d = ImageDraw.Draw(canvas)
+sx = lambda x: (x - x0) * SCALE
+sy = lambda y: (y - y0) * SCALE
+d.ellipse([sx(CX - R), sy(CY - R), sx(CX + R), sy(CY + R)], fill=hexrgb(PLAY) + (255,))
+d.polygon([(sx(x), sy(y)) for x, y in tri], fill=hexrgb(TRIANGLE) + (255,))
+png = canvas.resize((860, round(860 * h3 / w3)), Image.LANCZOS)
+png.save(OUT_DIR + '/logo.png', optimize=True)
+print('png', png.size)
+
+# favicon: the play button alone, on transparent ground
+ico = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
+di = ImageDraw.Draw(ico)
+di.ellipse([8, 8, 248, 248], fill=hexrgb(PLAY) + (255,))
+k = 240 / (2 * R)
+c = 128
+di.polygon([(c + (x - CX) * k, c + (y - CY) * k) for x, y in tri], fill=hexrgb(TRIANGLE) + (255,))
+ico.save(OUT_DIR + '/favicon.ico', sizes=[(16, 16), (32, 32), (48, 48), (64, 64)])
+print('favicon.ico')
