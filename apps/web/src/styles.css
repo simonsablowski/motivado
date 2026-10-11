@@ -139,7 +139,7 @@ img {
   margin-left: auto;
   flex-wrap: wrap;
 }
-.nav a {
+.nav__link {
   box-sizing: border-box;
   width: var(--col);
   text-align: center;
@@ -149,13 +149,78 @@ img {
   padding: 10px 14px;
   border-bottom: 3px solid transparent;
 }
-.nav a:hover {
+.nav__link:hover {
   color: var(--accent-dark);
   border-bottom-color: var(--accent);
 }
-.nav a[aria-current='page'] {
+.nav__link[aria-current='page'] {
   color: var(--teal-dark);
   border-bottom-color: var(--teal);
+}
+
+/* package menu: opens under the topic on hover or keyboard focus, wide screens only */
+.header__inner {
+  position: relative;
+}
+.nav__item {
+  position: static;
+}
+.nav__panel {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 30;
+  grid-auto-flow: column;
+  gap: 8px 36px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--teal);
+  padding: 20px 24px 22px;
+  max-width: 100%;
+}
+.nav__panel::before {
+  /* keeps the panel open while the pointer crosses the gap below the item */
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -28px;
+  height: 28px;
+}
+.nav__item:hover > .nav__panel,
+.nav__item:focus-within > .nav__panel {
+  display: grid;
+}
+.nav__heading {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-dark);
+  white-space: nowrap;
+}
+.nav__group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav__group a {
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.nav__group a:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}
+@media (max-width: 1060px) {
+  .nav__panel {
+    display: none !important;
+  }
 }
 
 .footer {

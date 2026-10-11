@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Link, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { useSite, type Site } from './lib/api';
+import { topicSections } from './lib/sections';
 import { Coaching } from './pages/Coaching';
 import { Home } from './pages/Home';
 import { ProductPage } from './pages/Product';
@@ -43,9 +44,25 @@ function Layout() {
           <nav className="nav" aria-label="Hauptnavigation">
             {site &&
               activeGroups(site).map((g) => (
-                <NavLink key={g.slug} to={`/themen/${g.slug}`}>
-                  {g.title}
-                </NavLink>
+                <div className="nav__item" key={g.slug}>
+                  <NavLink className="nav__link" to={`/themen/${g.slug}`}>
+                    {g.title}
+                  </NavLink>
+                  <div className="nav__panel">
+                    {topicSections(site, g.slug).map((section) => (
+                      <div className="nav__group" key={section.id}>
+                        <p className="nav__heading">{section.title}</p>
+                        <ul>
+                          {section.products.map((p) => (
+                            <li key={p.slug}>
+                              <Link to={`/paket/${p.slug}`}>{p.title}</Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               ))}
           </nav>
         </div>

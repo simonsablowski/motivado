@@ -2,10 +2,8 @@ import { Link, useParams } from 'react-router-dom';
 import { Box, Bundle, ExpertsBox, introOf } from '../components/catalogue';
 import { useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
+import { topicSections } from '../lib/sections';
 import { Loading, NotFound } from './Static';
-
-/** The legacy site filed some sleep products under the bare topic; give that section a real name. */
-const CATEGORY_TITLE: Record<string, string> = { gesundheit: 'Schlaf und Erholung' };
 
 const RATGEBER: Record<string, { topic: string; label: string }> = {
   beziehung: { topic: 'beziehung', label: 'Ratgeber Beziehung' },
@@ -33,16 +31,14 @@ export function Topic() {
   if (!g) return <NotFound />;
 
   const products = site.products.filter((p) => site.launch.includes(p.slug) && p.category.startsWith(g.slug));
-  const categories = site.categories
-    .filter((c) => c.group === g.slug && products.some((p) => p.category === c.path))
-    .sort((a, b) => a.title.localeCompare(b.title, 'de'));
+  const sections = topicSections(site, g.slug);
+  const categories = site.categories.filter((c) => c.group === g.slug && products.some((p) => p.category === c.path));
   const extra = EXTRA_EXPERTS[g.slug] ?? [];
   const experts = site.experts.filter(
     (e) => extra.includes(e.id) || products.some((p) => p.experts.includes(e.id)),
   );
   const featured = site.featured.filter((f) => f.group === g.slug && site.available.has(f.coaching));
   const ratgeber = RATGEBER[g.slug];
-  const nameOf = (c: { path: string; title: string }) => CATEGORY_TITLE[c.path] ?? c.title;
   const lead = groupDescription;
 
   // The legacy categories of one topic often share the same introduction: show it once.
@@ -91,14 +87,14 @@ export function Topic() {
             </div>
           )}
 
-          {categories.map((c) => {
-            const own = sharedIntro ? null : introOf(c.description);
-            const count = products.filter((p) => p.category === c.path).length;
+          {sections.map((c) => {
+            const own = sharedIntro || !c.intro ? null : introOf(c.intro);
+            const count = c.products.length;
             return (
-              <section className="category" id={c.slug} key={c.path} aria-labelledby={`c-${c.slug}`}>
+              <section className="category" id={c.id} key={c.id} aria-labelledby={`c-${c.id}`}>
                 {own && (own.paragraphs.length > 0 || benefits(own.bullets).length > 0) ? (
                   <div className="intro">
-                    <h2 id={`c-${c.slug}`}>{own.headline || nameOf(c)}</h2>
+                    <h2 id={`c-${c.id}`}>{own.headline || c.title}</h2>
                     {own.paragraphs.map((t, i) => (
                       <p key={i}>{t}</p>
                     ))}
@@ -112,15 +108,13 @@ export function Topic() {
                   </div>
                 ) : (
                   <div className="section__head">
-                    <h2 id={`c-${c.slug}`}>{nameOf(c)}</h2>
+                    <h2 id={`c-${c.id}`}>{c.title}</h2>
                     <span className="hint">{count === 1 ? '1 Paket' : `${count} Pakete`}</span>
                   </div>
                 )}
-                {products
-                  .filter((p) => p.category === c.path)
-                  .map((p) => (
-                    <Bundle key={p.slug} site={site} product={p} group={g.slug} />
-                  ))}
+                {c.products.map((p) => (
+                  <Bundle key={p.slug} site={site} product={p} group={g.slug} />
+                ))}
               </section>
             );
           })}
