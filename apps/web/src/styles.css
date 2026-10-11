@@ -471,6 +471,26 @@ main:has(> .band:last-child) {
   border-color: var(--teal-dark);
   color: #fff;
 }
+/* quiet text button, e.g. "Zurück" in the player bar */
+.button--text {
+  background: transparent;
+  border-color: transparent;
+  color: var(--accent-dark);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.button--text:hover:not(:disabled) {
+  background: var(--tint);
+  border-color: var(--tint);
+  color: var(--accent-dark);
+}
+.button--text:disabled {
+  background: transparent;
+  border-color: transparent;
+  color: var(--muted);
+  opacity: 0.55;
+  cursor: default;
+}
 .button--light {
   background: #fff;
   border-color: #fff;
@@ -1581,65 +1601,7 @@ a.mini__title:hover {
   }
 }
 
-/* ---- player chrome: toolbar and video controls ------------------------------------------------ */
-.toolbar {
-  margin-bottom: 14px;
-}
-.toolbar__buttons {
-  display: flex;
-  gap: 8px;
-}
-.tool {
-  background: var(--paper);
-  border: 0;
-  border-bottom: 3px solid transparent;
-  padding: 9px 18px;
-  font: 700 0.9rem/1 var(--font);
-  cursor: pointer;
-  border-radius: 0;
-}
-.tool:hover,
-.tool[aria-expanded='true'] {
-  border-bottom-color: var(--accent);
-  color: var(--accent-dark);
-}
-.toolbar__panel {
-  margin-top: 8px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--teal);
-  padding: 8px;
-  display: grid;
-  gap: 4px;
-  max-width: 460px;
-}
-.toolbar__panel--text {
-  padding: 16px 18px;
-  gap: 0;
-}
-.toolbar__panel--text p {
-  margin: 0 0 10px;
-  font-size: 0.95rem;
-}
-.toolbar__panel--text p:last-child {
-  margin: 0;
-}
-.toolbar__item {
-  display: block;
-  text-align: left;
-  background: var(--stage);
-  border: 0;
-  padding: 11px 14px;
-  font: 600 0.95rem/1.2 var(--font);
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 0;
-  color: var(--ink);
-}
-.toolbar__item:hover {
-  background: var(--accent-tint);
-  color: var(--accent-dark);
-}
+/* ---- player chrome: video controls ------------------------------------------------ */
 
 .controls {
   display: flex;
@@ -1773,5 +1735,71 @@ a.mini__title:hover {
   .controls__time,
   .volume {
     display: none;
+  }
+}
+
+/* ---- player bar: one fixed row with back, progress and forward ------------------------------- */
+.playerbar {
+  position: sticky;
+  bottom: 0;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: var(--gap-tiles);
+  padding: 12px 16px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--teal);
+}
+.playerbar--narrow {
+  max-width: 820px;
+}
+.playerbar__progress {
+  flex: 1;
+  display: flex;
+  gap: 3px;
+  min-width: 0;
+  height: 8px;
+  background: transparent;
+}
+.playerbar__seg {
+  flex: 1;
+  min-width: 0;
+  background: var(--line);
+}
+.playerbar__seg.is-done {
+  background: var(--accent);
+}
+.playerbar__seg.is-now {
+  background: var(--teal);
+}
+.playerbar__fill {
+  display: block;
+  height: 8px;
+  background: var(--accent);
+}
+.playerbar__progress:has(.playerbar__fill) {
+  background: var(--line);
+}
+.playerbar__count {
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.playerbar__count-short {
+  display: none;
+}
+@media (max-width: 640px) {
+  .playerbar {
+    gap: 10px;
+    padding: 10px 12px;
+  }
+  .playerbar__count-long {
+    display: none;
+  }
+  .playerbar__count-short {
+    display: inline;
   }
 }

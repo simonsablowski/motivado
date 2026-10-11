@@ -3,6 +3,7 @@ import {
   answer as storeAnswer,
   begin,
   createSession,
+  isComputed,
   type Answer,
   type Coaching,
   type CoachingNode,
@@ -14,7 +15,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { loadAnswers, loadSession, saveSession, clearProgress } from '../lib/store';
 import { mediaUrl, useMediaReady } from '../lib/media';
-import { StageControls, Toolbar } from './Controls';
+import { PlayerBar, StageControls } from './Controls';
 import { INTERACTIVE, NodeView } from './views';
 
 interface Props {
@@ -79,6 +80,19 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
     return begin(coaching, { ...createSession(coaching.key), answers: loadAnswers() });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [coaching.key]);
+
+  // An estimate: every node that shows something, minus the nodes a "Group" step pulls onto its own screen.
+  // Branches can make the real path shorter, so the display says "ca.".
+  const totalSteps = useMemo(() => {
+    let shown = 0;
+    let grouped = 0;
+    for (const n of Object.values(coaching.nodes)) {
+      if (isComputed(n)) continue;
+      shown += 1;
+      if (n.type === 'Group') grouped += Math.max(1, Number((n.props as { count?: number }).count) || 1);
+    }
+    return Math.max(1, shown - grouped);
+  }, [coaching]);
 
   const [pos, setPos] = useState<Position>(initial);
   const [pending, setPending] = useState<Record<string, Answer | undefined>>({});
@@ -180,6 +194,26 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
       if (level > 0) v.volume = level;
     }
   };
+  // keyboard: space plays and pauses, the arrow keys go back and forward (not while typing)
+  const keys = useRef({ toggle, goBack, proceed, ready: false });
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement | null;
+      if (t && ['INPUT', 'TEXTAREA', 'SELECT', 'BUTTON', 'A'].includes(t.tagName)) return;
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      if (e.key === ' ') {
+        e.preventDefault();
+        keys.current.toggle();
+      } else if (e.key === 'ArrowLeft') {
+        keys.current.goBack();
+      } else if (e.key === 'ArrowRight' && keys.current.ready) {
+        keys.current.proceed();
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
+
   const fullscreen = () => {
     const box = stageBox.current;
     if (!box) return;
@@ -187,20 +221,9 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
     else void box.requestFullscreen?.();
   };
 
-  const actions = (primary: React.ReactNode) => (
-    <div className="actions">
-      <button type="button" className="button button--quiet" disabled={!canGoBack} onClick={goBack}>
-        ‹ Zurück
-      </button>
-      {primary}
-      <span className="step-count">Schritt {history.length}</span>
-    </div>
-  );
-
   if (pos.step.kind === 'end') {
     return (
       <div className="player">
-        <Toolbar backTo={backTo} backLabel={backLabel} onRestart={restart} />
         <div className="panel panel--end" ref={panel} tabIndex={-1}>
           <p className="eyebrow">{title}</p>
           <h2 className="question">Geschafft – dieses Coaching ist abgeschlossen.</h2>
@@ -226,7 +249,6 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
   if (pos.step.kind === 'blocked' || !node) {
     return (
       <div className="player">
-        <Toolbar backTo={backTo} backLabel={backLabel} onRestart={restart} />
         <div className="panel" ref={panel} tabIndex={-1}>
           <h2 className="question">An dieser Stelle geht es leider nicht weiter.</h2>
           <p className="prose">
@@ -248,11 +270,11 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
   const linkKey = String((node.props as { key?: string }).key ?? '');
   const handover = node.type === 'Coaching' ? linkedTitle(linkKey) : undefined;
   const last = node.type === 'Buy' || (node.type === 'Coaching' && handover);
+  keys.current = { toggle, goBack, proceed, ready: visible && complete && !last };
   const answers = { ...pos.session.answers, ...Object.fromEntries(Object.entries(pending).filter(([, a]) => a)) } as Record<string, Answer>;
 
   return (
     <div className="player">
-      <Toolbar backTo={backTo} backLabel={backLabel} onRestart={restart} />
       <div className={`player__grid${hasVideo ? ' player__grid--split' : ''}`}>
         {hasVideo && (
           <div className="stage" ref={stageBox}>
@@ -310,27 +332,31 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
                     />
                   </div>
                 ))}
-                {actions(
-                  last ? (
-                    <button type="button" className="button button--quiet" onClick={proceed}>
-                      Überspringen
-                    </button>
-                  ) : (
-                    <button type="button" className="button" disabled={!complete} onClick={proceed}>
-                      Weiter ›
-                    </button>
-                  ),
-                )}
               </>
             ) : (
-              <>
-                <p className="hint">Hören Sie zu …</p>
-                {actions(null)}
-              </>
+              <p className="hint">Hören Sie zu …</p>
             )}
           </div>
         </div>
       </div>
+      <PlayerBar
+        narrow={!hasVideo}
+        canGoBack={canGoBack}
+        onBack={goBack}
+        step={history.length}
+        total={Math.max(totalSteps, history.length)}
+        primary={
+          last ? (
+            <button type="button" className="button button--text" onClick={proceed}>
+              Überspringen
+            </button>
+          ) : (
+            <button type="button" className="button" disabled={!visible || !complete} onClick={proceed}>
+              Weiter ›
+            </button>
+          )
+        }
+      />
     </div>
   );
 }

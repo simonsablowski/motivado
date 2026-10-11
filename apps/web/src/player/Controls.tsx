@@ -1,6 +1,3 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { SITE } from '../site.config';
 
 const clock = (s: number) => {
   if (!Number.isFinite(s) || s < 0) return '0:00';
@@ -78,54 +75,53 @@ export function StageControls({
   );
 }
 
-interface ToolbarProps {
-  backTo: string;
-  backLabel: string;
-  onRestart: () => void;
-}
-
-/** "Menü" and "Hilfe" as in the original player. */
-export function Toolbar({ backTo, backLabel, onRestart }: ToolbarProps) {
-  const [open, setOpen] = useState<'menu' | 'help' | null>(null);
-  const toggle = (which: 'menu' | 'help') => setOpen(open === which ? null : which);
+/** Fixed navigation of a step: back, progress, forward. Always in the same place. */
+export function PlayerBar({
+  canGoBack,
+  onBack,
+  step,
+  total,
+  primary,
+  narrow,
+}: {
+  canGoBack: boolean;
+  onBack: () => void;
+  step: number;
+  total: number;
+  primary: React.ReactNode;
+  /** Same width as a single-column step (no video). */
+  narrow?: boolean;
+}) {
+  const percent = Math.min(100, Math.round((step / total) * 100));
   return (
-    <div className="toolbar">
-      <div className="toolbar__buttons">
-        <button type="button" className="tool" aria-expanded={open === 'menu'} onClick={() => toggle('menu')}>
-          Menü
-        </button>
-        <button type="button" className="tool" aria-expanded={open === 'help'} onClick={() => toggle('help')}>
-          Hilfe
-        </button>
+    <div className={`playerbar${narrow ? ' playerbar--narrow' : ''}`} role="navigation" aria-label="Schritte">
+      <button type="button" className="button button--text" disabled={!canGoBack} onClick={onBack}>
+        ‹ Zurück
+      </button>
+      <div
+        className="playerbar__progress"
+        role="progressbar"
+        aria-valuemin={1}
+        aria-valuemax={total}
+        aria-valuenow={step}
+        aria-label={`Schritt ${step} von etwa ${total}`}
+      >
+        {total <= 24 ? (
+          Array.from({ length: total }, (_, i) => (
+            <span key={i} className={`playerbar__seg${i < step ? ' is-done' : ''}${i === step - 1 ? ' is-now' : ''}`} />
+          ))
+        ) : (
+          <span className="playerbar__fill" style={{ width: `${percent}%` }} />
+        )}
       </div>
-      {open === 'menu' && (
-        <div className="toolbar__panel">
-          <Link className="toolbar__item" to={backTo}>
-            {backLabel}
-          </Link>
-          <button
-            type="button"
-            className="toolbar__item"
-            onClick={() => {
-              setOpen(null);
-              onRestart();
-            }}
-          >
-            Coaching von vorn beginnen
-          </button>
-        </div>
-      )}
-      {open === 'help' && (
-        <div className="toolbar__panel toolbar__panel--text">
-          <p>
-            Hören Sie dem Coach zu, beantworten Sie die Fragen rechts und klicken Sie auf <strong>Weiter</strong>. Mit{' '}
-            <strong>Zurück</strong> gehen Sie einen Schritt zurück. Ihre Antworten bleiben auf diesem Gerät gespeichert.
-          </p>
-          <p>
-            Fragen oder Probleme? <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
-          </p>
-        </div>
-      )}
+      <span className="playerbar__count">
+        <span className="playerbar__count-long">Schritt </span>
+        {step}
+        <span className="playerbar__count-long"> von ca. </span>
+        <span className="playerbar__count-short">/</span>
+        {total}
+      </span>
+      {primary}
     </div>
   );
 }
