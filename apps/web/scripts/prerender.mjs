@@ -148,11 +148,9 @@ const sitemap =
     .join('\n') +
   '\n</urlset>\n';
 writeFileSync(join(dist, 'sitemap.xml'), sitemap);
-// the same list under a second name: Search Console cannot resubmit a sitemap whose first fetch failed
-writeFileSync(join(dist, 'sitemap-pages.xml'), sitemap);
 writeFileSync(
   join(dist, 'robots.txt'),
-  `User-agent: *\nAllow: /\n\nSitemap: ${BASE}/sitemap.xml\nSitemap: ${BASE}/sitemap-pages.xml\n`,
+  `User-agent: *\nAllow: /\n\nSitemap: ${BASE}/sitemap.xml\n`,
 );
 
 console.log(`prerendered ${routes.length} routes, sitemap + robots written`);
