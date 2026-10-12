@@ -10143,12 +10143,12 @@
    "bytes": 152258,
    "match": "exact"
   },
-  "Sporttipps_Alltag": {
+  "Sporttipps_Alltag.pdf": {
    "kind": "document",
-   "source": null,
-   "file": null,
-   "bytes": null,
-   "match": "missing"
+   "source": "documents",
+   "file": "Sporttipps_Alltag.pdf",
+   "bytes": 198612,
+   "match": "exact"
   },
   "Telefonischer_Leitfaden_Netzwerk.pdf": {
    "kind": "document",
@@ -12547,7 +12547,7 @@
    "DIC_MotivationII-II_V4.flv",
    "DIC_MotivationII-II_V6.flv",
    "Ernaehrungstipps_Alltag.pdf",
-   "Sporttipps_Alltag"
+   "Sporttipps_Alltag.pdf"
   ],
   "ges-abn-mot-kontrolle1": [
    "DIC_MotivationIII-I_V1.flv",
@@ -12587,112 +12587,6 @@
    "tabletten-01.jpg",
    "target-01.jpg",
    "thumbsup-01.jpg"
-  ],
-  "kar-ac": [
-   "Checkliste_Outfit.pdf"
-  ],
-  "kar-durchstarten": [
-   "JAC_GetStarted_V1.flv",
-   "JAC_GetStarted_V10.flv",
-   "JAC_GetStarted_V11.flv",
-   "JAC_GetStarted_V12.flv",
-   "JAC_GetStarted_V13.flv",
-   "JAC_GetStarted_V14.flv",
-   "JAC_GetStarted_V15.flv",
-   "JAC_GetStarted_V16.flv",
-   "JAC_GetStarted_V17.flv",
-   "JAC_GetStarted_V2.flv",
-   "JAC_GetStarted_V3.flv",
-   "JAC_GetStarted_V4.flv",
-   "JAC_GetStarted_V5.flv",
-   "JAC_GetStarted_V6.flv",
-   "JAC_GetStarted_V8.flv",
-   "JAC_GetStarted_V9.flv"
-  ],
-  "kar-erster-anruf": [
-   "Fragen_Bewerber.pdf",
-   "Leitfaden_Anruf_Firma.pdf"
-  ],
-  "kar-extra-aufregung": [],
-  "kar-gespraech-einstieg": [],
-  "kar-gespraech-einwaende": [
-   "Fragen_Bewerbungsgespraech.pdf"
-  ],
-  "kar-gespraech-gehalt": [
-   "Fragen_Bewerber.pdf",
-   "Fragen_Bewerbungsgespraech.pdf"
-  ],
-  "kar-gespraech-nachbereitung": [
-   "Leitfaden_Nachfassen.pdf"
-  ],
-  "kar-gespraech-selbstmarketing": [],
-  "kar-gespraech-vorbereitung": [
-   "Checkliste_24h_Gespraech.pdf",
-   "Checkliste_Outfit.pdf"
-  ],
-  "kar-initiativ": [
-   "Beispiele_Initiativanrufe.pdf",
-   "Checkliste_Initiativanruf.pdf",
-   "Checkliste_Online_Bewerbung.pdf",
-   "Leitfaden_Anruf_Firma_Initiativ.pdf",
-   "Leitfaden_Anruf_Firma_Online.pdf",
-   "Leitfaden_netzwerken_Email.pdf",
-   "Telefonischer_Leitfaden_Netzwerk.pdf"
-  ],
-  "kar-interessen": [
-   "Berufliche_Interessen.pdf",
-   "JAC_VisioZiel_V1.flv"
-  ],
-  "kar-potenzial": [
-   "JAC_Staerken_V1.flv"
-  ],
-  "kar-selbstmarketing": [
-   "JAC_SichPraesen_V1.flv",
-   "JAC_Verkaufen_V1.flv"
-  ],
-  "kar-situationsanalyse": [
-   "JAC_SituAna_V1.flv",
-   "JAC_SituAna_V2.flv"
-  ],
-  "kar-start-job": [
-   "Leitfaden_Anruf_Dank_Netzwerk.pdf",
-   "Leitfaden_Email_Dank_Netzwerk.pdf"
-  ],
-  "kar-stellenauswahl": [
-   "Bewerbungsfahrplan.pdf",
-   "JAC_PassAngebo_V1.flv",
-   "Leitfaden_Anruf_Firma.pdf",
-   "Quellen_Stellensuche.pdf"
-  ],
-  "kar-telefoninterview": [],
-  "kar-unterlagen": [
-   "Aktive_Formulierungen.pdf",
-   "Anschreiben_Muster1.pdf",
-   "Anschreiben_Muster2.pdf",
-   "Checkliste_Lebenslauf.pdf",
-   "Funktionaler_Lebenslauf.pdf",
-   "JAC_Unterlagen_V1.flv",
-   "Kompetenzprofil_1.pdf",
-   "Kompetenzprofil_2.pdf",
-   "Lebenslauf_Muster1.pdf",
-   "Lebenslauf_Muster2.pdf"
-  ],
-  "kar-vollgas": [
-   "JAC_Intro_V2.flv",
-   "JAC_Intro_V3.flv",
-   "JAC_Intro_V5.flv",
-   "JAC_Vollgas_V1.flv",
-   "JAC_Vollgas_V2.flv",
-   "JAC_Vollgas_V3.flv",
-   "JAC_Vollgas_V4.flv",
-   "JAC_Vollgas_V5.flv",
-   "JAC_Vollgas_V6.flv"
-  ],
-  "kar-was-passt": [
-   "JAC_CharaEigen_V1.flv"
-  ],
-  "kar-zielmarkt": [
-   "Liste_Datenbanken_Firmen.pdf"
   ],
   "ges-slc-abc": [
    "SLC_SchlafUeberbl_V1.flv",
@@ -12840,6 +12734,112 @@
    "SLC_SchlafVerh_v6.flv",
    "SLC_SchlafVerh_v7.flv",
    "SLC_SchlafVerh_v8.flv"
+  ],
+  "kar-ac": [
+   "Checkliste_Outfit.pdf"
+  ],
+  "kar-durchstarten": [
+   "JAC_GetStarted_V1.flv",
+   "JAC_GetStarted_V10.flv",
+   "JAC_GetStarted_V11.flv",
+   "JAC_GetStarted_V12.flv",
+   "JAC_GetStarted_V13.flv",
+   "JAC_GetStarted_V14.flv",
+   "JAC_GetStarted_V15.flv",
+   "JAC_GetStarted_V16.flv",
+   "JAC_GetStarted_V17.flv",
+   "JAC_GetStarted_V2.flv",
+   "JAC_GetStarted_V3.flv",
+   "JAC_GetStarted_V4.flv",
+   "JAC_GetStarted_V5.flv",
+   "JAC_GetStarted_V6.flv",
+   "JAC_GetStarted_V8.flv",
+   "JAC_GetStarted_V9.flv"
+  ],
+  "kar-erster-anruf": [
+   "Fragen_Bewerber.pdf",
+   "Leitfaden_Anruf_Firma.pdf"
+  ],
+  "kar-extra-aufregung": [],
+  "kar-gespraech-einstieg": [],
+  "kar-gespraech-einwaende": [
+   "Fragen_Bewerbungsgespraech.pdf"
+  ],
+  "kar-gespraech-gehalt": [
+   "Fragen_Bewerber.pdf",
+   "Fragen_Bewerbungsgespraech.pdf"
+  ],
+  "kar-gespraech-nachbereitung": [
+   "Leitfaden_Nachfassen.pdf"
+  ],
+  "kar-gespraech-selbstmarketing": [],
+  "kar-gespraech-vorbereitung": [
+   "Checkliste_24h_Gespraech.pdf",
+   "Checkliste_Outfit.pdf"
+  ],
+  "kar-initiativ": [
+   "Beispiele_Initiativanrufe.pdf",
+   "Checkliste_Initiativanruf.pdf",
+   "Checkliste_Online_Bewerbung.pdf",
+   "Leitfaden_Anruf_Firma_Initiativ.pdf",
+   "Leitfaden_Anruf_Firma_Online.pdf",
+   "Leitfaden_netzwerken_Email.pdf",
+   "Telefonischer_Leitfaden_Netzwerk.pdf"
+  ],
+  "kar-interessen": [
+   "Berufliche_Interessen.pdf",
+   "JAC_VisioZiel_V1.flv"
+  ],
+  "kar-potenzial": [
+   "JAC_Staerken_V1.flv"
+  ],
+  "kar-selbstmarketing": [
+   "JAC_SichPraesen_V1.flv",
+   "JAC_Verkaufen_V1.flv"
+  ],
+  "kar-situationsanalyse": [
+   "JAC_SituAna_V1.flv",
+   "JAC_SituAna_V2.flv"
+  ],
+  "kar-start-job": [
+   "Leitfaden_Anruf_Dank_Netzwerk.pdf",
+   "Leitfaden_Email_Dank_Netzwerk.pdf"
+  ],
+  "kar-stellenauswahl": [
+   "Bewerbungsfahrplan.pdf",
+   "JAC_PassAngebo_V1.flv",
+   "Leitfaden_Anruf_Firma.pdf",
+   "Quellen_Stellensuche.pdf"
+  ],
+  "kar-telefoninterview": [],
+  "kar-unterlagen": [
+   "Aktive_Formulierungen.pdf",
+   "Anschreiben_Muster1.pdf",
+   "Anschreiben_Muster2.pdf",
+   "Checkliste_Lebenslauf.pdf",
+   "Funktionaler_Lebenslauf.pdf",
+   "JAC_Unterlagen_V1.flv",
+   "Kompetenzprofil_1.pdf",
+   "Kompetenzprofil_2.pdf",
+   "Lebenslauf_Muster1.pdf",
+   "Lebenslauf_Muster2.pdf"
+  ],
+  "kar-vollgas": [
+   "JAC_Intro_V2.flv",
+   "JAC_Intro_V3.flv",
+   "JAC_Intro_V5.flv",
+   "JAC_Vollgas_V1.flv",
+   "JAC_Vollgas_V2.flv",
+   "JAC_Vollgas_V3.flv",
+   "JAC_Vollgas_V4.flv",
+   "JAC_Vollgas_V5.flv",
+   "JAC_Vollgas_V6.flv"
+  ],
+  "kar-was-passt": [
+   "JAC_CharaEigen_V1.flv"
+  ],
+  "kar-zielmarkt": [
+   "Liste_Datenbanken_Firmen.pdf"
   ]
  }
 }

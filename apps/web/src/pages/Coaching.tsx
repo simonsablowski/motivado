@@ -37,7 +37,10 @@ export function Coaching() {
         title={title}
         backTo={product ? `/paket/${product.slug}` : '/'}
         backLabel={product ? 'Zurück zum Paket' : 'Zur Startseite'}
-        linkedTitle={(k) => (site.available.has(k) ? { key: k, title: coachingTitle(site, k) } : undefined)}
+        linkedTitle={(k) => {
+          const model = modelOf(site, k);
+          return model ? { key: model, title: coachingTitle(site, model) } : undefined;
+        }}
       />
     </div>
   );
