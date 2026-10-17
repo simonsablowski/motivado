@@ -508,7 +508,7 @@ main {
 }
 .expert__photo {
   aspect-ratio: 1 / 1;
-  border-radius: 50%;
+  border-radius: var(--r-m);
   object-position: center 15%;
 }
 .expert__body {
