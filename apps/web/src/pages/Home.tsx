@@ -4,7 +4,7 @@ import { PackageCard, modules } from '../components/catalogue';
 import { activeGroups } from '../App';
 import { getJson, modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
-import { FEATURED_EXPERTS, GROUP_IMAGE, expertPhoto } from '../lib/visuals';
+import { FEATURED_EXPERTS, GROUP_IMAGE } from '../lib/visuals';
 import { ExpertCard } from './Team';
 import { Loading } from './Static';
 
@@ -33,7 +33,6 @@ export function Home() {
   const popular = ['flirten', 'ex-zurueck', 'online-dating']
     .map((slug) => launched.find((p) => p.slug === slug))
     .filter((p): p is NonNullable<typeof p> => Boolean(p));
-  const featuredExpert = site.experts.find((e) => e.name === 'Janina Blume');
   const sample = launched
     .flatMap((p) => p.coachings)
     .map((k) => modelOf(site, k))
@@ -66,12 +65,6 @@ export function Home() {
           </div>
           <div className="hero__visual">
             <img src={GROUP_IMAGE.beziehung} alt="" />
-            {featuredExpert && (
-              <span className="hero__badge">
-                <img src={expertPhoto(featuredExpert.name)} alt="" />
-                {featuredExpert.name}
-              </span>
-            )}
           </div>
         </div>
       </section>
