@@ -134,7 +134,7 @@ export function Home() {
           <div className="facts-section__intro">
             <p className="eyebrow">Zahlen und Fakten</p>
             <h2 id="facts-h">Motivado in Zahlen</h2>
-            <p>Über Jahre entwickelt mit Psychologen, Therapeuten und Beratern.</p>
+            <p>Über Jahre entwickelt mit Psychologen, Medizinern und weiteren Experten.</p>
           </div>
           <div className="facts">
             <div className="fact">
