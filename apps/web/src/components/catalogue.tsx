@@ -5,15 +5,7 @@ import { hasProgress } from '../lib/store';
 import { GROUP_IMAGE, expertPhoto } from '../lib/visuals';
 
 /** Sidebar / content box with a coloured top edge. */
-export function Box({
-  title,
-  accent,
-  children,
-}: {
-  title?: string;
-  accent?: boolean;
-  children: React.ReactNode;
-}) {
+export function Box({ title, accent, children }: { title?: string; accent?: boolean; children: React.ReactNode }) {
   return (
     <section className={`box${accent ? ' box--accent' : ''}`}>
       {title && <h2 className="box__title">{title}</h2>}
@@ -111,6 +103,22 @@ function CoachingMini({ site, catalogueKey }: { site: Site; catalogueKey: string
 
 /** "1 Modul", "21 Module". */
 export const modules = (n: number) => (n === 1 ? '1 Modul' : `${n} Module`);
+
+/** A package as a compact card: photo, title, one line, module count. */
+export function PackageCard({ site, product, group }: { site: Site; product: Product; group?: string }) {
+  return (
+    <Link className="pcard" to={`/paket/${product.slug}`}>
+      <ProductImage product={product} group={group} className="pcard__image" />
+      <span className="pcard__body">
+        <span className="pcard__title">{product.title}</span>
+        {product.subtitle && <span className="pcard__sub">{product.subtitle}</span>}
+        <span className="pcard__count">
+          {modules(new Set(product.coachings.map((k) => modelOf(site, k)).filter(Boolean)).size)}
+        </span>
+      </span>
+    </Link>
+  );
+}
 
 /** A product ("Paket") as a box whose modules fold out. */
 export function Bundle({ site, product, group }: { site: Site; product: Product; group: string }) {

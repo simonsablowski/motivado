@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { CrumbsSlot } from './components/Crumbs';
-import { useSite, type Site } from './lib/api';
+import { modelOf, useSite, type Site } from './lib/api';
 import { topicSections } from './lib/sections';
 import { Coaching } from './pages/Coaching';
 import { Home } from './pages/Home';
@@ -17,6 +17,15 @@ export function activeGroups(site: Site) {
   return site.groups.filter((g) =>
     site.products.some((p) => site.launch.includes(p.slug) && p.category.startsWith(g.slug)),
   );
+}
+
+/** The module offered for a first try: the first one of the first launched package. */
+export function sampleModule(site: Site) {
+  return site.products
+    .filter((p) => site.launch.includes(p.slug))
+    .flatMap((p) => p.coachings)
+    .map((k) => modelOf(site, k))
+    .find(Boolean);
 }
 
 function Layout() {
@@ -47,7 +56,6 @@ function Layout() {
           <Link to="/" className="logo" aria-label="Motivado – zur Startseite">
             <img src="/logo.svg" alt="Motivado" width="203" height="38" />
           </Link>
-          <div className="header__crumbs" ref={setCrumbsSlot} />
           <button
             type="button"
             className="nav__toggle"
@@ -81,9 +89,15 @@ function Layout() {
                   </div>
                 </div>
               ))}
+            {site && sampleModule(site) && (
+              <Link className="button nav__cta" to={`/coaching/${sampleModule(site)}`}>
+                Kostenlos ausprobieren
+              </Link>
+            )}
           </nav>
         </div>
       </header>
+      <div className="wrap crumbs-row" ref={setCrumbsSlot} />
       <main id="main">
         <Outlet />
       </main>

@@ -22,11 +22,17 @@ export function Coaching() {
   const title = coachingTitle(site, key);
 
   return (
-    <div className="wrap">
+    <div className="wrap wrap--player">
       <div className="coaching-head">
         <div>
           <Crumbs>
-            {product ? <Link to={`/paket/${product.slug}`}>{product.title}</Link> : <Link to="/">Start</Link>}
+            <Link to="/">Start</Link> /{' '}
+            {product && (
+              <>
+                <Link to={`/paket/${product.slug}`}>{product.title}</Link> /{' '}
+              </>
+            )}
+            {title}
           </Crumbs>
           <h1>{title}</h1>
         </div>

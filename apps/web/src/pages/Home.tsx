@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { modules } from '../components/catalogue';
+import { PackageCard, modules } from '../components/catalogue';
 import { activeGroups } from '../App';
 import { getJson, modelOf, useSite } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
-import { FEATURED_EXPERTS, GROUP_IMAGE } from '../lib/visuals';
+import { FEATURED_EXPERTS, GROUP_IMAGE, expertPhoto } from '../lib/visuals';
 import { ExpertCard } from './Team';
 import { Loading } from './Static';
 
@@ -30,6 +30,10 @@ export function Home() {
   const launched = site.products.filter((p) => site.launch.includes(p.slug));
   // four experts, one per topic: relationships, health, career, education
   const experts = FEATURED_EXPERTS.flatMap((id) => site.experts.filter((e) => e.id === id));
+  const popular = ['flirten', 'ex-zurueck', 'online-dating']
+    .map((slug) => launched.find((p) => p.slug === slug))
+    .filter((p): p is NonNullable<typeof p> => Boolean(p));
+  const featuredExpert = site.experts.find((e) => e.name === 'Janina Blume');
   const sample = launched
     .flatMap((p) => p.coachings)
     .map((k) => modelOf(site, k))
@@ -38,50 +42,46 @@ export function Home() {
   return (
     <>
       <section className="hero" aria-labelledby="hero-h">
-        <div className="wrap hero__text">
-          <h1 id="hero-h">
-            Persönliches Coaching, <em>wann Sie es brauchen.</em>
-          </h1>
-          <p className="lead">
-            Motivado bringt Experten zu Ihnen nach Hause: in kurzen Videos, mit Fragen und Übungen, die sich Ihrer
-            Situation anpassen. Besser als ein Buch, flexibler als ein Seminar.
-          </p>
-          <div className="hero__actions">
-            {sample && (
-              <Link className="button" to={`/coaching/${sample}`}>
-                Coaching ausprobieren
-              </Link>
+        <div className="wrap hero__grid">
+          <div className="hero__text">
+            <p className="pill">Coaching per Video</p>
+            <h1 id="hero-h">
+              Persönliches Coaching, <em>wann Sie es brauchen.</em>
+            </h1>
+            <p className="lead">
+              Erfahrene Experten sprechen direkt mit Ihnen. Sie antworten auf Fragen, und das Video passt sich Ihren
+              Antworten an – in Ihrem Tempo, jederzeit und überall.
+            </p>
+            <div className="hero__actions">
+              {sample && (
+                <Link className="button" to={`/coaching/${sample}`}>
+                  Coaching ausprobieren
+                </Link>
+              )}
+              <a className="button button--ghost" href="#so-funktioniert-es">
+                So funktioniert es
+              </a>
+            </div>
+            <p className="hero__note">Interaktiv und in Ihrem Tempo · Keine Anmeldung nötig</p>
+          </div>
+          <div className="hero__visual">
+            <img src={GROUP_IMAGE.beziehung} alt="" />
+            {featuredExpert && (
+              <span className="hero__badge">
+                <img src={expertPhoto(featuredExpert.name)} alt="" />
+                {featuredExpert.name}
+              </span>
             )}
-          </div>
-        </div>
-        <div className="wrap claims">
-          <div className="claim">
-            <img src="/img/icons/video.png" alt="" width="64" height="64" />
-            <div>
-              <h2 className="claim__title">Coaching per Video</h2>
-              <p>Experten erklären Schritt für Schritt, was wirklich hilft.</p>
-            </div>
-          </div>
-          <div className="claim">
-            <img src="/img/icons/fortschritt.png" alt="" width="64" height="64" />
-            <div>
-              <h2 className="claim__title">Übungen mit Wirkung</h2>
-              <p>Fragen, Checklisten und Aufgaben machen aus Wissen Gewohnheit.</p>
-            </div>
-          </div>
-          <div className="claim">
-            <img src="/img/icons/haende.png" alt="" width="64" height="64" />
-            <div>
-              <h2 className="claim__title">Individuell für Sie</h2>
-              <p>Ihre Antworten bestimmen, wie es weitergeht.</p>
-            </div>
           </div>
         </div>
       </section>
 
       <section className="wrap section" id="themen" aria-labelledby="themen-h">
         <div className="section__head">
-          <h2 id="themen-h">Wobei dürfen wir helfen?</h2>
+          <div>
+            <p className="eyebrow">Themen</p>
+            <h2 id="themen-h">Wobei dürfen wir helfen?</h2>
+          </div>
         </div>
         <div className="topics">
           {groups.map((g) => {
@@ -105,7 +105,9 @@ export function Home() {
                       .map((p) => p.title)
                       .join(' · ')}
                   </span>
-                  <span className="topic__count">{modules(coachings.size)} →</span>
+                  <span className="topic__count">
+                    {products.length === 1 ? '1 Paket' : `${products.length} Pakete`} · {modules(coachings.size)} →
+                  </span>
                 </div>
               </Link>
             );
@@ -113,46 +115,63 @@ export function Home() {
         </div>
       </section>
 
-      <section className="band band--teal" aria-labelledby="how-h">
+      <section className="band band--soft" id="so-funktioniert-es" aria-labelledby="how-h">
         <div className="wrap">
-          <p className="eyebrow">In drei Schritten</p>
-          <h2 id="how-h">So funktioniert Motivado</h2>
+          <p className="eyebrow">So funktioniert Motivado</p>
+          <h2 id="how-h">Ein Gespräch, das sich auf Sie einstellt</h2>
           <div className="steps">
             <div className="step">
-              <h3>Situation schildern</h3>
-              <p>Sie beantworten ein paar Fragen. Daraus entsteht Ihr persönlicher Weg durch das Coaching.</p>
+              <h3>Thema wählen</h3>
+              <p>Finden Sie das Paket, das zu Ihrer Situation passt, und starten Sie mit dem ersten Modul.</p>
             </div>
             <div className="step">
-              <h3>Von Experten lernen</h3>
-              <p>Kurze Videos erklären, was wirklich hilft, mit Beispielen aus der Praxis statt Theorie.</p>
+              <h3>Fragen beantworten</h3>
+              <p>Ihr Coach stellt Fragen und zeigt Ihnen Übungen. Ihre Antworten bestimmen, wie es weitergeht.</p>
             </div>
             <div className="step">
-              <h3>Üben und umsetzen</h3>
-              <p>Übungen und Checklisten machen aus Wissen Gewohnheit. Sie bestimmen das Tempo.</p>
+              <h3>In Ihrem Tempo weitergehen</h3>
+              <p>Pausieren, zurückgehen, später fortsetzen: Ihr Fortschritt bleibt erhalten.</p>
             </div>
           </div>
         </div>
       </section>
 
       {stats && (
-        <section className="band band--paper" aria-labelledby="facts-h">
-          <div className="wrap">
+        <section className="wrap section facts-section" aria-labelledby="facts-h">
+          <div className="facts-section__intro">
             <p className="eyebrow">Zahlen und Fakten</p>
             <h2 id="facts-h">Motivado in Zahlen</h2>
-            <div className="facts">
-              <div className="fact">
-                <span className="fact__number">{stats.modules}</span>
-                <span className="fact__label">Module</span>
-              </div>
-              <div className="fact">
-                <span className="fact__number">{stats.hours}</span>
-                <span className="fact__label">Stunden Videomaterial</span>
-              </div>
-              <div className="fact">
-                <span className="fact__number">{stats.exercises}</span>
-                <span className="fact__label">Übungen</span>
-              </div>
+            <p>Über Jahre entwickelt mit Psychologen, Therapeuten und Beratern.</p>
+          </div>
+          <div className="facts">
+            <div className="fact">
+              <span className="fact__number">{stats.modules}</span>
+              <span className="fact__label">Module</span>
             </div>
+            <div className="fact fact--sand">
+              <span className="fact__number">{stats.hours}</span>
+              <span className="fact__label">Stunden Videomaterial</span>
+            </div>
+            <div className="fact fact--soft">
+              <span className="fact__number">{stats.exercises}</span>
+              <span className="fact__label">Übungen</span>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {popular.length > 0 && (
+        <section className="wrap section" aria-labelledby="popular-h">
+          <div className="section__head">
+            <div>
+              <p className="eyebrow">Beliebt</p>
+              <h2 id="popular-h">Pakete, mit denen die meisten starten</h2>
+            </div>
+          </div>
+          <div className="pcards pcards--3">
+            {popular.map((p) => (
+              <PackageCard key={p.slug} site={site} product={p} group="beziehung" />
+            ))}
           </div>
         </section>
       )}
@@ -160,8 +179,11 @@ export function Home() {
       {experts.length > 0 && (
         <section className="wrap section" aria-labelledby="experts-h">
           <div className="section__head">
-            <h2 id="experts-h">Unsere Experten</h2>
-            <Link to="/team">Alle Experten</Link>
+            <div>
+              <p className="eyebrow">Experten</p>
+              <h2 id="experts-h">Menschen mit Erfahrung vor der Kamera</h2>
+            </div>
+            <Link to="/team">Alle Experten →</Link>
           </div>
           <div className="experts">
             {experts.map((e) => (
@@ -172,10 +194,11 @@ export function Home() {
       )}
 
       {sample && (
-        <section className="band band--accent" aria-label="Ausprobieren">
-          <div className="wrap band__row">
-            <h2>Probieren Sie es aus: das erste Coaching ist nur wenige Minuten entfernt.</h2>
-            <Link className="button button--light" to={`/coaching/${sample}`}>
+        <section className="wrap section" aria-label="Ausprobieren">
+          <div className="cta">
+            <h2>Probieren Sie es einfach aus.</h2>
+            <p>Das erste Coaching ist nur wenige Minuten entfernt.</p>
+            <Link className="button button--dark" to={`/coaching/${sample}`}>
               Jetzt starten
             </Link>
           </div>
