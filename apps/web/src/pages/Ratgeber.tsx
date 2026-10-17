@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
-import { getJson, useAsync } from '../lib/api';
+import { getJson, useAsync, useSite } from '../lib/api';
+import { modules } from '../components/catalogue';
 import { usePageMeta } from '../lib/meta';
 import { GROUP_IMAGE } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
@@ -41,7 +42,31 @@ interface Article {
   heading: string;
   description: string;
   blocks: Block[];
+  /** The new articles: key points, matching package, review date, hand-picked neighbours. */
+  summary?: string[];
+  package?: string;
+  reviewed?: string;
+  related?: string[];
 }
+
+const MONTHS = [
+  'Januar',
+  'Februar',
+  'März',
+  'April',
+  'Mai',
+  'Juni',
+  'Juli',
+  'August',
+  'September',
+  'Oktober',
+  'November',
+  'Dezember',
+];
+const reviewedLabel = (ym: string) => {
+  const [y, m] = ym.split('-');
+  return MONTHS[Number(m) - 1] ? `${MONTHS[Number(m) - 1]} ${y}` : ym;
+};
 
 /** Topic -> photo and the coaching topic page it leads to. */
 const TOPIC_META: Record<string, { image: string; group: string; blurb: string }> = {
@@ -249,6 +274,7 @@ export function RatgeberArticle() {
   const { topic = '', slug = '' } = useParams();
   const article = useAsync(() => getJson<Article>(`/content/ratgeber/${topic}/${slug}.json`), [topic, slug]);
   const index = useAsync(() => getJson<TopicIndex>(`/content/ratgeber/${topic}/index.json`), [topic]);
+  const { data: site } = useSite();
   usePageMeta(article.data?.title ?? 'Ratgeber', article.data?.description);
   if (article.loading) return <Loading />;
   if (article.error || !article.data) return <NotFound />;
@@ -259,15 +285,21 @@ export function RatgeberArticle() {
   // neighbours within the same sub-category when the topic has them, otherwise the next articles of the topic
   const group = index.data?.groups?.find((g) => g.slugs.includes(slug));
   const bySlug = new Map(list.map((x) => [x.slug, x]));
-  const related = group
-    ? group.slugs
-        .filter((s) => s !== slug)
-        .slice(0, 8)
-        .map((s) => bySlug.get(s))
-        .filter((x): x is (typeof list)[number] => Boolean(x))
-    : at >= 0
-      ? [...list.slice(Math.max(0, at - 4), at), ...list.slice(at + 1, at + 5)]
-      : [];
+  const picked = (a.related ?? []).map((s) => bySlug.get(s)).filter((x): x is (typeof list)[number] => Boolean(x));
+  const product = a.package
+    ? site?.products.find((p) => p.slug === a.package && site.launch.includes(p.slug))
+    : undefined;
+  const related = picked.length
+    ? picked
+    : group
+      ? group.slugs
+          .filter((s) => s !== slug)
+          .slice(0, 8)
+          .map((s) => bySlug.get(s))
+          .filter((x): x is (typeof list)[number] => Boolean(x))
+      : at >= 0
+        ? [...list.slice(Math.max(0, at - 4), at), ...list.slice(at + 1, at + 5)]
+        : [];
   return (
     <>
       <div className="page-banner">
@@ -278,20 +310,46 @@ export function RatgeberArticle() {
               <Link to={`/ratgeber/${topic}`}>{index.data?.title ?? topic}</Link>
             </Crumbs>
             <h1>{a.heading}</h1>
+            {a.reviewed && <p className="article-meta">Zuletzt geprüft: {reviewedLabel(a.reviewed)}</p>}
           </div>
         </div>
       </div>
       <div className="wrap">
         <div className="section">
+          {a.summary && a.summary.length > 0 && (
+            <aside className="summary" aria-label="Kurz gesagt">
+              <h2>Kurz gesagt</h2>
+              <ul>
+                {a.summary.map((t, i) => (
+                  <li key={i}>{t}</li>
+                ))}
+              </ul>
+            </aside>
+          )}
           <Blocks blocks={a.blocks} />
         </div>
-        {meta && (
+        {product ? (
           <div className="offer">
-            <p className="offer__label">Mehr dazu im interaktiven Video-Coaching zum Thema.</p>
-            <Link className="button" to={`/themen/${meta.group}`}>
-              Module ansehen
+            <div>
+              <p className="offer__label">Dazu passt: {product.title}</p>
+              <p className="hint">
+                {product.subtitle ? `${product.subtitle} · ` : ''}
+                {modules(new Set(product.coachings).size)} interaktives Video-Coaching
+              </p>
+            </div>
+            <Link className="button" to={`/paket/${product.slug}`}>
+              Zum Paket
             </Link>
           </div>
+        ) : (
+          meta && (
+            <div className="offer">
+              <p className="offer__label">Mehr dazu im interaktiven Video-Coaching zum Thema.</p>
+              <Link className="button" to={`/themen/${meta.group}`}>
+                Module ansehen
+              </Link>
+            </div>
+          )
         )}
         {related.length > 0 && (
           <section className="section" aria-labelledby="more-h">

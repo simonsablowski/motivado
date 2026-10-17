@@ -1159,3 +1159,39 @@ a.rows__row:hover .rows__no {
     padding: 12px;
   }
 }
+
+/* ---- Ratgeber articles ----------------------------------------------------------------------- */
+.article-meta {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.summary {
+  max-width: var(--measure);
+  margin: 0 0 40px;
+  padding: 28px 32px;
+  border-radius: var(--r-m);
+  background: var(--accent-tint);
+}
+.summary h2 {
+  font-size: 1.15rem;
+  margin: 0 0 12px;
+}
+.summary ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.summary li {
+  margin-bottom: 8px;
+}
+.summary li:last-child {
+  margin-bottom: 0;
+}
+.page-banner + .wrap > .section:first-child {
+  margin-top: 40px;
+  padding-top: 0;
+}
+.wrap > .offer {
+  max-width: var(--measure);
+  margin-top: 48px;
+}
