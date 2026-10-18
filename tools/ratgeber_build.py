@@ -150,6 +150,39 @@ def main():
         new[slug] = article
         print(f'{slug}: {words(blocks)} words')
 
+    # references like „Liebeskummer überwinden“ in the text become links to the article of that name
+    names = {}
+    for slug, a in new.items():
+        for n in {a['title'], a['heading'], a['heading'].split(':')[0], a['title'].split(':')[0]}:
+            names.setdefault(n.strip().lower(), slug)
+
+    def autolink(segs, own):
+        out = []
+        for seg in segs:
+            if seg.get('href') or seg.get('b') or seg.get('i') or '„' not in seg['t']:
+                out.append(seg)
+                continue
+            parts = re.split(r'(„[^“]+“)', seg['t'])
+            for part in parts:
+                m = re.fullmatch(r'„([^“]+)“', part)
+                target = None
+                if m:
+                    q = m.group(1).strip().lower()
+                    target = names.get(q) or names.get(q.split(':')[0].strip())
+                if m and target and target != own:
+                    out.append({'t': part, 'href': f'/ratgeber/{topic}/{target}'})
+                elif part:
+                    out.append({'t': part})
+        return out
+
+    for slug, a in new.items():
+        for b in a['blocks']:
+            if b['t'] == 'p':
+                b['inline'] = autolink(b['inline'], slug)
+            elif b['t'] in ('ul', 'ol'):
+                b['items'] = [autolink(it, slug) for it in b['items']]
+        json.dump(a, open(os.path.join(CONTENT, topic, slug + '.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+
     entries = {a['slug']: a for a in index['articles']}
     for slug, a in new.items():
         entries[slug] = {'slug': slug, 'title': a['title'], 'summary': a['description']}
