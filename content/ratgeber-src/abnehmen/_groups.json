@@ -1,0 +1,18 @@
+{
+ "Abnehmen verstehen": {
+  "to": "/paket/erste-schritte",
+  "label": "Die wichtigen ersten Schritte"
+ },
+ "Ernährung und Diät": {
+  "to": "/paket/ernaehrung",
+  "label": "Ernährung und Diät"
+ },
+ "Bewegung und Sport": {
+  "to": "/paket/bewegung",
+  "label": "Bewegung und Sport"
+ },
+ "Motivation und Hilfe": {
+  "to": "/paket/motivation",
+  "label": "Motivation beim Abnehmen"
+ }
+}
