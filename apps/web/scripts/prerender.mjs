@@ -89,6 +89,14 @@ for (const key of available) {
 }
 
 add({ path: '/team', title: 'Unsere Experten', description: 'Coaches, Psychologen und Berater mit Praxiserfahrung: die Menschen vor der Kamera.' });
+// the support page exists only while a support link is configured in src/site.config.ts
+if (/supportUrl:\s*'[^']+'/.test(readFileSync(resolve(here, '../src/site.config.ts'), 'utf8'))) {
+  add({
+    path: '/unterstuetzen',
+    title: 'Motivado unterstützen',
+    description: 'Motivado ist kostenlos. Wenn es Ihnen weitergeholfen hat, freue ich mich über einen kleinen freiwilligen Beitrag.',
+  });
+}
 add({ path: '/impressum', title: 'Impressum', description: 'Impressum von Motivado.' });
 add({ path: '/datenschutz', title: 'Datenschutz', description: 'Datenschutzhinweise von Motivado.' });
 

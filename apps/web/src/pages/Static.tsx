@@ -111,6 +111,17 @@ export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
                 Die Videos werden von unserem Medienserver ausgeliefert. Dabei verarbeitet der Hosting-Anbieter
                 technisch notwendige Verbindungsdaten (z. B. IP-Adresse).
               </p>
+              {SITE.supportUrl && (
+                <>
+                  <h2>Freiwillige Unterstützung</h2>
+                  <p>
+                    Wenn Sie Motivado freiwillig unterstützen, verlassen Sie diese Website. Die Zahlung wird vollständig
+                    von {SITE.supportProvider} abgewickelt. Welche Daten dort verarbeitet werden, regelt die
+                    Datenschutzerklärung von {SITE.supportProvider}. Ich erhalte lediglich eine Bestätigung über den
+                    Zahlungseingang.
+                  </p>
+                </>
+              )}
               <h2>Verantwortlicher</h2>
               <p>
                 {SITE.operator.name}, {SITE.operator.street}, {SITE.operator.city}

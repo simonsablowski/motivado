@@ -1195,3 +1195,25 @@ a.rows__row:hover .rows__no {
   max-width: var(--measure);
   margin-top: 48px;
 }
+
+/* ---- voluntary support page ------------------------------------------------------------------ */
+.support h1 {
+  margin-bottom: 20px;
+}
+.support .lead {
+  color: var(--muted);
+  margin: 0 0 32px;
+  max-width: 40em;
+}
+.support__note {
+  margin: 20px 0 0;
+}
+.support__cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--gap-tiles);
+  margin-top: 8px;
+}
+.support__cols .checks {
+  margin: 0;
+}

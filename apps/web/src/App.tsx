@@ -9,6 +9,7 @@ import { ProductPage } from './pages/Product';
 import { RatgeberArticle, RatgeberHub, RatgeberTopic } from './pages/Ratgeber';
 import { SITE } from './site.config';
 import { Legal, NotFound } from './pages/Static';
+import { Support } from './pages/Support';
 import { Team } from './pages/Team';
 import { Topic } from './pages/Topic';
 
@@ -123,6 +124,11 @@ function Layout() {
               <li>
                 <Link to="/ratgeber">Ratgeber</Link>
               </li>
+              {SITE.supportUrl && (
+                <li>
+                  <Link to="/unterstuetzen">Motivado unterstützen</Link>
+                </li>
+              )}
             </ul>
           </div>
           <div>
@@ -154,6 +160,7 @@ export function App() {
         <Route path="ratgeber/:topic" element={<RatgeberTopic />} />
         <Route path="ratgeber/:topic/:slug" element={<RatgeberArticle />} />
         <Route path="team" element={<Team />} />
+        {SITE.supportUrl && <Route path="unterstuetzen" element={<Support />} />}
         <Route path="impressum" element={<Legal page="impressum" />} />
         <Route path="datenschutz" element={<Legal page="datenschutz" />} />
         <Route path="*" element={<NotFound />} />

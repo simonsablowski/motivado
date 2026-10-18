@@ -12,6 +12,7 @@ import {
   type VideoEvent,
 } from '@motivado/engine';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { SITE } from '../site.config';
 import { Link } from 'react-router-dom';
 import { loadAnswers, loadSession, saveSession, clearProgress } from '../lib/store';
 import { mediaUrl, useMediaReady } from '../lib/media';
@@ -57,7 +58,11 @@ function slideAt(events: VideoEvent[], time: number): string | undefined {
   return url;
 }
 
-function gather(coaching: Coaching, session: Session, group: CoachingNode): { members: CoachingNode[]; after: Session } {
+function gather(
+  coaching: Coaching,
+  session: Session,
+  group: CoachingNode,
+): { members: CoachingNode[]; after: Session } {
   const count = Math.max(1, Number((group.props as { count?: number }).count) || 1);
   const members: CoachingNode[] = [];
   let s = session;
@@ -227,7 +232,17 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
         <div className="panel panel--end" ref={panel} tabIndex={-1}>
           <p className="eyebrow">{title}</p>
           <h2 className="question">Geschafft – dieses Coaching ist abgeschlossen.</h2>
-          <p className="prose">Ihre Antworten bleiben auf diesem Gerät gespeichert. Sie können das Coaching jederzeit wiederholen.</p>
+          <p className="prose">
+            Ihre Antworten bleiben auf diesem Gerät gespeichert. Sie können das Coaching jederzeit wiederholen.
+          </p>
+          {SITE.supportUrl && (
+            <p className="prose">
+              Hat es Ihnen geholfen?{' '}
+              <Link to="/unterstuetzen">
+                Motivado ist kostenlos und freut sich über einen kleinen freiwilligen Beitrag.
+              </Link>
+            </p>
+          )}
           <div className="actions">
             <Link className="button" to={backTo}>
               {backLabel}
@@ -271,7 +286,10 @@ export function Player({ coaching, title, backTo, backLabel, linkedTitle }: Prop
   const handover = node.type === 'Coaching' ? linkedTitle(linkKey) : undefined;
   const last = node.type === 'Buy' || (node.type === 'Coaching' && handover);
   keys.current = { toggle, goBack, proceed, ready: visible && complete && !last };
-  const answers = { ...pos.session.answers, ...Object.fromEntries(Object.entries(pending).filter(([, a]) => a)) } as Record<string, Answer>;
+  const answers = {
+    ...pos.session.answers,
+    ...Object.fromEntries(Object.entries(pending).filter(([, a]) => a)),
+  } as Record<string, Answer>;
 
   return (
     <div className="player">
