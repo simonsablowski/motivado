@@ -1,0 +1,10 @@
+{
+ "Mobbing": {
+  "to": "/paket/mobbing-schule",
+  "label": "Mobbing in der Schule"
+ },
+ "Schule und Alltag": {
+  "to": "/paket/mobbing-schule",
+  "label": "Mobbing in der Schule"
+ }
+}
