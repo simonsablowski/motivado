@@ -75,6 +75,5 @@ and check the files with a `HEAD` request against `media.motivado.com` before re
 
 ## Analytics
 
-None is built in. Cloudflare's Web Analytics can be switched on in the Cloudflare dashboard (Analytics and logs, Web
-Analytics, add the site `motivado.com`); it needs no cookies and no change to the code when the automatic setup is
-used.
+Cloudflare Web Analytics is switched on for `motivado.com` through the automatic setup (Cloudflare dashboard,
+Analytics and logs, Web Analytics). It needs no cookies and no code in the repository. The privacy notice mentions it.

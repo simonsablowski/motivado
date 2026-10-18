@@ -98,6 +98,10 @@ export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
                 Die Videos werden von unserem Medienserver ausgeliefert. Dabei verarbeitet der Hosting-Anbieter
                 technisch notwendige Verbindungsdaten (z. B. IP-Adresse).
               </p>
+              <p>
+                Zur Reichweitenmessung nutze ich Cloudflare Web Analytics. Der Dienst arbeitet ohne Cookies und erkennt
+                einzelne Besucher nicht wieder; er zählt Seitenaufrufe und liefert Angaben zur Ladezeit.
+              </p>
               {SITE.supportUrl && (
                 <>
                   <h2>Freiwillige Unterstützung</h2>
