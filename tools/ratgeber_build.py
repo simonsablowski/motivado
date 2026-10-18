@@ -206,6 +206,8 @@ def main():
         links = json.load(open(os.path.join(SRC, topic, '_groups.json'), encoding='utf-8'))
         for g in groups:
             g['link'] = links[g['title']]
+        order_of = {t: i for i, t in enumerate(links)}
+        groups.sort(key=lambda g: order_of[g['title']])
         index['groups'] = groups
         intro = os.path.join(SRC, topic, '_intro.md')
         if os.path.exists(intro):
