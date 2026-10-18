@@ -307,7 +307,7 @@ export function RatgeberArticle() {
         <Link to={`/ratgeber/${topic}`}>{index.data?.title ?? topic}</Link>
       </Crumbs>
       <PageHead title={a.heading}>
-        {a.reviewed && <p className="article-meta">Zuletzt geprüft: {reviewedLabel(a.reviewed)}</p>}
+        {a.reviewed && <p className="article-meta">Zuletzt aktualisiert: {reviewedLabel(a.reviewed)}</p>}
       </PageHead>
       <div className="wrap article-page">
         {a.summary && a.summary.length > 0 && (
