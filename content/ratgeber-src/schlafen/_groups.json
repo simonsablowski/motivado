@@ -1,0 +1,10 @@
+{
+ "Besser schlafen": {
+  "to": "/paket/schlafstoerungen",
+  "label": "Schlafstörungen"
+ },
+ "Wach und fit": {
+  "to": "/paket/schlafreduktion",
+  "label": "Schlafreduktion"
+ }
+}
