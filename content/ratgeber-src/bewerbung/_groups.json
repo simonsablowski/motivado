@@ -1,0 +1,18 @@
+{
+ "Bewerbung schreiben": {
+  "to": "/paket/bewerbungsstrategie",
+  "label": "Bewerbungsstrategie und Start"
+ },
+ "Vorstellungsgespräch und Auftreten": {
+  "to": "/paket/das-bewerbungsgesprach",
+  "label": "Bewerbungsgespräch"
+ },
+ "Karriere und Gehalt": {
+  "to": "/paket/das-eigene-potential-ausschopfen",
+  "label": "Das eigene Potential"
+ },
+ "Arbeitslosigkeit und Neuanfang": {
+  "to": "/paket/motiviert-in-die-jobsuche-starten",
+  "label": "Motivierte Jobsuche"
+ }
+}
