@@ -15,7 +15,7 @@ the coaching content and its logic are carried over unchanged.
 | `apps/web`          | The site and the coaching player (React + Vite)             |
 | `content/`          | Coachings as JSON, site catalogue, media manifest           |
 | `tools/`            | Python helpers: legacy dump extraction, media pipeline      |
-| `docs/`             | Architecture, content format, deployment                    |
+| `docs/`             | Architecture, content format, deployment, [operating the site](docs/OPERATIONS.md) |
 
 ## Quick start
 
