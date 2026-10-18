@@ -1,0 +1,22 @@
+{
+ "Partner finden": {
+  "to": "/paket/flirten",
+  "label": "Flirten und Dating"
+ },
+ "Beziehung führen": {
+  "to": "/paket/beziehung-starken",
+  "label": "Beziehung stärken"
+ },
+ "Untreue und Eifersucht": {
+  "to": "/paket/betrogen-wordenbez-bet-paket",
+  "label": "Betrogen worden"
+ },
+ "Krise und Trennung": {
+  "to": "/paket/liebeskummer",
+  "label": "Liebeskummer"
+ },
+ "Hilfe holen": {
+  "to": "/paket/beziehung-starken",
+  "label": "Beziehung stärken"
+ }
+}

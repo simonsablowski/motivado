@@ -174,6 +174,11 @@ def main():
         for g in groups:
             g['link'] = links[g['title']]
         index['groups'] = groups
+        intro = os.path.join(SRC, topic, '_intro.md')
+        if os.path.exists(intro):
+            _, imeta, iblocks = parse(intro)
+            index['heading'] = imeta.get('heading', index['heading'])
+            index['intro'] = iblocks
         mapping = os.path.join(SRC, topic, '_mapping.csv')
         lines = []
         if os.path.exists(mapping):
@@ -181,6 +186,29 @@ def main():
                 target = row['neuer_artikel']
                 if row['alter_slug'] != target and target in new:
                     lines.append(f"/ratgeber/{topic}/{row['alter_slug']} /ratgeber/{topic}/{target} 301")
+        # links in the other topics' articles that pointed at a removed article now point at its replacement
+        moved = {f"/ratgeber/{topic}/{row['alter_slug']}": f"/ratgeber/{topic}/{row['neuer_artikel']}"
+                 for row in csv.DictReader(open(mapping, encoding='utf-8-sig'), delimiter=';')
+                 if row['neuer_artikel'] in new} if os.path.exists(mapping) else {}
+
+        def relink(o):
+            if isinstance(o, dict):
+                if o.get('href') in moved:
+                    o['href'] = moved[o['href']]
+                for v in o.values():
+                    relink(v)
+            elif isinstance(o, list):
+                for v in o:
+                    relink(v)
+
+        for f in glob.glob(os.path.join(CONTENT, '*', '*.json')):
+            if os.sep + topic + os.sep in f:
+                continue
+            d = json.load(open(f, encoding='utf-8'))
+            before = json.dumps(d, ensure_ascii=False)
+            relink(d)
+            if json.dumps(d, ensure_ascii=False) != before:
+                json.dump(d, open(f, 'w', encoding='utf-8'), ensure_ascii=False)
         existing = open(REDIRECTS, encoding='utf-8').read().splitlines() if os.path.exists(REDIRECTS) else []
         keep_lines = [l for l in existing if l and not l.startswith(f'/ratgeber/{topic}/')]
         open(REDIRECTS, 'w', encoding='utf-8', newline='\n').write('\n'.join(keep_lines + lines) + '\n')
