@@ -36,8 +36,8 @@ export function Support() {
         <div className="tile tile--tint">
           <h2>Wofür</h2>
           <p>
-            Die Domain motivado.com gehört mir seit 2014, und Hosting und Speicher für die Videos haben in den letzten
-            Jahren Geld gekostet. Ihr Beitrag deckt diese Kosten und hilft, die Inhalte online zu halten und zu pflegen.
+            Motivado ist seit 2009 online. Die Domain und in den letzten Jahren auch Hosting und Speicher für die Videos
+            haben Geld gekostet. Ihr Beitrag deckt diese Kosten und hilft, die Inhalte online zu halten und zu pflegen.
           </p>
         </div>
         <div className="tile tile--soft">
