@@ -5,6 +5,7 @@ import { usePageMeta } from '../lib/meta';
 import { GROUP_IMAGE } from '../lib/visuals';
 import { Loading, NotFound } from './Static';
 import { Crumbs } from '../components/Crumbs';
+import { PageHead } from '../components/PageHead';
 
 interface Segment {
   t: string;
@@ -146,17 +147,13 @@ export function RatgeberHub() {
   if (!data) return <Loading loading={loading} />;
   return (
     <>
-      <div className="page-banner">
-        <div className="wrap">
-          <div className="page-banner__text">
-            <Crumbs>
-              <Link to="/">Start</Link> / Ratgeber
-            </Crumbs>
-            <h1>Ratgeber</h1>
-            <p className="lead">Hintergrundwissen zu den Themen, bei denen wir mit unseren Modulen helfen.</p>
-          </div>
-        </div>
-      </div>
+      <Crumbs>
+        <Link to="/">Start</Link> / Ratgeber
+      </Crumbs>
+      <PageHead
+        title="Ratgeber"
+        lead="Hintergrundwissen zu den Themen, bei denen wir mit unseren Modulen helfen: verständlich, praktisch und kostenlos."
+      />
       <div className="wrap">
         <div className="topics section">
           {data.map((t) => {
@@ -182,6 +179,22 @@ export function RatgeberHub() {
   );
 }
 
+type ArticleLink = { slug: string; title: string; summary: string };
+
+function ArticleCards({ topic, items }: { topic: string; items: ArticleLink[] }) {
+  return (
+    <div className="acards">
+      {items.map((a) => (
+        <Link key={a.slug} className="acard" to={`/ratgeber/${topic}/${a.slug}`}>
+          <span className="acard__title">{a.title}</span>
+          <span className="acard__text">{a.summary}</span>
+          <span className="acard__more">Lesen →</span>
+        </Link>
+      ))}
+    </div>
+  );
+}
+
 export function RatgeberTopic() {
   const { topic = '' } = useParams();
   const { data, loading, error } = useAsync(
@@ -195,77 +208,62 @@ export function RatgeberTopic() {
   if (loading) return <Loading />;
   if (error || !data) return <NotFound />;
   const meta = TOPIC_META[topic];
+  const bySlug = new Map(data.articles.map((a) => [a.slug, a]));
   return (
     <>
-      <div className="page-banner">
-        <div className="wrap">
-          <div className="page-banner__text">
-            <Crumbs>
-              <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> / {data.title}
-            </Crumbs>
-            <h1>{data.heading}</h1>
-          </div>
-        </div>
-      </div>
-      <div className="wrap">
-        {data.groups && data.groups.length > 0 && (
-          <nav className="chips" aria-label="Themen in diesem Ratgeber">
-            {data.groups.map((g) => (
-              <a key={g.id} className="chip--link" href={`#${g.id}`}>
-                {g.title} <span className="chip__count">{g.slugs.length}</span>
-              </a>
-            ))}
-          </nav>
-        )}
-        <div className="section">
+      <Crumbs>
+        <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> / {data.title}
+      </Crumbs>
+      <PageHead title={data.heading}>
+        <div className="page-head__intro">
           <Blocks blocks={data.intro} />
-          {meta && (
-            <div className="offer">
-              <p className="offer__label">Lieber Schritt für Schritt begleitet werden?</p>
-              <Link className="button" to={`/themen/${meta.group}`}>
-                Zu den Modulen
-              </Link>
-            </div>
-          )}
         </div>
-        {data.groups && data.groups.length > 0 ? (
-          <>
-            {data.groups.map((g) => (
-              <section className="section" id={g.id} key={g.id} aria-labelledby={`${g.id}-h`}>
-                <div className="section__head">
-                  <h2 id={`${g.id}-h`}>{g.title}</h2>
-                  <span className="hint">{g.slugs.length} Artikel</span>
-                </div>
-                <ul className="index">
-                  {g.slugs.map((slug) => (
-                    <li key={slug}>
-                      <Link to={`/ratgeber/${topic}/${slug}`}>
-                        {data.articles.find((a) => a.slug === slug)?.title ?? slug}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-                <p className="index__more">
-                  Das passende Video-Coaching: <Link to={g.link.to}>{g.link.label}</Link>
-                </p>
-              </section>
-            ))}
-          </>
-        ) : (
-          <section className="section" aria-labelledby="all-h">
-            <div className="section__head">
-              <h2 id="all-h">Alle Artikel ({data.articles.length})</h2>
-            </div>
-            <ul className="index">
-              {data.articles.map((a) => (
-                <li key={a.slug}>
-                  <Link to={`/ratgeber/${topic}/${a.slug}`}>{a.title}</Link>
-                </li>
-              ))}
-            </ul>
-          </section>
+        {meta && (
+          <p>
+            <Link className="button" to={`/themen/${meta.group}`}>
+              Zu den Modulen
+            </Link>
+          </p>
         )}
-      </div>
+      </PageHead>
+
+      {data.groups && data.groups.length > 1 && (
+        <nav className="wrap jump" aria-label="Themen in diesem Ratgeber">
+          <span className="jump__label">Springen zu</span>
+          {data.groups.map((g) => (
+            <a key={g.id} className="pill-link" href={`#${g.id}`}>
+              {g.title} <span className="chip__count">{g.slugs.length}</span>
+            </a>
+          ))}
+        </nav>
+      )}
+
+      {data.groups && data.groups.length > 0 ? (
+        data.groups.map((g) => (
+          <section className="wrap section topic-section" id={g.id} key={g.id} aria-labelledby={`${g.id}-h`}>
+            <div className="section__head">
+              <div>
+                <h2 id={`${g.id}-h`}>{g.title}</h2>
+                <p className="section__sub">
+                  {g.slugs.length === 1 ? '1 Artikel' : `${g.slugs.length} Artikel`} · Das passende Video-Coaching:{' '}
+                  <Link to={g.link.to}>{g.link.label}</Link>
+                </p>
+              </div>
+            </div>
+            <ArticleCards
+              topic={topic}
+              items={g.slugs.map((s) => bySlug.get(s)).filter((x): x is ArticleLink => Boolean(x))}
+            />
+          </section>
+        ))
+      ) : (
+        <section className="wrap section topic-section" aria-labelledby="all-h">
+          <div className="section__head">
+            <h2 id="all-h">Alle Artikel ({data.articles.length})</h2>
+          </div>
+          <ArticleCards topic={topic} items={data.articles} />
+        </section>
+      )}
     </>
   );
 }
@@ -285,87 +283,80 @@ export function RatgeberArticle() {
   // neighbours within the same sub-category when the topic has them, otherwise the next articles of the topic
   const group = index.data?.groups?.find((g) => g.slugs.includes(slug));
   const bySlug = new Map(list.map((x) => [x.slug, x]));
-  const picked = (a.related ?? []).map((s) => bySlug.get(s)).filter((x): x is (typeof list)[number] => Boolean(x));
+  const picked = (a.related ?? []).map((s) => bySlug.get(s)).filter((x): x is ArticleLink => Boolean(x));
   const product = a.package
     ? site?.products.find((p) => p.slug === a.package && site.launch.includes(p.slug))
     : undefined;
-  const related = picked.length
-    ? picked
-    : group
-      ? group.slugs
-          .filter((s) => s !== slug)
-          .slice(0, 8)
-          .map((s) => bySlug.get(s))
-          .filter((x): x is (typeof list)[number] => Boolean(x))
-      : at >= 0
-        ? [...list.slice(Math.max(0, at - 4), at), ...list.slice(at + 1, at + 5)]
-        : [];
+  const related = (
+    picked.length
+      ? picked
+      : group
+        ? group.slugs
+            .filter((s) => s !== slug)
+            .slice(0, 6)
+            .map((s) => bySlug.get(s))
+            .filter((x): x is ArticleLink => Boolean(x))
+        : at >= 0
+          ? [...list.slice(Math.max(0, at - 2), at), ...list.slice(at + 1, at + 4)]
+          : []
+  ).slice(0, 3);
   return (
     <>
-      <div className="page-banner">
-        <div className="wrap">
-          <div className="page-banner__text">
-            <Crumbs>
-              <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{' '}
-              <Link to={`/ratgeber/${topic}`}>{index.data?.title ?? topic}</Link>
-            </Crumbs>
-            <h1>{a.heading}</h1>
-            {a.reviewed && <p className="article-meta">Zuletzt geprüft: {reviewedLabel(a.reviewed)}</p>}
-          </div>
-        </div>
-      </div>
-      <div className="wrap">
-        <div className="section">
-          {a.summary && a.summary.length > 0 && (
-            <aside className="summary" aria-label="Kurz gesagt">
-              <h2>Kurz gesagt</h2>
-              <ul>
-                {a.summary.map((t, i) => (
-                  <li key={i}>{t}</li>
-                ))}
-              </ul>
-            </aside>
-          )}
-          <Blocks blocks={a.blocks} />
-        </div>
+      <Crumbs>
+        <Link to="/">Start</Link> / <Link to="/ratgeber">Ratgeber</Link> /{' '}
+        <Link to={`/ratgeber/${topic}`}>{index.data?.title ?? topic}</Link>
+      </Crumbs>
+      <PageHead title={a.heading}>
+        {a.reviewed && <p className="article-meta">Zuletzt geprüft: {reviewedLabel(a.reviewed)}</p>}
+      </PageHead>
+      <div className="wrap article-page">
+        {a.summary && a.summary.length > 0 && (
+          <aside className="summary" aria-label="Kurz gesagt">
+            <h2>Kurz gesagt</h2>
+            <ul>
+              {a.summary.map((t, i) => (
+                <li key={i}>{t}</li>
+              ))}
+            </ul>
+          </aside>
+        )}
+        <Blocks blocks={a.blocks} />
         {product ? (
-          <div className="offer">
-            <div>
-              <p className="offer__label">Dazu passt: {product.title}</p>
-              <p className="hint">
-                {product.subtitle ? `${product.subtitle} · ` : ''}
-                {modules(new Set(product.coachings).size)} interaktives Video-Coaching
-              </p>
-            </div>
-            <Link className="button" to={`/paket/${product.slug}`}>
-              Zum Paket
-            </Link>
+          <div className="tile tile--tint article-cta">
+            <p className="eyebrow">Dazu passt</p>
+            <h2>{product.title}</h2>
+            <p>
+              {product.subtitle ? `${product.subtitle} · ` : ''}
+              {modules(new Set(product.coachings).size)} interaktives Video-Coaching
+            </p>
+            <p>
+              <Link className="button" to={`/paket/${product.slug}`}>
+                Zum Paket
+              </Link>
+            </p>
           </div>
         ) : (
           meta && (
-            <div className="offer">
-              <p className="offer__label">Mehr dazu im interaktiven Video-Coaching zum Thema.</p>
-              <Link className="button" to={`/themen/${meta.group}`}>
-                Module ansehen
-              </Link>
+            <div className="tile tile--tint article-cta">
+              <p className="eyebrow">Mehr dazu</p>
+              <h2>Interaktives Video-Coaching zum Thema</h2>
+              <p>
+                <Link className="button" to={`/themen/${meta.group}`}>
+                  Module ansehen
+                </Link>
+              </p>
             </div>
           )
         )}
-        {related.length > 0 && (
-          <section className="section" aria-labelledby="more-h">
-            <div className="section__head">
-              <h2 id="more-h">Weitere Artikel</h2>
-            </div>
-            <ul className="index index--single">
-              {related.map((r) => (
-                <li key={r.slug}>
-                  <Link to={`/ratgeber/${topic}/${r.slug}`}>{r.title}</Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
       </div>
+      {related.length > 0 && (
+        <section className="wrap section" aria-labelledby="more-h">
+          <div className="section__head">
+            <h2 id="more-h">Weitere Artikel</h2>
+          </div>
+          <ArticleCards topic={topic} items={related} />
+        </section>
+      )}
     </>
   );
 }

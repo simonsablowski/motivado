@@ -4,6 +4,7 @@ import { usePageMeta } from '../lib/meta';
 import { expertPhoto } from '../lib/visuals';
 import { Loading } from './Static';
 import { Crumbs } from '../components/Crumbs';
+import { PageHead } from '../components/PageHead';
 
 export function ExpertCard({ expert }: { expert: Expert }) {
   return (
@@ -23,17 +24,13 @@ export function Team() {
   if (!site) return <Loading loading={loading} />;
   return (
     <>
-      <div className="page-banner">
-        <div className="wrap">
-          <div className="page-banner__text">
-            <Crumbs>
-              <Link to="/">Start</Link> / Experten
-            </Crumbs>
-            <h1>Unsere Experten</h1>
-            <p className="lead">Die Menschen vor der Kamera: Coaches, Psychologen und Berater mit Praxiserfahrung.</p>
-          </div>
-        </div>
-      </div>
+      <Crumbs>
+        <Link to="/">Start</Link> / Experten
+      </Crumbs>
+      <PageHead
+        title="Unsere Experten"
+        lead="Die Menschen vor der Kamera: Coaches, Psychologen und Berater mit Praxiserfahrung."
+      />
       <div className="wrap">
         <div className="experts section">
           {site.experts.map((e) => (

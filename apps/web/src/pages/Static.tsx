@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { getJson } from '../lib/api';
 import { usePageMeta } from '../lib/meta';
 import { SITE } from '../site.config';
+import { PageHead } from '../components/PageHead';
 
 export function Loading({ loading = true }: { loading?: boolean }) {
   return (
@@ -16,15 +17,7 @@ export function NotFound() {
   usePageMeta('Seite nicht gefunden');
   return (
     <>
-      <div className="page-banner">
-        <div className="wrap">
-          <div className="page-banner__text">
-            <p className="eyebrow">404</p>
-            <h1>Diese Seite gibt es nicht.</h1>
-            <p className="lead">Vielleicht hilft die Startseite weiter.</p>
-          </div>
-        </div>
-      </div>
+      <PageHead eyebrow="404" title="Diese Seite gibt es nicht." lead="Vielleicht hilft die Startseite weiter." />
       <div className="wrap">
         <Link className="button" to="/">
           Zur Startseite
@@ -76,13 +69,7 @@ export function Legal({ page }: { page: 'impressum' | 'datenschutz' }) {
   usePageMeta(impressum ? 'Impressum' : 'Datenschutz');
   return (
     <>
-      <div className="page-banner">
-        <div className="wrap">
-          <div className="page-banner__text">
-            <h1>{impressum ? 'Impressum' : 'Datenschutz'}</h1>
-          </div>
-        </div>
-      </div>
+      <PageHead title={impressum ? 'Impressum' : 'Datenschutz'} />
       <div className="wrap">
         <div className="prose section">
           {impressum ? (

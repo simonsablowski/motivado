@@ -1217,3 +1217,125 @@ a.rows__row:hover .rows__no {
 .support__cols .checks {
   margin: 0;
 }
+
+/* ---- text pages: page head, article cards, article layout ------------------------------------ */
+.page-head {
+  padding: 24px 0 8px;
+}
+.page-head h1 {
+  max-width: 22ch;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+}
+.page-head .lead {
+  color: var(--muted);
+  margin: 20px 0 0;
+}
+.page-head__intro .article {
+  max-width: 60ch;
+  margin-top: 20px;
+}
+.page-head__intro p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  margin: 0 0 0.9em;
+}
+.page-head > .wrap > p:last-child {
+  margin-top: 24px;
+}
+.page-head + .wrap > .section:first-child {
+  margin-top: 56px;
+}
+.chip__count {
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+.jump {
+  margin-top: 40px;
+}
+.acards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--gap-tiles);
+}
+.acard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  border-radius: var(--r-m);
+  background: var(--paper);
+  box-shadow: 0 0 0 1.5px var(--line);
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+.acard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 0 1.5px var(--accent);
+}
+.acard__title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+.acard__text {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.acard__more {
+  margin-top: auto;
+  padding-top: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent-dark);
+}
+.section__sub a {
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+.article-page {
+  margin-top: 40px;
+}
+.article {
+  font-size: 1.08rem;
+  line-height: 1.75;
+}
+.article h2 {
+  font-size: 1.6rem;
+  margin: 2.2em 0 0.6em;
+  color: var(--ink);
+}
+.article h3 {
+  font-size: 1.2rem;
+  margin: 1.6em 0 0.5em;
+}
+.article li {
+  margin-bottom: 0.4em;
+}
+.article a {
+  color: var(--accent-dark);
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.article-cta {
+  max-width: var(--measure);
+  margin-top: 56px;
+}
+.article-cta h2 {
+  margin: 0;
+}
+.article-cta p {
+  margin: 0;
+}
+.prose h2 {
+  color: var(--ink);
+}
+.pill-link .chip__count {
+  margin-left: 8px;
+}
