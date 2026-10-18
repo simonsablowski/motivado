@@ -7,9 +7,9 @@ export const SITE = {
    * Link for voluntary support (a Stripe Payment Link where the customer chooses the amount, or a PayPal.me link).
    * While empty, the support page, its footer link and the notes on it stay hidden.
    */
-  supportUrl: '',
+  supportUrl: 'https://www.paypal.com/ncp/payment/ZTXS526CRBR9S',
   /** Name of the payment provider behind supportUrl, shown on the support page. */
-  supportProvider: 'Stripe',
+  supportProvider: 'PayPal',
   /** Operator, as required for the Impressum and the privacy notice. */
   operator: {
     name: 'Simon Sablowski',
